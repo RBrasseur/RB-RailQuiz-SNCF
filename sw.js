@@ -1,16 +1,11 @@
-const CACHE_NAME = 'railquiz-sncf-v1';
+const CACHE_NAME = 'railquiz-sncf-v2';
 const CORE_ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './css/styles.css',
-  './js/app.js',
-  './js/storage.js',
-  './js/quiz-engine.js',
-  './js/ai-evaluator.js',
-  './data/manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
+  './questions-index.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', event => {
@@ -21,13 +16,12 @@ self.addEventListener('install', event => {
 
 self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    ).then(() => self.clients.claim())
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
   );
 });
 
-// Stratégie Network-First uniquement pour les requêtes GET de même origine (fichiers de l'app & JSON)
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
