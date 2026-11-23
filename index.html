@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RailQuiz SNCF — Entraînement Réglementation</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand" id="btn-home" role="button" tabindex="0">
+        <span class="brand-badge">SNCF</span>
+        <div>
+          <h1>RailQuiz Réglementation</h1>
+          <span class="subtitle" id="corpus-status">Chargement du corpus...</span>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button id="btn-theme" class="btn-icon" title="Changer de thème (Sombre / Clair)" aria-label="Changer de thème">🌓</button>
+        <button id="btn-settings" class="btn-secondary">⚙️ Paramètres & IA</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- VUE 1 : CONFIGURATION DE SESSION -->
+    <section id="view-setup" class="view active">
+      <div class="card hero-stats">
+        <div class="stat-box">
+          <span class="stat-value" id="stat-total-questions">0</span>
+          <span class="stat-label">Questions en base</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-value" id="stat-weak-count">0</span>
+          <span class="stat-label">Points à revoir</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-value" id="stat-mastered-count">0</span>
+          <span class="stat-label">Validées</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header-flex">
+          <h2>1. Sélection des thèmes et sous-thèmes</h2>
+          <div class="btn-group-inline">
+            <button type="button" id="btn-select-all" class="btn-small">Tout cocher</button>
+            <button type="button" id="btn-select-none" class="btn-small">Tout décocher</button>
+          </div>
+        </div>
+        <p class="hint">Cochez un thème entier ou sélectionnez des sous-thèmes précis (ex. avaries wagons, signalisation d'arrêt, freinage...).</p>
+        <div id="themes-tree" class="themes-tree"></div>
+      </div>
+
+      <div class="card">
+        <h2>2. Paramètres de la session</h2>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="cfg-scope">Périmètre</label>
+            <select id="cfg-scope">
+              <option value="all">Toutes les questions sélectionnées</option>
+              <option value="weak">Uniquement mes points faibles / à revoir</option>
+              <option value="unseen">Uniquement les questions jamais vues</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cfg-type">Format des questions</label>
+            <select id="cfg-type">
+              <option value="mixed">Mixte (QCM + Réponse libre)</option>
+              <option value="qcm">QCM uniquement</option>
+              <option value="open">Réponse libre uniquement</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cfg-count">Nombre de questions</label>
+            <select id="cfg-count">
+              <option value="5">5 questions (Express)</option>
+              <option value="10" selected>10 questions (Standard)</option>
+              <option value="20">20 questions (Approfondi)</option>
+              <option value="30">30 questions (Long)</option>
+              <option value="50">50 questions (Intensif)</option>
+              <option value="9999">Toutes les questions disponibles</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cfg-mode">Mode de correction</label>
+            <select id="cfg-mode">
+              <option value="training">Entraînement (Correction immédiate)</option>
+              <option value="exam">Examen (Bilan complet en fin de série)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="start-bar">
+          <span id="available-matching-info" class="matching-badge">0 question correspondante</span>
+          <button id="btn-start-quiz" class="btn-primary btn-large">Démarrer la session</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VUE 2 : QUESTIONNAIRE EN COURS -->
+    <section id="view-quiz" class="view">
+      <div class="quiz-progress-bar">
+        <div class="progress-meta">
+          <span id="quiz-counter">Question 1 / 10</span>
+          <span id="quiz-theme-badge" class="badge-theme">Thème</span>
+        </div>
+        <div class="progress-track">
+          <div id="quiz-progress-fill" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <article class="card question-card">
+        <div class="question-meta-top">
+          <span id="question-type-label" class="pill">QCM</span>
+          <span id="question-refs-preview" class="ref-tag"></span>
+        </div>
+
+        <h2 id="question-prompt" class="question-text">Énoncé de la question</h2>
+        <div id="question-context" class="context-box hidden"></div>
+
+        <!-- ZONE QCM -->
+        <div id="zone-qcm" class="options-list hidden"></div>
+
+        <!-- ZONE RÉPONSE LIBRE -->
+        <div id="zone-open" class="open-zone hidden">
+          <label for="open-answer-input" class="sr-only">Votre réponse réglementaire</label>
+          <textarea id="open-answer-input" rows="5" placeholder="Rédigez votre procédure ou réponse réglementaire (actions immédiates, avis, vitesses limites, mesures de protection)..."></textarea>
+          <div class="open-actions">
+            <button id="btn-submit-open-offline" class="btn-primary">Comparer avec les points clés</button>
+            <button id="btn-submit-open-ai" class="btn-accent hidden">✨ Corriger avec mon IA</button>
+          </div>
+        </div>
+
+        <!-- ZONE AUTO-ÉVALUATION HORS-LIGNE (POINTS CLÉS) -->
+        <div id="zone-self-check" class="self-check-box hidden">
+          <h3>Vérification des points clés réglementaires</h3>
+          <p class="hint">Cochez chaque élément que vous avez mentionné dans votre réponse :</p>
+          <div id="checklist-criteria" class="criteria-list"></div>
+          <button id="btn-confirm-self-check" class="btn-primary">Valider mon auto-évaluation</button>
+        </div>
+
+        <!-- ZONE MESSAGE EXAMEN -->
+        <div id="zone-exam-recorded" class="exam-recorded hidden">
+          ✓ Réponse enregistrée pour le bilan final.
+        </div>
+
+        <!-- ZONE CORRECTION DÉTAILLÉE -->
+        <div id="zone-feedback" class="feedback-box hidden">
+          <div id="feedback-banner" class="feedback-banner"></div>
+          <div id="ai-feedback-detail" class="ai-detail hidden"></div>
+          <div class="official-answer-block">
+            <h4>Prescription réglementaire & Explication</h4>
+            <p id="feedback-explanation"></p>
+            <div class="sources-block">
+              <strong>Sources consolidées :</strong>
+              <ul id="feedback-sources"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-footer">
+          <button id="btn-quit-quiz" class="btn-secondary">Quitter</button>
+          <button id="btn-next-question" class="btn-primary hidden">Question suivante →</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- VUE 3 : BILAN DE FIN DE SESSION -->
+    <section id="view-summary" class="view">
+      <div class="card summary-header">
+        <h2>Bilan de la session</h2>
+        <div class="score-circle">
+          <span id="summary-score-pct">0%</span>
+          <small id="summary-score-detail">0 / 0</small>
+        </div>
+        <p id="summary-message" class="summary-msg"></p>
+        <div class="summary-actions">
+          <button id="btn-retry-errors" class="btn-accent hidden">Revoir uniquement les erreurs de cette session</button>
+          <button id="btn-back-setup" class="btn-primary">Retour à l'accueil</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Détail par question</h3>
+        <div id="summary-list" class="summary-list"></div>
+      </div>
+    </section>
+
+    <!-- VUE 4 : PARAMÈTRES, IA, IMPORT/EXPORT -->
+    <section id="view-settings" class="view">
+      <div class="card">
+        <div class="card-header-flex">
+          <h2>Paramètres & Correction IA optionnelle</h2>
+          <button id="btn-close-settings" class="btn-secondary">← Retour</button>
+        </div>
+
+        <div class="settings-section">
+          <h3>Correction assistée par IA (Optionnel)</h3>
+          <p class="hint">Sans clé API, l'application fonctionne 100 % hors-ligne avec l'auto-évaluation par points clés. Si vous renseignez une clé personnelle, elle reste stockée uniquement dans votre navigateur.</p>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="ai-provider">Fournisseur IA</label>
+              <select id="ai-provider">
+                <option value="none">Désactivé (Mode 100 % hors-ligne)</option>
+                <option value="gemini">Google Gemini (gemini-2.5-flash)</option>
+                <option value="openai">OpenAI (gpt-4o-mini)</option>
+                <option value="anthropic">Anthropic Claude (claude-3-5-haiku-latest)</option>
+                <option value="custom">Endpoint compatible OpenAI (Mistral, Groq, DeepSeek, Ollama...)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="ai-api-key">Clé API personnelle</label>
+              <input type="password" id="ai-api-key" placeholder="Collez votre clé API ici..." autocomplete="off" />
+            </div>
+            <div class="form-group hidden" id="ai-custom-url-group">
+              <label for="ai-custom-url">URL de l'endpoint Chat Completions</label>
+              <input type="url" id="ai-custom-url" placeholder="https://api.mistral.ai/v1/chat/completions" />
+            </div>
+            <div class="form-group hidden" id="ai-custom-model-group">
+              <label for="ai-custom-model">Nom du modèle</label>
+              <input type="text" id="ai-custom-model" placeholder="mistral-small-latest" />
+            </div>
+          </div>
+          <div style="margin-top:0.85rem;">
+            <button id="btn-save-settings" class="btn-primary">Enregistrer la configuration IA</button>
+            <span id="settings-saved-msg" class="save-confirm hidden">✓ Enregistré</span>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="settings-section">
+          <h3>Importer un fichier de questions JSON local</h3>
+          <p class="hint">Permet de tester immédiatement un fichier JSON généré avant même de le publier sur GitHub.</p>
+          <input type="file" id="import-questions-file" accept=".json" />
+        </div>
+
+        <hr />
+
+        <div class="settings-section">
+          <h3>Sauvegarde & Réinitialisation de la progression</h3>
+          <div class="btn-group-inline">
+            <button id="btn-export-progress" class="btn-secondary">Exporter ma progression (.json)</button>
+            <label class="btn-secondary file-btn">
+              Importer une progression (.json)
+              <input type="file" id="import-progress-file" accept=".json" hidden />
+            </label>
+            <button id="btn-reset-progress" class="btn-danger">Réinitialiser mes statistiques</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

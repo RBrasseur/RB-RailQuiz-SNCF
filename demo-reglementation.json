@@ -1,0 +1,116 @@
+{
+  "packId": "demo-reglementation",
+  "title": "Démonstration — Structure des questions SNCF (à remplacer par vos PDF)",
+  "questions": [
+    {
+      "id": "DEMO-SIG-001",
+      "theme": "Signalisation",
+      "subtheme": "Franchissement & Signaux d'arrêt",
+      "type": "qcm",
+      "prompt": "[DÉMONSTRATION] Quelle est la signification réglementaire d'un Carré (C) fermé présenté sur voie principale ?",
+      "context": "Circulation en régime normal, signal lumineux.",
+      "correctAnswer": "Arrêt absolu avant le signal ; le franchissement est interdit sauf autorisation réglementaire écrite ou transmise selon la procédure en vigueur.",
+      "distractors": [
+        "Marche à vue immédiate jusqu'au prochain signal sans obligation d'arrêt préalable.",
+        "Arrêt suivi d'un franchissement d'office en marche à vue après observation d'un délai de 2 minutes.",
+        "Ralentissement à 30 km/h au franchissement de l'aiguille protégée par le signal.",
+        "Arrêt absolu uniquement pour les trains de voyageurs ; les trains de marchandises franchissent à 15 km/h.",
+        "Annonce d'un Sémaphore fermé à distance normale de freinage.",
+        "Interdiction de dépassement uniquement si le signal est complété par un œilleton allumé."
+      ],
+      "explanation": "Fiche de démonstration illustrant le tirage aléatoire de 3 distracteurs parmi un réservoir de 6 propositions plausibles. À remplacer par les fiches issues de vos PDF SNCF.",
+      "sources": [
+        {
+          "doc": "FICHIER DE DÉMONSTRATION",
+          "ref": "Sera remplacé par vos PDF SNCF"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-FRE-001",
+      "theme": "Freinage",
+      "subtheme": "Essais de frein & Continuité",
+      "type": "qcm",
+      "prompt": "[DÉMONSTRATION] Lors d'une modification de composition impliquant l'attelage d'un nouveau lot de wagons en queue, quel contrôle de freinage minimal est requis avant le départ ?",
+      "context": "Formation fret en gare, conduite générale raccordée.",
+      "correctAnswer": "Vérifier la continuité de la conduite générale ainsi que le serrage et le desserrage effectifs sur les véhicules concernés selon le type d'essai prescrit.",
+      "distractors": [
+        "Se contenter d'observer la montée en pression à 5 bar au manomètre de la cabine sans contrôle au sol.",
+        "Effectuer uniquement un essai de fuite en cabine pendant 60 secondes.",
+        "Contrôler uniquement le premier wagon attelé, la pression se propageant automatiquement en queue.",
+        "Vérifier uniquement le serrage du frein direct sur l'engin moteur.",
+        "Aucun contrôle supplémentaire si les wagons proviennent d'un train arrivé depuis moins de 2 heures.",
+        "Réduire simplement la vitesse limite à 60 km/h jusqu'à la première gare de passage."
+      ],
+      "explanation": "Fiche de démonstration sur le thème Freinage. Les valeurs exactes et procédures détaillées seront extraites directement de vos documents SNCF.",
+      "sources": [
+        {
+          "doc": "FICHIER DE DÉMONSTRATION",
+          "ref": "Sera remplacé par vos PDF SNCF"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-AVA-001",
+      "theme": "Avaries matériel / wagons",
+      "subtheme": "Avaries frein wagon",
+      "type": "open",
+      "prompt": "[DÉMONSTRATION] En ligne, vous constatez une avarie de frein sur un wagon de votre train fret nécessitant son isolement. Quelles vérifications et actions réglementaires devez-vous effectuer avant de reprendre la marche ?",
+      "context": "Train fret en régime MA100.",
+      "keyPoints": [
+        {
+          "label": "Assurer l'immobilisation du train avant toute intervention sur le matériel.",
+          "critical": true
+        },
+        {
+          "label": "Isoler le distributeur du wagon avarié et vérifier le desserrage effectif des semelles/garnitures.",
+          "critical": true
+        },
+        {
+          "label": "Recalculer la masse freinée / vérifier la proportion de freinage disponible par rapport au régime du train.",
+          "critical": true
+        },
+        {
+          "label": "Adapter éventuellement la vitesse limite du train et aviser le régulateur / agent-circulation selon les règles en vigueur.",
+          "critical": true
+        }
+      ],
+      "explanation": "Fiche de démonstration illustrant l'auto-évaluation par points clés critiques (mode hors-ligne) et la correction optionnelle par clé API IA.",
+      "sources": [
+        {
+          "doc": "FICHIER DE DÉMONSTRATION",
+          "ref": "Sera remplacé par vos PDF SNCF"
+        }
+      ]
+    },
+    {
+      "id": "DEMO-INC-001",
+      "theme": "Incidents & Sécurité",
+      "subtheme": "Arrêt d'urgence & Protection",
+      "type": "open",
+      "prompt": "[DÉMONSTRATION] En cas d'obstacle engageant la voie contiguë suite à un incident sur votre train, quelles sont les mesures immédiates de protection à engager ?",
+      "context": "Double voie électrifiée, circulation de nuit.",
+      "keyPoints": [
+        {
+          "label": "Déclencher l'alerte radio (ou alerte lumineuse/sonore selon équipement) pour provoquer l'arrêt des circulations menacées.",
+          "critical": true
+        },
+        {
+          "label": "Assurer la protection d'obstacle selon la procédure d'urgence (allumage des feux / protection à distance si nécessaire).",
+          "critical": true
+        },
+        {
+          "label": "Aviser immédiatement le régulateur / agent-circulation en précisant la localisation exacte (PK, voie, sens).",
+          "critical": true
+        }
+      ],
+      "explanation": "Fiche de démonstration illustrant une procédure d'urgence à réponse libre. Les procédures exactes seront extraites de vos PDF SNCF.",
+      "sources": [
+        {
+          "doc": "FICHIER DE DÉMONSTRATION",
+          "ref": "Sera remplacé par vos PDF SNCF"
+        }
+      ]
+    }
+  ]
+}
