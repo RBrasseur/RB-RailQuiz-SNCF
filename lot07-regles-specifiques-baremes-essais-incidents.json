@@ -1,0 +1,1154 @@
+{
+  "packId": "lot07-regles-specifiques-baremes-essais-incidents",
+  "title": "Lot 7 — Règles spécifiques, barèmes de freinage, essais de freins et incidents/immobilisation (B20 / B50 / B60)",
+  "generatedAt": "2026-11-24T17:58:00Z",
+  "questions": [
+    {
+      "id": "lot07-q01",
+      "type": "qcm_multi",
+      "theme": "Composition & documents",
+      "subtheme": "Trains de Messageries (ME) — Règles spécifiques (B20.01)",
+      "difficulty": "difficile",
+      "prompt": "Vous préparez un train de messageries (ME100 ou ME120) en service National RFN ou Interopérable. Parmi les règles spécifiques fixées par la fiche B20.01 (révision du 13 février 2024), lesquelles sont exactes ?",
+      "correctAnswers": [
+        "Sur un train ME100 ou ME120, le régime de frein des engins moteurs de traction est « P/V » si la masse remorquée est ≤ 800 t, et « G/M » si la masse remorquée est > 800 t (contre un seuil de 1 200 t pour un ME140).",
+        "Pour éviter les réactions longitudinales, il faut attendre au minimum 30 secondes après un freinage de service (~0,8 bar) avant de commander le desserrage, et au moins 1 minute après la commande du desserrage avant de reprendre la traction.",
+        "En Interopérabilité, les trains ME140 ne sont pas autorisés et les trains ME120 d'une longueur supérieure à 650 m sont interdits ; la présence d'un véhicule avarié en queue est interdite sur tous les trains ME."
+      ],
+      "distractors": [
+        "En National RFN, la charge remorquée maximale d'un train ME est toujours plafonnée à 1 200 t, même s'il est freiné selon le principe de la Locomotive Longue ou composé de wagons à bogies.",
+        "Un train ME100 National RFN a une composition minimale obligatoire de 2 véhicules autres qu'un EM (comme un ME120 ou un ME140).",
+        "En National RFN, le frein de 3 véhicules successifs peut être isolé sur un train ME tant que le premier et le dernier restent freinés.",
+        "En dehors des cas de secours ou de détournement, un train ME100 de 800 m composé exclusivement de wagons « HP » peut comporter jusqu'à 2 engins moteurs remorqués en tête."
+      ],
+      "displayCount": 5,
+      "explanation": "Selon B20.01 (13/02/2024) : EM de traction en P/V si masse rem. ≤ 800 t et G/M si > 800 t en ME100/ME120 (seuil 1 200 t en ME140) ; temporisations anti-réactions = min 30 s après freinage ~0,8 bar avant desserrage et min 1 min après desserrage avant reprise de traction ; véhicule avarié en queue interdit ; en Interopérabilité ME140 non autorisé et ME120 > 650 m interdit (ce qui actualise B20.60 de 2022). À l'inverse : en National RFN la charge peut atteindre 1 500 t (wagons à bogies uniquement), 1 600 t (Locomotive Longue) ou 1 800 t (LL + wagons « HP » exclusivement) ; composition minimale ME100 = Néant ; max 2 véhicules remorqués isolés en National RFN (hors 1er et dernier) ; pas de machine remorquée hors secours/détournement sur ME120 ni sur ME100 > 750–850 m et/ou > 1 200–1 600 t.",
+      "sources": [
+        "B20.01 — Trains de Messageries (ME) - Règles spécifiques, p. 1-2/2 (© Lineas, February 13, 2024 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q02",
+      "type": "qcm_multi",
+      "theme": "Composition & documents",
+      "subtheme": "Trains de Marchandises (MA) — Régime P/V, véhicule avarié en queue et locotracteurs (B20.02)",
+      "difficulty": "difficile",
+      "prompt": "Concernant les règles spécifiques applicables aux trains de marchandises (MA100, MA90, MA80) selon la fiche B20.02 (révision du 10 décembre 2023), quelles prescriptions sont exactes ?",
+      "correctAnswers": [
+        "Dans un train MA normalement freiné en « G/M », le freinage au régime « P/V » est limité à une somme des masses freinées de 200 tonnes en National RFN et à un maximum de 12 essieux en Interopérabilité.",
+        "En National RFN, un véhicule avarié en queue non freiné est autorisé à condition que son attelage soit serré à refus, que le BF mentionne « Véhicule de queue n° ... non relié à la CFA/CG » et que le train soit repris comme « Transport Exceptionnel » ; en Interopérabilité, les deux véhicules qui le précèdent doivent en plus être freinés.",
+        "À l'exception des Y9000, les locotracteurs ne doivent ni remorquer de train ni circuler HLP sur les lignes à pentes > 30 mm/m ; sur les autres lignes à fortes pentes, leur train est limité à 5 véhicules remorqués, 100 t de masse remorquée et 40 km/h."
+      ],
+      "distractors": [
+        "En National RFN, si la longueur autorisée d'un train MA dépasse 750 m, le nombre maximal de véhicules successifs non freinés reste fixé à 10 véhicules.",
+        "Sur les parcours désignés aux RT/LiLi, un train MA80 uniquement composé de wagons à bogies peut atteindre 1 000 m lorsque sa masse ne dépasse pas 1 800 t.",
+        "En Interopérabilité, le nombre maximal de véhicules successifs non freinés dans un train MA est de 5 véhicules, dans la limite de 2 groupes par train.",
+        "Au-delà de la limite de véhicules en « P/V » autorisée dans un train MA, les wagons supplémentaires ne disposant que du régime « P/V » sont laissés en service sans isolement si la vitesse est abaissée à 80 km/h."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche B20.02 (10/12/2023) fixe : limite de freinage P/V = 200 t (National RFN) / 12 essieux max (Interopérabilité), au-delà les wagons ne pouvant passer en G/M doivent être isolés, étiquetés et portés au BF ; véhicule avarié en queue non freiné autorisé aux 3 conditions RFN + 2 véhicules précédents freinés en Interopérabilité ; locotracteurs hors Y9000 interdits (remorque et HLP) si pente > 30 mm/m, et sur autres fortes pentes max 5 véhicules / 100 t / 40 km/h. Attention aux pièges : en National RFN, si longueur autorisée > 750 m, la limite de véhicules successifs non freinés passe de 10 à 5 ; pour MA80 wagons à bogies, 850 m si ≤ 1 800 t et 1 000 m si ≤ 1 600 t (900 m pour porte-autos) ; en Interopérabilité, nombre indéterminé par groupes de max 3 véhicules successifs.",
+      "sources": [
+        "B20.02 — Trains de Marchandises (MA) - Règles spécifiques, p. 1-2/2 (© Lineas, December 10, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q03",
+      "type": "qcm",
+      "theme": "Composition & documents",
+      "subtheme": "Circulations Haut-le-Pied (HLP) — Composition, freinage et BF (B20.03)",
+      "difficulty": "moyen",
+      "prompt": "Vous devez assurer une circulation Haut-le-Pied (HLP) constituée d'un engin moteur remorquant 2 wagons (équipés du régime P/V). Quelles règles exactes la fiche B20.03 impose-t-elle pour cette circulation ?",
+      "correctAnswer": "Un Bulletin de Freinage doit vous être remis, les véhicules sont freinés au régime « P/V » selon les conditions des trains ME100 (VL max 100 km/h) et, si les performances de freinage ne suffisent pas pour ME100, la vitesse est limitée à l'indice de composition satisfait.",
+      "distractors": [
+        "Aucun Bulletin de Freinage n'est nécessaire jusqu'à 2 véhicules remorqués derrière un HLP, et les véhicules sont freinés au régime « G/M ».",
+        "Une circulation HLP ne peut jamais remorquer de véhicules ; dès le premier wagon, elle perd le code HLP et devient obligatoirement un MA80.",
+        "Un Bulletin de Freinage est remis, mais les véhicules sont freinés au régime « G/M » avec une vitesse limitée forfaitairement à 80 km/h.",
+        "L'engin moteur est freiné en « P/V » mais les 2 véhicules doivent obligatoirement être freinés en « G/M » pour éviter les réactions longitudinales.",
+        "Une circulation HLP peut comporter jusqu'à 3 locomotives sans Bulletin de Freinage tant qu'elle ne remorque pas de wagons.",
+        "Un engin moteur non équipé du FAMAD peut circuler HLP sur une ligne à fortes pentes à condition de ne pas dépasser 40 km/h."
+      ],
+      "explanation": "D'après B20.03 (11/12/2022) : les HLP sont assimilés aux ME100 (VL max 100 km/h) ; un HLP sans véhicule comporte max 2 locomotives (sans BF) ; un HLP peut remorquer 1 ou 2 véhicules freinés en P/V (ou exceptionnellement G/M si équipé de ce seul frein), ce qui impose alors un Bulletin de Freinage ; si le freinage ne satisfait pas les règles ME100, on limite la vitesse à l'indice satisfait. Enfin, une circulation HLP non équipée du FAMAD ne peut pas circuler sur les lignes à fortes pentes, et le conducteur s'assure d'une signalisation arrière conforme.",
+      "sources": [
+        "B20.03 — Haut-le-Pied (HLP) - Règles spécifiques, § 1 à § 5, p. 1-2/2 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q04",
+      "type": "qcm",
+      "theme": "Composition & documents",
+      "subtheme": "Train de Machines (TM) — Limites, vitesse et EM avarié en queue (B20.04)",
+      "difficulty": "difficile",
+      "prompt": "Vous devez conduire en trafic National RFN un Train de Machines (code de composition « TM ») composé de 8 engins moteurs au total (1 EM de remorque + 7 EM en véhicule, tous freinés en « P/V » et satisfaisant au freinage requis), dont aucun n'est avarié. Par ailleurs, on vous demande si un 9e EM avarié (non relié à la CFA/CG) pourrait être ajouté en queue sur un parcours interopérable. Quelles règles de la fiche B20.04 s'appliquent ?",
+      "correctAnswer": "La composition de 8 EM est autorisée (max 13 machines, dont max 6 locotracteurs) avec une vitesse limite des MA90 (car > 6 EM) ; en revanche, l'acheminement d'un EM avarié en queue est interdit en Interopérabilité (autorisé uniquement en National RFN en considérant la circulation comme MA80 avec ordre écrit).",
+      "distractors": [
+        "La composition de 8 EM est autorisée avec une vitesse limite des ME100 jusqu'à 10 engins moteurs, et un EM avarié en queue est autorisé en Interopérabilité à 50 km/h.",
+        "Le nombre total de machines d'un Train de Machines est limité à 6 engins moteurs (dont max 3 locotracteurs), ce qui rend la composition de 8 EM non conforme.",
+        "La composition de 8 EM est autorisée à la vitesse des MA80 dès que le train dépasse 6 EM, et tous les EM remorqués doivent être placés au régime « G/M ».",
+        "Un EM avarié non relié à la CFA/CG peut être placé en queue en Interopérabilité à condition que son attelage soit serré à refus et qu'il soit précédé de 2 EM freinés.",
+        "La composition de 8 EM circule à la vitesse des ME100 en National RFN, et en cas d'EM avarié en queue la circulation est limitée à 60 km/h sans ordre écrit.",
+        "Sur lignes à fortes pentes, la masse freinée des machines non équipées du FAMAD est comptée à 50 % dans la masse freinée totale d'un Train de Machines."
+      ],
+      "explanation": "Selon B20.04 : un Train de Machines (code TM, BF obligatoire, tous EM freinés en P/V selon les conditions ME100) peut comporter jusqu'à 13 machines (dont max 6 locotracteurs). Sa vitesse limite (max 100 km/h) est celle des ME100 jusqu'à 6 EM inclus, et celle des MA90 au-delà de 6 EM. En National RFN, un EM avarié non relié à la CFA/CG peut être incorporé en queue (circulation considérée comme MA80 avec ordre écrit « Train freiné selon les règles des MA80 » + mention de VL si < 80 km/h), mais en Interopérabilité l'acheminement d'un EM avarié en queue est INTERDIT. Enfin, sur lignes à fortes pentes, la masse freinée des machines non équipées du FAMAD n'est pas prise en compte.",
+      "sources": [
+        "B20.04 — Train de machines (TM) - Règles spécifiques, § 1 à § 5, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q05",
+      "type": "qcm_multi",
+      "theme": "Composition & documents",
+      "subtheme": "Unité Multiple (UM), Double Traction (DT) et isolement KVB/DAAT (B20.05 / B20.06 / B20.09)",
+      "difficulty": "moyen",
+      "prompt": "Vous préparez une circulation remorquée par 2 engins moteurs en tête, soit en Unité Multiple (UM), soit en Double Traction (DT). Quelles prescriptions des fiches B20.05, B20.06 et B20.09 sont exactes ?",
+      "correctAnswers": [
+        "En DT (comme en pousse), il faut isoler le KVB et le DAAT sur l'engin moteur non en tête, demander le replombage au carnet de bord et les remettre immédiatement en service dès la fin du mouvement ; en revanche, en UM il n'y a pas d'isolement KVB/DAAT à réaliser.",
+        "En DT, le dispositif de répétition des signaux (RS) doit rester en service sur l'engin moteur non en tête et le second conducteur doit réarmer la répétition lorsque l'indication « signal fermé » se déclenche.",
+        "Le nombre de machines électriques contiguës fonctionnant en DT est limité à 2, quelle que soit leur place dans le train (tête, pousse ou secours)."
+      ],
+      "distractors": [
+        "En DT, le dispositif de répétition des signaux (RS) doit être isolé en même temps que le KVB et le DAAT sur l'engin moteur en deuxième position.",
+        "Un train peut comporter jusqu'à 3 engins moteurs en service en tête en UM si l'indice de composition est MA100.",
+        "En DT, l'ordre de mise en mouvement (AuM) est transmis par le conducteur de tête au conducteur de deuxième position par un coup de sifflet long.",
+        "En DT, seul le conducteur de tête informe le conducteur en 2e position des particularités du train ; le conducteur en 2e position n'a pas à signaler les restrictions propres à son EM."
+      ],
+      "displayCount": 5,
+      "explanation": "La comparaison UM vs DT (B20.05, B20.06, B20.09) est fondamentale : max 2 EM en tête en UM ou DT (et max 2 machines électriques contiguës en DT quelle que soit la place) ; en DT (et pousse), isolement KVB et DAAT obligatoire sur l'EM non en tête (avec demande de replombage au CB et remise en service immédiate en fin de mouvement) mais maintien impératif de la Répétition des Signaux (réarmement par le 2e conducteur) ; en UM pas d'isolement KVB/DAAT ; échanges d'informations réciproques entre les 2 conducteurs ; en DT la transmission de l'AuM / mise en mouvement se fait par UN COUP DE SIFFLET BREF (et non long, qui est réservé aux pousses).",
+      "sources": [
+        "B20.05 — Unité Multiple (UM) - Règles spécifiques, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "B20.06 — Double Traction (DT) - Règles spécifiques, § 1 à § 6, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "B20.09 — Circulation UM - DT - Pousse - Tableau récapitulatif, p. 1-2/3 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q06",
+      "type": "qcm",
+      "theme": "Composition & documents",
+      "subtheme": "Vitesses limites en pousse par EM ou par un autre train (B20.07 / B20.08 / B20.09)",
+      "difficulty": "moyen",
+      "prompt": "Un train de marchandises est poussé en queue par un engin moteur de pousse attelé, mais il n'existe AUCUNE liaison radio en phonie entre la cabine de tête et la cabine de pousse (le conducteur de tête dispose toutefois de la commande normale du frein). Quelle est la vitesse limite réglementaire liée à cette condition de pousse (indépendamment des autres restrictions éventuelles) ?",
+      "correctAnswer": "80 km/h (contre 100 km/h en pousse attelée avec liaison radio en phonie, 60 km/h en pousse non attelée, et 30 km/h si le conducteur de tête n'a pas la commande normale du frein ou en cas de pousse par un autre train).",
+      "distractors": [
+        "60 km/h (toute pousse sans liaison radio est assimilée à une pousse non attelée).",
+        "100 km/h (dès lors que la pousse est attelée et que le conducteur de tête conserve la commande normale du frein).",
+        "30 km/h (l'absence de liaison radio impose de guider la pousse comme une manœuvre de refoulement).",
+        "50 km/h (vitesse intermédiaire réglementaire en l'absence de phonie entre tête et queue).",
+        "40 km/h (seule la pousse en UM autorise 80 km/h sans liaison radio).",
+        "La pousse attelée est strictement interdite sans liaison radio en phonie entre les deux conducteurs."
+      ],
+      "explanation": "Les plafonds de vitesse en pousse (B20.07, B20.08, B20.09 — version 11/12/2022) sont : 100 km/h en pousse attelée par 1 ou 2 EM avec liaison radio en phonie ; 80 km/h en pousse attelée sans liaison radio en phonie ; 60 km/h en pousse non attelée ; 30 km/h si le conducteur de tête n'a pas la commande normale du frein (mouvement guidé comme un refoulement ; si perte de vue des signaux de manœuvre, vitesse d'un homme au pas si l'agent de tête dispose d'un robinet d'urgence) ; et 30 km/h forfaitairement en cas de pousse par un autre train.",
+      "sources": [
+        "B20.07 — Pousse par un ou deux Engins Moteurs, § 3 « Vitesse limite », p. 1-2/3 (© Lineas, December 11, 2022 Brussels)",
+        "B20.08 — Pousse par un autre train, § 3 « Vitesse limite », p. 1/2 (© Lineas, December 11, 2022 Brussels)",
+        "B20.09 — Circulation UM - DT - Pousse - Tableau récapitulatif, p. 1/3 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q07",
+      "type": "open",
+      "theme": "Composition & documents",
+      "subtheme": "Signaux au sifflet, sectionnements et perte de contact en pousse (B20.07 / B20.08 / B20.09)",
+      "difficulty": "difficile",
+      "prompt": "Vous participez à la circulation d'un train poussé en traction électrique (soit en pousse attelée, soit en pousse non attelée par EM ou par un autre train). Indiquez précisément : (1) les signaux au sifflet échangés pour la mise en mouvement (décollage et impossibilité de décoller) et pour la commande des pantographes (« Baissez panto » / « Relevez panto »), (2) la règle particulière au franchissement d'une zone « Coupez courant » (pancarte « SECt à ...m ») pour le conducteur de tête et pour le conducteur de pousse, et (3) la conduite immédiate à tenir par le conducteur de pousse en cas de perte de contact lors d'une pousse non attelée.",
+      "modelAnswer": "1. Signaux au sifflet en pousse :\n   - Ordre de décollage (mise en mouvement) par le conducteur de tête : 1 coup de sifflet long.\n   - Impossibilité d'assurer le décollage par le conducteur de pousse : 1 coup de sifflet long à l'intention du conducteur de tête.\n   - Ordre « Baissez panto » (rencontre d'une pancarte « Baissez Panto à ...m ») : 2 coups longs de sifflet émis par le conducteur de tête.\n   - Ordre « Relevez panto » (en temps utile) : 3 coups longs de sifflet.\n2. Franchissement d'une zone « Coupez courant » (pancarte « SECt à ...m ») en pousse électrique :\n   - Le conducteur de l'EM de tête doit avoir baissé ses pantographes au plus tard au franchissement du signal d'exécution (il franchit la zone pantographes baissés).\n   - Le conducteur de l'EM de pousse doit être attentif à ces zones et se présenter au plus tard au signal d'exécution avec le disjoncteur ouvert.\n3. Perte de contact en pousse non attelée (par EM ou par un autre train) :\n   - Provoquer immédiatement un freinage d'urgence (pour éviter tout risque de rattrapage) ;\n   - Reprendre ensuite la marche en marche à vue jusqu'à la première gare ou le point désigné sur l'ordre ;\n   - Solliciter des instructions après l'arrêt.",
+      "keyPoints": [
+        {
+          "label": "Décollage en pousse = 1 coup de sifflet long (et 1 coup long du conducteur de pousse en cas d'impossibilité de décoller)",
+          "critical": true
+        },
+        {
+          "label": "Baissez panto = 2 coups longs de sifflet ; Relevez panto = 3 coups longs de sifflet",
+          "critical": true
+        },
+        {
+          "label": "Zone « Coupez courant » / « SECt à ...m » en pousse électrique : conducteur de tête pantographes baissés au plus tard au signal d'exécution, conducteur de pousse disjoncteur ouvert",
+          "critical": true
+        },
+        {
+          "label": "Perte de contact en pousse non attelée : provoquer un freinage d'urgence immédiatement (éviter tout rattrapage)",
+          "critical": true
+        },
+        {
+          "label": "Après l'arrêt suite à perte de contact : reprendre en marche à vue jusqu'à la 1re gare ou le point désigné sur l'ordre, puis solliciter des instructions",
+          "critical": true
+        }
+      ],
+      "explanation": "Les fiches B20.07, B20.08 et B20.09 (11/12/2022) harmonisent la conduite en pousse : 1 coup long (mise en mouvement / impossibilité), 2 coups longs (baissez panto), 3 coups longs (relevez panto), franchissement des zones « Coupez courant » pantographes baissés par la tête (pour éviter la mise en parallèle de deux sections via le train poussé), et freinage d'urgence immédiat + marche à vue en cas de perte de contact lors d'une pousse non attelée (EM ou autre train).",
+      "sources": [
+        "B20.07 — Pousse par un ou deux Engins Moteurs, § 5 à § 7, p. 2-3/3 (© Lineas, December 11, 2022 Brussels)",
+        "B20.08 — Pousse par un autre train, § 1 et § 4, p. 1-2/2 (© Lineas, December 11, 2022 Brussels)",
+        "B20.09 — Circulation UM - DT - Pousse - Tableau récapitulatif, p. 1/3 et p. 3/3 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q08",
+      "type": "qcm_multi",
+      "theme": "Matières dangereuses & TE",
+      "subtheme": "Transport d'unités flexibles sur plus de deux wagons (B20.10)",
+      "difficulty": "moyen",
+      "prompt": "Votre train achemine un transport d'unités flexibles (rails) chargées sur plus de deux wagons successifs. Quelles prescriptions réglementaires de la fiche B20.10 s'appliquent à ce transport ?",
+      "correctAnswers": [
+        "Vitesse limite de 100 km/h en ligne, et limitation à 10 km/h en manœuvre ainsi que sur les zones de limitation de vitesse permanente et temporaire d'un taux ≤ 30 km/h.",
+        "Interdiction de franchir les bosses de triage (même accompagnées), d'être tamponné, et de circuler dans les courbes de faible rayon inférieur à 150 mètres.",
+        "Obligation d'un ATE lorsque la longueur dépasse 400 m ou pour tout passage de frontière (même si non considéré TE dans le pays frontalier), et obligation d'aviser le SGC de sa présence en cas de détournement ou de secours."
+      ],
+      "distractors": [
+        "Les unités flexibles sur plus de deux wagons peuvent franchir les bosses de triage à condition d'être accompagnées et freinées au frein à vis.",
+        "La limitation de vitesse à 10 km/h ne s'applique qu'en manœuvre et sur les LTV ≤ 20 km/h, pas sur les limitations de vitesse permanentes.",
+        "En trafic transfrontalier, l'ATE n'est exigé pour le passage de frontière que si la longueur des rails dépasse 400 mètres.",
+        "Les rames d'unités flexibles sont autorisées dans toutes les courbes de rayon supérieur à 80 mètres sans restriction particulière."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche B20.10 détaille l'ensemble des règles pour les unités flexibles chargées sur plus de deux wagons successifs : ATE obligatoire si > 400 m OU pour tout passage de frontière ; VL 100 km/h ; 10 km/h max en manœuvre et sur zones de LVP/LTV de taux ≤ 30 km/h ; interdiction de bosse de triage (même accompagnée), de tamponnement et de courbes de rayon < 150 m ; obligation d'aviser le SGC en cas de détournement ou de secours.",
+      "sources": [
+        "B20.10 — Transport d'unités flexibles sur plus de deux wagons, § 1 à § 3, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q09",
+      "type": "qcm",
+      "theme": "Freinage",
+      "subtheme": "Tableau de freinage forfaitaire RFN — Trains ME (B20.50)",
+      "difficulty": "moyen",
+      "prompt": "Vous conduisez en trafic National RFN (ligne à freinage forfaitaire) un train de messageries ME120 d'une longueur totale de 680 mètres et d'une masse totale de 1 650 tonnes. Suite à l'isolement d'un distributeur en cours de route, la masse freinée totale réalisée de votre train tombe à 1 320 tonnes (frein en service sur le 1er et le dernier véhicule). À l'aide de l'extrait du tableau B20.50 ci-dessous, quelle condition de freinage forfaitaire est satisfaite ?",
+      "referenceTable": {
+        "title": "Extrait — Tableau de freinage forfaitaire RFN pour les trains de messageries ME (B20.50, p. 2/2)",
+        "openByDefault": true,
+        "headers": [
+          "Masse totale (t)",
+          "L ≤ 550 m : ME140 / ME120 / ME100",
+          "550 < L ≤ 650 m : ME140 / ME120 / ME100",
+          "650 < L ≤ 750 m : ME140 / ME120 / ME100",
+          "L > 750 m : ME120 / ME100"
+        ],
+        "rows": [
+          [
+            "1 550",
+            "1 504 / 1 194 / 930",
+            "1 581 / 1 256 / 977",
+            "1 674 / 1 333 / 1 023",
+            "1 457 / 1 132"
+          ],
+          [
+            "1 600",
+            "1 552 / 1 232 / 960",
+            "1 632 / 1 296 / 1 008",
+            "1 728 / 1 376 / 1 056",
+            "1 504 / 1 168"
+          ],
+          [
+            "1 650",
+            "1 601 / 1 271 / 990",
+            "1 683 / 1 337 / 1 040",
+            "1 782 / 1 419 / 1 089",
+            "1 551 / 1 205"
+          ],
+          [
+            "1 700",
+            "1 649 / 1 309 / 1 020",
+            "1 734 / 1 377 / 1 071",
+            "1 836 / 1 462 / 1 122",
+            "1 598 / 1 241"
+          ]
+        ],
+        "note": "Valeurs exprimées en tonnes de masse freinée nécessaire."
+      },
+      "correctAnswer": "Le profil ME120 n'est plus satisfait (1 419 t requis pour 650 < L ≤ 750 m) ; vous dégradez à la vitesse des ME100 (1 089 t requis ≤ 1 320 t réalisés).",
+      "distractors": [
+        "Le profil ME120 reste satisfait car 1 320 t dépasse le seuil de 1 271 t (lecture erronée dans la colonne L ≤ 550 m).",
+        "Le profil ME120 reste satisfait car l'écart avec 1 337 t (colonne 550–650 m) est inférieur à 2 %.",
+        "Vous devez dégrader jusqu'aux MA100 car le seuil de 1 551 t (colonne L > 750 m) n'est pas atteint.",
+        "Le profil ME100 n'est pas satisfait non plus ; vous devez évacuer le train à 50 km/h maximum.",
+        "Le profil ME120 reste satisfait à condition de ne pas dépasser 110 km/h.",
+        "Vous devez modifier l'indice de composition d'origine du train sur le BF pour le remplacer définitivement par ME100."
+      ],
+      "explanation": "Pour une longueur totale de 680 m (tranche 650 m < L ≤ 750 m) et une masse totale de 1 650 t, le tableau B20.50 exige 1 419 t en ME120 et 1 089 t en ME100. Avec 1 320 t restantes (1 320 < 1 419 mais 1 320 ≥ 1 089), les conditions du ME120 ne sont plus remplies : on applique le processus de dégradation et on limite la vitesse à celle des ME100 (tout en conservant l'indice de composition d'origine inchangé).",
+      "sources": [
+        "B20.50 — Tableau de freinage forfaitaire RFN pour les trains de messageries (ME), p. 2/2 (© Lineas, June 16, 2019 Brussels)",
+        "B60.02 — Incidents en cours de route - Cas exceptionnels, § 1 « Processus de dégradation », p. 1/6 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q10",
+      "type": "qcm",
+      "theme": "Freinage",
+      "subtheme": "Tableau de freinage forfaitaire RFN — Trains MA (B20.51)",
+      "difficulty": "moyen",
+      "prompt": "Vous conduisez en trafic National RFN (ligne à freinage forfaitaire) un train MA100 d'une longueur totale de 840 mètres et d'une masse totale de 1 700 tonnes. Suite à un isolement de frein en ligne, votre masse freinée totale réalisée est ramenée à 980 tonnes. À l'aide de l'extrait du tableau B20.51 ci-dessous, quel niveau de vitesse devez-vous appliquer ?",
+      "referenceTable": {
+        "title": "Extrait — Tableau de freinage forfaitaire RFN pour les trains de marchandises MA (B20.51, p. 2/2)",
+        "openByDefault": true,
+        "headers": [
+          "Masse totale (t)",
+          "L ≤ 800 m : MA100 / MA90 / MA80",
+          "800 < L ≤ 900 m : MA100 / MA90 / MA80",
+          "900 < L ≤ 1 000 m : MA100 / MA90 / MA80"
+        ],
+        "rows": [
+          [
+            "1 600",
+            "912 / 800 / 752",
+            "1 024 / 912 / 880",
+            "1 104 / 976 / 944"
+          ],
+          [
+            "1 650",
+            "941 / 825 / 776",
+            "1 056 / 941 / 908",
+            "1 139 / 1 007 / 974"
+          ],
+          [
+            "1 700",
+            "969 / 850 / 799",
+            "1 088 / 969 / 935",
+            "1 173 / 1 037 / 1 003"
+          ],
+          [
+            "1 750",
+            "998 / 875 / 823",
+            "1 120 / 998 / 963",
+            "1 208 / 1 068 / 1 033"
+          ]
+        ],
+        "note": "Valeurs exprimées en tonnes de masse freinée nécessaire."
+      },
+      "correctAnswer": "Limiter la vitesse à celle des MA90 (pour 800 < L ≤ 900 m et 1 700 t : MA100 exige 1 088 t non atteint, MA90 exige 969 t ≤ 980 t réalisés).",
+      "distractors": [
+        "Maintenir la vitesse des MA100 car 980 t est supérieur aux 969 t indiqués en colonne L ≤ 800 m.",
+        "Limiter la vitesse à celle des MA80 (seul le seuil de 935 t serait applicable après un isolement sur un train de plus de 800 m).",
+        "Évacuer le train à 20 km/h maximum car 980 t est inférieur aux 1 003 t de la colonne 900 < L ≤ 1 000 m.",
+        "Limiter la vitesse à celle des MA80 car pour 1 750 t le seuil MA90 est de 998 t.",
+        "Maintenir la vitesse des MA100 puisque le pourcentage réalisé (57,6 %) atteint 57 %.",
+        "Demander le secours immédiat car le train mesure plus de 800 m et a subi un isolement de frein."
+      ],
+      "explanation": "Attention au piège de la tranche de longueur ! À 840 m, le train relève de la tranche 800 m < L ≤ 900 m (où le MA100 exige 64 %, soit 1 088 t, et non 57 % / 969 t qui correspond à L ≤ 800 m). Avec 980 t restantes, le MA100 (1 088 t) n'est plus satisfait, mais le MA90 (969 t) est bien satisfait (980 ≥ 969). Le conducteur limite donc sa vitesse à celle des MA90.",
+      "sources": [
+        "B20.51 — Tableau de freinage forfaitaire RFN pour les trains de marchandises (MA), p. 2/2 (© Lineas, June 16, 2019 Brussels)",
+        "B20.02 — Trains de Marchandises (MA) - Règles spécifiques, p. 2/2 (© Lineas, December 10, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q11",
+      "type": "qcm",
+      "theme": "Freinage",
+      "subtheme": "Tableau de freinage d'arrêt MA80 sur fortes pentes (B20.55)",
+      "difficulty": "moyen",
+      "prompt": "Un train MA80 d'une masse totale de 1 200 tonnes doit descendre une section à forte pente de 17 mm/m (tranche 16 à 18 mm/m). Sa masse freinée totale réalisée est de 360 tonnes. À l'aide de l'extrait du tableau B20.55 ci-dessous, quelle vitesse maximale le freinage d'arrêt (FA) autorise-t-il sur cette pente ?",
+      "referenceTable": {
+        "title": "Extrait — Masse freinée d'arrêt nécessaire (MA80 sur fortes pentes de 16 à 18 mm/m) (B20.55, p. 10/18)",
+        "openByDefault": true,
+        "headers": [
+          "Masse totale (t)",
+          "30 km/h",
+          "40 km/h",
+          "50 km/h",
+          "60 km/h",
+          "70 km/h",
+          "80 km/h"
+        ],
+        "rows": [
+          [
+            "1 100",
+            "264",
+            "286",
+            "352",
+            "473",
+            "Interdit",
+            "Interdit"
+          ],
+          [
+            "1 150 (→ 1 160)",
+            "279",
+            "302",
+            "372",
+            "499",
+            "Interdit",
+            "Interdit"
+          ],
+          [
+            "1 200",
+            "288",
+            "312",
+            "384",
+            "516",
+            "Interdit",
+            "Interdit"
+          ],
+          [
+            "1 260",
+            "303",
+            "328",
+            "404",
+            "542",
+            "Interdit",
+            "Interdit"
+          ],
+          [
+            "1 300",
+            "312",
+            "338",
+            "416",
+            "559",
+            "Interdit",
+            "Interdit"
+          ]
+        ],
+        "note": "Valeurs exprimées en tonnes de masse freinée d'arrêt nécessaire (B20.55, p. 10/18)."
+      },
+      "correctAnswer": "40 km/h (pour 1 200 t sur 16 à 18 mm/m : 50 km/h exige 384 t non atteint ; 40 km/h exige 312 t ≤ 360 t réalisés).",
+      "distractors": [
+        "50 km/h (en prenant le seuil de 352 t correspondant à la ligne 1 100 t).",
+        "30 km/h (car 360 t est inférieur aux 384 t de 50 km/h et impose un palier de sécurité supplémentaire).",
+        "60 km/h (vitesse maximale autorisée sur une pente de 16 à 18 mm/m dès que 30 % de masse freinée est atteint).",
+        "70 km/h (en appliquant la vitesse immédiatement inférieure à 80 km/h).",
+        "Circulation impossible : demande de secours obligatoire car 50 km/h n'est pas satisfait.",
+        "45 km/h (par interpolation linéaire entre 312 t pour 40 km/h et 384 t pour 50 km/h)."
+      ],
+      "explanation": "Sur la ligne 1 200 t du tableau B20.55 pour les pentes de 16 à 18 mm/m : 70 et 80 km/h sont interdits ; 60 km/h exige 516 t ; 50 km/h exige 384 t (non atteint avec 360 t) ; 40 km/h exige 312 t. Avec 360 t réalisées (≥ 312 t), la vitesse maximale autorisée par le freinage d'arrêt est de 40 km/h (on ne fait jamais d'interpolation entre paliers de vitesse).",
+      "sources": [
+        "B20.55 — Tableau de freinage d'arrêt (MA80 sur fortes pentes), Pentes de 16 à 18 mm/m, p. 10/18 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q12",
+      "type": "qcm",
+      "theme": "Freinage",
+      "subtheme": "Tableau de freinage de dérive (B20.56) et dégagement des voies après incident (B60.02)",
+      "difficulty": "difficile",
+      "prompt": "Un train de marchandises National RFN d'une masse totale de 1 300 tonnes subit un incident de freinage en pleine voie sur une section de déclivité caractéristique 17 ‰ (tranche 16 à 18 ‰). Après application du processus de dégradation, les conditions minimales de freinage d'arrêt/forfaitaire ne sont PLUS satisfaites, mais la masse freinée restante est de 425 tonnes (non répartie par moitié dans la 2e moitié du train). À l'aide de l'extrait du tableau B20.56 ci-dessous et de la fiche B60.02, quelle conduite devez-vous appliquer ?",
+      "referenceTable": {
+        "title": "Extrait — Masse freinée de dérive nécessaire en tonnes (B20.56, p. 2/4)",
+        "openByDefault": true,
+        "headers": [
+          "Masse totale (t)",
+          "0 à 5 ‰",
+          "6 à 8 ‰",
+          "9 à 10 ‰",
+          "11 à 13 ‰",
+          "14 à 15 ‰",
+          "16 à 18 ‰",
+          "19 à 22 ‰"
+        ],
+        "rows": [
+          [
+            "1 200",
+            "156",
+            "204",
+            "240",
+            "300",
+            "324",
+            "384",
+            "456"
+          ],
+          [
+            "1 260",
+            "164",
+            "215",
+            "252",
+            "315",
+            "341",
+            "404",
+            "479"
+          ],
+          [
+            "1 300",
+            "169",
+            "221",
+            "260",
+            "325",
+            "351",
+            "416",
+            "494"
+          ],
+          [
+            "1 360",
+            "177",
+            "232",
+            "272",
+            "340",
+            "368",
+            "436",
+            "517"
+          ]
+        ],
+        "note": "Règle B60.02 (§ 2, p. 2/6) : si le freinage restant est au moins égal au freinage de dérive sur la section à parcourir (sans tenir compte de la répartition), dégagement possible jusqu'à la 1re gare à 20 km/h max ; s'il est inférieur, demande de secours obligatoire."
+      },
+      "correctAnswer": "Vous pouvez vous remettre en marche jusqu'à la première gare avec les plus grandes précautions sans dépasser 20 km/h (425 t ≥ 416 t de FD requis pour 1 300 t en 16–18 ‰, sans tenir compte de la répartition).",
+      "distractors": [
+        "Vous devez obligatoirement demander le secours car la moitié de la masse freinée de dérive (208 t) n'est pas répartie dans la 2e moitié du train.",
+        "Vous devez demander le secours car pour 1 300 t en 16–18 ‰, le freinage de dérive nécessaire est de 494 tonnes (> 425 t).",
+        "Vous pouvez poursuivre jusqu'à la gare de destination à 30 km/h maximum puisque 425 t dépasse les 416 t de FD requis.",
+        "Vous pouvez poursuivre à 50 km/h maximum jusqu'à la première gare de remaniement (règle des trains interopérables).",
+        "Vous devez demander le secours car 425 t est inférieur aux 436 t requis (lecture erronée sur la ligne 1 360 t).",
+        "Vous pouvez repartir à 20 km/h uniquement après avoir abandonné la seconde moitié du train en pleine voie."
+      ],
+      "explanation": "D'après le tableau B20.56 (p. 2/4), pour 1 300 t et une déclivité de 17 ‰ (colonne 16 à 18 ‰), la masse freinée de dérive nécessaire est de 416 t. Avec 425 t restantes (425 ≥ 416), la règle de dégagement des voies de B60.02 (§ 2, p. 2/6) s'applique : le freinage restant étant au moins égal au freinage de dérive sur la section à parcourir, SANS TENIR COMPTE DE LA RÉPARTITION, le conducteur peut se remettre en marche jusqu'à la première gare avec les plus grandes précautions et sans dépasser 20 km/h. Si la masse freinée restante était tombée sous 416 t, la demande de secours serait obligatoire.",
+      "sources": [
+        "B20.56 — Tableau de freinage de dérive, Déclivités de 0 à 22 mm/m, p. 2/4 (© Lineas, June 16, 2019 Brussels)",
+        "B60.02 — Incidents en cours de route - Cas exceptionnels, § 2 « Dégagement des voies », p. 2/6 et p. 6/6 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q13",
+      "type": "qcm",
+      "theme": "Freinage",
+      "subtheme": "Barèmes Interopérabilité et évacuation en situation dégradée (B20.60 / B60.02)",
+      "difficulty": "difficile",
+      "prompt": "Vous conduisez un train interopérable (Convention BE/LU/FR) d'une masse totale de 1 550 tonnes circulant en France sur une section de ligne dont les déclivités ne dépassent pas 18 mm/m. Suite à plusieurs isolements de frein en cours de route, la masse freinée restante du train tombe à 740 tonnes (soit 47 %), dont 410 tonnes se trouvent dans la 2e moitié du train. À l'aide des tableaux B20.60 et B60.02 ci-dessous, quelle vitesse maximale d'évacuation devez-vous appliquer et quelles cases du BFI adaptez-vous ?",
+      "referenceTable": {
+        "title": "Extrait — Barèmes Interopérabilité (B20.60, p. 6/10) et évacuation < G80/MA80 (B60.02, p. 3/6)",
+        "openByDefault": true,
+        "headers": [
+          "Masse (t)",
+          "25 % (20 LU)",
+          "30 % (20 BE)",
+          "32 % (20 FR)",
+          "38 % (50 FR/LU/BE)",
+          "50 % (MA80 FR/LU, G80 BE)",
+          "57 % (MA100/90 FR)",
+          "65 % (MA100 FR, MA90 LU, G90 BE)"
+        ],
+        "rows": [
+          [
+            "1 500",
+            "375",
+            "450",
+            "480",
+            "570",
+            "750",
+            "855",
+            "975"
+          ],
+          [
+            "1 550",
+            "388",
+            "465",
+            "496",
+            "589",
+            "775",
+            "884",
+            "1 008"
+          ],
+          [
+            "1 600",
+            "400",
+            "480",
+            "512",
+            "608",
+            "800",
+            "912",
+            "1 040"
+          ]
+        ],
+        "note": "Conditions B60.02 p. 3/6 (France, déclivités ≤ 18 mm/m) : 50 % ≥ MFR ≥ 38 % -> 50 km/h pour autant que la moitié du freinage forfaitaire se trouve dans la 2e moitié du train ; 37 % ≥ MFR ≥ 32 % -> 20 km/h ; MFR < 32 % -> Détresse. Si déclivités > 18 mm/m en France -> règles nationales RFN."
+      },
+      "correctAnswer": "Poursuivre jusqu'à l'installation de garage désignée à 50 km/h maximum (740 t < 775 t du MA80, mais ≥ 589 t / 38 % avec 410 t dans la 2e moitié) et adapter le BFI en inscrivant cette vitesse d'évacuation en case 10.",
+      "distractors": [
+        "Poursuivre à la vitesse des MA80 car 740 t est proche du seuil de 775 t (écart < 5 %) et adapter uniquement la case 24.",
+        "Limiter la vitesse à 20 km/h maximum car dès qu'un train interopérable passe sous 50 % en France, le plafond d'évacuation est de 20 km/h.",
+        "Déclarer le train en détresse car la nouvelle masse freinée n'atteint plus 50 % de la masse totale du convoi.",
+        "Appliquer obligatoirement les règles nationales RFN car la section comporte des déclivités allant jusqu'à 18 mm/m.",
+        "Poursuivre à 50 km/h sans rien inscrire en case 10, celle-ci étant réservée aux profils complets MA80/MA90/MA100.",
+        "Poursuivre à 50 km/h uniquement en Belgique et au Luxembourg, et limiter à 20 km/h en France car 410 t est insuffisant."
+      ],
+      "explanation": "Pour 1 550 t (B20.60, p. 6/10) : le profil MA80 exige 50 % soit 775 t (non atteint avec 740 t). Le train tombe dans la tranche 50 % ≥ MFR ≥ 38 % (seuil 38 % = 589 t ; 740 t = 47 %). En France sur déclivités ≤ 18 mm/m, B60.02 p. 3/6 autorise 50 km/h max pour autant que la moitié du freinage forfaitaire se trouve dans la 2e moitié (ici 410 t > 775/2 = 387,5 t). Selon B20.60 p. 1/10, le conducteur adapte son BFI et inscrit la vitesse d'évacuation en case 10, puis communique au service de régulation du GI (et au Service Opérationnel) pour désignation de l'installation de garage.",
+      "sources": [
+        "B20.60 — Barèmes de freinage - Interopérabilité, « Dispositions générales », p. 1/10 et barème 1 550 t, p. 6/10 (© Lineas, December 11, 2022 Brussels)",
+        "B60.02 — Incidents en cours de route - Cas exceptionnels, § 3 « Trains interopérables », p. 3/6 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q14",
+      "type": "qcm",
+      "theme": "Freinage",
+      "subtheme": "Seuils de détresse en Interopérabilité : différence FR / BE / LU (B20.60 / B60.02)",
+      "difficulty": "difficile",
+      "prompt": "Un train interopérable (BE/LU/FR) de 1 500 tonnes subit une perte importante de freinage sur une ligne dont les déclivités ne dépassent pas 18 mm/m. La masse freinée restante est de 465 tonnes (31 %). Quelle différence réglementaire s'applique selon que cet incident survient en France, en Belgique ou au Luxembourg ?",
+      "referenceTable": {
+        "title": "Seuils d'évacuation < G80/MA80 par pays — déclivités ≤ 18 mm/m (B60.02, p. 3/6 & B20.60, p. 6/10)",
+        "openByDefault": true,
+        "headers": [
+          "Vitesse d'évacuation max",
+          "En Belgique",
+          "Au Luxembourg",
+          "En France"
+        ],
+        "rows": [
+          [
+            "50 km/h",
+            "50 % ≥ MFR ≥ 38 %",
+            "50 % ≥ MFR ≥ 38 %",
+            "50 % ≥ MFR ≥ 38 % (si 1/2 FF en 2e moitié)"
+          ],
+          [
+            "20 km/h",
+            "37 % ≥ MFR ≥ 30 %",
+            "37 % ≥ MFR ≥ 25 %",
+            "37 % ≥ MFR ≥ 32 %"
+          ],
+          [
+            "Détresse",
+            "MFR < 30 %",
+            "MFR < 25 %",
+            "MFR < 32 %"
+          ]
+        ],
+        "note": "Pour 1 500 t (B20.60 p. 6/10) : 25 % = 375 t ; 30 % = 450 t ; 32 % = 480 t ; 38 % = 570 t."
+      },
+      "correctAnswer": "En France, le train est en DÉTRESSE (31 % < 32 %, soit 465 t < 480 t), alors qu'en Belgique (≥ 30 % / 450 t) et au Luxembourg (≥ 25 % / 375 t), l'évacuation reste autorisée à 20 km/h maximum.",
+      "distractors": [
+        "Le train est autorisé à évacuer à 20 km/h dans les trois pays car le seuil minimal commun de la Convention est de 25 %.",
+        "Le train est en détresse en France ET en Belgique (< 32 %), et seul le Luxembourg autorise l'évacuation à 20 km/h.",
+        "Le train est en détresse dans les trois pays car la masse freinée est inférieure à 38 % (570 t).",
+        "En France et au Luxembourg, le train évacue à 20 km/h, tandis qu'en Belgique il est en détresse (seuil 32 %).",
+        "En France, le train évacue à 20 km/h à condition que la moitié du freinage soit dans la 2e moitié du train.",
+        "Dans les trois pays, le train évacue à 50 km/h tant que la masse freinée dépasse 30 %."
+      ],
+      "explanation": "C'est une spécificité majeure des barèmes de la Convention (B20.60 et B60.02 p. 3/6) : le seuil plancher en dessous duquel le train est en détresse est de 32 % en France (480 t pour 1 500 t), 30 % en Belgique (450 t) et 25 % au Luxembourg (375 t). Avec 465 t (31 %), le train est donc en détresse en France mais encore autorisé à 20 km/h en Belgique et au Luxembourg.",
+      "sources": [
+        "B60.02 — Incidents en cours de route - Cas exceptionnels, § 3 « Trains interopérables », p. 3/6 (© Lineas, June 16, 2019 Brussels)",
+        "B20.60 — Barèmes de freinage - Interopérabilité, p. 6/10 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q15",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Essais après stationnement et réduction sur origines de fortes pentes (B50.01)",
+      "difficulty": "difficile",
+      "prompt": "Votre train est stationné sans avoir subi de modification dans un établissement ORIGINE d'une section à fortes pentes. L'engin moteur a été décroché pendant 7 heures, puis vous venez de le réaccoupler. Quel essai de frein doit être réalisé avant le départ selon la fiche B50.01 ?",
+      "referenceTable": {
+        "title": "Départ d'un train après une période de stationnement (B50.01, § 2, p. 2/5)",
+        "openByDefault": true,
+        "headers": [
+          "Situation de stationnement",
+          "Essai à effectuer"
+        ],
+        "rows": [
+          [
+            "≤ 24 h 00 et l'EM est resté accouplé au train (note 1)",
+            "Essai de fonctionnement de l'équipement de frein"
+          ],
+          [
+            "≤ 02 h 00 et l'EM a été décroché",
+            "Essai de raccordement"
+          ],
+          [
+            "> 02 h 00 sans dépasser 12 h 00 (note 2) et un OFS est présent",
+            "Essai de continuité"
+          ],
+          [
+            "> 12 h 00 (note 2) sans dépasser 24 h 00",
+            "Essai de continuité"
+          ],
+          [
+            "> 24 h 00 (note 2)",
+            "Essai complet"
+          ]
+        ],
+        "note": "Note 1 : train sans modification ou seulement retrait de véhicule(s) en queue. Note 2 : dans les établissements origines de sections à fortes pentes, le délai de 12 heures ou 24 heures doit être réduit à 6 heures."
+      },
+      "correctAnswer": "Un essai complet (car dans un établissement origine de section à fortes pentes, le délai de 24 h est réduit à 6 heures, et 7 h > 6 h).",
+      "distractors": [
+        "Un essai de continuité (car le temps de stationnement est compris entre 2 h et 12 h).",
+        "Un essai de raccordement (car l'engin moteur a simplement été décroché et réaccouplé).",
+        "Un essai de fonctionnement de l'équipement de frein (car la composition n'a pas été modifiée).",
+        "Un essai partiel (car seul l'engin moteur a été décroché puis raccordé).",
+        "Aucun essai de frein, seul un essai de roulage et un essai en ligne sont requis.",
+        "Une Vérification du Fonctionnement du Frein (VFF) réalisée par le conducteur seul."
+      ],
+      "explanation": "Piège classique d'examen sur la note de bas de page 2 de B50.01 (p. 2/5) : dans les établissements origines de sections à fortes pentes, le délai de 12 heures ou 24 heures doit être réduit à 6 heures ! Après 7 heures de stationnement (> 6 h), c'est donc un ESSAI COMPLET qui devient obligatoire.",
+      "sources": [
+        "B50.01 — Essais de freins - Généralités, § 2 « Départ d'un train après une période de stationnement », p. 2/5 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q16",
+      "type": "qcm_multi",
+      "theme": "Essais de freins",
+      "subtheme": "Opérations ne donnant PAS lieu à essai de frein vs interruption CFA/CG (B50.01)",
+      "difficulty": "moyen",
+      "prompt": "Selon la fiche B50.01 (version du 11 juin 2023), quelles opérations ne donnent PAS lieu à un essai de frein ?",
+      "correctAnswers": [
+        "Le retrait d'un ou plusieurs véhicules placés en queue d'un train ou le retrait d'une machine de pousse attelée (l'agent vérifiant que le nouveau dernier véhicule n'est pas isolé).",
+        "Le changement de régime de freinage ou le changement de position du dispositif « vide/chargé » sur tout ou partie des véhicules d'un train, ainsi que l'isolement du frein d'un ou plusieurs véhicules.",
+        "Le retrait de l'engin moteur de tête si le train est remorqué en DT ou en UM, ainsi que la remise en position normale d'un robinet d'urgence ou d'un dispositif de réarmement du signal d'alarme."
+      ],
+      "distractors": [
+        "L'interruption de la continuité de la CFA/CG ou de la CP pour resserrer un attelage après qu'un essai de frein a déjà été réalisé.",
+        "L'adjonction en queue d'une locomotive de pousse attelée.",
+        "Le retrait d'un wagon défectueux situé dans le corps du train (hors tête et hors queue).",
+        "L'adjonction de deux wagons n'ayant pas subi d'essai complet depuis plus de 24 heures."
+      ],
+      "displayCount": 5,
+      "explanation": "B50.01 (§ 3, p. 2/5) recense les cas ne donnant pas lieu à essai de frein : retrait de véhicules en queue ou d'une pousse attelée (en vérifiant que le dernier véhicule n'est pas isolé) ; retrait EM de tête en DT/UM ou remise en service EM acheminé en véhicule ; changement de régime ou de vide/chargé ; isolement de frein ; remise en service d'un frein isolé pour motif autre qu'une anomalie (sauf exception matériel voyageurs) ; remise en position normale d'un robinet d'urgence/signal d'alarme. À l'inverse : toute interruption de continuité CFA/CG ou CP impose en plus un essai de continuité (p. 3/5), tout comme l'adjonction d'une pousse attelée ou le retrait dans le corps du train (B50.20), et l'adjonction de véhicules sans essai complet < 24 h impose un essai partiel (B50.11).",
+      "sources": [
+        "B50.01 — Essais de freins - Généralités, § 3 et « Interruption de la CFA/CG », p. 2-3/5 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q17",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Conditions préalables — Surcharge, élimination et étanchéité CFA/CG (B50.01 / B50.02)",
+      "difficulty": "moyen",
+      "prompt": "Vous préparez un essai de frein complet avant départ. Vous venez d'alimenter la CFA/CG avec la fonction « SURCHARGE » et l'aiguille du manomètre RP s'est stabilisée à la pression de régime. Quelle séquence exacte devez-vous respecter avant de vous annoncer prêt à recevoir l'ordre « Serrez » ?",
+      "correctAnswer": "Supprimer la « SURCHARGE », attendre au minimum 4 minutes son élimination complète, commander la fonction « NEUTRE » et vérifier l'étanchéité (en cas de doute, observer le manomètre CFA/CG pendant 1 minute : chute ≤ 0,3 bar).",
+      "distractors": [
+        "Supprimer la « SURCHARGE », attendre au minimum 2 minutes son élimination complète, puis effectuer directement la dépression de 1 bar sans passer par « NEUTRE ».",
+        "Supprimer la « SURCHARGE », attendre au minimum 3 minutes, commander « NEUTRE » et vérifier que la chute de pression n'excède pas 0,5 bar en 1 minute.",
+        "Laisser la fonction « SURCHARGE » active pendant l'essai d'étanchéité de 1 minute afin de détecter plus facilement une fuite supérieure à 0,3 bar.",
+        "Supprimer la « SURCHARGE », attendre au minimum 5 minutes, commander « NEUTRE » et observer le manomètre pendant 2 minutes (chute ≤ 0,2 bar).",
+        "Passer directement de « SURCHARGE » à « NEUTRE » sans temps d'attente, puis vérifier que la pression descend d'au plus 0,4 bar en 1 minute.",
+        "Effectuer une dépression de 0,5 bar pour éliminer la surcharge, puis remonter à 5 bar en GRAND DÉBIT avant de contrôler l'étanchéité."
+      ],
+      "explanation": "La fiche B50.02 (11/06/2023, p. 2/2) et B50.01 (p. 4/5) fixent des valeurs précises : après immobilisation (Frein Direct + Frein de parking EM) et alimentation en SURCHARGE jusqu'à stabilisation du manomètre RP à pression de régime (après limite supérieure du régulateur), on supprime la SURCHARGE, on attend au MINIMUM 4 MINUTES son élimination complète, on commande la fonction NEUTRE et on vérifie l'étanchéité de la CFA/CG (stable ; en cas de doute, observation 1 minute : satisfaisante si chute ≤ 0,3 bar, sinon informer l'OFS). Rappel B50.02 p. 1/2 : vérifier aussi le « vide-chargé » du 1er véhicule freiné d'un train entier MA et la position « G/M » du 1er véhicule freiné en Locomotive Longue.",
+      "sources": [
+        "B50.02 — Essais de freins - Conditions préalables, p. 1-2/2 (© Lineas, June 11, 2023 Brussels)",
+        "B50.01 — Essais de freins - Généralités, « Conditions préalables à l'essai », p. 4/5 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q18",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Signaux à main conventionnels pour les essais de freins (B50.01)",
+      "difficulty": "moyen",
+      "prompt": "Lors d'un essai de frein où les ordres ne peuvent être donnés verbalement, de jour, l'agent responsable de l'essai lève les deux bras au-dessus de la tête en rapprochant les mains (de nuit : décrit un arc de cercle vertical avec le feu blanc d'une lanterne), puis plus tard un bras levé verticalement immobile (de nuit : feu blanc levé immobile). À quels ordres / avis exacts correspondent ces deux signaux ?",
+      "correctAnswer": "Le premier signal correspond à « SERREZ », et le second (bras / feu blanc levé immobile) correspond à « TERMINÉ ».",
+      "distractors": [
+        "Le premier signal correspond à « DESSERREZ », et le second correspond à « ANOMALIE ».",
+        "Le premier signal correspond à « SERREZ », et le second correspond à « DESSERREZ ».",
+        "Le premier signal correspond à « ANOMALIE », et le second correspond à « TERMINÉ ».",
+        "Le premier signal correspond à « TERMINÉ », et le second correspond à « SERREZ ».",
+        "Le premier signal correspond à « DESSERREZ », et le second correspond à « TERMINÉ ».",
+        "Le premier signal correspond à « SERREZ », et le second correspond à « ANOMALIE »."
+      ],
+      "explanation": "Selon le tableau des signaux conventionnels de B50.01 (p. 5/5) : SERREZ = mains au-dessus de la tête rapprochées de jour / arc vertical à la lanterne blanche de nuit ; DESSERREZ = un bras (ou feu blanc) balancé au-dessus de la tête en arc de cercle horizontal (ou par vidange complète de la CFA/CG en queue) ; TERMINÉ = un bras (ou feu blanc) levé verticalement immobile ; ANOMALIE = mouvements rapides en diagonale / va-et-vient oblique vers le haut avec le bras (ou feu blanc).",
+      "sources": [
+        "B50.01 — Essais de freins - Généralités, « Ordres et avis échangés pour l'exécution des essais », p. 4-5/5 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q19",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Distinction Essai Complet, Essai Partiel, Continuité et Raccordement (B50.10 / B50.11 / B50.20 / B50.30)",
+      "difficulty": "moyen",
+      "prompt": "Lors de la réalisation d'un Essai Complet, d'un Essai Partiel ou d'un Essai de Continuité avec un OFS, quelle est la différence essentielle par rapport à un Essai de Raccordement (avec agent) sur la manière dont l'ordre « Desserrez » est donné au conducteur et sur le(s) véhicule(s) contrôlé(s) ?",
+      "correctAnswer": "Dans les essais Complet, Partiel et de Continuité, l'OFS donne l'ordre « Desserrez » en provoquant la vidange complète de la CFA/CG en queue (le conducteur constate au manomètre une vidange franche, continue et complète avant de réalimenter), tandis que dans l'Essai de Raccordement, l'agent contrôle le 1er véhicule freiné en arrière du point de raccordement et donne l'ordre « Desserrez » verbalement (sans vidange en queue).",
+      "distractors": [
+        "Dans l'Essai de Continuité, l'agent ne va pas en queue : il contrôle uniquement le 1er véhicule derrière l'EM et provoque une vidange partielle de 0,5 bar.",
+        "Dans les quatre essais (Complet, Partiel, Continuité et Raccordement), l'ordre « Desserrez » doit impérativement être donné par vidange complète de la CFA/CG en queue.",
+        "Dans l'Essai Partiel, l'OFS contrôle uniquement les véhicules ajoutés sans vérifier ni le serrage ni le desserrage du dernier véhicule du train.",
+        "Dans l'Essai de Raccordement, le conducteur ne commande pas la fonction « NEUTRE » après la dépression de 1 bar.",
+        "Dans l'Essai Complet, le conducteur réalimente la CFA/CG dès que la pression descend de 0,5 bar supplémentaires, sans attendre la vidange complète.",
+        "L'Essai de Raccordement est autorisé en cas de secours en ligne ainsi que lorsque la Conduite Principale (CP) est reliée au train."
+      ],
+      "explanation": "La distinction entre les 4 essais avec agent est nette : Essai Complet (B50.10) = tous les véhicules freinés + vidange franche, continue et complète en queue ; Essai Partiel (B50.11) = véhicules ajoutés (y compris EM en véhicule) + dernier véhicule freiné + vidange complète en queue ; Essai de Continuité (B50.20) = dernier véhicule freiné + vidange complète en queue ; Essai de Raccordement (B50.30) = 1er véhicule freiné en arrière du point de raccordement uniquement, ordre « Desserrez » donné verbalement (interdit en cas de secours ou si la CP est reliée au train, auquel cas on fait un essai de continuité).",
+      "sources": [
+        "B50.10 — Essais de freins - Essai Complet, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "B50.11 — Essais de freins - Essai Partiel, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "B50.20 — Essais de freins - Continuité, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "B50.30 — Essais de freins - Raccordement, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q20",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Essai de raccordement conducteur seul — Cales antidérive et interdiction Hexafret (B50.31)",
+      "difficulty": "moyen",
+      "prompt": "Vous devez effectuer seul un essai de raccordement sur un train Lineas (ne circulant PAS sous responsabilité Hexafret) composé d'1 engin moteur et de 20 véhicules remorqués (CP non reliée au train), stationné sur une voie de service dont la déclivité indiquée à la CLE est de 12 ‰. L'engin moteur a été échangé dans un délai de moins de 2 heures. À l'aide du tableau ci-dessous, combien de cales antidérive devez-vous positionner avant l'essai (à raison d'1 cale par véhicule), et que se passerait-il si le train devait circuler sous responsabilité Hexafret ?",
+      "referenceTable": {
+        "title": "Immobilisation par cales antidérive pour essai de raccordement conducteur seul (B50.31, p. 1/3)",
+        "openByDefault": true,
+        "headers": [
+          "Déclivité de la voie (indiquée à la CLE)",
+          "Nombre de cales antidérive (1 cale par véhicule)"
+        ],
+        "rows": [
+          [
+            "Inférieures ou égales à 5 ‰",
+            "1 cale antidérive"
+          ],
+          [
+            "Supérieures à 5 ‰ sans dépasser 16 ‰",
+            "Cales antidérive positionnées sur 2/5e des véhicules remorqués"
+          ],
+          [
+            "Supérieures à 16 ‰ sans dépasser 25 ‰",
+            "Cales antidérive positionnées sur 4/5e des véhicules remorqués"
+          ]
+        ],
+        "note": "Interdiction explicite (B50.31, p. 2/3) : l'essai de raccordement réalisé par le conducteur seul n'est pas autorisé dans le cadre de prise en charge de train devant circuler sous responsabilité Hexafret."
+      },
+      "correctAnswer": "8 cales antidérive (2/5e des 20 véhicules remorqués) ; si le train devait circuler sous responsabilité Hexafret, l'essai de raccordement par le conducteur seul serait interdit.",
+      "distractors": [
+        "16 cales antidérive (4/5e des 20 véhicules remorqués) ; sous responsabilité Hexafret, l'essai seul est autorisé avec accord du SGC.",
+        "1 cale antidérive (seuil applicable jusqu'à 16 ‰) ; sous responsabilité Hexafret, l'essai seul est interdit.",
+        "7 cales antidérive (1/3 des 21 véhicules EM compris) ; sous responsabilité Hexafret, l'essai seul est autorisé uniquement en gare d'origine.",
+        "9 cales antidérive (2/5e de 21 véhicules EM compris arrondi au supérieur) ; sous responsabilité Hexafret, l'essai seul est interdit.",
+        "8 cales antidérive ; sous responsabilité Hexafret, l'essai seul est autorisé à condition que la déclivité ne dépasse pas 5 ‰.",
+        "4 cales antidérive (1/5e des 20 véhicules remorqués) ; sous responsabilité Hexafret, il faut doubler le nombre de cales."
+      ],
+      "explanation": "Sur une déclivité de 12 ‰ (tranche > 5 ‰ sans dépasser 16 ‰), B50.31 exige des cales antidérive sur 2/5e des véhicules remorqués (à raison d'1 cale par véhicule) : 2/5 × 20 = 8 cales. Par ailleurs, la fiche B50.31 interdit explicitement l'essai de raccordement réalisé par le conducteur seul pour la prise en charge d'un train devant circuler sous responsabilité Hexafret.",
+      "sources": [
+        "B50.31 — Essais de freins - Essai de Raccordement réalisé par le Conducteur seul, p. 1-2/3 (© Lineas, December 13, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q21",
+      "type": "open",
+      "theme": "Essais de freins",
+      "subtheme": "Procédure complète de l'essai de raccordement réalisé par le conducteur seul (B50.31)",
+      "difficulty": "difficile",
+      "prompt": "Vous devez réaliser seul un essai de raccordement sur un train Lineas (hors Hexafret, CP non reliée). Vous venez de poser les cales antidérive réglementaires et de contrôler l'attelage et les documents de train. La CFA/CG n'est pas encore alimentée. Décrivez dans l'ordre chronologique exact toutes les étapes réglementaires jusqu'au retrait final des cales antidérive.",
+      "modelAnswer": "a) S'assurer que le train est équipé d'une signalisation de queue conforme ;\nb) Alimenter la CFA/CG en commandant la fonction « SURCHARGE » si elle existe ;\nc) Attendre l'élimination complète de la surcharge (minimum 4 minutes) ;\nd) Une fois la CFA/CG remplie, vérifier son étanchéité et effectuer une dépression de 1 bar dans la CFA/CG au moyen du robinet de frein ;\ne) Commander la fonction « NEUTRE » (vérifier la non-réalimentation de la CFA/CG) ;\nf) Descendre vérifier le serrage des freins du premier véhicule freiné situé en arrière du point de raccordement par rapport à la cabine de conduite ;\ng) Si cette vérification est satisfaisante, retourner dans la cabine de conduite, provoquer le desserrage des freins (réalimentation CFA/CG), puis serrer le frein direct de l'engin moteur de remorque s'il existe ;\nh) Descendre à nouveau vérifier le desserrage des freins du véhicule contrôlé ; si satisfaisant, considérer que l'essai est terminé et remonter en cabine ;\ni) Effectuer un freinage de service maximal ;\nj) Commander la fonction « NEUTRE » ;\nk) Retirer les cales antidérive.",
+      "keyPoints": [
+        {
+          "label": "S'assurer que le train est équipé d'une signalisation de queue conforme",
+          "critical": true
+        },
+        {
+          "label": "Alimenter en SURCHARGE, attendre son élimination (min 4 min), vérifier l'étanchéité, effectuer une dépression de 1 bar puis commander NEUTRE",
+          "critical": true
+        },
+        {
+          "label": "Vérifier au sol le serrage du 1er véhicule freiné en arrière du point de raccordement",
+          "critical": true
+        },
+        {
+          "label": "Remonter en cabine, commander le desserrage des freins et serrer le frein direct de l'EM (s'il existe), puis vérifier au sol le desserrage du 1er véhicule freiné",
+          "critical": true
+        },
+        {
+          "label": "Avant de retirer les cales antidérive : effectuer un freinage de service maximal et commander la fonction NEUTRE",
+          "critical": true
+        }
+      ],
+      "explanation": "L'étape finale (i–j–k) de B50.31 est critique pour la sécurité : une fois le desserrage constaté au sol, on ne retire JAMAIS les cales antidérive avec la rame desserrée ; il faut impérativement effectuer un freinage de service maximal et commander la fonction NEUTRE avant d'enlever les cales.",
+      "sources": [
+        "B50.31 — Essais de freins - Essai de Raccordement réalisé par le Conducteur seul, étapes a) à k), p. 2-3/3 (© Lineas, December 13, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q22",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Essai de fonctionnement du frein automatique (B50.40)",
+      "difficulty": "facile",
+      "prompt": "Une rame complète restée accouplée à son engin moteur (sans modification de composition ni remaniement) est réutilisée après 14 heures de stationnement dans une gare ordinaire (hors origine de fortes pentes). Quel essai effectuez-vous seul et selon quelles modalités précises ?",
+      "correctAnswer": "Un essai de fonctionnement du frein automatique : après les opérations préalables, effectuer une dépression de 1 bar, commander la fonction NEUTRE, s'assurer du serrage aux manomètres (RE / CFA/CG / CF) de la cabine occupée, puis réalimenter et constater le desserrage aux manomètres.",
+      "distractors": [
+        "Un essai de continuité nécessitant obligatoirement un OFS pour vidanger la CFA/CG en queue (car le stationnement dépasse 12 heures).",
+        "Un essai de raccordement seul avec pose d'une cale antidérive et vérification au sol du 1er véhicule freiné.",
+        "Un essai complet, obligatoire dès que le stationnement dépasse 12 heures même si l'engin moteur est resté accouplé.",
+        "Une Vérification du Fonctionnement du Frein (VFF) avec visite de tous les essieux jusqu'en queue et vidange au dernier wagon.",
+        "Aucun essai à l'arrêt : seul l'essai de roulage à 6–8 km/h est exigé tant que l'EM n'a pas été décroché.",
+        "Un essai de fonctionnement limité à une dépression de 0,5 bar sans commander la fonction NEUTRE."
+      ],
+      "explanation": "En cas de réutilisation d'une rame avec son engin moteur resté accouplé (non remanié ou seulement retrait en queue) dans un délai de moins de 24 heures (hors réduction à 6 h sur origine fortes pentes), le conducteur seul réalise un essai de fonctionnement du frein automatique (B50.40) : après opérations préalables (immobilisation, attelage, documents, CFA/CG alimentée et étanche), dépression de 1 bar -> NEUTRE -> vérification du serrage aux manomètres RE/CFA/CG/CF de la cabine occupée -> réalimentation -> constatation du desserrage aux manomètres. Au-delà de 24 h, un essai complet s'impose.",
+      "sources": [
+        "B50.40 — Essais de frein - Fonctionnement du Frein Automatique, p. 1-2/2 (© Lineas, June 14, 2020 Brussels)",
+        "B50.01 — Essais de freins - Généralités, § 2, p. 2/5 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q23",
+      "type": "qcm_multi",
+      "theme": "Essais de freins",
+      "subtheme": "Cas imposant une Vérification du Fonctionnement du Frein — VFF (B50.50)",
+      "difficulty": "moyen",
+      "prompt": "D'après la fiche B50.50 (révision du 14 juin 2026), parmi les situations d'incident en ligne suivantes, lesquelles imposent réglementairement au conducteur seul de réaliser une Vérification du Fonctionnement du Frein (VFF) avant de se remettre en marche ?",
+      "correctAnswers": [
+        "À la suite d'une absence ou d'une insuffisance de freinage, ou après une remise en service d'un ou plusieurs équipements de frein.",
+        "Après avoir manœuvré à l'ouverture, dans le corps du train, un ou plusieurs robinets d'arrêt de la CFA/CG ou de la CP.",
+        "À la suite d'une demande de secours lorsque le conducteur de l'EM de secours s'est raccordé sur le train en détresse et qu'il n'y a pas d'agent habilité à réaliser un essai des freins (ainsi qu'après action sur plusieurs valves de purge sans isolement, sauf fuite CFA/CG avant robinet d'isolement)."
+      ],
+      "distractors": [
+        "Après avoir isolé le frein d'un seul wagon avarié dans le corps du train sans avoir manipulé de robinet d'arrêt CFA/CG ou CP.",
+        "Après le simple retrait d'un wagon en queue du train en gare intermédiaire par un agent habilité.",
+        "Après avoir réarmé un robinet d'urgence ou un signal d'alarme sans autre intervention sur la rame.",
+        "Après un changement de position du dispositif « vide/chargé » sur deux wagons en cours de route."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche B50.50 (14/06/2026, p. 1/3) énumère exactement les 5 situations imposant une VFF : (1) absence ou insuffisance de freinage, (2) remise en service d'un ou plusieurs équipements de frein, (3) manœuvre à l'ouverture dans le corps du train d'un ou plusieurs robinets d'arrêt CFA/CG ou CP, (4) action sur plusieurs valves de purge sans isolement des équipements correspondants (sauf fuite à la CFA/CG avant le robinet d'isolement), (5) raccordement d'un EM de secours sur le train en détresse en l'absence d'agent habilité à réaliser un essai de frein.",
+      "sources": [
+        "B50.50 — Essais de freins - Vérification du Fonctionnement du Frein (VFF), « Principe », p. 1/3 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot07-q24",
+      "type": "open",
+      "theme": "Essais de freins",
+      "subtheme": "Procédure complète de réalisation d'une VFF (B50.50)",
+      "difficulty": "difficile",
+      "prompt": "Suite à l'ouverture dans le corps du train d'un robinet d'arrêt CFA/CG qui avait été fermé par erreur, vous êtes arrêté en pleine voie et vous devez réaliser seul une Vérification du Fonctionnement du Frein (VFF) selon la fiche B50.50 (version du 14 juin 2026). Aucune étape de la VFF n'est encore entamée. Décrivez dans l'ordre toutes les étapes de la VFF (préparation, contrôles en cabine, contrôle le long du train, vidange en queue, retour en cabine et conduite selon que la VFF est satisfaisante ou non).",
+      "modelAnswer": "1. Préparation et étanchéité en cabine :\n   - Prendre les mesures d'immobilisation (si ce n'est déjà fait) ;\n   - Alimenter la CFA/CG à la pression de régime, utiliser la fonction « SURCHARGE », attendre la stabilisation de la pression CP à la pression de régime (remplissage complet) ;\n   - Supprimer la fonction « SURCHARGE » et attendre au minimum 4 minutes son élimination complète ;\n   - Commander la fonction « NEUTRE » et vérifier l'étanchéité de la CFA/CG pendant 1 minute (fuites ≤ 0,300 bar/min), puis supprimer « NEUTRE » (sauf particularité robinet EM) ;\n   - Effectuer une dépression de 1 bar, puis commander la fonction « NEUTRE ».\n2. Visite du train et continuité en queue :\n   - Vérifier en se dirigeant vers la queue du train le serrage des freins de tous les essieux normalement freinés (en pousse attelée avec EM de tête HS : depuis l'EM commandant le frein vers la tête) ;\n   - S'équiper des bouchons d'oreille atténuateurs de bruit ;\n   - Ouvrir le robinet d'arrêt CFA/CG du dernier véhicule relié à la CFA/CG en maintenant fermement l'accouplement de frein ;\n   - Attendre la vidange complète, puis refermer le robinet d'arrêt CFA/CG.\n3. Retour en cabine et décision :\n   - Vérifier la continuité de la CFA/CG en s'assurant de sa vidange complète au manomètre ;\n   - Si la VFF est satisfaisante : réalimenter la CFA/CG à la pression de régime et retirer les mesures d'immobilisation ;\n   - Si la VFF n'est PAS satisfaisante : sur EM -> appliquer le guide de dépannage ; sur véhicule remorqué -> se munir de l'outillage et des carnets d'étiquettes, visiter jusqu'au véhicule porteur de la signalisation d'arrière ; si anomalie déterminée -> y remédier et recommencer une VFF ; si origine non déterminée -> appliquer F20.08 (Absence ou insuffisance de freinage) et procéder à une nouvelle VFF.",
+      "keyPoints": [
+        {
+          "label": "Immobilisation -> SURCHARGE jusqu'à stabilisation CP -> suppression SURCHARGE -> attente min 4 min -> NEUTRE + contrôle étanchéité 1 min (≤ 0,300 bar/min)",
+          "critical": true
+        },
+        {
+          "label": "Effectuer une dépression de 1 bar puis commander la fonction NEUTRE",
+          "critical": true
+        },
+        {
+          "label": "Vérifier en allant vers la queue le serrage des freins de tous les essieux normalement freinés (ou vers la tête si pousse attelée avec EM de tête HS)",
+          "critical": true
+        },
+        {
+          "label": "En queue : s'équiper des bouchons d'oreille, ouvrir le robinet d'arrêt CFA/CG du dernier véhicule en maintenant fermement l'accouplement, attendre la vidange complète puis refermer",
+          "critical": true
+        },
+        {
+          "label": "De retour en cabine : vérifier la vidange complète au manomètre (continuité) ; si satisfaisant -> réalimenter et retirer immobilisation ; si non satisfaisant -> dépannage/visite jusqu'en queue (ou F20.08) puis nouvelle VFF",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche B50.50 (révision la plus récente : 14 juin 2026) donne au conducteur seul la double assurance du serrage de tous les essieux normalement freinés ET de la continuité complète de la CFA/CG. Contrairement à un essai complet avec agent, la VFF ne comporte pas de contrôle visuel au sol du desserrage (c'est le constat de vidange complète au manomètre de retour en cabine qui valide la continuité, complété ensuite par l'essai de roulage).",
+      "sources": [
+        "B50.50 — Essais de freins - Vérification du Fonctionnement du Frein (VFF), p. 1-3/3 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot07-q25",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Essai de roulage et essai de fonctionnement en ligne — Zones à éviter (B50.60 / B50.61)",
+      "difficulty": "facile",
+      "prompt": "Après avoir réalisé l'essai de roulage au décollage (coupure de traction pour vérifier à faible vitesse que le train roule sur l'erre sans résistance particulière), vous vous apprêtez à effectuer l'essai de fonctionnement du frein en ligne (essai d'efficacité). Parmi les propositions suivantes tirées de la fiche B50.61, quelles zones devez-vous éviter pour choisir le lieu de mise en action du frein ?",
+      "correctAnswer": "Éviter d'effectuer l'essai en rampe importante, au passage d'une bifurcation ou sur une zone d'aiguillage (et couper effectivement la traction avant de commander le serrage gradué).",
+      "distractors": [
+        "Éviter absolument toute section en palier ; l'essai d'efficacité doit être réalisé de préférence en forte rampe pour mieux ressentir la décélération.",
+        "L'essai en ligne doit obligatoirement être exécuté dès le passage sur les aiguilles de sortie de gare afin de détecter toute anomalie avant la pleine voie.",
+        "L'essai en ligne s'effectue sans couper la traction afin de mesurer le différentiel d'effort de retenue au frein automatique.",
+        "Un freinage préalable effectué uniquement au frein électrique dynamique pour observer un signal tient lieu d'essai de fonctionnement en ligne.",
+        "L'essai de fonctionnement en ligne s'effectue au moyen d'un freinage d'urgence bref pour vérifier la puissance maximale du frein.",
+        "L'essai en ligne n'est obligatoire que si aucun essai complet n'a été réalisé au départ."
+      ],
+      "explanation": "La fiche B50.61 complète B00.02 en précisant qu'après avoir mis le train en vitesse, le conducteur doit déterminer le lieu approprié en évitant d'effectuer l'essai en rampe importante, au passage d'une bifurcation ou en zone d'aiguillage, ramener le manipulateur de traction à zéro, s'assurer que la traction est effectivement coupée, commander SERRAGE GRADUÉ (dépression et temps limités au strict nécessaire) et vérifier une décélération satisfaisante. Un freinage préalable pour raison de circulation ne tient lieu d'essai que s'il a été réalisé au frein automatique.",
+      "sources": [
+        "B50.60 — Essais de freins - Essai de Roulage, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "B50.61 — Essais de frein - Essai de fonctionnement en ligne, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q26",
+      "type": "qcm",
+      "theme": "Essais de freins",
+      "subtheme": "Essai de continuité de la Conduite Principale — CP (B50.70)",
+      "difficulty": "moyen",
+      "prompt": "Vous devez effectuer un essai de frein sur un train comportant une Conduite Principale (CP) en plus de la CFA/CG (un échange de locomotive vient d'avoir lieu). Sans atténuateur de bruit sur le robinet, quelles prescriptions exactes la fiche B50.70 impose-t-elle pour vérifier la continuité de la CP ?",
+      "correctAnswer": "Tout essai de raccordement est remplacé par un essai de continuité ; l'agent ouvre le robinet d'arrêt arrière CP du dernier véhicule relié pendant au moins 20 secondes (en maintenant fermement l'accouplement) et le conducteur vérifie au manomètre CP en cabine une chute de pression d'au moins 1 bar.",
+      "distractors": [
+        "Un simple essai de raccordement suffit ; l'agent ouvre le robinet CP du premier véhicule pendant 10 secondes et le conducteur vérifie une chute d'au moins 0,5 bar.",
+        "L'agent ouvre le robinet arrière CP pendant au moins 10 secondes sans atténuateur de bruit et le conducteur vérifie la vidange complète de la CP à 0 bar.",
+        "L'agent ouvre le robinet arrière CP pendant au moins 30 secondes et le conducteur vérifie une chute de pression d'au moins 2 bars au manomètre CP.",
+        "L'agent provoque d'abord la vidange complète de la CFA/CG pour donner l'ordre « Desserrez », puis vérifie ensuite la continuité de la CP pendant 20 secondes.",
+        "La vérification de continuité de la CP n'est effectuée que si la CP court sur l'intégralité du train ; si elle n'équipe que des véhicules de tête, aucun contrôle CP n'est fait.",
+        "L'essai de continuité de la CP peut être réalisé par le conducteur seul comme un essai de raccordement."
+      ],
+      "explanation": "La fiche B50.70 précise : (1) la continuité CP est vérifiée à chaque essai de frein continu (y compris sur la seule partie de tête si la CP n'existe qu'en tête) ; (2) elle nécessite un agent en queue, donc tout essai de raccordement est remplacé par un essai de continuité ; (3) après vérification du serrage des freins, l'agent ouvre le robinet d'arrêt arrière CP du dernier véhicule relié (en maintenant fermement l'accouplement) pendant AU MOINS 20 SECONDES sans atténuateur de bruit (ou durée de consigne avec atténuateur) en s'assurant de l'échappement franc ; (4) le conducteur vérifie au manomètre CP une chute d'AU MOINS 1 BAR ; (5) l'agent referme le robinet CP puis seulement donne l'ordre « Desserrez » par vidange complète de la CFA/CG.",
+      "sources": [
+        "B50.70 — Essais de freins - Essai de la Conduite Principale, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q27",
+      "type": "qcm_multi",
+      "theme": "Incidents & immobilisation",
+      "subtheme": "Non-conformité au départ (National RFN et train vers l'étranger) (B60.01)",
+      "difficulty": "moyen",
+      "prompt": "Au départ d'un lieu de formation ou d'un établissement intermédiaire, les règles de composition et/ou de freinage ne sont pas satisfaites pour l'indice de composition prévu. Quelles règles de la fiche B60.01 s'appliquent ?",
+      "correctAnswers": [
+        "En principe, la composition du train doit être remaniée (par reclassement ou retrait de véhicules) ; si le remaniement est impossible, le train peut être expédié sur instruction du Service Opérationnel concerné (accord EF / GID) en limitant la vitesse à l'indice satisfait (le frein continu devant fonctionner sur le dernier véhicule).",
+        "Lorsqu'un train doit circuler en respectant une vitesse limite inférieure pour non-conformité de freinage au départ, son indice de composition d'origine reste inchangé.",
+        "Pour un train en Interopérabilité à destination d'un réseau étranger non conforme sur le réseau étranger (bien que conforme sur RFN), la circulation est subordonnée à l'accord du gestionnaire d'infrastructure de chaque réseau concerné et aux instructions du Service Opérationnel (remaniement à l'origine ou jusqu'au point frontière)."
+      ],
+      "distractors": [
+        "Lorsqu'un train part à une vitesse limite inférieure faute de freinage suffisant, l'OFS doit obligatoirement remplacer l'indice de composition d'origine par l'indice inférieur sur le BF.",
+        "Si le remaniement est impossible en gare d'origine, le conducteur peut décider seul de partir à vitesse réduite sans accord du Service Opérationnel ni du SGC.",
+        "Pour un train destiné à l'étranger mais conforme aux règles RFN, seul l'accord du SGC français suffit pour l'expédier au-delà de la frontière.",
+        "En cas de secours ou de détournement, l'OFS peut dépasser le nombre maximal d'EM en tête sans aucune annotation sur le Bulletin de Freinage."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche B60.01 pose trois principes majeurs : (1) remaniement prioritaire ; à défaut, expédition uniquement sur instruction du Service Opérationnel (accord EF/GID) avec limitation de vitesse à l'indice satisfait et frein continu actif sur le dernier véhicule ; (2) l'indice de composition d'origine reste toujours inchangé ; (3) pour un train vers un réseau étranger / Interopérabilité, accord du GI de chaque réseau concerné et suivi des instructions du Service Opérationnel (remaniement origine ou point frontière).",
+      "sources": [
+        "B60.01 — Non conformité au départ, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q28",
+      "type": "qcm_multi",
+      "theme": "Incidents & immobilisation",
+      "subtheme": "Incident de frein sur le dernier véhicule et modification en Locomotive Longue (B60.02)",
+      "difficulty": "difficile",
+      "prompt": "En pleine voie, suite à un incident de frein en cours de route, vous intervenez sur votre train. Parmi les règles suivantes issues de la fiche B60.02, lesquelles sont exactes ?",
+      "correctAnswers": [
+        "Si le freinage du dernier véhicule normalement freiné n'est plus réalisé, vous pouvez reprendre votre marche en évitant toute réaction brutale jusqu'à la première gare où le train peut être remanié (en accord avec le SGC), à condition que son attelage soit serré à refus et que le BF soit annoté « Véhicule de queue n° ... non relié à la CFA/CG ».",
+        "Sur un train freiné selon le principe de la Locomotive Longue, si un incident modifie la masse/longueur sans dégrader les conditions de freinage, le principe de la LL peut être maintenu ; toutefois, si ces modifications entraînent la dégradation des conditions de freinage, les règles des trains « classiques » deviennent applicables.",
+        "Après toute intervention en ligne modifiant les conditions de freinage (en l'absence d'OFS), le conducteur annote et rectifie lui-même le BF, met à jour les données train dans les systèmes de sécurité (KVB, ETCS, PZB...) et avise à la fois le SGC et le Service Opérationnel concerné."
+      ],
+      "distractors": [
+        "Si le frein du dernier véhicule est isolé en pleine voie, toute reprise de marche est strictement interdite : vous devez immédiatement demander le secours pour évacuer ce wagon.",
+        "Si vous isolez un wagon freiné en « G/M » dans la partie Locomotive Longue, vous déduisez 100 % de sa masse freinée P/V (sans tenir compte du coefficient 0,75).",
+        "Après un isolement de frein en pleine voie, le conducteur ne doit pas modifier le BF : seul l'OFS de la gare d'arrivée est habilité à le rectifier.",
+        "Si les règles de freinage restent conformes à l'indice d'origine après un isolement de frein en ligne, le conducteur n'a pas besoin d'aviser le Service Opérationnel ni de mettre à jour les systèmes de sécurité."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche B60.02 encadre précisément la reprise après incident en pleine voie : (1) dernier véhicule non freiné -> attelage serré à refus, mention « Véhicule de queue n° ... non relié à la CFA/CG » au BF, reprise sans réaction brutale jusqu'à la 1re gare de remaniement en accord avec le SGC ; (2) Locomotive Longue -> maintenable si pas de dégradation, bascule sur règles « classiques » si dégradation (et masse freinée d'un wagon G/M en LL = masse freinée × 0,75) ; (3) rectification du BF par le conducteur, mise à jour KVB/ETCS/PZB, et avis au SGC + au Service Opérationnel (n° véhicule, nature incident, destination, conditions RFN, train vers étranger).",
+      "sources": [
+        "B60.02 — Incidents en cours de route - Cas exceptionnels, p. 4-5/6 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q29",
+      "type": "open",
+      "theme": "Incidents & immobilisation",
+      "subtheme": "Étiquettes IS / IN, papillon boîte chaude et exceptions d'étiquetage (B60.04)",
+      "difficulty": "moyen",
+      "prompt": "En cours de route sur le RFN, vous intervenez successivement sur des anomalies concernant des wagons remorqués (isolement de frein avec ou sans avarie aux roues, détection de boîte chaude). Indiquez précisément : (1) dans quels cas utiliser l'étiquette IS, l'étiquette IN, ou les deux simultanément, (2) le rôle impératif du papillon blanc autocollant IN en cas de boîte chaude et la conséquence de son absence, (3) où et comment apposer l'étiquette sur le wagon, (4) les cas précis où AUCUNE étiquette n'est apposée, et (5) les destinataires et informations minimales du signalement par mail.",
+      "modelAnswer": "1. Choix de l'étiquette :\n   - Étiquette IS : après toute anomalie de frein entraînant l'isolement total ou partiel de l'équipement de frein d'un véhicule.\n   - Étiquette IN : dans les autres cas d'anomalies (roulement, choc et traction, caisse, chargement, divers...).\n   - Étiquette IS + étiquette IN simultanément : en cas d'isolement du frein ayant entraîné des avaries aux roues.\n2. Papillon blanc autocollant IN (boîte chaude) :\n   - Associé à l'étiquette IN, il doit être apposé à proximité de la boîte d'essieu incriminée, à un endroit visible et si possible protégé, qu'il y ait des dégâts apparents ou non.\n   - Conséquence de son absence : elle impose au service de maintenance la dépose de TOUS les essieux du véhicule pour vérification des boîtes d'essieu.\n3. Emplacement et remplissage :\n   - Cocher la case « Lineas FR » ou « Lineas SA » selon l'entité du conducteur ;\n   - Apposer extérieurement et d'un seul côté du véhicule, dans le cadre à étiquettes ou le cadre noir à inscriptions du côté opposé à l'entrevoie.\n4. Exceptions (AUCUNE étiquette apposée) :\n   - Certitude que l'incident provient d'un défaut des appareils de commande du frein de l'EM ou d'une surcharge accidentelle de la CFA/CG ;\n   - Incident causé par un frein à main non desserré lorsqu'il n'y a pas d'avarie aux roues.\n5. Signalement :\n   - Immédiatement au régulateur / AC, oralement à l'OFS lors du dételage le cas échéant, et d'office par mail au Service Opérationnel concerné (Lineas FR : GE + Gestionnaire Matériels Ferroviaires ; Lineas SA : COC pour avarie wagon / Répartiteur Traction pour avarie EM) avec photos du dispositif de frein et des étiquettes + rapport succinct mentionnant au minimum : n° de train, date et heure, nom du conducteur, n° de véhicule (+ n° de la roue si boîte chaude), lieu de remaniement si différé, circonstances de l'incident.",
+      "keyPoints": [
+        {
+          "label": "IS = isolement total/partiel du frein ; IN = autres anomalies ; IS + IN ensemble = isolement de frein ayant entraîné des avaries aux roues",
+          "critical": true
+        },
+        {
+          "label": "Boîte chaude : apposer le papillon blanc autocollant IN à proximité de la boîte incriminée (son absence impose la dépose de tous les essieux du wagon par la maintenance)",
+          "critical": true
+        },
+        {
+          "label": "Apposition d'un seul côté du véhicule, dans le cadre à étiquettes ou cadre noir du côté opposé à l'entrevoie (en cochant Lineas FR ou Lineas SA)",
+          "critical": true
+        },
+        {
+          "label": "Exceptions sans étiquette : défaut certain des appareils de commande de l'EM, surcharge accidentelle CFA/CG, ou frein à main non desserré sans avarie aux roues",
+          "critical": true
+        },
+        {
+          "label": "Signalement immédiat au régulateur/AC + mail d'office au Service Opérationnel avec photos et infos minimales (n° train, date/heure, nom, n° véhicule + roue si boîte chaude, lieu si différé, circonstances)",
+          "critical": false
+        }
+      ],
+      "explanation": "La fiche B60.04 structure le retour d'information vers la maintenance et le détenteur. L'oubli du papillon autocollant IN sur boîte chaude est coûteux et immobilise inutilement le wagon (dépose de tous les essieux), et l'étiquette doit être posée du côté opposé à l'entrevoie pour la sécurité des agents.",
+      "sources": [
+        "B60.04 — Étiquettes IS/IN, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q30",
+      "type": "qcm",
+      "theme": "Incidents & immobilisation",
+      "subtheme": "Immobilisation — Visite pour blocage/boîte chaude vs recherche de fuite CFA/CG (B60.05)",
+      "difficulty": "difficile",
+      "prompt": "Vous venez d'arrêter votre train en pleine voie suite à un incident et vous devez partir effectuer la visite du train le long de la rame. Vous n'avez pas encore réglé l'alimentation de la CFA/CG pour la visite. Quelle différence réglementaire précise impose la fiche B60.05 (version du 11 juin 2023) entre (A) une visite suite au signalement d'un blocage ou d'une boîte chaude, et (B) une visite à la recherche d'une fuite CFA/CG ?",
+      "correctAnswer": "Après pose des mesures d'immobilisation (FD max, frein d'immobilisation EM, vidange CFA/CG, cales/freins à vis sur 1/3 si ≤ 16 mm/m ou 1/2 si > 16 mm/m) : en cas (A), alimenter en SURCHARGE, supprimer et attendre min 4 min (ou abaisser à au moins 3,5 bar si la proportion d'essieux calés/freinés n'est pas atteinte) ; en cas (B), après commande de NEUTRE, alimenter la CFA/CG à une pression maximale de 3,5 bars (activer FIL si existant).",
+      "distractors": [
+        "Dans les deux cas (A) et (B), la CFA/CG doit rester complètement vidangée à 0 bar et le robinet sur NEUTRE pendant toute la durée de la visite.",
+        "En cas (A), alimenter la CFA/CG à 3,5 bars maximum (FIL) ; en cas (B), alimenter en SURCHARGE à 5,4 bars en permanence pour rendre la fuite plus audible.",
+        "Les proportions minimales d'essieux calés ou freinés sont de 1/4 des véhicules si ≤ 16 mm/m et 1/3 si > 16 mm/m.",
+        "En cas (A), il n'est pas nécessaire de poser de cales ni de serrer de freins à vis si la déclivité est inférieure à 16 mm/m.",
+        "En cas (B), il est interdit de réalimenter la CFA/CG au-dessus de 2 bars avant de commencer la visite du train.",
+        "Dans les deux cas (A) et (B), la proportion de 1/2 des véhicules calés ou freinés s'applique dès que la déclivité dépasse 10 mm/m."
+      ],
+      "explanation": "La fiche B60.05 (11/06/2023, p. 3/4) distingue finement ces deux visites : dans les deux cas, on immobilise d'abord (traction coupée, sens 0, FD max, frein d'immobilisation EM, vidange complète CFA/CG, puis cales + freins à vis sur 1/3 des véhicules si déclivité ≤ 16 mm/m ou 1/2 si > 16 mm/m). Ensuite : pour un blocage/boîte chaude (cas 3), on réalimente en SURCHARGE jusqu'à stabilisation CP puis suppression + attente 4 min afin de pouvoir détecter au sol un frein resté serré/bloqué (et si la proportion 1/3 ou 1/2 n'a pu être atteinte, on complète en abaissant la CFA/CG à au moins 3,5 bar) ; pour une recherche de fuite CFA/CG (cas 4), on alimente à une pression MAXIMALE de 3,5 bars (fonction FIL si existante) pour entendre la fuite tout en maintenant les freins serrés !",
+      "sources": [
+        "B60.05 — Immobilisation de train ou de partie de train, § 3 et § 4, p. 3/4 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q31",
+      "type": "open",
+      "theme": "Incidents & immobilisation",
+      "subtheme": "Abandon sans EM, placement des cales antidérive et manque de cales sur fortes pentes (B60.05)",
+      "difficulty": "difficile",
+      "prompt": "Vous devez immobiliser une partie de train qui va être abandonnée en pleine voie SANS engin moteur de remorque (aucun secours pour insuffisance de freinage n'est demandé). Précisez : (1) les deux cas où l'abandon en pleine voie est formellement interdit, (2) les mesures exactes d'immobilisation à appliquer sur la rame abandonnée (incluant la position finale du robinet d'arrêt CFA/CG et les proportions selon la déclivité), (3) les règles de placement correct des cales antidérive, et (4) la démarche et la formule exacte si les moyens ne suffisent pas sur une ligne à fortes pentes.",
+      "modelAnswer": "1. Interdictions d'abandon en pleine voie : ne pas abandonner un train ou une partie de train en pleine voie si le secours est demandé pour insuffisance de freinage, OU si l'immobilisation réglementaire ne peut pas être réalisée.\n2. Mesures d'immobilisation pour abandon sans EM (quel que soit le lieu, la durée ou le nombre de véhicules) :\n   - Serrer le Frein d'Immobilisation du ou des EM (le cas échéant) ;\n   - Vidanger complètement la CFA/CG et LAISSER LE ROBINET D'ARRÊT CFA/CG OUVERT ;\n   - Mettre en place les cales antidérive disponibles sur l'EM et serrer le frein d'immobilisation (à refus, de préférence sur wagon chargé, en respectant la limite MAX % du cartouche) de manière à atteindre la proportion minimale d'essieux calés ou freinés de : 1/3 des véhicules si les déclivités ne dépassent pas 16 mm/m, et 1/2 des véhicules si les déclivités dépassent 16 mm/m.\n3. Placement des cales antidérive :\n   - Toujours de préférence sous un véhicule chargé, entre les deux essieux ou les deux bogies d'un même véhicule (à défaut, entre les essieux des bogies des EM) ;\n   - Si plusieurs cales : sur des wagons différents, du même côté (côté piste) pour vérifier facilement leur enlèvement ;\n   - Sur voie en palier ou en cas de doute sur la déclivité : entre les deux essieux/bogies pour assurer la dérive dans les deux sens ; sur déclivité évidente : languette engagée sous la roue dans le sens s'opposant à la mise en mouvement.\n4. Lignes à fortes pentes si moyens insuffisants : lorsque les moyens à disposition ne permettent pas d'atteindre les conditions prévues au § 5 des LiLi et sans assistance possible d'un Agent du SGC, demander le secours en précisant exactement : « Nombre de cales insuffisant ».",
+      "keyPoints": [
+        {
+          "label": "Interdiction d'abandonner en pleine voie si secours demandé pour insuffisance de freinage ou si l'immobilisation réglementaire ne peut être réalisée",
+          "critical": true
+        },
+        {
+          "label": "Vidanger complètement la CFA/CG et LAISSER LE ROBINET D'ARRÊT CFA/CG OUVERT",
+          "critical": true
+        },
+        {
+          "label": "Proportion minimale d'essieux calés/freinés : 1/3 des véhicules si déclivités ≤ 16 mm/m, et 1/2 des véhicules si déclivités > 16 mm/m",
+          "critical": true
+        },
+        {
+          "label": "Cales posées de préférence sous véhicule chargé, sur wagons différents, du même côté (côté piste), entre 2 essieux/bogies si palier ou doute (sens de la pente si évidente)",
+          "critical": true
+        },
+        {
+          "label": "Sur lignes à fortes pentes si moyens insuffisants (§ 5 LiLi) et sans assistance SGC : demander le secours en précisant « Nombre de cales insuffisant »",
+          "critical": true
+        }
+      ],
+      "explanation": "Point crucial de B60.05 (11/06/2023, § 6, p. 4/4) : lors de l'abandon d'un train ou d'une partie de train sans EM, on vidange complètement la CFA/CG et on LAISSE LE ROBINET D'ARRÊT CFA/CG OUVERT. Et sur lignes à fortes pentes (§ 7), la demande de secours porte la mention exacte « Nombre de cales insuffisant ».",
+      "sources": [
+        "B60.05 — Immobilisation de train ou de partie de train, p. 1-2/4 et § 6-7, p. 4/4 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q32",
+      "type": "qcm_multi",
+      "theme": "Incidents & immobilisation",
+      "subtheme": "Immobilisation : conducteur restant sur l'EM vs quittant l'EM à proximité (B60.05)",
+      "difficulty": "moyen",
+      "prompt": "Vous marquez un arrêt devant un signal fermé en pleine voie et vous devez descendre de l'engin moteur pour vous faire reconnaître au téléphone de voie (vous restez à proximité de l'EM). Quelles mesures d'immobilisation complémentaires s'ajoutent par rapport au cas où vous restez en cabine ?",
+      "correctAnswers": [
+        "Serrer le Frein d'Immobilisation du ou des Engins Moteurs (en plus du Frein Direct à pression maximale, de la traction coupée et du sélecteur de sens sur « 0 »).",
+        "Enfoncer le bouton-poussoir d'urgence ou vidanger complètement la CFA/CG (après la dépression ≥ 1,5 bar, le contrôle aux manomètres et la commande de « Neutre »).",
+        "En revanche, tant que vous restez uniquement à proximité (reconnaissance, visite sommaire de l'EM), la pose des cales antidérive et le serrage des freins à vis sur 1/3 ou 1/2 des véhicules ne sont pas prescrits dans ce cas."
+      ],
+      "distractors": [
+        "Lorsque vous restez à proximité pour vous faire reconnaître, vous devez impérativement poser les cales antidérive sur 1/3 des wagons avant d'aller au téléphone.",
+        "Lorsque vous restez sur l'engin moteur, il n'est pas nécessaire de commander la fonction « Neutre » ni de dépasser 0,8 bar de dépression à la CFA/CG.",
+        "Lorsque vous quittez l'EM à proximité, il est interdit de vidanger complètement la CFA/CG afin de pouvoir repartir rapidement à l'ouverture du signal.",
+        "Lorsque vous quittez l'EM à proximité, vous devez laisser le sélecteur de sens de marche sur « Avant » pour bloquer les moteurs de traction."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche B60.05 (11/06/2023, p. 2/4) compare le cas 1 (conducteur restant sur l'EM : traction coupée, sens « 0 », FD max, dépression ≥ 1,5 bar, contrôle manomètres/bargraphes, Neutre, surveillance périodique) et le cas 2 (conducteur quittant l'EM en restant à proximité — reconnaissance, visite sommaire EM : mêmes mesures + serrage du Frein d'Immobilisation du/des EM + enfoncement du BP d'urgence ou vidange complète de la CFA/CG).",
+      "sources": [
+        "B60.05 — Immobilisation de train ou de partie de train, § 1 et § 2, p. 2/4 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot07-q33",
+      "type": "open",
+      "theme": "Incidents & immobilisation",
+      "subtheme": "Reprise de marche après abandon d'une partie de train en pleine voie (B60.06)",
+      "difficulty": "difficile",
+      "prompt": "À la suite d'un incident en pleine voie, vous êtes contraint d'abandonner la seconde partie de votre train et d'évacuer la première partie vers l'aval (les deux parties ne sont pas encore séparées et le SGC n'a pas encore été avisé de l'opération). Décrivez de façon structurée l'ensemble des démarches et calculs prescrits par la fiche B60.06 : (1) prise de contact et informations à communiquer au SGC, (2) immobilisation de la seconde partie abandonnée, (3) calculs à effectuer pour la première partie, et (4) conduite selon que les conditions de freinage sont remplies ou non pour l'indice initial.",
+      "modelAnswer": "1. Prendre contact avec le SGC (obtenir son accord) et aviser également le Service Opérationnel concerné. Communiquer au SGC :\n   - Les circonstances ayant provoqué cette situation ;\n   - La composition de la partie de train laissée en pleine voie ;\n   - La composition de la première partie du train ;\n   - Les spécificités de la partie laissée en pleine voie (MD, ATE...).\n   (Appliquer également F45.04 « Évacuation de la 1re partie du train vers l'aval ».)\n2. Immobiliser la seconde partie du train (éviter toute dérive) :\n   - Mettre en place les cales antidérive disponibles sur l'EM et serrer le frein d'immobilisation des véhicules qui en sont munis pour atteindre la proportion minimale d'essieux calés ou freinés de : 1/3 des véhicules si déclivités ≤ 16 mm/m, et 1/2 des véhicules si déclivités > 16 mm/m (avec vidange complète CFA/CG et robinet d'arrêt laissé ouvert selon B60.05).\n3. Calculer les nouvelles conditions de freinage de la 1re partie :\n   - Déterminer la nouvelle Masse Totale (masse totale initiale − masse des véhicules abandonnés) ;\n   - Déterminer la nouvelle Masse Freinée Totale Réalisée (MFTR initiale − MFR des véhicules abandonnés) ;\n   - Déterminer la nouvelle Masse Freinée Totale Nécessaire (MFTN) et les conditions de circulation par rapport à la catégorie du train.\n4. Reprise de marche :\n   - Si les conditions de freinage sont remplies pour l'indice/code du train : aviser l'OFS ou le Service Opérationnel concerné, se conformer aux instructions, reprendre la marche ;\n   - Si les conditions de freinage ne sont PAS remplies : appliquer le processus de dégradation, aviser le Service Opérationnel concerné et le SGC, se conformer aux instructions, reprendre la marche.",
+      "keyPoints": [
+        {
+          "label": "Obtenir l'accord du SGC en lui communiquant : circonstances, composition de la partie laissée, composition de la 1re partie et spécificités (MD, ATE...) ; aviser le Service Opérationnel (et appliquer F45.04)",
+          "critical": true
+        },
+        {
+          "label": "Immobiliser la seconde partie laissée en pleine voie : cales antidérive + freins d'immobilisation sur 1/3 des véhicules si déclivités ≤ 16 mm/m, ou 1/2 si > 16 mm/m",
+          "critical": true
+        },
+        {
+          "label": "Recalculer sur la 1re partie : nouvelle Masse Totale (déduire masse abandonnée), nouvelle MFTR (déduire MFR abandonnée) et nouvelle MFTN",
+          "critical": true
+        },
+        {
+          "label": "Si freinage conforme à l'indice : aviser OFS / Service Opérationnel, suivre les instructions et reprendre ; si non conforme : appliquer le processus de dégradation, aviser Service Opérationnel et SGC, suivre les instructions et reprendre",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche B60.06 impose une méthode rigoureuse en quatre temps avant tout départ de la première partie : accord et information complète du SGC (dont MD/ATE laissées en ligne), immobilisation physique de la seconde partie (1/3 ou 1/2), recalcul complet Masse Totale / MFTR / MFTN de la première partie, et application du processus de dégradation avec avis SGC + Service Opérationnel si nécessaire.",
+      "sources": [
+        "B60.06 — Reprise de marche après abandon d'une partie de train, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "B60.05 — Immobilisation de train ou de partie de train, § 6, p. 4/4 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    }
+  ]
+}

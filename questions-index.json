@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T17:45:00Z",
+  "updatedAt": "2026-11-24T17:58:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -235,6 +235,53 @@
         "B10.21"
       ],
       "generatedAt": "2026-11-24T17:45:00Z"
+    },
+    {
+      "packId": "lot07-regles-specifiques-baremes-essais-incidents",
+      "title": "Lot 7 — Règles spécifiques, barèmes de freinage, essais de freins et incidents/immobilisation (B20 / B50 / B60)",
+      "file": "lot07-regles-specifiques-baremes-essais-incidents.json",
+      "description": "Règles spécifiques ME/MA/HLP/TM, UM/DT/Pousse (EM ou autre train, KVB/DAAT/RS, sifflet, sectionnements, perte de contact), unités flexibles > 2 wagons, exercices pratiques sur barèmes (B20.50 ME, B20.51 MA, B20.55 FA fortes pentes, B20.56 FD, B20.60 Interopérabilité), essais de freins (généralités, stationnement, préalables, complet, partiel, continuité, raccordement agent et conducteur seul, fonctionnement, VFF, roulage, essai en ligne, CP) et incidents/immobilisation (non-conformité au départ, dégradation/dégagement, étiquettes IS/IN et papillon boîte chaude, 6 cas d'immobilisation, abandon de partie de train).",
+      "questionCount": 33,
+      "breakdown": {
+        "qcm": 18,
+        "qcm_multi": 9,
+        "open": 6
+      },
+      "fiches": [
+        "B20.01",
+        "B20.02",
+        "B20.03",
+        "B20.04",
+        "B20.05",
+        "B20.06",
+        "B20.07",
+        "B20.08",
+        "B20.09",
+        "B20.10",
+        "B20.50",
+        "B20.51",
+        "B20.55",
+        "B20.56",
+        "B20.60",
+        "B50.01",
+        "B50.02",
+        "B50.10",
+        "B50.11",
+        "B50.20",
+        "B50.30",
+        "B50.31",
+        "B50.40",
+        "B50.50",
+        "B50.60",
+        "B50.61",
+        "B50.70",
+        "B60.01",
+        "B60.02",
+        "B60.04",
+        "B60.05",
+        "B60.06"
+      ],
+      "generatedAt": "2026-11-24T17:58:00Z"
     }
   ]
 }
