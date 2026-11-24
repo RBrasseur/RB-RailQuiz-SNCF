@@ -1,0 +1,574 @@
+{
+  "packId": "lot02-annonces-vitesses",
+  "title": "Lot 2 — Signaux d'annonce, VISA, feux d'ouverture et limitations de vitesse (A12 / A13 / A14)",
+  "generatedAt": "2026-11-24T15:38:00Z",
+  "questions": [
+    {
+      "id": "lot02-q01",
+      "type": "qcm_multi",
+      "category": "L'avertissement — Rôle et présentation",
+      "fiche": "A12.01",
+      "difficulty": "moyen",
+      "question": "Selon la fiche A12.01 (décembre 2025), que peut annoncer un avertissement fermé (feu jaune fixe en lumineux ; cocarde jaune en losange en mécanique) et comment est-il positionné lorsqu'il est combiné avec un rappel de ralentissement ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Il annonce un signal d'arrêt (carré, sémaphore), un feu rouge clignotant, un heurtoir ou, en signalisation lumineuse, un panneau éteint",
+        "En voie unique lorsqu'il précède une gare, il peut aussi annoncer un TIV de rappel 30 (ou 40) implanté au droit de l'aiguille d'entrée, ainsi qu'un signal d'arrêt à main ou un guidon d'arrêt au voisinage du point habituel d'arrêt",
+        "Lorsqu'il est présenté conjointement avec un rappel 30 ou (en lumineux exclusivement) un rappel 60 fermé, l'avertissement est toujours constitué par le feu situé à la partie inférieure de l'écran"
+      ],
+      "distractors": [
+        "En signalisation lumineuse comme en signalisation mécanique, l'avertissement peut être présenté conjointement avec un rappel 60 fermé",
+        "Lorsqu'il est présenté conjointement avec un rappel 30 fermé, l'avertissement est toujours constitué par le feu situé en haut de l'écran",
+        "En block manuel, un avertissement ne peut jamais annoncer à la fois un carré mécanique et un sémaphore implanté à peu de distance en aval",
+        "Un avertissement fermé ne peut jamais annoncer un heurtoir ni un panneau éteint en signalisation lumineuse"
+      ],
+      "displayCount": 5,
+      "explanation": "L'avertissement fermé annonce un carré, un sémaphore, un feu rouge clignotant, un heurtoir, un panneau éteint (en lumineux), et en VU précédant une gare un TIV de rappel 30/40 à l'aiguille d'entrée ainsi qu'un SAM ou GA au voisinage du point habituel d'arrêt. En BM, un même avertissement peut annoncer un carré mécanique et un sémaphore proche en aval. Combiné avec un RR30 (ou RR60 en lumineux exclusivement), l'avertissement est toujours le feu situé en partie inférieure de l'écran.",
+      "sources": [
+        "A12.01 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/7 et 2/7, Principe et Description"
+      ]
+    },
+    {
+      "id": "lot02-q02",
+      "type": "open",
+      "category": "La Vitesse Sécuritaire d'Approche (VISA)",
+      "fiche": "A12.01",
+      "difficulty": "difficile",
+      "question": "Vous conduisez un train de fret à vitesse proche de la vitesse limite autorisée (sans cas particulier de connaissance de ligne) et apercevez un avertissement fermé au loin. Aucune action de conduite n'a encore été entreprise. Décrivez les 4 phases réglementaires de la VISA (Vitesse Sécuritaire d'Approche), en précisant les actions de mémorisation, les repères chiffrés de vitesse/distance et les opérations exactes d'arrêt et d'immobilisation.",
+      "modelAnswer": "Phase 1 — La décélération : couper la traction et entamer la décélération avant l'avertissement (ou effectuer un freinage maximal si la décélération n'a pu être entamée qu'aux abords de l'avertissement abordé en vitesse) ; verbaliser à haute voix « Avertissement » avant le signal (pour activer la mémoire auditive et obtenir le silence en cabine) ; concentrer son attention prioritairement sur la mission imposée. Phase 2 — La recherche et l'obtention d'une vitesse maîtrisée : rechercher activement la position du signal annoncé ; atteindre une vitesse inférieure à 30 km/h au plus tard à 300 m du signal annoncé (en prenant en compte la visibilité, l'adhérence et les performances de freinage du train). Phase 3 — L'approche à vitesse maîtrisée : ne pas détourner son attention ni se laisser distraire en cabine ; s'assurer que la signalisation observée concerne bien sa voie ; respecter les vitesses maximales d'approche préconisées : 30 km/h à 300 m, 20 km/h à 200 m, 10 km/h à 100 m ; respecter l'indication présentée par le signal. Phase 4 — L'arrêt : s'arrêter à un endroit favorable à l'observation du signal, à une distance minimale de 20 m du signal, et immobiliser le train (dépression de 1,5 bar à la CG, neutre, inverseur à 0 et frein direct serré). Toute approche supplémentaire au plus près du point d'arrêt pour dégager en queue ne se fait qu'avec grande prudence et après un arrêt préalable à la distance réglementaire.",
+      "keyPoints": [
+        {
+          "label": "Phase 1 (Décélération) : couper la traction, entamer la décélération avant l'avertissement (freinage maximal si abordé en vitesse aux abords) et verbaliser à haute voix « Avertissement »",
+          "critical": true
+        },
+        {
+          "label": "Phase 2 (Vitesse maîtrisée) : rechercher activement le signal annoncé et atteindre une vitesse inférieure à 30 km/h au plus tard à 300 m du signal annoncé",
+          "critical": true
+        },
+        {
+          "label": "Phase 3 (Approche à vitesse maîtrisée) : rester concentré sur l'observation directe, vérifier que le signal concerne sa voie et respecter les paliers préconisés : 30 km/h à 300 m, 20 km/h à 200 m, 10 km/h à 100 m",
+          "critical": true
+        },
+        {
+          "label": "Phase 4 (Arrêt) : s'arrêter à un endroit favorable à l'observation, à une distance minimale de 20 m du signal",
+          "critical": true
+        },
+        {
+          "label": "Immobilisation complète en Phase 4 : dépression de 1,5 bar à la CG, neutre, inverseur à 0 et frein direct serré",
+          "critical": true
+        },
+        {
+          "label": "Si une approche plus près du point d'arrêt est nécessaire pour dégager les voies en queue : uniquement avec grande prudence et après un arrêt préalable à la distance réglementaire",
+          "critical": false
+        }
+      ],
+      "explanation": "La VISA (fiche A12.01, décembre 2025) structure la conduite sur avertissement en 4 phases cohérentes avec le KVB : décélération + verbalisation avant le signal, atteinte de < 30 km/h au plus tard à 300 m, paliers 30/20/10 km/h à 300/200/100 m, puis arrêt à ≥ 20 m avec immobilisation réglementaire (1,5 b CG, neutre, inverseur à 0, frein direct serré).",
+      "sources": [
+        "A12.01 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 2/7, 3/7, 4/7 et 5/7, Vitesse Sécuritaire d'Approche (VISA) et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q03",
+      "type": "qcm",
+      "category": "VISA — Réouverture du signal annoncé",
+      "fiche": "A12.01",
+      "difficulty": "difficile",
+      "question": "Vous avez franchi un avertissement fermé et êtes en phase de décélération vers le carré annoncé, sur une ligne équipée d'un contrôle de vitesse (KVB) qui ne traite PAS en temps réel la réouverture et n'impose pas une vitesse de libération plus restrictive. À 500 m du signal annoncé, vous constatez que ce signal s'adresse bien à votre voie et vient de s'ouvrir au feu vert (vitesse autorisée > 30 km/h). Votre vitesse actuelle est encore de 55 km/h. Quelle est votre conduite à tenir ?",
+      "correctAnswer": "Continuer la décélération afin d'atteindre une vitesse inférieure à 30 km/h et maintenir cette vitesse jusqu'au franchissement du signal annoncé, puis reprendre la marche normale au franchissement du signal ouvert si rien ne s'y oppose (en appliquant C20.06)",
+      "distractors": [
+        "Reprendre immédiatement la traction pour accélérer dès que vous avez confirmé que le feu vert s'adresse bien à votre voie",
+        "Maintenir la vitesse actuelle de 55 km/h sans accélérer jusqu'au franchissement du signal ouvert",
+        "Marquer tout de même un arrêt complet à 20 m du signal ouvert avant de vous remettre en marche",
+        "Ramener la vitesse à 15 km/h maximum au franchissement du signal ouvert comme devant un feu rouge clignotant",
+        "Continuer la décélération uniquement jusqu'à 40 km/h et accélérer dès 100 m avant le signal ouvert",
+        "Observer la marche à vue jusqu'au signal d'entrée du canton suivant malgré l'ouverture au feu vert"
+      ],
+      "explanation": "Selon la fiche A12.01 (« Cas particuliers — Le signal annoncé s'ouvre »), lorsque le signal annoncé s'ouvre pour une vitesse > 30 km/h, le conducteur doit tout de même continuer la décélération pour atteindre < 30 km/h et maintenir cette vitesse jusqu'au franchissement du signal annoncé, sauf si le contrôle de vitesse traite la réouverture en temps réel ou impose une vitesse de libération plus restrictive (auquel cas cette dernière s'applique).",
+      "sources": [
+        "A12.01 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 4/7 (Cas particuliers — Le signal annoncé s'ouvre) et p. 6/7 (Application métier 1.2)"
+      ]
+    },
+    {
+      "id": "lot02-q04",
+      "type": "open",
+      "category": "Avertissement précédant une gare de voie unique",
+      "fiche": "A12.01",
+      "difficulty": "difficile",
+      "question": "Vous conduisez un train de fret sur une ligne à voie unique et abordez en vitesse un avertissement fermé précédant une gare de voie unique (qui n'est pas une gare de jonction VU/DV ou VU/VB). Un TIV de rappel 30 fermé est implanté au droit de l'aiguille d'entrée. Aucun signal d'arrêt à main ni guidon d'arrêt n'est présenté en gare, et le sémaphore de sortie est ouvert. Décrivez votre conduite complète depuis l'approche de l'avertissement jusqu'à la reprise de votre vitesse normale.",
+      "modelAnswer": "1. À l'approche de l'avertissement fermé abordé en vitesse : effectuer une décélération avant de le franchir (principe de la VISA) et se mettre en mesure de s'arrêter avant les signaux d'arrêt annoncés. 2. À l'entrée de la gare : se conformer au TIV de rappel 30 fermé implanté au droit de l'aiguille d'entrée. 3. Respecter les prescriptions de vitesse d'approche de la VISA de manière à pouvoir s'arrêter au point d'arrêt habituel des trains (en prévision d'un éventuel SAM ou GA côté quai). 4. S'arrêter obligatoirement en gare : en l'absence de SAM ou de GA présenté, s'arrêter avant d'engager le croisement de l'aiguille de sortie ou, s'il existe, avant le chevron pointe en haut. 5. Remise en marche (sémaphore de sortie ouvert) : reprendre la marche normale si rien ne s'y oppose (et appliquer C20.06 KVB). 6. Reprise de la vitesse normale après le TIV de rappel 30 fermé : ne reprendre la vitesse normale (au-delà de 30 km/h), si rien ne s'y oppose, que lorsque le dernier véhicule du train a franchi l'aiguille de sortie.",
+      "keyPoints": [
+        {
+          "label": "Effectuer une décélération avant de franchir l'avertissement abordé en vitesse (principe de la VISA)",
+          "critical": true
+        },
+        {
+          "label": "Se conformer au TIV de rappel 30 fermé implanté au droit de l'aiguille d'entrée",
+          "critical": true
+        },
+        {
+          "label": "Appliquer la VISA en visant le point habituel d'arrêt des trains en gare (possibilité de SAM ou GA présenté)",
+          "critical": true
+        },
+        {
+          "label": "S'arrêter obligatoirement en gare : en l'absence de SAM ou GA, s'arrêter avant d'engager le croisement de l'aiguille de sortie ou, s'il existe, avant le chevron pointe en haut",
+          "critical": true
+        },
+        {
+          "label": "Le signal de cantonnement de sortie étant ouvert, se remettre en marche si rien ne s'y oppose (en appliquant C20.06 KVB)",
+          "critical": false
+        },
+        {
+          "label": "En raison du TIV de rappel 30 fermé rencontré à l'entrée, ne reprendre la vitesse normale que lorsque le DERNIER véhicule du train a franchi l'aiguille de sortie",
+          "critical": true
+        }
+      ],
+      "explanation": "En gare de voie unique précédée d'un avertissement fermé (hors jonction VU/DV ou VB), l'arrêt en gare est toujours obligatoire même si le signal de sortie est ouvert. Sans SAM/GA, l'arrêt s'effectue avant le croisement de l'aiguille de sortie (ou avant le chevron pointe en haut s'il existe). Et lorsqu'un TIV de rappel 30 (ou 40) fermé a été rencontré à l'entrée, la vitesse normale ne peut être reprise que lorsque le dernier véhicule du train a franchi l'aiguille de sortie.",
+      "sources": [
+        "A12.01 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 5/7, 6/7 et 7/7, Application de la VISA en voie unique et Application métier 2 et 2.1"
+      ]
+    },
+    {
+      "id": "lot02-q05",
+      "type": "qcm",
+      "category": "Le feu jaune clignotant",
+      "fiche": "A12.02",
+      "difficulty": "moyen",
+      "question": "Vous circulez en signalisation lumineuse et apercevez un feu jaune clignotant. Que peut annoncer ce signal, quelle distance réduite peut séparer l'avertissement suivant du signal d'arrêt, et quelle annonce vocale réglementaire devez-vous effectuer ?",
+      "correctAnswer": "Il précède un avertissement implanté à distance réduite du signal d'arrêt (pouvant être réduite jusqu'à 500 m, voire 400 m dans les zones à vitesse limitée aux RT/LiLi) ou un ralentissement 30 à distance réduite du rappel ; vous annoncez à haute voix « Feu jaune clignotant » et appliquez la VISA",
+      "distractors": [
+        "Il précède uniquement un signal d'arrêt implanté à moins de 1 000 m, jamais un ralentissement 30 ; vous annoncez à haute voix « Avertissement »",
+        "Il annonce directement un carré fermé à moins de 300 m sans avertissement intermédiaire ; vous réduisez immédiatement à 15 km/h",
+        "Il précède un avertissement dont la distance au signal d'arrêt peut être réduite jusqu'à 200 m en pleine ligne ; vous annoncez « Feu jaune fixe »",
+        "Il peut être présenté aussi bien en signalisation mécanique qu'en signalisation lumineuse pour annoncer un disque fermé à distance réduite",
+        "Il impose d'abaisser immédiatement la vitesse du train à 60 km/h avant son franchissement et ne relève pas de la VISA",
+        "Il autorise à reprendre la marche normale dès que vous apercevez au loin le signal suivant ouvert, avant même son franchissement"
+      ],
+      "explanation": "En signalisation lumineuse, le feu jaune clignotant précède un avertissement implanté à distance réduite du signal d'arrêt (jusqu'à 500 m, voire 400 m en zone de vitesse limitée par mention aux RT/LiLi) ou un ralentissement 30 à distance réduite du rappel. Le conducteur verbalise à voix haute « Feu jaune clignotant », applique la VISA (≤ 30 km/h en zone d'approche) et, si le signal suivant est ouvert, ne reprend la marche normale qu'après son franchissement.",
+      "sources": [
+        "A12.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description et Application métier 1, 1.1 et 1.2"
+      ]
+    },
+    {
+      "id": "lot02-q06",
+      "type": "qcm",
+      "category": "Bande lumineuse jaune horizontale",
+      "fiche": "A12.03",
+      "difficulty": "facile",
+      "question": "À l'entrée d'une gare, le panneau portant le carré d'entrée vous présente un avertissement (feu jaune fixe) complété dans un caisson par une bande lumineuse jaune horizontale. Que vous indique cette bande lumineuse et quelle conduite impose-t-elle ?",
+      "correctAnswer": "La voie de réception est une voie à quai de courte longueur ou à longueur réduite (véhicules en stationnement, signal d'arrêt intermédiaire fermé ou SAM) : verbaliser « Avertissement », respecter la VISA (≤ 30 km/h en zone d'approche) et se mettre en mesure de s'arrêter à quai sur une distance réduite avant le signal d'arrêt ou les véhicules présents",
+      "distractors": [
+        "La voie de réception est une voie de service en impasse de faible longueur imposant la marche en manœuvre à 15 km/h maximum",
+        "L'itinéraire de sortie de la gare comporte une aiguille en déviation limitée à 30 km/h sans nécessité de s'arrêter en gare",
+        "Le panneau présente un guidon d'arrêt en position d'avertissement imposant un arrêt impératif avant le carré d'entrée",
+        "La voie de réception est libre jusqu'au heurtoir mais dépourvue de circuit de voie, imposant la marche à vue jusqu'à la gare suivante",
+        "Le train est autorisé à entrer en gare à 60 km/h maximum en s'arrêtant uniquement si un signal d'arrêt à main est présenté",
+        "Il s'agit d'un tableau lumineux mobile en position d'ouverture annonçant une transition de vitesse décroissante à quai"
+      ],
+      "explanation": "La bande lumineuse jaune horizontale présentée en complément de l'avertissement sur le carré d'entrée de certaines gares indique une voie à quai courte ou à longueur réduite (véhicules en stationnement, signal d'arrêt intermédiaire fermé ou SAM). Elle commande d'être en mesure de s'arrêter à quai sur une distance réduite en appliquant la VISA (verbalisation « Avertissement », ≤ 30 km/h en zone d'approche).",
+      "sources": [
+        "A12.03 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe, Description et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q07",
+      "type": "qcm",
+      "category": "Le feu vert clignotant",
+      "fiche": "A12.04",
+      "difficulty": "facile",
+      "question": "Vous conduisez un train de fret MA100 (vitesse limite 100 km/h) sur une section de ligne munie de la signalisation de préannonce. Vous rencontrez un panneau présentant un feu vert clignotant. Quelle est votre conduite à tenir ?",
+      "correctAnswer": "Vous comporter comme en présence d'un panneau présentant un feu vert fixe : pour tout train dont la vitesse limite est inférieure ou égale à 160 km/h, le feu vert clignotant équivaut à un feu vert",
+      "distractors": [
+        "Couper la traction et entamer immédiatement une décélération VISA avant le panneau pour atteindre 30 km/h à 300 m du signal suivant",
+        "Ramener votre vitesse à 60 km/h avant le franchissement du panneau suivant comme pour un ralentissement 60",
+        "Réduire immédiatement votre vitesse de 40 km/h en prévision d'un TIV de chantier à distance réduite",
+        "Verbaliser « Feu vert clignotant » et observer la marche à vue jusqu'au prochain panneau",
+        "Considérer le feu vert clignotant comme un aspect anormal d'un signal lumineux et appliquer l'article F30.01",
+        "Réduire votre vitesse à 80 km/h car le feu vert clignotant abaisse la vitesse limite des trains de marchandises de 20 km/h"
+      ],
+      "explanation": "Le feu vert clignotant sert de préannonce pour abaisser à 160 km/h la vitesse des trains circulant au-delà de 160 km/h. Pour un train dont la vitesse limite est inférieure ou égale à 160 km/h, le feu vert clignotant équivaut à un feu vert fixe : le conducteur se comporte comme en présence d'un feu vert fixe.",
+      "sources": [
+        "A12.04 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe et Application métier"
+      ]
+    },
+    {
+      "id": "lot02-q08",
+      "type": "qcm",
+      "category": "Le feu vert",
+      "fiche": "A13.01",
+      "difficulty": "facile",
+      "question": "Vous êtes sur une voie de service en attente de départ en ligne et le panneau de sortie vers la voie principale s'ouvre au feu vert fixe. Que signifie ce feu vert et quelle précaution reste applicable lors de votre circulation ?",
+      "correctAnswer": "Le feu vert (possible sur voie de service lorsque le carré est ouvert en direction des voies principales) autorise la circulation normale si rien ne s'y oppose, tout en respectant les indications éventuellement données par le KVB",
+      "distractors": [
+        "Sur voie de service, un feu vert est toujours un aspect anormal car seuls les feux blancs sont réglementaires sur voie de service",
+        "Le feu vert autorise la circulation normale et dispense automatiquement le conducteur de tenir compte des indications du KVB jusqu'au canton suivant",
+        "Un carré ouvert au feu vert depuis une voie de service impose dans tous les cas la marche à vue jusqu'au signal commandant l'entrée du canton suivant",
+        "Le feu vert sur voie de service impose la marche en manœuvre jusqu'au dégagement du dernier appareil de voie de la gare",
+        "Le feu vert n'est présenté de jour comme de nuit qu'en signalisation mécanique ; en signalisation lumineuse l'ouverture s'effectue par une bande verticale blanche",
+        "Le feu vert sur voie de service autorise uniquement l'accès à un sas de manœuvre et interdit le départ en ligne"
+      ],
+      "explanation": "Normalement présenté sur voies principales, le feu vert peut également être présenté sur voies de service lorsque le signal carré (lumineux ou mécanique) est ouvert en direction des voies principales. Il indique que la circulation normale est autorisée si rien ne s'y oppose, sous réserve de respecter les indications éventuellement données par le KVB.",
+      "sources": [
+        "A13.01 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q09",
+      "type": "open",
+      "category": "Le feu blanc",
+      "fiche": "A13.02",
+      "difficulty": "difficile",
+      "question": "Votre train est arrêté devant un carré violet (ou un carré pouvant présenter le feu blanc) qui vient de s'ouvrir en présentant un feu blanc fixe (ou carré violet mécanique ouvert de jour). Détaillez précisément les trois cas réglementaires prévus par la fiche A13.02 selon la voie à laquelle le signal donne accès (voie non principale, voie principale en BA, voie principale hors BA), y compris les limites de vitesse et la fin de la marche prescrite.",
+      "modelAnswer": "Cas 1 — L'ouverture du signal ne donne pas accès à une voie principale : observer ou continuer d'observer la marche en manœuvre. Cas 2 — L'ouverture du signal donne accès à une voie principale située sur une section de ligne équipée en Block Automatique (BA) : ne pas dépasser la vitesse de 30 km/h au franchissement des appareils de voie protégés par le signal, et observer la marche à vue jusqu'au signal commandant l'entrée du canton suivant. Cas 3 — L'ouverture du signal donne accès à une voie principale située sur une autre section de ligne (hors BA) : ne pas dépasser la vitesse de 30 km/h au franchissement des appareils de voie protégés par le signal, et observer la marche à vue jusqu'au premier sémaphore ou carré rencontré avant la sortie de la gare ; à défaut d'un tel signal, dans toute la zone du poste ; ou, s'il s'agit d'une gare comportant plusieurs postes successifs, jusqu'au plus prochain de ces postes. Rappel : lorsque plusieurs circulations sont arrêtées sur la même voie devant le carré violet fermé, l'ouverture ne s'adresse qu'au conducteur du train qui en est le plus rapproché.",
+      "keyPoints": [
+        {
+          "label": "Si le signal ne donne pas accès à une voie principale : observer ou continuer d'observer la marche en manœuvre",
+          "critical": true
+        },
+        {
+          "label": "Si le signal donne accès à une voie principale en BA : observer la marche à vue jusqu'au signal commandant l'entrée du canton suivant",
+          "critical": true
+        },
+        {
+          "label": "Si le signal donne accès à une voie principale hors BA : observer la marche à vue jusqu'au premier sémaphore ou carré rencontré avant la sortie de la gare (à défaut, dans toute la zone du poste ; ou jusqu'au plus prochain poste si la gare comporte plusieurs postes successifs)",
+          "critical": true
+        },
+        {
+          "label": "Dans les deux cas d'accès à une voie principale (BA ou hors BA) : ne pas dépasser la vitesse de 30 km/h au franchissement des appareils de voie protégés par le signal",
+          "critical": true
+        },
+        {
+          "label": "Si plusieurs circulations sont arrêtées sur la même voie devant le carré violet fermé, l'ouverture ne s'adresse qu'au train le plus rapproché",
+          "critical": false
+        }
+      ],
+      "explanation": "La fiche A13.02 distingue nettement l'accès à une voie non principale (marche en manœuvre) de l'accès à une voie principale (marche à vue + ≤ 30 km/h sur les appareils de voie protégés), avec une fin de marche à vue différente selon que la voie principale est en BA ou hors BA. Ces règles valent aussi de jour pour un carré violet mécanique ouvert.",
+      "sources": [
+        "A13.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q10",
+      "type": "qcm",
+      "category": "Le feu blanc clignotant",
+      "fiche": "A13.03",
+      "difficulty": "facile",
+      "question": "Vous êtes prêt au départ d'une voie pour effectuer un train en ligne. Le panneau lumineux devant votre locomotive passe au feu blanc clignotant. Que commande ce signal et pouvez-vous partir en ligne ?",
+      "correctAnswer": "Non : le feu blanc clignotant interdit, dans tous les cas, le départ en ligne d'un train ; il commande ou confirme la marche en manœuvre sur un parcours généralement de faible longueur (sas de manœuvre ou voie de service en impasse courte)",
+      "distractors": [
+        "Oui : vous pouvez partir en ligne en observant la marche à vue jusqu'au signal commandant l'entrée du canton suivant sans dépasser 30 km/h",
+        "Oui : le feu blanc clignotant autorise le départ en ligne à condition de ne pas dépasser 15 km/h sur les appareils de voie de la gare",
+        "Oui, mais uniquement sur les sections de ligne équipées en Block Automatique Lumineux (BAL)",
+        "Non : il commande l'arrêt impératif avant le panneau comme un carré violet fermé",
+        "Non : il commande la marche à vue sur toute la zone du poste mais autorise le départ en ligne après contact radio avec l'aiguilleur",
+        "Oui : le feu blanc clignotant équivaut à un feu blanc fixe renforcé pour les trains de fret lourds"
+      ],
+      "explanation": "Utilisé exclusivement en signalisation lumineuse, le feu blanc clignotant commande ou confirme la marche en manœuvre sur un parcours généralement de faible longueur (sas de manœuvre, voie de service en impasse courte). Il interdit, dans tous les cas, le départ en ligne d'un train.",
+      "sources": [
+        "A13.03 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe, Description et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q11",
+      "type": "qcm_multi",
+      "category": "Limitations de vitesse — Généralités",
+      "fiche": "A14.01",
+      "difficulty": "moyen",
+      "question": "Concernant les dispositifs d'information des limitations permanentes et temporaires de vitesse présentés dans la fiche A14.01 (décembre 2024), quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Les TIV fixes de type B (demi-cercle bas) s'adressent aux trains circulant à une vitesse supérieure à 140 km/h, et les TIV fixes de type C (demi-cercle haut) aux trains automoteurs",
+        "Le Tableau P (permanent ou de chantier) sert de pré-annonce de TIV et impose aux trains circulant à plus de 160 km/h de ramener leur vitesse à 160 km/h",
+        "En situation inopinée, une limitation temporaire de vitesse peut être portée à la connaissance du conducteur par un ordre écrit OCAR (marcher avec prudence, vitesse d'un homme au pas, ou ne pas dépasser une vitesse en km/h)"
+      ],
+      "distractors": [
+        "Les TIV fixes de type B (demi-cercle bas) s'adressent spécifiquement aux trains de marchandises MA100 et MA90",
+        "Les limitations permanentes de vitesse figurent au chapitre 2 des Livrets de ligne (LiLi)",
+        "Le Tableau P impose à tous les trains de fret de ramener immédiatement leur vitesse à 60 km/h",
+        "Lorsque le conducteur est prévenu de la présence de TIV de chantier par Fiche ARTIC, un repère d'approche est obligatoirement maintenu à 200 m au moins avant le TIV à distance"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A14.01 (décembre 2024) récapitule : vitesses limites permanentes au Chapitre 3 des LiLi ; TIV type B (demi-cercle bas) pour V > 140 km/h ; TIV type C (demi-cercle haut) pour automoteurs ; Tableau P (permanent et chantier) pour V > 160 km/h -> 160 km/h ; limitations temporaires par ordre écrit OCAR (inopinées) ou TIV de chantier (avec repère d'approche min. 200 m uniquement si non prévenu par Fiches ARTIC).",
+      "sources": [
+        "A14.01 — © Lineas, December 15, 2024 Lille (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe 1, Information et Principe 2"
+      ]
+    },
+    {
+      "id": "lot02-q12",
+      "type": "qcm",
+      "category": "Ralentissement 30 et Rappel Ralentissement 30",
+      "fiche": "A14.02",
+      "difficulty": "moyen",
+      "question": "Vous approchez d'une gare située sur une section de ligne à une voie banalisée. Vous avez franchi un Ralentissement 30 (deux feux jaunes fixes horizontaux) suivi d'un Rappel Ralentissement 30 (deux feux jaunes fixes verticaux) fermé. Votre locomotive vient de franchir l'aiguille d'entrée en déviation à 30 km/h, et le carré de sortie est ouvert. À quel moment précis pouvez-vous reprendre la vitesse normale (si rien ne s'y oppose) ?",
+      "correctAnswer": "Lorsque le dernier véhicule de votre train a franchi l'aiguille de sortie de la gare",
+      "distractors": [
+        "Lorsque le dernier véhicule de votre train a franchi l'aiguille d'entrée en déviation",
+        "Dès que la tête de votre train a franchi le signal de sortie ouvert",
+        "Dès que la tête de votre train a franchi l'aiguille d'entrée en déviation",
+        "Lorsque le dernier véhicule de votre train a franchi le carré combiné avec le RR30",
+        "Dès que la tête de votre train a franchi l'aiguille de sortie de la gare",
+        "Uniquement après avoir franchi le panneau d'entrée du canton suivant en pleine voie"
+      ],
+      "explanation": "Après un R30 suivi d'un RR30 fermé, la vitesse maximale de 30 km/h s'applique à partir de la première aiguille et la vitesse normale ne peut être reprise que lorsque le dernier véhicule du train a franchi : l'aiguille correspondante, la dernière aiguille (en cas d'aiguilles successives), ou l'aiguille de sortie s'il s'agit d'une gare de voie unique ou d'une gare d'une section de ligne à une voie banalisée.",
+      "sources": [
+        "A14.02 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/4 et 4/4, Principe et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q13",
+      "type": "qcm_multi",
+      "category": "Ralentissement 30 / Rappel Ralentissement 30 — Cas particuliers",
+      "fiche": "A14.02",
+      "difficulty": "moyen",
+      "question": "Concernant les particularités d'implantation et d'application du R30 et du RR30, quelles propositions sont conformes à la fiche A14.02 ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Lorsque la distance entre le R30 et le RR30 est réduite, le R30 est précédé d'un feu jaune clignotant",
+        "Le R30 et le RR30 peuvent être présentés même lorsque l'aiguille intéressée n'est pas prise en déviation (par exemple entrée à contre-sens sur une ICS/ITCS), et un RR30 peut aussi concerner une aiguille prise en talon",
+        "En signalisation mécanique, lorsque vous avez rencontré un R30 fermé mais que le RR30 correspondant est ouvert, vous continuez d'appliquer les prescriptions du R30 à distance jusqu'au franchissement du RR30, puis reprenez la vitesse normale si rien ne s'y oppose"
+      ],
+      "distractors": [
+        "En signalisation mécanique, le R30 présente une cocarde jaune triangulaire pointe en bas et le RR30 une cocarde jaune triangulaire pointe en haut",
+        "En signalisation mécanique, dès que vous apercevez de loin que le RR30 correspondant est ouvert, vous pouvez accélérer immédiatement avant son franchissement",
+        "Lorsque l'emplacement de l'aiguille protégée par un RR30 doit être repéré, il est matérialisé par un chevron pointe en haut",
+        "Un RR30 ne concerne jamais une aiguille prise en talon ni un itinéraire en voie directe sans déviation"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A14.02 précise : R30 mécanique = pointe en haut, RR30 mécanique = pointe en bas ; repérage éventuel de l'aiguille = chevron pointe en bas ; distance réduite R30-RR30 = feu jaune clignotant avant R30 ; présentation possible en talon ou sans déviation (entrée à contre-sens ICS/ITCS) ; en mécanique, si RR30 est ouvert après un R30 fermé, on maintient les prescriptions du R30 jusqu'au franchissement du RR30 avant de reprendre la vitesse normale.",
+      "sources": [
+        "A14.02 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/4, 2/4, 3/4 et 4/4, Principe, Description, Cas particuliers et Application métier 2"
+      ]
+    },
+    {
+      "id": "lot02-q14",
+      "type": "qcm",
+      "category": "Ralentissement 60 et Rappel Ralentissement 60",
+      "fiche": "A14.03",
+      "difficulty": "difficile",
+      "question": "Vous circulez en signalisation lumineuse et rencontrez un panneau présentant un Ralentissement 60 (deux feux jaunes clignotants horizontaux) conjointement avec un feu jaune clignotant en partie basse. Le panneau suivant vous présente un Rappel Ralentissement 60 (deux feux jaunes clignotants verticaux) conjointement avec un avertissement (feu jaune fixe en bas). Quel risque spécifique est associé à cette séquence et quelle priorité de conduite s'impose ?",
+      "correctAnswer": "La distance séparant cet avertissement du signal d'arrêt suivant peut n'être que de 500 mètres : vous devez prendre en compte prioritairement la mission d'arrêt (tout en ne dépassant pas 60 km/h sur l'aiguille en aval du RR60)",
+      "distractors": [
+        "La distance entre le RR60 et la première aiguille est réduite à 100 mètres : la limitation à 60 km/h est prioritaire sur l'avertissement",
+        "La présence simultanée du RR60 et de l'avertissement annule la VISA et autorise à aborder le signal d'arrêt suivant à 60 km/h",
+        "Cette combinaison signifie que la vitesse sur l'aiguille est abaissée automatiquement de 60 km/h à 30 km/h",
+        "La distance entre l'avertissement et le signal d'arrêt suivant est garantie d'au moins 1 200 mètres grâce au feu jaune clignotant",
+        "Vous pouvez reprendre la vitesse normale dès que la tête du train a franchi l'aiguille si le signal d'arrêt est encore invisible",
+        "En signalisation mécanique, cette même combinaison est présentée par deux cocardes jaunes clignotantes"
+      ],
+      "explanation": "Les signaux R60 et RR60 sont utilisés exclusivement en signalisation lumineuse. Lorsqu'un RR60 est présenté conjointement avec un avertissement précédé d'un feu jaune clignotant, la distance séparant cet avertissement du signal d'arrêt suivant peut n'être que de 500 mètres : le schéma d'implantation de la fiche A14.03 souligne explicitement « Prendre en compte prioritairement la mission d'arrêt ! ».",
+      "sources": [
+        "A14.03 — © Lineas, December 11, 2022 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe, Description et Implantation"
+      ]
+    },
+    {
+      "id": "lot02-q15",
+      "type": "qcm",
+      "category": "TIV mobiles",
+      "fiche": "A14.04",
+      "difficulty": "difficile",
+      "question": "Vous venez de franchir un avertissement fermé (feu jaune fixe). En aval, avant le carré annoncé, vous rencontrez un TIV mobile à distance (losange) fermé présentant le chiffre « 40 », alors que le carré correspondant en aval est fermé. Comment devez-vous interpréter ce TIV mobile à distance fermé ?",
+      "correctAnswer": "Un TIV à distance fermé rencontré à la suite d'un avertissement n'est pas à considérer : lorsque le carré correspondant est fermé, aucun itinéraire n'est sélectionné et le TIV mobile présente son aspect le plus restrictif (« fermé ») ; la mission d'arrêt reste, dans tous les cas, prioritaire",
+      "distractors": [
+        "Vous devez impérativement franchir le carré fermé à 40 km/h maximum puisque le TIV mobile à distance vous indique un itinéraire à 40 km/h",
+        "Le TIV mobile à distance « 40 » confirme que l'itinéraire en déviation à 40 km/h est déjà tracé et que le carré va nécessairement s'ouvrir à votre approche",
+        "Vous devez abaisser la vitesse de la VISA de 30 km/h à 40 km/h à 300 m du carré annoncé",
+        "La présentation d'un TIV à distance « 40 » après un avertissement constitue une contradiction de signalisation imposant un arrêt d'urgence immédiat",
+        "Vous devez mémoriser 40 km/h et maintenir cette limite au-delà du carré même si, après son ouverture, le TIV de rappel carré présente une bande verticale blanche",
+        "Ce TIV mobile à distance impose de limiter la vitesse à 40 km/h uniquement jusqu'au carré, sans rapport avec la mission d'arrêt"
+      ],
+      "explanation": "Lorsque le signal (carré) portant le TIV de rappel est fermé, aucun itinéraire n'est sélectionné et le TIV à distance correspondant est automatiquement présenté dans son aspect le plus restrictif (« fermé »). La fiche A14.04 précise clairement qu'un TIV à distance fermé rencontré à la suite d'un avertissement n'est donc pas à considérer : la mission d'arrêt doit rester, dans tous les cas, prioritaire.",
+      "sources": [
+        "A14.04 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 2/3 et 3/3, Implantation — Cas particuliers"
+      ]
+    },
+    {
+      "id": "lot02-q16",
+      "type": "qcm_multi",
+      "category": "TIV mobiles — Présentation et reprise de vitesse",
+      "fiche": "A14.04",
+      "difficulty": "moyen",
+      "question": "Concernant la présentation et l'application métier des Tableaux Indicateurs de Vitesse mobiles (TIV mobiles), quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Le TIV mobile à distance est en forme de losange (chiffres noirs sur fond blanc, répétition en cabine) et le TIV mobile de rappel est de forme carrée (chiffres blancs sur fond noir, toujours groupé avec le carré)",
+        "En position d'ouverture, les TIV mobiles lumineux présentent une bande verticale blanche (et les TIV mécaniques sont effacés / présentent une bande verticale blanche)",
+        "Si vous avez rencontré un TIV mobile à distance fermé mais que le TIV de rappel correspondant est ouvert, vous continuez d'appliquer les prescriptions du TIV à distance jusqu'au franchissement du tableau de rappel, puis reprenez la vitesse normale si rien ne s'y oppose"
+      ],
+      "distractors": [
+        "Le TIV mobile à distance est toujours de forme circulaire (chiffres blancs sur fond noir) et le TIV de rappel en forme de losange",
+        "Si le TIV de rappel correspondant est ouvert après un TIV à distance fermé, vous pouvez reprendre la vitesse normale dès que vous apercevez de loin la bande verticale blanche",
+        "Après un TIV à distance fermé suivi d'un TIV de rappel fermé, la vitesse normale est reprise dès que la tête du train a franchi l'aiguille correspondante",
+        "Un TIV mobile à distance ne peut jamais être accompagné de deux voyants blancs clignotant alternativement"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A14.04 définit : TIV mobile à distance en losange (noir sur blanc, répétition cabine, éventuellement 2 voyants blancs clignotant alternativement haut/bas), TIV de rappel carré (blanc sur noir, groupé avec le carré), ouverture = bande verticale blanche (ou tableau effacé en mécanique). Si le rappel est ouvert après un TIV à distance fermé, on maintient les prescriptions du TIV à distance jusqu'au franchissement du rappel. Si le rappel est fermé, reprise de vitesse normale lorsque le dernier véhicule a franchi l'aiguille / dernière aiguille / aiguille de sortie (gare de VU).",
+      "sources": [
+        "A14.04 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Description et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot02-q17",
+      "type": "qcm",
+      "category": "TIV fixes à distance de type ordinaire",
+      "fiche": "A14.05",
+      "difficulty": "moyen",
+      "question": "Vous conduisez un train de marchandises MA90 (vitesse limite inférieure à celle des trains MA100) et rencontrez un TIV fixe à distance de type ordinaire à deux nombres superposés : « 70 » en haut et « 50 » en bas, suivi plus loin d'une pancarte « Z » puis d'une pancarte « R ». Quelle vitesse maximale devez-vous respecter dans la zone et à quel moment reprenez-vous votre vitesse normale ?",
+      "correctAnswer": "50 km/h (le taux le plus élevé s'adressant aux trains autorisés à circuler à une vitesse au moins égale à celle des MA100, et le taux le moins élevé aux autres trains), et reprise de la vitesse normale lorsque le dernier véhicule du train a franchi la pancarte « R »",
+      "distractors": [
+        "70 km/h (le taux le plus élevé s'adressant aux trains de marchandises de catégorie MA, et 50 km/h aux seuls trains HLP), et reprise dès que la tête franchit la pancarte « R »",
+        "50 km/h, et reprise de la vitesse normale dès que la tête de votre train a franchi la pancarte « R »",
+        "70 km/h, et reprise de la vitesse normale lorsque le dernier véhicule du train a franchi la pancarte « R »",
+        "50 km/h uniquement si le TIV est en forme de losange, mais 70 km/h s'il est de forme carrée",
+        "50 km/h dès le franchissement du TIV à distance et jusqu'au franchissement de la pancarte « Z »",
+        "60 km/h (moyenne des deux nombres) entre la pancarte « Z » et la pancarte « R »"
+      ],
+      "explanation": "Sur un TIV fixe à distance de type ordinaire à deux nombres, le taux le plus élevé s'adresse aux trains autorisés à circuler à une vitesse au moins égale à celle des trains MA100, et le taux le moins élevé aux autres trains (donc 50 km/h pour un MA90). La zone délimitée par « Z » (origine) et « R » (fin de zone) s'applique à partir de « Z », et la vitesse normale est reprise lorsque le dernier véhicule du train a franchi la pancarte « R ».",
+      "sources": [
+        "A14.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Description, Implantation et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q18",
+      "type": "qcm",
+      "category": "TIV fixes à distance — Forme losange vs carrée",
+      "fiche": "A14.05",
+      "difficulty": "moyen",
+      "question": "Selon la fiche A14.05, dans quel cas un TIV fixe à distance de type ordinaire est-il en forme de losange plutôt que de forme carrée, et à quoi s'applique un TIV fixe carré groupé avec le carré de sortie de certaines voies ?",
+      "correctAnswer": "Il est en forme de losange lorsqu'il impose une chute de vitesse égale ou supérieure à 40 km/h par rapport à la vitesse maximale d'approche (et est muni d'un dispositif de répétition en cabine), et de forme carrée dans les autres cas ; groupé avec un carré de sortie, le TIV fixe carré ne concerne que l'aiguille ou les aiguilles d'accès aux voies de ligne",
+      "distractors": [
+        "Il est en forme de losange dès que la chute de vitesse atteint 20 km/h, et de forme carrée uniquement pour les vitesses inférieures ou égales à 30 km/h",
+        "Il est en forme de losange pour les limitations permanentes supérieures à 60 km/h, et de forme carrée pour les limitations inférieures ou égales à 60 km/h",
+        "Il est en forme de losange uniquement en Block Manuel, et toujours de forme carrée sur les lignes équipées en BAL",
+        "Groupé avec un carré de sortie, un TIV fixe carré impose la vitesse indiquée jusqu'au premier panneau de pleine voie (fin de canton)",
+        "Il est en forme de losange lorsqu'il porte deux nombres superposés, et toujours de forme carrée lorsqu'il ne porte qu'un seul nombre",
+        "Un TIV fixe carré groupé avec un carré de sortie est obligatoirement éclairé de nuit et muni d'un dispositif de répétition en cabine"
+      ],
+      "explanation": "Un TIV fixe à distance de type ordinaire est en forme de losange lorsqu'il impose une chute de vitesse ≥ 40 km/h par rapport à la vitesse maximale à laquelle il peut être abordé (et lorsqu'il est muni d'un dispositif de répétition en cabine), et de forme carrée dans les autres cas. Groupé avec le carré de sortie de certaines voies, le TIV fixe carré ne concerne que l'aiguille ou les aiguilles d'accès aux voies de ligne (et peut ne pas être éclairé ni réflectorisé).",
+      "sources": [
+        "A14.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2, Principe et Description"
+      ]
+    },
+    {
+      "id": "lot02-q19",
+      "type": "qcm",
+      "category": "Points de transition de vitesse limite",
+      "fiche": "A14.06",
+      "difficulty": "moyen",
+      "question": "Selon la fiche A14.06 (version juin 2026), vous abordez un point de transition de vitesse limite repéré par une pancarte « Km 432,5 » (non éclairée la nuit). Quelle différence réglementaire existe-t-il entre le sens de la vitesse croissante et le sens de la vitesse décroissante annoncée par une pancarte « Transition de vitesse » ?",
+      "correctAnswer": "En vitesse croissante, la pancarte « Km... » est isolée et vous pouvez reprendre le taux plus élevé dès que le dernier véhicule du train a dégagé la pancarte ; en vitesse décroissante annoncée par une pancarte « Transition de vitesse », vous devez respecter le taux prévu pour l'indice de votre train aux LiLi au plus tard à partir de la pancarte « Km... »",
+      "distractors": [
+        "En vitesse croissante, vous pouvez accélérer dès que la tête du train a franchi la pancarte « Km... » ; en vitesse décroissante, la vitesse réduite ne s'applique qu'une fois le dernier véhicule passé",
+        "La pancarte « Transition de vitesse » s'utilise exclusivement dans le sens de la vitesse croissante pour annoncer un relèvement de vitesse aux LiLi",
+        "En vitesse décroissante, la pancarte « Transition de vitesse » impose automatiquement une vitesse uniforme de 60 km/h à tous les trains de fret",
+        "La pancarte « Km... » indique le point kilométrique exact au mètre près et est obligatoirement éclairée la nuit",
+        "La pancarte « Transition de vitesse » est toujours implantée en complément d'un TIV fixe de type ordinaire et jamais à sa place",
+        "En vitesse croissante comme en vitesse décroissante, le changement de vitesse limite s'applique au passage de la locomotive devant la pancarte « Km... »"
+      ],
+      "explanation": "La fiche A14.06 (juin 2026) distingue : (1) sens vitesse croissante -> pancarte « Km... » isolée, respect du nouveau taux (plus élevé) dès que le dernier véhicule du train a dégagé la pancarte ; (2) sens vitesse décroissante -> pancarte « Km... » (ou point remarquable) précédée d'un TIV fixe à distance (ordinaire, B ou C) ou d'une pancarte « Transition de vitesse » (lorsque le TIV ordinaire ne suffit pas à annoncer les taux par catégorie aux LiLi), avec respect du taux prévu (TIV ou indice du train aux LiLi) au plus tard à partir de la pancarte « Km... » ou du point remarquable.",
+      "sources": [
+        "A14.06 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/2 et 2/2, Description, Implantation et Application métier 1.1 et 1.2"
+      ]
+    },
+    {
+      "id": "lot02-q20",
+      "type": "qcm",
+      "category": "Les TIV pentagonaux",
+      "fiche": "A14.07",
+      "difficulty": "moyen",
+      "question": "Vous conduisez un train de fret remorqué par une série d'engin moteur désignée au § 3 des RT/LiLi comme concernée par une limitation sur un ouvrage d'art. Vous rencontrez un TIV pentagonal à distance (pointe en haut, noir sur blanc) affichant le chiffre « 3 » accompagné de la pancarte « L », suivi d'un TIV d'exécution pentagonal (pointe en bas, blanc sur noir) « 3 » puis d'un tableau blanc pentagonal (pointe en bas). Quelle vitesse maximale devez-vous respecter et quand pouvez-vous reprendre la vitesse normale ?",
+      "correctAnswer": "30 km/h (vitesse indiquée en dizaines de km/h), et reprise de la vitesse normale si rien ne s'y oppose dès que l'engin moteur a franchi le tableau blanc pentagonal (la pancarte « L » indiquant que la limitation ne concerne que les séries d'engins moteurs désignées aux RT/LiLi)",
+      "distractors": [
+        "30 km/h, et vous devez obligatoirement attendre que le dernier véhicule du train ait franchi le tableau blanc pentagonal malgré la pancarte « L »",
+        "3 km/h (vitesse d'un homme au pas), et reprise dès que l'engin moteur a franchi le tableau blanc pentagonal",
+        "30 km/h uniquement entre le TIV à distance pointe en haut et le TIV d'exécution pointe en bas",
+        "60 km/h car la pancarte « L » double la valeur indiquée pour les locomotives modernes",
+        "La pancarte « L » signifie « Ligne libre » : le TIV pentagonal ne concerne pas votre train si vous circulez en charge et non en HLP",
+        "30 km/h, et reprise de la vitesse normale dès que la tête de l'engin moteur atteint le tableau blanc pentagonal"
+      ],
+      "explanation": "Les TIV pentagonaux (non éclairés la nuit) indiquent la vitesse en dizaines de km/h (ici 3 = 30 km/h) pour les séries d'engins moteurs, trains de marchandises ou de messageries repris au § 3 des RT/LiLi. La pancarte « L » précise que la limitation spéciale ne concerne que les séries d'engins moteurs désignées aux RT/LiLi : la vitesse normale reprend donc dès que l'engin moteur (ou le dernier véhicule du train si la limitation concerne le train entier) a franchi le tableau blanc pentagonal pointe en bas.",
+      "sources": [
+        "A14.07 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q21",
+      "type": "qcm_multi",
+      "category": "Signaux de Limitation Temporaire de Vitesse (LTV)",
+      "fiche": "A14.08",
+      "difficulty": "moyen",
+      "question": "Concernant la signalisation de chantier (Limitations Temporaires de Vitesse — LTV) décrite dans la fiche A14.08 (décembre 2021), quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Lorsque la vitesse limite autorisée par la LTV est inférieure ou égale à 40 km/h, le TIV à distance circulaire (noir sur blanc) est accompagné d'un disque jaune (feu jaune la nuit) ; le TIV à distance et ce feu jaune sont munis d'un éclairage intermittent cadencé",
+        "Le conducteur doit respecter la limitation de vitesse prescrite par les TIV de chantier quelles que soient les indications moins impératives pouvant lui être données par les autres signaux implantés à demeure",
+        "Lorsque les conducteurs ont déjà été avisés d'un chantier (ARTIC) mais que sa mise en place est retardée ou sa mise hors service avancée, le TIV-D est maintenu et annulé par une croix de Saint-André, le disque jaune éventuel est masqué et les autres signaux sont déposés ou annulés"
+      ],
+      "distractors": [
+        "Le disque jaune de complément est ajouté sur le TIV à distance dès que la vitesse limite autorisée est inférieure ou égale à 60 km/h",
+        "Lorsqu'un panneau permanent situé dans la zone de chantier présente un feu vert fixe, son indication lève la limitation temporaire de vitesse avant le tableau blanc circulaire",
+        "La reprise de la vitesse normale s'effectue dès que la tête du train a franchi le tableau blanc circulaire de fin de LTV",
+        "Lorsqu'une aiguille donnant accès à une voie de service se situe sur le chantier, un tableau blanc circulaire est obligatoirement installé pour cette direction"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A14.08 précise : TIV-D circulaire avec disque jaune (feu jaune la nuit) si V ≤ 40 km/h, éclairage intermittent cadencé du TIV-D et du feu jaune ; primauté de la LTV sur les indications moins impératives des signaux permanents ; chantier retardé/terminé par anticipation alors que les conducteurs sont avisés -> TIV-D maintenu annulé par croix de Saint-André, disque jaune masqué, autres signaux déposés ou annulés ; reprise de vitesse normale lorsque le dernier véhicule du train a franchi le tableau blanc circulaire (pas de tableau blanc vers une voie de service).",
+      "sources": [
+        "A14.08 — © Lineas, December 12, 2021 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description, Implantation et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q22",
+      "type": "qcm",
+      "category": "Tableau blanc à flèche verticale noire",
+      "fiche": "A14.09",
+      "difficulty": "moyen",
+      "question": "Vous avez franchi un TIV à distance de chantier circulaire « 40 » (avec disque jaune). Avant le TIV d'exécution de la LTV, votre train emprunte en pointe une aiguille qui vous dirige vers la branche principale non concernée par le chantier, où est implanté en talon un tableau circulaire blanc portant une flèche verticale noire dirigée vers le haut. À quel moment précis pouvez-vous reprendre la vitesse normale (si rien ne s'y oppose) ?",
+      "correctAnswer": "Dès que la tête du train a franchi ce tableau blanc à flèche verticale noire",
+      "distractors": [
+        "Uniquement lorsque le dernier véhicule du train a franchi ce tableau blanc à flèche verticale noire",
+        "Uniquement lorsque le dernier véhicule du train a franchi un tableau blanc circulaire sans flèche situé plus loin",
+        "Vous devez quand même respecter 40 km/h sur une distance de 200 m au-delà du tableau avant d'accélérer",
+        "Dès que vous apercevez de loin le tableau blanc à flèche verticale noire, avant même de franchir l'aiguille en pointe",
+        "Uniquement après avoir franchi le panneau de cantonnement suivant ouvert au feu vert",
+        "Ce tableau ne vous autorise à accélérer que si votre train circule sur une voie de service"
+      ],
+      "explanation": "Implanté en talon d'une aiguille prise en pointe située entre le TIV-D et le TIV-E d'une LTV (sur la branche non concernée par la LTV, jamais vers une voie de service), le tableau blanc circulaire à flèche verticale noire permet au conducteur de reprendre la vitesse normale, si rien ne s'y oppose, dès que la TÊTE du train a franchi ce tableau (à la différence du tableau blanc circulaire de fin de LTV, qui exige le passage du dernier véhicule).",
+      "sources": [
+        "A14.09 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe, Description, Implantation et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot02-q23",
+      "type": "open",
+      "category": "Synthèse opérationnelle — Points de reprise de vitesse normale",
+      "fiche": "A14.09",
+      "difficulty": "difficile",
+      "question": "En conduite fret, la règle de reprise de la vitesse normale (tête du train vs engin moteur vs dernier véhicule) varie selon la signalisation rencontrée. Pour chacun des 5 cas suivants (si rien ne s'y oppose), indiquez précisément quelle partie du train doit avoir franchi quel repère pour reprendre la vitesse normale : (1) R30/RR30 ou R60/RR60 en gare de voie unique ou sur une voie banalisée ; (2) TIV fixe à distance avec zone Z / R ; (3) TIV pentagonal accompagné de la pancarte « L » ; (4) LTV ordinaire avec tableau blanc circulaire ; (5) Tableau blanc à flèche verticale noire après un TIV-D de chantier.",
+      "modelAnswer": "1. R30/RR30 ou R60/RR60 en gare de voie unique ou sur une section de ligne à une voie banalisée : lorsque le DERNIER VÉHICULE du train a franchi l'aiguille de sortie de la gare (A14.02, A14.03). 2. TIV fixe à distance avec pancartes Z et R : lorsque le DERNIER VÉHICULE du train a franchi la pancarte « R » (A14.05). 3. TIV pentagonal accompagné de la pancarte « L » (limitation concernant uniquement certaines séries d'engins moteurs) : dès que l'ENGIN MOTEUR a franchi le tableau blanc de forme pentagonale pointe en bas (alors que sans « L », pour une limitation concernant le train, il faut attendre le dernier véhicule) (A14.07). 4. LTV ordinaire (chantier) : lorsque le DERNIER VÉHICULE du train a franchi le tableau blanc de forme circulaire (A14.08). 5. Tableau blanc à flèche verticale noire (branche non concernée par la LTV en talon d'aiguille entre TIV-D et TIV-E) : dès que la TÊTE du train a franchi ce tableau blanc à flèche verticale noire (A14.09).",
+      "keyPoints": [
+        {
+          "label": "(1) R30/RR30 ou R60/RR60 en gare de VU ou de 1 VB : DERNIER VÉHICULE ayant franchi l'aiguille de sortie",
+          "critical": true
+        },
+        {
+          "label": "(2) TIV fixe à distance avec zone Z/R : DERNIER VÉHICULE ayant franchi la pancarte « R »",
+          "critical": true
+        },
+        {
+          "label": "(3) TIV pentagonal avec pancarte « L » : ENGIN MOTEUR ayant franchi le tableau blanc pentagonal pointe en bas (et dernier véhicule si la limitation concerne le train)",
+          "critical": true
+        },
+        {
+          "label": "(4) LTV ordinaire : DERNIER VÉHICULE ayant franchi le tableau blanc circulaire",
+          "critical": true
+        },
+        {
+          "label": "(5) Tableau blanc à flèche verticale noire : TÊTE du train ayant franchi ce tableau",
+          "critical": true
+        }
+      ],
+      "explanation": "La distinction entre tête du train (tableau blanc à flèche verticale noire A14.09), engin moteur (TIV pentagonal avec « L » A14.07) et dernier véhicule (R30/R60/TIV mobile/TIV fixe/LTV/transition croissante) est fondamentale en fret où la longueur de rame peut dépasser plusieurs centaines de mètres.",
+      "sources": [
+        "A14.02 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 4/4, Application métier 1",
+        "A14.03 — © Lineas, December 11, 2022 Brussels (All rights reserved) — p. 3/3, Application métier 1",
+        "A14.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 2/2, Application métier 1",
+        "A14.07 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 2/2, Application métier 1",
+        "A14.08 — © Lineas, December 12, 2021 Brussels (All rights reserved) — p. 2/2, Application métier 1",
+        "A14.09 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Application métier 1"
+      ]
+    }
+  ]
+}

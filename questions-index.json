@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T15:19:00Z",
+  "updatedAt": "2026-11-24T15:38:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -44,6 +44,37 @@
         "A11.17"
       ],
       "generatedAt": "2026-11-24T15:19:00Z"
+    },
+    {
+      "packId": "lot02-annonces-vitesses",
+      "title": "Lot 2 — Signaux d'annonce, VISA, feux d'ouverture et limitations de vitesse (A12 / A13 / A14)",
+      "file": "lot02-annonces-vitesses.json",
+      "description": "Avertissement et VISA (4 phases), feu jaune clignotant, bande lumineuse jaune horizontale, feu vert clignotant, feux vert/blanc/blanc clignotant, R30/RR30, R60/RR60, TIV mobiles, TIV fixes, points de transition, TIV pentagonaux, LTV et tableau blanc à flèche verticale noire.",
+      "questionCount": 23,
+      "breakdown": {
+        "qcm": 14,
+        "qcm_multi": 5,
+        "open": 4
+      },
+      "fiches": [
+        "A12.01",
+        "A12.02",
+        "A12.03",
+        "A12.04",
+        "A13.01",
+        "A13.02",
+        "A13.03",
+        "A14.01",
+        "A14.02",
+        "A14.03",
+        "A14.04",
+        "A14.05",
+        "A14.06",
+        "A14.07",
+        "A14.08",
+        "A14.09"
+      ],
+      "generatedAt": "2026-11-24T15:38:00Z"
     }
   ]
 }
