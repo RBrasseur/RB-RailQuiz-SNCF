@@ -1,4 +1,4 @@
-# RailQuiz Lineas SNCF — by RB (V5)
+# RailQuiz Lineas SNCF — by RB (V5.1 — Correctif chargement)
 
 ## Nouveautés V5
 - **Chargement robuste multi-formats + Auto-découverte GitHub Pages** :
@@ -13,3 +13,8 @@
 1. Décompressez `railquiz-sncf-v5.zip`.
 2. Sur votre dépôt GitHub : **Add file → Upload files**, glissez-déposez tous les fichiers de l'archive (`index.html`, `sw.js`, `manifest.webmanifest`, `icon-192.png`, `icon-512.png`, `README.md`) à la racine, puis **Commit changes**.
 3. Attendez 30 à 60 secondes puis rechargez l'application.
+
+## Correctif V5.1
+- Correction d'une erreur de syntaxe JavaScript qui bloquait le démarrage sur « Chargement... ».
+- Chargement des 13 lots en parallèle (démarrage quasi instantané).
+- Purge automatique du cache Service Worker (`v5-1`).

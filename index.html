@@ -1621,7 +1621,7 @@
           }
           const text = await res.text();
           // Retire éventuel BOM UTF-8
-          const cleanText = text.replace(/^﻿/, '');
+          const cleanText = text.replace(/^\uFEFF/, '');
           try {
             return { ok: true, status: res.status, error: null, data: JSON.parse(cleanText) };
           } catch (parseErr) {
@@ -1632,7 +1632,7 @@
           try {
             const resOff = await fetch(url);
             if (resOff.ok) {
-              const cleanOff = (await resOff.text()).replace(/^﻿/, '');
+              const cleanOff = (await resOff.text()).replace(/^\uFEFF/, '');
               return { ok: true, status: resOff.status, error: null, data: JSON.parse(cleanOff) };
             }
           } catch {}
@@ -1748,26 +1748,24 @@
           return 0;
         }
 
-        // 1. Chargement des fichiers listés dans le manifeste
-        for (const item of manifestFileQueue) {
+        // 1. Chargement en parallèle des fichiers listés dans le manifeste
+        await Promise.all(manifestFileQueue.map(item => {
           const clean = item.raw.replace(/^\.?\//, '');
           const candidates = [...new Set([
             item.raw.startsWith('./') || item.raw.startsWith('/') || item.raw.startsWith('http') ? item.raw : `${item.basePath}${clean}`,
             `./${clean}`,
             `./data/${clean}`
           ])];
-          await loadSinglePack(candidates, clean);
-        }
+          return loadSinglePack(candidates, clean);
+        }));
 
         // 2. Fallback auto-découverte GitHub Pages si 0 question chargée (ou manifeste absent/cassé)
         if (loadedQuestions.length === 0 && navigator.onLine) {
-          diag.push('[INFO] Aucune question via index -> tentative d'auto-découverte sur le dépôt GitHub...');
+          diag.push("[INFO] Aucune question via index -> tentative d'auto-découverte sur le dépôt GitHub...");
           const ghFiles = await discoverGitHubJsonFiles(diag);
           if (ghFiles.length > 0) {
             diag.push(`[INFO] ${ghFiles.length} fichier(s) .json détecté(s) sur GitHub : ${ghFiles.join(', ')}`);
-            for (const path of ghFiles) {
-              await loadSinglePack([path], path);
-            }
+            await Promise.all(ghFiles.map(path => loadSinglePack([path], path)));
             if (loadedQuestions.length > 0) {
               hadWarnings = true;
               diag.push('[CONSEIL] Lots chargés par secours GitHub. Mettez à jour questions-index.json avec ces noms exacts pour garantir le mode 100 % hors-ligne.');
@@ -2506,7 +2504,7 @@
           const errs = [];
           for (const file of files) {
             try {
-              const raw = (await file.text()).replace(/^﻿/, '');
+              const raw = (await file.text()).replace(/^\uFEFF/, '');
               const pack = JSON.parse(raw);
               const qs = extractPackQuestions(pack, file.name);
               if (qs.length === 0) throw new Error('Aucune question reconnue');
@@ -2544,7 +2542,7 @@
           const file = e.target.files?.[0];
           if (!file) return;
           try {
-            const data = JSON.parse((await file.text()).replace(/^﻿/, ''));
+            const data = JSON.parse((await file.text()).replace(/^\uFEFF/, ''));
             if (!data.history) throw new Error('Fichier de progression invalide.');
             saveProgress(data);
             updateDashboardStats();
