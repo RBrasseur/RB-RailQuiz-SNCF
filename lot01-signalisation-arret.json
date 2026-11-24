@@ -1,0 +1,1078 @@
+{
+  "packId": "lot01-signalisation-arret",
+  "title": "Lot 1 — Principes de signalisation et signaux d'arrêt (A10 / A11)",
+  "generatedAt": "2026-11-24T15:19:00Z",
+  "questions": [
+    {
+      "id": "lot01-q01",
+      "type": "qcm_multi",
+      "category": "Principes de sécurité et risques ferroviaires",
+      "fiche": "A10.01",
+      "difficulty": "facile",
+      "question": "Selon la fiche A10.01, quels sont les risques particuliers inhérents à la circulation ferroviaire et les piliers sur lesquels repose toujours la sécurité des circulations ? (Sélectionnez toutes les propositions exactes.)",
+      "correctAnswers": [
+        "La prise en écharpe, définie comme la rencontre de deux trains circulant sur des itinéraires convergents (aiguillage ou traversée)",
+        "Le rattrapage d'un train par un autre circulant dans le même sens et sur la même voie, ainsi que le nez à nez sur la même voie en sens contraire",
+        "L'obéissance absolue aux signaux par les conducteurs, associée au respect rigoureux des procédures et prescriptions de sécurité par tous les agents concernés"
+      ],
+      "distractors": [
+        "La prise en écharpe, définie comme le dépassement simultané de deux trains circulant sur des voies parallèles à grand gabarit",
+        "Le rattrapage, qui ne peut survenir réglementairement que sur les lignes exploitées en voie unique sans cantonnement",
+        "L'initiative d'adaptation des signaux par le conducteur lorsqu'il estime la voie libre devant lui",
+        "Le seul bon fonctionnement des dispositifs techniques de sécurité (enclenchements et détecteurs), indépendamment des procédures humaines"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A10.01 recense cinq risques majeurs : le rattrapage, la prise en écharpe (itinéraires convergents : aiguillage ou traversée), le nez à nez, le déraillement et la rencontre d'obstacles. La sécurité repose toujours sur le respect rigoureux des procédures et prescriptions par tous les agents, l'obéissance absolue aux signaux par les conducteurs et le respect des procédures techniques. Tout le personnel doit une obéissance passive et immédiate aux signaux le concernant.",
+      "sources": [
+        "A10.01 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/1, Principe, Sécurité des circulations et Application métier"
+      ]
+    },
+    {
+      "id": "lot01-q02",
+      "type": "qcm",
+      "category": "Espacement des trains",
+      "fiche": "A10.02",
+      "difficulty": "moyen",
+      "question": "Vous circulez sur une ligne équipée en Block Automatique Lumineux (BAL). Quelle est la longueur maximale de principe d'un canton de BAL et où débute pratiquement ce canton ?",
+      "correctAnswer": "2 800 m en principe (exceptionnellement 3 000 m, par exemple en présence d'un tunnel) ; pratiquement, le canton débute environ à 30 m en aval du signal, au joint de cantonnement",
+      "distractors": [
+        "1 500 m en principe (exceptionnellement 2 000 m) ; pratiquement, le canton débute exactement au droit du mât du signal",
+        "2 800 m en principe (exceptionnellement 3 000 m) ; pratiquement, le canton débute 100 m en amont du signal",
+        "6 000 m en principe (exceptionnellement 8 000 m) ; pratiquement, le canton débute environ à 30 m en aval du signal",
+        "2 000 m en principe (exceptionnellement 2 800 m) ; pratiquement, le canton débute environ à 50 m en aval du signal",
+        "3 000 m en principe (exceptionnellement 4 500 m) ; pratiquement, le canton débute au premier appareil de voie protégé",
+        "2 800 m en principe sans aucune exception possible ; pratiquement, le canton débute exactement au pied du panneau d'entrée"
+      ],
+      "explanation": "En BAL, la longueur maximale théorique d'un canton est en principe de 2 800 m et peut atteindre exceptionnellement 3 000 m (présence d'un tunnel par exemple). En pratique, le canton débute environ à 30 mètres en aval du signal, au joint de cantonnement.",
+      "sources": [
+        "A10.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 4/6 et 5/6, Le Block Automatique Lumineux (BAL)"
+      ]
+    },
+    {
+      "id": "lot01-q03",
+      "type": "qcm",
+      "category": "Espacement des trains",
+      "fiche": "A10.02",
+      "difficulty": "moyen",
+      "question": "Sur une ligne exploitée en cantonnement téléphonique ou en Block Manuel par appareils (BM), comment la vérification de la libération complète d'un canton par un train est-elle effectuée ?",
+      "correctAnswer": "Uniquement par l'observation directe, par le garde, de la présence de la signalisation d'arrière au passage ou à l'arrivée de chaque train",
+      "distractors": [
+        "Automatiquement par des compteurs d'essieux ou circuits de voie installés en permanence sur toute la longueur du canton",
+        "Par simple confirmation radio du conducteur annonçant qu'il a dépassé le panneau d'entrée de la gare suivante",
+        "Par le comptage manuel des véhicules par l'aiguilleur comparé au bulletin de freinage",
+        "Par l'extinction automatique du feu rouge du sémaphore de sortie dès le franchissement de la locomotive",
+        "Uniquement par l'échange de dépêches CAPI sans qu'aucune observation visuelle du train ne soit nécessaire",
+        "Par le déclenchement d'une pédale de libération actionnée par le premier essieu de l'engin moteur"
+      ],
+      "explanation": "En cantonnement téléphonique comme en Block Manuel (BM), la vérification de la libération complète d'un canton ne peut se faire que par l'observation directe, par le garde, de la présence de la signalisation d'arrière au passage ou à l'arrivée de chaque train.",
+      "sources": [
+        "A10.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 2/6 (Le cantonnement téléphonique) et p. 3/6 (Le Block Manuel)"
+      ]
+    },
+    {
+      "id": "lot01-q04",
+      "type": "qcm",
+      "category": "Espacement des trains",
+      "fiche": "A10.02",
+      "difficulty": "moyen",
+      "question": "Vous préparez votre circulation sur une section de ligne équipée en BAPR et consultez les documents de ligne. Quelle affirmation est exacte concernant le BAPR et la détermination du mode de cantonnement ?",
+      "correctAnswer": "Les cantons de BAPR sont beaucoup plus longs que ceux du BAL (environ 6 km et plus), certains parcours (traversée de gare par exemple) peuvent comporter des cantons de BAL, et le mode de cantonnement figure au chapitre 2 des RT ou des LiLi (« Distances. Installations. Cantonnement »)",
+      "distractors": [
+        "Les cantons de BAPR mesurent au maximum 2 800 m, ne peuvent jamais coexister avec des cantons de BAL et figurent au chapitre 1 des LiLi",
+        "Le BAPR est un block manuel à cantons longs sans contrôle automatique d'occupation, repéré par le sigle BMU aux RT/LiLi",
+        "En BAPR, le signal d'entrée présente toujours un avertissement en plus de la voie libre et du sémaphore, ce qui assure un débit supérieur au BAL",
+        "Le mode de cantonnement n'est jamais mentionné aux LiLi : il se déduit uniquement des plaques rencontrées en ligne",
+        "Sur les lignes en BAPR ou en BM, il est interdit d'implanter des cantons de BAL dans les traversées de gares",
+        "Le BAPR ne repose jamais sur des circuits de voie ou des compteurs d'essieux mais sur le système informatique CAPI associé au DAAT"
+      ],
+      "explanation": "En BAPR, le signal d'entrée présente une indication liée à l'occupation du canton suivant (arrêt ou voie libre), avec des cantons d'environ 6 km et plus. Comme en BM, certains parcours (traversée de gare par exemple) peuvent comporter des cantons de BAL. Le conducteur prend connaissance du mode et des postes de cantonnement au chapitre 2 des RT ou des LiLi (« Distances. Installations. Cantonnement »).",
+      "sources": [
+        "A10.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 5/6 (BAPR / Particularité commune au BM et au BAPR) et p. 6/6 (Application métier)"
+      ]
+    },
+    {
+      "id": "lot01-q05",
+      "type": "qcm",
+      "category": "Fonction et nature des signaux",
+      "fiche": "A10.03",
+      "difficulty": "facile",
+      "question": "Vous effectuez un mouvement de refoulement en signalisation sol : votre cabine de conduite n'est pas en tête du mouvement et un agent est placé en tête de la rame. À qui incombent les prescriptions concernant la signalisation normalement à la charge du conducteur ?",
+      "correctAnswer": "À l'agent placé en tête du mouvement",
+      "distractors": [
+        "Uniquement au conducteur, même s'il ne peut observer directement les signaux depuis sa cabine",
+        "Conjointement à l'aiguilleur du poste et au régulateur de la ligne",
+        "Au conducteur pour les signaux d'arrêt et à l'agent en tête uniquement pour les signaux de manœuvre",
+        "À l'agent placé en tête uniquement sur voies de service, mais au conducteur dès l'engagement d'une voie principale",
+        "Au conducteur dès que la vitesse du refoulement dépasse 15 km/h",
+        "À l'agent circulation de l'établissement dès que le mouvement est guidé par radio"
+      ],
+      "explanation": "La fiche A10.03 précise explicitement qu'en signalisation sol, lorsque le conducteur n'est pas en tête du mouvement, les prescriptions concernant la signalisation en charge du conducteur incombent à l'agent placé en tête.",
+      "sources": [
+        "A10.03 — © Lineas, December 15, 2019 Brussels (All rights reserved) — p. 1/3, Principe"
+      ]
+    },
+    {
+      "id": "lot01-q06",
+      "type": "qcm_multi",
+      "category": "Fonction et nature des signaux",
+      "fiche": "A10.03",
+      "difficulty": "moyen",
+      "question": "Concernant l'annonce des signaux d'arrêt en signalisation sol, quelles affirmations sont conformes à la fiche A10.03 ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Les signaux qui ne peuvent être abordés qu'en marche à vue ou en marche en manœuvre ne sont normalement pas annoncés",
+        "Les signaux situés sur voie principale à la sortie des gares en impasse ou d'arrêt général ne sont normalement pas annoncés",
+        "Sur voie principale, le guidon d'arrêt est annoncé, s'il y a lieu, par un signal commandant la marche à vue ou la marche en manœuvre"
+      ],
+      "distractors": [
+        "Tout carré, sémaphore ou guidon d'arrêt sur voie principale doit impérativement être précédé d'un avertissement à distance, sans aucune exception",
+        "Sur les sections de ligne où la vitesse est supérieure à 160 km/h, un feu jaune clignotant précède toujours le feu vert clignotant",
+        "Le feu rouge clignotant n'est jamais annoncé par un avertissement, même en voie principale de pleine ligne",
+        "Un carré situé à la sortie d'une gare en impasse est toujours annoncé par un disque mécanique ou lumineux"
+      ],
+      "displayCount": 5,
+      "explanation": "Normalement, le carré, le sémaphore et le feu rouge clignotant sont annoncés par un avertissement (qui peut être précédé d'un feu jaune clignotant, et d'un feu vert clignotant au-delà de 160 km/h). Toutefois, les signaux ne pouvant être abordés qu'en marche à vue ou marche en manœuvre, ainsi que ceux situés sur voie principale à la sortie des gares en impasse ou d'arrêt général, ne sont normalement pas annoncés. Sur voie principale, le guidon d'arrêt est annoncé s'il y a lieu par un signal commandant la marche à vue ou la marche en manœuvre.",
+      "sources": [
+        "A10.03 — © Lineas, December 15, 2019 Brussels (All rights reserved) — p. 2/3, Signaux d'annonce d'arrêt"
+      ]
+    },
+    {
+      "id": "lot01-q07",
+      "type": "qcm",
+      "category": "Implantation des signaux",
+      "fiche": "A10.04",
+      "difficulty": "moyen",
+      "question": "Sur une section de ligne à double voie où la circulation se fait normalement à gauche, un signal à demeure est exceptionnellement implanté à droite en raison d'un gabarit réduit. Quel équipement vous permet d'identifier qu'il s'adresse à votre voie ?",
+      "correctAnswer": "Une flèche oblique blanche, non éclairée la nuit, orientée vers la voie intéressée",
+      "distractors": [
+        "Une flèche horizontale blanche éclairée en permanence de jour comme de nuit",
+        "Deux flèches obliques blanches orientées en sens opposé de part et d'autre du mât",
+        "Une pancarte à fond noir portant l'inscription « Signal déporté » en lettres jaunes",
+        "Un feu auxiliaire blanc bleuté clignotant placé sous l'écran du panneau",
+        "Une bande verticale blanche continue peinte sur le mât du signal",
+        "Un repère de proximité circulaire à bande oblique noire placé 100 m en amont"
+      ],
+      "explanation": "Lorsque, exceptionnellement en raison de circonstances locales (ex. gabarit réduit), un signal est implanté à droite (disposition inverse sur lignes à circulation normale à droite), il porte une flèche oblique blanche non éclairée la nuit, orientée vers la voie intéressée. Deux flèches obliques blanches orientées du même côté caractérisent un signal de groupe s'adressant à deux voies principales convergentes.",
+      "sources": [
+        "A10.04 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/2 et 2/2, Particularités d'implantation des signaux à demeure"
+      ]
+    },
+    {
+      "id": "lot01-q08",
+      "type": "qcm_multi",
+      "category": "Implantation des signaux",
+      "fiche": "A10.04",
+      "difficulty": "moyen",
+      "question": "Concernant les particularités d'implantation des signaux de groupe et des zones de transition de sens de circulation, quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Un signal de groupe s'adressant à deux voies principales convergentes est muni de 2 flèches obliques blanches, non éclairées la nuit, orientées du même côté vers les deux voies intéressées",
+        "Un signal de groupe s'adressant à des voies de service convergentes peut être muni d'une flèche horizontale blanche, non éclairée la nuit",
+        "Aux points de transition entre circulation à gauche et circulation à droite, le côté d'implantation est rappelé par des pancartes ou tableaux portant l'inscription « Signaux à droite » ou « Signaux à gauche » en blanc sur fond noir (ou provisoirement en noir sur fond blanc)"
+      ],
+      "distractors": [
+        "Un signal de groupe s'adressant à deux voies principales convergentes porte toujours une seule flèche horizontale blanche éclairée la nuit",
+        "Il est interdit d'utiliser des flèches blanches sur des signaux implantés normalement à gauche, même en cas de risque d'ambiguïté",
+        "Dans les gares de voie unique dont les panneaux de sortie sont de part et d'autre des voies de dédoublement, le repère bas est éclairé en permanence par un feu blanc",
+        "Les signaux de type bas au ras du sol ne sont autorisés que sur les voies de service et jamais sur les voies principales"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A10.04 précise : 2 flèches obliques blanches non éclairées vers les deux voies pour un signal de groupe de deux voies principales convergentes ; flèche horizontale blanche (ou une/plusieurs flèches blanches dans certaines installations anciennes) pour des voies de service convergentes ; flèches possibles aussi en implantation normale pour lever une ambiguïté ; pancartes « Signaux à droite » / « Signaux à gauche » en blanc sur fond noir (ou provisoirement noir sur fond blanc) aux points de transition.",
+      "sources": [
+        "A10.04 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/2 et 2/2, Implantation et Particularités d'implantation des signaux à demeure"
+      ]
+    },
+    {
+      "id": "lot01-q09",
+      "type": "qcm",
+      "category": "Présentation de la signalisation",
+      "fiche": "A10.05",
+      "difficulty": "moyen",
+      "question": "Vous circulez de jour par temps de brouillard sur une ligne comportant des signaux mécaniques dont l'éclairage est prévu (sans éclairage permanent). À partir de quelle condition de visibilité ces signaux mécaniques doivent-ils être éclairés de jour ?",
+      "correctAnswer": "Lorsque, par suite des circonstances atmosphériques, les indications qu'ils donnent ne peuvent pas être distinguées à une distance d'au moins 100 mètres",
+      "distractors": [
+        "Lorsque leurs indications ne peuvent pas être distinguées à une distance d'au moins 200 mètres",
+        "Lorsque leurs indications ne peuvent pas être distinguées à une distance d'au moins 500 mètres",
+        "Uniquement entre le coucher et le lever officiels du soleil, quelle que soit la visibilité de jour",
+        "Dès que la visibilité descend sous la distance de freinage d'urgence du train le plus lourd de la ligne",
+        "Lorsque leurs indications ne peuvent pas être distinguées à une distance d'au moins 50 mètres",
+        "Uniquement sur ordre spécial du régulateur transmis par Fiche ARTIC"
+      ],
+      "explanation": "À moins qu'ils ne soient munis d'un éclairage permanent, les signaux mécaniques dont l'éclairage est prévu doivent être éclairés aussitôt que le jour baisse jusqu'au grand jour, et également de jour lorsque, par suite des circonstances atmosphériques, leurs indications ne peuvent pas être distinguées à une distance d'au moins 100 mètres.",
+      "sources": [
+        "A10.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 2/3, Signalisation mécanique — 3. Éclairage des signaux mécaniques"
+      ]
+    },
+    {
+      "id": "lot01-q10",
+      "type": "qcm",
+      "category": "Présentation de la signalisation",
+      "fiche": "A10.05",
+      "difficulty": "facile",
+      "question": "Comment se présente un tableau lumineux mobile en position d'ouverture, et quelle règle s'applique aux feux de signaux lumineux combinés ?",
+      "correctAnswer": "Le tableau lumineux mobile présente en position d'ouverture une bande verticale blanche continue ; les feux de signaux combinés (comportant au moins un signal lumineux) ne présentent, de jour comme de nuit, que la ou les indications les plus restrictives à observer",
+      "distractors": [
+        "Le tableau lumineux mobile présente un feu vert fixe en position d'ouverture ; les signaux combinés affichent toujours simultanément toutes les indications des signaux groupés",
+        "Le tableau lumineux mobile est totalement éteint en position d'ouverture ; les signaux lumineux combinés ne filtrent les indications restrictives que la nuit",
+        "Le tableau lumineux mobile présente une bande horizontale blanche continue ; les signaux combinés n'affichent l'indication la plus restrictive que par mauvaise visibilité",
+        "Le tableau lumineux mobile présente une bande oblique blanche ; les signaux combinés mécaniques et lumineux présentent toujours deux feux de couleurs différentes",
+        "Le tableau lumineux mobile présente un feu blanc clignotant ; les signaux combinés donnent priorité à l'indication de vitesse sur l'indication d'arrêt",
+        "Le tableau lumineux mobile présente une bande verticale verte ; les signaux lumineux combinés n'appliquent le masquage des indications moins restrictives qu'en BAL"
+      ],
+      "explanation": "Un tableau lumineux mobile présente en position d'ouverture une bande verticale blanche continue. Lorsque plusieurs signaux sont combinés, leurs feux ne présentent que la ou les indications les plus restrictives à observer : de nuit s'ils sont tous mécaniques, et de jour comme de nuit dès qu'il s'agit de signaux lumineux (groupés ou non avec des signaux mécaniques).",
+      "sources": [
+        "A10.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/3 (Signalisation lumineuse) et p. 3/3 (Signaux combinés)"
+      ]
+    },
+    {
+      "id": "lot01-q11",
+      "type": "qcm",
+      "category": "Plaques de repérage",
+      "fiche": "A10.06",
+      "difficulty": "facile",
+      "question": "Dans certaines gares, un signal est muni, en plus de sa plaque de repérage habituelle, d'une plaque de repérage arrière. À quoi sert cette plaque de repérage arrière ?",
+      "correctAnswer": "À permettre aux conducteurs prenant le signal à revers d'identifier le panneau qui leur a été désigné comme devant être dégagé avant l'exécution du mouvement de refoulement commandé par ce signal",
+      "distractors": [
+        "À autoriser le conducteur à franchir le signal à revers sans autorisation de l'aiguilleur en cas de manœuvre",
+        "À indiquer le kilométrage exact du joint de cantonnement situé 30 mètres en amont du panneau",
+        "À repérer à revers les signaux annulés qui sont temporairement éclairés pour des essais",
+        "À dispenser le conducteur de se faire reconnaître lorsque son train est arrêté à proximité du poste",
+        "À signaler que le panneau porte un carré violet de refoulement ne concernant pas les mouvements trains",
+        "À préciser le mode de cantonnement de la ligne empruntée en sens inverse (BM ou BAPR)"
+      ],
+      "explanation": "Dans certaines gares, une plaque de repérage arrière permet aux conducteurs prenant un signal à revers d'identifier le panneau qui leur a été désigné comme devant être dégagé avant l'exécution du mouvement de refoulement commandé par ce signal. Les plaques de repérage habituelles (noir sur fond blanc, non éclairées la nuit) indiquent le numéro ou le kilométrage arrondi à l'hectomètre, précédé de C (carré), Cv (carré violet) ou GA (guidon d'arrêt).",
+      "sources": [
+        "A10.06 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe et Particularités"
+      ]
+    },
+    {
+      "id": "lot01-q12",
+      "type": "qcm",
+      "category": "Plaques d'identification",
+      "fiche": "A10.07",
+      "difficulty": "moyen",
+      "question": "Vous circulez en marche à vue à la suite du franchissement d'un sémaphore de BAPR fermé sur ordre « Pénétrez en canton occupé ». En cours de canton, vous franchissez un panneau de forme circulaire muni d'une plaque d'identification « A » (lettre noire sur fond blanc) présentant un feu vert. Quelle est votre conduite à tenir ?",
+      "correctAnswer": "Poursuivre la marche à vue : le franchissement d'un panneau de forme circulaire ne délie jamais le conducteur de l'observation de la marche à vue, quelles que soient les indications présentées",
+      "distractors": [
+        "Reprendre immédiatement la marche normale puisque le feu vert indique que la voie est libre jusqu'au signal suivant",
+        "Réduire la vitesse à 15 km/h jusqu'au signal suivant tout en restant en marche à vue",
+        "Reprendre la marche normale après avoir parcouru une distance de 100 mètres au-delà du panneau circulaire",
+        "S'arrêter devant le panneau circulaire et se faire reconnaître auprès de l'agent du SGC",
+        "Reprendre la marche normale uniquement si le panneau circulaire est muni d'un œilleton éteint",
+        "Poursuivre la marche à vue uniquement si le panneau porte une plaque « D », mais reprendre la marche normale après une plaque « A » ouverte"
+      ],
+      "explanation": "Un panneau de forme circulaire (plaque « D » ou « A » en lettres noires sur fond blanc) ne porte pas de signal de cantonnement ni de protection : son franchissement ne délie jamais le conducteur de l'observation de la marche à vue, quelles que soient les indications qu'il présente. En BAPR comme après un ordre CBA, la marche à vue se poursuit jusqu'au signal commandant l'entrée du canton suivant.",
+      "sources": [
+        "A10.07 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 2/2, Plaques d'identification portées par les panneaux de forme circulaire",
+        "A11.11 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 2/3, Application métier 1.2",
+        "A11.08 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 4/6, Application métier 2"
+      ]
+    },
+    {
+      "id": "lot01-q13",
+      "type": "qcm",
+      "category": "Plaques de cantonnement",
+      "fiche": "A10.08",
+      "difficulty": "moyen",
+      "question": "Dans quel cas un panneau portant un carré (plaque d'identification Nf) est-il muni d'une plaque de cantonnement, et pour quel type de panneau n'en est-il pas fait usage ?",
+      "correctAnswer": "Lorsqu'il commande l'entrée d'un canton autre que de BAL (plaques « PR », « PR vers... », « BM », « BM vers... ») ; il n'est pas fait usage de plaque de cantonnement sur les panneaux ne portant qu'un carré violet de refoulement de type bas",
+      "distractors": [
+        "Sur tous les panneaux de BAL, BAPR et BM sans exception, y compris les carrés violets de refoulement de type bas",
+        "Uniquement sur les panneaux circulaires à plaque « A » ou « D » annonçant un changement de cantonnement",
+        "Lorsqu'il commande l'entrée d'un canton de BAL (plaque « F ») ; il n'en est pas fait usage en BAPR ni en BM",
+        "Uniquement lorsqu'un carré donne accès à une seule direction ; en cas de bifurcation, le mode de cantonnement n'est indiqué qu'aux LiLi",
+        "Lorsqu'il commande un canton de BAPR ou de BM ; il n'en est pas fait usage sur les panneaux à plaque « Nf » dépourvus d'œilleton",
+        "Uniquement sur les voies de service des établissements situés sur les lignes équipées en block manuel"
+      ],
+      "explanation": "Certains carrés (panneaux à plaque d'identification Nf) portent en plus une plaque de cantonnement lorsqu'ils commandent l'entrée d'un canton autre que de BAL (PR / PR vers... pour le BAPR ; BM / BM vers... pour le BM). Il n'est pas fait usage de plaque de cantonnement à l'égard des panneaux ne portant qu'un carré violet de refoulement de type bas.",
+      "sources": [
+        "A10.08 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe, Canton de BAPR et Canton de BM"
+      ]
+    },
+    {
+      "id": "lot01-q14",
+      "type": "qcm_multi",
+      "category": "Signaux à visibilité réduite",
+      "fiche": "A10.09",
+      "difficulty": "moyen",
+      "question": "Concernant le repérage des signaux à visibilité réduite par mirlitons et par repère de proximité, quelles propositions sont conformes à la fiche A10.09 ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Il est généralement fait usage de trois mirlitons (3, 2 puis 1 bande oblique noire sur fond blanc), non éclairés la nuit, espacés d'environ 100 m entre eux et entre le dernier mirliton et le signal",
+        "Le repère de proximité est une plaque circulaire non éclairée la nuit mais réflectorisée, présentant une bande oblique noire sur fond blanc, placée au ras du sol en amont et du même côté que le signal",
+        "Le repère de proximité précède d'au moins 100 m un TIV à distance de chantier ou un tableau P circulaire de chantier lorsqu'ils sont de type bas ou à visibilité réduite, et peut aussi repérer certains signaux à distance de traction électrique (« Baissez-Panto », « Coupez-Courant »)"
+      ],
+      "distractors": [
+        "Les mirlitons sont obligatoirement au nombre de trois sur toutes les lignes, sans aucune possibilité d'en installer un ou deux seulement",
+        "Le repère de proximité comporte un feu blanc à éclats en son centre et précède toujours le premier signal d'au moins 200 m",
+        "Un signal est considéré à visibilité normale dès qu'il est visible de nuit, même s'il comporte une éclipse de jour",
+        "Le repère de proximité ne peut jamais être utilisé pour un TIV d'exécution de chantier non précédé d'un TIV à distance"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A10.09 distingue les mirlitons (généralement 3, parfois 2 ou 1, bandes obliques noires sur fond blanc, espacés d'environ 100 m, non éclairés la nuit) et le repère de proximité (plaque circulaire à 1 bande oblique noire sur fond blanc, réflectorisée, au ras du sol, précédant d'au moins 100 m le TIV à distance ou tableau P circulaire de chantier bas/à visibilité réduite, ainsi que chantiers mobiles, brouillards fréquents, TIV d'exécution non précédé d'un TIV à distance, certains signaux traction électrique). Ne pas confondre avec le repère d'approche (A10.12, stries obliques + feu blanc à éclats, ≥ 200 m).",
+      "sources": [
+        "A10.09 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/2 et 2/2, Principe, Mirlitons et Repère de proximité"
+      ]
+    },
+    {
+      "id": "lot01-q15",
+      "type": "qcm",
+      "category": "Annulation des signaux",
+      "fiche": "A10.10",
+      "difficulty": "facile",
+      "question": "Vous approchez d'un panneau lumineux portant une croix de Saint-André blanche, qui est pourtant éclairé (essais en cours). Quelle règle s'applique aux signaux annulés ?",
+      "correctAnswer": "Un signal muni d'une croix de Saint-André blanche n'est pas en service (sa répétition par crocodile, balise ou détonateur est hors service) ; lorsqu'un tel signal annulé est éclairé pour des essais, les conducteurs doivent en être avisés",
+      "distractors": [
+        "Dès qu'un signal muni d'une croix de Saint-André blanche est éclairé, l'annulation est caduque et le conducteur doit obéir immédiatement à ses feux",
+        "Un signal muni d'une croix de Saint-André blanche reste actif pour la répétition par crocodile et balise KVB tant qu'il n'est pas démonté",
+        "La croix de Saint-André blanche annule uniquement les signaux mécaniques ; les signaux lumineux hors service sont obligatoirement masqués par une housse noire",
+        "En présence d'un signal annulé éclairé sans avis préalable, le conducteur doit poursuivre en marche normale sans signaler l'anomalie",
+        "La croix de Saint-André blanche signifie que le signal est provisoirement transformé en sémaphore franchissable de soi-même",
+        "Les cocardes et ailes des signaux mécaniques non en service sont immobilisées en position de fermeture avec la croix de Saint-André blanche"
+      ],
+      "explanation": "Les signaux lumineux ou mécaniques qui ne sont pas en service sont annulés par une croix de Saint-André blanche et ne sont normalement pas éclairés ; leur répétition éventuelle par crocodile, balise ou détonateur n'est pas en service. S'ils sont annulés mais éclairés (ex. pour procéder à des essais), les conducteurs doivent en être avisés. Les cocardes, ailes et tableaux mécaniques hors service sont immobilisés en position d'ouverture, démontés ou masqués.",
+      "sources": [
+        "A10.10 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe et Description"
+      ]
+    },
+    {
+      "id": "lot01-q16",
+      "type": "qcm",
+      "category": "Obéissance aux signaux",
+      "fiche": "A10.11",
+      "difficulty": "facile",
+      "question": "Vous conduisez un train de fret dans un brouillard très dense qui rend difficile la perception des signaux au sol. Votre engin moteur est équipé de la répétition des signaux en cabine. Quelle attitude réglementaire devez-vous adopter ?",
+      "correctAnswer": "Ne pas hésiter à ralentir pour vous mettre en mesure d'observer avec certitude les indications présentées, car la sécurité repose essentiellement sur l'observation directe des signaux et la défaillance d'un dispositif en cabine ou au sol n'est jamais une circonstance atténuante",
+      "distractors": [
+        "Maintenir la vitesse limite de la ligne en vous fiant prioritairement à la répétition en cabine tant qu'aucune alarme ne retentit",
+        "Passer immédiatement en marche à vue à 30 km/h maximum dès l'apparition du brouillard jusqu'à la gare suivante",
+        "Vous arrêter en pleine voie et demander au régulateur une autorisation de circulation réduite avant de poursuivre",
+        "Maintenir votre marche normale tant que le signal précédent ne vous a pas présenté un avertissement",
+        "Ralentir uniquement à l'approche des signaux précédés de mirlitons et conserver votre vitesse sur les autres signaux",
+        "Considérer que le non-fonctionnement d'un pétard ou de la répétition cabine constitue une circonstance atténuante si un signal fermé n'est pas perçu à temps"
+      ],
+      "explanation": "La fiche A10.11 rappelle que la sécurité repose essentiellement sur l'observation directe des signaux : l'absence ou le non-fonctionnement des dispositifs de répétition en cabine ou des détonateurs/pétards ne peut jamais être considéré comme une circonstance atténuante. Lorsque les conditions atmosphériques rendent difficile la perception des signaux, le conducteur ne doit pas hésiter à ralentir pour observer avec certitude leurs indications.",
+      "sources": [
+        "A10.11 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Particularités et Application métier"
+      ]
+    },
+    {
+      "id": "lot01-q17",
+      "type": "qcm",
+      "category": "Repère d'approche",
+      "fiche": "A10.12",
+      "difficulty": "moyen",
+      "question": "Vous roulez à 80 km/h sans avoir reçu d'avis par Fiche ARTIC concernant un chantier sur cette zone. Au ras du sol, du côté gauche de votre voie, vous apercevez un écran circulaire à stries obliques noires et blanches portant un feu blanc à éclats en son centre. Que signifie ce repère et où se situe le premier signal annoncé ?",
+      "correctAnswer": "C'est un repère d'approche annonçant, à 200 mètres au moins en aval, une signalisation temporaire ou modifiée à l'improviste (limitation temporaire de vitesse, « Baissez panto » ou « Coupez courant ») abordable à plus de 40 km/h",
+      "distractors": [
+        "C'est un repère de proximité annonçant à 100 mètres exactement un TIV permanent à visibilité réduite",
+        "C'est un repère d'approche annonçant à 100 mètres au moins un signal d'arrêt à main posé à l'improviste par le GI",
+        "C'est un repère d'approche annonçant à 500 mètres au moins une LTV déjà publiée dans votre Fiche ARTIC",
+        "C'est un repère d'approche qui impose de ramener immédiatement la vitesse du train à 40 km/h avant même d'apercevoir le signal suivant",
+        "C'est un repère utilisé uniquement la nuit pour annoncer les chantiers mobiles à moins de 150 mètres",
+        "C'est un repère d'approche annonçant uniquement une limitation temporaire de vitesse, jamais un signal de traction électrique"
+      ],
+      "explanation": "Le repère d'approche (écran circulaire à stries obliques noires et blanches avec feu blanc à éclats au centre, de jour comme de nuit) est utilisé lorsqu'une signalisation temporaire de LTV ou de traction électrique (« Baissez panto », « Coupez courant ») est réalisée ou modifiée à l'improviste (non avisée par Fiche ARTIC) et abordable à plus de 40 km/h. Placé au ras du sol du même côté que les signaux concernés, il précède d'au moins 200 m le premier signal rencontré. Si un repère de proximité est également utilisé, celui-ci est placé à mi-distance entre le repère d'approche et le premier signal.",
+      "sources": [
+        "A10.12 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description, Implantation et Application métier"
+      ]
+    },
+    {
+      "id": "lot01-q18",
+      "type": "qcm",
+      "category": "Le signal carré",
+      "fiche": "A11.01",
+      "difficulty": "moyen",
+      "question": "Votre train de fret est arrêté en seconde position derrière un autre train sur la même voie, devant un signal carré fermé. Le carré vient de s'ouvrir et le premier train n'a pas encore dégagé complètement. Par ailleurs, vous envisagez ultérieurement un changement de sens de marche. Quelles règles s'appliquent ?",
+      "correctAnswer": "L'ouverture du carré ne s'adresse qu'au conducteur du train qui en est le plus proche ; de plus, toute sélection de la commande d'inversion du sens de marche ne doit être réalisée qu'après avoir constaté l'ouverture du signal et/ou obtenu les conditions réglementaires pour se remettre en marche",
+      "distractors": [
+        "L'ouverture du carré autorise les deux trains arrêtés sur la même voie à se remettre en marche simultanément en marche à vue",
+        "Vous pouvez présélectionner la commande d'inversion du sens de marche pendant l'arrêt devant le carré fermé afin de gagner du temps au départ",
+        "L'ouverture du carré s'adresse à tous les trains arrêtés dans le canton dès lors que le premier train a commencé à rouler",
+        "Vous devez immédiatement vous faire reconnaître auprès de l'aiguilleur avant que le premier train ne franchisse le signal ouvert",
+        "En signalisation lumineuse, un carré fermé présente un seul feu rouge fixe avec œilleton allumé, tandis que deux feux rouges constituent un disque",
+        "Vous pouvez suivre le premier train sans attendre que le carré se referme puis se rouvre si la vitesse reste inférieure à 30 km/h"
+      ],
+      "explanation": "Lorsque plusieurs circulations sont arrêtées sur la même voie devant le même carré fermé (règle identique pour Cv, GA et sémaphores), l'ouverture du signal ne s'adresse qu'au conducteur du train qui en est le plus proche. En outre, une sélection de la commande d'inversion du sens de marche ne doit être réalisée qu'après avoir constaté l'ouverture du signal et/ou avoir obtenu les conditions réglementaires pour se remettre en marche.",
+      "sources": [
+        "A11.01 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Application métier"
+      ]
+    },
+    {
+      "id": "lot01-q19",
+      "type": "qcm",
+      "category": "Le carré violet",
+      "fiche": "A11.02",
+      "difficulty": "moyen",
+      "question": "Vous conduisez un train de fret en marche normale sur voie principale (aucune marche à vue ni marche en manœuvre ne vous est prescrite). Vous apercevez au ras du sol un carré violet de type bas présentant un feu violet fixe. Quelle est votre conduite à tenir ?",
+      "correctAnswer": "Ne pas en tenir compte et poursuivre votre marche normale : sur voie principale, le conducteur d'un mouvement train ne tient pas compte des carrés violets de type bas, sauf s'il doit observer la marche à vue ou la marche en manœuvre",
+      "distractors": [
+        "Marquer immédiatement l'arrêt avant le carré violet de type bas et vous faire reconnaître auprès de l'aiguilleur",
+        "Réduire la vitesse à 30 km/h au franchissement du carré violet de type bas puis reprendre la marche normale",
+        "Franchir le carré violet de type bas sans arrêt mais en observant la marche à vue jusqu'au signal suivant",
+        "Marquer l'arrêt avant le signal, puis franchir de vous-même en marche à vue après un délai d'une minute",
+        "Ne pas en tenir compte uniquement de jour, mais marquer l'arrêt impératif de nuit",
+        "Réduire la vitesse à 15 km/h comme pour un feu rouge clignotant afin de vérifier les aiguilles protégées"
+      ],
+      "explanation": "Sur les voies principales, le carré violet de type bas (notamment utilisé pour commander des manœuvres de refoulement) ne concerne pas les mouvements trains, à moins qu'en application d'une prescription réglementaire ceux-ci n'aient à observer la marche à vue ou la marche en manœuvre. En revanche, dès que la marche à vue ou la marche en manœuvre est à observer, le carré violet fermé impose l'arrêt avant le signal.",
+      "sources": [
+        "A11.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 (Principe) et p. 2/2 (Application métier)"
+      ]
+    },
+    {
+      "id": "lot01-q20",
+      "type": "qcm",
+      "category": "Le guidon d'arrêt",
+      "fiche": "A11.03",
+      "difficulty": "facile",
+      "question": "Comment se caractérise la position d'ouverture d'un guidon d'arrêt en signalisation lumineuse et en signalisation mécanique ?",
+      "correctAnswer": "En lumineux, uniquement par l'extinction de la bande lumineuse rouge horizontale (aucune indication particulière) ; en mécanique, par l'effacement de la petite aile rectangulaire rouge (masquée) et l'extinction du feu rouge associé",
+      "distractors": [
+        "En lumineux, par l'allumage d'un feu blanc fixe ; en mécanique, par l'aile rabattue et un feu blanc la nuit",
+        "En lumineux, par l'allumage d'une bande lumineuse verte verticale ; en mécanique, par un feu vert la nuit",
+        "En lumineux, par le passage au clignotement de la bande rouge ; en mécanique, par l'aile inclinée à 45 degrés",
+        "En lumineux, par l'extinction de la bande rouge et l'allumage d'un feu vert ; en mécanique, par la cocarde parallèle à la voie",
+        "En lumineux, par l'affichage d'une bande blanche horizontale ; en mécanique, par un feu jaune fixe la nuit",
+        "En lumineux comme en mécanique, l'ouverture d'un guidon d'arrêt est toujours matérialisée par l'allumage d'un œilleton blanc bleuté"
+      ],
+      "explanation": "En position de fermeture, le guidon d'arrêt présente une bande lumineuse rouge horizontale (lumineux) ou une petite aile rectangulaire rouge étendue horizontalement à gauche du mât avec feu rouge de nuit (mécanique). En position d'ouverture, il ne présente aucune indication particulière : extinction de la bande rouge (lumineux), ou effacement/masquage de l'aile et extinction du feu rouge associé (mécanique).",
+      "sources": [
+        "A11.03 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2, Description",
+        "A10.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/3 et 2/3"
+      ]
+    },
+    {
+      "id": "lot01-q21",
+      "type": "qcm_multi",
+      "category": "Le signal d'arrêt à main (SAM)",
+      "fiche": "A11.04",
+      "difficulty": "moyen",
+      "question": "Selon la fiche A11.04 (version juin 2026), quelles caractéristiques concernant les signaux d'arrêt à main d'urgence et les dispositifs spécifiques utilisés par le Gestionnaire d'Infrastructure (GI) pour la protection des zones de travaux sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "En cas d'urgence et à défaut des moyens réglementaires, l'arrêt peut être commandé par un objet ou une lumière quelconque vivement agité(e), ou encore par les deux bras élevés de toute leur hauteur",
+        "Le SAM Manuel du GI (feu rouge + battant réfléchissant rouge fixé par aimant sur la table de roulement du rail) est utilisé uniquement de nuit",
+        "Le SAM Manuel + pétard télécommandé du GI (drapeau rouge + signal lumineux à LED + pétard fixé par aimants sur l'âme du rail) est utilisé de jour comme de nuit"
+      ],
+      "distractors": [
+        "Le SAM Manuel du GI fixé sur la table de roulement du rail est utilisé indifféremment de jour comme de nuit",
+        "Les SAM du GI sont toujours placés sur le fil droit de la voie dans le sens de la circulation, quel que soit le sens normal de circulation de la ligne",
+        "En cas d'urgence, seul un feu rouge fixe ou un drapeau rouge déployé impose l'arrêt au conducteur ; les bras levés n'ont pas valeur de signal d'arrêt",
+        "Dans un établissement, un signal d'arrêt à main présenté côté quai à droite ne s'adresse jamais au conducteur d'un train circulant sur une ligne à circulation à gauche"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A11.04 (juin 2026) précise : en cas d'urgence, tout objet/lumière vivement agité(e) ou les deux bras élevés de toute leur hauteur commandent l'arrêt. Les deux SAM spécifiques du GI sont placés sur le fil gauche dans le sens de circulation (inverse sur DV à circulation normale à droite) : le SAM Manuel (aimant sur table de roulement) s'utilise uniquement de nuit ; le SAM Manuel + pétard télécommandé (aimants sur l'âme du rail) s'utilise de jour comme de nuit.",
+      "sources": [
+        "A11.04 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/3 et 2/3, Principe, Description et Signal d'arrêt à main à l'usage du Gestionnaire d'Infrastructure"
+      ]
+    },
+    {
+      "id": "lot01-q22",
+      "type": "qcm",
+      "category": "Le signal d'arrêt à main (SAM)",
+      "fiche": "A11.04",
+      "difficulty": "moyen",
+      "question": "Vous circulez en marche normale en pleine voie lorsqu'un agent vous présente inopinément un drapeau rouge déployé (signal d'arrêt à main). Vous parvenez à vous arrêter immédiatement avant le signal, puis le signal d'arrêt à main cesse d'être présenté sans qu'aucune instruction particulière ne vous soit remise. Comment devez-vous reprendre la marche ?",
+      "correctAnswer": "Vous remettre en marche si rien ne s'y oppose en respectant la règle de l'arrêt accidentel",
+      "distractors": [
+        "Reprendre immédiatement la marche normale sans aucune restriction puisque le signal a cessé d'être présenté",
+        "Observer obligatoirement la marche à vue jusqu'au poste de cantonnement suivant et vous y arrêter",
+        "Rester impérativement immobilisé et appliquer l'article F30.11 jusqu'à réception d'un ordre écrit FOLI",
+        "Franchir le point où le SAM était présenté à 15 km/h maximum puis reprendre la marche normale après 100 mètres",
+        "Demander obligatoirement une Autorisation de Mouvement (AuM) manuelle avant toute remise en marche",
+        "Appliquer l'article F30.10 relatif au franchissement intempestif d'un signal d'arrêt à main"
+      ],
+      "explanation": "Lorsque le conducteur rencontre en marche normale un signal d'arrêt à main, il doit s'arrêter immédiatement. Si le SAM cesse ensuite d'être présenté, il se remet en marche si rien ne s'y oppose en respectant la règle de l'arrêt accidentel. (En revanche, si le SAM reste présenté et qu'il n'y a personne, il applique F30.11 ; si l'arrêt avant le SAM n'a pu être obtenu, il applique F30.10.)",
+      "sources": [
+        "A11.04 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 3/3, Application métier 3 et 3.1"
+      ]
+    },
+    {
+      "id": "lot01-q23",
+      "type": "open",
+      "category": "Reconnaissance du conducteur",
+      "fiche": "A11.05",
+      "difficulty": "difficile",
+      "question": "Votre train de fret vient de s'arrêter devant un signal carré fermé en signalisation classique (pas de plaque de dispense ni de reconnaissance différée, aucune autorisation préalable reçue). Le signal ne s'ouvre pas immédiatement ; vous venez d'immobiliser le train et n'avez encore contacté personne. Décrivez la procédure complète pour vous faire reconnaître, y compris l'ordre de priorité des moyens de communication, la formulation exacte et la conduite à tenir si le signal n'est pas muni d'un téléphone ou si le correspondant ne répond pas.",
+      "modelAnswer": "1. Privilégier la radio GSM-R (communications « point à point ») lorsque cette possibilité existe. 2. À défaut, utiliser le téléphone du signal ou la téléphonie dématérialisée sur les lignes équipées désignées aux LiLi. 3. S'identifier de façon formalisée : « Poste de ... (ou régulateur de ...) ici train n° ... arrêté devant le signal ... fermé, à vous », en complétant par tout renseignement utile (ex. anomalie de signalisation d'avant). 4. Se conformer aux instructions de l'Agent du SGC (appliquer l'autorisation/ordre, effectuer les opérations prescrites et rendre compte). 5. Si le signal n'est pas muni d'un téléphone (ou si le correspondant ne répond pas) et qu'aucune liaison GSM-R ni téléphonie dématérialisée n'est possible : se rendre à pied au poste dont dépend le signal (ou y envoyer l'agent d'accompagnement s'il est présent sur l'engin moteur / en cabine). 6. Si la distance ne permet pas de se rendre au poste : appliquer les dispositions de l'article F30.11 (« Impossibilité de se faire reconnaître lors d'un arrêt commandé par un carré, CV, GA ou SAM »).",
+      "keyPoints": [
+        {
+          "label": "Privilégier la radio GSM-R lorsque cette possibilité existe (communications point à point)",
+          "critical": true
+        },
+        {
+          "label": "À défaut de GSM-R, utiliser le téléphone du signal ou la téléphonie dématérialisée (sur les lignes équipées désignées aux LiLi)",
+          "critical": true
+        },
+        {
+          "label": "Formulation formalisée exacte : « Poste de ... (ou régulateur de ...) ici train n° ... arrêté devant le signal ... fermé, à vous »",
+          "critical": true
+        },
+        {
+          "label": "Compléter par tout autre renseignement utile à porter à la connaissance du correspondant (ex. anomalie de signalisation d'avant du train)",
+          "critical": false
+        },
+        {
+          "label": "Se conformer aux instructions de l'Agent du SGC, appliquer les prescriptions de l'ordre/autorisation et rendre compte de leur exécution",
+          "critical": true
+        },
+        {
+          "label": "En l'absence de téléphone (ou de réponse) et sans GSM-R / téléphonie dématérialisée : se rendre à pied au poste (ou y envoyer l'agent d'accompagnement si présent)",
+          "critical": true
+        },
+        {
+          "label": "Si la distance ne permet pas de se rendre au poste : appliquer l'article F30.11 (Impossibilité de se faire reconnaître)",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A11.05 (décembre 2025) impose la reconnaissance dès l'arrêt lorsque le carré (ou Cv, GA, sémaphore BAPR/BM) ne s'ouvre pas immédiatement, en privilégiant la radio GSM-R, puis le téléphone du signal ou la téléphonie dématérialisée, avec identification formalisée. À défaut de liaison ou de réponse, le conducteur (ou l'agent d'accompagnement) se rend à pied au poste ou applique F30.11 si la distance ne le permet pas.",
+      "sources": [
+        "A11.05 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/3 à 3/3, Principe et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot01-q24",
+      "type": "qcm_multi",
+      "category": "Reconnaissance du conducteur",
+      "fiche": "A11.05",
+      "difficulty": "moyen",
+      "question": "Votre train est arrêté devant un signal carré fermé. Quelles affirmations relatives aux plaques de reconnaissance différée, de dispense de reconnaissance, au VAT et aux cas de dispense sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "En présence d'une plaque de reconnaissance différée (combiné + chiffre 5) ou d'une plaque de dispense de reconnaissance (combiné barré d'un trait rouge), la reconnaissance ne doit PAS être différée si le conducteur a une information à transmettre à l'aiguilleur",
+        "L'allumage clignotant du voyant d'appel téléphonique (VAT, unité lumineuse blanc bleuté) commande au conducteur de se rendre au téléphone, même en présence d'une plaque de dispense ou de reconnaissance différée",
+        "Le conducteur est dispensé de se faire reconnaître (sauf appel par VAT ou autre moyen) lors d'un arrêt circulation tant qu'il n'est pas l'heure de départ, ou devant des signaux fermés d'un même poste pour lesquels il a déjà reçu une autorisation de franchissement"
+      ],
+      "distractors": [
+        "La plaque de dispense de reconnaissance (combiné barré rouge) interdit formellement au conducteur de contacter l'aiguilleur, même en cas d'anomalie sur son train",
+        "En présence d'une plaque de reconnaissance différée avec le chiffre 5, le conducteur doit attendre 5 minutes avant de répondre au VAT qui clignote",
+        "L'allumage fixe d'un feu blanc bleuté d'œilleton a la même signification que le clignotement du VAT et commande de se rendre au téléphone",
+        "Une dispense de reconnaissance dispense également le conducteur d'obtenir une autorisation avant de franchir le signal fermé"
+      ],
+      "displayCount": 5,
+      "explanation": "La plaque de reconnaissance différée (combiné + chiffre, ex. 5 min) et la plaque de dispense de reconnaissance (combiné barré d'un trait rouge) ne s'appliquent pas si le conducteur est appelé (VAT clignotant ou autre moyen) ni lorsqu'il a une information à transmettre à l'aiguilleur. Les autres dispenses réglementaires concernent l'arrêt circulation avant l'heure de départ et l'arrêt devant des signaux fermés d'un même poste dont l'autorisation de franchissement a déjà été délivrée.",
+      "sources": [
+        "A11.05 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe, Description et Application métier 1.1 à 1.3"
+      ]
+    },
+    {
+      "id": "lot01-q25",
+      "type": "qcm",
+      "category": "Contrôle de la position des aiguilles",
+      "fiche": "A11.07",
+      "difficulty": "moyen",
+      "question": "Vous avez reçu un ordre VAIG (avec protection du personnel réalisée) pour vérifier une aiguille munie d'un cœur à pointe mobile située en aval d'un signal fermé. Vous vous placez face à la pointe de l'aiguille et constatez que la lame de droite est appliquée (elle colle contre le rail contre-aiguille). Quelle direction est offerte par les lames et quelle vérification complémentaire est obligatoire ?",
+      "correctAnswer": "La direction de gauche est offerte ; vous devez ensuite avancer vers le cœur à pointe mobile pour vérifier la direction qu'il donne, la pointe de l'aiguille et le cœur mobile devant impérativement être dans la même position",
+      "distractors": [
+        "La direction de droite est offerte ; aucune vérification du cœur mobile n'est requise si la lame de droite colle parfaitement",
+        "La direction de gauche est offerte ; la vérification du cœur mobile ne s'effectue que si l'aiguille doit être franchie en talon",
+        "La direction de droite est offerte ; vous devez ensuite vérifier que la pointe du cœur mobile est dans la position opposée à celle des lames",
+        "La direction de gauche est offerte ; si un seul ordre VAIG a été délivré, il permet de vérifier automatiquement toutes les aiguilles successives de l'itinéraire",
+        "La direction offerte ne peut être déterminée qu'en se plaçant au talon de l'aiguille, jamais face à la pointe",
+        "La direction de gauche est offerte ; vous pouvez manœuvrer directement l'aiguille à l'aide du coffret à clé de Berne sans ordre MAIL si le cœur mobile ne colle pas"
+      ],
+      "explanation": "En se plaçant face à la pointe de l'aiguille : lame de droite appliquée = direction de gauche offerte ; lame de gauche appliquée = direction de droite offerte. Sur une aiguille à cœur à pointe mobile, l'observateur doit ensuite avancer vers le cœur mobile pour déterminer sa direction : la pointe de l'aiguille et le cœur mobile doivent être dans la même position. En outre, il doit être délivré et rempli autant d'ordres (VAIG/MAIL) qu'il y a de vérifications ou de manœuvres d'installation à faire.",
+      "sources": [
+        "A11.07 — © Lineas, June 08, 2025 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe et Application métier"
+      ]
+    },
+    {
+      "id": "lot01-q26",
+      "type": "open",
+      "category": "Manœuvre d'aiguille à moteur (ordre MAIL)",
+      "fiche": "A11.07",
+      "difficulty": "difficile",
+      "question": "Lors de votre reconnaissance devant un carré fermé, l'aiguilleur vous transmet un ordre MAIL pour manœuvrer une aiguille à moteur (à cœur mobile) en pleine voie. Vous n'avez pas encore quitté votre cabine. Énoncez chronologiquement toutes les étapes et vérifications que vous devez exécuter avant, pendant et après la manœuvre.",
+      "modelAnswer": "1. S'assurer que la protection du personnel est réalisée (ordre MAIL complété dans ce sens). 2. Appliquer les instructions de l'aiguilleur reçues à l'aide de l'ordre MAIL. 3. Ouvrir le coffret situé à proximité de l'aiguille à l'aide de la clé de Berne et appliquer les instructions affichées dans le coffret. 4. Vérifier sur place que l'appareil a bien obéi : l'aiguille doit coller dans la position commandée, aussi bien à la pointe qu'au cœur mobile (les deux doivent être dans la même position). 5. Rendre compte à l'aiguilleur à l'aide du formulaire MAIL (partie inférieure). 6. Rendre la protection du personnel à la fin de l'intervention en renseignant l'ordre MAIL.",
+      "keyPoints": [
+        {
+          "label": "S'assurer préalablement que la protection du personnel est réalisée (ordre MAIL complété dans ce sens)",
+          "critical": true
+        },
+        {
+          "label": "Appliquer les instructions de l'aiguilleur reçues sur l'ordre MAIL",
+          "critical": true
+        },
+        {
+          "label": "Ouvrir le coffret à proximité de l'aiguille (fermé à clé de Berne) et appliquer les instructions qui y sont affichées",
+          "critical": true
+        },
+        {
+          "label": "Vérifier que l'appareil a bien obéi : l'aiguille doit coller dans la position commandée, pointe ET cœur mobile dans la même position",
+          "critical": true
+        },
+        {
+          "label": "Rendre compte à l'aiguilleur à l'aide du formulaire MAIL",
+          "critical": true
+        },
+        {
+          "label": "Rendre la protection du personnel à la fin de l'intervention en renseignant l'ordre MAIL",
+          "critical": true
+        }
+      ],
+      "explanation": "L'ordre MAIL (« Manœuvre d'une aiguille ») encadre la manœuvre sur place d'une aiguille à moteur, d'un cœur d'aiguille ou d'un taquet. La vérification préalable de la protection du personnel, le suivi des consignes du coffret fermé à clé de Berne, le contrôle effectif du collage (pointe et cœur mobile, ou taquet relevé/abaissé), le compte rendu et la restitution de la protection sont indispensables.",
+      "sources": [
+        "A11.07 — © Lineas, June 08, 2025 Brussels (All rights reserved) — p. 1/3 à 3/3, Principe et Application métier"
+      ]
+    },
+    {
+      "id": "lot01-q27",
+      "type": "qcm",
+      "category": "Franchissement d'un carré fermé",
+      "fiche": "A11.08",
+      "difficulty": "difficile",
+      "question": "Vous êtes arrêté devant un carré fermé sur une section de ligne équipée en BAPR. Par dérogation à la règle générale (ordre CBA), dans quelles conditions cumulatives l'agent du SGC peut-il vous délivrer un ordre C (Instruction Nationale 38) au lieu d'un ordre CBA (Instruction Nationale 37) pour franchir ce carré vers le canton de BAPR ?",
+      "correctAnswer": "La section de ligne est équipée en BAPR, n'est pas équipée du KVB, et le service chargé de la gestion des circulations dispose d'un contrôle lui donnant l'assurance que le canton intéressé est libre",
+      "distractors": [
+        "La section de ligne est équipée en BAPR et du KVB, et le train circule à une vitesse limite inférieure ou égale à 100 km/h",
+        "La section de ligne est équipée en BAPR, quelle que soit la présence du KVB, dès que le train précédent est annoncé arrivé depuis plus de 5 minutes",
+        "La section de ligne est équipée en BAPR, n'est pas équipée du KVB, même si le canton suivant est occupé par un train de travaux",
+        "L'ordre C ne peut jamais être délivré sur une section de ligne équipée en BAPR : seul l'ordre CBA est autorisé en block automatique",
+        "La section de ligne est équipée en BAPR, l'ordre est remis de main à la main conjointement avec un ordre S, et le train circule de jour",
+        "La section de ligne est équipée en BAPR et le conducteur reçoit en même temps l'ordre verbal « Pénétrez en canton occupé »"
+      ],
+      "explanation": "En règle générale, l'ordre CBA (IN 37) s'utilise sur les sections équipées en BA (BAL ou BAPR) et voies de service des établissements situés sur celles-ci, tandis que l'ordre C (IN 38) s'utilise sur les autres lignes. Par dérogation, un ordre C peut être reçu au lieu d'un CBA vers une section de ligne remplissant les trois conditions cumulatives : équipée en BAPR, non équipée du KVB, et SGC disposant d'un contrôle lui assurant que le canton intéressé est libre.",
+      "sources": [
+        "A11.08 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/6, 2/6 et 3/6, Règle générale et Réception d'un ordre C au lieu d'un ordre CBA"
+      ]
+    },
+    {
+      "id": "lot01-q28",
+      "type": "qcm_multi",
+      "category": "Franchissement d'un carré fermé",
+      "fiche": "A11.08",
+      "difficulty": "difficile",
+      "question": "Sur une ligne équipée en Block Automatique (BAL ou BAPR), quels autres cas réglementaires permettent par dérogation de recevoir un ordre C au lieu d'un ordre CBA pour franchir un signal carré fermé ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Lorsque le train est expédié à contre-sens sur VUT, ou autorisé à s'avancer jusqu'à l'aiguille d'où il sera expédié à contre-sens après remise de l'ordre écrit correspondant",
+        "Lorsque le train est dirigé, à partir du signal, vers une section de ligne non équipée en block automatique (panneau repéré par une plaque de cantonnement « BM » ou « BM vers ... »)",
+        "Lorsque le train est dirigé, à partir du signal, vers une section de ligne reprise aux LiLi ou en consigne de ligne comme étant exploitée en navette"
+      ],
+      "distractors": [
+        "Lorsque le conducteur est arrêté devant un carré fermé de BAL muni d'un œilleton éteint sur une double voie normale",
+        "Lorsque le carré fermé est situé sur une voie de service d'un établissement appartenant à une ligne équipée en BAL",
+        "Lorsque le conducteur circule en marche normale avec un engin moteur non équipé de radio GSM-R",
+        "Lorsque le carré fermé protège un passage à niveau automatique dérangé sur une ligne équipée en BAL et KVB"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A11.08 énumère cinq cas de dérogation permettant de recevoir un ordre C au lieu d'un ordre CBA : expédition à contre-sens sur VUT ; avancée jusqu'à l'aiguille de contre-sens après ordre écrit ; direction vers une section non BA (plaque « BM » ou « BM vers ... ») ; direction vers une section exploitée en navette aux LiLi/consigne de ligne ; et section BAPR non équipée KVB avec contrôle d'assurance de canton libre par le SGC.",
+      "sources": [
+        "A11.08 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 2/6 et 3/6, Réception d'un ordre C au lieu d'un ordre CBA"
+      ]
+    },
+    {
+      "id": "lot01-q29",
+      "type": "open",
+      "category": "Franchissement d'un carré fermé (Ordre CBA)",
+      "fiche": "A11.08",
+      "difficulty": "difficile",
+      "question": "Votre train de fret est arrêté à 40 m devant le signal carré C 412 fermé en BAL, qui donne accès à deux directions. Vous venez de vous faire reconnaître par radio GSM-R ; l'agent du SGC s'apprête à vous transmettre par radio un ordre CBA. Aucune action de réception ni de franchissement n'a encore été effectuée. Détaillez l'ensemble de la procédure : réception de l'ordre, conditions de remise en marche, conditions de circulation après franchissement et condition de reprise de la marche normale.",
+      "modelAnswer": "1. Réception par radio GSM-R : le conducteur est seul qualifié pour recevoir l'autorisation. Vérifier qu'elle concerne son train et le signal C 412. Noter : numéro du signal, date, localisation du train, localisation de l'émetteur, heure, numéro d'identification unique donné par l'agent du SGC, et dispositions particulières éventuelles. Accuser réception en répétant à l'émetteur le texte complet des indications reçues. Utiliser le Mémento. S'assurer de la direction donnée (le signal donnant accès à plusieurs directions, à moins qu'un autre dispositif ne permette de s'en assurer). 2. Remise en marche : recevoir l'Autorisation de Mouvement (AuM) si elle est prescrite (si le carré est un signal de sortie, l'autorisation de franchissement par le SGC constitue l'AuM). Appuyer sur le(s) BP-FC (arrêté à moins de 100 m du signal, dans un délai de 60 secondes avant de franchir le signal fermé). 3. Circulation après franchissement : franchir le signal sans tenir compte de l'explosion éventuelle des signaux détonants ; respecter les indications éventuelles du KVB ; ne pas dépasser 30 km/h au franchissement des appareils de voie protégés par le signal ; observer la marche à vue jusqu'à la fin du canton qui suit ce signal (un panneau circulaire à plaque A ou D ne délie jamais de la marche à vue). 4. Reprise de la marche normale : uniquement après avoir franchi le signal commandant l'entrée du canton suivant, si rien ne s'y oppose.",
+      "keyPoints": [
+        {
+          "label": "Vérifier que l'ordre CBA concerne son train et le signal considéré, puis noter les mentions obligatoires (n° signal, date, localisation train, localisation émetteur, heure, n° d'identification unique, dispositions particulières)",
+          "critical": true
+        },
+        {
+          "label": "Accuser réception en répétant à l'émetteur le texte complet des indications reçues (et utiliser le Mémento)",
+          "critical": true
+        },
+        {
+          "label": "S'assurer de la direction donnée (signal donnant accès à plusieurs directions), sauf dispositif permettant déjà de s'en assurer",
+          "critical": true
+        },
+        {
+          "label": "Recevoir l'Autorisation de Mouvement (AuM) si prescrite (pour un signal de sortie, l'autorisation de franchissement constitue l'AuM)",
+          "critical": false
+        },
+        {
+          "label": "Appuyer sur le(s) BP-FC en étant arrêté à moins de 100 m du signal et dans un délai de 60 secondes avant le franchissement",
+          "critical": true
+        },
+        {
+          "label": "Franchir le signal fermé sans tenir compte de l'explosion éventuelle des signaux détonants, et respecter les indications éventuelles du KVB",
+          "critical": true
+        },
+        {
+          "label": "Ne pas dépasser 30 km/h au franchissement des appareils de voie protégés par le signal",
+          "critical": true
+        },
+        {
+          "label": "Observer la marche à vue jusqu'à la fin du canton suivant ce signal (sans être délié par un panneau circulaire A ou D) et ne reprendre la marche normale qu'après avoir franchi le signal commandant l'entrée du canton suivant",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A11.08 (juin 2025) fixe de manière stricte la réception par radio/téléphone, la vérification de la direction en cas de divergence, l'appui BP-FC (< 100 m, ≤ 60 s), la limitation à 30 km/h sur les appareils de voie protégés par le signal, et la marche à vue jusqu'au franchissement du signal d'entrée du canton suivant.",
+      "sources": [
+        "A11.08 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/6, 4/6 et 5/6, Principe et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot01-q30",
+      "type": "qcm",
+      "category": "Franchissement d'un signal d'arrêt fermé (BP-FC)",
+      "fiche": "A11.08",
+      "difficulty": "moyen",
+      "question": "Vous venez de recevoir une autorisation réglementaire de franchissement (ordre CBA ou ordre C). Quelles sont les conditions d'appui sur le(s) bouton(s) BP-FC et quels signaux en sont exemptés (sauf dispositions particulières) ?",
+      "correctAnswer": "Être arrêté à moins de 100 m du signal et réaliser l'appui dans un délai de 60 secondes avant le franchissement ; l'appui n'est pas effectué pour franchir fermé un guidon d'arrêt ou un voyant à damier rouge et blanc d'un TLC",
+      "distractors": [
+        "Être arrêté à moins de 50 m du signal et réaliser l'appui dans un délai de 30 secondes ; l'appui est obligatoire pour tous les signaux y compris les guidons d'arrêt et TLC",
+        "Être arrêté à moins de 200 m du signal et réaliser l'appui dans un délai de 120 secondes ; seul le carré violet de type bas en est exempté",
+        "Réaliser l'appui en roulant à moins de 10 km/h à moins de 100 m du signal ; le sémaphore de BAPR en est exempté",
+        "Être arrêté à moins de 100 m du signal et réaliser l'appui dans un délai de 60 secondes ; seul le voyant à damier rouge et blanc d'un TLC en est exempté, jamais le guidon d'arrêt",
+        "Être arrêté à moins de 30 m du signal (au joint de cantonnement) et réaliser l'appui dans un délai de 60 secondes ; les carrés mécaniques en sont exemptés",
+        "Être arrêté à moins de 100 m du signal sans aucune contrainte de délai après l'appui ; le carré violet en est toujours exempté"
+      ],
+      "explanation": "Pour effectuer l'appui sur le(s) BP-FC, le conducteur doit être arrêté à moins de 100 m du signal et réaliser cet appui dans un délai de 60 secondes avant de franchir le signal fermé. Sauf dispositions particulières, il n'y a pas lieu d'appuyer sur le(s) BP-FC pour franchir fermé un guidon d'arrêt ou un voyant à damier rouge et blanc d'un TLC.",
+      "sources": [
+        "A11.08 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 4/6, Application métier 1.2"
+      ]
+    },
+    {
+      "id": "lot01-q31",
+      "type": "qcm",
+      "category": "Ordres C, MV et franchissements multiples",
+      "fiche": "A11.08",
+      "difficulty": "moyen",
+      "question": "Vous devez franchir deux signaux carrés fermés successifs dépendant d'un même poste en Block Manuel, et le second est accompagné d'un ordre MV. Quelles règles s'appliquent à la délivrance de ces autorisations et à votre circulation ?",
+      "correctAnswer": "Vous devez recevoir autant d'autorisations qu'il y a de signaux à franchir fermés et marquer un arrêt avant chacun d'eux ; l'ordre C associé à un ordre MV doit être remis conjointement de main à la main (jamais par radio ou téléphone), avec marche à vue jusqu'au poste désigné sur l'ordre MV où vous vous arrêtez pour le remettre au garde",
+      "distractors": [
+        "Une seule autorisation globale suffit dès lors que les deux carrés dépendent du même poste, et seul le premier carré impose un arrêt préalable",
+        "L'ordre C accompagné d'un ordre MV peut être transmis par radio GSM-R avec numéro d'identification unique, à condition de répéter intégralement les deux formulaires",
+        "Avec un ordre C seul, vous devez observer la marche à vue jusqu'à la fin du canton suivant, exactement comme avec un ordre CBA",
+        "Avec un ordre C + ordre MV, vous reprenez la marche normale dès le dégagement des appareils de voie protégés par le second carré et conservez l'ordre MV jusqu'au terminus",
+        "Vous pouvez déléguer à l'agent d'accompagnement présent en cabine la réception des autorisations de franchissement pour gagner du temps",
+        "Avec un ordre C seul, aucune limitation à 30 km/h ne s'applique au franchissement des appareils de voie protégés par le signal"
+      ],
+      "explanation": "La fiche A11.08 précise que : (1) le conducteur est seul qualifié pour recevoir l'autorisation de franchissement ; (2) pour plusieurs signaux carrés ou GA fermés d'un même poste, il faut recevoir autant d'autorisations qu'il y a de signaux et marquer un arrêt avant chacun d'eux ; (3) l'ordre C délivré conjointement avec un ordre MV ne doit jamais être transmis par téléphone ou radio ; (4) après ordre C + MV, on observe la MAV jusqu'au poste désigné, on s'y arrête et on remet l'ordre MV au garde (alors qu'après un ordre C seul, on ne dépasse pas 30 km/h sur les appareils de voie protégés et on reprend la marche normale après leur dégagement).",
+      "sources": [
+        "A11.08 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 3/6, 5/6 et 6/6, Réception d'un ordre C conjointement avec un ordre MV, Franchissement de plusieurs signaux et Application métier 3, 4 et 5"
+      ]
+    },
+    {
+      "id": "lot01-q32",
+      "type": "qcm",
+      "category": "Panneau présentant un feu rouge fixe",
+      "fiche": "A11.15",
+      "difficulty": "facile",
+      "question": "En BAL, vous venez de vous arrêter devant un panneau de forme non circulaire présentant un seul feu rouge fixe. Il porte la plaque d'identification « Nf », ne porte aucune plaque de cantonnement, et vous constatez que son œilleton est éteint. Comment devez-vous identifier ce signal ?",
+      "correctAnswer": "C'est un carré fermé dont un feu est éteint : vous devez rester arrêté, immobiliser le train et vous faire reconnaître",
+      "distractors": [
+        "C'est un sémaphore de BAL fermé : vous pouvez le franchir de vous-même en marche à vue après arrêt sans délai",
+        "C'est un sémaphore de BAPR fermé : vous devez vous faire reconnaître pour obtenir l'ordre verbal « Pénétrez en canton occupé »",
+        "C'est un signal présentant un aspect douteux assimilable à un feu rouge clignotant franchissable à 15 km/h",
+        "C'est un carré violet dont le filtre violet est défaillant, à ignorer en marche normale sur voie principale",
+        "C'est un sémaphore de BM fermé nécessitant la remise d'un ordre S ou d'un ordre MV",
+        "C'est un signal en cours d'extinction automatique que vous pouvez franchir après un délai de 5 minutes"
+      ],
+      "explanation": "Devant un panneau non circulaire présentant un feu rouge fixe avec plaque d'identification « Nf », l'absence ou l'extinction de l'œilleton indique qu'il s'agit d'un carré fermé dont un feu est éteint. Il ne peut en aucun cas être franchi de soi-même comme un sémaphore de BAL.",
+      "sources": [
+        "A11.15 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/1, Principe et Application métier",
+        "A11.09 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Description"
+      ]
+    },
+    {
+      "id": "lot01-q33",
+      "type": "open",
+      "category": "Panneau présentant un feu rouge fixe",
+      "fiche": "A11.15",
+      "difficulty": "moyen",
+      "question": "Vous êtes arrêté devant un panneau de forme non circulaire présentant un feu rouge fixe. Décrivez les 4 étapes réglementaires d'observation permettant d'identifier avec certitude la nature du signal et le mode de cantonnement, ainsi que la précaution obligatoire en cas de directions multiples.",
+      "modelAnswer": "Étape 1 — Observation du panneau : constater la forme non circulaire et le feu rouge fixe. Étape 2 — Observation de la plaque d'identification : plaque F = sémaphore de BAL fermé ; plaque PR = sémaphore de BAPR fermé ; plaque BM = sémaphore de BM fermé ; plaque Nf = passer à l'étape 3. Étape 3 — Observation de l'œilleton (si plaque Nf) : si l'œilleton est absent ou éteint = carré fermé dont un feu est éteint ; si l'œilleton est allumé = sémaphore fermé, passer à l'étape 4. Étape 4 — Observation de la plaque de cantonnement : pas de plaque de cantonnement = sémaphore de BAL fermé ; plaque « PR » ou « PR vers... » = sémaphore de BAPR fermé ; plaque « BM » ou « BM vers... » = sémaphore de BM fermé. Précaution obligatoire : avant de franchir un sémaphore fermé donnant accès à plusieurs directions différentes (plaque « PR vers... » ou « BM vers... »), faire préciser la direction donnée par l'aiguilleur / l'agent du SGC.",
+      "keyPoints": [
+        {
+          "label": "Étape 1 : observer le panneau de forme non circulaire présentant un feu rouge fixe",
+          "critical": false
+        },
+        {
+          "label": "Étape 2 : observer la plaque d'identification (F = sémaphore BAL, PR = sémaphore BAPR, BM = sémaphore BM, Nf = vérifier l'œilleton)",
+          "critical": true
+        },
+        {
+          "label": "Étape 3 (si plaque Nf) : observer l'œilleton — absent ou éteint = carré fermé dont un feu est éteint ; allumé = sémaphore fermé",
+          "critical": true
+        },
+        {
+          "label": "Étape 4 (si Nf + œilleton allumé) : observer la plaque de cantonnement — aucune = sémaphore BAL ; PR / PR vers... = sémaphore BAPR ; BM / BM vers... = sémaphore BM",
+          "critical": true
+        },
+        {
+          "label": "Avant de franchir un sémaphore fermé donnant accès à plusieurs directions différentes, faire préciser la direction donnée par l'aiguilleur / l'agent du SGC",
+          "critical": true
+        }
+      ],
+      "explanation": "L'organigramme en 4 étapes de la fiche A11.15 permet de ne jamais confondre un carré dont un feu est éteint avec un sémaphore, ni un sémaphore de BAL franchissable de soi-même avec un sémaphore de BAPR ou de BM.",
+      "sources": [
+        "A11.15 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/1, Application métier",
+        "A10.07 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2",
+        "A10.08 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1"
+      ]
+    },
+    {
+      "id": "lot01-q34",
+      "type": "qcm",
+      "category": "Le sémaphore de BAL",
+      "fiche": "A11.10",
+      "difficulty": "facile",
+      "question": "Votre train de fret (signalisation d'avant conforme et complète) vient de marquer l'arrêt avant un sémaphore de BAL fermé (panneau plaque « F », sans plaque de cantonnement). Le signal reste fermé ; vous n'avez encore effectué aucune action depuis l'arrêt. Quelle est la conduite à tenir ?",
+      "correctAnswer": "Sans avoir à vous faire reconnaître et sans attendre aucun délai, franchir de vous-même le signal en marche à vue si rien ne s'y oppose, acquitter au franchissement, observer la marche à vue jusqu'à la fin du canton qui suit ce signal et ne reprendre la marche normale qu'après avoir franchi le signal commandant l'entrée du canton suivant",
+      "distractors": [
+        "Attendre un délai réglementaire de 5 minutes, puis franchir le sémaphore de vous-même en marche à vue sans dépasser 15 km/h",
+        "Vous faire reconnaître dès l'arrêt auprès de l'agent du SGC pour recevoir l'ordre verbal « Pénétrez en canton occupé »",
+        "Appuyer sur le BP-FC à moins de 100 m dans les 60 secondes avant de franchir le sémaphore de BAL fermé",
+        "Franchir le sémaphore de BAL fermé sans marquer l'arrêt à condition de ne pas dépasser 15 km/h et d'acquitter au passage",
+        "Franchir le sémaphore en marche à vue et reprendre la marche normale dès que vous apercevez au loin le signal suivant ouvert",
+        "Demander par radio GSM-R un ordre CBA avant de franchir le sémaphore de BAL fermé"
+      ],
+      "explanation": "Devant un sémaphore de BAL fermé qui reste fermé (et si la signalisation d'avant n'est pas totalement absente, auquel cas il faut appliquer F44.12), le conducteur s'arrête avant le signal, puis sans avoir à se faire reconnaître et sans attendre aucun délai, franchit de lui-même si rien ne s'y oppose en marche à vue, acquitte au franchissement, observe la MAV jusqu'à la fin du canton suivant ce signal, et reprend la marche normale après avoir franchi le signal commandant l'entrée du canton suivant. (Seule une manœuvre guidée peut, sur ordre du chef de manœuvre, franchir sans marquer l'arrêt.)",
+      "sources": [
+        "A11.10 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/2 et 2/2, Application métier 1, 1.2 et 2"
+      ]
+    },
+    {
+      "id": "lot01-q35",
+      "type": "qcm",
+      "category": "Le sémaphore de BAL — Bifurcation",
+      "fiche": "A11.10",
+      "difficulty": "moyen",
+      "question": "Vous venez de vous arrêter devant un panneau muni d'une plaque « Nf » présentant un feu rouge fixe avec œilleton allumé. Ce panneau comporte en outre une plaque de cantonnement « PR vers [direction X] ». Vous n'avez encore contacté personne et ne connaissez pas avec certitude la direction tracée pour votre train. Que devez-vous faire ?",
+      "correctAnswer": "Prendre contact avec l'agent du SGC afin de vous assurer de la direction empruntée ; si la direction mène vers le BAPR, appliquer la procédure du sémaphore de BAPR (A11.11) ; si elle mène vers le BAL, appliquer celle du sémaphore de BAL (A11.10)",
+      "distractors": [
+        "Franchir immédiatement de vous-même en marche à vue puisque le panneau est implanté en zone de BAL et que l'œilleton est allumé",
+        "Considérer automatiquement qu'il s'agit d'un sémaphore de BAL tant que la plaque n'indique pas uniquement « PR » sans mention « vers... »",
+        "Appliquer d'office la procédure du sémaphore de BM (A11.12) et attendre un ordre MV remis de main à la main",
+        "Avancer en marche à vue jusqu'au premier appareil de voie pour vérifier visuellement la direction tracée avant d'appeler l'agent du SGC",
+        "Appuyer immédiatement sur le BP-FC et franchir le signal à 30 km/h maximum sans contacter l'agent du SGC",
+        "Considérer le signal comme un carré fermé dont un feu est éteint et exiger impérativement un ordre CBA"
+      ],
+      "explanation": "Lorsqu'un sémaphore fermé comporte une plaque de cantonnement donnant accès à plusieurs directions de régimes différents (« PR vers... » ou « BM vers... »), le conducteur doit impérativement prendre contact avec l'agent du SGC afin de s'assurer de la direction empruntée, puis appliquer selon le cas l'article A11.11 (BAPR), A11.12 (BM) ou A11.10 (BAL).",
+      "sources": [
+        "A11.10 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/2 et 2/2, Description et Application métier 1.3",
+        "A11.15 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/1, Application métier"
+      ]
+    },
+    {
+      "id": "lot01-q36",
+      "type": "open",
+      "category": "Le sémaphore de BAPR",
+      "fiche": "A11.11",
+      "difficulty": "difficile",
+      "question": "Votre train de fret (signalisation d'avant conforme) est arrêté à 35 m devant un sémaphore de BAPR fermé (plaque « PR »). Le signal reste fermé ; vous n'avez pas encore immobilisé le train ni contacté l'agent du SGC. Décrivez la procédure complète : actions dès l'arrêt, conduite à tenir si le signal s'ouvre pendant l'attente après un contact avec l'agent du SGC, conduite à tenir sur réception de l'ordre verbal « Pénétrez en canton occupé », et renvois réglementaires en cas d'impossibilité de se faire reconnaître ou d'absence totale de signalisation d'avant.",
+      "modelAnswer": "1. Dès l'arrêt devant le sémaphore de BAPR restant fermé : immobiliser le train, se faire reconnaître dès l'arrêt et se conformer aux instructions de l'agent du SGC. 2. Si durant l'attente le signal s'ouvre alors que le conducteur a été invité à rester à l'écoute, à rappeler ou à être rappelé pour recevoir de nouvelles instructions : informer immédiatement l'Agent du SGC ; sauf instruction contraire, reprendre la marche normale si rien ne s'y oppose. 3. Si le signal reste fermé et que le conducteur reçoit l'ordre verbal « Pénétrez en canton occupé » : appliquer le Mémento ; appuyer sur le(s) BP-FC (arrêté à moins de 100 m du signal, dans un délai de 60 secondes avant de franchir le signal) ; franchir le signal fermé ; observer la marche à vue jusqu'à la fin du canton qui suit ce signal (sans être délié par un panneau circulaire à plaque « A » ou « D ») ; ne reprendre la marche normale, si rien ne s'y oppose, qu'après avoir franchi ouvert le signal commandant l'entrée du canton suivant. 4. Cas particuliers : impossibilité de se faire reconnaître -> appliquer l'article F30.13 ; absence totale de signalisation d'avant -> appliquer l'article F44.12. Ne pas sélectionner l'inversion du sens de marche avant ouverture du signal et obtention des conditions réglementaires.",
+      "keyPoints": [
+        {
+          "label": "Immobiliser le train, se faire reconnaître dès l'arrêt et se conformer aux instructions de l'agent du SGC",
+          "critical": true
+        },
+        {
+          "label": "Si le signal s'ouvre durant l'attente après avoir été invité à rester à l'écoute / rappeler / être rappelé : informer immédiatement l'Agent du SGC et, sauf instruction contraire, reprendre la marche normale si rien ne s'y oppose",
+          "critical": true
+        },
+        {
+          "label": "Sur réception de l'ordre verbal « Pénétrez en canton occupé » : appliquer le Mémento et appuyer sur le(s) BP-FC (arrêté à moins de 100 m du signal, dans un délai de 60 s avant franchissement)",
+          "critical": true
+        },
+        {
+          "label": "Franchir le signal fermé et observer la marche à vue jusqu'à la fin du canton suivant ce signal (un panneau circulaire A ou D ne délie jamais de la MAV)",
+          "critical": true
+        },
+        {
+          "label": "Ne reprendre la marche normale, si rien ne s'y oppose, qu'après avoir franchi OUVERT le signal commandant l'entrée du canton suivant",
+          "critical": true
+        },
+        {
+          "label": "Impossibilité de se faire reconnaître : appliquer l'article F30.13 ; absence totale de signalisation d'avant : appliquer l'article F44.12",
+          "critical": false
+        }
+      ],
+      "explanation": "Contrairement au BAL, un sémaphore de BAPR fermé n'est jamais franchissable de soi-même : il impose l'immobilisation, la reconnaissance et, si le signal reste fermé, l'ordre verbal « Pénétrez en canton occupé » avec appui BP-FC (< 100 m, ≤ 60 s). Noter la vigilance particulière en cas d'ouverture pendant l'attente (informer immédiatement l'agent du SGC) et la reprise de marche normale uniquement après avoir franchi ouvert le signal d'entrée du canton suivant.",
+      "sources": [
+        "A11.11 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/3 à 3/3, Application métier 1.2, 1.3 et 2"
+      ]
+    },
+    {
+      "id": "lot01-q37",
+      "type": "qcm",
+      "category": "Le sémaphore de BM — Autorisations",
+      "fiche": "A11.13",
+      "difficulty": "moyen",
+      "question": "Vous êtes arrêté devant un sémaphore de Block Manuel (BM) fermé. Parmi les trois types d'autorisations que le garde peut délivrer pour franchir fermé ce sémaphore, lequel correspond à un canton occupé (ou sans assurance qu'il soit libre) et selon quel mode exclusif doit-il être remis ?",
+      "correctAnswer": "L'ordre MV (Instruction Nationale 82), qui doit impérativement être remis de main à la main par le garde au conducteur et ne doit jamais être transmis par téléphone ou par radio",
+      "distractors": [
+        "L'ordre S (Instruction Nationale 84), qui doit impérativement être remis de main à la main et ne peut jamais être transmis par radio",
+        "L'ordre MV (Instruction Nationale 82), qui peut être transmis par radio GSM-R dès lors qu'il comporte un numéro d'identification unique",
+        "L'ordre écrit FOLI (Bulletin de Communication 46), qui doit obligatoirement être remis de main à la main lorsque le canton est occupé",
+        "L'ordre CBA (Instruction Nationale 37), transmis par radio sol/train ou téléphone du signal",
+        "L'ordre verbal « Pénétrez en canton occupé », identique à celui utilisé devant un sémaphore de BAPR fermé",
+        "L'ordre S (Instruction Nationale 84) complété par un ordre écrit FOLI transmis par téléphone"
+      ],
+      "explanation": "En BM, trois autorisations existent : l'ordre S (IN 84, remis ou transmis par téléphone/radio) lorsque le garde a l'assurance que le canton est libre ; l'ordre MV (IN 82, exclusivement de main à la main, jamais par téléphone ni radio) lorsque le canton est occupé ou sans assurance qu'il est libre ; et l'ordre écrit FOLI (BC 46, pouvant être transmis par téléphone ou radio) pour les circulations hors cantonnement (manœuvre non guidée desservant un établissement PL, machine de secours assurant le secours par l'avant, etc.).",
+      "sources": [
+        "A11.13 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/5, 2/5 et 3/5, Règle générale, L'ordre S, L'ordre écrit et L'ordre MV",
+        "A11.12 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2"
+      ]
+    },
+    {
+      "id": "lot01-q38",
+      "type": "qcm_multi",
+      "category": "Le sémaphore de BM — Conditions de circulation",
+      "fiche": "A11.13",
+      "difficulty": "difficile",
+      "question": "Concernant les conditions de circulation après réception d'un ordre S, d'un ordre écrit FOLI ou d'un ordre MV pour franchir fermé un sémaphore de BM, quelles propositions sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Après réception d'un ordre S ou d'un ordre écrit FOLI, ne pas dépasser la vitesse de 30 km/h au franchissement des appareils de voie dans toute la zone du poste",
+        "Ni l'ordre S (ou l'ordre écrit), ni l'ordre MV ne délie le conducteur de l'obligation antérieure d'observer certaines prescriptions particulières jusqu'à un point situé au-delà du signal",
+        "Dans le cas d'une machine de secours de pousse ayant reçu un ordre MV, lors de la reprise de marche du train secouru avec la machine de secours, la marche à vue imposée par l'ordre MV n'est plus à observer mais la règle de l'arrêt accidentel demeure"
+      ],
+      "distractors": [
+        "La remise d'un ordre S ou MV annule automatiquement toute marche à vue ou limitation antérieure qui s'appliquait au-delà du sémaphore",
+        "Après réception d'un ordre MV, le conducteur peut reprendre la marche normale dès le dégagement du dernier appareil de voie du poste d'expédition",
+        "Après réception d'un ordre S, la vitesse sur les appareils de voie dans la zone du poste est limitée à 15 km/h",
+        "En cas de secours avec retour à la gare en arrière, le conducteur de l'engin de secours détruit l'ordre MV dès l'accouplement au train en détresse"
+      ],
+      "displayCount": 5,
+      "explanation": "Avec un ordre S ou FOLI : ≤ 30 km/h sur les appareils de voie dans toute la zone du poste, respect du KVB et des directives de l'ordre (et de jour/nuit pour les signaux mécaniques combinés). Aucun de ces ordres (S, écrit, MV) ne délie de prescriptions antérieures au-delà du signal. Avec un ordre MV : MAV jusqu'au poste désigné, arrêt à ce poste et remise de l'ordre au garde (en secours par l'arrière avec poursuite, la MAV de l'ordre MV cesse à la reprise de marche du train secouru, mais la règle de l'arrêt accidentel demeure ; en cas de retour à la gare en arrière, l'ordre MV est restitué au garde de cette gare).",
+      "sources": [
+        "A11.13 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 2/5, 4/5 et 5/5, Application métier 1.1, 1.2, 2 et Cas particulier"
+      ]
+    },
+    {
+      "id": "lot01-q39",
+      "type": "qcm",
+      "category": "Le sémaphore de BM — Poste fermé au service",
+      "fiche": "A11.13",
+      "difficulty": "moyen",
+      "question": "En Block Manuel, le garde du poste précédent vous a délivré un ordre S annoté vous autorisant à franchir fermé, après arrêt, le sémaphore du poste de cantonnement suivant (fermé au service). Vous arrivez devant ce sémaphore qui est effectivement fermé. Quelle est votre conduite à tenir ?",
+      "correctAnswer": "Marquer un arrêt devant le sémaphore concerné (sans avoir à vous faire reconnaître puisque l'autorisation a été délivrée par le poste précédent), puis appliquer les prescriptions de l'ordre S (BP-FC s'il y a lieu, KVB, ≤ 30 km/h sur les appareils de voie de la zone du poste)",
+      "distractors": [
+        "Franchir le sémaphore fermé sans marquer l'arrêt puisque vous détenez déjà l'autorisation écrite délivrée par le poste précédent",
+        "Marquer un arrêt devant le sémaphore et attendre impérativement de vous faire reconnaître au téléphone avant d'utiliser l'ordre S annoté",
+        "Franchir le sémaphore fermé à 15 km/h maximum sans marquer l'arrêt et observer la marche à vue jusqu'au poste suivant",
+        "Considérer l'ordre S annoté comme un ordre MV et poursuivre en marche à vue jusqu'au prochain poste ouvert",
+        "Marquer l'arrêt et appliquer immédiatement l'article F30.12 (impossibilité de se faire reconnaître) puisque le poste est fermé au service",
+        "Ne marquer l'arrêt devant ce sémaphore que si le poste est également muni d'un signal carré fermé"
+      ],
+      "explanation": "Lorsque le conducteur a reçu d'un poste précédent un ordre S (ou MV) annoté pour franchir fermé le sémaphore de BM du poste suivant (fermé au service), il est dispensé de se faire reconnaître (A11.05 / A11.12), mais il doit obligatoirement marquer un arrêt devant le sémaphore concerné avant d'appliquer les prescriptions de la situation correspondante (ordre S ou ordre MV).",
+      "sources": [
+        "A11.13 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 2/5 et 5/5, Application métier 3",
+        "A11.12 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 2/2, Application métier 1.2",
+        "A11.05 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/3, Principe"
+      ]
+    },
+    {
+      "id": "lot01-q40",
+      "type": "open",
+      "category": "Franchissement d'un EOA ou signal d'arrêt en ETCS niveau 1",
+      "fiche": "A11.14",
+      "difficulty": "difficile",
+      "question": "Votre train circule en ETCS niveau 1. À la suite d'un dérangement, vous êtes arrêté devant un EOA ramené à la tête du train avec le message textuel « MA raccourcie », alors que le signal lumineux immédiatement en aval de votre cabine est ouvert. Vous n'avez encore effectué aucun appel ni aucune manipulation au DMI. Décrivez la procédure complète : reconnaissance auprès de l'agent du SGC (avec formulation réglementaire), nécessité et portée de l'instruction IE1, activation et désactivation de la fonction Override EOA, et conditions de franchissement.",
+      "modelAnswer": "1. Reconnaissance immédiate auprès de l'agent du SGC en précisant que le train est en ETCS niveau 1, sous la forme : « Ici conducteur du train ETCS niveau 1 en mode ..., numéro du train, arrêté au km ... (ou devant le signal d'arrêt n° ...) sur la voie ... (suivi du motif « MA raccourcie » et informations/demandes), à vous ». 2. Recevoir une instruction IE1 : elle est obligatoire pour franchir l'EOA ramené à la tête du train avec « MA raccourcie », même si le signal immédiatement en aval est ouvert en ETCS 1 ; attention, elle n'autorise pas à franchir un signal d'arrêt fermé situé en aval de cet EOA. 3. Après réception d'IE1, activer la fonction Override EOA : être arrêté à moins de 100 m de l'EOA (ou du signal d'arrêt) et réaliser l'appui dans un délai de 60 secondes avant de le franchir. Cette fonction inhibe le Train trip et provoque le passage en mode SR. 4. Vérifier l'affichage des symboles correspondants au DMI (Override EOA et mode SR), se conformer aux instructions mentionnées sur IE1 (notamment annotation éventuelle de circulation à contresens en cas d'extinction du TECS) et respecter les prescriptions du mode SR. 5. Franchir l'EOA (sans tenir compte des pétards éventuels lors du franchissement d'un signal fermé), ne pas dépasser 30 km/h au franchissement des appareils de voie protégés par le signal, puis reprendre la marche conformément aux indications au DMI. 6. La fonction Override EOA se désactive automatiquement (effacement du symbole) dès la première des conditions suivantes : franchissement de l'EOA, parcours d'une distance de 100 m, écoulement de 60 secondes depuis l'activation, ou réception d'une nouvelle MA.",
+      "keyPoints": [
+        {
+          "label": "Se faire reconnaître immédiatement auprès de l'agent du SGC en précisant que le train est en ETCS niveau 1 et son mode (formule réglementaire : « Ici conducteur du train ETCS niveau 1 en mode ..., n° du train, arrêté au km ... / devant le signal n° ... sur la voie ..., à vous »)",
+          "critical": true
+        },
+        {
+          "label": "Recevoir une instruction IE1 même si le signal immédiatement en aval est ouvert (en ETCS 1) — sachant qu'elle n'autorise pas le franchissement d'un signal d'arrêt fermé situé en aval de cet EOA",
+          "critical": true
+        },
+        {
+          "label": "Activer la fonction Override EOA après réception d'IE1, en étant arrêté à moins de 100 m et dans un délai de 60 s avant le franchissement (inhibe le Train trip et provoque le passage en mode SR)",
+          "critical": true
+        },
+        {
+          "label": "Vérifier l'affichage des symboles au DMI, se conformer aux instructions de l'IE1 et respecter les prescriptions du mode SR",
+          "critical": true
+        },
+        {
+          "label": "Ne pas dépasser 30 km/h au franchissement des appareils de voie protégés par le signal (et ne pas tenir compte des signaux détonants éventuels)",
+          "critical": true
+        },
+        {
+          "label": "Connaître les 4 conditions de désactivation automatique d'Override EOA : franchissement de l'EOA, ou 100 m parcourus, ou 60 s depuis l'activation, ou réception d'une nouvelle MA",
+          "critical": false
+        }
+      ],
+      "explanation": "Les fiches A11.05 (décembre 2025) et A11.14 (juin 2025) encadrent l'arrêt devant un EOA en ETCS niveau 1. Même si le signal sol en aval est ouvert, le message « MA raccourcie » impose une reconnaissance formalisée ETCS 1, une instruction IE1 et l'activation d'Override EOA (< 100 m, ≤ 60 s) entraînant le passage en mode SR.",
+      "sources": [
+        "A11.14 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/2 et 2/2, Principe, La fonction Override EOA et Application métier 1",
+        "A11.05 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/3 et 3/3, Principe (ETCS) et Application métier 3"
+      ]
+    },
+    {
+      "id": "lot01-q41",
+      "type": "qcm",
+      "category": "Le feu rouge clignotant",
+      "fiche": "A11.16",
+      "difficulty": "facile",
+      "question": "Vous conduisez un train de fret (signalisation d'avant conforme et complète) en BAL sur une section en rampe et rencontrez un panneau présentant un feu rouge clignotant. Quelle est votre conduite à tenir ?",
+      "correctAnswer": "Sans marquer l'arrêt, s'avancer en marche à vue sans dépasser la vitesse de 15 km/h au franchissement du signal, respecter les indications éventuelles du KVB et observer la marche à vue jusqu'à la fin du canton qui suit ce signal",
+      "distractors": [
+        "Marquer un arrêt impératif avant le signal, puis franchir de soi-même en marche à vue sans dépasser 15 km/h",
+        "Sans marquer l'arrêt, franchir le signal en marche à vue sans dépasser 30 km/h au franchissement du signal",
+        "Sans marquer l'arrêt, franchir le signal à 15 km/h maximum et reprendre la marche normale dès que la queue du train a dégagé le panneau",
+        "Marquer l'arrêt avant le signal et se faire reconnaître auprès de l'agent du SGC comme devant un carré fermé",
+        "Sans marquer l'arrêt, franchir le signal à 15 km/h maximum en maintenant impérativement 15 km/h sur toute la longueur du canton suivant",
+        "Franchir le signal à 15 km/h maximum sans avoir à observer la marche à vue si le KVB n'affiche aucune restriction"
+      ],
+      "explanation": "Le feu rouge clignotant n'impose normalement pas l'arrêt avant le signal : le conducteur s'avance en marche à vue sans dépasser 15 km/h au franchissement du signal, respecte les indications éventuelles du KVB et observe la marche à vue jusqu'à la fin du canton qui suit ce signal. (Attention : en cas d'absence totale de signalisation d'avant du train, appliquer l'article F44.12.)",
+      "sources": [
+        "A11.16 — © Lineas, December 14, 2025 (All rights reserved) — p. 1/2 et 2/2, Principe, Description et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot01-q42",
+      "type": "qcm_multi",
+      "category": "Le disque",
+      "fiche": "A11.17",
+      "difficulty": "difficile",
+      "question": "Vous rencontrez un disque fermé (feu jaune + feu rouge en lumineux, ou cocarde circulaire rouge en mécanique). Quelles prescriptions réglementaires s'appliquent selon que ce disque précède ou non une gare de voie unique ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Dans tous les cas, se mettre aussitôt que possible en marche à vue et marquer un arrêt avant le premier appareil de voie (aiguille ou traversée) protégé par le disque si aucun signal d'arrêt n'a été rencontré jusque-là",
+        "Si le disque précède une gare de voie unique (autre qu'une gare de jonction de voie unique et de double voie), en plus de l'arrêt éventuel avant le premier appareil de voie protégé, le conducteur doit s'arrêter obligatoirement en gare",
+        "Si le disque précède une gare de jonction de voie unique et de double voie, le conducteur applique les règles du disque ne précédant pas une gare de voie unique"
+      ],
+      "distractors": [
+        "Le disque fermé commande l'arrêt impératif avant le disque lui-même, exactement comme un carré ou un sémaphore",
+        "Si le poste protégé par le disque comporte un signal de cantonnement ouvert à la sortie, le conducteur reprend la marche normale dès qu'il aperçoit ce signal ouvert",
+        "Si le disque précède une gare de voie unique sans signal de cantonnement de sortie, le conducteur peut toujours repartir de lui-même après 5 minutes sans ordre",
+        "En signalisation lumineuse, le disque fermé présente deux feux jaunes fixes sur une ligne horizontale"
+      ],
+      "displayCount": 5,
+      "explanation": "Un disque fermé (feu jaune + feu rouge en lumineux ; cocarde circulaire rouge + feu jaune et feu rouge la nuit en mécanique) commande de se mettre aussitôt que possible en marche à vue et de marquer un arrêt avant le premier appareil de voie protégé (ou au poste s'il n'y en a pas / s'il est au-delà). S'il précède une gare de voie unique (sauf gare de jonction VU/DV, qui suit la règle générale hors VU), il impose en outre un arrêt obligatoire en gare. Lorsque le poste comporte un signal de cantonnement ouvert, la marche normale ne reprend qu'après l'avoir franchi ouvert.",
+      "sources": [
+        "A11.17 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/4 à 4/4, Description et Application métier 1 à 6"
+      ]
+    },
+    {
+      "id": "lot01-q43",
+      "type": "open",
+      "category": "Le disque — Établissement pleine ligne sans Agent du SGC",
+      "fiche": "A11.17",
+      "difficulty": "difficile",
+      "question": "Sur une ligne en Block Manuel, vous franchissez un disque fermé précédant un établissement pleine ligne (PL) qui n'est pas désigné poste de cantonnement aux LiLi et ne comporte pas de signal de cantonnement en commandant la sortie. Vous n'avez pas encore atteint le premier appareil de voie et vous constaterez sur place l'absence d'Agent du SGC. Quelle est la procédure complète depuis le franchissement du disque fermé jusqu'à la reprise de la marche normale ?",
+      "modelAnswer": "1. Se mettre aussitôt que possible en marche à vue dès la rencontre du disque fermé. 2. Marquer un arrêt (en l'absence de signal commandant l'arrêt jusque-là) avant le premier appareil de voie (aiguille ou traversée) protégé par le disque, ou au poste si cet appareil est au-delà ou s'il n'en comporte pas. 3. Par dérogation (établissement PL non désigné poste de cantonnement aux LiLi, en l'absence d'Agent du SGC et sans signal de cantonnement), le conducteur est autorisé à se remettre en marche de lui-même si rien ne s'y oppose, notamment en ce qui concerne la position de la ou des aiguilles dans la zone du poste concerné. 4. Poursuivre la marche à vue au-delà de la dernière aiguille de la zone du poste. 5. Ne reprendre la marche normale, si rien ne s'y oppose, qu'après avoir parcouru au-delà de la dernière aiguille une distance au moins égale à la distance de couverture des obstacles sur la section de ligne considérée. 6. (Si impossibilité de se faire reconnaître dans un cas relevant de F30.15 : appliquer l'article F30.15 « Un établissement précédé d'un disque fermé, ne comporte ni signal de cantonnement en commandant la sortie, ni Agent du SGC ».)",
+      "keyPoints": [
+        {
+          "label": "Se mettre aussitôt que possible en marche à vue dès la rencontre du disque fermé",
+          "critical": true
+        },
+        {
+          "label": "Marquer un arrêt avant le premier appareil de voie (aiguille ou traversée) protégé par le disque, ou au poste s'il n'en comporte pas ou si l'appareil se trouve au-delà",
+          "critical": true
+        },
+        {
+          "label": "Par dérogation (établissement PL non désigné poste de cantonnement aux LiLi, absence d'Agent du SGC), se remettre en marche de soi-même si rien ne s'y oppose, notamment après vérification de la position des aiguilles dans la zone du poste",
+          "critical": true
+        },
+        {
+          "label": "Poursuivre la marche à vue au-delà de la dernière aiguille sur une distance au moins égale à la distance de couverture des obstacles sur la section de ligne considérée",
+          "critical": true
+        },
+        {
+          "label": "Ne reprendre la marche normale, si rien ne s'y oppose, qu'après avoir parcouru cette distance (et connaître le renvoi éventuel à F30.15 en cas d'impossibilité de se faire reconnaître)",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A11.17 (section 2.3) prévoit une dérogation précise pour les établissements pleine ligne non désignés postes de cantonnement aux LiLi dépourvus d'Agent du SGC et de signal de cantonnement : remise en marche autonome possible si rien ne s'y oppose (position des aiguilles notamment), suivie d'une marche à vue au-delà de la dernière aiguille sur au moins la distance de couverture des obstacles de la section de ligne.",
+      "sources": [
+        "A11.17 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 2/4 et 3/4, Application métier 1 et 2.3"
+      ]
+    }
+  ]
+}

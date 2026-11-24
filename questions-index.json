@@ -1,6 +1,49 @@
 {
-  "updatedAt": "2026-11-24",
-  "files": [
-    "demo-reglementation.json"
+  "version": "4.0",
+  "updatedAt": "2026-11-24T15:19:00Z",
+  "packs": [
+    {
+      "packId": "lot01-signalisation-arret",
+      "title": "Lot 1 — Principes de signalisation et signaux d'arrêt (A10 / A11)",
+      "file": "lot01-signalisation-arret.json",
+      "description": "Principes généraux de la signalisation, espacement des trains, plaques, visibilité réduite, signaux d'arrêt et assimilés, reconnaissance, contrôle/manœuvre d'aiguilles et franchissement (CBA, C, S, MV, FOLI, IE1/ETCS).",
+      "questionCount": 43,
+      "breakdown": {
+        "qcm": 27,
+        "qcm_multi": 9,
+        "open": 7
+      },
+      "fiches": [
+        "A10.01",
+        "A10.02",
+        "A10.03",
+        "A10.04",
+        "A10.05",
+        "A10.06",
+        "A10.07",
+        "A10.08",
+        "A10.09",
+        "A10.10",
+        "A10.11",
+        "A10.12",
+        "A11.01",
+        "A11.02",
+        "A11.03",
+        "A11.04",
+        "A11.05",
+        "A11.07",
+        "A11.08",
+        "A11.09",
+        "A11.10",
+        "A11.11",
+        "A11.12",
+        "A11.13",
+        "A11.14",
+        "A11.15",
+        "A11.16",
+        "A11.17"
+      ],
+      "generatedAt": "2026-11-24T15:19:00Z"
+    }
   ]
 }
