@@ -1,0 +1,558 @@
+{
+  "packId": "lot03-divers-pn-faisceaux-traction",
+  "title": "Lot 3 — Direction, AuM/DAMM, PN, pancartes, faisceaux et traction électrique (A15 à A19)",
+  "generatedAt": "2026-11-24T16:46:00Z",
+  "questions": [
+    {
+      "id": "lot03-q01",
+      "type": "qcm",
+      "category": "Indicateur de direction (ID)",
+      "fiche": "A15.01",
+      "difficulty": "facile",
+      "question": "Vous approchez d'une bifurcation à trois directions géographiques (A à gauche, B au centre, C à droite, sans convention particulière aux documents d'exploitation). Le carré précédant les aiguilles est ouvert et l'Indicateur de Direction (ID) groupé avec ce carré présente 2 feux allumés. Quelle direction vous est donnée et quelle vérification devez-vous effectuer ?",
+      "correctAnswer": "La 2e direction géographique à partir de la gauche (direction B) ; vous devez vous assurer que cette direction correspond à votre itinéraire normal ou qu'elle est compatible avec le service à effectuer (ex. desserte d'une ITE)",
+      "distractors": [
+        "La 2e direction géographique à partir de la droite, soit toujours la voie directe sans déviation",
+        "La direction A (1re à gauche), le second feu servant uniquement de contrôle d'ouverture du carré",
+        "La direction C (3e à partir de la gauche), car les feux s'additionnent à partir de la voie principale centrale",
+        "Une autorisation de franchir les aiguilles en déviation à 60 km/h maximum sans autre signalisation de vitesse",
+        "Une direction vers une voie de service ou un faisceau de garage",
+        "Le nombre de feux d'un ID indique le nombre d'aiguilles successives prises en pointe au-delà du carré"
+      ],
+      "explanation": "L'Indicateur de Direction lumineux (ID), en principe groupé avec le carré précédant la ou les aiguilles en pointe, indique par le nombre de ses feux le numéro d'ordre, à partir de la gauche, de la direction géographique donnée (sauf indication contraire dans la documentation d'exploitation). Le conducteur s'assure que cette direction correspond à son itinéraire normal ou est compatible avec le service à effectuer.",
+      "sources": [
+        "A15.01 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Description, Implantation et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot03-q02",
+      "type": "qcm",
+      "category": "Tableau Indicateur de Direction à Distance (TIDD)",
+      "fiche": "A15.02",
+      "difficulty": "moyen",
+      "question": "À l'approche d'une bifurcation à deux directions géographiques équipée d'un TIDD (groupé avec le premier signal annonçant le carré), vous constatez que le TIDD est éteint. Quelles sont les raisons normales de l'extinction d'un TIDD et quelle indication présente-t-il lorsqu'il donne la 2e direction à partir de la gauche ?",
+      "correctAnswer": "Le TIDD est éteint lorsque le carré de la bifurcation ou un carré intermédiaire est fermé, ou lorsqu'un train se trouve entre le TIDD et la bifurcation ; allumé pour la 2e direction à partir de la gauche (sauf convention contraire aux LiLi), il présente en blanc sur fond noir la partie inférieure et la branche supérieure droite de la lettre « Y »",
+      "distractors": [
+        "L'extinction du TIDD signifie toujours un dérangement imposant l'arrêt immédiat ; allumé pour la 2e direction à partir de la gauche, il présente la lettre « Y » complète",
+        "Le TIDD reste allumé en permanence même lorsque le carré de bifurcation est fermé ; il présente la branche supérieure gauche pour la 2e direction",
+        "Le TIDD est éteint uniquement lorsqu'un train circule en sens inverse ; pour la 2e direction à partir de la gauche, il affiche le chiffre « 2 » en blanc sur fond noir",
+        "Le TIDD est toujours groupé avec le carré de bifurcation lui-même et s'éteint lorsque la direction de droite est tracée",
+        "Le TIDD est éteint lorsque la direction géographique normale est tracée et ne s'allume que pour une voie déviée",
+        "Le TIDD est réservé aux bifurcations comportant 3 directions géographiques ou plus et s'éteint au-dessus de 100 km/h"
+      ],
+      "explanation": "Selon la fiche A15.02 (décembre 2024), le TIDD est en principe groupé avec le premier signal annonçant le carré de bifurcation (avertissement ou feu jaune clignotant). Il présente la partie inférieure + branche supérieure gauche du « Y » (1re direction à partir de la gauche) ou droite (2e direction à partir de la gauche, sauf convention aux LiLi). Il est éteint lorsque le carré de la bifurcation ou un carré intermédiaire est fermé, ou lorsqu'un train se trouve entre le TIDD et la bifurcation.",
+      "sources": [
+        "A15.02 — © Lineas, December 15, 2024 Lille (All rights reserved) — p. 1/2 et 2/2, Principe, Description et Implantation"
+      ]
+    },
+    {
+      "id": "lot03-q03",
+      "type": "qcm_multi",
+      "category": "Tableaux et pancartes indiquant une direction",
+      "fiche": "A15.03",
+      "difficulty": "moyen",
+      "question": "Concernant les tableaux et pancartes indiquant une direction (G, D, SAS, H, Imp) décrits dans la fiche A15.03, quelles propositions sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Le tableau « G » indique une voie de service et le tableau « D » une voie de dépôt ; le tableau « SAS » indique une portion de voie généralement très courte et encadrée de signaux carrés",
+        "Le tableau « H » indique une voie en impasse avec heurtoir (repéré de nuit, s'il y a lieu, par un feu violet ou un feu rouge), tandis que le tableau « Imp » indique une voie en impasse qui peut ne pas être munie d'un heurtoir",
+        "Lorsqu'ils sont mobiles, ces tableaux sont en principe groupés avec le signal carré précédant l'aiguille et ne donnent pas d'indication particulière en position d'ouverture"
+      ],
+      "distractors": [
+        "Le tableau « G » indique une voie de gare principale et le tableau « D » indique une voie en déviation limitée à 30 km/h",
+        "Le tableau « Imp » garantit toujours la présence d'un heurtoir éclairé de nuit par deux feux rouges horizontaux",
+        "En position d'ouverture, les tableaux mobiles de direction (« G », « D », « H ») présentent obligatoirement une bande verticale blanche continue",
+        "Le tableau « SAS » indique toujours une voie de service dépourvue de tout signal de sortie"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A15.03 définit précisément : G (voie de service), D (voie de dépôt), SAS (portion de voie généralement très courte encadrée de carrés), H (voie en impasse avec heurtoir — heurtoirs repérés de nuit par un feu violet ou un feu rouge, ou transitoirement tableau H blanc sur fond noir), Imp (voie en impasse pouvant ne pas être munie d'un heurtoir). Les tableaux mobiles sont en principe groupés avec le carré précédant l'aiguille et ne donnent pas d'indication particulière en position d'ouverture.",
+      "sources": [
+        "A15.03 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Description et Implantation"
+      ]
+    },
+    {
+      "id": "lot03-q04",
+      "type": "qcm",
+      "category": "Tableau Indicateur de Niveau à Distance (TIND)",
+      "fiche": "A15.04",
+      "difficulty": "facile",
+      "question": "À l'approche de certaines gares parisiennes équipées d'un Tableau Indicateur de Niveau à Distance (TIND), comment ce tableau indique-t-il que votre itinéraire est dirigé en surface ou en souterrain ?",
+      "correctAnswer": "En blanc sur fond noir : partie gauche horizontale et partie droite dirigée vers le haut pour une direction en surface ; partie gauche horizontale et partie droite dirigée vers le bas pour une direction en souterrain",
+      "distractors": [
+        "Par les lettres lumineuses « S » (surface) ou « T » (tunnel) affichées en jaune sur fond noir",
+        "Par la branche supérieure gauche ou droite de la lettre « Y » en blanc sur fond noir",
+        "Par un feu blanc fixe (surface) ou un feu blanc clignotant (souterrain) groupé avec le carré d'entrée",
+        "Par une flèche verticale vers le haut (souterrain) ou une flèche horizontale (surface)",
+        "Par un ou deux feux blancs alignés horizontalement, le 1er correspondant à la surface et le 2e au souterrain",
+        "Par une bande lumineuse verte inclinée à 45° vers le haut (surface) ou vers le bas (souterrain)"
+      ],
+      "explanation": "Selon la fiche A15.04 (juin 2026), le TIND (un ou deux tableaux lumineux) présente en blanc sur fond noir : partie gauche horizontale + partie droite dirigée vers le haut (direction en surface) ; partie gauche horizontale + partie droite dirigée vers le bas (direction en souterrain). Le conducteur vérifie la concordance avec son itinéraire normal ou le service à effectuer.",
+      "sources": [
+        "A15.04 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/1, Principe, Description et Application métier"
+      ]
+    },
+    {
+      "id": "lot03-q05",
+      "type": "qcm",
+      "category": "Signaux manuel et lumineux d'Autorisation de Mouvement",
+      "fiche": "A16.01",
+      "difficulty": "facile",
+      "question": "Votre train est en attente de départ. Comment se présentent respectivement le signal à main d'Autorisation de Mouvement (AuM) et le Signal Lumineux d'Autorisation de Mouvement (SLD) ?",
+      "correctAnswer": "Signal à main : guidon d'AuM vert et blanc élevé verticalement et balancé légèrement dans le sens transversal (la nuit/mauvaise visibilité : même geste avec le guidon à deux bandes de LEDs vertes parallèles et verticales, ou à défaut feu vert d'une lanterne) ; SLD : caisson lumineux présentant un voyant clignotant mi-blanc, mi-vert",
+      "distractors": [
+        "Signal à main : drapeau vert déployé tenu immobile horizontalement ; SLD : voyant vert fixe continu dans un caisson",
+        "Signal à main : lanterne blanche agitée en cercle ; SLD : inscription lumineuse « AuM » clignotante en blanc sur fond noir",
+        "Signal à main : guidon d'AuM rouge et blanc élevé verticalement ; SLD : voyant clignotant mi-jaune, mi-blanc",
+        "Signal à main : deux bras élevés de toute leur hauteur ; SLD : bande lumineuse blanche inclinée à 45°",
+        "Signal à main : guidon vert et blanc balancé uniquement de jour (interdit la nuit) ; SLD : voyant blanc clignotant identique au feu blanc clignotant de manœuvre",
+        "Signal à main : uniquement présenté à droite de la voie ; SLD : voyant vert clignotant identique au feu vert clignotant de préannonce"
+      ],
+      "explanation": "Le signal à main d'AuM (A16.01, normalement présenté à gauche ou côté quai en établissement voyageurs) est constitué par un guidon vert et blanc élevé verticalement et balancé légèrement dans le sens transversal (avec 2 bandes de LEDs vertes parallèles et verticales la nuit/mauvaise visibilité, ou à défaut feu vert d'une lanterne). Le SLD (A16.02) présente un voyant clignotant mi-blanc, mi-vert qui constitue l'AuM.",
+      "sources": [
+        "A16.01 — © Lineas, December 15, 2019 Brussels (All rights reserved) — p. 1/1, Principe et Description",
+        "A16.02 — © Lineas, December 15, 2019 Brussels (All rights reserved) — p. 1/1, Principe et Description"
+      ]
+    },
+    {
+      "id": "lot03-q06",
+      "type": "qcm",
+      "category": "Plaque de Demande d'Autorisation de Mouvement (DD)",
+      "fiche": "A16.03",
+      "difficulty": "moyen",
+      "question": "Votre train de fret est techniquement prêt au départ et arrêté devant un signal carré muni d'une plaque « DD » (silhouette d'un combiné téléphonique + lettres DD, noir sur fond blanc). Le signal carré est toujours fermé. À quel moment et par quel moyen devez-vous solliciter l'Autorisation de Mouvement (AuM) ?",
+      "correctAnswer": "Une minute avant l'heure de départ prévue (ou dès l'ouverture du signal s'il s'ouvre avant), par téléphone (en utilisant la téléphonie dématérialisée si la ligne est équipée)",
+      "distractors": [
+        "Dès l'arrêt devant le signal carré, même si l'heure de départ prévue est dans 20 minutes",
+        "Uniquement après l'heure de départ prévue, après avoir attendu un délai de 5 minutes comme devant une plaque de reconnaissance différée",
+        "Uniquement lorsque le signal carré s'ouvre : tant qu'il reste fermé, la plaque « DD » dispense le conducteur d'appeler",
+        "Deux minutes avant l'heure de départ prévue, obligatoirement en se rendant à pied au poste d'aiguillage",
+        "Cinq minutes avant l'heure de départ prévue, exclusivement par le téléphone du signal (jamais par téléphonie dématérialisée)",
+        "Vous n'avez rien à solliciter dès que le signal carré s'ouvre, car l'ouverture du carré annule la plaque « DD »"
+      ],
+      "explanation": "La fiche A16.03 (décembre 2025) impose au conducteur arrêté devant un signal muni d'une plaque « DD », lorsque son train est techniquement prêt au départ, de solliciter l'AuM par téléphone (ou téléphonie dématérialisée si la ligne est équipée) dans deux cas : soit dès l'ouverture du signal, soit si le signal reste fermé et qu'il est une minute avant l'heure de départ prévue.",
+      "sources": [
+        "A16.03 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/1, Principe, Description et Application métier 1.1 et 1.2"
+      ]
+    },
+    {
+      "id": "lot03-q07",
+      "type": "open",
+      "category": "Dispositif d'Aide à la Mise en Mouvement (DAMM)",
+      "fiche": "A16.04",
+      "difficulty": "difficile",
+      "question": "Votre train de fret est arrêté dans un établissement équipé d'un DAMM biface ; le signal de sortie n'est pas visible depuis votre point d'arrêt. Expliquez : (1) la signification réglementaire exacte d'un DAMM allumé et ce qu'il ne constitue JAMAIS ; (2) l'aspect visuel du DAMM allumé observé depuis l'amont et depuis l'aval ; (3) votre conduite complète si le DAMM est allumé ; (4) votre conduite si le DAMM est éteint.",
+      "modelAnswer": "1. Signification et limite : le DAMM allumé indique uniquement que le signal de sortie est commandé à l'ouverture (ce qui ne signifie pas que ce signal présente un feu vert). En aucun cas le DAMM ne donne l'Autorisation de Mouvement (AuM). 2. Aspect visuel allumé : observé depuis l'amont (en direction du signal de sortie) = une bande blanche lumineuse (blanc lunaire) inclinée à 45°, partie basse côté voie ; observé depuis l'aval (au revers d'un DAMM biface, sens opposé au signal de sortie) = trois points lumineux (blanc lunaire) alignés en diagonale à 45°, partie basse côté voie. (Éteint : forme carrée noire avec liseré blanc réflectorisé.) 3. Conduite lorsque le DAMM est allumé : s'assurer que toutes les conditions pour le départ sont remplies ; se mettre en mouvement en respectant la marche à vue jusqu'à observation du signal de sortie (en prêtant attention aux indications du KVB) ; recevoir l'AuM par l'observation du signal de sortie ouvert. 4. Conduite lorsque le DAMM est éteint (signal fermé ou dérangement du DAMM) : attendre l'allumage du DAMM ; au besoin, aviser l'agent du SGC et suivre ses instructions ; le cas échéant, obtenir une AuM (verbalement, sous la forme manuelle, ou par écrit/dépêche) et appliquer les prescriptions du chapitre D (attention aux indications du KVB).",
+      "keyPoints": [
+        {
+          "label": "Le DAMM allumé indique uniquement l'état de commande à l'ouverture du signal de sortie (ne signifie pas feu vert) et ne donne EN AUCUN CAS l'Autorisation de Mouvement (AuM)",
+          "critical": true
+        },
+        {
+          "label": "Aspect allumé depuis l'amont : bande blanche lumineuse (blanc lunaire) inclinée à 45°, partie basse côté voie",
+          "critical": true
+        },
+        {
+          "label": "Aspect allumé depuis l'aval (DAMM biface au revers) : trois points lumineux (blanc lunaire) alignés en diagonale à 45°, partie basse côté voie",
+          "critical": true
+        },
+        {
+          "label": "Si le DAMM est allumé : vérifier que toutes les conditions de départ sont remplies, avancer en marche à vue jusqu'à observation du signal de sortie (attention au KVB) et recevoir l'AuM par observation du signal de sortie ouvert",
+          "critical": true
+        },
+        {
+          "label": "Si le DAMM est éteint : attendre son allumage ; au besoin aviser l'agent du SGC et obtenir une AuM (verbalement, sous forme manuelle, ou par écrit/dépêche) en appliquant le chapitre D",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A16.04 insiste sur deux erreurs fréquentes à éviter : croire que le DAMM allumé donne l'AuM ou garantit un feu vert. Il permet uniquement, une fois toutes les conditions de départ réunies, d'avancer en marche à vue jusqu'à l'observation du signal de sortie qui délivrera l'AuM.",
+      "sources": [
+        "A16.04 — © Lineas, December 13, 2020 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe, Description, Illustration et Application métier 1.1 et 1.2"
+      ]
+    },
+    {
+      "id": "lot03-q08",
+      "type": "qcm",
+      "category": "Voyant Service Train (ST)",
+      "fiche": "A16.05",
+      "difficulty": "facile",
+      "question": "Lors d'un arrêt en gare avec votre train de fret Lineas, vous apercevez à gauche de la voie un caisson lumineux affichant l'inscription « ST » clignotante en noir sur fond blanc. Ce voyant concerne-t-il votre train ?",
+      "correctAnswer": "Non : le voyant Service Train (« ST ») ne concerne pas les trains Lineas, Hexafret, CFL Cargo ou SBB CF",
+      "distractors": [
+        "Oui : son clignotement constitue une Autorisation de Mouvement (AuM) équivalente au SLD",
+        "Oui : il impose de rester arrêté tant que l'inscription « ST » ne passe pas au fixe",
+        "Oui : il commande au conducteur fret de solliciter l'AuM par radio GSM-R auprès du régulateur",
+        "Oui, uniquement si le train transporte des marchandises dangereuses",
+        "Oui : il autorise à avancer en marche à vue jusqu'au signal de sortie comme un DAMM",
+        "Non de jour, mais il impose un arrêt de vérification technique la nuit"
+      ],
+      "explanation": "La fiche A16.05 (décembre 2024) indique explicitement que le voyant Service Train (caisson présentant « ST » clignotant en noir sur fond blanc) ne concerne pas les trains Lineas, Hexafret, CFL Cargo ou SBB CF.",
+      "sources": [
+        "A16.05 — © Lineas, December 15, 2024 Lille (All rights reserved) — p. 1/1, Principe et Description"
+      ]
+    },
+    {
+      "id": "lot03-q09",
+      "type": "qcm",
+      "category": "Pancartes de PN (Dispositif Z vs Dispositif M)",
+      "fiche": "A17.01",
+      "difficulty": "moyen",
+      "question": "Vous approchez d'un passage à niveau non gardé (autre qu'à SAL) en l'absence d'OFS à bord. La pancarte PN de proximité (blanc sur fond noir) est munie d'un bandeau blanc (Dispositif M). Quelle est votre procédure complète ?",
+      "correctAnswer": "S'arrêter au droit de la pancarte, fermer les barrières (ou mettre en place le dispositif de remplacement), franchir le PN, s'arrêter lorsque le dernier véhicule du train a dégagé le PN, ouvrir les barrières (ou retirer le dispositif de remplacement), puis reprendre la marche",
+      "distractors": [
+        "S'arrêter au droit de la pancarte, attendre la fermeture automatique sur la zone courte (~20 m avant le PN), franchir le PN et poursuivre sans s'arrêter car la réouverture est automatique",
+        "Franchir le PN sans arrêt à vitesse d'homme au pas en actionnant le sifflet, la pancarte à bandeau blanc ne concernant que les OFS",
+        "S'arrêter au droit de la pancarte, fermer les barrières, franchir le PN et poursuivre sans rouvrir les barrières puisque le PN est non gardé",
+        "S'arrêter au droit de la pancarte, appuyer sur le bouton-poussoir du coffret à clé de Berne pour fermer le PN et ne pas se préoccuper de la réouverture (automatique sur tous les PN à bandeau blanc)",
+        "S'arrêter au droit de la pancarte, fermer les barrières, franchir le PN et s'arrêter dès que la locomotive a dégagé le PN pour rouvrir les barrières",
+        "S'arrêter à 200 m du PN et attendre qu'un agent du SGC vienne manœuvrer les barrières"
+      ],
+      "explanation": "La fiche A17.01 distingue : pancarte PN de proximité sans bandeau blanc = Dispositif Z (fermeture auto sur zone courte ~20 m avant le PN, réouverture auto) ; pancarte PN avec bandeau blanc = Dispositif M (commande/manœuvre par agents du train). Pour un Dispositif M sur PN à SAL -> commande au coffret (clé de Berne), franchir après fermeture, réouverture auto. Pour un Dispositif M sur PN autre qu'à SAL (sans OFS) -> fermer barrières / dispositif remplacement, franchir, s'arrêter lorsque le dernier véhicule a dégagé le PN, rouvrir barrières / retirer dispositif, reprendre la marche.",
+      "sources": [
+        "A17.01 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe, Description et Application métier 2, 3.1 et 3.2"
+      ]
+    },
+    {
+      "id": "lot03-q10",
+      "type": "qcm_multi",
+      "category": "PN à SAL à Franchissement Conditionnel (SAL FC)",
+      "fiche": "A17.02",
+      "difficulty": "moyen",
+      "question": "Concernant la signalisation et le franchissement d'un PN à SAL à Franchissement Conditionnel (SAL FC), quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Le contrôle de fermeture est constitué par deux unités lumineuses présentant deux feux verts (ligne verticale ou horizontale) lorsque le PN est fermé ; tant que ce contrôle n'est pas présenté, le conducteur doit toujours être en mesure de s'arrêter avant le PN",
+        "La pancarte à distance est normalement implantée à 900 m du PN (groupée avec la pancarte « RADIO » si la commande est radio et que tous les PN de la ligne ne sont pas commandés par radio), et la pancarte « Cde RADIO » normalement à 350 m du PN",
+        "Pour un conducteur Lineas France seul à bord du train face à un PN SAL FC à commande radio, le conducteur actionne la commande de fermeture, vérifie l'allumage des unités lumineuses, puis franchit le PN"
+      ],
+      "distractors": [
+        "Le contrôle de fermeture d'un PN à SAL FC est présenté par un seul feu blanc clignotant au-dessus de la pancarte PN",
+        "La pancarte « Cde RADIO » est normalement implantée à 900 m du PN et la pancarte à distance à 350 m",
+        "Lorsque les deux feux verts de contrôle sont éteints mais que vous constatez après arrêt que les barrières sont bien fermées, il est interdit de franchir le PN même en signalant l'anomalie ensuite",
+        "La pancarte « RADIO » est obligatoirement installée sous la pancarte à distance même lorsque tous les PN de la ligne sont commandés par radio"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A17.02 détaille : pancarte à distance normalement à 900 m (avec « RADIO » sauf si tous les PN de la ligne sont commandés par radio), pancarte « Cde RADIO » à 350 m, contrôle de fermeture = 2 feux verts (vertical/horizontal). Si feux verts éteints -> arrêt au droit de la pancarte PN, observer les barrières (si fermées : franchir + signaler anomalie ; si ouvertes : dispositifs de remplacement par OFS/SGC). Cas Lineas France conducteur seul à bord : actionner la commande de fermeture radio, vérifier l'allumage des unités lumineuses, franchir le PN.",
+      "sources": [
+        "A17.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/4 à 4/4, Principe, Description et Application métier 1.1 et 3"
+      ]
+    },
+    {
+      "id": "lot03-q11",
+      "type": "open",
+      "category": "PN à SAL FC — Barrières brisées ou ouvertes",
+      "fiche": "A17.02",
+      "difficulty": "difficile",
+      "question": "Vous approchez d'un PN à SAL à Franchissement Conditionnel (avec un OFS à bord) et constatez qu'une barrière du PN est brisée. Vous n'avez pas encore atteint le PN. Décrivez la procédure réglementaire complète selon que l'arrêt peut ou non être obtenu avant le PN.",
+      "modelAnswer": "1. Immédiatement : siffler si possible avant le PN et tenter de s'arrêter avant le PN. 2. Si l'arrêt peut être obtenu avant le PN : attendre la mise en place des dispositifs de remplacement des barrières par l'OFS (ou par un Agent du SGC) ; franchir le PN ; s'arrêter lorsque le dernier véhicule du train a dégagé le PN ; reprendre la marche après le retrait des dispositifs de remplacement et le retour de l'OFS sur l'Engin Moteur ; signaler dès que possible l'anomalie à un Agent du SGC (en principe le Chef de ligne) et appliquer les prescriptions de la consigne de ligne. 3. Si l'arrêt ne peut pas être obtenu avant le PN : signaler dès que possible l'anomalie à un Agent du SGC (en principe le Chef de ligne) et appliquer les prescriptions de la consigne de ligne.",
+      "keyPoints": [
+        {
+          "label": "Siffler si possible avant le PN et tenter de s'arrêter avant le PN",
+          "critical": true
+        },
+        {
+          "label": "Si arrêt obtenu avant le PN : franchir le PN uniquement après mise en place des dispositifs de remplacement des barrières par l'OFS ou un Agent du SGC",
+          "critical": true
+        },
+        {
+          "label": "S'arrêter lorsque le dernier véhicule du train a dégagé le PN, puis reprendre la marche après retrait des dispositifs de remplacement et retour de l'OFS sur l'EM",
+          "critical": true
+        },
+        {
+          "label": "Dans les deux cas (arrêt obtenu ou non) : signaler dès que possible l'anomalie à un Agent du SGC (en principe le Chef de ligne) et appliquer les prescriptions de la consigne de ligne",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A17.02 (section 2) impose face à une ou des barrières brisées de siffler si possible et tenter de s'arrêter avant le PN, puis de protéger le franchissement par dispositifs de remplacement si l'arrêt est obtenu, et dans tous les cas de signaler dès que possible l'anomalie à un Agent du SGC (en principe le Chef de ligne) et d'appliquer la consigne de ligne.",
+      "sources": [
+        "A17.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 4/4, Application métier 2, 2.1 et 2.2"
+      ]
+    },
+    {
+      "id": "lot03-q12",
+      "type": "qcm",
+      "category": "Autres pancartes — ARRÊT vs STOP et COMPTEUR",
+      "fiche": "A17.03",
+      "difficulty": "moyen",
+      "question": "Selon la fiche A17.03 (version juin 2026), quelle distinction réglementaire oppose la pancarte « ARRÊT » à la pancarte « STOP », et quel est le rôle de la pancarte « COMPTEUR » ?",
+      "correctAnswer": "« ARRÊT » impose de s'arrêter avant la pancarte et d'attendre l'ordre verbal pour la franchir, tandis que « STOP » impose de marquer un arrêt avant la pancarte puis autorise à la franchir de sa propre initiative si rien ne s'y oppose ; la pancarte « COMPTEUR » (BAPR par compteurs d'essieux, quelques mètres en amont d'un compteur près d'aiguilles) indique le point avant lequel s'arrêter lorsqu'un arrêt à l'aiguille doit être respecté",
+      "distractors": [
+        "« STOP » impose d'attendre un ordre écrit FOLI pour repartir, tandis que « ARRÊT » autorise à repartir de sa propre initiative après 1 minute",
+        "« ARRÊT » et « STOP » ont exactement la même signification réglementaire, seule leur implantation (haute vs au ras du sol) diffère",
+        "La pancarte « COMPTEUR » indique le début d'une zone de BAL ordinaire où le conducteur doit compter ses essieux en cas d'arrêt accidentel",
+        "La pancarte « COMPTEUR » impose un arrêt systématique de tous les trains de fret avant de franchir un compteur d'essieux en BAPR",
+        "« ARRÊT » s'adresse uniquement aux trains de voyageurs et « STOP » uniquement aux trains de marchandises et dessertes",
+        "La pancarte « COMPTEUR » est implantée 100 mètres en aval de l'aiguille et interdit le refoulement sur les voies de service"
+      ],
+      "explanation": "La fiche A17.03 (juin 2026) distingue nettement : pancarte « ARRÊT » -> arrêt avant la pancarte et attendre l'ordre verbal pour la franchir ; pancarte « STOP » (pouvant être au ras du sol) -> arrêt avant la pancarte puis franchissement de sa propre initiative si rien ne s'y oppose. La pancarte « COMPTEUR » (à gauche, quelques mètres en amont de certains compteurs d'essieux proches d'aiguilles en BAPR par compteurs d'essieux) marque le point avant lequel le conducteur doit s'arrêter lorsqu'il a un arrêt à l'aiguille à respecter (rencontre du disque, signalement de faits en liaison avec le cantonnement, etc.).",
+      "sources": [
+        "A17.03 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/3 et 2/3, Description"
+      ]
+    },
+    {
+      "id": "lot03-q13",
+      "type": "qcm_multi",
+      "category": "Autres pancartes — Pancarte POSTE et gabarit réduit",
+      "fiche": "A17.03",
+      "difficulty": "difficile",
+      "question": "Vous rencontrez une pancarte « POSTE » sur une ligne exploitée en navette (ou sur certaines commandes centralisées de voie banalisée). Quelles obligations cette pancarte commande-t-elle, et quelle règle concerne la pancarte de réduction de gabarit décrite dans la même fiche A17.03 ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Prendre ses dispositions pour observer la marche à vue depuis le repère d'entrée jusqu'au signal de sortie, et être en mesure de s'arrêter au repère d'entrée si un SAM y est présenté (ou avant le carré/sémaphore d'entrée s'il est présenté)",
+        "Marquer un arrêt au poste si le conducteur n'a pas l'assurance que le signal de sortie est ouvert, et ne pas dépasser 30 km/h au franchissement des aiguilles du poste (en pointe ou en talon, limitation aux RT/LiLi non rappelée par des signaux sur le terrain)",
+        "La pancarte de réduction de gabarit repère l'approche d'ouvrages d'art à gabarit réduit et d'obstacles permanents ou temporaires (échafaudages…), mais n'est PAS utilisée pour la présence sur voie contiguë d'engins de grandes dimensions (dégarnisseuse…)"
+      ],
+      "distractors": [
+        "La pancarte « POSTE » impose une vitesse maximale de 15 km/h sur les aiguilles du poste, obligatoirement rappelée par un TIV fixe 15 sur le terrain",
+        "La pancarte « POSTE » dispense le conducteur d'observer la marche à vue entre le repère d'entrée et le signal de sortie dès lors que le trajet se fait en navette",
+        "La pancarte « POSTE » n'impose l'arrêt au poste que si le train a un arrêt commercial prévu à l'horaire",
+        "La pancarte de réduction de gabarit est systématiquement posée pour signaler la présence d'une dégarnisseuse sur la voie contiguë"
+      ],
+      "displayCount": 5,
+      "explanation": "La pancarte « POSTE » (A17.03, juin 2026) commande : MAV du repère d'entrée au signal de sortie, aptitude à s'arrêter au repère d'entrée sur SAM (ou avant carré/sémaphore d'entrée), arrêt au poste sans assurance que le signal de sortie est ouvert, et ≤ 30 km/h sur les aiguilles du poste (pointe ou talon, mentionnée aux RT/LiLi mais non rappelée sur le terrain). La pancarte de réduction de gabarit ne s'utilise pas pour les engins de grandes dimensions sur voie contiguë (dégarnisseuse…).",
+      "sources": [
+        "A17.03 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 2/3 et 3/3, Description"
+      ]
+    },
+    {
+      "id": "lot03-q14",
+      "type": "qcm_multi",
+      "category": "Pancartes Zones de danger (Raffineries SEVESO)",
+      "fiche": "A17.04",
+      "difficulty": "moyen",
+      "question": "Concernant les pancartes « Zones de danger » (raffineries classées SEVESO, mesures POI/PPI) et l'exemple de prescriptions aux LiLi (raffinerie de Donges) figurant dans la fiche A17.04, quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Les zones sont repérées par une pancarte de début de zone, une pancarte de fin de zone et des pancartes/marquages de rappel (triangle jaune « ! RAFFINERIE »), imposant d'appliquer les mesures particulières reprises aux RT/LiLi en cas d'arrêt accidentel, de franchissement intempestif de signaux de protection fermés ou en période d'alerte",
+        "Dans l'exemple de LiLi présenté (Donges), en cas de franchissement intempestif d'un signal de protection fermé encadrant une zone de danger, le conducteur ne doit PAS se rendre au téléphone du signal mais contacter l'AC ou le Régulateur via le GSM-R en restant dans sa cabine",
+        "Dans l'exemple de LiLi présenté (Donges), en période d'alerte incident à la raffinerie, si le train est arrêté dans une zone de danger, le conducteur se confine dans sa cabine de conduite et il est interdit d'allumer des Torches à Flamme Rouge (TFR)"
+      ],
+      "distractors": [
+        "En période d'alerte dans une zone de danger SEVESO, le conducteur doit obligatoirement descendre de sa cabine et allumer immédiatement des Torches à Flamme Rouge pour protéger son train",
+        "En cas de franchissement intempestif d'un carré encadrant la zone de danger de l'exemple Donges, le conducteur doit impérativement aller au téléphone du signal même si le GSM-R fonctionne",
+        "Les pancartes zones de danger sont obligatoirement lumineuses et clignotantes la nuit, et ne nécessitent jamais de consulter les RT/LiLi",
+        "En cas d'arrêt accidentel dans une zone de danger (exemple Donges), le conducteur reprend sa marche de lui-même dès la fin de l'incident sans recontacter son interlocuteur"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A17.04 précise que les zones de danger SEVESO (POI/PPI) sont repérées par pancartes fixes (début, rappel, fin) et renvoient aux mesures particulières des RT/LiLi (arrêt accidentel, franchissement intempestif, période d'alerte). Dans l'exemple de LiLi (Donges) : éviter l'arrêt accidentel (sinon contacter AC/Régulateur puis recontacter avant remise en marche) ; en franchissement intempestif, ne pas aller au téléphone du signal et contacter par GSM-R en restant en cabine ; en période d'alerte, confinement en cabine et interdiction d'allumer des TFR.",
+      "sources": [
+        "A17.04 — © Lineas, December 13, 2020 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description, Exemple de Livret de Ligne et Application métier"
+      ]
+    },
+    {
+      "id": "lot03-q15",
+      "type": "qcm",
+      "category": "Le chevron pointe en haut",
+      "fiche": "A18.01",
+      "difficulty": "moyen",
+      "question": "Vous manœuvrez sur une voie de service d'un faisceau de voies convergentes dont le croisement de sortie est repéré par un chevron pointe en haut. Malgré votre freinage, l'avant de votre locomotive engage accidentellement le chevron pointe en haut. Quelle est votre conduite immédiate ?",
+      "correctAnswer": "Protéger le train si un danger immédiat est à craindre, aviser immédiatement un Agent du SGC et vous conformer aux instructions reçues",
+      "distractors": [
+        "Refouler immédiatement en arrière pour dégager le chevron pointe en haut sans aviser l'Agent du SGC si aucun train n'est en vue",
+        "Poursuivre lentement votre mouvement jusqu'au signal de groupe suivant pour libérer l'aiguille en talon",
+        "Attendre l'ouverture du signal de groupe puis repartir normalement sans signaler l'engagement",
+        "Ne prévenir l'Agent du SGC que si votre locomotive a franchi le cœur de l'aiguille de sortie",
+        "Appliquer uniquement la procédure de franchissement d'un sémaphore de BAL fermé",
+        "Actionner le BP-FC et demander un ordre CBA par radio GSM-R avant d'aviser qui que ce soit"
+      ],
+      "explanation": "Le chevron pointe en haut (noir sur fond blanc, non éclairé la nuit, placé à gauche en talon de l'aiguille — ou à droite sur DV à circulation normale à droite) repère le point à ne pas dépasser avant les croisements de sortie d'un faisceau de voies de service ou lors d'un arrêt en gare de VU/1VB. En cas d'engagement accidentel, le conducteur doit : protéger le train si un danger immédiat est à craindre, aviser immédiatement un Agent du SGC, et se conformer aux instructions reçues.",
+      "sources": [
+        "A18.01 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Implantation et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot03-q16",
+      "type": "open",
+      "category": "Le Tableau Lumineux de Correspondance (TLC)",
+      "fiche": "A18.02",
+      "difficulty": "difficile",
+      "question": "Votre train (ou composition de manœuvre) aborde ou stationne devant un Tableau Lumineux de Correspondance (TLC) implanté au ras du sol à la sortie d'un faisceau de voies convergentes. Indiquez la conduite réglementaire exacte pour chacun des 5 aspects que peut présenter ce TLC : (1) TLC éteint ; (2) voyant à damier rouge et blanc présenté ; (3) lettre « T » fixe ; (4) lettre « T » clignotante ; (5) voyant mi-blanc, mi-vert clignotant.",
+      "modelAnswer": "1. TLC éteint : s'arrêter avant le chevron pointe en haut ou, en l'absence de chevron, avant le TLC. 2. Voyant à damier rouge et blanc présenté (même signification que le jalon d'arrêt à damier rouge et blanc) : s'arrêter avant le TLC ; s'il y a lieu de le franchir fermé, appliquer l'article A11.08 (« Franchissement d'un carré, GA, ou Damier R-B (TLC) » — ordre CBA/C, sans appui BP-FC sauf dispositions particulières). 3. Lettre « T » fixe : effectuer le mouvement préalablement commandé (en direction d'une voie pouvant être en impasse, rien ne s'y oppose). 4. Lettre « T » clignotante (indique que le signal de groupe est fermé au moment de sa présentation) : effectuer le mouvement préalablement commandé ET être en mesure de s'arrêter avant le signal de groupe. 5. Voyant mi-blanc, mi-vert clignotant (signal lumineux d'Autorisation de Mouvement) : se mettre en mouvement en se conformant aux prescriptions du chapitre D (Processus de départ des trains).",
+      "keyPoints": [
+        {
+          "label": "(1) TLC éteint : s'arrêter avant le chevron pointe en haut ou, en l'absence de chevron, avant le TLC",
+          "critical": true
+        },
+        {
+          "label": "(2) Damier rouge et blanc présenté : s'arrêter avant le TLC ; appliquer A11.08 s'il y a lieu de le franchir",
+          "critical": true
+        },
+        {
+          "label": "(3) Lettre « T » fixe : effectuer le mouvement préalablement commandé",
+          "critical": true
+        },
+        {
+          "label": "(4) Lettre « T » clignotante : effectuer le mouvement préalablement commandé ET être en mesure de s'arrêter avant le signal de groupe (fermé)",
+          "critical": true
+        },
+        {
+          "label": "(5) Voyant mi-blanc, mi-vert clignotant : Autorisation de Mouvement — se mettre en mouvement conformément au chapitre D (processus de départ des trains)",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A18.02 codifie les 5 états du TLC. En particulier, la différence entre « T » fixe et « T » clignotant (signal de groupe fermé) et l'assimilation du damier rouge et blanc au jalon d'arrêt (renvoi A11.08) sont essentielles à la sortie des faisceaux.",
+      "sources": [
+        "A18.02 — © Lineas, December 15, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description et Application métier"
+      ]
+    },
+    {
+      "id": "lot03-q17",
+      "type": "qcm",
+      "category": "Le Tableau Lumineux Indicateur de Provenance (TIP)",
+      "fiche": "A18.03",
+      "difficulty": "moyen",
+      "question": "Votre train prêt au départ en ligne stationne sur la voie 15 d'un faisceau de voies convergentes équipé d'un chevron pointe en haut et d'un TIP groupé avec le signal de groupe. Le TIP s'allume en affichant « 15 » (en blanc sur fond noir) et le signal de groupe s'ouvre pour un mouvement « train ». Quelle est la signification réglementaire de cette présentation ?",
+      "correctAnswer": "Après vous être assuré que le numéro présenté (15) correspond bien à la voie sur laquelle se trouve votre train, l'ouverture du signal de groupe conjointement à la présentation du n° sur le TIP constitue votre Autorisation de Mouvement (AuM) : vous vous mettez en mouvement conformément au chapitre D",
+      "distractors": [
+        "Le TIP ne concerne jamais les mouvements trains : vous devez demander une AuM manuelle à un agent du SGC avant de dépasser le chevron",
+        "Vous devez avancer en marche à vue jusqu'au signal de groupe et vous arrêter obligatoirement devant celui-ci avant de recevoir une seconde AuM",
+        "La présentation de « 15 » sur le TIP autorise simultanément tous les trains garés sur les voies 1 à 15 du faisceau à se mettre en mouvement",
+        "Si le signal de groupe est fermé pendant que le TIP affiche « 15 », il est strictement interdit de franchir le chevron pointe en haut même pour une manœuvre préalablement expliquée",
+        "Lorsque le TIP est éteint mais que le signal de groupe est ouvert au feu vert, vous pouvez dépasser le chevron pointe en haut de votre propre initiative",
+        "Le TIP affiche toujours le numéro de la voie de destination en aval du signal de groupe, jamais le numéro de la voie de provenance"
+      ],
+      "explanation": "La fiche A18.03 distingue : (1) TIP éteint -> arrêt avant le chevron pointe en haut ; (2) TIP allumé avec le n° de la voie du train (à vérifier impérativement) + signal de groupe fermé ou ouvert pour un mouvement autre que « train » -> avancer avec prudence jusqu'au point défini lors de l'explication du mouvement de manœuvre ; (3) TIP allumé avec le n° de la voie du train + signal de groupe ouvert pour un mouvement « train » -> constitue l'Autorisation de Mouvement (AuM), appliquer le chapitre D.",
+      "sources": [
+        "A18.03 — © Lineas, December 15, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe et Application métier 1.1 et 1.2"
+      ]
+    },
+    {
+      "id": "lot03-q18",
+      "type": "qcm",
+      "category": "Traction électrique — Généralités et pancarte REV",
+      "fiche": "A19.01",
+      "difficulty": "facile",
+      "question": "Vous conduisez un train de fret remorqué par un engin moteur électrique. Après une zone « Baissez panto » et son signal « Fin de parcours », vous apercevez plus loin une pancarte portant l'inscription « REV » (en blanc sur fond noir). Quelle signification a cette pancarte REV pour votre train de fret ?",
+      "correctAnswer": "Aucune : la pancarte REV n'a pas de signification pour les trains de fret (elle concerne uniquement les trains réversibles conduits depuis la cabine de réversibilité et les trains automoteurs électriques)",
+      "distractors": [
+        "Elle vous interdit de relever vos pantographes avant que le dernier véhicule de votre train de fret n'ait franchi la pancarte REV",
+        "Elle indique le point à partir duquel vous devez inverser le sens de marche de votre engin moteur électrique",
+        "Elle concerne uniquement les trains de fret comportant un engin moteur électrique en pousse ou en double traction",
+        "Elle vous impose d'attendre le franchissement de la pancarte REV avant de refermer le disjoncteur principal",
+        "Elle signale la fin d'une zone de récupération d'énergie électrique obligatoire pour les locomotives fret",
+        "Elle impose une réduction de la puissance de traction de 50 % jusqu'au prochain signal"
+      ],
+      "explanation": "La fiche A19.01 (décembre 2020) précise que les signaux propres à la traction électrique concernent tous les conducteurs d'EM électriques (y compris en double traction ou en pousse), mais que la pancarte « REV » (utilisée pour les trains réversibles conduits depuis la cabine de réversibilité et les automoteurs électriques) n'a pas de signification pour les trains de fret.",
+      "sources": [
+        "A19.01 — © Lineas, December 13, 2020 Brussels (All rights reserved) — p. 1/1, Principe et Pancarte REV"
+      ]
+    },
+    {
+      "id": "lot03-q19",
+      "type": "qcm",
+      "category": "Signal « Fin de caténaire »",
+      "fiche": "A19.02",
+      "difficulty": "moyen",
+      "question": "Aux commandes d'un engin moteur électrique (pantographe levé), vous apercevez au-dessus de votre voie une pancarte présentant une bande horizontale blanche sur fond violet (non éclairée la nuit) — signal « Fin de caténaire » — et constatez que votre pantographe levé risque de franchir ce signal. Quelle est votre réaction immédiate obligatoire ?",
+      "correctAnswer": "Baisser d'urgence le ou les pantographes, vous arrêter d'urgence, puis dès l'arrêt vous faire reconnaître auprès d'un Agent du SGC",
+      "distractors": [
+        "Ouvrir simplement le disjoncteur principal tout en laissant le pantographe levé et freiner normalement jusqu'à l'arrêt",
+        "Freiner en freinage de service sans baisser le pantographe afin de conserver le freinage rhéostatique jusqu'à l'arrêt",
+        "Baisser le pantographe et poursuivre sur votre lancée jusqu'à la prochaine pancarte « Fin de parcours »",
+        "Marquer un arrêt d'urgence uniquement si la caténaire est visiblement coupée, puis reculer de votre propre initiative sans aviser le SGC",
+        "Couper la traction et attendre que le pantographe quitte de lui-même la ligne de contact avant de s'arrêter",
+        "Actionner le bouton BP-FC et demander par GSM-R une autorisation de franchissement à l'aiguilleur"
+      ],
+      "explanation": "Le signal « Fin de caténaire » (bande horizontale blanche sur fond violet, non éclairée la nuit, placée généralement au-dessus de la voie au niveau de la caténaire) repère le point que le pantographe levé ne doit pas dépasser. S'il y a risque qu'un pantographe levé franchisse le signal, le conducteur doit : baisser d'urgence le ou les pantographes, s'arrêter d'urgence, et dès l'arrêt se faire reconnaître auprès d'un Agent du SGC.",
+      "sources": [
+        "A19.02 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe, Description et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot03-q20",
+      "type": "qcm",
+      "category": "Jalon à damier bleu et blanc",
+      "fiche": "A19.03",
+      "difficulty": "moyen",
+      "question": "Vous conduisez de jour une circulation électrique et rencontrez un jalon à damier bleu et blanc réflectorisé. Vous vous arrêtez avant ce signal, mais le jalon reste présenté et il n'y a personne sur place. Quelle signification a ce jalon et quelle procédure appliquez-vous ?",
+      "correctAnswer": "Ce jalon interdit les circulations électriques exclusivement (même signification que le jalon d'arrêt à damier rouge et blanc) ; puisqu'il reste présenté et qu'il n'y a personne, vous considérez qu'il est impossible de vous faire reconnaître et appliquez l'article F30.11",
+      "distractors": [
+        "Ce jalon commande uniquement de baisser le pantographe et vous autorise à le franchir de vous-même sur l'erre à 30 km/h maximum",
+        "Ce jalon s'adresse aussi bien aux circulations diesel qu'aux circulations électriques ; en l'absence d'agent, vous pouvez le franchir après 5 minutes",
+        "Ce jalon n'est qu'un repère informatif de sectionnement caténaire : en l'absence d'agent, vous poursuivez en marche normale après ouverture du disjoncteur",
+        "Puisqu'il n'y a personne, vous appliquez l'article F30.10 relatif au franchissement intempestif d'un signal d'arrêt à main",
+        "Vous pouvez le franchir en marche à vue après avoir abaissé les pantographes sans contacter personne",
+        "Ce jalon signifie qu'une coupure de courant d'urgence est en cours et impose de refouler immédiatement jusqu'à la gare précédente"
+      ],
+      "explanation": "Le jalon à damier bleu et blanc réflectorisé est utilisé de jour pour interdire les circulations électriques à l'exclusion des autres (même signification pour les mouvements électriques que le jalon d'arrêt à damier rouge et blanc). Si le jalon reste présenté et qu'il n'y a personne : appliquer F30.11 (impossibilité de se faire reconnaître). Si l'arrêt n'a pu être obtenu avant le jalon : appliquer F30.10. S'il cesse d'être présenté : reprendre la marche si rien ne s'y oppose.",
+      "sources": [
+        "A19.03 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/1, Principe et Application métier 1, 1.1, 1.2 et 1.3"
+      ]
+    },
+    {
+      "id": "lot03-q21",
+      "type": "open",
+      "category": "Signaux « Baissez panto »",
+      "fiche": "A19.04",
+      "difficulty": "difficile",
+      "question": "Vous conduisez un train de fret électrique en double traction (ou avec un EM électrique en pousse) et rencontrez un signal à distance « Baissez panto » précédant un changement de tension (ex. passage vers 25 000 V indiqué par tableau en aval). Vous n'avez pas encore modifié vos commandes de traction. Décrivez chronologiquement l'ensemble des actions à exécuter avant le signal d'exécution puis dès le franchissement du signal « Fin de parcours ».",
+      "modelAnswer": "1. Avant le signal d'exécution « Baissez panto » (au plus tard au droit de ce signal) : placer le manipulateur de traction à zéro (sauf cas particuliers repris au manuel de conduite de certains EM) ; ouvrir le ou les disjoncteurs ; abaisser le ou les pantographes ; donner l'ordre d'abaisser les pantographes au conducteur qui ne se trouve pas en tête (pousse, double traction…). 2. Dès que l'EM a franchi le signal « Fin de parcours » : sélectionner la tension d'alimentation en tenant compte, s'il y a lieu, du tableau indiquant la valeur de la tension en aval (ici 25 000 V) ; relever le ou les pantographes ; refermer le disjoncteur ; donner au conducteur non en tête (pousse, double traction…) l'ordre de relever le ou les pantographes ; reprendre, si rien ne s'y oppose, les conditions normales de traction.",
+      "keyPoints": [
+        {
+          "label": "Au plus tard au signal d'exécution : manipulateur de traction à zéro (sauf cas particuliers au MC), disjoncteur(s) ouvert(s) et pantographe(s) abaissé(s)",
+          "critical": true
+        },
+        {
+          "label": "Donner l'ordre d'abaisser les pantographes au conducteur non en tête (pousse, double traction…)",
+          "critical": true
+        },
+        {
+          "label": "Dès que l'EM a franchi le signal « Fin de parcours » : sélectionner la tension d'alimentation en tenant compte du tableau indiquant la tension en aval",
+          "critical": true
+        },
+        {
+          "label": "Relever le ou les pantographes puis refermer le disjoncteur",
+          "critical": true
+        },
+        {
+          "label": "Donner au conducteur non en tête (pousse, double traction…) l'ordre de relever le ou les pantographes, puis reprendre les conditions normales de traction si rien ne s'y oppose",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A19.04 précise l'enchaînement exact à respecter (manipulateur à 0, disjoncteur ouvert, pantographe abaissé + ordre à l'EM non en tête ; puis après franchissement de « Fin de parcours » : sélection de la tension d'alimentation selon le tableau aval, relevage panto, fermeture disjoncteur, ordre à l'EM non en tête). Noter aussi que lorsqu'une signalisation « Baissez panto » est lumineuse et temporaire, le signal à distance est muni d'un éclairage intermittent cadencé, et que les signaux mobiles ouverts présentent une bande blanche verticale continue.",
+      "sources": [
+        "A19.04 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Description et Application métier"
+      ]
+    },
+    {
+      "id": "lot03-q22",
+      "type": "qcm",
+      "category": "Signaux « Coupez courant » — Train simple et DT/pousse",
+      "fiche": "A19.05",
+      "difficulty": "difficile",
+      "question": "Vous conduisez un train de fret électrique comportant un second engin moteur électrique en double traction (DT) ou en pousse, et rencontrez une pancarte « Sect A... m » annonçant un signal d'exécution « Coupez courant » (section de séparation de phases 25 000 V). Quelles configurations respectives doivent présenter l'EM de tête et l'EM en DT/pousse au plus tard au signal d'exécution ?",
+      "correctAnswer": "EM de tête : manipulateur de traction à zéro, disjoncteur(s) ouvert(s) ET pantographe(s) abaissé(s) (et transmission des ordres par radio au conducteur de pousse lorsque la liaison est établie) ; EM de pousse ou en DT : manipulateur de traction à « 0 » et disjoncteur(s) ouvert(s)",
+      "distractors": [
+        "EM de tête et EM en DT/pousse gardent tous deux leurs pantographes levés en ouvrant uniquement leurs disjoncteurs",
+        "EM de tête : manipulateur à zéro et disjoncteur ouvert (panto levé) ; EM de pousse ou en DT : manipulateur à zéro, disjoncteur ouvert et pantographe abaissé",
+        "EM de tête et EM en DT/pousse doivent tous deux impérativement baisser leurs pantographes et couper le freinage pneumatique",
+        "Seul l'EM de tête ouvre son disjoncteur ; l'EM en pousse peut maintenir une traction réduite pour éviter la rupture d'attelage",
+        "Il suffit de ramener le manipulateur de traction à zéro sans ouvrir le disjoncteur tant que le freinage par récupération n'est pas actif",
+        "L'EM de tête attend que le dernier véhicule du train ait franchi le signal « Fin de parcours » avant de relever son pantographe"
+      ],
+      "explanation": "La fiche A19.05 prévoit un point critique souvent oublié en pousse ou en double traction (DT) : si un EM isolé passe un « Coupez courant » manipulateur à zéro + disjoncteur ouvert (et freinage par récupération interrompu), lorsque le train comporte un EM électrique en pousse ou en DT, le conducteur de l'EM de tête doit se présenter au plus tard au signal d'exécution avec le manipulateur à zéro, le(s) disjoncteur(s) ouvert(s) ET le(s) pantographe(s) abaissé(s) (tandis que le conducteur en pousse/DT a le manipulateur à « 0 » et le(s) disjoncteur(s) ouvert(s)). Dès que le ou les EM ont franchi « Fin de parcours » : relever panto si nécessaire, vérifier la présence de la tension caténaire, refermer le disjoncteur, reprendre la traction normale.",
+      "sources": [
+        "A19.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe et Application métier 1, 1.1 et 2"
+      ]
+    },
+    {
+      "id": "lot03-q23",
+      "type": "qcm_multi",
+      "category": "Signaux « Coupez courant » — Principes de sécurité",
+      "fiche": "A19.05",
+      "difficulty": "moyen",
+      "question": "Concernant le franchissement d'une zone « Coupez courant » décrit dans la fiche A19.05, quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "La commande d'ouverture du disjoncteur doit être effectuée suffisamment tôt afin d'avoir le temps, en cas de non-ouverture du disjoncteur, de commander l'abaissement du ou des pantographes",
+        "Toute consommation électrique du train doit être supprimée et, le cas échéant, le freinage par récupération doit être interrompu ; le manuel de conduite de certaines séries d'EM peut prescrire des mesures particulières (ex. baisser panto en UM)",
+        "Dès que le ou les EM ont franchi le signal « Fin de parcours », le conducteur relève le(s) pantographe(s) si nécessaire, vérifie la présence de la tension caténaire, referme le disjoncteur, puis reprend les conditions normales de traction"
+      ],
+      "distractors": [
+        "La pancarte à distance « Sect A... m » est obligatoirement installée avant tous les signaux « Coupez courant », y compris en courant continu sans aucune exception",
+        "Le freinage par récupération peut rester engagé au franchissement du signal d'exécution « Coupez courant » dès lors que le manipulateur de traction est à zéro",
+        "En traction 25 000 volts, les signaux « Coupez courant » mobiles présentent en position d'ouverture un feu vert fixe",
+        "La refermeture du disjoncteur doit être effectuée avant de vérifier la présence de la tension caténaire après le signal « Fin de parcours »"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A19.05 rappelle : ouverture du disjoncteur suffisamment tôt (pour pouvoir baisser le panto en cas de non-ouverture), suppression de toute consommation et interruption du freinage par récupération, mesures particulières éventuelles au MC (ex. baisser panto en UM), absence possible de « Sect A... m » notamment en courant continu, bande verticale blanche continue pour les signaux mobiles ouverts en 25 kV, et séquence de remise en service après franchissement de « Fin de parcours » par le ou les EM : relever panto si nécessaire -> vérifier la présence de la tension caténaire -> refermer le disjoncteur -> reprendre traction normale.",
+      "sources": [
+        "A19.05 — © Lineas, June 16, 2019 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Description et Application métier 2"
+      ]
+    }
+  ]
+}
