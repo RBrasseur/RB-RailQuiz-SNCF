@@ -6,7 +6,11 @@
   <title>RailQuiz Lineas SNCF — by RB</title>
   <link rel="manifest" href="./manifest.webmanifest?v=5" />
   <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=5" />
-  <link rel="apple-touch-icon" href="./icon-192.png?v=5" />
+  <link rel="apple-touch-icon" sizes="192x192" href="./icon-192.png?v=5" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="RQ Lineas" />
   <meta name="theme-color" content="#090e1a" />
   <style>
     :root {
@@ -87,6 +91,7 @@
       position: sticky;
       top: 0;
       z-index: 30;
+      padding-top: env(safe-area-inset-top);
       background: rgba(17, 25, 44, 0.88);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
@@ -98,7 +103,7 @@
     .topbar-inner {
       max-width: 920px;
       margin: 0 auto;
-      padding: 0.6rem 1rem;
+      padding: 0.6rem max(1rem, env(safe-area-inset-right)) 0.6rem max(1rem, env(safe-area-inset-left));
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -186,7 +191,7 @@
     .topbar-actions { display: flex; gap: 0.4rem; align-items: center; flex-shrink: 0; }
 
     /* MAIN CONTAINER */
-    .container { max-width: 920px; margin: 1rem auto 3.5rem; padding: 0 1rem; }
+    .container { max-width: 920px; margin: 1rem auto calc(3.5rem + env(safe-area-inset-bottom)); padding: 0 max(1rem, env(safe-area-inset-right)) env(safe-area-inset-bottom) max(1rem, env(safe-area-inset-left)); }
     .view { display: none; animation: fadeIn 0.2s ease; }
     .view.active { display: block; }
     @keyframes fadeIn {
@@ -297,7 +302,7 @@
 
     /* FILTRE RECHERCHE THÈMES */
     .theme-search-wrap { margin-bottom: 0.75rem; }
-    .theme-search-wrap input { padding: 0.55rem 0.8rem; font-size: 0.88rem; }
+    .theme-search-wrap input { padding: 0.55rem 0.8rem; font-size: 16px; }
 
     /* ARBRE DES THÈMES */
     .themes-tree { display: flex; flex-direction: column; gap: 0.55rem; }
@@ -377,7 +382,7 @@
       border: 1px solid var(--border-strong);
       border-radius: var(--radius-sm);
       padding: 0.65rem 0.8rem;
-      font-size: 0.94rem;
+      font-size: 16px;
       font-family: inherit;
       transition: border-color 0.15s, box-shadow 0.15s;
     }
@@ -411,6 +416,7 @@
     /* BOUTONS */
     button, .file-btn {
       cursor: pointer;
+      touch-action: manipulation;
       border-radius: var(--radius-sm);
       font-weight: 700;
       font-size: 0.9rem;
@@ -609,8 +615,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 1rem;
+      padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
       animation: fadeIn 0.18s ease;
+    }
+    .ios-install-note {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      margin: 0.75rem 0 0;
+      padding-top: 0.65rem;
+      border-top: 1px dashed var(--border-strong);
+      line-height: 1.4;
     }
     .modal-box {
       width: 100%;
@@ -1028,6 +1042,7 @@
         <button id="btn-native-share" class="btn-primary hidden">Partager le lien (WhatsApp, Telegram, SMS...)</button>
         <button id="btn-copy-url" class="btn-secondary">Copier le lien</button>
       </div>
+      <p class="ios-install-note">Sur iPhone / iPad : ouvrez le lien dans <strong>Safari</strong>, touchez <strong>Partager</strong> puis <strong>Sur l'écran d'accueil</strong>.</p>
     </div>
   </div>
 

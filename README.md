@@ -1,4 +1,4 @@
-# RailQuiz Lineas SNCF — by RB (V5.1 — Correctif chargement)
+# RailQuiz Lineas SNCF — by RB (V5.2 — Finitions iOS)
 
 ## Nouveautés V5
 - **Chargement robuste multi-formats + Auto-découverte GitHub Pages** :
@@ -18,3 +18,10 @@
 - Correction d'une erreur de syntaxe JavaScript qui bloquait le démarrage sur « Chargement... ».
 - Chargement des 13 lots en parallèle (démarrage quasi instantané).
 - Purge automatique du cache Service Worker (`v5-1`).
+
+## Correctif V5.2 (Compatibilité iOS / iPhone / iPad)
+- Balises méta Apple PWA (`apple-mobile-web-app-capable`, `apple-mobile-web-app-status-bar-style`, `apple-mobile-web-app-title`).
+- Marges de sécurité `env(safe-area-inset-*)` pour Dynamic Island, encoche et barre d'accueil iPhone.
+- Taille `16px` sur tous les champs (`input`, `select`, `textarea`) pour supprimer le zoom automatique intempestif de Safari iOS.
+- `touch-action: manipulation` sur les boutons et rappel discret d'installation Safari dans la fenêtre QR Code.
+- Cache Service Worker mis à jour (`v5-2`).
