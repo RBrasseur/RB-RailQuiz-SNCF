@@ -1,4 +1,4 @@
-const CACHE_NAME = 'railquiz-sncf-v2';
+const CACHE_NAME = 'railquiz-sncf-v4';
 const CORE_ASSETS = [
   './',
   './index.html',

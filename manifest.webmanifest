@@ -1,11 +1,11 @@
 {
-  "name": "RailQuiz SNCF — by RB",
-  "short_name": "RailQuiz",
+  "name": "RailQuiz Lineas SNCF — by RB",
+  "short_name": "RQ Lineas",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#090e1a",
   "theme_color": "#090e1a",
-  "description": "Application d'entraînement à la réglementation ferroviaire SNCF — by RB.",
+  "description": "Quiz Lineas sur la réglementation ferroviaire SNCF / RFN — by RB.",
   "icons": [
     {
       "src": "./icon-192.png",

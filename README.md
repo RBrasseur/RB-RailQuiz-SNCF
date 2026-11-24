@@ -1,9 +1,12 @@
-# RailQuiz SNCF — by RB
+# RailQuiz Lineas SNCF — by RB (V4)
 
-Version V2 — Architecture 100 % à plat (sans sous-dossiers obligatoires), CSS et JS intégrés dans `index.html`.
+## Nouveautés V4
+- **Nouveau logo Lineas / SNCF** : emblème `RQ / LINEAS` sur fond drapeau français avec signature `by RB` en dessous à droite (en-tête + icônes PWA `192` et `512`).
+- **Arbre des thèmes repliable + barre de recherche** : conçu pour naviguer facilement dans les 7 chapitres (A à F) et plus de 50 sous-thèmes sur smartphone.
+- **Module « Tableau de référence consultable »** : permet de poser des questions pratiques de calcul (barèmes de freinage B20.50–B20.60, coefficients KVB C20.10–C20.15) avec l'extrait du tableau affiché à la demande sans jamais devoir l'apprendre par cœur.
+- **Affichage des versions de documents** dans les sources réglementaires pour le suivi des mises à jour SNCF/Lineas.
 
-## Mise à jour sur GitHub Pages (ultra-simple)
-1. Décompressez `railquiz-sncf-v2.zip`.
-2. Ouvrez le dossier `railquiz-sncf-v2`, sélectionnez **tous les fichiers** (`index.html`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `questions-index.json`, `demo-reglementation.json`).
-3. Sur GitHub : **Add file → Upload files**, glissez-déposez tous ces fichiers à la racine du dépôt, puis **Commit changes**.
-4. Attendez 30 à 60 secondes et rafraîchissez la page sur votre téléphone.
+## Mise à jour sur GitHub Pages
+1. Décompressez `railquiz-sncf-v4.zip`.
+2. Uploadez tous les fichiers à la racine de votre dépôt GitHub (**Add file → Upload files** → **Commit changes**).
+3. Rechargez l'application après 30 à 60 secondes (cache Service Worker `v4`).
