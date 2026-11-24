@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T17:10:00Z",
+  "updatedAt": "2026-11-24T17:45:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -201,6 +201,40 @@
         "A70.07"
       ],
       "generatedAt": "2026-11-24T17:10:00Z"
+    },
+    {
+      "packId": "lot06-freinage-composition",
+      "title": "Lot 6 — Freinage, marquage, attelage, composition et documents de train (B00 / B10)",
+      "file": "lot06-freinage-composition.json",
+      "description": "Frein continu automatique (distributeur, fonctions du robinet, surcharge, détection de fuite, alternateurs vide/chargé et G/P, semelles composites, détecteur de déraillement, sellette anti-crash), utilisation du frein en cours de route (essai de roulage, test d'efficacité, FU, frein direct et dynamique), frein d'immobilisation (calcul frein à vis, cadre rouge, serrage/desserrage), marquage des wagons, attelage/dételage, classement et remorque, freinage d'arrêt (FA MA80) et de dérive (FD et 2e moitié), vitesses limites, masses/longueurs, Locomotive Longue (-25 %), charge D, ATE, MD et sûreté, Bulletin de Freinage (BFI/arrondis) et Bulletin de Composition.",
+      "questionCount": 32,
+      "breakdown": {
+        "qcm": 18,
+        "qcm_multi": 9,
+        "open": 5
+      },
+      "fiches": [
+        "B00.01",
+        "B00.02",
+        "B00.03",
+        "B00.04",
+        "B00.05",
+        "B00.06",
+        "B10.01",
+        "B10.02",
+        "B10.03",
+        "B10.04",
+        "B10.05",
+        "B10.06",
+        "B10.07",
+        "B10.10",
+        "B10.11",
+        "B10.12",
+        "B10.13",
+        "B10.20",
+        "B10.21"
+      ],
+      "generatedAt": "2026-11-24T17:45:00Z"
     }
   ]
 }
