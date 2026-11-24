@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T18:36:00Z",
+  "updatedAt": "2026-11-24T18:48:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -424,6 +424,72 @@
         "E90.03"
       ],
       "generatedAt": "2026-11-24T18:36:00Z"
+    },
+    {
+      "packId": "lot11-incidents-frein-signalisation-catenaire-meteo",
+      "title": "Lot 11 — Incidents Mémento : frein, signalisation, systèmes bord, caténaire et météo (F00 à F42)",
+      "file": "lot11-incidents-frein-signalisation-catenaire-meteo.json",
+      "description": "Mémento et gestion d'événement conduite (F00), résistance à l'avancement et sondage frein (F10), anomalies de frein (chute CFA/CG, 4 cas présomption déraillement, sondage RP/RE, fractionnement, blocage et contrôle roues, absence/insuffisance freinage, chute CP 7/6 bar, isolement, anomalie essai — F20), anomalies et franchissements de signalisation sol et ETCS1 (extinction, aspect anormal, signal annulé éclairé, détonation carré vu ouvert, franchissements C/CV/GA/TLC/S BM/BAL/FRC/BAPR/SAM, impossibilité reconnaissance BAPR 15 min, VU/disque sans sortie, TIV illisible, Train Trip IE2/IE1, FU sans TR, anomalie sol — F30), anomalies KVB/DAAT/RS/multi-systèmes (F31–F33), dérangements AuM/SLD (F40), incidents caténaire/tension (Baissez panto, mise hors tension 20 s/45 s, baisse tension 1 100/18 000 V, avarie caténaire/choc toiture — F41) et météo (neige, forte chaleur/vent, givre 150/2 000 A, feux de talus, aléas climatiques — F42).",
+      "questionCount": 26,
+      "breakdown": {
+        "qcm": 13,
+        "qcm_multi": 8,
+        "open": 5
+      },
+      "fiches": [
+        "F00.01",
+        "F00.02",
+        "F10.01",
+        "F20.01",
+        "F20.03",
+        "F20.04",
+        "F20.05",
+        "F20.06",
+        "F20.07",
+        "F20.08",
+        "F20.09",
+        "F20.10",
+        "F20.12",
+        "F30.01",
+        "F30.02",
+        "F30.03",
+        "F30.04",
+        "F30.05",
+        "F30.06",
+        "F30.07",
+        "F30.08",
+        "F30.09",
+        "F30.10",
+        "F30.11",
+        "F30.12",
+        "F30.13",
+        "F30.14",
+        "F30.15",
+        "F30.16",
+        "F30.20",
+        "F30.21",
+        "F30.22",
+        "F30.24",
+        "F31.01",
+        "F31.02",
+        "F31.03",
+        "F31.04",
+        "F32.01",
+        "F32.02",
+        "F33.01",
+        "F40.01",
+        "F40.02",
+        "F41.01",
+        "F41.02",
+        "F41.03",
+        "F41.04",
+        "F42.01",
+        "F42.02",
+        "F42.03",
+        "F42.04",
+        "F42.05"
+      ],
+      "generatedAt": "2026-11-24T18:48:00Z"
     }
   ]
 }

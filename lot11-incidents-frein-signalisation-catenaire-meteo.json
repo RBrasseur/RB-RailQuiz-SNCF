@@ -1,0 +1,804 @@
+{
+  "packId": "lot11-incidents-frein-signalisation-catenaire-meteo",
+  "title": "Lot 11 — Incidents Mémento : frein, signalisation, systèmes bord, caténaire et météo (F00 à F42)",
+  "generatedAt": "2026-11-24T18:48:00Z",
+  "questions": [
+    {
+      "id": "lot11-q01",
+      "type": "qcm_multi",
+      "theme": "Incidents & gestion de crise",
+      "subtheme": "Le Mémento et la gestion d'un événement conduite (F00.01 / F00.02)",
+      "difficulty": "facile",
+      "prompt": "Selon les fiches F00.01 et F00.02, quelles règles régissent l'utilisation du Mémento (disponible sur la tablette RITA) lors d'un événement conduite ?",
+      "correctAnswers": [
+        "En cas d'incident en cours de route, le Mémento ne doit être utilisé QU'À L'ARRÊT, après avoir mis en œuvre de mémoire les mesures immédiates (arrêt, sécurité des circulations/personnes/biens/environnement, sauvegarde des installations/matériel) et lancé les avis utiles.",
+        "La fiche synthétique « Comportement à la reprise de marche » (verso de couverture) doit être appliquée à chaque reprise de marche faisant suite à l'application du Mémento.",
+        "L'utilisation systématique et obligatoire du Mémento ne dispense jamais le conducteur de connaître les prescriptions du DML, et en fin de service le Bulletin de Service doit être annoté avec les éléments essentiels de l'incident et les fiches du Mémento consultées."
+      ],
+      "distractors": [
+        "Le Mémento doit être consulté en cours de marche dès les premiers symptômes d'une anomalie, avant même d'appliquer les mesures d'urgence de mémoire.",
+        "Le Mémento reprend toutes les situations normales de conduite (VISA, encodage KVB normal, préparation courante d'engin moteur).",
+        "Si la mention « annoter le Bulletin de service » ne figure pas explicitement sur une fiche du Mémento, le conducteur est dispensé d'annoter son BS même si l'incident a eu une incidence sur la régularité.",
+        "Si la lecture de la première partie d'une fiche du Mémento révèle qu'une mesure d'urgence de mémoire a été oubliée, le conducteur termine d'abord le diagnostic avant d'y remédier."
+      ],
+      "displayCount": 5,
+      "explanation": "Les fiches F00.01 et F00.02 posent le cadre d'usage du Mémento (chapitre G) : réservé aux situations exceptionnelles/rares/complexes (jamais les situations normales), utilisé UNIQUEMENT À L'ARRÊT après exécution de mémoire des mesures d'urgence/sécurité et lancement des avis utiles. Sa structure en 3 parties rappelle d'abord les actions de mémoire (si oubli identifié -> réaliser SANS ATTENDRE), puis diagnostic/remédiation, puis conditions de reprise (complétée par la fiche « Comportement à la reprise de marche »). L'annotation du BS reste obligatoire dès incidence sur régularité ou matériel.",
+      "sources": [
+        "F00.01 — Le Mémento, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)",
+        "F00.02 — Gestion d'un événement conduite, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q02",
+      "type": "qcm",
+      "theme": "Incidents de frein",
+      "subtheme": "Résistance anormale à l'avancement — Sondage frein (F10.01 / F20.01)",
+      "difficulty": "moyen",
+      "prompt": "En ligne, vous constatez une résistance anormale à l'avancement alors que l'effort de traction de votre engin moteur est normal. Vous n'avez pas encore effectué le sondage frein. Quelle séquence exacte devez-vous exécuter pour réaliser ce sondage, et que faites-vous si aucune chute de pression CFA/CG n'est constatée et qu'il n'y a pas de présomption de déraillement ?",
+      "correctAnswer": "Ramener le manipulateur de traction à « 0 », vérifier la chute de vitesse, commander la fonction « Neutre » et observer le manomètre CFA/CG ; si aucune chute n'est constatée (et pas de présomption de déraillement), remettre sur « Marche », s'arrêter immédiatement, aviser le SGC, appliquer le Mémento, immobiliser, réalimenter/SURCHARGE, et visiter le train jusqu'au véhicule de queue (avec outillage, étiquettes IS/IN et agrès de couverture si voies contiguës, sans être tenu d'emporter la BCC).",
+      "distractors": [
+        "Maintenir l'effort de traction à mi-puissance et actionner la fonction « SURCHARGE » pour voir si la résistance disparaît, puis continuer jusqu'à la gare suivante sans vous arrêter.",
+        "Ramener le manipulateur à « 0 », laisser le robinet en position « Marche » pendant 30 secondes et, si la pression reste à 5 bar, poursuivre en marche normale.",
+        "Effectuer immédiatement une dépression graduée de 0,8 bar suivie d'un desserrage en « Grand Débit » ; si la résistance disparaît, aucune visite du train n'est nécessaire.",
+        "Commander « Neutre » ; si aucune chute de pression n'est constatée, s'arrêter uniquement à la prochaine gare d'arrêt normal prévue à l'horaire.",
+        "En l'absence de chute de pression CFA/CG, le conducteur doit obligatoirement emporter la barre de court-circuit lors de la visite du train même s'il n'y a aucune présomption de déraillement.",
+        "Une fuite lente à la CFA/CG inférieure à 0,3 bar/min provoque toujours un serrage d'urgence immédiat des distributeurs."
+      ],
+      "explanation": "D'après F10.01 (et F20.01) : face à une résistance anormale à l'avancement (effort traction normal) -> traction à « 0 », observation indicateur de vitesse, commande « Neutre », observation manomètre CFA/CG. Si chute de pression -> F20.03. Si aucune chute -> « Marche », observer le train : si déraillé/présomption -> arrêt d'urgence + F44.09 ; sinon -> arrêt immédiat, avis SGC, Mémento, immobilisation, réalimentation + SURCHARGE, et visite jusqu'à la queue (outillage, IS/IN, agrès de couverture si voies contiguës ; le conducteur n'est PAS tenu d'emporter la barre de court-circuit). Rappel F20.01 : une fuite lente < 0,3 bar/min (seuil de sensibilité du distributeur) peut ne pas serrer et épuiser le frein, et une CP < 6 bar entraîne une chute CFA/CG.",
+      "sources": [
+        "F10.01 — Résistance à l'avancement avec ou sans fuite CFA/CG, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F20.01 — Anomalies de frein - Généralités, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q03",
+      "type": "open",
+      "theme": "Incidents de frein",
+      "subtheme": "Chute de pression à la CFA/CG — Présomption de déraillement et sondage frein (F20.03)",
+      "difficulty": "difficile",
+      "prompt": "En ligne, vous constatez une chute de pression inopinée à la CFA/CG que vous n'avez pas provoquée. Vous n'avez pas encore terminé votre analyse ni effectué le sondage. Selon la fiche F20.03, indiquez : (1) les 4 circonstances dans lesquelles vous devez PRÉSUMER que votre train est déraillé (à défaut de pouvoir vous assurer rapidement du contraire), (2) les gestes immédiats en cabine, et (3) le déroulement exact du sondage frein (RP et RE) lorsqu'il n'y a ni déraillement, ni présomption de déraillement/rupture d'attelage, ni déclenchement d'automatisme.",
+      "modelAnswer": "1. Les 4 cas de présomption de déraillement (sauf possibilité de s'assurer rapidement du contraire) :\n   - Dans un tunnel ou aux abords de celui-ci ;\n   - Sur une zone de LTV ou LPV, franchie ou venant d'être franchie, signalisée par TIV d'un taux ≤ 50 km/h ;\n   - En traction électrique, en même temps qu'une mise hors tension de la caténaire ;\n   - Lorsque l'observation du train ne permet pas de s'assurer que la voie contiguë n'est pas engagée.\n2. Gestes immédiats :\n   - Commander la fonction « NEUTRE » (si ce n'est déjà fait) ;\n   - Confirmer le freinage s'il y a lieu quelle que soit la situation ;\n   - S'arrêter ;\n   - Assurer la protection des voies contiguës si présomption de danger (déraillement ou présomption) et appliquer le Mémento (F44.09 si déraillement/présomption, F44.08 si rupture d'attelage, ou mesures de l'automatisme si voyant SOS/message).\n3. Sondage frein (hors déraillement/rupture/automatisme — si accompagné de disjonction, ouverture QT ou arrêt moteur diesel, faire d'abord le sondage disjonction) :\n   - Aviser un Agent du SGC et confirmer la fonction « NEUTRE » ;\n   - Observer le manomètre Réservoir Principal (RP) : si la pression RP ne remonte pas à la pression de régime -> appliquer le Guide de Dépannage ;\n   - Si la pression RP remonte à la pression de régime : supprimer la fonction « NEUTRE » et observer le manomètre Réservoir Égalisateur (RE) ;\n   - Si la pression RE ne remonte pas à 3 bars -> appliquer le Guide de Dépannage ;\n   - Si la pression RE remonte au moins à 3 bars -> effectuer la visite du train jusqu'au véhicule porteur de la signalisation d'arrière (après immobilisation).",
+      "keyPoints": [
+        {
+          "label": "4 cas de présomption de déraillement : tunnel/abords, zone LTV/LPV ≤ 50 km/h, concomitance avec mise hors tension caténaire, impossibilité de s'assurer que la voie contiguë n'est pas engagée",
+          "critical": true
+        },
+        {
+          "label": "Mesures immédiates : commander NEUTRE, confirmer le freinage, s'arrêter, protéger les voies contiguës si présomption de danger, appliquer le Mémento",
+          "critical": true
+        },
+        {
+          "label": "Sondage RP en NEUTRE (après avis SGC, et après sondage disjonction si disjonction/QT/arrêt moteur) : si RP ne remonte pas à pression de régime -> Guide de Dépannage",
+          "critical": true
+        },
+        {
+          "label": "Si RP remonte : supprimer NEUTRE et observer le Réservoir Égalisateur (RE) -> si RE < 3 bars -> Guide de Dépannage ; si RE ≥ 3 bars -> visite du train jusqu'au véhicule de queue",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F20.03 structure la réaction réflexe à une chute CFA/CG : d'abord écarter/gérer le risque majeur (4 cas de présomption de déraillement), puis réaliser le sondage RP -> RE (seuil 3 bars) pour distinguer une panne de l'EM (GD) d'une fuite sur la rame (visite du train).",
+      "sources": [
+        "F20.03 — Chute de pression à la CFA/CG - Mesures immédiates, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q04",
+      "type": "qcm_multi",
+      "theme": "Incidents de frein",
+      "subtheme": "Chute de pression CFA/CG — Dispositions lors de la visite, robinet à trou de fuite et fractionnement (F20.04)",
+      "difficulty": "difficile",
+      "prompt": "Lors de la visite de votre train suite à une chute de pression CFA/CG (fiche F20.04, révision du 14 décembre 2025), quelles règles opérationnelles sont exactes ?",
+      "correctAnswers": [
+        "En cas de fuite CFA/CG AVANT le robinet d'isolement : fermer le robinet d'arrêt CFA/CG à l'arrière du véhicule précédant celui qui est avarié, apposer une étiquette IN (si wagon), déterminer la VL selon le freinage restant (G0215), demander le secours pour la 2e partie si acheminement total impossible, et purger complètement les équipements de frein des véhicules dont l'action du frein continu est supprimée (sauf s'ils doivent rester en pleine voie).",
+        "En cas de fuite CFA/CG APRÈS le robinet d'isolement : isoler l'équipement de frein, apposer une étiquette IS (si wagon), déterminer la VL (G0215), retirer l'immobilisation et desserrer (sans qu'une VFF soit prescrite), alors qu'un désaccouplement/éclatement réparé ou la réouverture d'un robinet d'arrêt CFA/CG fermé intempestivement impose une VFF + étiquette IN.",
+        "Si aucune fuite n'est découverte lors de la visite, fractionner la CFA/CG en commençant par l'EM seul (fermer les robinets entre EM et 1er véhicule) ; si l'EM est étanche, fermer un robinet vers le milieu du train pour localiser la demi-rame en cause, puis tester véhicule par véhicule en partant de la source d'air, et procéder à une VFF."
+      ],
+      "distractors": [
+        "Si un robinet d'arrêt à trou de fuite est fermé intempestivement en AMONT de l'accouplement de frein, la fuite est immédiatement visible au manomètre de l'engin moteur.",
+        "En cas de fuite CFA/CG AVANT le robinet d'isolement sur un wagon dont l'acheminement total est impossible, il faut purger complètement les freins des véhicules laissés en pleine voie.",
+        "Sur un véhicule muni d'une conduite générale bifurquée dont un boyau a éclaté, on doit obligatoirement fermer le robinet d'arrêt amont et renoncer au freinage de toute la partie arrière.",
+        "En cas de fuite CFA/CG APRÈS le robinet d'isolement d'un wagon, on appose uniquement une étiquette IN (et jamais une étiquette IS)."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche F20.04 (14/12/2025) détaille chaque cas : (1) robinet à trou de fuite fermé en AMONT de l'accouplement -> fuite NON décelée au manomètre EM (serre l'arrière) ; fermé en AVAL -> fuite décelée au manomètre EM ; (2) éclatement d'un accouplement sur conduite bifurquée -> utiliser le 2e accouplement en vis-à-vis, étiquette IN + VFF ; (3) fuite AVANT robinet d'isolement -> fermer robinet à l'arrière du véhicule précédent, étiquette IN, G0215, purger les véhicules non alimentés SAUF s'ils doivent rester en pleine voie ; (4) fuite APRÈS robinet d'isolement -> isoler, étiquette IS, G0215 ; (5) aucune fuite trouvée -> fractionnement en commençant par l'EM seul, puis moitié de rame, puis véhicule par véhicule depuis la source d'air + VFF.",
+      "sources": [
+        "F20.04 — Chute de pression à la CFA/CG - Dispositions à prendre, p. 1-4/4 (© Lineas, December 14, 2025 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q05",
+      "type": "qcm_multi",
+      "theme": "Incidents de frein",
+      "subtheme": "Blocage de frein sur un ou plusieurs véhicules et contrôle des avaries aux roues (F20.05 / F20.06)",
+      "difficulty": "difficile",
+      "prompt": "Suite au signalement d'un blocage de frein, vous avez arrêté immédiatement le train, immobilisé la rame, alimenté en SURCHARGE (éliminée min 4 min) et vous effectuez la visite jusqu'au véhicule de queue (fiches F20.05 et F20.06, version du 11 juin 2023). Quelles actions sont conformes à la réglementation ?",
+      "correctAnswers": [
+        "Si un ou plusieurs robinets d'arrêt CFA/CG ou d'isolement sont trouvés fermés sans cause apparente, vérifier l'absence d'étiquette IS avant de les rouvrir, vérifier l'absence d'incendie et l'état des roues, apposer une étiquette IN (si wagon) et procéder à une VFF.",
+        "Si plusieurs véhicules sont bloqués alors que les robinets d'arrêt et d'isolement sont ouverts, actionner la commande de la valve de purge durant environ 10 secondes sur les véhicules incriminés pour provoquer le desserrage, contrôler les roues et procéder à une VFF.",
+        "Lors du contrôle des roues (table de roulement, absence de plats importants — au-delà de 4 cm max envisager le retrait —, coïncidence des repères blancs bandage/jante, échauffement), si une avarie importante empêche le véhicule de continuer à rouler, demander le secours en précisant « wagon de secours nécessaire »."
+      ],
+      "distractors": [
+        "Si un seul véhicule est bloqué avec robinets d'arrêt et d'isolement ouverts, il suffit d'actionner sa valve de purge 10 secondes et de le laisser en service sans isoler son frein.",
+        "Si un frein à main est trouvé serré, il faut toujours apposer une étiquette IS sur le wagon même en l'absence de toute avarie aux roues.",
+        "Si une avarie aux roues est jugée importante mais que le véhicule peut encore continuer à rouler, il faut maintenir son frein en service pour ne pas réduire la masse freinée du train.",
+        "Si le blocage de plusieurs véhicules a disparu après action sur la valve de purge pendant 10 secondes, aucune VFF n'est nécessaire."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche F20.06 (11/06/2023) distingue minutieusement les situations : (1) robinet fermé sans cause -> vérifier absence d'étiquette IS avant ouverture, vérifier incendie/roues, étiquette IN + VFF ; (2) UN seul véhicule bloqué robinets ouverts -> isoler le frein (F20.10), contrôler roues (plats > 4 cm -> envisager retrait), calculer VL (B60.02) ; (3) PLUSIEURS véhicules bloqués robinets ouverts -> valve de purge ~10 s, contrôler desserrage et roues, puis VFF ; (4) avarie importante aux roues -> si le véhicule ne peut rouler -> demander secours « wagon de secours nécessaire » ; s'il peut rouler -> isoler frein + étiquette IS + étiquette IN + calcul VL (B60.02). Dans tous les cas d'avaries roues -> aviser SGC et Service Opérationnel.",
+      "sources": [
+        "F20.05 — Mise en action intempestive du frein - Blocage, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F20.06 — Blocage de frein sur un ou plusieurs véhicules, p. 1-6/6 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q06",
+      "type": "open",
+      "theme": "Incidents de frein",
+      "subtheme": "Absence ou insuffisance de freinage en ligne — Réflexes d'urgence et traitement après visite (F20.07 / F20.08)",
+      "difficulty": "difficile",
+      "prompt": "En ligne, lors d'un serrage gradué, vous constatez une insuffisance flagrante de freinage (ou l'absence de dépression à la CFA/CG). Vous n'avez encore effectué aucun geste d'urgence. Selon les fiches F20.07 et F20.08, indiquez : (1) les mesures réflexes immédiates jusqu'à l'arrêt (et si l'arrêt ne peut être obtenu), (2) la position dans laquelle vous maintenez le frein pendant la visite du train, (3) le délai spécifique d'attente au remplissage si vous remettez en service un frein isolé sans motif, et (4) la conduite exacte si AUCUNE anomalie n'est découverte lors de la visite puis lors de la VFF.",
+      "modelAnswer": "1. Mesures immédiates jusqu'à l'arrêt :\n   - Enfoncer le BP/URG (ou à défaut placer le manipulateur FA sur FU) et maintenir le FU jusqu'à l'arrêt ;\n   - S'assurer que la traction est coupée ;\n   - Mettre en œuvre tous les autres moyens à disposition pour s'arrêter (frein électrique, frein d'immobilisation, frein direct...) et utiliser les sablières ;\n   - S'il n'est pas possible d'obtenir l'arrêt : appliquer F44.07 (Dérive) ; si la dérive est arrêtée sur VP, protéger si nécessaire comme un obstacle jusqu'au dégagement ;\n   - Dès l'arrêt : immobiliser le train, aviser un agent du SGC, appliquer le Mémento (si défaut du robinet FA -> appliquer également F44.07 et le Guide de Dépannage).\n2. Visite du train :\n   - Maintenir la fonction « SERRAGE D'URGENCE » lors de la visite du train ;\n   - Se munir de l'outillage, des carnets d'étiquettes IS/IN et des agrès de couverture si voies contiguës (sans obligation d'emporter la BCC), puis visiter jusqu'au véhicule porteur de la signalisation d'arrière.\n3. Remise en service d'un équipement trouvé isolé sans motif (absence d'étiquette / bulletin CB) :\n   - Remettre en service et procéder à une VFF en attendant AU MOINS 5 MINUTES lors du remplissage (temps nécessaire au remplissage des réservoirs de commande des équipements de frein), puis déterminer la VL.\n4. Si aucune anomalie n'est découverte à la visite :\n   - Procéder obligatoirement à une VFF ;\n   - Si un ou plusieurs freins en service sont trouvés desserrés lors de la VFF -> isoler, étiquette IS (ou CB si EM), déterminer VL (B60.02) ;\n   - Si aucune anomalie n'est constatée non plus lors de la VFF -> annoter le CB si EM, se mettre en rapport avec un agent du SGC pour lui signaler que la marche ne peut être reprise qu'avec les plus grandes précautions, retirer l'immobilisation et reprendre la marche avec les plus grandes précautions jusqu'au point désigné.",
+      "keyPoints": [
+        {
+          "label": "BP/URG (ou FA sur FU) maintenu jusqu'à l'arrêt + vérifier traction coupée + tous moyens disponibles (frein électrique, frein d'immobilisation, frein direct, sablières) + F44.07 si arrêt impossible",
+          "critical": true
+        },
+        {
+          "label": "Dès l'arrêt : immobiliser le train, aviser le SGC, maintenir la fonction « SERRAGE D'URGENCE » lors de la visite jusqu'au véhicule de queue",
+          "critical": true
+        },
+        {
+          "label": "Si frein trouvé isolé sans motif (ni étiquette ni CB) : remise en service + VFF avec attente d'AU MOINS 5 MINUTES au remplissage (remplissage des RC)",
+          "critical": true
+        },
+        {
+          "label": "Si aucune anomalie découverte à la visite : effectuer obligatoirement une VFF (isoler tout frein trouvé desserré)",
+          "critical": true
+        },
+        {
+          "label": "Si aucune anomalie même après VFF : signaler au SGC que la marche ne peut être reprise qu'avec les plus grandes précautions et reprendre ainsi jusqu'au point désigné",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F20.08 impose la mobilisation immédiate de tous les moyens de freinage, le maintien du serrage d'urgence durant la visite, une VFF systématique (avec minimum 5 minutes de remplissage des RC en cas de remise en service d'un frein trouvé isolé sans étiquette), et une reprise concertée avec les plus grandes précautions si la cause reste introuvable.",
+      "sources": [
+        "F20.07 — Anomalie dans l'efficacité du frein, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "F20.08 — Absence ou insuffisance de freinage, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q07",
+      "type": "qcm",
+      "theme": "Incidents de frein",
+      "subtheme": "Chute de pression dans la Conduite Principale (CP) — Seuils 7 bars et 6 bars (F20.09)",
+      "difficulty": "moyen",
+      "prompt": "En ligne, vous constatez une baisse de la pression au manomètre de la Conduite Principale (CP) / Réservoirs Principaux (RP). À l'aide du tableau des seuils F20.09 ci-dessous, quelle conduite devez-vous appliquer si la pression des RP continue de chuter vers 6 bars (sans être encore passée sous 6 bars), et quelles conséquences surviennent dès que la pression CP chute en dessous de 6 bars ?",
+      "referenceTable": {
+        "title": "Conduite à tenir en cas de chute de pression à la Conduite Principale / RP (F20.09, p. 1-2/2)",
+        "openByDefault": true,
+        "headers": [
+          "Évolution de la pression aux RP",
+          "Conduite prescrite au conducteur"
+        ],
+        "rows": [
+          [
+            "Stabilisée entre pression de régime et 7 bars",
+            "Continuer la marche, surveiller attentivement, appliquer le Mémento à la 1re occasion favorable"
+          ],
+          [
+            "Continue de chuter vers 6 bars",
+            "Choisir un point d'arrêt d'entente avec le SGC et appliquer le Mémento"
+          ],
+          [
+            "Ne se maintient pas au-dessus de 6 bars",
+            "Provoquer ou confirmer (automatisme) l'arrêt du train et appliquer le Mémento"
+          ]
+        ],
+        "note": "En dessous de 6 bars : risque de vidange de la CFA/CG et défaut de fonctionnement des servitudes pneumatiques."
+      },
+      "correctAnswer": "Choisir un point d'arrêt d'entente avec le SGC et appliquer le Mémento ; dès que la pression CP passe en dessous de 6 bars, cela peut entraîner la vidange de la CFA/CG et le défaut de fonctionnement des servitudes pneumatiques.",
+      "distractors": [
+        "Provoquer immédiatement un freinage d'urgence en pleine voie dès que la pression passe sous 7,5 bars ; la vidange de la CFA/CG ne survient qu'en dessous de 5 bars.",
+        "Poursuivre jusqu'au terminus sans aviser le SGC tant que la pression reste supérieure à 5 bars.",
+        "Basculer le robinet du mécanicien sur « SURCHARGE » pour maintenir la pression CP au-dessus de 6 bars.",
+        "Isoler immédiatement les compresseurs de l'engin moteur pour éviter une surchauffe et poursuivre jusqu'à 5,5 bars.",
+        "Choisir un point d'arrêt uniquement si la CP est reliée aux wagons ; sinon poursuivre jusqu'à 4 bars.",
+        "Une non-alimentation de la CP sur un EM en UM ou en véhicule n'a jamais d'impact sur les performances de freinage ni sur la vitesse limite."
+      ],
+      "explanation": "La fiche F20.09 fixe trois paliers clairs : stabilisée entre régime et 7 bars -> continuer en surveillant + Mémento à la 1re occasion ; chute continue vers 6 bars -> choisir un point d'arrêt d'entente avec le SGC + Mémento ; ne se maintient pas au-dessus de 6 bars -> provoquer/confirmer l'arrêt + Mémento (risque de vidange CFA/CG et perte des servitudes pneumatiques sous 6 bars). De plus, une non-alimentation CP sur certains EM en UM/véhicule réduit les performances de freinage à intégrer dans le calcul de VL.",
+      "sources": [
+        "F20.09 — Chute de pression dans la conduite principale, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q08",
+      "type": "qcm",
+      "theme": "Incidents de frein",
+      "subtheme": "Isolement d'un équipement de frein (F20.10) et anomalie lors de l'essai de frein avant départ (F20.12)",
+      "difficulty": "facile",
+      "prompt": "Vous devez isoler l'équipement de frein d'un wagon suite à la découverte d'une boîte chaude (l'appareillage de frein lui-même n'est pas en cause), puis, sur un autre train, une anomalie survient lors d'un essai de frein réalisé conducteur seul avant départ. Quelles prescriptions exactes des fiches F20.10 et F20.12 s'appliquent ?",
+      "correctAnswer": "Pour l'isolement (partiel si possible) : fermer le robinet d'isolement, tirer à fond la valve de purge jusqu'à cessation du bruit d'échappement, contrôler le desserrage, et NE PAS apposer d'étiquette IS lorsque l'isolement est motivé par une boîte chaude ; en cas d'anomalie lors d'un essai de frein conducteur seul avant départ : interrompre immédiatement l'essai, aviser le Service Opérationnel, appliquer le Mémento, puis recommencer l'épreuve À SON DÉBUT une fois le problème résolu.",
+      "distractors": [
+        "Pour l'isolement suite à boîte chaude : tirer d'abord la valve de purge puis fermer le robinet d'isolement, et apposer obligatoirement une étiquette IS ; lors d'une anomalie à l'essai de frein, on reprend l'essai à l'étape où il a été interrompu.",
+        "L'isolement d'un wagon à plusieurs distributeurs doit toujours être total ; lors d'une anomalie en essai conducteur seul, on n'avise le Service Opérationnel qu'après avoir terminé l'essai.",
+        "En cas de non-desserrage après fermeture du robinet d'isolement et purge, on démonte immédiatement la barre de timonerie avant de vérifier la tringle de la valve de purge.",
+        "Lors d'une anomalie en essai de frein avec un agent habilité, le conducteur répare lui-même le wagon sans interrompre l'essai.",
+        "L'étiquette IS est obligatoire pour tout isolement de frein sans aucune exception, y compris pour une boîte chaude.",
+        "En cas d'anomalie lors d'un essai conducteur seul, seul le SGC est avisé sans modifier les documents de train."
+      ],
+      "explanation": "F20.10 précise : isolement partiel chaque fois que possible ; ordre strict = fermer robinet d'isolement -> tirer à fond valve de purge jusqu'à cessation du bruit d'échappement -> vérifier desserrage (si bloqué : vérifier tringle purge, timonerie/régleur, démontage timonerie en dernier lieu seulement) ; PAS d'étiquette IS si l'isolement est motivé par une boîte chaude (fonctionnement de l'appareillage non en cause). F20.12 précise : toute anomalie en essai avant départ impose d'interrompre immédiatement l'essai, d'aviser l'agent au sol (ou le Service Opérationnel si conducteur seul + Mémento + adaptation BF/relevé si besoin) et de RECOMMENCER l'essai à son début après résolution.",
+      "sources": [
+        "F20.10 — Isolement d'un équipement de frein, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F20.12 — Anomalie constatée lors de l'essai de frein, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q09",
+      "type": "qcm_multi",
+      "theme": "Anomalies de signalisation",
+      "subtheme": "Extinction accidentelle, aspect anormal, cascade de feux, signal annulé éclairé et signalement ANSI (F30.01 / F30.02 / F30.03)",
+      "difficulty": "difficile",
+      "prompt": "En ligne, vous rencontrez des anomalies d'aspect ou d'extinction de signaux dont vous n'avez pas été avisé (fiches F30.01, F30.02 et F30.03 — versions 2025). Quelles règles sont exactes ?",
+      "correctAnswers": [
+        "Un panneau non circulaire éteint (ou dont seul l'œilleton est allumé) impose l'arrêt d'urgence et l'abaissement d'urgence des pantographes (puis se comporter comme en présence d'un feu rouge fixe, protéger si engagement du point protégé, et signaler via BC59 ANSI).",
+        "Un panneau circulaire éteint dont la plaque (A ou D) ne peut être reconnue au passage impose de se comporter comme en présence d'un DISQUE fermé ; une cascade de feux qui se stabilise avant/lors du franchissement impose d'obéir au signal présenté au franchissement, tandis que si elle subsiste au franchissement c'est un aspect anormal.",
+        "Si vous rencontrez sans en être avisé un signal annulé par une croix de Saint-André blanche MAIS éclairé, vous devez considérer ce signal comme en service (panneau -> comme en service et éteint ; signal mécanique/tableau -> comme en service et fermé) jusqu'à assurance contraire du SGC."
+      ],
+      "distractors": [
+        "Un panneau non circulaire dont l'œilleton reste allumé alors que les autres feux sont éteints doit être considéré comme un sémaphore de BAL ouvert.",
+        "Un panneau circulaire éteint dont la plaque ne peut être reconnue au passage est traité par défaut comme un simple avertissement fermé.",
+        "De nuit, si un signal mécanique est éteint mais que vous reconnaissez avec certitude sa cocarde en position d'ouverture, vous devez quand même vous arrêter d'urgence et demander un ordre C.",
+        "En BAL, si vous rencontrez un panneau éteint et vous comportez comme devant un sémaphore fermé, vous ne le signalez jamais par radio au Régulateur mais attendez uniquement la gare terminus."
+      ],
+      "displayCount": 5,
+      "explanation": "F30.01 (08/06/2025) : seul l'œilleton allumé = panneau éteint ; panneau non circulaire éteint -> arrêt d'urgence + baisse d'urgence pantos + comportement feu rouge fixe (+ protection si engagement) ; panneau circulaire éteint -> plaque A = avertissement fermé, plaque D ou plaque non reconnue = DISQUE fermé ; mécanique éteint de nuit reconnu ouvert avec certitude = ouvert (+ ANSI au 1er arrêt) ; cascade de feux stabilisée au franchissement -> obéir au signal présenté. F30.02 (14/12/2025) : signalement par BC59 ANSI (en BAL, si radio dispo, signalement immédiat au Régulateur ; à défaut 1er arrêt normal/accidentel). F30.03 (08/06/2025) : signal annulé éclairé sans avis -> considérer en service et le plus impératif (panneau = éteint, mécanique/tableau = fermé).",
+      "sources": [
+        "F30.01 — Extinction accidentelle, aspect anormal ou position douteuse d'un signal, p. 1-4/4 (© Lineas, June 08, 2025 Lille)",
+        "F30.02 — Signalement des anomalies de signalisation, p. 1/1 (© Lineas, December 14, 2025 Lille)",
+        "F30.03 — Signal annulé et éclairé, p. 1/1 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q10",
+      "type": "open",
+      "theme": "Anomalies de signalisation",
+      "subtheme": "Franchissement intempestif d'un carré / CV / GA / TLC / Sémaphore de BM ou détonation au carré vu ouvert (F30.04 / F30.05 / F30.06)",
+      "difficulty": "difficile",
+      "prompt": "Vous franchissez un carré vu ouvert (ou vous venez de franchir intempestivement un carré / carré violet / guidon d'arrêt / TLC à damier / sémaphore de BM fermé) et, dans le premier cas, vous percevez la détonation d'un pétard au franchissement. Vous n'avez encore exécuté aucun geste. Selon les fiches F30.04, F30.05 et F30.06 (versions du 8 juin 2025), précisez : (1) les 4 mesures immédiates d'urgence (dont la priorité en VU/VB et la raison de l'abaissement des pantographes), (2) les conditions permettant d'être dispensé par le SGC de retourner au pied d'un carré franchi intempestivement, et (3) les formalités exactes de reprise de marche en signalisation sol (et en ETCS1 pour une détonation au carré vu ouvert).",
+      "modelAnswer": "1. Mesures immédiates (identiques en cas de détonation au carré vu ouvert — y compris en ETCS1 quelles que soient les indications au DMI — ou de franchissement intempestif de C, CV, GA, TLC à damier ou S de BM) :\n   - Provoquer l'arrêt d'urgence ;\n   - Baisser d'urgence le(s) pantographe(s) (sécurité des personnes contre réalimentation intempestive par pontage et coupure traction plus rapide par ouverture du disjoncteur) ;\n   - Protéger le train comme un obstacle s'il y a engagement ou présomption d'engagement du point protégé (et protéger EN PRIORITÉ vis-à-vis des circulations de sens contraire en voie unique ou sur voie banalisée, ou si le train est dirigé vers une VU/VB) ;\n   - Appliquer le Mémento (et signaler par BC59 ANSI si le franchissement résulte d'une anomalie de signalisation).\n2. Dispense de retourner au pied d'un signal carré (F30.05) : possible par le SGC si deux conditions sont réunies : (a) le conducteur dispose d'une liaison radio GSM-R avec le poste dont dépend le signal, ET (b) l'agent-circulation dispose des moyens pour repérer avec certitude le signal carré concerné.\n3. Reprise de marche :\n   - En signalisation sol : se faire reconnaître -> recevoir l'autorisation de franchissement (ordre CBA ou C, éventuellement conjointement avec MV ; pour un sémaphore de BM : ordre S ou MV) -> si le(s) BP/FC clignote(nt), appuyer sur le(s) BP/FC -> remettre l'EM en état de marche -> appliquer les prescriptions de(s) autorisation(s) reçue(s).\n   - En ETCS1 (détonation au carré vu ouvert, F30.04) : se faire reconnaître -> recevoir une Instruction Européenne 1 (IE1) -> vérifier que l'IE1 concerne bien le signal considéré -> remettre l'EM en état de marche -> appliquer IE1 et A11.14 (et F30.20).",
+      "keyPoints": [
+        {
+          "label": "Détonation au carré vu ouvert = traité comme franchissement intempestif de carré fermé (y compris en ETCS1 quelles que soient les indications au DMI)",
+          "critical": true
+        },
+        {
+          "label": "Mesures immédiates : arrêt d'urgence + baisse d'urgence des pantographes + protection d'obstacle si engagement/présomption (en priorité contre sens contraire en VU/VB) + Mémento",
+          "critical": true
+        },
+        {
+          "label": "Dispense de retourner au pied du carré franchi (F30.05) : liaison radio GSM-R avec le poste ET moyens pour l'AC de repérer avec certitude le signal",
+          "critical": true
+        },
+        {
+          "label": "Reprise sol : se faire reconnaître, recevoir CBA/C (+ MV éventuel) ou S/MV (BM), appuyer sur BP/FC si clignotant, remettre EM en marche, appliquer les ordres (et ANSI si anomalie signalisation)",
+          "critical": true
+        },
+        {
+          "label": "Reprise ETCS1 après détonation au carré vu ouvert : se faire reconnaître, recevoir IE1 vérifiée sur le bon signal, remettre EM en marche et appliquer IE1 / A11.14",
+          "critical": false
+        }
+      ],
+      "explanation": "Les fiches F30.04, F30.05 et F30.06 (08/06/2025) unifient le geste réflexe d'urgence (arrêt d'urgence + baisse d'urgence pantos + protection d'obstacle prioritaire en VU/VB) et encadrent strictement la reprise de marche (ordres CBA/C/S/MV ou IE1, acquittement BP/FC clignotant).",
+      "sources": [
+        "F30.04 — Détonation(s) au franchissement d'un signal carré vu ouvert, p. 1-2/2 (© Lineas, June 08, 2025 Lille)",
+        "F30.05 — Franchissement intempestif d'un carré, carré violet, guidon d'arrêt fermé ou voyant à damier rouge et blanc d'un TLC, p. 1-2/2 (© Lineas, June 08 2025 Lille)",
+        "F30.06 — Franchissement intempestif d'un sémaphore de BM fermé, p. 1/1 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q11",
+      "type": "qcm",
+      "theme": "Anomalies de signalisation",
+      "subtheme": "Franchissement intempestif d'un sémaphore de BAL, d'un feu rouge clignotant ou d'un sémaphore de BAPR (F30.07 / F30.08 / F30.09)",
+      "difficulty": "moyen",
+      "prompt": "Vous franchissez intempestivement : (A) un sémaphore de BAL fermé (ou un feu rouge clignotant) que vous avez reconnu avec certitude au passage, et (B) sur une autre ligne, un sémaphore de BAPR fermé. Quelles différences exactes distinguent la reprise de marche dans le cas (A) vs le cas (B) selon les fiches F30.07, F30.08 et F30.09 (versions du 14 décembre 2025) ?",
+      "correctAnswer": "Dans les deux cas : arrêt d'urgence et baisse d'urgence des pantographes. Pour la reprise : en (A) BAL / feu rouge clignotant reconnu avec certitude (sinon retourner au pied du panneau), aviser le SGC, remettre l'EM en marche et repartir de soi-même en MàV jusqu'à la fin du canton ; en (B) BAPR, se faire reconnaître, recevoir l'ORDRE VERBAL de pénétrer en canton occupé (appuyer sur BP/FC si clignotant), et repartir en MàV jusqu'à la fin du canton (sans jamais la cesser devant un panneau circulaire).",
+      "distractors": [
+        "En BAL / feu rouge clignotant, vous ne devez pas baisser d'urgence les pantographes ; en BAPR, vous repartez de vous-même en MàV sans ordre verbal du SGC.",
+        "En BAL, vous devez obligatoirement recevoir un ordre écrit CBA avant de repartir ; en BAPR, vous devez recevoir un ordre écrit S.",
+        "En BAL, même si vous n'avez pas reconnu avec certitude le signal au passage, vous pouvez repartir de vous-même en MàV après avoir avisé le SGC par radio.",
+        "En BAPR, le franchissement d'un panneau circulaire ouvert dans le canton vous autorise à cesser immédiatement l'observation de la marche à vue.",
+        "En cas d'extinction totale de la signalisation d'avant du train, la reprise en MàV reste autorisée sans appliquer F44.12.",
+        "En BAPR sur voie banalisée, aucune protection vis-à-vis des circulations de sens contraire n'est requise après franchissement intempestif du sémaphore de sortie."
+      ],
+      "explanation": "Les versions du 14/12/2025 de F30.07, F30.08 et F30.09 rappellent l'unicité du geste réflexe (arrêt d'urgence + baisse d'urgence des pantographes — en BAL une fermeture peut résulter d'une BCC posée suite à avarie caténaire !). Reprise : BAL/FRC reconnu avec certitude -> avis SGC + reprise en MàV jusqu'à fin de canton (si doute sur l'identité du signal -> retour au pied du panneau et mesures d'urgence/feu rouge fixe) ; BAPR -> se faire reconnaître + ordre verbal de pénétrer en canton occupé + BP/FC si clignotant + MàV jusqu'à fin de canton (panneau circulaire n'autorise jamais à cesser la MàV) + protection contre sens contraire sur VB. En cas d'extinction totale signalisation d'avant -> F44.12.",
+      "sources": [
+        "F30.07 — Franchissement intempestif d'un sémaphore de BAL fermé, p. 1/1 (© Lineas, December 14, 2025 Lille)",
+        "F30.08 — Impossibilité de respecter un feu rouge clignotant, p. 1/1 (© Lineas, December 14, 2025 Lille)",
+        "F30.09 — Franchissement intempestif d'un sémaphore de BAPR fermé, p. 1/1 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q12",
+      "type": "qcm",
+      "theme": "Anomalies de signalisation",
+      "subtheme": "Franchissement intempestif d'un Signal d'Arrêt à Main (SAM) (F30.10)",
+      "difficulty": "moyen",
+      "prompt": "Vous franchissez intempestivement un Signal d'Arrêt à Main (SAM) qui n'était pas appuyé par un pétard, et votre arrêt se situe juste après le franchissement d'un jalon à damier bleu et blanc. Quelles mesures exactes impose la fiche F30.10 ?",
+      "correctAnswer": "Provoquer l'arrêt d'urgence, baisser d'urgence les pantographes, appliquer la protection si lieu et le Mémento ; obtenir l'accord du RSS ou de l'Agent E pour relever les pantographes (arrêt après jalon bleu et blanc), obtenir l'assurance verbale de reprise de l'agent qui présentait le SAM (à défaut d'un agent SGC de l'établissement), et reprendre en respectant la règle de l'arrêt accidentel.",
+      "distractors": [
+        "Provoquer l'arrêt d'urgence sans baisser les pantographes, puis reprendre en marche normale dès que l'agent abaisse son drapeau rouge.",
+        "Baisser les pantographes puis les relever librement dès que l'agent qui présentait le SAM vous autorise verbalement à repartir.",
+        "Si vous ne pouvez obtenir l'assurance verbale ni de l'agent ni du SGC, attendre 15 minutes puis repartir de vous-même en marche à vue.",
+        "Reprendre en marche normale dès l'obtention de l'assurance verbale de l'agent, sans appliquer la règle de l'arrêt accidentel.",
+        "L'accord du RSS/Agent E pour relever les pantographes n'est exigé que dans une zone « Baissez pantos », jamais après un jalon à damier bleu et blanc.",
+        "Si le franchissement du SAM a été suivi de la détonation d'un pétard, seule l'assurance verbale de l'agent suffit sans appliquer la procédure des pétards isolés."
+      ],
+      "explanation": "La fiche F30.10 impose : arrêt d'urgence + baisse d'urgence pantos (le SAM peut protéger un danger électrique !) + protection si lieu + Mémento. Pour la reprise : accord du RSS ou de l'Agent E impératif avant de relever les pantos si arrêt après jalon à damier bleu et blanc ou dans une zone Baissez panto / Coupez courant ; assurance verbale de reprise par l'agent ayant présenté le SAM (sinon agent SGC de l'établissement) -> si obtenue, reprise selon règle de l'arrêt accidentel ; si impossible -> appliquer F30.11 (attendre sur place des instructions). Si pétard écrasé -> procédure pétards isolés.",
+      "sources": [
+        "F30.10 — Franchissement intempestif d'un signal d'arrêt à main, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q13",
+      "type": "qcm_multi",
+      "theme": "Anomalies de signalisation",
+      "subtheme": "Impossibilité de se faire reconnaître — Carré/EOA, Sémaphore de BM et Sémaphore de BAPR (F30.11 / F30.12 / F30.13)",
+      "difficulty": "difficile",
+      "prompt": "Vous êtes arrêté devant un signal d'arrêt fermé, le téléphone est en dérangement et aucune consigne n'est affichée près du téléphone (la signalisation d'avant de votre train fonctionne normalement). Quelles règles des fiches F30.11, F30.12 et F30.13 (versions du 14 décembre 2025 pour F30.11 et F30.13) sont exactes ?",
+      "correctAnswers": [
+        "Devant un EOA, un carré, un carré violet, un guidon d'arrêt, un SAM ou un sémaphore de BM fermé : sans consigne affichée et s'il est impossible d'obtenir des instructions du SGC par tout moyen, le conducteur DOIT ATTENDRE SUR PLACE que des instructions lui parviennent en continuant de chercher le contact.",
+        "Devant un sémaphore de BAPR fermé (sans consigne affichée et impossibilité de se faire reconnaître) : après un délai de 15 minutes depuis l'arrêt, appuyer sur BP/FC, franchir le sémaphore fermé, marcher à vue jusqu'à la fin du canton (sans la cesser devant un panneau circulaire) et S'ARRÊTER au signal d'entrée du canton suivant QUELLE QUE SOIT SON INDICATION pour se faire reconnaître (sauf extinction totale des feux avant -> impératif de joindre un agent SGC).",
+        "En ETCS1 (F30.11), en cas d'EOA ramené à la tête du train avec message « MA raccourcie » ou « Allocation SR raccourcie », vous devez vous faire reconnaître et recevoir une IE1 pour franchir cet EOA en tête (même si le signal aval est ouvert), mais cette IE1 n'autorise PAS à franchir le signal d'arrêt fermé situé en aval."
+      ],
+      "distractors": [
+        "Devant un sémaphore de BM fermé sans consigne affichée, le conducteur peut franchir le signal de lui-même après un délai d'attente de 15 minutes.",
+        "Devant un sémaphore de BAPR fermé après 15 minutes d'attente sans contact, si le signal d'entrée du canton suivant est ouvert, vous poursuivez directement en marche normale sans vous y arrêter.",
+        "En cas d'extinction totale de la signalisation d'avant du train devant un sémaphore de BAPR fermé, vous pouvez tout de même franchir après 15 minutes d'attente si une consigne est affichée près du téléphone.",
+        "En ETCS1 avec « MA raccourcie », une instruction IE1 délivrée pour franchir l'EOA en tête autorise également à franchir le carré fermé situé en aval."
+      ],
+      "displayCount": 5,
+      "explanation": "Contraste fondamental entre F30.11/F30.12 et F30.13 : (1) EOA / C / CV / GA / SAM / S de BM -> JAMAIS de franchissement autonome sans consigne ni instruction SGC (attendre sur place) ; (2) Sémaphore de BAPR -> si feux avant totalement éteints, impératif de joindre le SGC même avec consigne affichée (F44.12) ; sinon, sans consigne et sans contact -> attendre 15 min, BP/FC, franchir, MàV jusqu'à fin de canton (panneau circulaire n'autorise pas à cesser MàV), ARRÊT OBLIGATOIRE au signal d'entrée du canton suivant MÊME S'IL EST OUVERT pour se faire reconnaître (si impossible de se faire reconnaître et signal ouvert -> repartir et rendre compte au 1er arrêt ; si fermé -> recommencer) ; (3) ETCS1 « MA raccourcie » -> IE1 obligatoire même si signal aval ouvert, et ne vaut jamais pour un signal fermé en aval.",
+      "sources": [
+        "F30.11 — Impossibilité de se faire reconnaître lors d'un arrêt commandé par un EOA, carré, carré violet, guidon d'arrêt ou signal à main, p. 1-2/2 (© Lineas, December 14, 2025 Lille)",
+        "F30.12 — Impossibilité de se faire reconnaître lors d'un arrêt commandé par un sémaphore de BM fermé, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "F30.13 — Impossibilité de se faire reconnaître lors d'un arrêt commandé par un sémaphore de BAPR fermé, p. 1-2/2 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q14",
+      "type": "qcm",
+      "theme": "Anomalies de signalisation",
+      "subtheme": "Établissement sans signal de sortie ni agent SGC après avertissement ou disque fermé (F30.14 / F30.15) et TIV à distance non reconnu (F30.16)",
+      "difficulty": "difficile",
+      "prompt": "Comparez deux situations distinctes : (A) vous avez franchi un DISQUE fermé précédant un établissement PL NON désigné poste de cantonnement aux RT/LiLi (ni signal de sortie ni agent SGC), et (B) en pleine voie, vous n'avez pas pu reconnaître l'indication chiffrée d'un TIV à distance (recouvert de neige). Quelles règles exactes des fiches F30.14, F30.15 et F30.16 s'appliquent ?",
+      "correctAnswer": "En (A) (établissement PL non poste de cantonnement après disque fermé) : vérifier la position de la ou des aiguilles situées sur le parcours dans la zone protégée par le disque, repartir si rien ne s'y oppose en MàV au-delà de la (dernière) aiguille protégée sur une distance égale à la DCO, puis signaler l'anomalie ; en (B) (TIV à distance non reconnu) : se mettre aussitôt que possible en MàV sur au moins la DCO à partir du TIV (et poursuivre en MàV au-delà tant que le taux n'est pas déterminé avec certitude), puis signaler par ANSI.",
+      "distractors": [
+        "En (A), même pour un établissement PL non poste de cantonnement, il est strictement interdit de repartir sans ordre écrit d'une gare encadrante ; en (B), la MàV est limitée à 1 000 mètres.",
+        "En (A), vous pouvez repartir directement en marche normale après vérification de l'aiguille sans observer la MàV sur la DCO ; en (B), vous limitez simplement votre vitesse à 60 km/h.",
+        "En (A), la même règle de reprise autonome s'applique dans une gare de voie unique précédée d'un avertissement fermé sans signal de sortie ni agent SGC (F30.14).",
+        "En (B), si après avoir parcouru la DCO le taux de vitesse n'a toujours pas pu être déterminé, vous pouvez cesser la MàV et reprendre votre vitesse limite normale.",
+        "En (A), dans un établissement autre qu'un PL non poste de cantonnement après disque fermé en voie unique (disque ne précédant pas une gare), l'ordre est délivré par l'une des gares encadrantes et jamais par la gare précédente.",
+        "En (B), le signalement d'un TIV à distance illisible ne fait pas l'objet d'un bulletin ANSI."
+      ],
+      "explanation": "F30.14 : gare de VU (hors gare de jonction VU/DV) précédée d'un avertissement fermé sans signal de sortie ni agent SGC -> ordre écrit/dépêche de l'AC d'une des gares encadrantes obligatoire (sinon attendre sur place). F30.15 : même principe après disque fermé (gare précédente en DV ou en VU si disque ne précède pas une gare ; gare encadrante en VU si disque précède une gare), SAUF dans un établissement PL non désigné poste de cantonnement aux RT/LiLi -> vérifier la/les aiguilles dans la zone protégée, repartir en MàV au-delà de la dernière aiguille sur la DCO, puis signaler. F30.16 (08/06/2025) : TIV à distance non reconnu -> MàV aussitôt que possible sur au moins la DCO (et prolongée tant que le taux n'est pas connu avec certitude), Mémento + ANSI + BS.",
+      "sources": [
+        "F30.14 — Une gare de voie unique précédée d'un avertissement fermé ne comporte ni signal de cantonnement commandant la sortie, ni agent SGC, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "F30.15 — Un établissement précédé d'un disque fermé ne comporte ni signal de cantonnement en commandant la sortie, ni agent SGC, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F30.16 — Non reconnaissance de l'indication donnée par un TIV à distance, p. 1-2/2 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q15",
+      "type": "open",
+      "theme": "ETCS",
+      "subtheme": "Train Trip en ETCS1 (avec ou sans déclenchement KVB au PLD) et franchissement sans Train Trip (F30.20 / F30.21)",
+      "difficulty": "difficile",
+      "prompt": "Lors d'une transition signalisation au sol vers ETCS niveau 1, votre train franchit intempestivement le carré fermé associé au Point Limite de Domaine (PLD) : un freinage d'urgence est provoqué par le KVB, suivi d'un « Train Trip » ETCS1 (symbole TR + FU + message « Franchissement EOA »). Le train s'arrête dans le domaine ETCS1. Vous n'avez encore effectué aucun acquittement. Selon les fiches F30.20 et F30.21 (versions du 8 juin 2025), précisez : (1) les mesures réflexes immédiates, (2) l'ordre impératif d'acquittement entre le bouton FC du KVB et le mode TR de l'ETCS (et le comportement du voyant FC), (3) la formule exacte de reconnaissance au SGC et l'instruction indispensable pour repartir (avec la différence entre poursuite en ETCS1 vs passage en signalisation sol), et (4) quelle instruction est délivrée si le franchissement d'un carré/EOA s'est produit SANS Train Trip.",
+      "modelAnswer": "1. Mesures immédiates :\n   - Confirmer le freinage d'urgence ;\n   - Baisser d'urgence le(s) pantographe(s) ;\n   - Si engagement ou présomption d'engagement du point protégé, protéger le train comme un obstacle (priorité sens contraire si VU/VB).\n2. Ordre impératif d'acquittement à l'arrêt (transition sol -> ETCS1 avec FU KVB + Train Trip) :\n   - Appuyer D'ABORD sur le bouton FC du KVB (pour libérer le FU KVB) AVANT d'acquitter le mode TR ;\n   - Attention : cet appui ne provoque PAS l'extinction du voyant FC du KVB ; celui-ci ne s'éteint qu'à l'acquittement du mode TR ;\n   - Acquitter ensuite le message « Acquitter le mode TR » (ou symbole TR dans cadre jaune clignotant), vérifier le passage en mode Post Trip (PT), et remettre l'EM en état de marche.\n3. Reconnaissance au SGC et reprise de marche :\n   - Aviser l'agent du SGC sous la forme : « Ici conducteur du train ETCS niveau 1 n° ..., arrêté au km ... sur la voie ... suite à un Train trip par ... (motif affiché au DMI) » ;\n   - Recevoir impérativement une Instruction Européenne 2 (IE2) (si arrêt dans le domaine sol : IE2 avec mention de s'assurer de la transition vers NTC/STM + ordre C/CBA si franchissement du carré aval du PLD ; si le train ne doit plus être déplacé : IE2 demandant SOM + verrouillage du poste) ;\n   - Poursuite en ETCS1 : effectuer un Start Of Mission (ou SH si prévu) et appliquer l'IE2 + indications DMI ;\n   - Poursuite en signalisation sol (sur demande verbale SGC) : sélectionner manuellement « STM France », appliquer l'IE2, respecter les règles de l'arrêt accidentel et la signalisation au sol.\n4. Cas d'un franchissement intempestif de C / CV / GA ou carré associé au PLD SANS Train Trip (F30.20) : arrêt d'urgence, baisse d'urgence pantos, protection si engagement, se faire reconnaître, et recevoir une Instruction Européenne 1 (IE1) (et appuyer sur BP-FC s'il clignote au PLD).",
+      "keyPoints": [
+        {
+          "label": "Confirmer le FU + baisser d'urgence les pantographes + protéger le train comme un obstacle si engagement/présomption",
+          "critical": true
+        },
+        {
+          "label": "Ordre strict au PLD : appuyer D'ABORD sur le bouton FC du KVB (son voyant ne s'éteint qu'à l'acquittement TR), PUIS acquitter le mode TR (passage en PT) et remettre l'EM en état de marche",
+          "critical": true
+        },
+        {
+          "label": "Formule de reconnaissance SGC précisant train ETCS N1, n°, PK, voie et motif du Train Trip affiché au DMI",
+          "critical": true
+        },
+        {
+          "label": "Reprise après Train Trip uniquement sur réception d'une IE2 (SOM/SH en ETCS1, ou sélection manuelle STM France + arrêt accidentel en signalisation sol)",
+          "critical": true
+        },
+        {
+          "label": "Franchissement intempestif de C/CV/GA/PLD SANS Train Trip (F30.20) -> instruction IE1 (et non IE2)",
+          "critical": true
+        }
+      ],
+      "explanation": "La distinction entre IE2 (avec Train Trip, F30.21) et IE1 (sans Train Trip, F30.20) et la subtilité de l'acquittement au PLD (bouton FC KVB AVANT acquittement TR, voyant FC ne s'éteignant qu'à l'acquittement TR) sont des points techniques critiques de l'exploitation ETCS1 RFN.",
+      "sources": [
+        "F30.20 — Franchissement intempestif d'un EOA, d'un signal d'arrêt fermé en ETCS1, p. 1-2/2 (© Lineas, June 08, 2025 Lille)",
+        "F30.21 — Mesures à prendre après un Train Trip en ETCS1, p. 1-4/4 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q16",
+      "type": "qcm",
+      "theme": "ETCS",
+      "subtheme": "Freinage d'urgence sans Train Trip (F30.22) et anomalie sol ETCS (F30.24)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau F30.22 / F30.24 ci-dessous, vous circulez en ETCS niveau 1 (mode FS) et l'EVC déclenche un freinage d'urgence SANS Train Trip avec le message « Défaut informations balises ». Une fois le train arrêté dans le domaine ETCS, le FU est levé et le DMI affiche « MA raccourcie » (EOA ramené en tête, aucune nouvelle MA reçue). Quelle conduite devez-vous appliquer, et que se passe-t-il si ce même message « Défaut informations balises » survient sur une ligne EN DEHORS d'un domaine ETCS ?",
+      "referenceTable": {
+        "title": "Messages d'anomalie sol ETCS et freinage d'urgence sans Train Trip (F30.22 & F30.24)",
+        "openByDefault": true,
+        "headers": [
+          "Message au DMI",
+          "Freinage d'urgence (sans TR) ?",
+          "Conduite principale"
+        ],
+        "rows": [
+          [
+            "« Erreur de lecture balise », « Dysfonctionnement au sol », « Défaut liaison balise x y », « Défaut LEU x y »",
+            "Non",
+            "Signaler l'anomalie à l'agent du SGC en précisant le message"
+          ],
+          [
+            "« Erreur de lecture de balise », « Défaut équipement sol » (avec FU), « Défaut informations balises »",
+            "Oui (irréversible jusqu'à l'arrêt)",
+            "Dans domaine ETCS : confirmer FU, constater « MA raccourcie » / « Allocation en SR raccourcie », remettre EM en marche, aviser SGC -> IE1 si EOA en tête (ou STM France sur ordre verbal)"
+          ],
+          [
+            "« Survitesse »",
+            "Oui (rémissible)",
+            "Rémissible dès que vitesse réelle ≤ vitesse autorisée"
+          ],
+          [
+            "« Contrôle de mouvement »",
+            "Oui",
+            "Acquitter message, remédier (saisie/dérive/sens inverse), remettre EM en marche"
+          ]
+        ],
+        "note": "En dehors d'un domaine ETCS, des eurobalises existent (GSM-R, annonce transition, valeurs nationales) : un « Défaut informations balises » y provoque un FU irréversible jusqu'à l'arrêt."
+      },
+      "correctAnswer": "Dans le domaine ETCS : confirmer le FU, constater « MA raccourcie », remettre l'EM en marche, aviser le SGC et recevoir une IE1 pour franchir l'EOA en tête (ou passer en STM France si demandé verbalement par le SGC) ; en dehors du domaine ETCS : le FU est irréversible jusqu'à l'arrêt, puis remettre l'EM en marche, aviser le SGC et repartir en respectant les règles de l'arrêt accidentel en signalisation au sol.",
+      "distractors": [
+        "Dans le domaine ETCS, le message « MA raccourcie » autorise à repartir seul en mode SR à 30 km/h sans instruction IE1 ; en dehors du domaine ETCS, aucune eurobalise ne peut provoquer de freinage d'urgence.",
+        "Dans le domaine ETCS, vous devez recevoir une instruction IE2 (comme pour un Train Trip) ; en dehors du domaine ETCS, vous pouvez lever le FU dès que la vitesse descend sous 30 km/h.",
+        "Le message « Dysfonctionnement au sol » provoque toujours un freinage d'urgence et un passage en mode Train Trip.",
+        "En cas de FU sans Train Trip avec message « Survitesse », le freinage d'urgence reste irréversible jusqu'à l'arrêt complet.",
+        "En dehors du domaine ETCS, un « Défaut informations balises » impose d'attendre une IE1 du SGC avant de repartir.",
+        "Lorsque le DMI affiche « Défaut calculateur ETCS » ou « Défaut tachymétrie », il faut ignorer le message s'il n'y a pas de Train Trip."
+      ],
+      "explanation": "F30.22 et F30.24 (08/06/2025) distinguent : (1) FU sans Train Trip pour « Survitesse » = rémissible dès retour sous la vitesse autorisée ; (2) « Défaut informations balises » / « Défaut équipement sol » (avec FU) / « Erreur de lecture de balise » = anomalie sol (F30.24) -> dans domaine ETCS : FU levé à l'arrêt, EOA ramené en tête (« MA raccourcie » / « Allocation en SR raccourcie »), remettre EM en marche, aviser SGC -> IE1 obligatoire si EOA maintenu en tête (ou STM France sur demande verbale SGC + arrêt accidentel) ; (3) hors domaine ETCS : des eurobalises existent malgré tout -> FU irréversible jusqu'à l'arrêt -> remettre EM en marche, aviser SGC, repartir en arrêt accidentel en signalisation sol.",
+      "sources": [
+        "F30.22 — Mise en action du freinage d'urgence sans Train Trip, p. 1-2/2 (© Lineas, June 14, 2020 Brussels)",
+        "F30.24 — Anomalie sol du système ETCS, p. 1-2/2 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q17",
+      "type": "qcm",
+      "theme": "Anomalies systèmes bord",
+      "subtheme": "FU + clignotement voyant « FC » du KVB ou du DAAT (F31.01 / F31.02)",
+      "difficulty": "moyen",
+      "prompt": "À la sortie d'une gare donnant accès à une ligne à voie unique (ou voie banalisée) dépourvue de signal de sortie, votre engin moteur subit un freinage d'urgence accompagné du clignotement du voyant « BP-FC » (KVB ou DAAT). Vous n'avez pas encore agi. Quelles actions exactes imposent les fiches F31.01 et F31.02 ?",
+      "correctAnswer": "S'arrêter d'urgence (et baisser d'urgence les pantographes si EM électrique), protéger le train comme un obstacle vis-à-vis des circulations de sens contraire (et voies convergentes), appliquer le Mémento, aviser au plus vite l'AC de la gare ou d'une gare encadrante, appuyer sur BP-FC (et réarmer la RS si DAAT), remettre l'EM en état de marche, recevoir directement l'AuM (manuelle, écrit ou dépêche) et repartir en respectant la règle de l'arrêt accidentel.",
+      "distractors": [
+        "Appuyer immédiatement sur BP-FC dès l'arrêt, remettre l'EM en état de marche et repartir en marche normale puisque la gare ne comporte pas de signal de sortie.",
+        "S'arrêter d'urgence, appuyer sur BP-FC puis recevoir obligatoirement un ordre écrit CBA (bien qu'il n'y ait pas de signal de sortie).",
+        "Sur une ligne à double voie, si le FU + clignotement BP-FC survient en dehors de tout signal, vous devez protéger les voies contiguës et recevoir un ordre C.",
+        "Lors d'une manœuvre sur ligne équipée DAAT, un FU + clignotement BP-FC hors de tout signal dispense d'aviser l'Agent-circulation et d'assurer la protection contre le sens contraire.",
+        "Sur une ligne équipée KVB, un FU + clignotement BP-FC au franchissement d'un signal vu ouvert peut être ignoré si vous avez vu le feu vert avant le franchissement.",
+        "Sur une ligne équipée DAAT, il faut baisser les pantographes même sur engin moteur thermique et attendre 15 minutes avant de contacter l'AC."
+      ],
+      "explanation": "F31.01 (KVB) et F31.02 (DAAT) convergent : FU + clignotement BP-FC = présumer franchissement intempestif / danger imminent -> arrêt d'urgence (+ baisse pantos si électrique), protection d'obstacle contre sens contraire (en VU/VB) ou point protégé (DV), avis au plus vite AC/gare encadrante (ou Régulateur en DV), Mémento. Si gare sans signal de sortie -> BP-FC (+ réarmer RS en DAAT), remettre EM en marche, recevoir directement l'AuM (manuelle, écrit ou dépêche), et repartir selon l'arrêt accidentel (si signal de sortie présent -> considérer fermé + autorisation de franchissement ; en manœuvre DAAT -> protection + avis AC + ordre du chef de manœuvre + autorisation franchissement si en tête au voisinage d'un signal ; en DV hors tout signal KVB -> Mémento + GD + avis AC/Régulateur).",
+      "sources": [
+        "F31.01 — Mise en action du freinage d'urgence et clignotement du voyant \"FC\" du KVB, p. 1-2/2 (© Lineas, Decmber 15, 2019 Brussels)",
+        "F31.02 — Mise en action du freinage d'urgence et clignotement du voyant \"FC\" sur ligne équipée DAAT, p. 1-2/2 (© Lineas, December 15, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q18",
+      "type": "qcm",
+      "theme": "Anomalies systèmes bord",
+      "subtheme": "Anomalies du KVB — Seuils 4 500 m / 80 km / 10 s et signalement KVB/DAAT (F31.03 / F31.04)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du tableau des anomalies KVB ci-dessous (F31.03 / F31.04), vous constatez successivement : (A) le maintien anormal de l'indication « L » après avoir parcouru 5 000 m au-delà du tableau blanc de fin d'une LTV, et (B) sur un autre train, l'allumage PERMANENT du voyant « PANNE ENGIN » du KVB. Quelles conduites exactes devez-vous appliquer dans ces deux cas, et quel formulaire interne utilisez-vous si vous devez isoler le KVB ?",
+      "referenceTable": {
+        "title": "Seuils et conduites face aux anomalies KVB (F31.03, p. 1-3/3 & F31.04, p. 1/1)",
+        "openByDefault": true,
+        "headers": [
+          "Anomalie KVB constatée",
+          "Conduite et seuils réglementaires"
+        ],
+        "rows": [
+          [
+            "« 00 » ou « 000 » inopiné",
+            "MàV aussitôt que possible jusqu'au signal d'entrée du canton suivant (≤ 10 km/h si « 000 ») + signaler au SGC"
+          ],
+          [
+            "« L » inopiné ou maintien anormal de « L » après tableau blanc / TBFVN",
+            "MàV (si inopiné) ou maintien taux LTV (si maintien après LTV) ; si non éteint après 4 500 m -> s'arrêter AU PLUS TARD 80 km après constatation -> Mémento + GD"
+          ],
+          [
+            "Voyant « PANNE SOL » clignotant",
+            "Signaler au SGC + Mémento au 1er arrêt normal/accidentel (pas d'annotation CB pour dérangement sol)"
+          ],
+          [
+            "Voyant « PANNE ENGIN » fugitif (< 10 s)",
+            "Poursuivre la marche + Mémento au 1er arrêt + annoter CB"
+          ],
+          [
+            "Voyant « PANNE ENGIN » permanent",
+            "Poursuivre la marche, NE PLUS TENIR COMPTE des visualisateurs, convenir avec le Régulateur d'un arrêt AU PLUS TARD à 80 km -> Mémento + GD + CB + avis SO"
+          ]
+        ],
+        "note": "Signalement (F31.04, 08/06/2025) : immédiat pour le DAAT ; formulaire L1 au SO ; annotation CB (sauf dérangement sol) avec code erreur éventuel."
+      },
+      "correctAnswer": "Dans les deux cas (A) (maintien « L » au-delà de 4 500 m) et (B) (« PANNE ENGIN » permanent), vous devez vous arrêter AU PLUS TARD 80 km après avoir constaté l'anomalie (en (B) d'entente avec le Régulateur et sans plus tenir compte des visualisateurs), puis appliquer Mémento et Guide de Dépannage ; en cas d'isolement/dérangement, aviser le Service Opérationnel avec le formulaire L1.",
+      "distractors": [
+        "Dans les deux cas (A) et (B), vous devez provoquer immédiatement un arrêt d'urgence en pleine voie ; le signalement au Service Opérationnel se fait par BC59 (ANSI).",
+        "En (A), vous pouvez reprendre votre vitesse normale dès que vous avez dépassé 4 500 m après le tableau blanc ; en (B), l'arrêt doit avoir lieu au plus tard à 40 km.",
+        "En (A), l'arrêt doit avoir lieu au plus tard à 20 km ; en (B), tant que le voyant « PANNE ENGIN » est allumé, vous devez continuer à obéir aux indications des visualisateurs.",
+        "Un allumage fugitif du voyant « PANNE ENGIN » (moins de 10 secondes) impose un arrêt au plus tard à 80 km et l'isolement du KVB.",
+        "En cas de clignotement du voyant « PANNE SOL », vous devez obligatoirement annoter le carnet de bord de l'engin moteur.",
+        "En cas de dérangement du DAAT, le conducteur attend systématiquement la gare terminus pour le signaler au SGC."
+      ],
+      "explanation": "Les seuils de F31.03 sont précis : 4 500 m pour le maintien anormal de « L » (inopiné ou après TB/TBFVN), 10 secondes pour distinguer « PANNE ENGIN » fugitif vs permanent, et 80 km maximum avant arrêt + Mémento + GD (pour « L » > 4 500 m, « PANNE ENGIN » permanent, ou autre anomalie sans arrêt). Sur « PANNE ENGIN » permanent, on ne tient plus compte des visualisateurs et on convient de l'arrêt (≤ 80 km) avec le Régulateur. F31.04 (08/06/2025) impose le signalement immédiat sur place pour le DAAT, le formulaire L1 au SO, et le CB (avec code erreur) sauf pour un dérangement sol.",
+      "sources": [
+        "F31.03 — Anomalies du KVB, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)",
+        "F31.04 — Signalement des anomalies du KVB ou du DAAT, p. 1/1 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q19",
+      "type": "qcm_multi",
+      "theme": "Anomalies systèmes bord",
+      "subtheme": "Anomalies de la Répétition des Signaux (F32.01 / F32.02) et non-fonctionnement de plusieurs systèmes (F33.01)",
+      "difficulty": "difficile",
+      "prompt": "Concernant les anomalies de la Répétition des Signaux (RS) et la circulation avec plusieurs dispositifs de sécurité isolés ou en dérangement (fiches F32.01, F32.02 et F33.01), quelles affirmations sont exactes ?",
+      "correctAnswers": [
+        "En cas d'anomalie isolée où LS-SF clignote au franchissement d'un signal vu ouvert, en l'absence de tout signal ou au franchissement d'un signal pris à revers (hors contre-sens VUT ou contre-voie), le conducteur s'arrête d'urgence, avise l'AC (protection sens contraire + autorisation franchissement/AuM si sortie gare VU/VB) et repart dans les autres cas en MàV sur au moins la DCO puis selon l'arrêt accidentel.",
+        "L'absence de « bip » sonore au franchissement d'un signal répété fermé ou l'absence de « ding » au signal ouvert ne constitue PAS une anomalie isolée de la RS (simple annotation au carnet de bord) ; après une 2e anomalie de même nature, l'appareillage RS de l'EM est considéré en dérangement pour cette indication (ne plus tenir compte des nouvelles anomalies de même nature, continuer d'acquitter normalement sauf si RS isolée par GD).",
+        "En ETCS1, si l'indication « signal fermé » / clignotement LS-SF est reçue au franchissement du signal ouvert associé au PLD, le conducteur s'arrête d'urgence, avise l'AC et repart en MàV sur au moins la DCO ; enfin (F33.01), si le KVB ET le DAAT sont isolés (avec RS en service), il n'y a aucune conséquence particulière sur la circulation (et si RS isolée par GD, ne plus acquitter)."
+      ],
+      "distractors": [
+        "L'indication « signal fermé » au franchissement d'un signal pris à revers à contre-sens sur une VUT ou à contre-voie constitue une anomalie isolée imposant un arrêt d'urgence immédiat.",
+        "Lorsqu'il n'y a pas de répétition « signal fermé » au franchissement d'un signal normalement répété fermé, le conducteur ne doit surtout pas appuyer sur BP/SF.",
+        "Si la répétition des signaux a été isolée en application du Guide de Dépannage, le conducteur doit tout de même continuer à acquitter sur BP/SF devant chaque signal fermé.",
+        "Si le KVB et le DAAT sont tous deux isolés simultanément, la fiche F33.01 impose de limiter la vitesse du train à 80 km/h."
+      ],
+      "displayCount": 5,
+      "explanation": "F32.01 (12/06/2022) : pas d'anomalie si signal pris à revers sur VUT/contre-voie ou ordre de ne pas en tenir compte (acquitter seulement) ; LS-SF clignotant intempestivement (1re anomalie) -> arrêt d'urgence, protection si sortie VU/VB, avis AC ; reprise = autorisation/AuM si sortie VU/VB, sinon MàV sur ≥ DCO + arrêt accidentel (idem au signal ouvert associé au PLD en ETCS1). Absence de bip/ding ≠ anomalie isolée (CB uniquement). Absence de SF sur signal fermé -> appuyer sur BP/SF. 2e anomalie même nature -> dérangement EM pour cette indication (Mémento + GD + CB + L1 selon F32.02 du 08/06/2025). F33.01 (08/06/2025) : si RS isolée par GD (seule ou avec KVB/DAAT) -> ne plus acquitter ; si KVB + DAAT isolés -> aucune conséquence sur la circulation.",
+      "sources": [
+        "F32.01 — Anomalie de la Répétition des Signaux (RS), p. 1-4/4 (© Lineas, June 12, 2022 Brussels)",
+        "F32.02 — Signalement des anomalies de la Répétition des Signaux (RS), p. 1/1 (© Lineas, June 08, 2025 Lille)",
+        "F33.01 — Non fonctionnement de plusieurs systèmes de sécurité, p. 1/1 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q20",
+      "type": "qcm",
+      "theme": "Incidents exploitation & caténaire",
+      "subtheme": "Dérangement SLD (F40.01) et absence exceptionnelle de l'agent chargé de l'AuM (F40.02)",
+      "difficulty": "facile",
+      "prompt": "Dans une gare où l'agent du SGC chargé de transmettre l'Autorisation de Mouvement (AuM) est exceptionnellement absent, vous n'avez reçu aucun ordre écrit d'une gare précédente. Par ailleurs, dans une autre gare, le Signal Lumineux d'AuM (SLD) est en dérangement. Quelle conduite prescrivent les fiches F40.01 et F40.02 ?",
+      "correctAnswer": "En cas d'absence exceptionnelle de l'agent SGC sans ordre écrit préalable : appliquer le Mémento, aviser l'agent SGC d'une des gares encadrantes ou le Régulateur, recevoir une dépêche (« AC/Régulateur de ... à conducteur du train n° ..., suite à l'absence d'AC, la gare de ... est à considérer comme établissement PL ») et s'y conformer ; en cas de dérangement du SLD : être avisé par un agent SGC du moyen de substitution (signal à main, écrit, téléphone ou radio).",
+      "distractors": [
+        "En cas d'absence exceptionnelle de l'agent SGC, le conducteur considère d'office la gare comme un établissement PL et part de lui-même sans contacter le Régulateur.",
+        "En cas d'absence de l'agent SGC, le conducteur demande à l'OFS de la gare de lui délivrer un ordre CBA de sa propre initiative.",
+        "En cas de dérangement du SLD, le conducteur peut partir de lui-même dès que l'heure de départ est atteinte sans être avisé d'un moyen de substitution.",
+        "Lors de l'absence exceptionnelle d'un agent SGC, l'ordre ne peut être transmis que par remise en main propre et jamais par dépêche d'une gare encadrante.",
+        "En cas de dérangement du SLD, le seul moyen de substitution autorisé est le signal à main d'AuM (la radio et le téléphone étant interdits).",
+        "En cas d'absence d'agent SGC, le train doit obligatoirement être déclaré en détresse via BC57 (DSEC)."
+      ],
+      "explanation": "F40.01 : si SLD en dérangement ou besoin service, l'agent SGC avise le conducteur du moyen de substitution (signal à main, écrit, téléphone ou radio). F40.02 : en cas d'absence exceptionnelle de l'agent SGC chargé de l'AuM -> si ordre écrit de gare précédente, s'y conformer ; sinon aviser l'agent SGC d'une gare encadrante ou le Régulateur pour recevoir la dépêche « AC (ou Régulateur) de ... à conducteur du train n° ..., suite à l'absence d'AC, la gare de ... est à considérer comme établissement PL ».",
+      "sources": [
+        "F40.01 — Dérangement d'un signal lumineux d'Autorisation de Mouvement, p. 1/1 (© Lineas, December 15, 2019 Brussels)",
+        "F40.02 — Absence exceptionnelle de l'agent chargé de donner l'Autorisation de Mouvement, p. 1/1 (© Lineas, December 13, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q21",
+      "type": "qcm",
+      "theme": "Incidents exploitation & caténaire",
+      "subtheme": "Arrêt sous zone « Baissez panto » / « Coupez courant » (F41.01) et baisse de tension en ligne (F41.03)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau F41.03 ci-dessous, vous conduisez un EM électrique sur une ligne alimentée en 25 000 V et la tension chute à 17 500 V (situation A) ; par ailleurs, lors d'une autre mission, votre EM s'arrête accidentellement sous une zone « Baissez panto » ou « Coupez courant » (situation B). Quelles mesures exactes prescrivent les fiches F41.03 et F41.01 ?",
+      "referenceTable": {
+        "title": "Seuils de baisse de tension en ligne (F41.03, p. 1/1)",
+        "openByDefault": true,
+        "headers": [
+          "Type d'alimentation",
+          "Zone de limitation d'effort",
+          "Seuil de suppression de traction"
+        ],
+        "rows": [
+          [
+            "1 500 V continu (sauf valeur différente aux RT/LiLi)",
+            "Entre 1 200 V et 1 100 V : limiter l'effort pour rester ≥ 1 100 V",
+            "< 1 100 V : supprimer l'effort, marcher sur l'erre, solliciter RSS via SGC si persistant"
+          ],
+          [
+            "25 000 V alternatif",
+            "Entre 19 000 V et 18 000 V : limiter l'effort (intensité) pour rester ≥ 18 000 V",
+            "< 18 000 V : supprimer l'effort, marcher sur l'erre, solliciter RSS via SGC si persistant"
+          ]
+        ],
+        "note": "Arrêt sous zone « Baissez panto » / « Coupez courant » (F41.01) : seul le RSS autorise la remise en marche ; interdiction d'effectuer tout mouvement, même de faible amplitude, en sens inverse."
+      },
+      "correctAnswer": "En (A) (17 500 V < 18 000 V) : supprimer l'effort de traction, poursuivre sur l'erre jusqu'au retour > 18 000 V (ou solliciter le RSS via SGC si la tension reste < 18 000 V) ; en (B) (arrêt sous zone Baissez panto / Coupez courant) : appliquer le Mémento, contacter le RSS (seul habilité à autoriser la remise en marche, sinon demande de secours si réalimentation impossible), et n'effectuer AUCUN mouvement même de faible amplitude en sens inverse.",
+      "distractors": [
+        "En (A), limiter simplement l'effort de traction jusqu'à 16 000 V ; en (B), vous pouvez reculer de quelques mètres en sens inverse pour dégager la zone neutre avant de relever le pantographe.",
+        "En (A), provoquer un arrêt d'urgence immédiat sous 18 000 V ; en (B), seul l'Agent-circulation autorise la remise en marche sans passer par le RSS.",
+        "En (A), les seuils de suppression de traction sont 1 200 V en continu et 19 000 V en 25 000 V ; en (B), reprise en marche normale dès réalimentation.",
+        "En (A), baisser immédiatement le pantographe dès que la tension passe sous 19 000 V ; en (B), un recul jusqu'à 5 mètres est autorisé.",
+        "En (A), poursuivre en traction réduite jusqu'à 15 000 V en 25 000 V et 1 000 V en 1 500 V ; en (B), demander directement le secours sans contacter le RSS.",
+        "En (B), si la réalimentation en secours par le RSS est possible, vous repartez en marche normale sans appliquer la règle de l'arrêt accidentel."
+      ],
+      "explanation": "F41.03 fixe les seuils exacts : 1 500 V continu -> limitation entre 1 200 V et 1 100 V, suppression d'effort et marche sur l'erre sous 1 100 V ; 25 000 V alternatif -> limitation entre 19 000 V et 18 000 V, suppression d'effort et marche sur l'erre sous 18 000 V (solliciter RSS via SGC si persistant + Mémento à la 1re occasion). F41.01 : arrêt sous zone Baissez panto / Coupez courant -> seul le RSS autorise la remise en marche (reprise en arrêt accidentel si réalimentation possible, sinon secours F45.01) et INTERDICTION d'effectuer tout mouvement même de faible amplitude en sens inverse.",
+      "sources": [
+        "F41.01 — Arrêt sous une zone \"Baissez panto\" ou \"Coupez courant\", p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "F41.03 — Baisse de la tension en ligne, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q22",
+      "type": "qcm",
+      "theme": "Incidents exploitation & caténaire",
+      "subtheme": "Absence de tension d'alimentation de la caténaire (F41.02)",
+      "difficulty": "moyen",
+      "prompt": "Vous conduisez un train électrique en marche normale (hors marche restrictive) lorsque vous constatez une mise hors tension de la caténaire sans aucune anomalie apparente. Quelle conduite exacte impose la fiche F41.02 selon que vous circulez sur une ligne ordinaire, sur une ligne à fortes pentes, ou en marche restrictive (MàV / manœuvre / marche prudente) ?",
+      "correctAnswer": "Sur ligne ordinaire : marcher sur l'erre en surveillant voie/caténaire/train et s'arrêter d'urgence si la tension n'est pas rétablie au bout de 20 secondes ; sur ligne à fortes pentes (en pente) : freiner sans délai (un carré de protection C se fermant ~45 s après la mise hors tension) ; en marche restrictive : s'arrêter d'urgence immédiatement et solliciter des instructions si la tension n'est pas rétablie.",
+      "distractors": [
+        "Sur ligne ordinaire : marcher sur l'erre jusqu'à 60 secondes avant de freiner ; sur ligne à fortes pentes : marcher sur l'erre 20 secondes ; en marche restrictive : marcher sur l'erre jusqu'à l'arrêt naturel.",
+        "Dans tous les cas (ligne ordinaire, fortes pentes et marche restrictive), s'arrêter d'urgence immédiatement sans jamais marcher sur l'erre.",
+        "Sur ligne ordinaire : abaisser d'urgence les pantographes dès la perte de tension ; le délai de ré-enclenchement automatique est de 45 secondes.",
+        "Si la tension revient pendant le freinage d'urgence (hors anomalie), maintenir quand même l'arrêt complet jusqu'à l'accord du RSS.",
+        "Après un arrêt pour mise hors tension, s'il est impossible de joindre le RSS, rester en cabine pantographes levés sans visiter le train.",
+        "Si la mise hors tension survient en même temps qu'une dépression inopinée à la CFA/CG, le conducteur peut néanmoins marcher sur l'erre pendant 20 secondes."
+      ],
+      "explanation": "F41.02 précise : ré-enclenchement automatique des sous-stations = 10 à 20 s -> marche sur l'erre autorisée 20 s sur ligne ordinaire (si tension non rétablie à 20 s -> arrêt d'urgence ; si rétablie pendant l'erre ou le freinage sans anomalie -> reprendre/poursuivre et signaler au SGC). Sur ligne à fortes pentes en pente -> freiner sans délai (carré de protection C se ferme ~45 s après mise hors tension). En marche restrictive (MàV, manœuvre, marche prudente) -> arrêt d'urgence immédiat ! À l'arrêt : vérifier le pantographe depuis le sol ; si RSS affirme que la caténaire est sous tension -> GD ; si impossible de joindre le RSS -> abaisser pantos, immobiliser, visiter jusqu'à la queue (sans BCC obligatoire).",
+      "sources": [
+        "F41.02 — Absence de tension d'alimentation de la caténaire, p. 1-4/4 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q23",
+      "type": "open",
+      "theme": "Incidents exploitation & caténaire",
+      "subtheme": "Avarie à la caténaire ou choc à la toiture — Procédure complète selon le cantonnement (F41.04)",
+      "difficulty": "difficile",
+      "prompt": "En ligne électrifiée (en Block Automatique sans compteur d'essieux), vous ressentez un choc violent au niveau de la toiture et présumez une avarie à la caténaire sur votre voie. Aucun geste n'a encore été effectué. Selon la fiche F41.04 (révision du 14 juin 2026), détaillez : (1) les mesures réflexes et vérifications depuis le sol, (2) les mesures de protection de la voie avariée si l'agent du SGC ne peut vous donner l'assurance que la protection est assurée (en BA sans compteur d'essieux vs BA avec compteur d'essieux vs BM), et (3) la conduite à tenir si un agent du SGC vous avise d'une anomalie caténaire sur la voie que vous venez de parcourir et qu'aucun pantographe ne paraît avarié à l'examen depuis le sol.",
+      "modelAnswer": "1. Mesures immédiates et examens depuis le sol :\n   - Provoquer d'urgence l'abaissement du/des pantographe(s) et l'arrêt d'urgence ;\n   - S'assurer qu'aucune voie voisine n'est engagée (sinon appliquer F44.01 — protection d'obstacle) ;\n   - Ordonner la coupure d'urgence s'il y a un risque pour les personnes ou le matériel ;\n   - Aviser le Régulateur Sous-Station (nature exacte et emplacement) et un agent du SGC, appliquer le Mémento ;\n   - Examiner depuis le sol le(s) pantographe(s) et l'absence de corps étranger sur la toiture (si avarie panto constatée/présumée -> F50.03) ;\n   - Visiter le lieu présumé de l'avarie à la caténaire.\n2. Protection de la voie avariée si le SGC ne donne PAS l'assurance que la protection est assurée :\n   - En BA SANS compteur d'essieux : poser une Barre de Court-Circuit (BCC) sur cette voie dans le canton de block où la défectuosité est décelée, repérer le point dangereux par un SAM si la défectuosité n'est pas visible, annoter le CB (utilisation BCC), reprendre si rien ne s'y oppose et aviser le SGC (GSM-R, ou après arrêt au 1er tél/dématérialisée, ou à la 1re gare/poste en s'arrêtant au signal d'entrée même ouvert, ou avant la 1re sortie contre-sens sur ICS) ;\n   - En BA AVEC compteur d'essieux : protéger le point dangereux comme un obstacle (car la BCC ne fonctionne pas sur compteur d'essieux !), annoter le CB si besoin, puis aviser le SGC (mêmes modalités + arrêt aiguille d'entrée sur VB sans signal d'entrée) ;\n   - En BM : reprendre en arrêt accidentel et aviser le Garde du 1er poste de cantonnement ouvert en s'arrêtant au signal d'entrée même ouvert (ou aiguille en VU ; ou au plus tard avant de regagner la voie normale si contre-sens VUT / contre-voie).\n3. Si avisé par le SGC d'une anomalie caténaire sur la voie parcourue et aucun pantographe avarié à l'examen au sol :\n   - Provoquer l'arrêt d'urgence, Mémento, examen au sol ;\n   - S'assurer visuellement que le(s) pantographe(s) utilisé(s) montent et descendent correctement ;\n   - Reprendre en respectant la règle de l'arrêt accidentel, s'entendre avec le Régulateur pour rejoindre le 1er point de remplacement ou visite de l'EM, appliquer les restrictions pantos, et aviser le Service Opérationnel de la nécessité de faire visiter la toiture par la maintenance à l'arrivée.",
+      "keyPoints": [
+        {
+          "label": "Baisse d'urgence pantos + arrêt d'urgence + vérifier voies voisines (F44.01 si doute) + coupure d'urgence si risque personnes/matériel + avis RSS & SGC + examen au sol pantos/toiture + visite lieu présumé",
+          "critical": true
+        },
+        {
+          "label": "Sans assurance protection SGC en BA sans compteur d'essieux : poser une BCC dans le canton (+ SAM si défectuosité non visible), annoter le CB, puis aviser le SGC (arrêt signal d'entrée même ouvert si sans radio)",
+          "critical": true
+        },
+        {
+          "label": "Sans assurance protection SGC en BA avec compteur d'essieux : protéger comme un obstacle (pas de BCC) ; en BM : reprendre en arrêt accidentel et aviser le Garde du 1er poste ouvert (arrêt signal d'entrée même ouvert)",
+          "critical": true
+        },
+        {
+          "label": "Si avisé par SGC d'une anomalie caténaire sur la voie parcourue et panto intact au sol : vérifier montée/descente visuelle, reprendre en arrêt accidentel, convenir avec Régulateur du 1er point de remplacement/visite, aviser SO pour visite toiture maintenance à l'arrivée",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F41.04 (révision la plus récente du lot : 14/06/2026) intègre parfaitement la distinction BA sans compteur d'essieux (pose de BCC dans le canton + SAM si non visible) vs BA avec compteur d'essieux (protection d'obstacle) vs BM, ainsi que le protocole complet en cas d'avis SGC après coup.",
+      "sources": [
+        "F41.04 — Avarie à la caténaire - Choc à la toiture, p. 1-6/6 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot11-q24",
+      "type": "qcm_multi",
+      "theme": "Conditions climatiques",
+      "subtheme": "Chutes de neige / voies enneigées — Règles HLP, mise en tête et trains remorqués (F42.01)",
+      "difficulty": "difficile",
+      "prompt": "Vous circulez sur une voie enneigée ou lors de chutes de neige poudreuse (fiche F42.01, version du 11 décembre 2022). Quelles prescriptions chiffrées exactes sont conformes à la réglementation ?",
+      "correctAnswers": [
+        "En HLP avant mise en mouvement ou après dételage : serrer le frein direct (ou FA en UM) et effectuer un essai de traction pour vérifier le « non déplacement » ; s'il y a mise en mouvement, circuler avec prudence en maintenant 1 bar aux CF jusqu'au retour à la normale, puis provoquer régulièrement des montées de pression aux CF d'environ 2 bars pendant quelques secondes.",
+        "Lors d'une mise en tête sur voie enneigée : s'arrêter à une vingtaine de mètres des véhicules à accoster, serrer le frein direct à environ 1 bar et procéder à l'accostage en faisant varier l'effort de traction.",
+        "Avec un train remorqué sur voie enneigée : anticiper les freinages, accentuer la dépression à au moins 1,5 bar après chaque arrêt ; si VL ≤ 100 km/h, dépression CG/CFA d'au moins 1,5 bar à chaque freinage ; si VL > 100 km/h, dépressions CG/CFA tous les 30 km (tous les 20 km si les circonstances l'exigent)."
+      ],
+      "distractors": [
+        "Lors d'une mise en tête sur voie enneigée, l'arrêt de sécurité reste à 10 mètres et il est interdit d'utiliser le frein direct pendant l'accostage.",
+        "Avec un train dont la vitesse limite est ≤ 100 km/h sur voie enneigée, il faut limiter la dépression à 0,5 bar maximum pour éviter de faire chauffer les disques.",
+        "En HLP sur voie enneigée, si l'essai de traction confirme le « non déplacement », il n'est plus nécessaire de provoquer de montées de pression périodiques aux cylindres de frein en ligne.",
+        "Lorsque le conducteur constate une amélioration météo (diminution de l'enneigement / fin de projections), il n'a pas à en aviser le SGC."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche F42.01 (11/12/2022) fixe des gestes métier très précis contre la formation de glace sur disques et semelles : essai de traction frein serré en HLP (1 bar CF si déplacement, puis montées périodiques ~2 bars quelques secondes) ; mise en tête -> arrêt à ~20 m, FD à ~1 bar et accostage en modulant la traction ; train remorqué -> ≥ 1,5 bar après chaque arrêt, ≥ 1,5 bar à chaque freinage si VL ≤ 100 km/h, dépressions tous les 30 km (ou 20 km) si VL > 100 km/h ; signalement au SGC des projections de neige ET des améliorations.",
+      "sources": [
+        "F42.01 — Chutes de neige - Voies enneigées, p. 1-3/3 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q25",
+      "type": "qcm",
+      "theme": "Conditions climatiques",
+      "subtheme": "Mauvais captage par forte chaleur/vent (F42.02) et en cas de givre — 25 000 V vs 1 500 V (F42.03)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du tableau F42.02 / F42.03 ci-dessous, vous conduisez une machine POLYCOURANT en unité simple sous 25 000 V lorsque le givre sur la caténaire provoque des amorçages persistants et des disjonctions fréquentes malgré la réduction de l'effort de traction. Quelle intensité maximale visez-vous, quelle vitesse limite et quelle mesure pantographe devez-vous appliquer sous 25 000 V, et en quoi cela diffère-t-il en UM/DT sous 25 000 V ?",
+      "referenceTable": {
+        "title": "Mauvais captage par givre (F42.03) et par forte chaleur / vent violent sous 1 500 V (F42.02)",
+        "openByDefault": true,
+        "headers": [
+          "Situation",
+          "Intensité / effort",
+          "Pantographes et vitesse limite"
+        ],
+        "rows": [
+          [
+            "Givre sous 25 000 V (US)",
+            "Réduire effort < 150 A",
+            "Si disjonctions fréquentes : lever le 2e panto en appoint et limiter à 100 km/h (monocourant) ou 60 km/h (polycourant)"
+          ],
+          [
+            "Givre sous 25 000 V (UM / DT)",
+            "Réduire effort < 150 A",
+            "Utilisation simultanée de 2 pantos sur un ou les deux EM INTERDITE"
+          ],
+          [
+            "Givre sous 1 500 V (ou tableau GIVRE allumé)",
+            "Réduire effort < 2 000 A",
+            "BB 27000 / BB 37000 : lever le 2e panto (en US, ou sur l'EM de tête en UM) ; abaisser à fin de zone / GIVRE éteint"
+          ],
+          [
+            "Forte chaleur / vent violent sous 1 500 V (F42.02)",
+            "Réduire effort et vitesse jusqu'à captage satisfaisant",
+            "Tester périodiquement tous les 10 km environ ; demander visite toiture maintenance à l'arrivée"
+          ]
+        ],
+        "note": "En 25 000 V, signaler très rapidement tout phénomène de « balancement » de la caténaire (givre + vent transversal). À l'arrivée/relais : examen visuel des pantos depuis le sol."
+      },
+      "correctAnswer": "Réduire l'effort de traction en dessous de 150 A ; en cas de disjonctions fréquentes en US sur machine polycourant, limiter la vitesse à 60 km/h (contre 100 km/h sur monocourant) et lever en appoint le 2e pantographe ; en UM ou DT sous 25 000 V, l'utilisation simultanée de 2 pantographes sur un ou les deux EM est strictement interdite.",
+      "distractors": [
+        "Réduire l'effort en dessous de 2 000 A, limiter la vitesse à 100 km/h (quelle que soit la série) et lever le 2e pantographe y compris en UM sous 25 000 V.",
+        "Réduire l'effort en dessous de 150 A, limiter à 80 km/h sur machine polycourant et abaisser le 1er pantographe pour ne garder que le pantographe de secours.",
+        "Sous 1 500 V avec une UM de BB 27000/37000 en cas de givre, il est interdit de lever le 2e pantographe sur l'EM de tête.",
+        "En cas de mauvais captage par forte chaleur sous 1 500 V (F42.02), il faut tester la reprise de vitesse tous les 30 km environ et ne pas demander de visite toiture à l'arrivée.",
+        "Dans une zone signalée givrée où vous constatez l'absence totale de givre, il est inutile d'en aviser le SGC.",
+        "Sous 25 000 V, en cas de givre, la vitesse est limitée à 60 km/h pour les machines monocourant et à 100 km/h pour les machines polycourant."
+      ],
+      "explanation": "F42.03 oppose clairement 25 000 V (< 150 A ; disjonctions fréquentes en US -> lever 2e panto + VL 100 km/h monocourant / 60 km/h polycourant ; en UM/DT 2 pantos sur un EM INTERDIT) et 1 500 V (< 2 000 A ; BB 27000/37000 -> lever 2e panto en US ou sur l'EM de tête en UM ; abaisser dès fin de zone / tableau GIVRE éteint). Dans les deux tensions : signaler au SGC givre non avisé, absence de givre en zone signalée, tableau GIVRE indûment éteint et tout balancement 25 kV ; contrôle visuel des pantos au sol à l'arrivée/relais + demande visite maintenance si anomalie. F42.02 (forte chaleur / vent violent sous 1 500 V) : réduire effort/vitesse, tester tous les ~10 km, demander visite toiture maintenance à l'arrivée.",
+      "sources": [
+        "F42.02 — Mauvais captage du courant en période de forte chaleur ou par vent violent sous 1500 V, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "F42.03 — Mauvais captage de courant en cas de givre, rencontre d'un tableau \"GIVRE\" allumé, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot11-q26",
+      "type": "qcm_multi",
+      "theme": "Conditions climatiques",
+      "subtheme": "Périodes de fortes chaleurs / sécheresse — Feux de talus (F42.04) et aléas climatiques (F42.05)",
+      "difficulty": "moyen",
+      "prompt": "En période de fortes chaleurs/sécheresse ou d'aléas climatiques exceptionnels (vents violents), quelles prescriptions des fiches F42.04 et F42.05 sont exactes ?",
+      "correctAnswers": [
+        "En présence d'un feu de talus à proximité des voies : éviter tout arrêt non essentiel dans la zone concernée par l'incendie, éviter de lancer l'alarme radio si un train croiseur est en vue (à moins que l'incendie ne constitue un obstacle dans la voie voisine), et prévenir au plus vite le SGC (localisation précise, aux abords ou non, nature, fumées/flammes hautes).",
+        "En prévention des feux de talus (F42.04) : s'assurer de l'élimination complète de la surcharge avant freinage (hors urgence), attendre le desserrage complet avant reprise de traction, réaliser strictement les essais de roulage, contrôler visuellement son train et les autres trains en marche, vérifier le desserrage des freins de parking en mise en véhicule et ne jeter ni mégot ni bouteille en verre.",
+        "En cas d'aléas climatiques (F42.05) : les mesures à impact sécuritaire font l'objet d'ordres (OCAR...) ou de LTV, tandis que les mesures préventives non sécuritaires (ex. VL 100 km/h pour vent violent) sont communiquées par l'EF, par avis ARTIC/DEFIT ou confirmées verbalement par le SGC SANS remise d'ordre."
+      ],
+      "distractors": [
+        "Dès que vous apercevez un feu de talus de broussailles au bord de la voie, vous devez obligatoirement vous arrêter à sa hauteur et déclencher immédiatement le Signal d'Alerte Radio même si la voie voisine n'est pas menacée.",
+        "Une réduction de vitesse préventive non sécuritaire décidée par SNCF Réseau lors d'une alerte vent violent (F42.05) n'est applicable par le conducteur que s'il reçoit un ordre écrit OCAR.",
+        "Si un incendie aux abords des voies s'accompagne de fumées épaisses, le conducteur doit attendre la prochaine gare d'arrêt normal avant de le signaler au SGC.",
+        "Les feux de talus ne concernent que les locomotives diesel et ne peuvent jamais être provoqués par un blocage de frein sur un train remorqué par une locomotive électrique."
+      ],
+      "displayCount": 5,
+      "explanation": "F42.04 souligne l'intelligence situationnelle face aux feux de talus : ne pas bloquer son propre train ou un train croiseur en plein incendie (éviter tout arrêt non essentiel dans la zone, éviter de lancer le SAR si un croiseur est en vue sauf si l'incendie engage/menace la voie voisine), prévenir au plus vite le SGC avec 4 critères précis, et prévenir les étincelles de frein. F42.05 (12/12/2021) distingue les mesures sécuritaires (ordre OCAR / LTV) des mesures préventives non sécuritaires (EF / avis ARTIC-DEFIT / confirmation verbale SGC sans remise d'ordre) qui restent pleinement à respecter dans la zone et la période concernées.",
+      "sources": [
+        "F42.04 — Périodes de fortes chaleurs - Sécheresse, p. 1-3/3 (© Lineas, June 14, 2020 Brussels)",
+        "F42.05 — Mesures de prévention lors d'aléas climatiques, p. 1/1 (© Lineas, December 12, 2021 Brussels)"
+      ]
+    }
+  ]
+}
