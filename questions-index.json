@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T16:46:00Z",
+  "updatedAt": "2026-11-24T17:05:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -111,6 +111,44 @@
         "A19.05"
       ],
       "generatedAt": "2026-11-24T16:46:00Z"
+    },
+    {
+      "packId": "lot04-regimes-exploitation-lignes-particulieres",
+      "title": "Lot 4 — Régimes d'exploitation et lignes particulières (IPCS/ITCS, VUT, Contre-voie, VUTR, VUSS, Fortes pentes — A20 à A60)",
+      "file": "lot04-regimes-exploitation-lignes-particulieres.json",
+      "description": "Contre-sens (IPCS, ITCS, TECS/TSCS, VUT et ETCS1), Contre-voie, Voies Uniques à Trafic Restreint (VUTR), Voies Uniques à Signalisation Simplifiée (VUSS) et Lignes à fortes pentes (FAMAD, modérabilité, dents de scie).",
+      "questionCount": 22,
+      "breakdown": {
+        "qcm": 12,
+        "qcm_multi": 6,
+        "open": 4
+      },
+      "fiches": [
+        "A20.01",
+        "A21.01",
+        "A21.02",
+        "A21.03",
+        "A21.04",
+        "A21.05",
+        "A21.06",
+        "A23.01",
+        "A23.02",
+        "A23.03",
+        "A23.04",
+        "A23.05",
+        "A24.01",
+        "A24.02",
+        "A24.03",
+        "A24.04",
+        "A50.01",
+        "A50.02",
+        "A50.03",
+        "A51.01",
+        "A51.02",
+        "A60.01",
+        "A60.02"
+      ],
+      "generatedAt": "2026-11-24T17:05:00Z"
     }
   ]
 }
