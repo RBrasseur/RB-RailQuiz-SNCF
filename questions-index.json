@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T18:24:00Z",
+  "updatedAt": "2026-11-24T18:36:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -376,6 +376,54 @@
         "D60.02"
       ],
       "generatedAt": "2026-11-24T18:24:00Z"
+    },
+    {
+      "packId": "lot10-securite-personnel-comms-docs-habilitations-instructions",
+      "title": "Lot 10 — Sécurité du personnel, communications, documentation, habilitations et livret des instructions (E00 à E90)",
+      "file": "lot10-securite-personnel-comms-docs-habilitations-instructions.json",
+      "description": "Sécurité du personnel (principes, EPI/habillement, Zone Dangereuse, garages, DAELZD/DATZD/TVP, pistes/itinéraires/tunnel, calcul DMVC et distances véhicules arrêtés, interventions matériel et montée/descente), téléphonie ligne/SOPRANO NAT, mobiles/tablettes, GSM-GFU ARES, ODICEO-M, Livrets de Lignes (LiLi), dispositif ARTIC/RITA/Archives/Avis Urgents, documents horaires Houat/Bahamas, Carnet de bord / Manuel / Guide de dépannage (75000/27000/37000), équipement en personnel, aptitude, détournement (FCD/FDD), pilotage, accès cabine, risques électriques KH0V (zones 0–3, caténaire < 5 m, toiture/ACC, déraillement/court-circuit, coupure d'urgence, phyto, antenne KVB, visite en pleine voie) et Livret des Instructions (E90.01–E90.03 : communications, BC46–BC99, IE1–IE8, IN31–IN87, L1/L2).",
+      "questionCount": 30,
+      "breakdown": {
+        "qcm": 17,
+        "qcm_multi": 9,
+        "open": 4
+      },
+      "fiches": [
+        "E00.10",
+        "E00.11",
+        "E00.12",
+        "E00.13",
+        "E00.14",
+        "E00.15",
+        "E00.20",
+        "E00.21",
+        "E10.01",
+        "E10.02",
+        "E10.03",
+        "E10.04",
+        "E20.01",
+        "E20.02",
+        "E20.03",
+        "E21.01",
+        "E21.02",
+        "E21.03",
+        "E40.01",
+        "E40.02",
+        "E40.03",
+        "E40.04",
+        "E40.05",
+        "E60.01",
+        "E60.02",
+        "E60.03",
+        "E60.04",
+        "E60.05",
+        "E60.06",
+        "E60.10",
+        "E90.01",
+        "E90.02",
+        "E90.03"
+      ],
+      "generatedAt": "2026-11-24T18:36:00Z"
     }
   ]
 }

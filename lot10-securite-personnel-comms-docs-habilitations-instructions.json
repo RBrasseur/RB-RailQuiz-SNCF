@@ -1,0 +1,955 @@
+{
+  "packId": "lot10-securite-personnel-comms-docs-habilitations-instructions",
+  "title": "Lot 10 — Sécurité du personnel, communications, documentation, habilitations et livret des instructions (E00 à E90)",
+  "generatedAt": "2026-11-24T18:36:00Z",
+  "questions": [
+    {
+      "id": "lot10-q01",
+      "type": "qcm_multi",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Principes de prévention, risques, habillement et EPI (E00.10 / E00.11)",
+      "difficulty": "moyen",
+      "prompt": "Selon les fiches E00.10 et E00.11 (versions du 1er octobre 2024), quelles prescriptions concernant les risques professionnels, l'habillement et les Équipements de Protection Individuelle (EPI) sont exactes ?",
+      "correctAnswers": [
+        "Si l'accès aux parties hautes d'un véhicule (même sans risque électrique) est situé à une hauteur supérieure ou égale à 3 mètres, il est interdit en l'absence d'un dispositif de protection individuelle contre le risque de chute (harnais).",
+        "Sur les voies ou à leurs abords, il est interdit de se couvrir les oreilles (bonnet, capuche, bouchons d'oreilles, écouteurs...), de porter une capuche ou d'utiliser un parapluie, de porter des vêtements flottants (écharpe/foulard non maintenus), ou de tenter de rattraper sa coiffure enlevée par le souffle d'un train.",
+        "Le port d'un équipement de visualisation (gilet haute visibilité) est obligatoire sur le RFN et dans une ITE en dehors des zones normalement accessibles au public ; les EPI minimaux comprennent gilet de visualisation, gants, casque et chaussures de sécurité (tige haute, semelles anti-perforation et antidérapantes)."
+      ],
+      "distractors": [
+        "L'accès aux parties hautes d'un véhicule sans risque électrique est autorisé sans harnais jusqu'à une hauteur de 4 mètres.",
+        "En cas de forte pluie lors d'une visite de train le long des voies, l'utilisation d'un parapluie non métallique ou d'une capuche est autorisée.",
+        "Pour se rendre de son domicile à son lieu de prise de service, un opérateur muni de son gilet haute visibilité peut librement emprunter les emprises ferroviaires fermées au public afin de raccourcir le trajet.",
+        "Les bouchons d'oreilles doivent être portés en permanence lors de tous les déplacements le long des voies principales afin de se protéger du bruit des circulations."
+      ],
+      "displayCount": 5,
+      "explanation": "Les fiches E00.10 et E00.11 (01/10/2024) rappellent : trajet domicile-travail par les chemins publics ; accès parties hautes ≥ 3 m interdit sans harnais (hors risque électrique qui impose des règles supplémentaires) ; EPI minimaux = gilet de visualisation, gants, casque, chaussures de sécurité (tige haute, anti-perforation, antidérapantes) ; interdiction formelle de se couvrir les oreilles (sauf geste spécifique à l'arrêt ex. ouverture robinet VFF), de la capuche, du parapluie (visibilité, souffle, risque électrique), des vêtements flottants/bandoulières sans dégagement rapide, et de rattraper une coiffure emportée par le souffle.",
+      "sources": [
+        "E00.10 — Sécurité du personnel - Généralités, p. 1-3/3 (© Lineas, October 01, 2024 Lille)",
+        "E00.11 — Obligation concernant l'habillement, p. 1-3/3 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q02",
+      "type": "qcm",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Risque de heurt — Zone Dangereuse (ZD), emplacements de garage et dispositifs DAELZD/DATZD/TVP (E00.12)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau de Zone Dangereuse (ZD) ci-dessous (fiche E00.12), vous devez intervenir à proximité d'une voie en courbe autorisée aux transports exceptionnels dont la vitesse limite est de 40 km/h, et contiguë à une seconde voie de vitesse limite 160 km/h. Quelle distance « d » s'applique côté voie à 40 km/h, quelle largeur minimale possède un emplacement de garage normal (vs garage réduit), et quelle règle impose un DAELZD/DATZD dont le voyant/feu vert ne s'allume pas ?",
+      "referenceTable": {
+        "title": "Largeur de la Zone Dangereuse « d » de part et d'autre de la voie (E00.12, p. 1/9)",
+        "openByDefault": true,
+        "headers": [
+          "Vitesse maximale de la ligne",
+          "Distance « d »"
+        ],
+        "rows": [
+          [
+            "Vitesse ≤ 40 km/h",
+            "1,25 m (1)"
+          ],
+          [
+            "Vitesse > 40 km/h mais ≤ 160 km/h",
+            "1,50 m"
+          ],
+          [
+            "Vitesse > 160 km/h mais ≤ 300 km/h",
+            "2,00 m"
+          ],
+          [
+            "Vitesse > 300 km/h",
+            "2,30 m"
+          ]
+        ],
+        "note": "(1) Sauf courbes et voies autorisées à la circulation des transports exceptionnels où d = 1,50 m. Emplacement de garage normal : largeur min 0,70 m ; Garage réduit : jusqu'à 0,50 m."
+      },
+      "correctAnswer": "d = 1,50 m (note 1 : courbe et voie autorisée aux TE) ; largeur minimale de garage = 0,70 m (jusqu'à 0,50 m en « GARAGE RÉDUIT ») ; si le voyant/feu vert d'un DAELZD ou DATZD ne s'allume pas, attendre le passage d'une circulation, recommencer l'opération et renoncer à l'engagement tant que le vert n'est pas allumé.",
+      "distractors": [
+        "d = 1,25 m (la vitesse ne dépassant pas 40 km/h) ; largeur minimale de garage = 0,50 m ; si le voyant vert ne s'allume pas, traverser rapidement après avoir regardé des deux côtés.",
+        "d = 2,00 m (toute voie autorisée aux TE imposant 2,00 m) ; largeur minimale de garage = 1,00 m ; si le feu vert ne s'allume pas, recommencer une fois puis traverser en courant.",
+        "d = 1,50 m ; largeur minimale de garage = 0,80 m ; sur une TVP avec pictogrammes rouges allumés, le personnel habilité peut traverser s'il ne voit aucun train.",
+        "d = 1,25 m ; sur une ligne parcourue entre 160 et 220 km/h sans possibilité de se garer à 2,00 m, il faut rester sur l'accotement à 1,50 m sans se tenir aux lisses.",
+        "d = 1,50 m ; largeur minimale de garage = 0,70 m ; une fois le voyant vert du DAELZD allumé, vous pouvez faire demi-tour si vous avez oublié un outil.",
+        "d = 1,50 m ; à une vitesse donnée, l'effet de souffle d'un TGV est toujours plus important que celui d'un train de marchandises."
+      ],
+      "explanation": "D'après E00.12 (01/10/2024) : la note (1) porte « d » de 1,25 m à 1,50 m en courbe et sur les voies autorisées aux TE ; un garage normal mesure au moins 0,70 m (réduit jusqu'à 0,50 m sur « GARAGE RÉDUIT ») ; avec DAELZD/DATZD -> ne jamais s'arrêter ni faire demi-tour quand le vert s'allume (pour DATZD 2 voies, attendre que LES DEUX feux verts soient allumés), et s'il ne s'allume pas attendre le passage d'une circulation et renoncer tant qu'il reste éteint ; sur TVP, pictogrammes rouges allumés = traversée strictement interdite (même pour le personnel). Rappel : à vitesse égale, un train de marchandises génère un effet de souffle PLUS important qu'un TGV (moins aérodynamique).",
+      "sources": [
+        "E00.12 — Risque de heurt - Généralités, p. 1-9/9 (© Lineas, October 01, 2024 Lile)"
+      ]
+    },
+    {
+      "id": "lot10-q03",
+      "type": "qcm",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Pistes, itinéraires, quais et déplacement à pied dans un tunnel (E00.13 / E00.15)",
+      "difficulty": "moyen",
+      "prompt": "Lors d'un incident, vous devez vous déplacer à pied à l'intérieur d'un tunnel dépourvu de piste aménagée, et une circulation ferroviaire survient alors qu'il n'existe AUCUNE niche (ni main courante) à proximité. Quelle conduite ultime de survie impose la fiche E00.15, et quelle différence distingue les « pistes » des « itinéraires » selon la fiche E00.13 ?",
+      "correctAnswer": "Se coucher à plat-ventre le long du piédroit du tunnel, la tête dirigée du côté d'où vient la circulation, en ramenant ses vêtements près du corps ; les « pistes » longent les voies principales (en gare ou en pleine voie), tandis que les « itinéraires » existent en dehors des voies principales (gares, triages, dépôts, ateliers).",
+      "distractors": [
+        "Se coucher à plat-ventre entre les deux rails de la voie contiguë, les pieds dirigés vers la circulation ; les « pistes » désignent les zones carrossables et les « itinéraires » les zones piétonnes.",
+        "Se plaquer debout dos au piédroit du tunnel en maintenant ses bras écartés pour résister au souffle ; les « itinéraires » longent les voies principales en pleine voie.",
+        "Se coucher à plat-ventre le long du piédroit, la tête dirigée à l'opposé de la circulation (pieds vers le train) ; il n'existe aucune distinction réglementaire entre pistes et itinéraires.",
+        "Courir en sens inverse de la circulation jusqu'à la sortie du tunnel en agitant sa lanterne blanche ; sur un quai de gare, il est autorisé de marcher entre la bande blanche/jaune et le bord du quai lors d'une visite.",
+        "Se tenir accroupi le long du rail extérieur de la voie parcourue ; le passage entre un quai et un véhicule en stationnement est autorisé si la locomotive est dételée.",
+        "Se coucher à plat-ventre le long du piédroit uniquement sur ligne électrifiée ; dans un tunnel, la lanterne est facultative si le gilet haute visibilité est porté."
+      ],
+      "explanation": "La fiche E00.15 (et E00.12 p. 8/9) prescrit en tunnel : se munir d'une lanterne, longer la piste ou la paroi, régler sa marche pour atteindre une niche ou la sortie ; en cas d'approche d'un train sans niche ni main courante -> se coucher à plat-ventre le long du piédroit, LA TÊTE DIRIGÉE DU CÔTÉ D'OÙ VIENT LA CIRCULATION (pour éviter que l'effet de souffle ne s'engouffre sous les vêtements/tête et ne soulève l'opérateur), en ramenant ses vêtements près du corps. E00.13 précise : PISTES = longent les VP ; ITINÉRAIRES = hors VP (gares, triages, dépôts, ateliers) ; interdiction de marcher entre la bande blanche/jaune et le bord du quai (sauf monter/descendre) et de passer entre un quai et des véhicules (même stationnés).",
+      "sources": [
+        "E00.13 — Pistes et itinéraires, p. 1-4/4 (© Lineas, October 01, 2024 Lille)",
+        "E00.15 — Déplacement à pied dans un tunnel, p. 1/1 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q04",
+      "type": "qcm",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Traversée à pied des voies — Exercice de calcul de DMVC et distances véhicules arrêtés (E00.14)",
+      "difficulty": "moyen",
+      "prompt": "En dehors d'un itinéraire aménagé et sans DATZD, vous devez effectuer un engagement transversal (traversée à pied) d'une plateforme de 4 voies principales dont la vitesse maximale est de 140 km/h. Par ailleurs, plus loin sur une voie de service, deux rames sont immobilisées sur la même voie et vous souhaitez passer entre elles. À l'aide du tableau DMVC ci-dessous (fiche E00.14, version du 8 juin 2025), quelle DMVC devez-vous impérativement posséder dans chaque sens pour traverser les 4 voies (et que faire si vous ne l'avez pas), et quelle distance minimale doit exister entre les tampons des deux rames ?",
+      "referenceTable": {
+        "title": "Extrait — Distance Minimale de Visibilité Compatible (DMVC en m) (E00.14, p. 2-4/7)",
+        "openByDefault": true,
+        "headers": [
+          "Délai de visibilité nécessaire",
+          "VL 80 km/h",
+          "VL 100 km/h",
+          "VL 120 km/h",
+          "VL 140 km/h",
+          "VL 160 km/h"
+        ],
+        "rows": [
+          [
+            "10 s (1–2 VP, ou VS ≥ 90 m, ou obstacle longit. ≤ 5 m)",
+            "230 m",
+            "280 m",
+            "340 m",
+            "390 m",
+            "450 m"
+          ],
+          [
+            "15 s (3–4 VP, ou obstacle longit. > 5 m à 10 m)",
+            "340 m",
+            "420 m",
+            "500 m",
+            "590 m",
+            "670 m"
+          ],
+          [
+            "20 s (5–6 VP, ou obstacle longit. > 10 m à 15 m)",
+            "450 m",
+            "560 m",
+            "670 m",
+            "780 m",
+            "890 m"
+          ]
+        ],
+        "note": "Plateforme > 6 voies : garage intermédiaire obligatoire après au plus 6 voies. Véhicule à l'arrêt : ≥ 3 m devant/derrière chaque véhicule, et ≥ 6,70 m entre deux véhicules/rames non accolés."
+      },
+      "correctAnswer": "DMVC = 590 m dans chaque sens (délai 15 s pour 3–4 voies à 140 km/h ; à défaut, s'éloigner ou obtenir l'interdiction de circulation par Demande PERS) ; distance minimale de 6,70 m entre les deux rames immobilisées (et au moins 3 m de chaque extrémité).",
+      "distractors": [
+        "DMVC = 390 m dans chaque sens (délai 10 s) ; distance minimale de 5,00 m entre les deux rames immobilisées.",
+        "DMVC = 780 m dans chaque sens (délai 20 s) ; distance minimale de 6,70 m entre les deux rames immobilisées.",
+        "DMVC = 590 m uniquement dans le sens normal de circulation ; distance minimale de 3,00 m entre les tampons de deux rames non accolées.",
+        "DMVC = 500 m (lecture à 120 km/h) ; distance minimale de 6,00 m entre deux véhicules non accolés.",
+        "DMVC = 590 m ; si vous n'avez pas cette visibilité, il est permis de traverser en courant rapidement en regardant des deux côtés.",
+        "DMVC = 590 m ; en l'absence de passage planchéié, la traversée des voies doit s'effectuer en diagonale en posant le pied sur les traverses pour éviter le ballast."
+      ],
+      "explanation": "D'après E00.14 (08/06/2025) : une plateforme de 3 ou 4 voies principales impose un délai de visibilité de 15 s dans chaque sens -> à Vmax 140 km/h, DMVC = 590 m. Si la DMVC n'est pas atteinte, engager plus loin où elle existe, ou en cas de nécessité absolue obtenir l'interdiction de circulation (BC56 Demande PERS). Entre deux rames immobilisées sur la même voie -> distance minimale de 6,70 m (et ≥ 3 m de l'extrémité de chaque véhicule). Sans passage planchéié ni passerelle, traverser perpendiculairement, franchement, sans poser le pied sur le rail, les traverses ou l'aiguillage.",
+      "sources": [
+        "E00.14 — Traversée à pied des voies, p. 1-6/7 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q05",
+      "type": "qcm_multi",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Intervention sur le matériel (entrevoie, quai haut, sous EM) et montée/descente (E00.20 / E00.21)",
+      "difficulty": "moyen",
+      "prompt": "Selon les fiches E00.20 (8 juin 2025) et E00.21 (1er octobre 2024), quelles prescriptions concernant les interventions sur le matériel et la montée/descente d'un engin moteur sont exactes ?",
+      "correctAnswers": [
+        "Lorsqu'il est exceptionnellement nécessaire de pénétrer entre des véhicules stationnant le long d'un quai haut, cette opération doit s'effectuer du côté opposé au quai (après protection par Demande PERS sur la voie contiguë), et elle est INTERDITE si le côté opposé comporte un quai haut ou un obstacle continu (mur, clôture...).",
+        "Pour intervenir sous l'engin moteur, il faut isoler le poste de conduite, immobiliser le train, si possible dételer et écarter l'EM de quelques mètres (sur autorisation AC), et assurer la protection contre tout risque d'accostage au moyen d'un signal d'arrêt à main.",
+        "Pour monter ou descendre d'un EM : attendre l'arrêt complet, descendre côté quai ou accotement opposé à l'entrevoie, faire face au véhicule avec les mains libres et trois points d'appui, observer l'état du sol avant d'y poser les pieds, et poser/retirer ses agrès ou sacs à partir du sol."
+      ],
+      "distractors": [
+        "Si vous constatez sur un véhicule une signalisation de protection (drapeau rouge, jalon à damier, feu rouge) sans obtenir d'information de la personne l'ayant posée, vous pouvez la retirer vous-même après avoir vérifié visuellement qu'il n'y a personne sous le wagon.",
+        "Pour descendre d'un engin moteur en tenant son sac à dos d'une main, il est recommandé de descendre dos à la locomotive afin de mieux voir le ballast.",
+        "Lorsqu'un conducteur doit intervenir dans l'entrevoie en pleine voie en disposant d'un moyen de communication rapide, il peut débuter son intervention avant la notification par dépêche de la protection dès qu'il a appelé l'AC.",
+        "En l'absence de moyen de communication lors d'une intervention dans l'entrevoie en pleine voie avec un second agent, les deux agents interviennent ensemble côte à côte pour gagner du temps."
+      ],
+      "displayCount": 5,
+      "explanation": "E00.20 (08/06/2025) et E00.21 (01/10/2024) établissent ces règles impératives : (1) présence d'une signalisation de protection sans information -> aviser le Service Opérationnel et suivre ses instructions avant d'intervenir ; (2) quai haut -> côté opposé après Demande PERS, interdit si quai haut ou obstacle continu opposé ; (3) sous l'EM -> isoler poste, immobiliser, dételer/écarter de quelques mètres sur autorisation AC, signal d'arrêt à main si risque d'accostage ; (4) entrevoie en pleine voie -> Demande PERS si moyen de comm (notification dépêche AVANT d'intervenir, cessation dès la fin), sinon si 2e agent celui-ci surveille exclusivement la voie ; (5) montée/descente -> arrêt complet, côté piste/quai, face au véhicule, mains libres, 3 points d'appui, agrès posés/repris depuis le sol.",
+      "sources": [
+        "E00.20 — Intervention sur le matériel, p. 1-4/4 (© Lineas, June 08, 2025 Lille)",
+        "E00.21 — Montée et descente d'un engin moteur ou d'un véhicule, p. 1/1 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q06",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Téléphones installés le long des lignes et téléphonie dématérialisée SOPRANO NAT (E10.01)",
+      "difficulty": "facile",
+      "prompt": "En pleine voie sur une ligne électrifiée, vous observez sur un support caténaire deux flèches rouges placées perpendiculairement aux voies, puis vous repérez un téléphone portant une marque ROUGE ET VERTE. Quelle est la signification exacte de ces deux repérages, et quelle application accessible depuis le mode Pro ARES permet d'utiliser la téléphonie dématérialisée sur les lignes équipées ?",
+      "correctAnswer": "Les deux flèches perpendiculaires indiquent que le téléphone se trouve au droit de ce point mais du côté opposé au repérage ; la marque rouge et verte signale un téléphone permettant de joindre le Régulateur Sous-Station (rouge) OU le Régulateur Circulation/Exploitation (vert) ; la téléphonie dématérialisée est accessible via l'application « SOPRANO NAT ».",
+      "distractors": [
+        "Les deux flèches perpendiculaires signalent que le téléphone est en dérangement ; la marque rouge et verte désigne un téléphone réservé aux gares temporaires ; l'application dématérialisée est « ODICEO-M ».",
+        "La marque rouge seule relie au Régulateur Circulation et la marque verte au Régulateur Sous-Station ; l'application dématérialisée est « RITA ».",
+        "Les deux flèches perpendiculaires signifient que le téléphone le plus proche se situe à 500 m de part et d'autre ; les téléphones de gares/postes portent obligatoirement une marque bleue.",
+        "Les téléphones de pleine voie sont identifiés par le numéro du prochain signal ; l'application « SOPRANO NAT » fonctionne sur l'ensemble du RFN y compris les lignes non équipées.",
+        "Les téléphones placés dans les guérites de PN à SAL sont verrouillés par un cadenas exclusivement ouvert par l'Agent-circulation.",
+        "En l'absence de voyant d'appel téléphonique, le conducteur qui attend des instructions peut raccrocher et quitter le téléphone sans s'assurer que son correspondant peut le rappeler."
+      ],
+      "explanation": "D'après E10.01 (14/12/2025) : sans marque particulière = gares/postes ; marque rouge = téléphone d'alarme (RSS) ; marque verte = Régulateur circulation ; marque rouge et verte = RSS ou Régulateur exploitation. Identification : téléphone de signal = n° du signal ; pleine voie = PK arrondi à l'hectomètre ; PN à SAL = lettre T ou combiné (guérite accessible par clé dans coffret clé de Berne ou plombé « Guérite - clé de secours »). Deux flèches perpendiculaires aux voies = téléphone situé au droit mais du côté opposé. Téléphonie dématérialisée (uniquement sur lignes équipées aux LiLi) : application SOPRANO NAT (depuis le mode Pro ARES) permettant appel d'Alarme, Régulateur (COGC) et Agent de Circulation.",
+      "sources": [
+        "E10.01 — Les téléphones installés le long des lignes, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q07",
+      "type": "qcm_multi",
+      "theme": "Communications & documents",
+      "subtheme": "Téléphones mobiles, tablettes et outils multimédia (E10.02)",
+      "difficulty": "moyen",
+      "prompt": "Concernant l'usage des téléphones mobiles, tablettes et outils multimédia par le conducteur (fiche E10.02, version du 14 décembre 2025), quelles règles sont exactes ?",
+      "correctAnswers": [
+        "En phase de conduite, le téléphone mobile professionnel est en « mode pro » avec l'application GSM-GFU ARES ; les téléphones non professionnels doivent être dans le sac, en « mode avion » ou « mode silencieux, fonction vibreur désactivée », et le conducteur doit intervenir auprès des personnes présentes en cabine pour qu'elles mettent hors service leur téléphone personnel.",
+        "En phase de conduite, la tablette professionnelle est utilisée strictement en dehors des phases restrictives et réservée à la consultation exclusive de l'horaire de conduite et du Bulletin de Freinage / Bordereau de composition (la consultation des Fiches ARTIC, Avis Urgents, mails, réglementation ou rapport de service se faisant uniquement À L'ARRÊT).",
+        "La téléphonie ferroviaire a priorité sur la téléphonie mobile lorsqu'elle existe, SAUF si la téléphonie mobile permet de gagner du temps en situation d'urgence ou d'éviter un risque plus grave ou plus fréquent (ex. traverser des voies pour rejoindre un téléphone fixe)."
+      ],
+      "distractors": [
+        "En phase de conduite hors zone complexe, le conducteur peut consulter les Avis Urgents et les Fiches ARTIC sur sa tablette professionnelle.",
+        "Le conducteur peut conserver son téléphone personnel sur le pupitre en mode vibreur afin de rester joignable par sa famille en cas d'urgence.",
+        "Les montres connectées ne sont pas visées par les restrictions applicables aux téléphones mobiles et outils multimédia.",
+        "À l'arrêt en ligne, le conducteur peut utiliser librement son téléphone professionnel pour tout appel personnel de courte durée."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche E10.02 (14/12/2025) rappelle que les appareils mobiles réduisent de 30 % les infos enregistrées par le cerveau et de 50 % l'exploration visuelle (y compris montres connectées et écouteurs). En conduite : tél pro en mode pro ARES, tél perso dans le sac avion ou silencieux sans vibreur (et hors service pour toute personne en cabine), tablette privée hors service, tablette pro uniquement hors phases restrictives pour horaire + BF/bordereau de composition. À l'arrêt : tél pro limité à la durée d'incident/accident/aléas de production (si autre moyen indisponible) et tablette pro pour ARTIC, Avis Urgents, mails, réglementation, notes, instructions numériques et rapport de service.",
+      "sources": [
+        "E10.02 — Téléphones mobiles et outils multimédia, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q08",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Le système GSM-GFU ARES — Activation, parité, arrêt d'urgence et désactivation (E10.03)",
+      "difficulty": "moyen",
+      "prompt": "Vous allez assurer une mission sur une ligne entièrement équipée de la radio GSM-R, avec un changement de parité du numéro de train en cours de parcours. Quelles prescriptions exactes la fiche E10.03 (version du 14 décembre 2025) impose-t-elle pour le système GSM-GFU ARES ?",
+      "correctAnswer": "L'activation est obligatoire à l'arrêt avant départ même sur ligne équipée GSM-R (cadenas rouge = Mode Pro, sonnerie au maximum, vibreur seul interdit) et doit être réalisée sur les DEUX numéros de train en cas de changement de parité ; la désactivation se fait à l'arrêt au terminus (cadenas bleu ; destruction auto au plus tard après 20 h ou nouvelle association).",
+      "distractors": [
+        "Sur une ligne entièrement équipée de la radio sol-train GSM-R, l'activation du système GSM-GFU ARES est facultative.",
+        "En cas de changement de parité, il faut activer le premier numéro au départ puis activer le second en marche au passage du point de changement.",
+        "Si vous percevez la sonnerie particulière « Arrêt d'urgence » sur une ligne NON désignée GSM-GFU aux LiLi, vous ne devez pas en tenir compte et poursuivez votre marche.",
+        "L'association numéro de train / numéro GSM est détruite automatiquement au bout de 12 heures en l'absence de désactivation manuelle.",
+        "Pour rappeler l'agent ayant émis un appel d'arrêt d'urgence, il faut composer manuellement le numéro du COGC car il n'existe pas de fonction de rappel dédiée.",
+        "L'affichage du cadenas bleu confirme que le « MODE PRO » est activé, tandis que le cadenas rouge signale sa désactivation."
+      ],
+      "explanation": "La fiche E10.03 (14/12/2025) fixe : (1) activation obligatoire à l'arrêt avant départ sur TOUTES les lignes y compris équipées radio sol-train (cadenas ROUGE = Mode Pro actif, sonnerie max, vibreur seul interdit, ne pas modifier la sonnerie Arrêt d'urgence ni le répertoire SIM) ; (2) changement de parité -> activation sur les deux numéros de train ; (3) perception sonnerie Arrêt d'urgence (identique au SAR GSM-R) sur ligne désignée OU NON -> appliquer F44.03 ; (4) fonction « Rappel OPS » pour rappeler le dernier appelant d'urgence ; (5) désactivation à l'arrêt au terminus (cadenas BLEU ; sinon destruction auto au plus tard 20 h après création ou instantanément lors d'une nouvelle association).",
+      "sources": [
+        "E10.03 — Le système GSM-GFU ARES, p. 1-4/4 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q09",
+      "type": "open",
+      "theme": "Communications & documents",
+      "subtheme": "ODICEO-M — Transmission numérique des instructions opérationnelles (E10.04)",
+      "difficulty": "difficile",
+      "prompt": "En cours de marche sur le RFN, vous recevez par SMS GSM-R un code d'accès à une instruction opérationnelle numérique sur l'application ODICEO-M (qui attend par ailleurs un compte rendu ultérieur). Vous n'avez pas encore arrêté votre train ni consulté le code. Selon la fiche E10.04 (révision du 14 juin 2026), décrivez : (1) le matériel à utiliser, les règles d'activation et la règle impérative de secours papier, (2) les étapes exactes de réception et de prise en compte de l'instruction (et s'il y a lieu de collationner), (3) comment transmettre le complément/compte rendu selon que le train est à l'arrêt ou en marche, (4) la procédure en cas de relève (instruction non réalisée vs en cours de réalisation), et (5) l'obligation d'archivage en fin de mission.",
+      "modelAnswer": "1. Activation et secours papier :\n   - L'application ODICEO-M s'active avant le départ sur la TABLETTE (le téléphone n'est autorisé qu'en cas de dysfonctionnement ; activation simultanée possible de plusieurs n° de trains en cas de changement de parité/missions ; l'activation d'un n° désactive ce n° chez les autres conducteurs).\n   - Le conducteur est tenu d'avoir au moins un exemplaire vierge format papier du livret des instructions pour couvrir tout dysfonctionnement.\n2. Réception et prise en compte :\n   - Arrêter et immobiliser le train AVANT de consulter le code ;\n   - Ouvrir ODICEO-M, saisir le code reçu et prendre connaissance de l'instruction (s'assimile à une remise par écrit : PAS de collationnement, tout en communiquant si ambiguïté) ; si non concerné, contacter l'agent du SGC ;\n   - Planifier obligatoirement les gestes métiers ou renseigner l'onglet « Autres dispositions » et vérifier le passage de l'instruction à l'état « Pris en compte » avant de l'appliquer.\n3. Transmission des compléments / comptes rendus :\n   - À l'arrêt si la transmission numérique fonctionne : renseigner les compléments sur ODICEO-M et vérifier le passage à l'état « Remis et compris » ;\n   - Si le train circule ou si la transmission numérique est impossible : contacter le SGC verbalement par radio GSM-R (ou à défaut après arrêt au 1er T, P, G).\n4. Opérations en cas de relève :\n   - Instruction non réalisée : demander le code d'accès au conducteur cédant et appliquer la procédure de prise en compte ;\n   - Instruction en cours de réalisation : contacter le SGC pour recevoir l'instruction par un autre moyen.\n5. Archivage : après clôture par l'agent du SGC, l'ordre PDF reçu par mail est à joindre en copie du Bulletin de Service en fin de mission.",
+      "keyPoints": [
+        {
+          "label": "Arrêter et immobiliser le train avant de consulter le code reçu ; pas de collationnement (assimilé remise par écrit)",
+          "critical": true
+        },
+        {
+          "label": "Planifier les gestes métiers ou renseigner « Autres dispositions » et vérifier l'état « Pris en compte »",
+          "critical": true
+        },
+        {
+          "label": "Compléments/comptes rendus : via ODICEO-M à l'arrêt (vérifier état « Remis et compris »), ou verbalement par GSM-R (sinon 1er T, P, G) si le train circule ou en cas de dysfonctionnement",
+          "critical": true
+        },
+        {
+          "label": "Relève : si instruction non réalisée -> demander le code au cédant ; si en cours de réalisation -> contacter le SGC pour la recevoir par un autre moyen",
+          "critical": true
+        },
+        {
+          "label": "Tablette obligatoire (tél uniquement si dysfonctionnement), exemplaire papier vierge obligatoire en cabine, et joindre le PDF reçu par mail au BS en fin de mission",
+          "critical": false
+        }
+      ],
+      "explanation": "La fiche E10.04 (révision très récente du 14/06/2026) encadre ODICEO-M : arrêt/immobilisation avant consultation du code, passage obligé par la planification (« Pris en compte »), puis « Remis et compris » pour les compléments à l'arrêt, gestion stricte des relèves et conservation d'un livret papier vierge.",
+      "sources": [
+        "E10.04 — ODICEO-M - Transmission numérique des instructions opérationnelles, p. 1-3/3 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q10",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Les Livrets de Lignes (LiLi) et Renseignements Techniques (E20.01)",
+      "difficulty": "moyen",
+      "prompt": "Selon la fiche E20.01 (révision du 14 juin 2026), dans quel paragraphe du Livret de Lignes (LiLi) trouvez-vous les pentes/rampes caractéristiques et les limites de résistance des attelages (et comment y sont repérées les sections à fortes pentes), et qu'en est-il des anciens documents B, C et D des Renseignements Techniques (RT) ?",
+      "correctAnswer": "Au § 4 (« Pentes et rampes caractéristiques, freinage et fortes pentes, masses des trains... »), où les sections de lignes à fortes pentes sont entourées par un trait gras ; les documents B (compatibilité EM), C (masses des trains) et D (fiches de détournement) des RT ne sont plus tenus à jour par le GI et relèvent désormais de la responsabilité de l'Entreprise Ferroviaire.",
+      "distractors": [
+        "Au § 3 (« Vitesses limites »), où les fortes pentes sont imprimées en rouge ; les documents B, C et D des RT restent exclusivement mis à jour par SNCF Réseau.",
+        "Au § 2 (« Distances - Installations - Cantonnement »), où les fortes pentes sont repérées par une double flèche ; le document A des RT n'est plus édité par le GI.",
+        "Au § 5 (« Prescriptions diverses »), où les fortes pentes sont encadrées en pointillés ; la fiche de service ne permet pas d'identifier l'EF responsable du train.",
+        "Au § 6 (« Sécurité des personnes et risques industriels ») ; les conditions particulières de traction du § 3 s'appliquent également aux engins moteurs acheminés en véhicule.",
+        "Au § 8 (« Immobilisations ») ; les points frontières ne font pas l'objet de consignes dédiées dans les LiLi.",
+        "Au § 4, où les sections à fortes pentes sont signalées par la mention « FF » ; les masses maximales des LiLi Lineas sont toujours strictement identiques aux anciens RT."
+      ],
+      "explanation": "La fiche E20.01 (14/06/2026) détaille les 9 paragraphes des LiLi : §1 Caractéristiques générales, §2 Distances/Installations/Cantonnement (IPCS : double flèche sens normal / simple flèche contre-sens), §3 Vitesses limites et conditions particulières de traction (ne concernant PAS les EM en véhicule), §4 Pentes/rampes, freinage, fortes pentes (ENTOURÉES D'UN TRAIT GRAS), limites de résistance des attelages et masses admissibles, §5 Prescriptions diverses, §6 Sécurité des personnes et risques industriels (gabarits réduits, PUI, tunnels), §7 Détournements, §8 Immobilisations (avec identification de l'EF responsable via la fiche de service : partenariat vs Open-Access), §9 Consignes frontalières. Seul le document A des RT est édité par le GI ; B, C et D relèvent dorénavant de l'EF.",
+      "sources": [
+        "E20.01 — Les Livrets de Ligne (LiLi), p. 1-5/5 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q11",
+      "type": "qcm_multi",
+      "theme": "Communications & documents",
+      "subtheme": "Dispositif ARTIC, Dossier Archives, Avis Urgents et détournement (E20.02)",
+      "difficulty": "difficile",
+      "prompt": "Concernant la consultation et le fonctionnement du dispositif ARTIC / RITA (fiche E20.02, version du 15 décembre 2024), quelles affirmations sont exactes ?",
+      "correctAnswers": [
+        "Les modifications d'une durée prévisible ≥ 3 mois sont considérées comme définitives ; elles figurent 4 semaines dans les fiches ARTIC puis 16 mois dans le Dossier Archives (que tout conducteur doit obligatoirement consulter s'il n'a pas circulé sur la ligne depuis 4 semaines et plus).",
+        "La page de garde du dossier ARTIC est rose les semaines paires et jaune les semaines impaires ; en cas d'incertitude de passage de phase d'un chantier, une période d'incertitude de 48 h (24 h de part et d'autre en grisé) est représentée.",
+        "Si la durée de service se prolonge de manière imprévue en ligne au-delà de la validité des fiches ARTIC consultées, le conducteur convient avec un agent du SGC d'un lieu d'arrêt (au plus tard dès la fin de validité) pour prendre connaissance des nouvelles fiches ; en cas de détournement, il s'arrête avant d'emprunter l'itinéraire (ARTIC si autorisé sur la ligne, sinon Fiche ARTIC de détournement demandée au SGC si non piloté)."
+      ],
+      "distractors": [
+        "La mise en place à l'improviste de signaux de chantier ou de signaux « Baissez panto » / « Coupez courant » fait toujours l'objet d'un Avis Urgent avant leur installation et ne comporte jamais de Repère d'approche.",
+        "La page de garde du dossier ARTIC est jaune les semaines paires et rose les semaines impaires, et le Dossier Archives conserve les modifications définitives pendant 6 mois seulement.",
+        "Les modifications temporaires d'une durée de 2 mois sont considérées comme définitives et transférées immédiatement au Dossier Archives.",
+        "Lors d'un dysfonctionnement numérique de RITA pour un conducteur Lineas France, il peut partir sans les informations ARTIC à condition de ne pas dépasser 80 km/h."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche E20.02 (15/12/2024) rassemble des repères très testés : diffusion systématique si signalisation abordable > 40 km/h ; durée ≥ 3 mois = définitive ; page de garde rose = semaines paires / jaune = impaires ; incertitude = 48 h (24 h de part et d'autre en grisé) ; 4 semaines en ARTIC puis 16 mois en Dossier Archives (consultation obligatoire si dernière circulation ≥ 4 semaines) ; les Avis Urgents excluent la mise en place/modification à l'improviste des signaux de chantier, « Baissez panto » et « Coupez courant » qui sont précédés d'un Repère d'approche (ou arrêt systématique des conducteurs) ; prolongation imprévue -> arrêt convenu avec SGC au plus tard à la fin de validité ; dysfonctionnement RITA -> Lineas France appelle SO + prend attachement par écrit/mail + BS, Lineas SA applique procédure de secours RITA.",
+      "sources": [
+        "E20.02 — Information sur les modifications infrastructure, p. 1-12/12 (© Lineas, December 15, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q12",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Le document horaire (Houat / Bahamas) — Dépassement masse de référence et symboles (E20.03)",
+      "difficulty": "moyen",
+      "prompt": "Avant le départ d'un train assuré pour le compte de Lineas (Fiche Houat), vous constatez que la masse remorquée figurant au Bulletin de Freinage est supérieure à la « Masse de Référence » du document horaire, tout en restant inférieure à la masse maximale de l'EM et à la limite de résistance des attelages aux LiLi. De plus, la fiche comporte les mentions « [PL] », « + 12 05 » (signe + à gauche) et « ==== 8041 ==== ». Quelles significations exactes et quelle règle s'appliquent ?",
+      "correctAnswer": "Le train est considéré en dérogation et ne peut être mis en circulation qu'après accord avec le Service Opérationnel concerné ; « [PL] » = prescriptions PL les samedis, dimanches et fêtes ; « + » à gauche de l'heure = horaire détendu jusqu'au point suivant ; « ==== 8041 ==== » = train dépassé par le 8041 en gare de voie unique.",
+      "distractors": [
+        "Le train peut partir librement sans accord puisque la limite de résistance des attelages n'est pas dépassée ; « [PL] » = dimanches et fêtes uniquement ; « ==== » = croisement en voie unique.",
+        "Le train doit être obligatoirement allégé avant départ sans aucune dérogation possible ; « + » à gauche de l'heure = majoration de 30 secondes ; « ==== » = point d'horaire obligé (PHO).",
+        "La Fiche Bahamas est obligatoire pour toutes les circulations Lineas comme pour Hexafret ; « [PL] » = fermé uniquement les jours ouvrables.",
+        "« + 12 05 » signifie que le train peut circuler avec 5 minutes d'avance ; « ==== 8041 ==== » signifie que votre train dépasse le 8041 en double voie.",
+        "« <PL> » s'applique les samedis, dimanches et fêtes, tandis que « [PL] » s'applique uniquement les dimanches et fêtes.",
+        "Les vitesses limites inscrites sur le document horaire (Houat/Bahamas) prévalent réglementairement sur celles des Livrets de Lignes / RT."
+      ],
+      "explanation": "La fiche E20.03 (15/12/2024) précise : (1) Houat = Lineas, Lineas France, CFL cargo, SBB CF ; Bahamas = obligatoire pour toute circulation Hexafret ; (2) les LiLi/RT constituent les SEULS textes réglementaires pour les VL ; (3) masse remorquée BF > masse de référence horaire (sans dépasser limite EM ni attelages) = train en DÉROGATION -> accord du Service Opérationnel obligatoire ; (4) `<PL>` = dimanches et fêtes vs `[PL]` = samedis, dimanches et fêtes (idem `<D>` vs `[D]`) ; (5) `+` à droite = +30 s vs `+` à gauche = horaire détendu jusqu'au point suivant ; `++++` = croisement VU vs `====` = dépassement VU ; `===` = PHO ; deux fois la même heure = arrêt ≤ 30 s ; nombre après nom de gare VU = VL sur toutes les aiguilles de la gare.",
+      "sources": [
+        "E20.03 — Le document horaire (Houat / Bahamas), p. 1-9/9 (© Lineas, December 15, 2024 Brussels)"
+      ]
+    },
+    {
+      "id": "lot10-q13",
+      "type": "qcm_multi",
+      "theme": "Communications & documents",
+      "subtheme": "Carnet de bord, Manuel de conduite et Guide de dépannage — EM 75000 / 27000 / 37000 (E21.01 / E21.02 / E21.03)",
+      "difficulty": "moyen",
+      "prompt": "Concernant la documentation spécifique aux engins moteurs 75000, 27000 et 37000 (fiches E21.01, E21.02 et E21.03 — versions du 1er octobre 2024), quelles affirmations sont exactes ?",
+      "correctAnswers": [
+        "Dans le Carnet de Bord, la « fiche rose » (3 parties) peut mentionner une restriction de vitesse qui remplace temporairement la VL inscrite en cabine ; après annotation d'un bulletin de signalement, le conducteur laisse le feuillet BLANC dans le carnet, emporte le feuillet BLEU pour le joindre au BS (souche jaune) et informe le service matériel via l'application Railcube.",
+        "En Unité Multiple, l'EM « Menant » est celui où se tient le conducteur (poste en service) et l'EM « Mené » celui commandé à distance (postes hors service), indépendamment des termes « 1re / 2e locomotive » qui désignent leur place.",
+        "Le Guide de Dépannage comporte les chapitres I (Disjonction / Arrêt moteur diesel), II (pages 200–299 : Absence/insuffisance traction), III (pages 300–399 : Avaries diverses) et IV (pages 400–499 : Conditions de reprise de la traction) ; la mise en véhicule (Annexe 4) s'effectue dans l'ordre établi, et la remise en état de marche dans l'ordre inverse."
+      ],
+      "distractors": [
+        "Après avoir rédigé un bulletin de signalement dans le Carnet de Bord, le conducteur emporte le feuillet blanc pour le joindre au BS et laisse le feuillet bleu dans le carnet.",
+        "Le Guide de Dépannage papier peut être consulté en cours de marche par le conducteur seul dès lors que la vitesse reste inférieure à 60 km/h.",
+        "Lors d'une anomalie constatée sur l'EM n'ayant entraîné ni perte de temps ni demande de réparation, il est inutile d'annoter le Carnet de Bord.",
+        "La lampe de signalisation « CB / CARNET DE BORD » en cabine s'allume exclusivement sur intervention du service matériel et jamais par le conducteur."
+      ],
+      "displayCount": 5,
+      "explanation": "Les fiches E21.01, E21.02 et E21.03 (01/10/2024) précisent : Carnet de bord -> consultation en PC, RS et à la 1re occasion favorable lors d'un relais ; annotation obligatoire même sans demande de réparation ni perte de temps (et pour agrès, replombage coffre/sac, visite arrivée incomplète, mise en véhicule) ; blanc laissé dans le CB, bleu joint au BS, jaune souche, transmission via Railcube ; lampe CB allumée par le conducteur (GD) ou par le matériel (fiche rose). GD papier consulté à l'arrêt (sauf GDI) ; Annexe 4 mise en véhicule dans l'ordre, remise en état dans l'ordre inverse.",
+      "sources": [
+        "E21.01 — Carnet de bord, p. 1-4/4 (© Lineas, October 01, 2024 Lille)",
+        "E21.02 — Manuel de conduite, p. 1-2/2 (© Lineas, October 1, 2024 Lille)",
+        "E21.03 — Guide de dépannage, p. 1-2/2 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q14",
+      "type": "qcm",
+      "theme": "Habilitations & missions",
+      "subtheme": "Équipement en personnel des trains — VA, Agent d'accompagnement et protection arrière (E40.01)",
+      "difficulty": "moyen",
+      "prompt": "Dans quelle(s) configuration(s) la présence d'un Agent d'Accompagnement (en plus du conducteur seul sur EM muni de la VA) est-elle réglementairement exigée selon la fiche E40.01, et quelle exception s'applique aux circulations sur lignes à fortes pentes ?",
+      "correctAnswer": "Elle est exigée sur une ligne à plusieurs voies non équipée de la Radio Sol-Train (hors dérogations listées par le Pôle sécurité ≤ 2 voies) et sur une ligne à fortes pentes, EXCEPTÉ si la circulation est un HLP (1 ou 2 EM) ou s'il existe une mention contraire aux LiLi (radio + organisation sol d'immobilisation) ; cette fonction peut être assurée par le conducteur d'un autre EM en DT ou pousse attelée.",
+      "distractors": [
+        "Elle est exigée sur toute ligne à voie unique sans radio sol-train, même si la ligne n'est pas à fortes pentes et ne comporte aucun tronc commun.",
+        "Sur une ligne à fortes pentes, l'agent d'accompagnement est obligatoire y compris pour une circulation HLP d'un seul engin moteur.",
+        "Lorsque le train circule avec le seul conducteur sur une ligne à une seule voie, le tronc commun avec une ligne à plusieurs voies sans RST ne doit pas dépasser 20 km.",
+        "En double traction ou en pousse attelée, le conducteur du deuxième engin moteur ne peut jamais assurer la fonction d'agent d'accompagnement.",
+        "Les dispositions de « protecteur arrière » s'appliquent également aux trains à protection arrière circulant « hors cantonnement ».",
+        "En cas d'incident en ligne sur un poste de conduite non équipé de la VA, le conducteur ne peut jamais circuler seul même pour dégager jusqu'à la gare en avant."
+      ],
+      "explanation": "La fiche E40.01 précise : (1) poste sans VA (tête ou pousse non attelée) -> agent d'accompagnement aux côtés du conducteur (exception : incident en ligne pour gagner la gare en avant ou revenir vers la 2e partie) ; (2) agent d'accompagnement exigé sur ligne à plusieurs voies sans RST (hors dérogations Pôle sécurité ≤ 2 voies) ou sur ligne à fortes pentes SAUF HLP (1 ou 2 EM) ou mention contraire aux LiLi (RST + organisation sol) ; fonction assurable par le conducteur d'un autre EM en DT ou pousse attelée ; (3) sur voie unique/banalisée avec conducteur seul, tolérance de 10 km pour tronc commun, contiguïté ou cumul de parties à plusieurs voies (entre établissements distants d'au moins 50 km) ; (4) protection arrière non applicable « hors cantonnement ».",
+      "sources": [
+        "E40.01 — Équipement en personnel des trains, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot10-q15",
+      "type": "qcm",
+      "theme": "Habilitations & missions",
+      "subtheme": "Aptitude à la conduite — Nouvel EM, non-connaissance de ligne et DT/pousse (E40.02)",
+      "difficulty": "moyen",
+      "prompt": "Dans le cadre d'une circulation détournée en Double Traction (DT), le conducteur de l'engin moteur en deuxième position (non en tête) ne connaît PAS la section de ligne parcourue, n'est PAS piloté, et ne dispose PAS de Fiche Complémentaire de Détournement (il connaît toutefois le mode d'exploitation). Quelle prescription de la fiche E40.02 (version du 11 juin 2023) s'applique, et quelle différence existe entre « formation pratique » et « accompagnement conduite » sur un nouvel engin moteur ?",
+      "correctAnswer": "La vitesse du train détourné doit être limitée à 50 km/h (et en cas de pousse, l'EM doit être attelé) ; pour l'apprentissage d'un nouvel EM, un stagiaire ne peut conduire qu'en formation pratique (moniteur/formateur/dirigeant, avec conducteur habilité si le formateur ne l'est pas), alors que l'accompagnement conduite sous le conducteur titulaire est réservé à un conducteur expérimenté.",
+      "distractors": [
+        "Aucune restriction de vitesse ne s'applique au train dès lors que le conducteur de tête connaît la ligne ou possède une FCD ; un stagiaire peut conduire en accompagnement conduite sous n'importe quel conducteur titulaire.",
+        "Le conducteur non en tête sans FCD ni pilote doit impérativement être relevé avant le détournement, toute circulation étant interdite ; la formation pratique ne nécessite jamais de conducteur habilité EM si un formateur est présent.",
+        "La vitesse du train détourné est limitée à 30 km/h (et non 50 km/h) ; un conducteur non habilité au mode d'exploitation de la ligne peut circuler sans pilote s'il dispose d'une FCD.",
+        "La vitesse du train détourné est limitée à 80 km/h (MA80) ; en cas de pousse sans connaissance ligne, la pousse non attelée reste autorisée à 50 km/h.",
+        "Si le conducteur non en tête reçoit une FCD sans être piloté, la vitesse reste limitée à 50 km/h.",
+        "Un conducteur en accompagnement conduite peut être seul en cabine pour les manœuvres en gare."
+      ],
+      "explanation": "D'après E40.02 (11/06/2023) : (1) non-habilitation au mode d'exploitation -> pilotage OBLIGATOIRE ; (2) DT ou pousse non en tête ne connaissant pas la ligne -> piloté ou muni d'une FCD (pas de restriction particulière, pousse obligatoirement attelée) ; à défaut de pilote ET de FCD -> VL limitée à 50 km/h ; (3) nouvel EM -> formation pratique (conducteur ou stagiaire) sous moniteur/formateur/dirigeant (+ conducteur habilité EM si le formateur ne l'est pas), vs accompagnement conduite exclusivement pour conducteur expérimenté (interdit stagiaire) sous la responsabilité et surveillance effective du conducteur titulaire.",
+      "sources": [
+        "E40.02 — Aptitude à la conduite, p. 1-3/3 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot10-q16",
+      "type": "qcm",
+      "theme": "Habilitations & missions",
+      "subtheme": "Détournement — Fiche Complémentaire de Détournement (FCD / FDD) (E40.03)",
+      "difficulty": "difficile",
+      "prompt": "Vous conduisez en tête un train de marchandises MA100 détourné sur un itinéraire que vous ne connaissez pas (mais dont vous connaissez le mode d'exploitation), à l'aide d'une Fiche Complémentaire de Détournement dématérialisée (FDD). Quelles vitesses limites maximales et procédures exactes de la fiche E40.03 (11 juin 2023) s'appliquent : (A) en circulation normale avec FCD/FDD, (B) en cas de perte des informations FDD EN COURS de parcours sur l'itinéraire de détournement, et (C) si le SGC vous confirme d'emprunter un itinéraire non repris comme parcourable sur la FCD ?",
+      "correctAnswer": "(A) VL max des MA80 pour les Marchandises (ME100 pour les Messageries) sans dépasser les VL de la FCD ; (B) poursuivre à 40 km/h max jusqu'au 1er signal donnant accès à plusieurs itinéraires, s'y arrêter et aviser le SGC ; (C) parcours limité à 4 km maximum et vitesse limitée à 30 km/h maximum.",
+      "distractors": [
+        "(A) VL max des MA90 (ME120 en messageries) ; (B) arrêt d'urgence immédiat en pleine voie sans avancer ; (C) parcours limité à 10 km à 50 km/h max.",
+        "(A) VL max des MA80 ; (B) poursuivre à 30 km/h max jusqu'à la gare terminus du détournement ; (C) parcours strictement interdit même sur confirmation du SGC.",
+        "(A) VL max des MA100 tant que les VL de la FCD le permettent ; (B) poursuivre à 40 km/h jusqu'à la 1re gare ; (C) parcours limité à 4 km à 40 km/h max.",
+        "(A) VL max des MA80 ; (B) poursuivre à 60 km/h max jusqu'au 1er signal donnant accès à plusieurs itinéraires ; (C) parcours limité à 2 km à 20 km/h max.",
+        "(A) VL max des MA80 ; en cas de perte FDD avant l'emprunt du détournement, on s'engage quand même à 40 km/h en avisant le SGC en marche.",
+        "(A) La FCD peut être consultée en cours de marche avant d'atteindre la bifurcation de détournement ; (B) 40 km/h max ; (C) 30 km/h sur 4 km."
+      ],
+      "explanation": "La fiche E40.03 (11/06/2023) comporte 4 chiffres clés à maîtriser absolument : consultation OBLIGATOIRE À L'ARRÊT avant le départ (même si cela crée du retard) ; VL plafond = ME100 (Messageries) / MA80 (Marchandises) (et ≤ VL de la FCD/LTV) ; itinéraire non repris parcourable sur FCD -> se considérer en mauvaise direction, mais confirmation possible par SGC sur max 4 km à 30 km/h max ; perte d'infos FDD sur l'itinéraire de détournement -> poursuivre à 40 km/h max jusqu'au 1er signal donnant accès à plusieurs itinéraires, s'y arrêter et aviser le SGC (si perte avant d'emprunter l'itinéraire -> aviser le SGC avant de s'engager). Rappel : la FCD est aussi nécessaire sur une ligne connue si le conducteur ne possède pas les LiLi ou ARTIC correspondants.",
+      "sources": [
+        "E40.03 — Détournement - La Fiche Complémentaire de Détournement, p. 1-3/13 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot10-q17",
+      "type": "qcm_multi",
+      "theme": "Habilitations & missions",
+      "subtheme": "Pilotage d'un train (Lineas ou autre Entreprise Ferroviaire) (E40.04)",
+      "difficulty": "moyen",
+      "prompt": "Vous êtes désigné pour assumer la fonction de « pilote » auprès d'un conducteur (Lineas ou d'une autre Entreprise Ferroviaire) qui ne connaît pas la ligne parcourue. Quelles prescriptions de la fiche E40.04 sont exactes ?",
+      "correctAnswers": [
+        "Le pilote a autorité sur le conducteur piloté et est entièrement responsable de son comportement pour l'application des règlements de sécurité ; la vitesse limite de la circulation ne doit pas dépasser la vitesse limite pour laquelle le pilote est habilité.",
+        "Lorsque le pilote ne connaît pas l'engin moteur, il doit avant le départ se faire instruire par le conducteur piloté sur l'emplacement des commandes de traction, du frein et la position pour obtenir l'arrêt du train, ainsi que du SAL et du SAR (et des agrès/immobilisation).",
+        "Lors du pilotage d'un conducteur d'une autre EF, le pilote doit lui demander son titre individuel de certification à la conduite, se renseigner sur l'aptitude de l'EM à circuler sur la section de ligne, et s'assurer que les dispositifs de sécurité existants (VACMA, KVB, RSO, DAAT, RST...) sont actifs et en service."
+      ],
+      "distractors": [
+        "Dès qu'un pilote est présent en cabine, le conducteur piloté (qui connaît le mode d'exploitation) est entièrement déchargé de la responsabilité de la conduite du train.",
+        "Si le train piloté est apte à 120 km/h alors que le pilote n'est habilité qu'à 100 km/h, la circulation peut tout de même rouler à 120 km/h sous la responsabilité du conducteur piloté.",
+        "Pour piloter un conducteur d'une autre Entreprise Ferroviaire, le pilote doit obligatoirement être habilité à la série d'engin moteur de cette EF.",
+        "Le pilote n'a pas à prendre connaissance du Bulletin de Freinage, des ATE ni des Marchandises Dangereuses, qui restent de la seule compétence du conducteur piloté."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche E40.04 précise le partage des rôles : le pilote a autorité et entière responsabilité de l'application des règlements de sécurité (en cas de manquement, il prend les mesures réglementaires), tandis que le conducteur piloté (s'il connaît le mode d'exploitation) se conforme aux indications du pilote et reste responsable de la conduite. La VL est plafonnée à celle d'habilitation du pilote ; si EM inconnu -> briefing complet avant départ pour savoir arrêter le train + SAL/SAR ; si autre EF -> contrôle du titre de certification, de l'aptitude de l'EM sur la ligne et de la mise en service de tous les dispositifs de sécurité.",
+      "sources": [
+        "E40.04 — Pilotage, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot10-q18",
+      "type": "qcm",
+      "theme": "Habilitations & missions",
+      "subtheme": "Admission de personne(s) en cabine de conduite (E40.05)",
+      "difficulty": "facile",
+      "prompt": "Une personne extérieure se présente à votre cabine de conduite (sur laquelle aucune affichette n'indique le nombre maximal de personnes admises) pour accompagner votre mission Lineas. Quelles règles de la fiche E40.05 (version du 15 décembre 2024) devez-vous appliquer ?",
+      "correctAnswer": "Vérifier son justificatif d'identité/accès (date et parcours), vérifier qu'elle n'est pas mineure (interdit même si employée), respecter la limite par défaut de 4 personnes conducteur titulaire inclus (dépassable uniquement par un Dirigeant d'astreinte présent en cabine), la placer dans une autre cabine si sa présence n'est pas justifiée par sa fonction, lui interdire téléphone mobile et action sur tout organe de l'EM, et mentionner son nom et sa qualité sur le Bulletin de Service.",
+      "distractors": [
+        "En l'absence d'affichette en cabine, le nombre maximal est limité à 3 personnes conducteur exclu, et il n'est pas nécessaire d'inscrire le nom de la personne sur le Bulletin de Service.",
+        "Les stagiaires mineurs employés par l'Entreprise Ferroviaire sont admis en cabine dès lors qu'ils possèdent une autorisation écrite APCT.",
+        "Sur une circulation effectuée sous partenariat Hexafret, c'est toujours exclusivement Lineas qui délivre l'autorisation de présence en cabine.",
+        "Les visiteurs clients et techniciens de maintenance constructeurs peuvent accéder seuls en cabine sans être accompagnés par du personnel qualifié Lineas/CFL cargo.",
+        "Un inspecteur EPSF doit obtenir l'autorisation préalable du conducteur et d'un dirigeant Lineas pour accéder à la cabine lors d'un contrôle.",
+        "La présence d'un Dirigeant d'astreinte au téléphone suffit pour autoriser le dépassement du nombre maximal de personnes en cabine."
+      ],
+      "explanation": "La fiche E40.05 (15/12/2024) précise : mineurs (employés ou non) strictement interdits ; nombre max par défaut = 4 personnes conducteur titulaire inclus (seul un Dirigeant d'astreinte PRÉSENT dans la cabine peut exceptionnellement déterminer un nombre supérieur) ; autre cabine autant que possible si présence non justifiée en cabine conduite ; visiteurs/SAV/sous-traitants obligatoirement accompagnés par personnel qualifié Lineas/CFL cargo ; pour circulation sous responsabilité d'une autre EF (ex. Hexafret), c'est l'EF responsable du train qui délivre l'autorisation ; inscription obligatoire du nom et de la qualité sur le BS ; interdiction téléphone mobile et toute action sur un organe de l'EM.",
+      "sources": [
+        "E40.05 — Admission de personne(s) en cabine de conduite, p. 1-5/5 (© Lineas, December 15, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q19",
+      "type": "qcm",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Habilitation KH0V, zones d'environnement électrique et caténaire < 5 m (E60.01)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du tableau des zones d'environnement ci-dessous (fiche E60.01, version du 1er octobre 2024), votre train est arrêté sur une voie électrifiée sous 25 000 V où les supports caténaires portent une bande bleue avec liserés blancs (ou à l'intérieur d'un tunnel). Quelle est la hauteur minimale à prendre en compte pour le fil de contact en 25 000 V, quelle hauteur maximale par rapport au plan de roulement le plan de travail ne doit-il pas dépasser si vous intervenez en Zone 2 (habilité KH0V), et que signifient exactement les 4 caractères de « KH0V » ?",
+      "referenceTable": {
+        "title": "Zones d'environnement électrique et hauteurs minimales de caténaire (E60.01, p. 2-5/5)",
+        "openByDefault": true,
+        "headers": [
+          "Zone",
+          "Distance « d » au fil de contact / pièces nues sous tension",
+          "Conditions d'accès"
+        ],
+        "rows": [
+          [
+            "Zone 0",
+            "d > 3 m",
+            "Accessible à tous les opérateurs (sans engager Zone 1)"
+          ],
+          [
+            "Zone 1",
+            "2 m ≤ d ≤ 3 m",
+            "Opérateurs avertis des risques électriques et formés"
+          ],
+          [
+            "Zone 2",
+            "1 m ≤ d ≤ 2 m",
+            "Opérateurs habilités « Caténaire » ou « KH0V » (ou Zone 1 sous leur surveillance) ; objets ne dépassant jamais la tête"
+          ],
+          [
+            "Zone 3",
+            "d < 1 m",
+            "Uniquement spécialité « Caténaire » / mesures complémentaires (ou KH0V avec protection mécanique type grille/paroi)"
+          ]
+        ],
+        "note": "Bande bleue à liserés blancs (ou tunnels, souterrains, tranchées couvertes d'office même sans repère) = caténaire < 5 m : min 4,53 m (1 500 V) / 4,65 m (25 000 V). Plan de travail max : 1,6 m si métallique/conducteur ou 1,8 m si non conducteur."
+      },
+      "correctAnswer": "Hauteur minimale = 4,65 m en 25 000 V (4,53 m en 1 500 V) ; plan de travail limité à 1,6 m s'il est métallique/conducteur ou 1,8 m s'il est non conducteur (sans dépasser la tête ni engager Zone 3) ; KH0V = K (Caténaire), H (Haute tension), 0 (opérations d'ordre non électrique), V (zone de voisinage renforcée — Zone 2).",
+      "distractors": [
+        "Hauteur minimale = 4,53 m en 25 000 V (4,65 m en 1 500 V) ; plan de travail limité à 1,8 m métallique ou 2,0 m non conducteur ; KH0V autorise l'accès libre en Zone 3 sans protection mécanique.",
+        "Hauteur minimale = 4,65 m en 25 000 V ; dans un tunnel sans bande bleue à liserés blancs, la caténaire est considérée à ≥ 5 m ; le « 0 » signifie « tension nulle (hors tension) ».",
+        "Hauteur minimale = 5,00 m en 25 000 V ; plan de travail limité à 2,0 m quel que soit le matériau ; le « V » signifie « Vérification de tension ».",
+        "Hauteur minimale = 4,65 m en 25 000 V ; plan de travail limité à 1,6 m non conducteur ou 1,8 m métallique ; Zone 2 = de 3 m à 2 m du fil de contact.",
+        "L'habilitation KH0V dispense de demander une mise hors tension par écrit lorsque l'outillage risque d'engager la Zone 3 sans protection mécanique.",
+        "Le « H » de KH0V signifie « Hauteur > 3 m », et le « K » signifie « Kilovolt »."
+      ],
+      "explanation": "La fiche E60.01 (01/10/2024) fixe tous ces repères numériques : Zone 0 (>3 m), Zone 1 (3 à 2 m), Zone 2 (2 à 1 m, KH0V, objets ne dépassant jamais la tête), Zone 3 (<1 m, interdite au conducteur sans mise hors tension ou protection mécanique ex. passerelle de visite de toiture). Caténaire < 5 m repérée par bande bleue à liserés blancs (et considérée d'office < 5 m en tunnel, souterrain, tranchée couverte même sans repère) : min 4,53 m en 1 500 V / 4,65 m en 25 000 V, plan de travail max 1,6 m (métallique/conducteur) ou 1,8 m (non conducteur). Signification : K = Caténaire, H = Haute tension, 0 = opérations d'ordre non électrique, V = voisinage renforcé (Zone 2).",
+      "sources": [
+        "E60.01 — Habilitation KH0V - Risques électriques, p. 1-5/5 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q20",
+      "type": "open",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Accès aux parties hautes d'un EM ou d'un véhicule sur voie électrifiée et Attestation de Consignation C (E60.02)",
+      "difficulty": "difficile",
+      "prompt": "Sur une voie électrifiée, une anomalie nécessite une intervention sur la toiture de votre engin moteur électrique (aucune consignation n'a encore été effectuée). Précisez, d'après la fiche E60.02 (1er octobre 2024) : (1) la règle absolue concernant l'accès à la toiture par un opérateur Lineas, (2) la procédure complète que vous devez exécuter avant, pendant et à la fin de l'intervention de l'équipe spécialisée (y compris l'Attestation de Consignation C, la mention formalisée au Carnet de Bord et le cas où vous quittez les lieux avant l'équipe spécialisée), et (3) les règles spécifiques pour un EM diesel (capots) et un véhicule remorqué sur voie électrifiée.",
+      "modelAnswer": "1. Interdiction absolue : que l'EM dispose ou non d'une trappe de toiture, l'accès à la toiture par un opérateur Lineas (Driver, Ground Operator, autre) est INTERDIT. L'appel à une équipe spécialisée est indispensable.\n2. Procédure pour intervention sur toiture d'un EM sur voie électrifiée :\n   - S'assurer visuellement de l'abaissement complet de tous les pantographes ;\n   - Demander l'intervention d'agents spécialisés et faire appel à l'agent autorisé à effectuer la consignation C (et pose des perches de mise aux rails) ;\n   - Recevoir directement l'« Attestation de Consignation C » (ACC) de la caténaire ;\n   - Procéder aux opérations techniques d'accès à la toiture et annoter le Carnet de Bord sous la forme formalisée : « Le conducteur ... atteste que sur l'EM ... il a été procédé aux opérations techniques d'accès à la toiture et qu'il a été vérifié à l'aide des contrôles correspondants que la capacité du filtre principal, si elle existe, est déchargée » ;\n   - Donner les instructions utiles à l'agent spécialisé ;\n   - À la fin de l'intervention, RESTITUER l'Attestation de Consignation C à l'agent qui l'a délivrée (NE PAS quitter les lieux avant de l'avoir restituée, afin de permettre la déconsignation) ;\n   - Si le conducteur doit quitter les lieux AVANT l'intervention de l'agent spécialisé : procéder au préalable à la mise en véhicule de l'EM.\n3. EM diesel et véhicules remorqués sur voie électrifiée :\n   - EM diesel : interventions depuis les parties supérieures des capots, levée des capots ou trappes de visite INTERDITES (capots latéraux peuvent être écartés, jamais levés) ; remplissage de la bâche à eau uniquement si habilité KH0V avec dispositif spécial (col de cygne) et assurance de ne pas pénétrer en Zone 3 (sinon ACC obligatoire).\n   - Véhicule sur voie électrifiée : intervention à hauteur > 3 m INTERDITE (demander personne habilitée au SGC) ; sous tension, autorisée uniquement si KH0V (ou surveillance), point d'appui ≤ 1,60 m conducteur / ≤ 1,80 m non conducteur, outils ne dépassant pas la tête et assurance de ne pas pénétrer en Zone 3 (sinon ACC obligatoire + restitution avant départ).",
+      "keyPoints": [
+        {
+          "label": "Accès à la toiture d'un EM (avec ou sans trappe) formellement INTERDIT à tout opérateur Lineas -> appel indispensable à une équipe spécialisée",
+          "critical": true
+        },
+        {
+          "label": "Contrôle visuel de l'abaissement complet des pantographes + réception directe de l'Attestation de Consignation C (ACC) avec mesures complémentaires (perches de mise aux rails)",
+          "critical": true
+        },
+        {
+          "label": "Opérations techniques d'accès à la toiture + annotation formalisée du Carnet de Bord attestant notamment que la capacité du filtre principal est déchargée (ou mise en véhicule si départ avant l'équipe)",
+          "critical": true
+        },
+        {
+          "label": "Restitution impérative de l'ACC à l'agent qui l'a délivrée avant de quitter les lieux (permet la déconsignation)",
+          "critical": true
+        },
+        {
+          "label": "EM diesel (capots supérieurs/levée interdits, capots latéraux écartés sans lever) et véhicule sur voie électrifiée (> 3 m interdit ; sous tension : KH0V, 1,60/1,80 m, outils ≤ tête, hors Zone 3, sinon ACC)",
+          "critical": false
+        }
+      ],
+      "explanation": "La fiche E60.02 (01/10/2024) verrouille le risque d'électrocution en toiture et parties hautes : interdiction d'accès toiture pour tout opérateur Lineas, Attestation de Consignation C (ACC) remise et restituée avant départ, attestation écrite de décharge du filtre principal au CB, et seuils stricts sur EM diesel et wagons.",
+      "sources": [
+        "E60.02 — Accès aux parties hautes d'un EM / véhicule, p. 1-5/5 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q21",
+      "type": "qcm",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Descente d'un EM déraillé ou en court-circuit sans ouverture du disjoncteur (E60.03)",
+      "difficulty": "moyen",
+      "prompt": "Votre engin moteur électrique vient de dérailler (ou subit un court-circuit sans ouverture du disjoncteur) sur une voie électrifiée. Vous commandez l'abaissement des pantographes, mais l'un d'eux reste en contact avec la caténaire et votre radio GSM-R est hors service. Quelle conduite de descente exacte impose la fiche E60.03 ?",
+      "correctAnswer": "Descendre de l'engin moteur en prenant garde de ne pas être en contact simultané avec le sol et l'engin moteur : sauter de la dernière marche sans tenir les rambardes (sauf si cela aggrave le risque, par exemple en cas d'arrêt sur un viaduc).",
+      "distractors": [
+        "Descendre normalement en utilisant les trois points d'appui et en tenant fermement les deux rambardes jusqu'à poser les deux pieds sur le ballast.",
+        "Sauter directement depuis le seuil de la porte de la cabine sans utiliser aucune marche de l'échelle.",
+        "Rester impérativement enfermé dans la cabine pendant au moins 30 minutes jusqu'à la décharge complète des batteries, même en cas d'incendie.",
+        "Sauter de la dernière marche en maintenant une main sur la rambarde pour amortir la réception.",
+        "Descendre en posant d'abord un pied sur le rail de roulement afin d'équilibrer le potentiel électrique avec la locomotive.",
+        "Laisser les pantographes levés si le court-circuit est franc afin que la sous-station disjoncte d'elle-même."
+      ],
+      "explanation": "Lors d'un déraillement ou d'un court-circuit sans ouverture du disjoncteur, une différence de potentiel dangereuse peut exister entre la caisse de l'EM et le sol (E60.03). Procédure : (1) abaisser les pantographes et contrôler visuellement ; si abaissés -> descendre normalement ; (2) s'ils restent en contact ou impossibilité de vérifier : si GSM-R en service -> demander suppression de tension et attendre assurance avant de descendre ; dans les autres cas -> éviter tout contact SIMULTANÉ sol + EM en sautant de la dernière marche SANS tenir les rambardes (sauf aggravation du risque ex. arrêt sur un viaduc).",
+      "sources": [
+        "E60.03 — Déraillement - Court-circuit sur l'engin moteur, p. 1/1 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q22",
+      "type": "open",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Coupure d'urgence de la traction électrique (E60.04)",
+      "difficulty": "difficile",
+      "prompt": "À la suite d'un incendie aux abords d'une voie électrifiée (pompiers intervenant à moins de 3 mètres de la caténaire ou projetant de l'eau vers celle-ci) ou d'un obstacle en contact avec la caténaire, vous devez ordonner une « coupure d'urgence ». Aucune communication n'a encore été passée. Selon la fiche E60.04 (révision du 14 décembre 2025), précisez : (1) le niveau de priorité et les moyens de transmission possibles (y compris le cas d'un Dispositif d'Urgence DU en établissement), (2) les 4 éléments exacts à énoncer dans l'ordre verbal, (3) quand vous pouvez considérer la coupure d'urgence exécutée, et (4) la limite impérative de ce que la coupure d'urgence autorise ou n'autorise PAS vis-à-vis de la caténaire.",
+      "modelAnswer": "1. Priorité et moyens :\n   - L'ordre de coupure d'urgence a PRIORITÉ ABSOLUE sur toutes les autres communications en cours.\n   - Moyens : généralement le téléphone d'alarme (bande rouge) relié au RSS, ou la radio GSM-R / téléphonie dématérialisée (via le SGC qui avise ou met en relation avec le RSS), ou en établissement auprès de l'agent E ; à proximité d'un Dispositif d'Urgence (DU, repéré en rouge) : actionner le DU, aviser l'agent E au téléphone voisin et recevoir sa confirmation d'exécution.\n2. Les 4 éléments de l'ordre verbal :\n   - L'expression « coupure d'urgence » ;\n   - La localisation précise de la zone à priver de tension (PK ou n° de support caténaire voisin, voie, gares ou postes encadrants) ;\n   - Le motif (sauvetage de personne, incendie, obstacle... — permettant au RSS de prendre les mesures adaptées, ex. création de SNOP) ;\n   - L'identité (et, le cas échéant, la fonction) du demandeur.\n3. Assurance d'exécution : le conducteur ne peut considérer la coupure d'urgence exécutée QU'APRÈS en avoir reçu la CONFIRMATION par le RSS ou un agent du SGC (ou l'agent E).\n4. Portée et limite absolue : les mesures de coupure d'urgence permettent certaines interventions à moins de 3 mètres d'une caténaire ou d'un feeder, mais n'autorisent EN AUCUN CAS, à elles seules, à entrer en contact directement ou par l'intermédiaire d'un objet avec la caténaire ou le feeder (seule une consignation C / mise aux rails le permet).",
+      "keyPoints": [
+        {
+          "label": "Priorité absolue sur toutes les communications ; transmission par téléphone d'alarme (bande rouge), GSM-R / téléphonie dématérialisée (via SGC), agent E ou Dispositif d'Urgence (DU) + avis agent E",
+          "critical": true
+        },
+        {
+          "label": "4 éléments de l'ordre verbal : « coupure d'urgence », localisation précise (PK/support/voie/gares), motif (ex. SNOP), identité/fonction",
+          "critical": true
+        },
+        {
+          "label": "Ne considérer la coupure d'urgence exécutée qu'après réception de la confirmation par le RSS, un agent du SGC ou l'agent E",
+          "critical": true
+        },
+        {
+          "label": "Limite critique : n'autorise EN AUCUN CAS, à elle seule, à entrer en contact directement ou par un objet avec la caténaire ou le feeder",
+          "critical": true
+        },
+        {
+          "label": "Motifs incluant sauvetage, incendie avec pompiers < 3 m ou jet d'eau vers caténaire, obstacle, confinement MD, ou moyen d'arrêt des circulations électriques",
+          "critical": false
+        }
+      ],
+      "explanation": "La fiche E60.04 (14/12/2025) distingue clairement la coupure d'urgence (qui prive la caténaire de tension rapidement sans équipotentialité ni mise aux rails, donc AUCUN contact toléré) de la consignation C (E60.02). L'attente de confirmation explicite d'exécution par le RSS/SGC/agent E est impérative.",
+      "sources": [
+        "E60.04 — Coupure d'urgence, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q23",
+      "type": "qcm_multi",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Zones traitées par produits phytosanitaires et intervention sous un EM équipé KVB (E60.05 / E60.06)",
+      "difficulty": "moyen",
+      "prompt": "Vous devez traverser une zone faisant l'objet d'un Avis Divers ARTIC pour traitement par produits phytosanitaires (désherbage), et ultérieurement intervenir sous un engin moteur équipé du KVB. Quelles mesures exactes imposent les fiches E60.05 et E60.06 ?",
+      "correctAnswers": [
+        "En circulation dans une zone traitée par produits phytosanitaires (délai de rentrée légal pouvant aller jusqu'à 48 heures), fermer les fenêtres et couper la ventilation de l'engin moteur au passage de la zone concernée.",
+        "S'il est obligatoire de quitter le poste de conduite dans une zone traitée (contamination par voie cutanée), porter vêtements couvrant intégralement bras et jambes, chaussures de sécurité et gants, éviter tout contact avec la végétation, réduire le temps d'exposition au minimum, et se laver les mains à l'arrivée (remplacer les EPI si contact prolongé).",
+        "Avant toute intervention sous un engin moteur équipé du KVB (antenne émettant des rayonnements électromagnétiques non ionisants), assurer sa protection si l'EM peut être accosté et isoler le poste de conduite afin de couper l'alimentation de l'antenne."
+      ],
+      "distractors": [
+        "Le délai de rentrée après traitement phytosanitaire est toujours limité à 6 heures et interdit de quitter la cabine même pour un motif impérieux de sécurité.",
+        "Lors du passage en cabine dans une zone traitée par produits phytosanitaires, il faut ouvrir les fenêtres et mettre la ventilation à fond pour évacuer les vapeurs.",
+        "L'antenne KVB sous l'engin moteur émet des rayonnements ionisants nécessitant un périmètre d'isolement de 30 mètres.",
+        "Pour couper l'alimentation de l'antenne KVB avant d'intervenir sous l'EM, il suffit de placer le manipulateur de traction sur « 0 » sans isoler le poste de conduite."
+      ],
+      "displayCount": 5,
+      "explanation": "E60.05 précise : délai de rentrée jusqu'à 48 h (rentrée possible pour motif impérieux de sécurité ou continuité d'exploitation avec tenue adaptée), information par Avis Divers ARTIC, contamination cutanée (surtout les mains) -> fermer fenêtres + couper ventilation en cabine, manches/jambes longues + chaussures + gants si descente, s'éloigner lors du passage du train désherbeur, lavage des mains à l'arrivée. E60.06 (01/10/2024) précise : antenne KVB = rayonnements électromagnétiques NON ionisants -> avant intervention sous EM, protection contre accostage + isoler le poste de conduite pour couper l'alimentation de l'antenne.",
+      "sources": [
+        "E60.05 — Accès aux zones traitées par produits phytosanitaires, p. 1-2/3 (© Lineas, June 14, 2020 Brussels)",
+        "E60.06 — Intervention sous un engin moteur équipé du KVB, p. 1/1 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q24",
+      "type": "open",
+      "theme": "Sécurité du personnel",
+      "subtheme": "Visite de train effectuée en pleine voie — Séquence complète (E60.10)",
+      "difficulty": "difficile",
+      "prompt": "Suite à un incident en pleine voie sur double voie, vous devez descendre effectuer une visite complète de votre train. Le train est arrêté, mais aucune opération de préparation ni d'immobilisation ni de contact avec le SGC n'a encore été effectuée. Selon la fiche E60.10 (révision du 8 juin 2025), décrivez dans l'ordre chronologique exact toutes les étapes de la visite : (1) les démarches préalables et demandes de protection au SGC, (2) les équipements à emporter et la descente, (3) le sens de cheminement et la distinction entre « visite de sécurité » et « visite technique », et (4) la clôture avant reprise de marche.",
+      "modelAnswer": "1. Préalables avant descente :\n   - Aviser obligatoirement le SGC ;\n   - Assurer l'immobilisation du train (cales ou FAM sur 1/3 des véhicules si déclivités ≤ 16 mm/m, ou 1/2 si > 16 mm/m) ;\n   - Vérifier la visibilité pour traverser : sinon, Demande PERS au SGC pour abaissement de vitesse à 160 km/h ou arrêt des circulations ; si une intervention côté entrevoie est prévue, demander l'arrêt des circulations par Demande PERS ;\n   - Prendre en compte la présence éventuelle de MD (codes danger/ONU et emplacements).\n2. Équipements et descente :\n   - Revêtir les EPI (gilet de signalisation, chaussures de sécurité, lampe) ; ne porter AUCUNE protection auditive ni casque auditif pouvant altérer l'écoute ;\n   - Se munir selon besoin de l'outillage, des agrès de protection, des étiquettes IS/IN, du BF, du relevé de composition et du Mémento ;\n   - Descendre côté piste avec les deux mains libres (poser les agrès sur le rebord de cabine), face au véhicule, 3 points d'appui, vérifier la zone de réception sur le ballast, puis prendre ses agrès un par un depuis le sol.\n3. Cheminement et déroulement en deux temps :\n   - Traverser devant l'EM et rejoindre la PISTE de la voie contiguë ;\n   - Effectuer la VISITE DE SÉCURITÉ : s'assurer que le train est complet et non déraillé ;\n   - Arrivé au véhicule porteur de la signalisation d'arrière, traverser et rejoindre la piste côté voie de circulation du train visité ;\n   - Si la Demande PERS avait été demandée uniquement pour la traversée des voies : la rendre au SGC ;\n   - Effectuer la VISITE TECHNIQUE : rechercher la ou les anomalies afin d'y remédier.\n4. Clôture avant départ :\n   - Rendre la Demande PERS au SGC si pas encore fait ;\n   - Retirer les mesures d'immobilisation ;\n   - Aviser le SGC de la reprise de marche.",
+      "keyPoints": [
+        {
+          "label": "Aviser le SGC, immobiliser le train (1/3 si ≤ 16 mm/m ; 1/2 si > 16 mm/m) et faire une Demande PERS si visibilité insuffisante (160 km/h ou arrêt) ou si intervention côté entrevoie (arrêt)",
+          "critical": true
+        },
+        {
+          "label": "EPI (gilet, chaussures, lampe), pas de protection auditive, prendre BF/relevé/Mémento/étiquettes/outillage, vigilance MD, descente côté piste face au véhicule avec 3 points d'appui et mains libres",
+          "critical": true
+        },
+        {
+          "label": "Traverser devant l'EM vers la piste de la voie contiguë -> effectuer d'abord la VISITE DE SÉCURITÉ (train complet et non déraillé) jusqu'au véhicule de queue",
+          "critical": true
+        },
+        {
+          "label": "À la queue, traverser vers la piste côté voie du train (rendre la PERS si prise uniquement pour la traversée) -> effectuer la VISITE TECHNIQUE (recherche/remédiation des anomalies)",
+          "critical": true
+        },
+        {
+          "label": "Rendre la Demande PERS si encore active, retirer les mesures d'immobilisation et aviser le SGC de la reprise de marche",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche E60.10 (08/06/2025) impose un circuit sécurisé très précis en pleine voie : aller côté piste de la voie contiguë pour la visite de SÉCURITÉ (train complet et non déraillé), traversée à la queue, puis retour côté piste de la voie du train pour la visite TECHNIQUE, en limitant au strict nécessaire la durée de la Demande PERS.",
+      "sources": [
+        "E60.10 — Visite de train effectuée en pleine voie, p. 1-3/3 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q25",
+      "type": "qcm_multi",
+      "theme": "Communications & documents",
+      "subtheme": "Principes de communication de sécurité, épellation et choix GI / EF (E90.01)",
+      "difficulty": "moyen",
+      "prompt": "Selon la fiche E90.01 (version du 14 décembre 2025), quelles règles régissent les communications de sécurité et la rédaction des imprimés de sécurité ?",
+      "correctAnswers": [
+        "Les inscriptions sur les imprimés de sécurité doivent être faites de manière indélébile, sans grattage ni surcharge ; en cas d'erreur, biffer l'indication erronée et écrire lisiblement la rectification utile.",
+        "Les interlocuteurs s'identifient mutuellement, se localisent, utilisent les termes normalisés (« à vous/à toi », « reçu », « correct », « terminé »...), collationnent intégralement les ordres ou signalements reçus, énoncent les nombres de façon usuelle puis chiffre par chiffre (« virgule » pour les décimales) et utilisent l'alphabet phonétique international si nécessaire.",
+        "Tout avis intéressant directement la sécurité ou les conditions de circulation en ligne s'adresse à l'opérateur du GI (privilégier les appels point à point GSM-R), tandis que les faits sans incidence sur la sécurité/circulation s'adressent au représentant désigné de l'EF."
+      ],
+      "distractors": [
+        "En cas d'erreur sur un formulaire du livret des instructions, le conducteur doit effacer proprement au correcteur blanc (blanco) afin de garder l'imprimé net.",
+        "Pour limiter la durée d'occupation des ondes, il est recommandé d'employer les abréviations locales d'équipe et de ne collationner que le numéro d'identification unique.",
+        "Lors d'un appel de groupe GSM-R, seuls l'émetteur et le destinataire principal entendent la conversation.",
+        "Le conducteur ne peut jamais recevoir par radio GSM-R en cours de marche un ordre concernant une vitesse limite à respecter entre deux points remarquables."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche E90.01 (14/12/2025) formalise la communication de sécurité : écriture indélébile sans grattage ni surcharge (biffer et réécrire) ; enregistrement possible de toutes les communications à distance (GSM-R, tél, dématérialisée) ; identification mutuelle + localisation + collationnement intégral + « terminé » ; éviter les jargons/termes locaux ; alphabet phonétique (Alpha... Zoulou) et épellation chiffre par chiffre (ex. 12,50 = « un deux virgule cinq zéro ») ; privilégier le point à point GSM-R (les appels de groupe étant entendus par tous les postes de la zone -> concis et limités au service) ; un ordre de VL entre deux points peut être transmis en marche par GSM-R à distance raisonnable et hors zones complexes.",
+      "sources": [
+        "E90.01 — Livret des instructions - Principes de communication, p. 1-4/4 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q26",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Modalités d'utilisation du Livret des Instructions — Remise, signature, préfixes et exception IN82 (E90.02 / E90.03)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du récapitulatif ci-dessous (fiches E90.02 du 14 juin 2026 et E90.03 du 8 juin 2025), quelle est la SEULE instruction du Livret qui ne peut JAMAIS être transmise par dépêche (exclusivement remise en main propre), quand la rubrique « signature » de l'émetteur est-elle complétée, et quelle est la signification des préfixes « R », « T », « D » et « M » dans le champ Z (Identification unique) ?",
+      "referenceTable": {
+        "title": "Règles de remplissage du Livret des Instructions (E90.02, p. 1/6 & E90.03, p. 3/72 et 60/72)",
+        "openByDefault": true,
+        "headers": [
+          "Élément du formulaire",
+          "Règle réglementaire"
+        ],
+        "rows": [
+          [
+            "Moment de rédaction par le conducteur",
+            "Complété À L'ARRÊT ; joint au Bulletin de Service"
+          ],
+          [
+            "Préfixe Champ Z (Identification unique)",
+            "R+n° = Radio ; T+n° = Téléphone ; D+n° = Digital ; M+signature = remise Manuelle"
+          ],
+          [
+            "Rubrique signature de l'émetteur",
+            "Complétée SEULEMENT lors d'une transmission directe de main à main"
+          ],
+          [
+            "Instructions exigeant 1 formulaire par opération",
+            "MAIL (IN39), MEQI (IN40), VAIG (IN43), DIPU (IN87)"
+          ]
+        ],
+        "note": "Toutes les instructions peuvent être remises de main à main ; une seule fait exception à la transmission à distance."
+      },
+      "correctAnswer": "Seul l'ordre MV (IN82 — Entrée en canton occupé et marche à vue) est exclusivement remis en main propre (jamais par dépêche) ; la signature de l'émetteur n'est complétée que lors d'une remise directe de main à main ; R = Radio, T = Téléphone, D = Digital, M = remise Manuelle (+ signature).",
+      "distractors": [
+        "L'ordre CBA (IN37) et l'ordre C (IN38) sont exclusivement remis en main propre ; la signature est complétée sur toute dépêche radio ; D = Dépêche téléphonique.",
+        "L'ordre ORET (IN42) est la seule instruction exclusivement remise en main propre ; R = Régulateur, T = Train, D = Dépêche, M = Manœuvre.",
+        "L'ordre S (IN84) ne peut jamais être transmis par radio ni téléphone ; le conducteur peut compléter les formulaires en marche sous 30 km/h.",
+        "L'ordre BAPO (IN36) est exclusivement remis en main propre ; un seul formulaire MAIL (IN39) peut regrouper jusqu'à 3 manœuvres d'aiguilles différentes.",
+        "Seul le bulletin DSEC (BC57) est exclusivement remis en main propre ; le champ Z n'est à reporter que si l'ordre est reçu sur papier.",
+        "Aucune instruction n'est réservée à la remise en main propre depuis le déploiement d'ODICEO-M ; M = Message écrit."
+      ],
+      "explanation": "La fiche E90.02 (14/06/2026) et E90.03 (08/06/2025) sont formelles : toutes les instructions peuvent être transmises à distance (GSM-R, tél, dématérialisée, numérique, parfois vive voix) EXCEPTÉ l'ordre MV (IN82) qui est EXCLUSIVEMENT remis en main propre (jamais par dépêche, champ Z = M+signature). Le conducteur complète ses formulaires À L'ARRÊT, reporte le n° d'identification unique (R+n° Radio, T+n° Téléphone, D+n° Digital, M+signature Manuelle), ne complète la signature qu'en main à main, et joint l'imprimé à son BS. Il faut autant de formulaires que de manœuvres/vérifications/installations pour MAIL, MEQI, VAIG et DIPU.",
+      "sources": [
+        "E90.02 — Livret des instructions - Modalités d'utilisation des instructions, p. 1/6 et p. 5/6 (© Lineas, June 14, 2026 Lille)",
+        "E90.03 — Livret des instructions - Formulaires, p. 3/72 et p. 59-60/72 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q27",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Bulletins à l'initiative du conducteur (BC46–BC99) et formulaires internes Lineas (L1 / L2) (E90.02 / E90.03)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau des bulletins conducteur et formulaires Lineas ci-dessous (E90.02 / E90.03), vous venez de transmettre une Demande de Secours (BC57 — DSEC), puis votre dépannage aboutit et vous souhaitez annuler votre demande de secours pour repartir. Par ailleurs, quel formulaire utilisez-vous pour signaler une panne du réseau GSM-GFU (et pour quel défaut NE doit-il PAS être utilisé), et quels équipements précis figurent sur l'autorisation interne L2 ?",
+      "referenceTable": {
+        "title": "Bulletins à l'initiative du conducteur et formulaires internes Lineas (E90.02, p. 3 & 6/6 ; E90.03)",
+        "openByDefault": true,
+        "headers": [
+          "Code",
+          "Désignation",
+          "Usage et particularité réglementaire"
+        ],
+        "rows": [
+          [
+            "BC46 (FOLI)",
+            "Formulaire Libre",
+            "Ordre ou avis non prévu par une instruction spécifique"
+          ],
+          [
+            "BC56 (PERS)",
+            "Demande de protection personnel",
+            "Protection du conducteur (pas pour évacuation/transbordement voyageurs)"
+          ],
+          [
+            "BC57 (DSEC)",
+            "Demande de secours",
+            "Phrase obligatoire : « Je donne l'assurance que je ne me remettrai pas en marche de moi-même » ; PK = tête de train ou de 2e partie"
+          ],
+          [
+            "BC58 (REMA)",
+            "Annulation DSEC / Remise en marche",
+            "Exclusivement réservé à l'annulation d'une demande de secours + autorisation de remise en marche"
+          ],
+          [
+            "BC59 (ANSI)",
+            "Anomalie de signalisation",
+            "Signalement d'une anomalie de signalisation au SGC"
+          ],
+          [
+            "BC99 (AGSM)",
+            "Anomalie GSM-GFU",
+            "Dérangement du système GSM-GFU (NE PAS utiliser pour problème lié directement au téléphone mobile)"
+          ],
+          [
+            "L1 / L2",
+            "Formulaires internes Lineas",
+            "L1 = avis isolement/dérangement au SO (remplacé par LocApp si possible) ; L2 = autorisation dirigeant pour KVB, DAAT, ENR (ATESS)"
+          ]
+        ],
+        "note": "Les imprimés L1 et L2 complétés doivent dans tous les cas être joints au Bulletin de Service."
+      },
+      "correctAnswer": "Vous utilisez impérativement le BC58 (REMA) — exclusivement réservé à l'annulation d'une DSEC — avant toute remise en marche ; pour un dérangement du système GSM-GFU vous utilisez le BC99 (AGSM), mais JAMAIS pour un problème lié directement au téléphone mobile ; le formulaire L2 concerne l'autorisation de circuler avec KVB, DAAT ou ENR (ATESS) isolé ou en dérangement.",
+      "distractors": [
+        "Vous utilisez le BC46 (FOLI) pour annuler la demande de secours ; le BC99 (AGSM) sert principalement à déclarer une batterie déchargée sur votre téléphone mobile ; le L2 couvre uniquement le KVB et la VACMA.",
+        "Vous pouvez repartir dès que vous prévenez verbalement le Régulateur sans remplir le BC58 (REMA) ; le L1 ne peut jamais être remplacé par un signalement sur LocApp.",
+        "Dans le BC57 (DSEC), le PK indiqué correspond toujours à la queue du train ; le BC56 (PERS) s'utilise aussi pour protéger une évacuation de voyageurs.",
+        "Le BC58 (REMA) s'utilise après tout arrêt accidentel en pleine voie pour demander l'autorisation de repartir ; le L2 est délivré par l'Agent-circulation du SGC.",
+        "Le BC59 (ANSI) sert à signaler un dérangement GSM-GFU ; le formulaire L2 concerne la radio GSM-R, la RSO et l'indicateur de vitesse.",
+        "En cas d'impossibilité de transmettre un L1 directement au Service Opérationnel, le conducteur attend la fin de sa mission pour le remettre au dépôt sans passer par le SGC."
+      ],
+      "explanation": "La fiche E90.02 (14/06/2026) et les notices de E90.03 (08/06/2025) contiennent plusieurs nuances clés : BC57 (DSEC) -> répéter explicitement « Je donne l'assurance que je ne me remettrai pas en marche de moi-même » et PK = tête de train ou de 2e partie ; BC58 (REMA) -> exclusivement réservé à l'annulation d'une DSEC et obligatoirement complété avant remise en marche ; BC56 (PERS) -> jamais pour évacuation/transbordement voyageurs ; BC99 (AGSM) -> pas pour un problème matériel du téléphone mobile lui-même ; L1 -> transmis sans délai par dépêche au SO (ou verbalement via SGC si impossible, remplacé par LocApp si possible) ; L2 -> délivré par un dirigeant Lineas pour KVB, DAAT ou ENR (ATESS) isolé/en dérangement.",
+      "sources": [
+        "E90.02 — Livret des instructions - Modalités d'utilisation des instructions, p. 1-3/6 et p. 6/6 (© Lineas, June 14, 2026 Lille)",
+        "E90.03 — Livret des instructions - Formulaires BC46 à BC99 et L1/L2, p. 3-14/72 et p. 69-72/72 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q28",
+      "type": "qcm_multi",
+      "theme": "Communications & documents",
+      "subtheme": "Instructions SGC intégrant la Protection du Personnel et procédures de terrain (E90.02 / E90.03)",
+      "difficulty": "difficile",
+      "prompt": "Plusieurs Instructions Nationales délivrées par le SGC intègrent directement la notification de « Protection du personnel assurée », dispensant ainsi le conducteur d'établir un BC56 (PERS) séparé. Parmi les propositions suivantes tirées de E90.02 et E90.03, lesquelles sont exactes ?",
+      "correctAnswers": [
+        "Les formulaires IN32 (ANOT), IN34 (ATRA), IN39 (MAIL), IN40 (MEQI), IN43 (VAIG) et IN45 (VEVO) intègrent directement la notification de protection du personnel (dispensant d'une Demande PERS) ; le conducteur doit suivre l'itinéraire fixé et lever la protection lors du compte rendu.",
+        "Sur un avis IN32 (ANOT), l'information « rang dans le train » en regard de « Boîte chaude » et « Frein serré » est déterminée à partir de la tête du train en prenant en compte les essieux de la ou des machines de remorque ou en véhicule.",
+        "Pour un ordre IN34 (ATRA — Annulation de transit), le conducteur vérifie l'allumage de la lampe blanche, appuie sur le bouton-poussoir, vérifie l'extinction de la lampe et rend compte de l'état de la lampe ; pour IN39 (MAIL) et IN43 (VAIG), il se place à la pointe de l'aiguille et au-dessus de celle-ci pour vérifier position et collage de la lame."
+      ],
+      "distractors": [
+        "Même lorsque la case « Protection du personnel assurée » est cochée sur un ordre ANOT, MAIL ou VAIG, le conducteur doit obligatoirement émettre en doublon un bulletin BC56 (PERS).",
+        "Sur un avis IN32 (ANOT), le rang indiqué pour une boîte chaude ou un frein serré est compté uniquement sur les wagons remorqués, en excluant toujours les essieux de la locomotive de tête.",
+        "Un ordre IN44 (VECA — Vérification de la caténaire) impose au conducteur de descendre sur la piste pour examiner les isolateurs à pied.",
+        "Sur un ordre IN39 (MAIL), le conducteur vérifie le collage de la lame en se tenant à 10 mètres en aval du cœur d'aiguille."
+      ],
+      "displayCount": 5,
+      "explanation": "Les notices explicatives de E90.03 (08/06/2025) précisent : les 6 formulaires ANOT (IN32), ATRA (IN34), MAIL (IN39), MEQI (IN40), VAIG (IN43) et VEVO (IN45) incluent leur propre cadre « Protection du personnel assurée » (dispensant d'un BC56 PERS, avec levée de la protection dans le compte rendu). Détails métier essentiels : ANOT -> rang compté depuis la tête en incluant les essieux des EM de remorque ou en véhicule ; ATRA -> vérifier lampe allumée -> appuyer BP -> vérifier extinction -> rendre compte ; MAIL/VAIG -> se placer à la pointe de l'aiguille et au-dessus ; VECA (IN44) -> vérification de la caténaire DEPUIS LA CABINE DE CONDUITE.",
+      "sources": [
+        "E90.02 — Livret des instructions - Modalités d'utilisation des instructions, p. 4-5/6 (© Lineas, June 14, 2026 Lille)",
+        "E90.03 — Livret des instructions - Notices ANOT, ATRA, MAIL, MEQI, VAIG, VECA, VEVO, p. 31-58/72 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q29",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Distinction des Instructions SGC : PN (IE8 / RATO / VEFE / DIPU), AVASS, OCAR, ORET et BAPO (E90.02 / E90.03)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du tableau synthétique ci-dessous (fiches E90.02 et E90.03), vous recevez successivement des instructions du SGC dans diverses situations perturbées. Quelle association entre situation rencontrée et instruction exacte (avec sa prescription) est parfaitement conforme au Livret des Instructions ?",
+      "referenceTable": {
+        "title": "Synthèse des principales Instructions Européennes et Nationales SGC (E90.02 & E90.03)",
+        "openByDefault": true,
+        "headers": [
+          "Code",
+          "Intitulé",
+          "Prescription / Usage spécifique"
+        ],
+        "rows": [
+          [
+            "IE8",
+            "PN en dérangement",
+            "Limitation de vitesse en cas de gardiennage provisoire d'un PN à SAL (ou arrêt/examen/activation manuelle)"
+          ],
+          [
+            "IN31 (AVASS)",
+            "Avarie Système de Shuntage",
+            "Autorise la circulation après avarie dispositif d'aide au shuntage ou défaut CdV (prudence PN/TVP, 30 km/h + sifflet à quai)"
+          ],
+          [
+            "IN36 (BAPO)",
+            "Abaissement des pantographes",
+            "Abaisser/circuler pantos baissés ; l'autorisation de relever les pantos ne dispense PAS de l'AuM"
+          ],
+          [
+            "IN41 (OCAR)",
+            "Ordre de circuler avec restriction",
+            "Prudence, VL donnée, ou marcher au pas (sans dépasser 6 km/h)"
+          ],
+          [
+            "IN42 (ORET)",
+            "Ordre de rétention",
+            "Retenir un train hors signal d'arrêt fermé ; remise en marche par la partie basse du formulaire"
+          ],
+          [
+            "IN83 (RATO)",
+            "Raté d'ouverture / Bris de barrières",
+            "Marche prudente aux abords d'un PN en raté d'ouverture, bris de barrières (tous feux fonctionnent) ou dérangement pictogrammes PN piétons"
+          ],
+          [
+            "IN85 (VEFE)",
+            "Vérification Feux routiers PN à SAL",
+            "Bris de barrières : s'arrêter avant le PN, vérifier que tous les feux routiers fonctionnent normalement et rendre compte"
+          ],
+          [
+            "IN87 (DIPU)",
+            "Dérangement Installation Public",
+            "Dérangement pictogramme TVP / traversée public : 30 km/h ou prudence entre origine et extrémité du quai + sifflet (1 formulaire par installation)"
+          ]
+        ],
+        "note": "Voir aussi IE1 (EOA), IE2 (après Train Trip), IE3 (rester à l'arrêt), IE4 (annulation), IE5 (vitesse limitée), IE7 (remise en marche SR/SH), IN33 (ARPI), IN35 (AVEN), IN37 (CBA), IN38 (C), IN84 (S)."
+      },
+      "correctAnswer": "Bris de barrières nécessitant de s'arrêter avant le PN pour contrôler les feux routiers = IN85 (VEFE) ; ordre de marcher au pas (≤ 6 km/h) = IN41 (OCAR) ; autorisation de relever les pantographes sur IN36 (BAPO) ne dispense pas de l'AuM ; remise en marche après IN42 (ORET) par la partie basse du formulaire.",
+      "distractors": [
+        "Bris de barrières nécessitant de s'arrêter pour contrôler les feux routiers = IN83 (RATO) ; marcher au pas sur IN41 (OCAR) correspond à une vitesse maximale de 10 km/h.",
+        "L'autorisation de relever les pantographes sur la partie basse de l'IN36 (BAPO) vaut automatiquement Autorisation de Mouvement (AuM) ; le dérangement d'un pictogramme TVP relève de l'IE8.",
+        "La remise en marche après un ordre de rétention IN42 (ORET) se fait obligatoirement au moyen d'un bulletin BC58 (REMA) ; IN87 (DIPU) concerne le bris de barrières d'un PN routier.",
+        "En cas de dérangement du dispositif d'aide au shuntage, le SGC autorise la circulation au moyen d'un ordre IN35 (AVEN) ; IE8 concerne le franchissement d'un EOA.",
+        "Un ordre IN37 (CBA) s'utilise en Block Manuel et un ordre IN38 (C) en Block Automatique ; l'ordre IN84 (S) autorise le franchissement d'un sémaphore de BAL.",
+        "L'ordre IN33 (ARPI) est exclusivement réservé aux arrêts d'urgence pour obstacle ; l'IE4 autorise la reprise après un Train Trip."
+      ],
+      "explanation": "Cette vue transversale de E90.02/E90.03 évite les confusions les plus courantes : RATO (IN83 = marche prudente, tous feux fonctionnent) vs VEFE (IN85 = arrêt avant PN + vérification feux routiers) vs IE8 (gardiennage provisoire/dérangement PN) vs DIPU (IN87 = TVP/installations public, 1 formulaire par installation) ; OCAR (IN41 : « marcher au pas » = ≤ 6 km/h) ; ORET (IN42 : remise en marche par partie basse du formulaire) ; BAPO (IN36 : autorisation de relever les pantos ne dispense PAS de l'AuM) ; AVASS (IN31 = aide au shuntage / défaut CdV) ; CBA (IN37 = BA) vs C (IN38 = hors BA) vs S (IN84 = sémaphore de BM).",
+      "sources": [
+        "E90.02 — Livret des instructions - Modalités d'utilisation des instructions, p. 4-5/6 (© Lineas, June 14, 2026 Lille)",
+        "E90.03 — Livret des instructions - Formulaires IE1 à IN87, p. 15-68/72 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot10-q30",
+      "type": "qcm",
+      "theme": "Communications & documents",
+      "subtheme": "Instructions Européennes ETCS (IE1 à IE8) et cas particulier CBA/C repéré par l'AC (E90.02 / E90.03)",
+      "difficulty": "moyen",
+      "prompt": "Dans le Livret des Instructions (fiches E90.02 et E90.03), à quoi correspond exactement l'Instruction Européenne « IE7 » (par opposition à IE1 et IE2), et dans quel cas précis la case « signal carré repéré par l'Agent Circulation (1) » est-elle cochée sur un ordre CBA (IN37) ou C (IN38) ?",
+      "correctAnswer": "IE7 autorise à se remettre en marche en mode SR ou SH après la préparation d'un mouvement (IE1 = franchir un EOA ; IE2 = circuler après un Train Trip) ; la case « signal carré repéré par l'Agent Circulation » sur CBA/C est cochée lorsque le conducteur ne s'est pas rendu au pied du signal pour le repérer et que son numéro a été fourni par l'agent-circulation.",
+      "distractors": [
+        "IE7 autorise le franchissement d'un EOA (IE1 = remise en marche après préparation) ; la case sur CBA/C est cochée uniquement lorsque le signal carré est éteint.",
+        "IE7 annule une instruction précédente (IE4 = remise en marche après préparation) ; la case sur CBA/C signifie que le conducteur a vérifié lui-même la plaque au pied du signal.",
+        "IE7 oblige le conducteur à rester à l'arrêt et à exécuter la fin de mission (IE3 = autorisation de repartir en mode SH) ; la case sur CBA/C concerne uniquement les signaux mécaniques.",
+        "IE7 impose une circulation à vitesse limitée (IE5 = remise en marche en SR) ; la case sur CBA/C n'existe que sur le formulaire IN37 (CBA) et pas sur IN38 (C).",
+        "IE7 autorise la circulation après un Train Trip (IE2 = franchissement d'un PN en dérangement) ; la case sur CBA/C dispense le conducteur de marcher à vue.",
+        "IE7 est exclusivement réservée à l'ETCS niveau 2 et ne peut jamais être utilisée en ETCS niveau 1."
+      ],
+      "explanation": "Les 7 Instructions Européennes présentes dans le livret Lineas (E90.02 et E90.03) sont : IE1 (franchir un EOA), IE2 (circuler après Train Trip), IE3 (rester à l'arrêt / fin de mission / supprimer MA), IE4 (annuler une instruction), IE5 (vitesse limitée), IE7 (se remettre en marche en SR ou SH après préparation d'un mouvement), IE8 (PN en dérangement / gardiennage provisoire). Et la note de bas de page (1) des formulaires IN37 (CBA, p. 41/72) et IN38 (C, p. 43/72) précise que la case « signal carré repéré par l'Agent Circulation » est cochée lorsque le conducteur ne s'est pas rendu au pied du signal pour le repérer et que son numéro a été fourni par l'AC.",
+      "sources": [
+        "E90.02 — Livret des instructions - Modalités d'utilisation des instructions, p. 2/6 et p. 4/6 (© Lineas, June 14, 2026 Lille)",
+        "E90.03 — Livret des instructions - IE1 à IE8 et IN37/IN38, p. 15-28/72 et p. 41-44/72 (© Lineas, June 08, 2025 Lille)"
+      ]
+    }
+  ]
+}
