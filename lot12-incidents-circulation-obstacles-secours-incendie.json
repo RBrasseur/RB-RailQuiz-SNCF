@@ -1,0 +1,600 @@
+{
+  "packId": "lot12-incidents-circulation-obstacles-secours-incendie",
+  "title": "Lot 12 — Incidents majeurs de circulation, obstacles, secours, incendie et ETCS1 (F43 à F47)",
+  "generatedAt": "2026-11-24T19:18:00Z",
+  "questions": [
+    {
+      "id": "lot12-q01",
+      "type": "qcm",
+      "theme": "Incidents de circulation",
+      "subtheme": "Incident dans un tunnel à mauvaise aération avec EM diesel (F43.01)",
+      "difficulty": "moyen",
+      "prompt": "Vous conduisez un train remorqué par un engin moteur diesel et vous vous arrêtez accidentellement dans un tunnel désigné « à mauvaise aération » aux RT/LiLi, sans pouvoir reprendre votre marche en avant dans un court délai. Quelles différences exactes régissent le refoulement selon la présence ou l'absence à l'entrée du tunnel de la pancarte portant une flèche recourbée noire sur fond blanc, et selon qu'une demande de secours a déjà été rédigée ou non ?",
+      "correctAnswer": "Si la pancarte à flèche recourbée est présente ET qu'AUCUNE demande de secours n'a été rédigée : refouler d'office à l'air libre (possible sans agent à l'avant, avec les plus grandes précautions) ; si une demande de secours a déjà été rédigée OU en l'absence de pancarte : immobiliser, arrêter le(s) moteur(s) diesel, ne pas refouler d'office, évacuer le personnel à l'air libre si danger/gêne respiratoire (sans pancarte : retour en arrière uniquement sur dépêche de la gare en arrière et guidé par signaux de manœuvre).",
+      "distractors": [
+        "En présence de la pancarte à flèche recourbée, le conducteur peut refouler d'office à l'air libre même après avoir déjà transmis une demande de secours.",
+        "Même en l'absence de pancarte à flèche recourbée, le conducteur est autorisé à refouler d'office sans agent à l'avant dès que les gaz d'échappement deviennent gênants.",
+        "En présence de la pancarte à flèche recourbée sans demande de secours, le refoulement à l'air libre ne peut s'effectuer qu'avec un agent en tête du mouvement guidant par signaux de manœuvre.",
+        "En l'absence de pancarte à flèche recourbée, il faut maintenir le moteur diesel au ralenti afin de conserver la production d'air comprimé pendant toute l'attente du secours.",
+        "En l'absence de pancarte, l'autorisation de revenir à la gare en arrière est donnée verbalement par radio par le Régulateur sans dépêche ni signaux de manœuvre.",
+        "La pancarte à flèche recourbée s'applique exclusivement aux locomotives électriques en cas d'incendie."
+      ],
+      "explanation": "La fiche F43.01 établit 3 cas précis : (1) pancarte flèche recourbée + PAS de demande de secours -> refouler d'office à l'air libre (sans agent à l'avant, plus grandes précautions) ; (2) pancarte flèche recourbée + demande de secours DÉJÀ rédigée -> immobiliser, arrêter les moteurs diesel, NE PAS refouler (engagement pris sur la DSEC), attendre secours/REMA et guider le personnel à l'air libre si besoin ; (3) PAS de pancarte -> interdiction de refouler d'office, immobiliser, arrêter les moteurs diesel, conduire le personnel à l'air libre si danger/gêne respiratoire, aviser SGC, retour en arrière uniquement sur dépêche de la gare en arrière et guidé par signaux de manœuvre.",
+      "sources": [
+        "F43.01 — Incident dans un tunnel à mauvaise aération, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot12-q02",
+      "type": "qcm_multi",
+      "theme": "Incidents de circulation",
+      "subtheme": "PN à SAL ou PN gardé indûment ouvert / barrières brisées (F43.02 / F43.05)",
+      "difficulty": "difficile",
+      "prompt": "Sur une ligne à DOUBLE VOIE, vous constatez qu'un PN à SAL est indûment ouvert ou comporte une barrière brisée (F43.02), ou qu'un PN gardé est indûment ouvert (F43.05). Quelles prescriptions réglementaires sont exactes ?",
+      "correctAnswers": [
+        "Dans les deux cas sur double voie : siffler si possible avant le PN, émettre le SAL et le SAR, et tenter de s'arrêter avant le PN (si les barrières sont remplacées par un dispositif de secours constitué d'éléments souples tendus, poursuivre/reprendre la marche et cesser SAL/SAR).",
+        "Pour un PN à SAL (F43.02), si l'arrêt n'a pu être obtenu avant le PN (ou après franchissement prudent sans assurance que le PN est protégé) : s'arrêter à la DCO et poser des pétards sur la ou les voies de sens contraire (dispense de poser les pétards uniquement si le SGC donne l'assurance que les mesures de protection vis-à-vis du PN sont prises).",
+        "Pour un PN gardé (F43.05), si l'arrêt est obtenu avant le PN, tenter de fermer/faire fermer les barrières en l'absence du garde : si elles peuvent être fermées, signaler au SGC et protéger le PN comme un obstacle ; si elles ne peuvent pas être fermées, signaler au SGC, cesser SAL/SAR et franchir avec la plus grande prudence après avoir sifflé longuement."
+      ],
+      "distractors": [
+        "Sur une ligne à voie unique, la découverte d'un PN à SAL indûment ouvert impose également de s'arrêter à la DCO après le PN et de poser trois pétards sur la voie.",
+        "Pour un PN à SAL dont l'arrêt a été obtenu avant le PN sur double voie sans assurance que le PN est protégé, il est interdit de manœuvrer le commutateur du PN s'il existe.",
+        "Sur une ligne à voie unique, si l'arrêt ne peut être obtenu avant un PN à SAL ou gardé indûment ouvert, le conducteur doit impérativement s'arrêter immédiatement en pleine voie juste après le PN et ne jamais reporter son arrêt à la 1re gare/poste.",
+        "Lorsque des dispositifs de secours (éléments souples tendus en travers de la chaussée) remplacent les barrières lors de travaux, le conducteur doit quand même poser des pétards à la DCO."
+      ],
+      "displayCount": 5,
+      "explanation": "F43.02 et F43.05 distinguent finement DV, VU et VB : (1) en DV -> siffler + SAL + SAR + tenter de s'arrêter ; sans assurance de protection PN (F43.02) -> commutateur si présent, franchir prudemment après sifflet long, puis arrêt à la DCO et pose de pétards sur voie(s) sens contraire (dispense seulement si SGC assure la protection prise) + réapprovisionnement pétards au CB ; (2) en VU -> pas de SAL/SAR/DCO ; si arrêt non obtenu avant le PN, siffler longuement et REPORTER l'arrêt à l'entrée de la 1re gare ou du 1er poste de cantonnement pour signaler ; (3) en VB -> si arrêt non obtenu, s'arrêter et signaler au SGC.",
+      "sources": [
+        "F43.02 — PN à SAL indûment ouvert ou barrière(s) brisée(s), p. 1-3/3 (© Lineas, June 16, 2019 Brussels)",
+        "F43.05 — PN gardé indûment ouvert, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot12-q03",
+      "type": "qcm",
+      "theme": "Incidents de circulation",
+      "subtheme": "Ordre VEFE (F43.03) et reprise de marche aux abords d'un PN à SAL (F43.04)",
+      "difficulty": "facile",
+      "prompt": "Vous avez reçu un ordre VEFE (IN85) suite à un bris de barrières d'un PN à SAL (F43.03) ; par ailleurs, lors d'une autre mission, vous devez reprendre votre marche après un arrêt aux abords d'un PN à SAL repéré par une pancarte « PN 000 » avec bandeau blanc (F43.04). Quelles règles exactes devez-vous respecter ?",
+      "correctAnswer": "Pour l'ordre VEFE : situer le PK aux LiLi, s'arrêter avant le PN, vérifier le fonctionnement de tous les feux routiers rouges clignotants, rendre compte au SGC, siffler longuement puis franchir en marche prudente ; pour un PN à SAL avec pancarte à bandeau blanc (sans OFS) : commander/confirmer la fermeture au coffret fixé sur le support de la pancarte, franchir après fermeture et ne pas se préoccuper de la réouverture (automatique).",
+      "distractors": [
+        "Pour l'ordre VEFE : franchir le PN à 30 km/h sans marquer l'arrêt tout en observant les feux routiers depuis la cabine ; pour le PN à bandeau blanc : rouvrir manuellement le PN après le passage du dernier véhicule.",
+        "Pour l'ordre VEFE : le compte rendu au SGC n'est obligatoire que si un feu routier est endommagé ; pour un PN à SAL non muni de bandeau blanc : franchir immédiatement sans attendre la fermeture des barrières.",
+        "Pour l'ordre VEFE : après vérification des feux routiers, franchir le PN en marche normale sans siffler ; pour le PN à bandeau blanc : la commande au coffret est réservée exclusivement à un OFS.",
+        "Un PN à SAL est toujours équipé pour fonctionner automatiquement vis-à-vis des circulations en sens inverse du sens normal.",
+        "Après un arrêt aux abords d'un PN à SAL non muni de bandeau blanc, il faut reculer de 100 m pour réattaquer la pédale d'annonce.",
+        "L'ordre VEFE est transmis à l'aide de l'Instruction Nationale 83 (RATO)."
+      ],
+      "explanation": "F43.03 (08/06/2025) précise l'exécution de l'IN85 VEFE : situer le PK aux LiLi, s'arrêter avant le PN, vérifier tous les feux routiers rouges clignotants, rendre compte au SGC (radio, tél PN, 1er tél voie ou 1re gare/poste), siffler longuement et franchir en marche prudente. F43.04 précise qu'après arrêt aux abords d'un PN à SAL : avec pancarte « PN 000 » à bandeau blanc -> commander/confirmer la fermeture au coffret (s'il n'y a pas d'OFS), franchir après fermeture, réouverture automatique ; sans bandeau blanc -> approcher avec la plus grande prudence et ne franchir qu'après avoir constaté la fermeture des barrières.",
+      "sources": [
+        "F43.03 — Le conducteur est requis pour rendre compte de l'état de fonctionnement d'un PN à SAL, p. 1/1 (© Lineas, June 08, 2025 Lille)",
+        "F43.04 — Incident(s) aux abords d'un PN à SAL, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot12-q04",
+      "type": "qcm",
+      "theme": "Obstacles & urgence",
+      "subtheme": "Choc, mouvement anormal ou présomption de danger sur la voie parcourue (F44.00)",
+      "difficulty": "moyen",
+      "prompt": "En ligne conventionnelle équipée en Block Automatique AVEC compteurs d'essieux, vous ressentez un choc anormal provenant apparemment de la voie parcourue (sans défaut sur la voie voisine et sans assurance du SGC que la protection est assurée). Après avoir arrêté votre train, immobilisé et visité train et voie, quelle mesure de protection exacte impose la fiche F44.00 (version du 14 décembre 2025), et en quoi diffère-t-elle d'une ligne en BA SANS compteur d'essieux ?",
+      "correctAnswer": "En BA AVEC compteur d'essieux, la barre de court-circuit est inopérante et ne doit PAS être posée : vous devez protéger le point dangereux comme un obstacle (puis aviser le SGC par GSM-R ou arrêt 1er tél/gare/poste au signal d'entrée même ouvert) ; en BA SANS compteur d'essieux, vous posez une BCC dans le canton (+ SAM si défectuosité non visible avec risque de déraillement) et annotez le carnet de bord.",
+      "distractors": [
+        "En BA avec compteur d'essieux comme sans compteur d'essieux, il faut toujours poser une barre de court-circuit à 30 m du point dangereux.",
+        "En BA avec compteur d'essieux, vous pouvez repartir sans protéger le point dangereux et aviser simplement le SGC à la gare terminus.",
+        "En BM (hors VUT/contre-voie), après un choc voie, vous devez poser trois pétards à la DCO avant de repartir vers le 1er poste ouvert.",
+        "Si vous constatez un choc provenant d'un train croiseur engageant le gabarit, vous appliquez uniquement F44.00 sans appliquer F44.06.",
+        "En BA sans compteur d'essieux, même si l'agent du SGC vous donne l'assurance que la protection de la voie est assurée, vous devez quand même poser une BCC avant de repartir.",
+        "Lorsque le conducteur descend visiter la voie après un choc d'origine indéterminée, il est obligatoirement tenu d'emporter la barre de court-circuit."
+      ],
+      "explanation": "La fiche F44.00 (14/12/2025) détaille l'arbre de décision après choc/mouvement anormal : caténaire -> F41.04 ; train croiseur/dépasseur -> + F44.06 ; voie voisine affectée ou engagement gabarit -> protection d'obstacle immédiate. Si l'anomalie provient de la voie parcourue et sans assurance protection SGC : BA sans compteur d'essieux -> BCC dans le canton (+ SAM si non visible et risque déraillement) + CB ; BA avec compteur d'essieux -> NE PAS poser la BCC (inopérante), protéger comme un obstacle ; BM -> reprise en arrêt accidentel et avis au Garde du 1er poste ouvert (arrêt au signal d'entrée même ouvert, ou aiguille en VU, ou avant de regagner la voie normale si VUT/contre-voie).",
+      "sources": [
+        "F44.00 — Choc, mouvement anormal ou présomption d'un danger sur la voie parcourue, p. 1-4/4 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q05",
+      "type": "open",
+      "theme": "Obstacles & urgence",
+      "subtheme": "Protection et couverture d'un obstacle sur une voie principale voisine (F44.01)",
+      "difficulty": "difficile",
+      "prompt": "Sur une ligne à double voie équipée en BAL (sans compteur d'essieux) et de la radio GSM-R, vous constatez un éboulement obstruant la voie principale voisine. Aucune action n'a encore été effectuée. Selon la fiche F44.01 (version du 14 décembre 2025), décrivez : (1) les mesures immédiates en cabine et la règle pour cesser le SAR/SAL, (2) les étapes exactes de couverture sur le terrain si vous n'avez PAS obtenu l'assurance de protection du SGC (distance de pose de la BCC par rapport au signal d'entrée du canton, impact de la BCC ou d'un commutateur sur la distance de couverture — y compris les exceptions BAPR et ICS contre-sens !), (3) les règles de pose des 3 pétards (espacement et zones à éviter), et (4) les mesures dès que la protection est assurée par une gare ou un poste.",
+      "modelAnswer": "1. Mesures immédiates en cabine :\n   - S'arrêter d'urgence, émettre le SAR (à défaut ordre d'arrêt en phonie), émettre le SAL ;\n   - Ordonner à l'AC ou au Régulateur d'assurer la protection en précisant nature et lieu du danger (et ne cesser le SAR qu'après autorisation d'un agent du SGC, puis cesser le SAL).\n2. Couverture sur le terrain (en l'absence d'assurance de protection du SGC) :\n   - Se munir des agrès de protection et allumer une torche à flamme rouge (combustion ~8 min si pyrotechnique ; interdiction possible aux LiLi près de dépôts hydrocarbures/gaz ; si plusieurs directions -> placer une 2e torche près de l'obstacle si disponible) ;\n   - En BA sans compteur d'essieux : placer une Barre de Court-Circuit (BCC) à AU MOINS 30 mètres en aval du signal d'entrée du canton ;\n   - Distance de couverture : si la BCC est posée en amont de l'obstacle côté train attendu et dans le même canton (ou commutateur de blocage / Carré Tunnel / PN Normal-Danger dans le même canton), la couverture n'est effectuée qu'à 400 mètres en amont de la BCC / du commutateur, EXCEPTÉ en BAPR (pour la BCC) et en ICS vis-à-vis des trains circulant à contre-sens (pour BCC ET commutateurs) où la couverture doit être effectuée à la DCO complète (normalement 1 500 m, selon LiLi) ;\n   - En chemin : pétard devant la pointe de toute aiguille rencontrée (1re si successives), coupure d'urgence au téléphone d'alarme, poser des pétards si nécessité de s'écarter de la voie pour téléphoner (puis les retirer si poursuite).\n3. Pose des 3 pétards à la distance de couverture :\n   - Présenter un SAM et placer 3 pétards répartis sur les deux files de rails à environ 30 m d'intervalle, le plus rapproché du SAM étant placé à AU MOINS 30 m en amont du SAM ;\n   - Éviter (sauf urgence) de poser des pétards dans un endroit fréquenté ou dans une zone de 100 m de part et d'autre d'un signal (risque de confusion avec pétard de carré vu ouvert) ;\n   - Si autre tâche urgente : couverture par les seuls pétards ; repérer l'obstacle par un SAM au retour s'il n'est pas visible.\n4. Dès que la protection est assurée par une gare/un poste :\n   - Retirer la BCC / remettre le commutateur en position normale (ou indiquer le lieu à une gare/poste encadrant si impossible) ;\n   - Recontacter le RSS si coupure d'urgence demandée (sauf dispense) ;\n   - Annoter le carnet de bord pour tout agrès utilisé (BCC, torche, SAM, pétards) et reprendre selon l'arrêt accidentel.",
+      "keyPoints": [
+        {
+          "label": "Mesures immédiates : arrêt d'urgence, SAR (+ avis phonie nature/lieu), SAL ; ne cesser le SAR qu'après autorisation du SGC",
+          "critical": true
+        },
+        {
+          "label": "Couverture sans assurance SGC : agrès + torche à flamme rouge + BCC à ≥ 30 m en aval du signal d'entrée du canton (en BA sans compteur d'essieux)",
+          "critical": true
+        },
+        {
+          "label": "Réduction à 400 m grâce à BCC ou commutateur (blocage/Carré Tunnel/PN Normal-Danger), EXCEPTÉ en BAPR (BCC) et en ICS contre-sens (BCC & commutateurs) où la DCO complète (1 500 m normal) reste exigée",
+          "critical": true
+        },
+        {
+          "label": "Pose des 3 pétards : répartis sur les 2 rails à ~30 m d'intervalle, 1er à ≥ 30 m en amont du SAM ; éviter 100 m de part et d'autre d'un signal et lieux fréquentés (pétard devant pointe d'aiguille si rencontrée)",
+          "critical": true
+        },
+        {
+          "label": "Après protection assurée par gare/poste : retirer BCC, remettre commutateur normal, recontacter RSS si coupure d'urgence, annoter le CB pour les agrès utilisés et reprendre en arrêt accidentel",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F44.01 (14/12/2025) est le pilier de la sécurité ferroviaire RFN : la maîtrise des chiffres clés (30 m en aval du signal pour BCC, 400 m vs DCO 1 500 m, exceptions BAPR et ICS contre-sens, 3 pétards à 30 m d'intervalle et ≥ 30 m du SAM, exclusion ±100 m des signaux, ZDA ≥ 2 × DCO, combustion torche pyro ~8 min) est incontournable. Rappel : sur voies de service, on signale seulement l'obstacle au SGC.",
+      "sources": [
+        "F44.01 — Obstacle - Danger pour les trains circulant sur une ligne équipée en signalisation au sol, p. 1-7/7 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q06",
+      "type": "qcm",
+      "theme": "Obstacles & urgence",
+      "subtheme": "Perception de Torche à flamme rouge, Appel d'arrêt d'urgence ARES, SAL et SAR (F44.03)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du tableau récapitulatif F44.03 ci-dessous (version du 14 décembre 2025), vous roulez à 25 km/h sur une ligne équipée GSM-R et vous percevez le SAR SEUL (sans SAL). Par ailleurs, sur une autre mission, vous percevez une lueur de torche à flamme rouge électronique qui disparaît juste après son dépassement. Quelles conduites exactes impose la fiche F44.03 dans ces deux situations ?",
+      "referenceTable": {
+        "title": "Conduite à la perception d'une alerte d'urgence (F44.03, p. 1-6/7)",
+        "openByDefault": true,
+        "headers": [
+          "Signal d'urgence perçu",
+          "Arrêt d'urgence ?",
+          "Émission du SAL ?",
+          "Reprise avant instructions SGC"
+        ],
+        "rows": [
+          [
+            "Torche à flamme rouge (lueur)",
+            "Oui (maintenir FU même si la lueur disparaît)",
+            "Non",
+            "Vérif non-déraillement (présumé si zone TIV ≤ 50 km/h) -> si pas d'instructions : MàV jusqu'au 1er tél/poste/gare (zone dense : 1er signal après dégagement du 1er quai)"
+          ],
+          [
+            "Appel Arrêt d'Urgence GSM-GFU ARES",
+            "Oui",
+            "Oui",
+            "Répondre ou Rappel OPS ; si pas d'instructions : VU = couvrir sens contraire et NE PAS repartir ; DV = vérif train puis MàV jusqu'au 1er tél/poste/gare"
+          ],
+          [
+            "SAR SEUL (sans SAL)",
+            "Oui, SAUF si V ≤ 30 km/h (MàV directe)",
+            "NON (sauf danger/obstacle identifié)",
+            "Silence radio -> vérif train -> MàV en attente d'instructions (si fin alerte au poste radio sans instructions -> arrêt 1er endroit favorable)"
+          ],
+          [
+            "SAL (seul ou avec SAR)",
+            "Oui",
+            "OUI uniquement sur ligne équipée GSM-R (cesser après l'arrêt)",
+            "Vérif train -> cesser SAL -> MàV en attente d'instructions (sinon arrêt endroit favorable pour solliciter)"
+          ]
+        ],
+        "note": "Dans TOUS les cas (Torche, ARES, SAR, SAL), le conducteur doit toujours RECEVOIR DES INSTRUCTIONS avant de reprendre la marche normale. En l'absence d'acquittement, l'appel ARES se réémet toutes les ~30 s pendant ~15 min."
+      },
+      "correctAnswer": "À 25 km/h (≤ 30 km/h) à la perception du SAR seul : respecter directement la marche à vue SANS déclencher d'arrêt d'urgence ni émettre le SAL (observer le silence radio, vérifier l'absence d'anomalie et attendre des instructions) ; face à une torche dont la lueur disparaît (les torches électroniques fixes ne sont pas bifaces), maintenir le freinage d'urgence jusqu'à l'arrêt complet, vérifier l'absence de déraillement et solliciter des instructions.",
+      "distractors": [
+        "À la perception du SAR seul à 25 km/h, vous devez toujours provoquer l'arrêt d'urgence ET émettre le SAL ; si la lueur d'une torche disparaît, vous pouvez interrompre le freinage d'urgence.",
+        "À la perception du SAR seul, dès que votre poste radio GSM-R indique la fin de l'alerte radio, vous pouvez reprendre immédiatement votre marche normale sans recevoir d'instructions.",
+        "À la perception du SAL sur une ligne NON équipée de la radio GSM-R, vous devez également émettre le SAL jusqu'à la gare suivante.",
+        "Lors d'un appel d'arrêt d'urgence GSM-GFU ARES sur une ligne à voie unique sans instructions immédiates, vous pouvez repartir en marche à vue jusqu'au premier téléphone.",
+        "En zone dense Île-de-France, après une torche sans possibilité d'obtenir d'instructions, vous repartez en MàV et vous vous arrêtez impérativement avant le 1er quai rencontré.",
+        "À la perception du SAR, vous devez immédiatement appeler le Régulateur en phonie pour lui demander l'origine de l'alerte."
+      ],
+      "explanation": "La révision du 14/12/2025 de F44.03 précise des subtilités majeures : (1) SAR seul : pas d'arrêt d'urgence si V ≤ 30 km/h (MàV directe), NE PAS émettre le SAL (pour ne pas stopper les trains non concernés), observer le silence radio ; (2) SAL perçu : arrêt d'urgence + émettre le SAL UNIQUEMENT sur ligne équipée GSM-R, puis le cesser après l'arrêt ; (3) torches électroniques installées à demeure = NON bifaces (disparaissent une fois dépassées) -> TOUJOURS laisser le FU se poursuivre jusqu'à l'arrêt ; en zone dense IDF sans instructions -> MàV puis arrêt au 1er signal de cantonnement APRÈS dégagement du 1er quai ; (4) ARES sans instructions en voie unique -> couvrir sens contraire et NE PAS repartir ; (5) dans TOUS les cas, jamais de reprise en marche normale sans instructions du SGC.",
+      "sources": [
+        "F44.03 — Perception d'une lueur de torche à flamme rouge, d'un appel d'arrêt d'urgence - SAL - SAR, p. 1-7/7 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q07",
+      "type": "qcm",
+      "theme": "Obstacles & urgence",
+      "subtheme": "Détonation de pétards isolés (F44.04) et protection arrière (F44.05)",
+      "difficulty": "moyen",
+      "prompt": "Comparez deux procédures de protection : (A) vous percevez la détonation d'un pétard isolé en circulation ETCS sur une section où aucune DCO n'est prévue aux RT/LiLi (F44.04), et (B) vous subissez un arrêt accidentel en pleine voie susceptible de dépasser 5 minutes sur une ligne repérée « xx » (protection arrière des trains de toute nature) alors que l'arrière de votre train est arrêté à 60 m en aval de la sortie d'un tunnel (F44.05). Quelles distances exactes s'appliquent ?",
+      "correctAnswer": "En (A) (pétard isolé en ETCS sans DCO aux RT/LiLi) : arrêt d'urgence (prêt à baisser les pantos), puis MàV sur 3 000 mètres à partir du point d'arrêt (+ arrêt accidentel) ; en (B) (protection arrière) : 3 pétards à 1 000 mètres de l'arrière du train (espacés de ~30 m sur les 2 files de rails) PLUS un pétard supplémentaire à 200 mètres de l'arrière du train (arrière à < 100 m en aval d'un tunnel).",
+      "distractors": [
+        "En (A), en ETCS les pétards isolés sont sans objet si le DMI affiche FS ; en (B), la protection arrière se pose à 1 500 m sans pétard à 200 m.",
+        "En (A), la marche à vue en ETCS sans DCO est limitée à 1 500 mètres ; en (B), le pétard à 200 m n'est posé que si l'arrière est à plus de 100 m de la sortie du tunnel.",
+        "En (A), si aucun signal d'arrêt n'est franchi au freinage, on repart en marche normale ; en (B), la protection arrière est déclenchée dès que l'arrêt dépasse 3 minutes.",
+        "En (B), un train à protection arrière circulant à contre-sens sur VUT ou à contre-voie doit obligatoirement être protégé à l'arrière dès 5 minutes d'arrêt en pleine voie.",
+        "En (B), si le conducteur envoie son agent d'accompagnement poser la protection arrière, il peut repartir dès que l'arrêt est terminé sans attendre le retour de l'agent.",
+        "En (B), le repérage « vv » aux RT/LiLi concerne la protection arrière des trains de toute nature (voyageurs et marchandises)."
+      ],
+      "explanation": "F44.04 : pétard isolé -> arrêt d'urgence (prêt à baisser pantos) -> reprise en MàV sur au moins la DCO depuis le point d'arrêt + arrêt accidentel (et en ETCS, à défaut de DCO aux RT/LiLi, MàV sur 3 000 m). F44.05 : « vv » = voyageurs uniquement, « xx » = trains de toute nature ; protection arrière déclenchée si arrêt > 5 min (pleine voie ou gare sans reconnaissance possible ; pas de protection arrière en établissement PL, hors cantonnement, contre-sens VUT ou contre-voie) ; 3 pétards à 1 000 m de l'arrière (~30 m d'intervalle, éviter ±100 m des signaux) + 1 pétard à 200 m si arrière sous tunnel ou à < 100 m en aval de la sortie ; attendre le retour de l'agent d'accompagnement pour repartir.",
+      "sources": [
+        "F44.04 — Détonation d'un ou plusieurs pétards isolés, p. 1-2/2 (© Lineas, June 14, 2020 Brussels)",
+        "F44.05 — Protection d'un train sur ligne à protection arrière, p. 1-3/3 (© Lineas, December 15, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot12-q08",
+      "type": "qcm",
+      "theme": "Incidents majeurs",
+      "subtheme": "Train circulant dans des conditions dangereuses (F44.06) et Dérive (F44.07)",
+      "difficulty": "difficile",
+      "prompt": "Vous constatez la DÉRIVE d'un autre train (ou de votre propre train par absence de freinage) sur une ligne équipée de la radio GSM-R (F44.07). Pourquoi vous est-il formellement INTERDIT d'émettre le Signal d'Alerte Radio (SAR), quels moyens devez-vous utiliser à la place, et dans quel cas les mesures de première urgence peuvent-elles être différées face à un train circulant dans des conditions dangereuses (F44.06) ?",
+      "correctAnswer": "En cas de dérive, NE PAS émettre le SAR car cela risquerait d'arrêter le train précédant la dérive et de provoquer son rattrapage : il faut aviser EN PHONIE les agents du SGC (n° train, position, sens, voie, vitesse, présence MD/gaz dangereux, masse) et utiliser le sifflet si c'est son propre train ; en F44.06, les mesures d'urgence peuvent être différées si leur exécution immédiate risque d'aggraver le danger (ex. arrêter un train en feu sous un tunnel ou en zone à risque d'incendie).",
+      "distractors": [
+        "En cas de dérive, il faut immédiatement émettre le SAR et le SAL afin d'immobiliser tous les trains présents dans la Zone de Diffusion d'Alerte.",
+        "En cas de dérive, le SAR est autorisé uniquement si votre propre train transporte des marchandises dangereuses.",
+        "Si vous recevez l'ordre de circuler en avance pour échapper à une dérive sur une ligne où l'avance n'est pas admise, vous devez circuler silencieusement sans siffler.",
+        "Si vous êtes avisé d'un danger de collision avec une dérive, vous devez rester enfermé en cabine de conduite pour protéger les organes de commande.",
+        "En F44.06, l'arrêt d'un train circulant dans des conditions dangereuses ne peut jamais être différé, même si ce train est en feu à l'entrée d'un tunnel.",
+        "Si une dérive est arrêtée sur une voie principale, elle n'a jamais besoin d'être protégée comme un obstacle."
+      ],
+      "explanation": "Piège classique d'examen RFN (F44.07) : face à une dérive (de son train ou d'un autre train), INTERDICTION D'ÉMETTRE LE SAR (qui stopperait le train devant la dérive -> collision par rattrapage) -> alerte EN PHONIE aux agents du SGC (position, sens, voie, vitesse, MD/gaz dangereux, masse) + sifflet si propre train (2 coups brefs répétés selon D30.21). Autres points F44.07 : ordre de circuler en avance pour fuir une dérive sur ligne où ce n'est pas admis -> siffler longuement sur tout le parcours ; danger de collision avec une dérive -> s'arrêter, évacuer la cabine et faire évacuer les personnes à proximité ; une fois arrêtée sur VP -> immobiliser et protéger comme un obstacle si nécessaire. F44.06 (14/12/2025) : mesures différables si risque d'aggravation (train en feu sous tunnel, zone incendie).",
+      "sources": [
+        "F44.06 — Train circulant dans des conditions dangereuses, p. 1-2/2 (© Lineas, December 14, 2025 Lille)",
+        "F44.07 — Dérive, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot12-q09",
+      "type": "qcm_multi",
+      "theme": "Incidents majeurs",
+      "subtheme": "Rupture d'attelage (F44.08) et Train déraillé en pleine voie (F44.09)",
+      "difficulty": "difficile",
+      "prompt": "Concernant une rupture d'attelage (F44.08) et un train déraillé en pleine voie (F44.09, version du 15 décembre 2024), quelles prescriptions réglementaires sont exactes ?",
+      "correctAnswers": [
+        "En cas de rupture d'attelage, il faut toujours visiter jusqu'au véhicule porteur de la signalisation d'arrière (la 2e partie pouvant être elle-même divisée en plusieurs tronçons) et immobiliser la 2e partie ; si l'attelage mécanique et la CFA/CG peuvent être refaits : vérifier qu'aucun signal d'arrêt ne s'oppose, reculer prudemment à vitesse d'un homme au pas (F43.04 si PN à SAL), immobiliser la 1re partie, raccorder et procéder à une VFF.",
+        "Si lors d'une rupture d'attelage l'attelage mécanique peut être reconstitué mais que la CFA/CG NE peut PAS être raccordée, on applique F20.04 (cas d'une fuite CFA/CG avant le robinet d'isolement) ; si l'attelage mécanique ne peut être refait, demander le secours pour la 2e partie.",
+        "En cas de train déraillé en pleine voie (F44.09), sur la voie du train déraillé : en BA ou BMCV, s'il reste au moins 1 véhicule sur les rails dans le canton -> repérer dès que possible la queue par un pétard posé à 200 m en arrière du dernier véhicule (sinon protéger comme un obstacle) ; en BM hors BMCV -> pétard à 200 m (ou protection arrière si train à protection arrière) ; et demander le secours en précisant « wagon de secours nécessaire »."
+      ],
+      "distractors": [
+        "En cas de rupture d'attelage, dès que vous constatez l'endroit de la coupure, il est inutile de poursuivre la visite jusqu'au véhicule porteur de la signalisation d'arrière.",
+        "En cas de train déraillé en pleine voie en BA où aucun véhicule ne reste sur les rails dans le canton, un simple pétard posé à 200 m en arrière suffit à assurer la protection sur la voie du train déraillé.",
+        "En cas de rupture d'attelage avec attelage et CFA/CG refaits, le conducteur peut reculer vers la 2e partie jusqu'à 15 km/h et repartir sans effectuer de VFF.",
+        "L'allumage d'une torche à flamme rouge au franchissement d'une zone de LTV à 50 km/h ne constitue pas une présomption de déraillement en l'absence de chute de pression à la CFA/CG."
+      ],
+      "displayCount": 5,
+      "explanation": "F44.08 impose : visite jusqu'au véhicule porteur de la signalisation d'arrière (la 2e partie pouvant être coupée en plusieurs tronçons), immobilisation de la 2e partie, étiquette IN (wagon) ou CB (EM) ; recul à vitesse d'un homme au pas + VFF si réattelage complet ; F20.04 si CFA/CG impossible à raccorder ; secours 2e partie si attelage mécanique impossible. F44.09 (15/12/2024) rappelle les 5 cas de présomption (4 de la CFA/CG + torche à flamme rouge en zone TIV ≤ 50 km/h), la protection de voie voisine, et sur la voie du train déraillé : BA/BMCV avec ≥ 1 véhicule sur les rails -> pétard à 200 m (sinon protection d'obstacle) ; BM hors BMCV -> pétard à 200 m ou protection arrière ; demande de secours avec « wagon de secours nécessaire ».",
+      "sources": [
+        "F44.08 — Rupture d'attelage, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F44.09 — Train déraillé en pleine voie, p. 1-2/2 (© Lineas, December 15, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q10",
+      "type": "qcm",
+      "theme": "Incidents majeurs",
+      "subtheme": "Reprise après tamponnement (F44.10) et divagation de bestiaux (F44.11)",
+      "difficulty": "moyen",
+      "prompt": "Après un tamponnement (F44.10), aucun indice anormal n'est apparent sur le matériel, mais vous inspectez un wagon muni de tampons fusibles à liseré et vous contrôlez votre engin moteur. Par ailleurs, plus loin en ligne, vous recevez un ordre OCAR motivé par la divagation de « bestiaux » (F44.11, 14 décembre 2025). Quelles règles exactes s'appliquent dans ces deux cas ?",
+      "correctAnswer": "Après tamponnement : visiter obligatoirement EM et wagons même sans indice apparent (tampon fusible conforme tant que le liseré est visible ; interdiction de déplacer un EM si un balancier de bogie est bloqué ; demander la visite maintenance EM/wagons au 1er endroit favorable et annoter CB + BF) ; pour F44.11 : « bestiaux » = animaux d'élevage de taille ≥ mouton, OCAR couvre ~1 000 m de part et d'autre, et compte rendu obligatoire au SGC QUE LES BESTIAUX SOIENT PRÉSENTS OU NON.",
+      "distractors": [
+        "Après tamponnement : si aucun indice anormal n'est visible depuis la cabine, la visite du train est facultative ; pour F44.11 : un chien ou un chevreuil isolé relève de la définition des « bestiaux ».",
+        "Après tamponnement : un tampon fusible est conforme uniquement lorsque le liseré a disparu ; pour F44.11 : le compte rendu d'un ordre OCAR bestiaux n'est requis que si vous voyez effectivement les animaux.",
+        "Après tamponnement : seul l'engin moteur doit être visité, pas les wagons ; pour F44.11 : la zone OCAR s'étend sur 500 m de part et d'autre.",
+        "Après tamponnement : si un balancier de bogie est bloqué sur l'EM, vous pouvez quand même dégager la voie jusqu'à la gare suivante à 20 km/h.",
+        "Pour F44.11 : lorsque des bestiaux risquent de faire obstruction à la circulation, il suffit de les signaler par radio sans les protéger comme un obstacle.",
+        "Après tamponnement sur un wagon avarié : l'étiquette IN n'est apposée que si le wagon ne peut plus rouler."
+      ],
+      "explanation": "F44.10 : visite obligatoire de l'EM et des wagons même sans indice apparent ; tampon fusible conforme tant que le liseré est visible ; interdiction de déplacer un EM si un balancier de bogie est bloqué ; si anomalie importante EM -> arrêt diesel / baisse panto + GD + secours/remplacement ; si aucune anomalie importante mais choc violent -> demander visite maintenance au 1er endroit favorable ; étiquette IN sur wagons avariés + annotation CB et BF. F44.11 (14/12/2025) : bestiaux = animaux d'élevage taille ≥ mouton ; si risque d'obstruction -> arrêt d'urgence + protection d'obstacle ; OCAR sur ~1 000 m de part et d'autre ; compte rendu OBLIGATOIRE au SGC qu'il y ait présence OU absence de bestiaux.",
+      "sources": [
+        "F44.10 — Conditions de reprise de la marche après un tamponnement, p. 1-3/3 (© Lineas, December 13, 2020 Brussels)",
+        "F44.11 — Divagation de bestiaux, p. 1-2/2 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q11",
+      "type": "open",
+      "theme": "Incidents de circulation",
+      "subtheme": "Anomalie à la signalisation portée par un train — Avant et Arrière (F44.12)",
+      "difficulty": "difficile",
+      "prompt": "Selon la fiche F44.12 (révision du 14 décembre 2025), détaillez précisément les règles applicables en cas d'anomalie de signalisation portée : (1) extinction TOTALE de la signalisation d'avant à l'origine (départ en ligne vs manœuvre de jour/nuit) et en cours de route (de jour par bonne visibilité vs de nuit/mauvaise visibilité, et en cas d'impossibilité de rallumer au moins un feu blanc), (2) rencontre d'un sémaphore de BAL/BAPR, d'un feu rouge clignotant ou d'un feu blanc donnant accès à VP avec signalisation d'avant totalement éteinte, et (3) les 4 critères cumulatifs donnant l'assurance que le train est complet en cas d'absence totale de signalisation d'arrière.",
+      "modelAnswer": "1. Extinction TOTALE de la signalisation d'avant :\n   - Au lieu d'origine : départ en ligne (train ou mouvement de manœuvre non guidé ex. hors cantonnement) -> NE PAS PARTIR, aviser SGC et SO ; manœuvre guidée ou non guidée : de jour par bonne visibilité -> placer le feu blanc de la lanterne de bord et effectuer le mouvement ; de nuit ou par mauvaise visibilité -> NE PAS effectuer le mouvement, aviser SGC et SO.\n   - En cours de route (après vérification de l'interrupteur de sélection) : de jour par bonne visibilité -> aviser le SGC, convenir d'un point d'arrêt pour rétablir, siffler autant que nécessaire, puis Mémento + GD ; de nuit ou par mauvaise visibilité (brouillard, tunnel...) -> S'ARRÊTER immédiatement, aviser le SGC, Mémento + GD.\n   - S'il est impossible de rallumer au moins un feu blanc : annoter CB, placer une lanterne de bord présentant un feu blanc à l'avant, aviser le SGC et suivre ses instructions jusqu'au point désigné, siffler autant que nécessaire, aviser le Service Opérationnel.\n2. Rencontre d'un signal de marche restrictive avec signalisation d'avant totalement éteinte :\n   - Sémaphore de BAL, sémaphore de BAPR ou feu rouge clignotant : s'arrêter avant le signal, aviser le SGC, et NE PAS pénétrer en canton occupé — attendre la libération du canton OU obtenir par ÉCRIT (instruction ou bulletin de communication) l'assurance par le SGC de la libération effective du canton (ou ordre spécifique de secours/voie occupée) ;\n   - Feu blanc donnant accès à une voie principale : même obligation d'obtenir par écrit du SGC l'assurance de la libération effective du canton.\n3. Assurance que le train est complet malgré l'absence totale de signalisation d'arrière (les 4 conditions cumulatives + véhicule non relié si mentionné au BF) :\n   - Le numéro du dernier véhicule correspond au numéro figurant en dernier sur le BF ou la liste des wagons (ou en premier selon l'orientation au départ) ;\n   - Le demi-accouplement de la CFA/CG se trouve sur son support ;\n   - Le robinet d'extrémité de la CFA/CG est en position fermée ;\n   - La bride du tendeur d'attelage du dernier véhicule est dans son support ;\n   (+ vérification de la présence du véhicule non relié à la CFA/CG si le BF en fait mention). Si complet -> replacer 2 dispositifs identiques (2 lanternes, 2 plaques réflectorisées ou 2 feux rouges) et aviser SGC ; si pas d'assurance -> présumer rupture d'attelage / dérive.",
+      "keyPoints": [
+        {
+          "label": "Extinction totale avant : à l'origine, interdiction de partir en ligne (et de manœuvrer de nuit/mauvaise visibilité ; feu blanc lanterne de bord possible en manœuvre de jour bonne visibilité)",
+          "critical": true
+        },
+        {
+          "label": "En cours de route : de jour bonne visibilité -> arrêt convenu avec SGC ; de nuit/mauvaise visibilité -> arrêt immédiat ; si impossible de rallumer au moins 1 feu blanc -> lanterne feu blanc à l'avant + avis SGC/SO + sifflet",
+          "critical": true
+        },
+        {
+          "label": "Sémaphore BAL/BAPR, feu rouge clignotant ou feu blanc vers VP avec feux avant totalement éteints : interdiction de pénétrer en canton occupé -> attendre libération ou assurance écrite (instruction/bulletin) de libération effective par le SGC",
+          "critical": true
+        },
+        {
+          "label": "Absence totale signalisation arrière — 4 critères de train complet : bon n° de dernier véhicule au BF/liste + demi-accouplement CG sur support + robinet d'extrémité CG fermé + bride tendeur sur support (+ véhicule non relié CG si au BF)",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F44.12 (14/12/2025) a été largement renforcée sur la signalisation d'avant (protection contre le rattrapage de plaques de queue réflectorisées invisibles sans phares) : interdiction de pénétrer en canton occupé (BAL, BAPR, FRC, feu blanc vers VP) sans libération ou assurance écrite du SGC, et contrôle rigoureux en 4 points de l'intégrité du dernier wagon si la queue est absente.",
+      "sources": [
+        "F44.12 — Anomalie à la signalisation portée par un train, p. 1-6/6 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q12",
+      "type": "qcm",
+      "theme": "Incidents de circulation",
+      "subtheme": "Ordres restrictifs autres que pour la signalisation — Compte rendu obligatoire ou non (F44.13)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau F44.13 ci-dessous (version du 14 décembre 2025), quels ordres restrictifs exigent réglementairement de réaliser un COMPTE RENDU de vos constatations au SGC, par opposition à ceux qui n'en exigent pas ?",
+      "referenceTable": {
+        "title": "Tableau récapitulatif des instructions restrictives hors signalisation (F44.13, p. 1-2/3)",
+        "openByDefault": true,
+        "headers": [
+          "Instruction",
+          "Marche prescrite",
+          "Compte rendu à réaliser ?"
+        ],
+        "rows": [
+          [
+            "IE8 (gardiennage provisoire PN à SAL)",
+            "VL 30 km/h, siffler longuement et par intermittence",
+            "NON"
+          ],
+          [
+            "AVASS (IN31 — avarie shuntage / CdV)",
+            "Marche prudente, VL 30 km/h, siffler longuement et par intermittence",
+            "NON"
+          ],
+          [
+            "AVEN (IN35 — avis d'enrayage)",
+            "Vitesse limitée à ... (selon circonstances, parfois < 50 km/h)",
+            "OUI"
+          ],
+          [
+            "OCAR (IN41 — circuler avec restriction)",
+            "Marche prudente / Marche au pas (≤ 6 km/h) / Vitesse limitée",
+            "OUI"
+          ],
+          [
+            "VECA (IN44 — vérification caténaire)",
+            "Marche prudente (depuis la cabine)",
+            "OUI"
+          ],
+          [
+            "RATO (IN83 — raté d'ouverture / bris barrières)",
+            "Marche prudente",
+            "NON"
+          ],
+          [
+            "DIPU (IN87 — dérangement TVP / public)",
+            "VL 30 km/h, marche prudente, siffler longuement et par intermittence",
+            "NON"
+          ]
+        ],
+        "note": "Lorsque un compte rendu est prescrit : transmettre par GSM-R, ou après arrêt via téléphonie dématérialisée / 1er tél de voie / 1re gare ou poste, et joindre l'instruction au BS."
+      },
+      "correctAnswer": "Compte rendu OBLIGATOIRE pour AVEN, OCAR et VECA ; PAS de compte rendu prescrit au tableau pour IE8, AVASS, RATO et DIPU.",
+      "distractors": [
+        "Compte rendu obligatoire uniquement pour IE8, RATO et DIPU ; aucun compte rendu pour AVEN et OCAR.",
+        "Compte rendu obligatoire pour TOUTES les instructions restrictives sans exception, y compris IE8, AVASS, RATO et DIPU.",
+        "Compte rendu obligatoire pour AVASS et DIPU, mais pas pour AVEN ni VECA.",
+        "Sur un ordre OCAR prescrivant la marche au pas, la vitesse maximale autorisée est de 10 km/h et aucun compte rendu n'est demandé.",
+        "Les ordres IE8, AVASS et DIPU prescrivent tous une vitesse limite de 40 km/h sans obligation de siffler.",
+        "Une instruction restrictive avec compte rendu n'a pas à être jointe au Bulletin de Service si le compte rendu a été donné par radio GSM-R."
+      ],
+      "explanation": "Le tableau synthétique de F44.13 (14/12/2025) classe sans ambiguïté les 7 instructions restrictives hors signalisation : OUI au compte rendu pour AVEN, OCAR et VECA ; NON pour IE8, AVASS, RATO et DIPU. Il rappelle aussi que le parcours doit être aussi réduit que possible, délimité par PK et points facilement repérables (ouvrage d'art, établissement PL, poste, gare), et que l'instruction doit être jointe au BS.",
+      "sources": [
+        "F44.13 — Ordre restrictif autre que pour la signalisation, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q13",
+      "type": "qcm_multi",
+      "theme": "Secours & détresse",
+      "subtheme": "Demande de secours (DSEC), transmission et opérations avant/après arrivée du secours (F45.01 / F45.02 / F45.03)",
+      "difficulty": "difficile",
+      "prompt": "Votre train tombe en détresse en pleine voie sur le RFN et vous rédigez/transmettez une demande de secours (fiches F45.01, F45.02 et F45.03 — versions 2025). Quelles affirmations sont exactes ?",
+      "correctAnswers": [
+        "Sur le RFN, le secours doit être demandé notamment lorsque les opérations de dépannage ne sont pas terminées dans un délai de 15 minutes (sauf si le secours n'apporterait pas de solution satisfaisante) ou s'il est impossible d'atteindre en 15 min un point de garage en aval ; cette demande n'est PAS requise lorsque le train est intégralement sur voie de service.",
+        "Le bulletin DSEC ne comporte PAS de numéro de dépêche (mais le texte complet pré-imprimé + rédigé est énoncé et collationné intégralement, avec l'engagement de ne pas se remettre en marche de soi-même et le PK de la tête du train ou de la 2e partie) ; un train Lineas peut être secouru par une autre EF (et vice versa) — c'est le conducteur qui a demandé le secours qui est responsable de déterminer les conditions de circulation.",
+        "Avant l'arrivée d'un secours par l'arrière, sur demande du SGC pour un train équipé de plaques de queue réfléchissantes ou sans signalisation d'arrière, poser un pétard et un feu rouge à 200 m ; après accouplement avec l'EM de secours, effectuer un essai de continuité (à défaut d'agent habilité : une VFF) et distinguer pousse par EM (100/80/60/30 km/h selon B20.07) vs pousse par un autre train (30 km/h max dans tous les cas, B20.08)."
+      ],
+      "distractors": [
+        "Le conducteur doit impérativement attribuer un numéro de dépêche pris dans son carnet avant de transmettre le bulletin BC57 (DSEC) par radio.",
+        "En cas de secours assuré par une autre Entreprise Ferroviaire, c'est exclusivement le conducteur de l'EM secourant (et non celui qui a demandé le secours) qui détermine les conditions de circulation.",
+        "Lorsqu'un train est intégralement stationné sur une voie de service du RFN, une demande de secours réglementaire par BC57 (DSEC) est obligatoire dès 15 minutes d'avarie.",
+        "Après une intervention extérieure (wagon de secours ou grue) permettant au train de repartir, il est toujours obligatoire d'annuler d'abord la demande de secours via un bulletin REMA."
+      ],
+      "displayCount": 5,
+      "explanation": "F45.01 (08/06/2025), F45.02 (08/06/2025) et F45.03 (14/12/2025) posent des repères essentiels : seuil des 15 minutes (sauf VS où DSEC non requise) ; pas de numéro de dépêche sur DSEC (énoncer et faire répéter texte complet) ; deux situations dispensant d'annuler la DSEC (mouvement demandé par le SGC, ou reprise après intervention de moyens techniques extérieurs type wagon de secours/grue) ; retour à la gare en arrière possible uniquement sur dépêche de l'AC de cette gare et guidé comme une manœuvre (puis DSEC en gare) ; secours inter-EF -> le conducteur ayant demandé le secours détermine les conditions de circulation ; pousse par EM vs pousse par un autre train (≤ 30 km/h dans tous les cas) + continuité ou VFF.",
+      "sources": [
+        "F45.01 — Demande de secours, p. 1-4/4 (© Lineas, June 08, 2025 Lille)",
+        "F45.02 — Transmission de la demande de secours, p. 1/1 (© Lineas, June 08, 2025 Lille)",
+        "F45.03 — Opérations à effectuer après la demande de secours, p. 1-2/2 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q14",
+      "type": "open",
+      "theme": "Secours & détresse",
+      "subtheme": "Évacuation de la 1re partie du train vers une gare/évitement en aval — BA vs BM (F45.04)",
+      "difficulty": "difficile",
+      "prompt": "Suite à une rupture d'attelage non réparable en pleine voie, vous êtes autorisé par le SGC à abandonner la 2e partie de votre train en pleine voie et à acheminer la 1re partie jusqu'à la gare en aval. Vous n'avez pas encore fractionné le train ni transmis la demande de secours. Selon la fiche F45.04 (version du 14 décembre 2025), décrivez : (1) la condition absolue de freinage pour pouvoir abandonner la 2e partie en pleine voie, (2) à quel moment exact la demande de secours de la 2e partie doit être transmise (et pourquoi), (3) la différence fondamentale concernant la SIGNALISATION D'ARRIÈRE de la 1re partie en Block Automatique vs en Block Manuel, et (4) les mesures de protection à l'avant de la 2e partie abandonnée et le signalement au SGC/Garde.",
+      "modelAnswer": "1. Condition absolue de freinage :\n   - Recevoir l'autorisation de l'agent du SGC d'abandonner une partie de train en pleine voie ;\n   - Fractionner le train de telle sorte que le freinage normal de CHACUNE des deux parties soit assuré et permette la circulation sans l'assistance d'un EM de secours pour insuffisance de freinage (dans le cas contraire, la 2e partie NE PEUT PAS être abandonnée en pleine voie) ;\n   - Immobiliser la 2e partie abandonnée et maintenir la signalisation d'arrière sur cette 2e partie.\n2. Moment de transmission de la demande de secours :\n   - Rédiger la demande de secours avant de partir, MAIS NE LA TRANSMETTRE QU'APRÈS l'arrivée de la 1re partie à la gare en aval (ou évitement télécommandé / 1er poste de cantonnement en BM), car la transmission d'une demande de secours interdit immédiatement toute remise en marche !\n3. Signalisation d'arrière de la 1re partie (BA vs BM) :\n   - En Block Automatique (BA) : placer la signalisation d'arrière sur la 1re partie AVANT la remise en marche (et modifier le paramétrage KVB) ;\n   - En Block Manuel (BM) : NE PAS placer de signalisation d'arrière sur la 1re partie avant de partir (afin que le garde du 1er poste de cantonnement sache que le train n'est pas complet et n'ouvre pas le canton derrière !) ; ne la placer sur la 1re partie qu'APRÈS s'être arrêté au 1er poste ouvert et en avoir avisé le garde (si la marche se poursuit au-delà).\n4. Protection de la 2e partie abandonnée et signalement :\n   - En conduisant la 1re partie vers l'aval, s'arrêter à la DCO de la tête de la 2e partie et placer 3 pétards répartis sur les deux files de rails à 30 m d'intervalle ;\n   - Signaler obligatoirement la présence des véhicules abandonnés : en BA via GSM-R (ou téléphonie dématérialisée / 1er tél / 1re gare ou poste au signal d'entrée même ouvert / avant 1re sortie contre-sens ICS) ; en BM au Garde du 1er poste de cantonnement ouvert en s'arrêtant au signal d'entrée même ouvert (ou aiguille en VU, ou poste intermédiaire VUT, ou avant sortie contre-sens VUT/contre-voie) ;\n   - À l'arrivée à la gare en avant / évitement télécommandé : remettre ou transmettre la demande de secours.",
+      "keyPoints": [
+        {
+          "label": "Autorisation SGC + immobilisation 2e partie + freinage normal de CHACUNE des deux parties assuré sans besoin d'EM de secours (sinon abandon interdit)",
+          "critical": true
+        },
+        {
+          "label": "Rédiger la DSEC mais ne la transmettre QU'APRÈS l'arrivée de la 1re partie en gare aval / évitement / 1er poste BM (la DSEC interdisant toute remise en marche)",
+          "critical": true
+        },
+        {
+          "label": "Signalisation d'arrière 1re partie : placée AVANT départ en BA (+ modif KVB), mais PAS placée en BM (uniquement après arrêt et avis au Garde du 1er poste ouvert) ; signalisation arrière maintenue sur la 2e partie dans les deux cas",
+          "critical": true
+        },
+        {
+          "label": "Arrêt à la DCO en aval de la tête de la 2e partie pour poser 3 pétards (sur les 2 rails à 30 m d'intervalle) + signalement obligatoire au SGC / Garde (arrêt au signal d'entrée même ouvert)",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F45.04 (14/12/2025) comporte trois pièges majeurs à retenir : (1) jamais de transmission de la DSEC avant d'avoir dégagé la 1re partie ; (2) jamais de signalisation d'arrière sur la 1re partie en BM avant d'avoir avisé le garde du 1er poste ; (3) pose de 3 pétards à la DCO à l'avant de la 2e partie abandonnée (et en cas de circulation après heure limite sur ligne à périodes de fermeture, application d'office de la fermeture/réouverture des PN gardés jusqu'à la gare suivante).",
+      "sources": [
+        "F45.04 — Évacuation de la 1re partie du train vers une gare/évitement en aval, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q15",
+      "type": "qcm",
+      "theme": "Secours & détresse",
+      "subtheme": "Remise en marche après demande de secours (F45.05) et porter secours à un train en détresse (F45.06)",
+      "difficulty": "moyen",
+      "prompt": "Vous avez reçu l'ordre écrit de porter secours par l'arrière à un train en détresse en pleine voie (F45.06, 14 décembre 2025). En approchant du PK indiqué, vous ne rencontrez PAS le train en détresse (qui a pu recevoir une autorisation REMA entre-temps selon F45.05). Que devez-vous faire, et quelles règles s'appliquent lorsque vous rencontrez un train en détresse à pousser ou d'une autre EF ?",
+      "correctAnswer": "Si vous ne rencontrez pas le train en détresse : vous arrêter, appliquer le Mémento, puis reprendre en arrêt accidentel jusqu'à la gare suivante (ou le point indiqué sur l'ordre en BA), vous y arrêter et solliciter des instructions du SGC ; si vous secourez un train d'une autre EF (y compris voyageurs), vous vous conformez aux instructions du conducteur secouru (les EM Lineas ne pouvant alimenter ni la ligne électrique voyageurs ni la sonorisation), et en BM si vous poussez vers l'avant, donner l'ordre au conducteur de tête de s'arrêter au poste désigné pour remettre l'ordre MV au garde.",
+      "distractors": [
+        "Si vous ne rencontrez pas le train en détresse, vous pouvez reprendre votre vitesse limite normale jusqu'à la gare terminus sans vous arrêter.",
+        "En tant que train survenant derrière un train en détresse, vous pouvez le pousser de votre propre initiative sans ordre écrit si son conducteur vous le demande par radio.",
+        "Lors d'une pousse non attelée destinée à aider au simple redémarrage d'un train, aucune demande de secours ni aucun ordre écrit ne sont nécessaires.",
+        "L'essai de frein « continuité » (ou VFF) après attelage du secours est toujours effectué par le conducteur du train en détresse, même s'il n'a pas la commande du frein.",
+        "Lors d'une pousse en BM où le train revient à la gare en arrière, il est inutile de restituer l'ordre MV au garde du poste.",
+        "Après avoir demandé le secours, l'Agent-circulation peut autoriser la remise en marche REMA même si un EM de secours a déjà été expédié vers l'avant du train en détresse."
+      ],
+      "explanation": "F45.05 (08/06/2025) : seul l'AC chargé d'organiser le secours peut délivrer REMA (uniquement si le secours n'a PAS été envoyé vers l'avant du train en détresse -> risque nez-à-nez) ; interdiction absolue à un train suiveur d'assurer le secours ou de pousser sans ordre écrit/dépêche. F45.06 (14/12/2025) : pousse non attelée pour redémarrage ne dispense JAMAIS de DSEC + ordre écrit ; essai continuité/VFF effectué par le conducteur qui aura la commande du frein ; en BM -> remise/restitution de l'ordre MV au garde ; si train en détresse non rencontré -> arrêt, Mémento, reprise en arrêt accidentel jusqu'à la gare suivante (ou point ordre en BA), arrêt et instructions SGC ; si pétard isolé + feu rouge à 200 m -> F44.04.",
+      "sources": [
+        "F45.05 — Remise en marche après avoir demandé le secours, p. 1-2/2 (© Lineas, June 08, 2025 Lille)",
+        "F45.06 — Le conducteur porte secours à un train en détresse, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q16",
+      "type": "open",
+      "theme": "Incidents majeurs",
+      "subtheme": "Incendie dans le train — Choix du point d'arrêt, EM, véhicules MD et incendie non maîtrisé (F46.01)",
+      "difficulty": "difficile",
+      "prompt": "En ligne électrifiée, vous découvrez ou êtes avisé d'un incendie dans votre train de marchandises (qui comporte des wagons de Marchandises Dangereuses au BF). Vous n'avez pas encore arrêté le train. Selon la fiche F46.01, décrivez de manière structurée : (1) les critères de choix du point d'arrêt, (2) les mesures spécifiques si l'incendie se situe sur l'Engin Moteur (y compris le cas particulier de l'ATESS et des portes de compartiments), (3) la conduite impérative si l'incendie concerne un wagon et que le BF mentionne des MD, et (4) les 4 actions clés si l'incendie est important et ne peut être maîtrisé avec les moyens disponibles.",
+      "modelAnswer": "1. Choix du point d'arrêt et mesures initiales :\n   - Éviter de s'arrêter en un point où l'incendie risquerait de se propager (installations ferroviaires, autre matériel roulant, habitations, installations industrielles à risques) ou de mettre en danger les personnes (viaduc, tunnel, quai voyageurs) ;\n   - Arrêter le train si possible à proximité d'un accès routier et/ou d'un téléphone, immobiliser le train et aviser un agent du SGC.\n2. Incendie situé sur l'Engin Moteur :\n   - Arrêter le(s) moteur(s) diesel ou baisser le(s) pantographe(s) ;\n   - Ouvrir tous les circuits électriques sauf ceux nécessaires à la signalisation de l'EM ;\n   - Extraire si possible la cassette ATESS de son logement si un risque de destruction est à craindre ;\n   - Sans se mettre en danger (limiter l'exposition aux fumées), essayer de maîtriser le feu avec les extincteurs ou limiter la propagation (fermer portes et fenêtres) ;\n   - Si maîtrisé -> refermer les portes des compartiments, Mémento + GD + CB + avis SGC et SO ; si NON maîtrisé -> laisser les portes des compartiments fermées et NE PAS entrer dans les compartiments moteurs.\n3. Incendie sur un véhicule avec présence de MD au BF :\n   - Tenter de déterminer si le véhicule incendié est concerné ;\n   - Tenter d'identifier le code danger et le code ONU SANS s'approcher du véhicule (à défaut consulter la Fiche Matières Dangereuses / liste MD) ;\n   - Interdire l'approche du ou des véhicules incendiés et aviser un agent du SGC en lui indiquant si possible le code danger et le code ONU.\n4. Incendie important non maîtrisé :\n   - Alerter un agent du SGC (importance, nature, localisation exacte, présence MD), s'assurer qu'il appelle les pompiers (ou le faire soi-même en cas de doute) et faire interrompre la circulation sur la/les voies adjacentes ;\n   - Faire supprimer la tension par coupure d'urgence sur les lignes électrifiées (ordre pouvant être différé s'il y a risque d'aggraver le danger) ;\n   - Essayer, si possible, d'éloigner au maximum le matériel en feu de celui intact.",
+      "keyPoints": [
+        {
+          "label": "Choix du point d'arrêt : éviter propagation (installations, matériel, habitations, sites industriels) et danger personnes (viaduc, tunnel, quai voyageurs) ; privilégier accès routier et/ou téléphone + immobiliser + aviser SGC",
+          "critical": true
+        },
+        {
+          "label": "Incendie sur EM : arrêter moteurs diesel / baisser pantos, ouvrir circuits électriques (sauf signalisation EM), extraire cassette ATESS si risque de destruction, extincteurs sans s'exposer ; si non maîtrisé -> laisser portes compartiments fermées et ne pas y entrer",
+          "critical": true
+        },
+        {
+          "label": "Incendie sur véhicule avec MD au BF : identifier code danger et code ONU SANS s'approcher (ou via fiche/liste MD), interdire l'approche et aviser le SGC",
+          "critical": true
+        },
+        {
+          "label": "Incendie non maîtrisé : alerter SGC + appel pompiers + interruption voies adjacentes + coupure d'urgence (différable si aggravation) + éloigner si possible matériel intact du matériel en feu",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F46.01 insiste sur le choix tactique du point d'arrêt (jamais tunnel/viaduc/quai si évitable, accès pompiers), la sauvegarde de la cassette ATESS sur EM, la distance absolue face aux wagons MD (codes danger/ONU sans s'approcher) et la coordination pompiers / voies adjacentes / coupure d'urgence.",
+      "sources": [
+        "F46.01 — Incendie dans le train, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot12-q17",
+      "type": "qcm",
+      "theme": "Incidents de circulation",
+      "subtheme": "Mauvaise direction (F47.01) et refoulement sans agent du SGC (F47.02)",
+      "difficulty": "moyen",
+      "prompt": "À une bifurcation, vous constatez que votre train remorqué par une locomotive électrique est dirigé vers une voie non électrifiée (cas A) ; sur une autre mission, suite à une erreur de direction, l'agent du SGC vous transmet par dépêche l'ordre de refouler votre train en l'absence d'agent sur le terrain (cas B). Quelles mesures exactes prescrivent les fiches F47.01 et F47.02 ?",
+      "correctAnswer": "Cas (A) : provoquer d'urgence l'abaissement du/des pantographe(s) (et s'arrêter autant que possible avant le signal protégeant l'aiguille), aviser un agent du SGC, appliquer le Mémento et suivre ses instructions ; Cas (B) : appliquer le Mémento, appuyer sur BP-MV, refouler avec les plus grandes précautions sans dépasser la vitesse d'un homme au pas (5–6 km/h) et faire fréquemment usage du sifflet pendant toute la durée du refoulement.",
+      "distractors": [
+        "Cas (A) : s'arrêter d'urgence sans baisser les pantographes puis reculer immédiatement de soi-même avant l'aiguille ; Cas (B) : refouler à 15 km/h max sans appuyer sur BP-MV.",
+        "Cas (A) : engager la voie non électrifiée sur l'erre puis demander un itinéraire équivalent ; Cas (B) : un simple accord verbal radio suffit sans dépêche pour refouler sans agent sur le terrain.",
+        "Cas (A) : un train peut toujours être dirigé vers un itinéraire équivalent aux LiLi même s'il a un service à assurer sur l'itinéraire prévu ; Cas (B) : vitesse max 10 km/h.",
+        "Cas (A) : en cas d'extinction d'un signal ne permettant pas de connaître la direction, le conducteur poursuit jusqu'à l'aiguille pour observer ses lames ; Cas (B) : siffler uniquement au démarrage du refoulement.",
+        "Cas (B) : le refoulement sans agent sur le terrain est autorisé jusqu'à 30 km/h si le conducteur appuie sur BP-MV.",
+        "Cas (A) : lorsqu'il existe plusieurs voies parallèles de même sens permettant d'assurer le service du train, le conducteur doit quand même s'arrêter avant de s'y engager sans avis préalable."
+      ],
+      "explanation": "F47.01 distingue : poursuite autorisée sans avis préalable uniquement sur voies parallèles de même sens si le service peut être assuré, ou sur « itinéraire équivalent » aux LiLi si AUCUN service n'est à assurer sur l'itinéraire prévu ; sinon arrêt avant le signal protégeant l'aiguille + avis SGC (+ baisse d'urgence des pantos si EM électrique dirigé vers voie non électrifiée ; si signal éteint sans info direction -> se faire confirmer par l'aiguilleur). F47.02 : refoulement sans agent sur le terrain -> ordre par DÉPÊCHE obligatoire, Mémento, appui sur BP-MV, vitesse max d'un homme au pas (5–6 km/h) et usage fréquent du sifflet pendant toute la durée du refoulement.",
+      "sources": [
+        "F47.01 — La direction donnée ne correspond pas à l'itinéraire prévu, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F47.02 — Refoulement d'un train en l'absence d'un agent du SGC, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot12-q18",
+      "type": "qcm_multi",
+      "theme": "ETCS",
+      "subtheme": "Modification d'itinéraire (F47.03) et mouvement en sens inverse du sens établi en ETCS1 (F47.04)",
+      "difficulty": "difficile",
+      "prompt": "Vous circulez en ETCS niveau 1 et l'agent-circulation doit modifier votre itinéraire (F47.03) ou vous faire exécuter un mouvement en sens inverse du sens établi (F47.04, versions du 8 juin 2025). Quelles procédures réglementaires sont exactes ?",
+      "correctAnswers": [
+        "Pour une modification d'itinéraire (F47.03) : l'AC délivre IE3 (rester à l'arrêt) puis IE4 annotée en instructions complémentaires « de circuler en mode SR » ; le conducteur active la fonction « Override EOA » (qui supprime les infos de la MA en cours, le symbole Override s'effaçant après 100 m, 60 s ou nouvelle MA), mais cette IE4 n'autorise PAS à franchir fermé le signal de protection.",
+        "Pour un refoulement en l'absence d'agent sédentaire en ETCS1 (F47.04) : recevoir IE3 (fin de mission) puis IE4 annotée « passer en mode SH et revenir en arrière jusqu'au dégagement du repère d'arrêt ETCS ou du signal n° ... origine de l'itinéraire, situé au km ... », sélectionner manuellement SH, reculer à la vitesse d'un homme au pas et siffler fréquemment.",
+        "Pour repartir en sens inverse du sens établi avec changement d'extrémité (F47.04) : recevoir IE3 (fin de mission) puis IE7 complétée (« délivrance conjointe d'un ordre écrit de circuler à contre-voie » ou « ordre de revenir à contre-sens sur IPCS en mode SR jusqu'à ... »), changer d'extrémité et appliquer C70.10 (SOM/EOM) ; par ailleurs, le conducteur peut de sa propre initiative sélectionner SH suite à un léger dépassement du point d'arrêt en établissement PL ou en cas de rupture d'attelage (après IE3 fin de mission)."
+      ],
+      "distractors": [
+        "L'instruction IE4 annotée « de circuler en mode SR » délivrée lors d'une modification d'itinéraire autorise automatiquement le conducteur à franchir fermé le signal de protection en aval.",
+        "Lors d'une modification d'itinéraire en ETCS1, le symbole Override EOA s'efface uniquement après avoir parcouru 400 mètres (et jamais après 100 m ou 60 s).",
+        "En ETCS1, lors d'une rupture d'attelage, le conducteur ne peut jamais sélectionner manuellement le mode SH et doit obligatoirement recevoir une instruction IE1.",
+        "Pour repartir en sens inverse du sens établi après changement d'extrémité en ETCS1, l'agent-circulation délivre une instruction IE2 et jamais une IE7."
+      ],
+      "displayCount": 5,
+      "explanation": "F47.03 et F47.04 (08/06/2025) articulent précisément les Instructions Européennes en ETCS1 : (1) modification d'itinéraire -> IE3 puis IE4 (« circuler en mode SR ») -> Override EOA (pour effacer la MA en cours, effacement à 100 m / 60 s / nouvelle MA ; n'autorise PAS à franchir un signal fermé !) ; (2) refoulement sans agent -> IE3 (EOM) + IE4 (« passer en mode SH... ») -> SH manuel + vitesse homme au pas + sifflet fréquent ; (3) changement d'extrémité en sens inverse -> IE3 (EOM) + IE7 + changement d'extrémité + SOM ; (4) rupture d'attelage / léger dépassement en établissement PL -> sélection manuelle SH possible (avec IE3 fin de mission en rupture d'attelage).",
+      "sources": [
+        "F47.03 — Modification d'itinéraire en ETCS1, p. 1/1 (© Lineas, June 08, 2025 Lille)",
+        "F47.04 — Mouvement en sens inverse du sens établi en ETCS1, p. 1-2/2 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q19",
+      "type": "qcm",
+      "theme": "Obstacles & urgence",
+      "subtheme": "Protection d'un obstacle — Lacunes rails de sécurité, commutateurs et dérogation ICS contre-sens (F44.01)",
+      "difficulty": "difficile",
+      "prompt": "Lors de la couverture à pied d'un obstacle sur une voie équipée en BAL avec IPCS (F44.01), vous parvenez sur un viaduc muni de rails de sécurité où vous voulez poser une Barre de Court-Circuit (BCC), puis vous croisez un panneau muni d'un commutateur de blocage dans un tunnel. Quelles règles exactes de la fiche F44.01 s'appliquent ?",
+      "correctAnswer": "Sur les ouvrages comportant des rails de sécurité, des lacunes repérées à la peinture blanche sont aménagées tous les 100 m pour poser la BCC (et une cornière au milieu de la voie ou un tube à l'intérieur du rail empêche la pose là où elle est inopérante) ; un commutateur « carré tunnel » est dans une niche repérée par une bande verticale blanche, et vis-à-vis des trains circulant à CONTRE-SENS sur ICS, la couverture doit TOUJOURS être effectuée à la DCO (jamais réduite à 400 m).",
+      "distractors": [
+        "Sur les viaducs à rails de sécurité, la pose de la BCC est toujours impossible ; la manœuvre d'un commutateur de blocage réduit la distance de couverture à 400 m dans les deux sens y compris à contre-sens sur ICS.",
+        "Les lacunes pour poser la BCC sur les viaducs sont repérées à la peinture rouge tous les 50 mètres ; une cornière au milieu de la voie indique justement l'endroit où poser la BCC.",
+        "Le commutateur « carré tunnel » est situé dans une niche repérée par une bande horizontale jaune.",
+        "La pose d'une BCC en BAPR réduit la distance de couverture à 400 m exactement comme en BAL.",
+        "Lors de la couverture d'un obstacle, si vous devez vous écarter momentanément de la voie pour téléphoner, il ne faut jamais poser de pétards sur la voie avant de vous écarter.",
+        "Sur une ligne équipée en double voie ordinaire (sans IPCS ni VUT), l'obstacle sur la voie voisine doit être couvert dans les deux sens de circulation."
+      ],
+      "explanation": "Détails terrain très concrets de F44.01 (14/12/2025) : (1) viaducs avec rails de sécurité -> lacunes repérées à la peinture blanche tous les 100 m ; zones où la BCC est inopérante -> pose empêchée par cornière au milieu de la voie ou tube à l'intérieur du rail ; (2) niche de commutateur « carré tunnel » -> bande verticale blanche ; (3) réduction à 400 m NON applicable en BAPR (pour la BCC) et NON applicable en ICS vis-à-vis des trains à contre-sens (pour BCC ET commutateurs -> DCO complète obligatoire) ; (4) protection dans les DEUX sens obligatoire sur VU, VB, ICS, VUT et TCT ; (5) s'écarter pour téléphoner -> poser des pétards sur la voie puis les retirer si la couverture doit se poursuivre.",
+      "sources": [
+        "F44.01 — Obstacle - Danger pour les trains circulant sur une ligne équipée en signalisation au sol, p. 3-6/7 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q20",
+      "type": "qcm",
+      "theme": "Incidents de circulation",
+      "subtheme": "Signalisation d'avant partielle, autre train et signalisation intempestive dans le corps du train (F44.12)",
+      "difficulty": "facile",
+      "prompt": "Comparez trois anomalies de signalisation portée de la fiche F44.12 (14 décembre 2025) : (1) extinction PARTIELLE de la signalisation d'avant à l'origine d'un départ en ligne, (2) présence intempestive d'une signalisation d'arrière au milieu du corps de votre train, et (3) constatation de l'extinction totale de la signalisation d'avant d'un AUTRE train alors que la radio GSM-R fonctionne. Quelles actions exactes devez-vous effectuer ?",
+      "correctAnswer": "(1) Extinction partielle avant à l'origine d'un départ en ligne : aviser un agent du SGC et PARTIR en ligne (pour une manœuvre -> aviser le SO et effectuer le mouvement) ; (2) signalisation d'arrière intempestive dans le corps du train : aviser un agent du SGC, suivre ses instructions et la retirer dans les plus brefs délais ; (3) autre train sans feux avant avec GSM-R : aviser le conducteur concerné ET aviser un agent du SGC.",
+      "distractors": [
+        "(1) L'extinction partielle d'un seul feu avant à l'origine interdit tout départ en ligne ; (2) la signalisation intempestive dans le corps du train est retirée uniquement au terminus.",
+        "(1) En cours de route, une extinction partielle de la signalisation d'avant impose un arrêt immédiat en pleine voie ; (3) avec le GSM-R, il suffit d'aviser le conducteur de l'autre train sans aviser le SGC.",
+        "(2) En cas de signalisation d'arrière intempestive dans le corps du train, vous la retirez en marche ou au terminus sans aviser le SGC.",
+        "(1) L'extinction partielle avant à l'origine d'un départ en ligne impose de placer la lanterne de bord à l'avant avant de partir.",
+        "(3) Si vous constatez l'absence totale de signalisation d'ARRIÈRE d'un autre train, il est interdit de prévenir le SGC tant que vous n'avez pas joint son conducteur.",
+        "(1) En cas d'absence totale de signalisation d'arrière d'un train qui vous précède, le SGC ne peut jamais vous envoyer un ordre vous avisant de ce risque en cas de pénétration en canton occupé."
+      ],
+      "explanation": "F44.12 (14/12/2025) distingue nettement extinction totale vs partielle de l'avant : en extinction PARTIELLE à l'origine -> aviser SGC et partir en ligne (ou aviser SO et faire la manœuvre) ; en cours de route -> poursuivre, aviser SGC si besoin, siffler si nécessaire, GD à la 1re occasion favorable / au plus tard au terminus, aviser SO. Signalisation intempestive dans le corps du train -> aviser SGC, suivre instructions, retirer dans les plus brefs délais. Autre train avec absence totale/partielle avant + GSM-R -> aviser le conducteur ET le SGC (sinon ou si absence arrière -> aviser SGC).",
+      "sources": [
+        "F44.12 — Anomalie à la signalisation portée par un train, p. 2/6 et p. 4-5/6 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot12-q21",
+      "type": "qcm",
+      "theme": "Secours & détresse",
+      "subtheme": "Vérification des masses, résistance des attelages et retour en arrière lors d'un secours (F45.01 / F45.03)",
+      "difficulty": "moyen",
+      "prompt": "Lors de l'arrivée d'un train de secours en pleine voie (F45.03, 14 décembre 2025), quelles vérifications de masse et de résistance des attelages les deux conducteurs doivent-ils impérativement effectuer avant de se remettre en marche, et que doivent-ils faire en cas de dépassement ?",
+      "correctAnswer": "Vérifier que la masse totale du train secouru ne dépasse pas la masse maximale remorquable du train secourant ET vérifier la limite de résistance des attelages augmentée de la limite maximale de la (des) locomotive(s) de pousse ; en cas de dépassement de la masse ou de la limite de résistance des attelages, aviser un agent du SGC et se conformer à ses instructions.",
+      "distractors": [
+        "Lors d'une opération de secours d'urgence, la limite de résistance des attelages et la masse maximale remorquable sont temporairement suspendues jusqu'à la première gare.",
+        "Seul le conducteur de l'EM de secours vérifie la masse maximale remorquable ; la résistance des attelages n'est pas majorée en cas de pousse.",
+        "En cas de dépassement de la limite de résistance des attelages, les deux conducteurs décident librement de franchir la rampe à 20 km/h sans aviser le SGC.",
+        "L'attelage lors d'un secours par l'arrière est en principe effectué exclusivement par le conducteur de l'EM de secours.",
+        "Si l'EM en détresse ne peut plus être maintenu en service, le conducteur éteint immédiatement toute sa signalisation pendant l'attente du secours afin d'économiser les batteries.",
+        "La rédaction d'une demande de secours (F45.01) dispense de communiquer au SGC le type d'attelage, la disponibilité d'un attelage de secours et l'équipement en sécheur d'air."
+      ],
+      "explanation": "F45.03 (14/12/2025) rappelle que les deux conducteurs vérifient conjointement : (1) masse totale du train secouru ≤ masse maximale remorquable du train secourant ; (2) limite de résistance des attelages augmentée de la limite maximale de la (des) locomotive(s) de pousse ; en cas de dépassement -> aviser le SGC et suivre ses instructions. En attente du secours, si l'EM est mis en véhicule, le conducteur maintient la signalisation. L'attelage est en principe effectué par le conducteur du train ayant demandé le secours (F45.06 p. 2/3).",
+      "sources": [
+        "F45.01 — Demande de secours, p. 1/4 (© Lineas, June 08, 2025 Lille)",
+        "F45.03 — Opérations à effectuer après la demande de secours, p. 1-2/2 (© Lineas, December 14, 2025 Lille)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "packId": "lot13-avaries-em-materiel-remorque-cuu-securite-personnes",
+  "title": "Lot 13 — Avaries Engin Moteur, matériel remorqué, partenariat Hexafret/CUU et sécurité des personnes (F50 à F70 & FR20779)",
+  "generatedAt": "2026-11-24T19:20:00Z",
+  "questions": [
+    {
+      "id": "lot13-q01",
+      "type": "qcm_multi",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Dépannage Engin Moteur — Définitions, délais 5 min / 15 min / 80 km (F50.01 / F50.02)",
+      "difficulty": "moyen",
+      "prompt": "Selon les fiches F50.01 et F50.02 (révision du 14 décembre 2025 pour F50.02), quelles règles relatives au dépannage d'un Engin Moteur et à l'utilisation du Guide de Dépannage (GD) sont exactes ?",
+      "correctAnswers": [
+        "Avant d'avoir annoncé « Train Prêt à Accéder au Réseau » (avant départ en ligne), si une anomalie persiste, le conducteur doit aviser le Service Opérationnel le plus rapidement possible et au plus tard dans un délai de 15 minutes.",
+        "En ligne, si une anomalie provoque ou exige un arrêt, le conducteur avise un agent du SGC au plus tard dans les 5 minutes dès qu'existe un moyen rapide de communication ; si une anomalie sur un système de sécurité (autre que la radio GSM-R) ne provoque pas l'arrêt, le point d'application du GD doit se situer au plus tard à 80 km du lieu de constatation (d'entente avec le Régulateur si le 1er arrêt prévu est à > 80 km).",
+        "La mention « Dépannage terminé » signifie que l'EM peut être réutilisé sans restriction (sans dispenser de poursuivre le Mémento) ; si les manœuvres du GD aboutissent à un résultat non prévu, il faut recommencer le dépannage après avoir remis tous les appareils sur leur position initiale."
+      ],
+      "distractors": [
+        "La mention « Aviser le Régulateur » exige toujours que le conducteur se mette personnellement en relation directe avec le Régulateur sans pouvoir passer par un autre agent du SGC.",
+        "Avant le départ en ligne, le conducteur dispose d'un délai de 30 minutes avant d'aviser le Service Opérationnel d'une anomalie persistante sur l'EM.",
+        "En ligne, pour une anomalie sur un système de sécurité n'ayant pas provoqué l'arrêt, le conducteur peut poursuivre jusqu'au terminus même s'il est situé à 150 km.",
+        "Lors de disjonctions systématiques survenant à certains points singuliers de la ligne, le conducteur doit toujours les considérer comme une avarie de l'EM et demander le secours."
+      ],
+      "displayCount": 5,
+      "explanation": "F50.01 et F50.02 (14/12/2025) posent les délais et définitions exacts : 15 min max avant départ pour aviser le SO ; 5 min max après un arrêt en ligne pour aviser le SGC (si moyen rapide) ; 80 km max pour un système de sécurité hors GSM-R n'ayant pas provoqué l'arrêt ; RP devant rester > 6 bars ; « Aviser le Régulateur » (peut passer par un agent SGC, de préférence par écrit) vs « Se mettre en rapport avec le Régulateur » (relation personnelle obligatoire) ; résultat non prévu au GD -> remettre tous les appareils sur position initiale et recommencer.",
+      "sources": [
+        "F50.01 — Anomalie à l'engin moteur, p. 1-2/2 (© Lineas, September 15, 2019 Brussels)",
+        "F50.02 — Dépannage engin moteur, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q02",
+      "type": "qcm",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Avarie de pantographe (F50.03), avarie du poste de tête (F50.04) et mesures immédiates (F50.05)",
+      "difficulty": "moyen",
+      "prompt": "Suite à une avarie du poste de conduite « de tête » d'un EM bi-cabine en ligne (F50.04), vous devez conduire depuis la cabine arrière de l'EM de tête (ou la cabine avant de l'EM placé immédiatement derrière l'EM de tête), et le mouvement NE peut PAS être guidé comme une manœuvre. Quelles prescriptions exactes impose la fiche F50.04 (ainsi que F50.03 en cas de présomption d'avarie pantographe et F50.05 pour des bruits/vibrations/fumées sans risque d'incendie) ?",
+      "correctAnswer": "Appuyer sur BP-MV, circuler avec prudence sans dépasser 30 km/h en redoublant d'attention (et demander le secours si la position du pupitre / l'absence de commandes latérales ne permet pas l'observation de la voie, ou s'il s'agit d'une autre cabine plus en arrière) ; en F50.03 (présomption avarie panto) -> abaisser d'urgence les pantos, s'arrêter d'urgence, aviser RSS/Agent E et examiner au sol ; en F50.05 (bruits/vibrations/fumées sans risque d'incendie) -> arrêter le moteur diesel ou ouvrir le disjoncteur, s'arrêter, Mémento + GD.",
+      "distractors": [
+        "Conduire depuis la cabine arrière de l'EM de tête sans guidage jusqu'à 50 km/h sans appuyer sur BP-MV ; il est possible de conduire seul sans guidage depuis la cabine arrière d'un EM en 2e position.",
+        "En cas de présomption d'avarie de pantographe (F50.03), si l'examen au sol ne révèle aucune anomalie apparente et que la montée/descente est correcte, vous poursuivez normalement jusqu'au terminus sans aviser le Service Opérationnel.",
+        "En cas de bruits anormaux ou vibrations sur un EM électrique (F50.05), il faut d'abord s'arrêter avant d'ouvrir le disjoncteur.",
+        "Lors de l'utilisation d'un EM électrique acheminé en véhicule par un EM diesel pour reprendre la conduite (F50.04), il n'est pas nécessaire de demander l'autorisation au RSS/Agent E avant de lever le pantographe.",
+        "En cas d'avarie du poste de tête avec guidage comme une manœuvre, la vitesse reste fixée à 30 km/h dans tous les cas.",
+        "En cas de fonctionnement intempestif de la VA (F50.05), il faut actionner la commande d'annulation d'alarme VA pendant 5 secondes dans un délai de 60 secondes après l'arrêt."
+      ],
+      "explanation": "F50.04 : si non guidé comme une manœuvre, la conduite est possible uniquement depuis la cabine arrière de l'EM de tête OU la cabine avant de l'EM immédiatement derrière -> BP-MV + prudence ≤ 30 km/h (demande de secours si observation impossible ou si autre cabine) ; et si EM électrique acheminé en véhicule par un EM diesel -> autorisation RSS/Agent E obligatoire pour lever le panto. F50.03 : présomption d'avarie panto -> baisse d'urgence pantos + arrêt d'urgence + avis RSS/Agent E + examen au sol ; même si intact et montée/descente OK -> reprise jusqu'au 1er point de remplacement/visite + avis SO pour visite toiture maintenance. F50.05 : bruits/vibrations/fumées/étincelles -> arrêt moteur diesel ou ouverture disjoncteur (+ F46.01 si risque incendie) ; VA intempestive -> annulation 2 s dans les 30 s ; IV bloqué à 0 -> SIAC si existant + F50.08.",
+      "sources": [
+        "F50.03 — Avarie du pantographe, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F50.04 — Avarie du poste de conduite \"de tête\", p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F50.05 — Avaries à l'engin moteur nécessitant des mesures immédiates, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot13-q03",
+      "type": "qcm",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Avarie à la Veille Automatique (VA) — Isolement et vitesses limites (F50.06)",
+      "difficulty": "moyen",
+      "prompt": "En cours de route sur un train MA90 (EM en tête), suite à une anomalie de la Veille Automatique (non reprise au GD), votre essai VA à l'arrêt s'avère non satisfaisant et vous devez isoler la VA. Aucun agent d'accompagnement ne peut vous assister dans l'immédiat. Quelle conduite exacte impose la fiche F50.06 (version du 14 décembre 2025), et quelle vitesse limite s'appliquerait pour un train MA100 ou pour un EM en DT (non en tête) ?",
+      "correctAnswer": "Isoler la VA, aviser le SO par dépêche (formulaire L1) et le SGC : pour rejoindre le point limite d'utilisation désigné par le Régulateur sans agent d'accompagnement, la VL est limitée à 50 km/h pour votre MA90 (et 70 km/h pour les MA100 et plus) ; au-delà du point limite, un agent d'accompagnement est obligatoire ; pour un EM en DT (ou pousse attelée, non en tête), reprise sans agent d'accompagnement et sans restriction de vitesse.",
+      "distractors": [
+        "Pour un train MA90 sans agent d'accompagnement, la vitesse limite est de 70 km/h (et 100 km/h pour un MA100) ; aucune limitation n'est imposée jusqu'au terminus.",
+        "Si une anomalie VA (ex. absence de son au relâchement) ne provoque pas l'arrêt du train, le conducteur peut poursuivre jusqu'au point de relais sans s'arrêter.",
+        "Si le conducteur ne peut être assisté par un agent d'accompagnement avec la VA isolée, il lui est strictement interdit de déplacer le train même pour rejoindre le point limite désigné par le Régulateur.",
+        "En cas de seconde anomalie de la VA en cours de route, le conducteur effectue un deuxième essai à l'arrêt et maintient la VA en service si l'essai est bon.",
+        "Pour un EM en pousse non attelée avec VA isolée, la reprise s'effectue sans agent d'accompagnement et sans restriction de vitesse.",
+        "En cas de présence d'un agent d'accompagnement en cabine avec la VA isolée, la vitesse reste limitée à 70 km/h pour les MA100."
+      ],
+      "explanation": "F50.06 (14/12/2025) précise : (1) toute anomalie VA impose l'arrêt (même si elle ne l'a pas provoqué) + Mémento + GD (si non repris au GD -> essai à l'arrêt ; si non satisfaisant ou 2e anomalie -> isoler la VA + formulaire L1 par dépêche au SO) ; (2) EM en tête ou pousse non attelée : avec agent d'accompagnement (informé des opérations d'arrêt/immobilisation) -> reprise SANS restriction de vitesse ; sans agent d'accompagnement -> jusqu'au point limite désigné par le Régulateur à 70 km/h max (MA100 et plus) ou 50 km/h max (autres indices, ex. MA90/MA80) ; au-delà du point limite -> agent d'accompagnement obligatoire ; (3) EM en DT ou pousse attelée (non en tête) -> reprise sans assistance ni restriction.",
+      "sources": [
+        "F50.06 — Avarie à la Veille Automatique - VA, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q04",
+      "type": "qcm_multi",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Avarie radio GSM-R (F50.07), dérangement GSM-GFU ARES (F50.11) et protection des batteries (F50.10)",
+      "difficulty": "difficile",
+      "prompt": "Selon les fiches F50.07 (révision du 14 juin 2026), F50.10 (14 décembre 2025) et F50.11 (8 juin 2025), quelles règles relatives aux liaisons radio/GSM-GFU et à la protection des batteries sont exactes ?",
+      "correctAnswers": [
+        "En cours de route (F50.07), si l'IHM radio GSM-R n'affiche pas directement « Problème Bord », le conducteur parcourt 10 km avant de conclure à une anomalie bord (garantit le passage sous une autre BTS de portée 1,5 à 6 km) ; en cas d'anomalie bord sans radio portative (ou de zone d'absence réseau avérée > 5 000 m, ou anomalie sol non rétablie sur ordre écrit/dépêche), la vitesse est limitée à 50 km/h.",
+        "En cas d'absence ou de non-fonctionnement du téléphone GSM-GFU ARES (F50.11, après avis SGC par radio sol-train), la circulation est autorisée avant départ UNIQUEMENT sur les lignes désignées aux LiLi équipées de la radio sol-train en service, et en cours de route (ou en cas d'indisponibilité du réseau GSM) jusqu'à la fin du sillon ; tout dysfonctionnement de l'application ARES impose de contacter l'Assistance Mobilité Réseau (NOMADE : +33 9 72 72 12 70) à l'arrêt au 1er moment favorable / au plus tard en fin de service.",
+        "Dès qu'un stationnement supérieur à 15 minutes est envisagé sans pouvoir maintenir le disjoncteur fermé (F50.10) : aviser son correspondant et convenir des moyens de comm, verrouiller la boîte à leviers, éteindre les lampes inutiles, assurer la signalisation avant/arrière, ouvrir les circuits basse tension (sauf signalisation EM), et placer le commutateur « Secours radio » sur « Secours » s'il existe."
+      ],
+      "distractors": [
+        "En cours de route, pour différencier une anomalie sol d'une anomalie bord GSM-R lorsque l'IHM ne l'indique pas, le conducteur doit parcourir 30 km avant de conclure à une anomalie bord.",
+        "Une zone d'absence réseau GSM-R avérée reprise au tableau interdit au conducteur de se mettre en marche en gare d'origine même si sa longueur est de 2 000 m.",
+        "En cas de non-fonctionnement du téléphone GSM-GFU ARES avant le départ (origine sillon), le train peut partir même sur une ligne non équipée de la radio sol-train.",
+        "Lors d'un stationnement prolongé (> 15 min) sans charge batterie, il faut impérativement ouvrir tous les circuits basse tension y compris ceux alimentant la signalisation de l'EM."
+      ],
+      "displayCount": 5,
+      "explanation": "F50.07 (14/06/2026) : 10 km pour différencier bord vs sol si pas de « Problème Bord » (BTS 1,5–6 km) ; anomalie bord identifiée -> ralentir et s'arrêter hors tunnel/viaduc/ouvrage d'art, aviser SGC, repartir au lieu du GD à ≤ 50 km/h ; zone d'absence réseau avérée -> autorisé à partir/poursuivre (VL 50 km/h par écrit/dépêche si > 5 000 m), vérifier détection réseau au dégagement ; alerte radio intempestive -> s'arrêter, Mémento + GD. F50.11 (08/06/2025) : avant départ sans GSM-GFU -> uniquement lignes équipées RST en service ; en cours de route -> jusqu'à fin du sillon ; signalement BC99 (AGSM) + BS + appel NOMADE (+33 9 72 72 12 70). F50.10 (14/12/2025) : seuil 15 min, maintien signalisation EM, position « Secours » radio si équipé.",
+      "sources": [
+        "F50.07 — Avarie à la liaison radio GSM-R, p. 1-3/3 (© Lineas, June 14, 2026 Lille)",
+        "F50.10 — Protection des batteries lors d'un stationnement prolongé, p. 1/1 (© Lineas, December 14, 2025 Lille)",
+        "F50.11 — Dérangement du système GSM-GFU ARES, p. 1-3/3 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q05",
+      "type": "qcm",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Avarie Indicateur de Vitesse (F50.08), Sifflet (F50.09), Fonction traction (F50.13) et ENR-ATESS (F50.16)",
+      "difficulty": "moyen",
+      "prompt": "Comparez quatre avaries techniques en ligne : (1) avarie de l'Indicateur de Vitesse sans information SIAC (F50.08), (2) avarie du sifflet (F50.09), (3) impossibilité d'ouvrir le disjoncteur (F50.13), et (4) anomalie empêchant de renseigner les données dans l'ENR-ATESS (F50.16). Quelle série de conduites exactes correspond à ces 4 cas ?",
+      "correctAnswer": "(1) IV sans SIAC : poursuivre sans gagner/rattraper de temps, prudence aux points singuliers, arrêt GD d'entente Régulateur au plus tard à 80 km + L1 ; (2) Sifflet : ≤ 30 km/h (jusqu'au point de secours désigné si dépannage infructueux ; EM utilisable en 2e position DT/UM) ; (3) Disjoncteur impossible à ouvrir : baisser d'urgence le pantographe ; (4) ATESS données impossibles à renseigner : GD, remplir la fiche suiveuse, annoter CB, aviser SO (formulaires L1 + L2).",
+      "distractors": [
+        "(1) IV sans SIAC : arrêt d'urgence immédiat ; (2) Sifflet : ≤ 50 km/h jusqu'au terminus ; (3) Disjoncteur bloqué fermé : poursuivre jusqu'à la gare suivante ; (4) ATESS : L1 seul sans fiche suiveuse.",
+        "(1) IV sans SIAC : limiter à 60 km/h sans arrêt avant le terminus ; (2) Sifflet : un EM au sifflet hors service ne peut pas être utilisé en 2e position en UM ; (3) Impossible de baisser les pantos : continuer jusqu'à la 1re gare.",
+        "(2) Sifflet : si le dépannage n'aboutit pas et que l'agent SGC ne donne pas l'ordre de poursuivre, vous continuez tout de même à 30 km/h jusqu'à la prochaine gare ; (4) ATESS : le conducteur ne remplit jamais la fiche suiveuse.",
+        "(3) Si le conducteur ne peut plus couper l'effort de traction (F50.13), il lui est interdit d'ouvrir le disjoncteur ou d'arrêter le moteur diesel en marche.",
+        "(3) En cas d'isolement de moteur(s) de traction (F50.13), la masse admissible aux RT/LiLi reste inchangée tant que le train ne franchit pas de forte pente.",
+        "(1) Lorsque l'information de vitesse est donnée par le SIAC (F50.08), le conducteur n'a pas besoin d'envoyer de formulaire L1 au Service Opérationnel."
+      ],
+      "explanation": "F50.08 (08/06/2025) : avec SIAC -> poursuivre + Mémento/GD + L1 (+ « Essai VA » sur marche sur certains EM) ; sans SIAC -> ne pas gagner/rattraper de temps, prudence, arrêt GD ≤ 80 km + L1. F50.09 : avarie sifflet -> ≤ 30 km/h, avis SGC, dépannage à l'arrêt ; si échec -> ≤ 30 km/h jusqu'au point de secours si ordre SGC, sinon demande de secours (EM utilisable en 2e position DT/UM). F50.13 : isolement moteur(s) -> réduire masse admissible proportionnellement aux moteurs restants en accord SO ; impossible couper traction -> gagner 1re gare, ouvrir DJ / arrêter diesel si limites techniques ou VL menacées ; impossible ouvrir DJ -> baisser d'urgence le panto ; impossible baisser panto -> arrêt d'urgence + coupure d'urgence si risque. F50.16 (08/06/2025) : données impossibles -> GD + fiche suiveuse + CB + L1 + L2.",
+      "sources": [
+        "F50.08 — Avarie à l'indicateur de vitesse - IV, p. 1/1 (© Lineas, June 08, 2025 Lille)",
+        "F50.09 — Avarie du sifflet, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "F50.13 — Dysfonctionnement de la fonction traction sur l'engin moteur, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F50.16 — Avarie à l'ENR-ATESS, p. 1/1 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q06",
+      "type": "qcm",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Acheminement d'un EM avarié vers/depuis un centre de maintenance (F50.12)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau F50.12 ci-dessous (version du 8 juin 2025), à partir du point limite de parcours, pour quels dispositifs de sécurité avariés l'utilisation du poste de conduite avarié est-elle STRICTEMENT INTERDITE (hors conduite depuis un autre poste valide), par opposition à ceux autorisés moyennant une autorisation écrite (formulaire L2) du Service Opérationnel ?",
+      "referenceTable": {
+        "title": "Conditions d'acheminement en service d'un EM avec dispositif avarié (F50.12, p. 1-2/2)",
+        "openByDefault": true,
+        "headers": [
+          "Dispositif avarié dans le poste de conduite",
+          "Condition d'acheminement vers centre de maintenance"
+        ],
+        "rows": [
+          [
+            "Indicateur de Vitesse (IV)",
+            "Utilisation du poste de conduite avarié INTERDITE"
+          ],
+          [
+            "Répétition des Signaux (RS)",
+            "Utilisation du poste de conduite avarié INTERDITE"
+          ],
+          [
+            "Veille Automatique (VA)",
+            "Autorisée si un agent d'accompagnement assiste le conducteur en cabine"
+          ],
+          [
+            "GSM-R",
+            "Autorisée avec radio portative (à défaut VL 50 km/h après accord SGC) ou sur ligne non équipée au sol"
+          ],
+          [
+            "KVB / DAAT / Enregistreur (ATESS/TELOC)",
+            "Autorisée moyennant autorisation écrite (L2) du SO (trajet le plus direct ou le plus rapide ; 1 autorisation par train)"
+          ]
+        ],
+        "note": "Sortie de centre de maintenance : Préparation Courante minutieuse obligatoire ; si un dispositif ne peut être remis en état, la cabine comportant le dispositif avarié ne doit pas être utilisée pour la remorque d'un train."
+      },
+      "correctAnswer": "Utilisation du poste de conduite avarié STRICTEMENT INTERDITE pour l'Indicateur de Vitesse (IV) et la Répétition des Signaux (RS) ; autorisée moyennant autorisation écrite (L2) du Service Opérationnel pour le KVB, le DAAT et l'Enregistreur de paramètres (ATESS/TELOC).",
+      "distractors": [
+        "Utilisation du poste avarié strictement interdite pour le KVB et le DAAT ; autorisée sur simple autorisation écrite L2 pour l'Indicateur de Vitesse et la Répétition des Signaux.",
+        "Utilisation du poste avarié strictement interdite pour la Veille Automatique même avec un agent d'accompagnement en cabine.",
+        "Pour acheminer un EM avec ATESS avarié via plusieurs trains successifs, une seule autorisation écrite L2 couvre l'ensemble des trains.",
+        "En sortie de centre de maintenance, si un dispositif de sécurité n'a pas pu être réparé, le conducteur peut tout de même utiliser cette cabine pour remorquer un train commercial jusqu'à 70 km/h.",
+        "Un EM avec radio GSM-R avariée ne peut jamais être acheminé en service sur une ligne non équipée au sol sans radio portative.",
+        "Un EM dont un dispositif est avarié dans une cabine ne peut jamais être acheminé en service depuis l'autre cabine dont tous les dispositifs fonctionnent."
+      ],
+      "explanation": "Le tableau F50.12 (08/06/2025) est parfaitement cohérent avec le formulaire L2 (E90.03) : seuls KVB, DAAT et ENR (ATESS/TELOC) bénéficient d'une autorisation écrite L2 (trajet le plus direct/rapide, autant d'autorisations que de trains) ; IV et RS = utilisation du poste avarié INTERDITE ; VA = agent d'accompagnement obligatoire ; GSM-R = portative (sinon 50 km/h accord SGC) ou ligne non équipée. Si un autre poste de conduite a tous ses dispositifs valides -> acheminement en service possible depuis cet autre poste.",
+      "sources": [
+        "F50.12 — Acheminement d'un engin moteur avarié vers/depuis un centre de maintenance, p. 1-2/2 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q07",
+      "type": "qcm_multi",
+      "theme": "ETCS",
+      "subtheme": "Anomalie bord ETCS (F50.14) et absence d'indication / extinction du DMI en ETCS1 (F50.15)",
+      "difficulty": "difficile",
+      "prompt": "Vous circulez en ETCS niveau 1 lorsque survient une anomalie bord ETCS (F50.14) ou une extinction complète du (des) DMI (F50.15, version du 8 juin 2025). Quelles procédures sont exactes ?",
+      "correctAnswers": [
+        "Une anomalie bord ETCS (F50.14) peut provoquer un passage en mode SF (System Failure) associé à un freinage d'urgence maintenu tant que SF est présent (« Défaut calculateur ETCS » ou « Défaut tachymétrie ») ; s'il est impossible d'y remédier en ligne, l'agent SGC peut verbalement faire basculer manuellement sur « STM France » (reprise en arrêt accidentel + signalisation au sol).",
+        "En cas d'extinction du (des) DMI (F50.15) : s'arrêter d'urgence (ou confirmer le freinage), baisser d'urgence le(s) pantographe(s) et se considérer en mode SR ; si un carré / CV / GA fermé a été franchi pendant la phase d'arrêt -> protection d'obstacle (priorité VU/VB), se faire reconnaître, GD, remettre EM en marche et recevoir une instruction IE1.",
+        "Si après application du GD vous ne disposez TOUJOURS d'aucune indication au DMI et devez poursuivre par vos propres moyens (F50.15) : recevoir de l'AC l'ordre écrit « Se mettre en marche et circuler comme si le mode SR était présenté. Cet ordre est applicable jusqu'à ... [PLD/KM ou point de garage] ou dans tous les cas jusqu'à la mise hors service du poste de conduite », respecter le mode SR et basculer sur le système national si possible."
+      ],
+      "distractors": [
+        "En cas d'extinction du DMI en cours de marche, vous poursuivez à 40 km/h sans vous arrêter ni baisser les pantographes jusqu'au prochain signal.",
+        "Si après application du GD le DMI reste totalement éteint, vous pouvez poursuivre en mode SR par vos propres moyens sur simple accord verbal de l'agent-circulation sans ordre écrit.",
+        "Lorsque le système bord ETCS passe en mode SF (« Défaut tachymétrie »), le freinage d'urgence est immédiatement rémissible dès que la vitesse descend sous 30 km/h.",
+        "Si une anomalie bord ETCS avec freinage d'urgence survient au cours de la mise en service de l'engin moteur, il faut obligatoirement la signaler à l'agent du SGC en plus du Service Opérationnel."
+      ],
+      "displayCount": 5,
+      "explanation": "F50.14 : anomalie bord avec FU au cours de la mise en service -> aviser SO (PAS le SGC) ; en ligne -> GD + SGC + SO ; mode SF maintient le FU ; passage manuel en STM France possible sur demande verbale SGC + arrêt accidentel. F50.15 (08/06/2025) : extinction DMI -> arrêt d'urgence + baisse d'urgence pantos + se considérer en SR ; si franchissement C/CV/GA -> IE1 (si S BAL -> F30.07) ; si toujours aucune indication au DMI après GD -> poursuite par propres moyens uniquement sur ORDRE ÉCRIT prescrivant de circuler comme si le mode SR était présenté (jusqu'au PLD/point de garage ou mise hors service du poste) + bascule système national si possible.",
+      "sources": [
+        "F50.14 — Anomalie bord du système ETCS, p. 1-2/2 (© Lineas, June 14, 2020 Brussels)",
+        "F50.15 — Absence d'indication au DMI en ETCS1, p. 1-2/2 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q08",
+      "type": "qcm",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Anomalie du dispositif d'aide au shuntage — Catégorie C et Ordre AVASS (F50.20)",
+      "difficulty": "moyen",
+      "prompt": "En cours de route sur une ligne équipée en BAL par circuit de voie, une avarie du dispositif d'aide au shuntage sur votre engin moteur vous conduit à considérer votre circulation comme une « circulation de catégorie C » (risque de déshuntages prolongés). Quelle séquence exacte impose la fiche F50.20 (version du 8 juin 2025) ?",
+      "correctAnswer": "Après arrêt, assurer ou faire assurer la couverture comme s'il s'agissait d'un obstacle (sur sections/gares à block par circuit de voie : BAL, BAPR, BMCV), aviser l'AC par dépêche (« Conducteur du train n° ..., arrêté au km ..., ... ce train est à considérer comme une circulation de catégorie C »), aviser le SO, attendre des instructions sur place, puis (si autorisé) recevoir un Ordre AVASS (PN/PN piétons/TVP en marche prudente, constat fermeture PN, siffler à l'approche des quais, ≤ 30 km/h entre origine et extrémité de quai).",
+      "distractors": [
+        "Poursuivre directement jusqu'à la gare suivante à 30 km/h sans couvrir le train puis prévenir l'AC verbalement à l'arrivée.",
+        "La catégorie C correspond à des déshuntages brefs intermittents prévisibles ; elle n'exige pas d'ordre écrit AVASS mais un simple accord verbal radio.",
+        "Sur un ordre AVASS, la vitesse maximale entre l'origine et l'extrémité d'un quai est de 50 km/h sans obligation de siffler.",
+        "Si le SGC n'autorise pas la remise en marche en catégorie C, vous pouvez tout de même repartir en marche à vue jusqu'au prochain évitement.",
+        "En gare d'origine, une anomalie du dispositif d'aide au shuntage n'a pas besoin d'être signalée par dépêche à l'AC avant de recevoir l'ordre AVASS.",
+        "La couverture comme un obstacle après arrêt en cours de route s'applique uniquement en Block Manuel mécanique, pas en BAL ni BAPR."
+      ],
+      "explanation": "F50.20 (08/06/2025) définit les 3 catégories (A = déshuntages brefs intermittents, B = véhicules/engins spéciaux risque temporaire, C = risque de déshuntages prolongés). En cours de route en catégorie C : après arrêt, sur BAL/BAPR/BMCV -> couverture comme un obstacle + dépêche à l'AC + avis SO + attente sur place. Si remise en marche autorisée -> Ordre AVASS (IN31) par écrit/dépêche : PN en marche prudente après constat fermeture, PN piétons/TVP en marche prudente, DATZD/DAELZD, siffler à l'approche des quais, ≤ 30 km/h entre origine et extrémité des quais, arrêt au point désigné ; sinon demande de secours.",
+      "sources": [
+        "F50.20 — Anomalie du dispositif d'aide au shuntage, p. 1-2/2 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q09",
+      "type": "open",
+      "theme": "Matériel remorqué",
+      "subtheme": "Détection d'une boîte chaude (DBC) — Alarmes simple/danger, visite, repérage et évacuation (F60.01 / F60.02)",
+      "difficulty": "difficile",
+      "prompt": "Sur le RFN (train sous certificat Lineas), l'agent de surveillance vous avise d'une « Alarme simple DBC » puis, sur une autre circulation, d'une « Alarme danger DBC ». Aucune visite n'a encore été effectuée. Selon les fiches F60.01 (14 décembre 2025) et F60.02, précisez : (1) la différence de conduite entre Alarme simple (distances de garage 15/30 km et vitesse si certitude d'absence d'anomalie) et Alarme danger (dont la règle essentielle sur le freinage d'urgence et les voies contiguës), (2) la procédure de visite si la boîte désignée n'est PAS anormalement chaude (et la règle des 20 km / du 2e signalement), (3) la conduite en cas de chauffage avéré (fusée rompue vs non rompue, isolement frein, étiquette IN + papillon blanc, détenteur du wagon), et (4) les règles d'évacuation F60.02 (avec ou sans liaison SGC, vitesse limite, boîtes à 1 joue de guidage / MD).",
+      "modelAnswer": "1. Alarme simple vs Alarme danger :\n   - Alarme simple DBC (y compris alarme « relative ») : vérifier l'absence d'anomalie (effort retenue, fumée, étincelles, crissement) ; si incertitude/anomalie -> arrêt immédiat sans FU en endroit favorable ; si certitude d'absence d'anomalie -> poursuivre jusqu'au point de garage (max 15 km, exceptionnellement 30 km, sinon visite sur VP au signal indiqué) en limitant la vitesse à 40 km/h max.\n   - Alarme danger DBC (risque de rupture de fusée) : arrêt immédiat SANS utiliser le freinage d'urgence (un FU pouvant provoquer la rupture de la fusée fragilisée !), éviter les lieux sensibles (tunnel, viaduc...), protéger si engagement voie voisine (les circulations sur voies contiguës arrêtées par l'agent de surveillance ne reprennent que sur indication du conducteur alarmé et cessation de sa protection).\n2. Visite et cas d'absence d'anomalie :\n   - Immobiliser le train (B60.05), alimenter en SURCHARGE puis éliminer (min 4 min ; si proportion essieux non atteinte -> CFA/CG à 3 bars) ; le côté (D/G) s'entend dans le sens de marche et le rang en comptant tous les essieux depuis la tête (EM compris) ; vérifier si blocage (F20.06) ou boîte chaude.\n   - Si la boîte désignée n'est pas anormalement chaude : visiter toutes les boîtes du véhicule, puis les 2 véhicules encadrants ; si AUCUNE anomalie n'est constatée -> apposer étiquette IN + papillon blanc près de la boîte (toute boîte détectée chaude est déposée en atelier ; un défaut de repérage impose le remplacement de TOUS les essieux !), rendre compte SGC/SO, annoter BF, puis effectuer une nouvelle visite après ~20 km (point convenu avec Régulateur).\n   - Si la boîte a déjà fait l'objet d'un signalement précédent (2e signalement) et qu'aucune anomalie n'est découverte -> la traiter d'office comme un CHAUFFAGE DE BOÎTE AVÉRÉ.\n3. Chauffage de boîte avéré :\n   - Vérifier absence d'incendie (F46.01) et état de la fusée ;\n   - Fusée rompue ou doute sur son état : étiquette IN + papillon blanc (sauf EM), rendre compte SGC, demander secours « wagon de secours nécessaire », aviser SO (+ nom du détenteur du wagon) ;\n   - Fusée non rompue : ISOLER LE FREIN du véhicule (évite l'effort de torsion sur la fusée ; pas d'étiquette IS), étiquette IN + papillon blanc (sauf EM), rendre compte SGC, aviser SO (+ nom du détenteur), annoter le BF, et appliquer F60.02.\n4. Évacuation F60.02 :\n   - Avec liaison SGC : faire arrêter et retenir les trains sur les voies voisines (croisement/dépassement), recevoir une DÉPÊCHE autorisant la remise en marche, reprendre jusqu'au point désigné sans dépasser 20 km/h en surveillant la tenue ;\n   - Sans liaison SGC : si le véhicule comporte des boîtes à UNE SEULE JOUE DE GUIDAGE ou contient des MD et que l'acheminement ne peut se faire sans croisement/dépassement -> LAISSER LE TRAIN SUR PLACE et se rendre à pied au 1er téléphone ; sinon (VU sans croisement/dépassement, ou ni 1 joue ni MD) -> avancer à vitesse d'un homme au pas jusqu'au 1er téléphone.",
+      "keyPoints": [
+        {
+          "label": "Alarme simple : garage max 15 km (excep. 30 km), VL ≤ 40 km/h si certitude absence d'anomalie ; Alarme danger : arrêt immédiat SANS freinage d'urgence (risque rupture fusée), hors tunnel/viaduc",
+          "critical": true
+        },
+        {
+          "label": "Visite (côté sens marche, rang essieux EM compris) : si rien trouvé sur boîte désignée -> vérifier toutes boîtes du wagon + 2 wagons encadrants -> si aucune anomalie : étiquette IN + papillon blanc + contrôle à ~20 km ; 2e signalement même boîte -> traiter comme boîte chaude avérée",
+          "critical": true
+        },
+        {
+          "label": "Boîte chaude avérée : si fusée rompue/doute -> secours « wagon de secours nécessaire » ; si fusée non rompue -> ISOLER LE FREIN (évite torsion fusée, pas d'IS), étiquette IN + papillon blanc, aviser SO avec nom du détenteur + annoter BF",
+          "critical": true
+        },
+        {
+          "label": "Évacuation F60.02 : arrêt/rétention des trains sur voies voisines + dépêche de remise en marche + VL ≤ 20 km/h ; sans liaison SGC et si boîtes à 1 joue de guidage ou MD avec risque croisement/dépassement -> laisser le train sur place et aller à pied au 1er téléphone (sinon vitesse homme au pas jusqu'au 1er tél)",
+          "critical": true
+        }
+      ],
+      "explanation": "F60.01 (14/12/2025) et F60.02 sont parmi les fiches les plus complètes du DML fret : ne JAMAIS faire de FU sur alarme danger DBC, isoler impérativement le frein avant acheminement à ≤ 20 km/h sur dépêche avec arrêt des trains croiseurs/dépasseurs, ne pas oublier le papillon blanc (sinon dépose de tous les essieux) ni le nom du détenteur au SO, et connaître la règle des 20 km et du 2e signalement.",
+      "sources": [
+        "F60.01 — Détection d'une boîte chaude, p. 1-9/9 (© Lineas, December 14, 2025 Lille)",
+        "F60.02 — Évacuation d'un véhicule ou EM comportant une boîte chaude, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot13-q10",
+      "type": "qcm",
+      "theme": "Matériel remorqué",
+      "subtheme": "Incident à un véhicule autre que blocage ou boîte chaude — DACE et wagon signalé instable (F60.03)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau DACE ci-dessous (fiche F60.03, version du 8 juin 2025), votre train est arrêté suite à un signalement de wagon INSTABLE (ou suite à un avis ANOT issu d'une station DACE). Lors de votre visite du wagon désigné et des deux wagons encadrants, vous ne décelez AUCUNE anomalie apparente. Quelle conduite exacte devez-vous adopter pour ce wagon signalé instable ?",
+      "referenceTable": {
+        "title": "Détecteurs d'Anomalie de Charge à l'Essieu — DACE (F60.03, p. 1-3/3)",
+        "openByDefault": true,
+        "headers": [
+          "Anomalie détectée par DACE (transmise par Avis ANOT)",
+          "Causes possibles"
+        ],
+        "rows": [
+          [
+            "Défaut de roue (1re fonctionnalité déployée)",
+            "Méplat, ovalité, polygonisation"
+          ],
+          [
+            "Déséquilibre (évolution ultérieure)",
+            "Mauvaise répartition du chargement, défaut de suspension"
+          ],
+          [
+            "Dépassement de charge (évolution ultérieure)",
+            "Charge déplacée, surcharge"
+          ]
+        ],
+        "note": "Rang de l'essieu alarmé sur Avis ANOT : compté depuis la tête en prenant en compte les essieux des EM de remorque ou en véhicule. Accès parties ≥ 3 m interdit sans EPI antichute."
+      },
+      "correctAnswer": "Apposer une étiquette IN sur le véhicule désigné, aviser un agent du SGC, et reprendre la marche sans dépasser la vitesse de 60 km/h jusqu'au premier établissement où ce wagon peut être différé.",
+      "distractors": [
+        "Puisqu'aucune anomalie apparente n'a été constatée sur le wagon ni sur les deux wagons encadrants, reprendre la marche à la vitesse limite normale jusqu'au terminus sans apposer d'étiquette.",
+        "Demander obligatoirement le secours avec « wagon de secours nécessaire » dès qu'un wagon a été signalé instable même sans anomalie apparente.",
+        "Reprendre la marche sans dépasser 20 km/h en faisant arrêter et retenir tous les trains croiseurs sur les voies voisines.",
+        "Reprendre la marche sans dépasser 40 km/h jusqu'au terminus du train sans avoir à différer le wagon.",
+        "Lors d'un avis ANOT provenant d'une station DACE, le rang de l'essieu alarmé exclut les essieux de la locomotive de tête.",
+        "Si une bâche ou un toit déverrouillé nécessite d'intervenir à 3,20 m de hauteur, le conducteur peut monter sans harnais en gardant 3 points d'appui."
+      ],
+      "explanation": "F60.03 (08/06/2025) précise : si aucune anomalie n'est découverte sur le véhicule désigné -> visiter les 2 véhicules encadrants ; si toujours rien -> étiquette IN sur le véhicule désigné + avis SGC : si le wagon était signalé pour INSTABILITÉ -> VL max 60 km/h jusqu'au 1er établissement où il peut être différé (autres cas -> reprise normale). Si une anomalie persistante présente un danger pour les trains croiseurs/dépasseurs -> appliquer les mesures d'évacuation boîte chaude (F60.02).",
+      "sources": [
+        "F60.03 — Incident à un véhicule autre que blocage ou boîte chaude, p. 1-3/3 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q11",
+      "type": "qcm_multi",
+      "theme": "Sécurité des personnes",
+      "subtheme": "Dangers liés au comportement des personnes — ZD, malveillance, personne sur un train, voyageurs (F70.01)",
+      "difficulty": "difficile",
+      "prompt": "Selon la fiche F70.01 (version du 14 décembre 2025), quelles conduites face aux dangers liés au comportement des personnes sont exactes ?",
+      "correctAnswers": [
+        "Si une personne est en situation de danger accrochée à l'extérieur de VOTRE train en marche : arrêter votre train SANS PROVOQUER UN FREINAGE D'URGENCE, aviser le SGC dès l'arrêt, visiter le train (ordonner coupure d'urgence si exposition au risque électrique) ; sur un AUTRE train : donner l'ordre d'arrêt en priorité en phonie par GSM-R en précisant la nature du danger et le positionnement de la personne.",
+        "Si des personnes sont dans la zone dangereuse d'une autre voie (ou ont un comportement malveillant concernant les voies voisines) sur ligne équipée GSM-R : siffler, émettre SAR et SAL (sauf si sur voies de service), réduire la vitesse, aviser le SGC (en précisant s'il y a entrave = action délibérée de personnes dans la ZD et y restant), se mettre en MàV et cesser le SAL en attente d'instructions (ne cesser le SAR qu'après autorisation SGC).",
+        "En cas de voyageurs descendus dans les voies : siffler, arrêt d'urgence, SAR + SAL, aviser le SGC (ou protéger comme un obstacle si contact impossible) — SAUF si le conducteur a l'assurance que l'ouverture de porte n'a eu lieu que du côté opposé à l'entrevoie (simple avis au SGC)."
+      ],
+      "distractors": [
+        "Si vous êtes avisé qu'une personne est accrochée à l'extérieur de votre train en marche, vous devez immédiatement déclencher un freinage d'urgence pour stopper le plus vite possible.",
+        "Lorsque des personnes se trouvent dans la zone dangereuse de voies de service, le conducteur doit obligatoirement émettre le SAR et le SAL.",
+        "Si vous constatez des personnes en DEHORS de la zone dangereuse, vous devez déclencher un arrêt d'urgence et émettre le SAR.",
+        "Lors d'une reconnaissance sur ordre OCAR suite à présence de personnes, si vous ne voyez personne dans la ZD, il est inutile d'en aviser le SGC."
+      ],
+      "displayCount": 5,
+      "explanation": "F70.01 (14/12/2025) distingue finement : (1) personne sur SON train -> arrêt SANS FU (pour ne pas la faire chuter sous les roues !), avis SGC dès arrêt, coupure d'urgence si risque électrique, reprise en arrêt accidentel une fois la disparition confirmée ; sur AUTRE train -> arrêt en priorité en phonie GSM-R (+ positionnement) ; (2) personnes dans ZD de SA voie -> siffler, s'arrêter (d'urgence si y restent), SAR+SAL (sauf VS), avis SGC (préciser entrave) ; ZD AUTRE voie (GSM-R) -> siffler, SAR+SAL (sauf VS), réduire vitesse, avis SGC, MàV + cesser SAL ; (3) personnes HORS ZD -> siffler + avis SGC (GSM-R, sinon 1er tél/poste/gare) ; (4) voyageurs descendus -> sauf assurance côté opposé à l'entrevoie ; (5) OCAR reconnaissance -> aviser même en l'absence de personne (« La présence de personnes au km ... n'a pas été constatée »).",
+      "sources": [
+        "F70.01 — Dangers liés au comportement des personnes, p. 1-7/7 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q12",
+      "type": "qcm",
+      "theme": "Sécurité des personnes",
+      "subtheme": "Avis de colis ou bagage abandonné (F70.02) et accident ou blessure du conducteur (F70.05)",
+      "difficulty": "facile",
+      "prompt": "En gare, un bagage abandonné (non situé à proximité immédiate de la voie) fait l'objet d'un signalement (F70.02) ; par ailleurs, lors d'une autre mission sur le RFN, vous vous blessez (ou êtes incommodé par des fumées) et ne pouvez plus assurer la continuité de votre service (F70.05). Quelles règles exactes s'appliquent ?",
+      "correctAnswer": "Pour un bagage abandonné (F70.02) : ne jamais le toucher, interdire l'accès/éloigner le public, aviser le SGC (aspect, lieu, circonstances) — si le colis n'est pas à proximité immédiate de la voie, le SGC peut ordonner de passer sans arrêt à VL max 60 km/h (objet issu d'alerte anonyme ou aspect anormal type bouteille de gaz/glacière/caisse métallique = immédiatement suspect) ; pour une blessure sur le RFN (F70.05) : obligation de se soigner, aviser un agent du SGC pour demander la relève ET aviser le Service Opérationnel pour remplacement.",
+      "distractors": [
+        "Pour un bagage abandonné : le conducteur doit ouvrir délicatement le sac pour rechercher une étiquette d'identité, et tout bagage abandonné impose systématiquement l'arrêt total des circulations ; la vitesse de passage sans arrêt est limitée à 30 km/h.",
+        "Pour une blessure du conducteur sur le RFN (F70.05) : il suffit d'aviser le Service Opérationnel sans prévenir le SGC.",
+        "Pour une blessure dans une agence/dépôt : le conducteur avise exclusivement le Régulateur circulation du RFN.",
+        "L'objectif des mesures F70.02 n'inclut pas la prévention du risque de « sur-accident » par descente de voyageurs dans les voies.",
+        "Une glacière ou une caisse métallique laissée sans surveillance ne doit pas être considérée comme immédiatement suspecte sans appel sonore pendant 15 minutes.",
+        "En cas de blessure légère, le conducteur n'a pas d'obligation réglementaire de se faire soigner."
+      ],
+      "explanation": "F70.02 vise à éviter sur-attentat, sur-accident (descente voyageurs) et arrêt prolongé en zone difficile : levée de doute par appels fréquents/insistants (sauf alerte anonyme ou aspect inhabituel : bouteille de gaz, glacière, caisse métallique -> immédiatement suspect), ne jamais toucher, éloigner le public ; si colis non à proximité immédiate de la voie -> passage sans arrêt possible à VL max 60 km/h sur ordre SGC. F70.05 (15/12/2024) : toute personne blessée a l'obligation de se faire soigner ; dans agence/dépôt -> responsable entreprise ; sur RFN -> agent SGC (relève) + Service Opérationnel (remplacement) ; hors RFN -> responsable entreprise + SO (et mise à disposition du Dirigeant d'astreinte si accident grave).",
+      "sources": [
+        "F70.02 — Avis de colis ou bagage abandonné, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "F70.05 — Accident ou blessure, p. 1/1 (© Lineas, December 15, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q13",
+      "type": "open",
+      "theme": "Sécurité des personnes",
+      "subtheme": "Accident de personne(s) — Secours, enregistreur ATESS/TELOC, autorités judiciaires et reprise de marche (F70.03)",
+      "difficulty": "difficile",
+      "prompt": "Votre train vient d'être impliqué dans un accident de personne sur le RFN (ou vous découvrez un corps immobile dans les voies). Aucune mesure n'a encore été prise. Selon la fiche F70.03 (version du 15 décembre 2024), décrivez : (1) les mesures immédiates de protection/alerte (et la règle absolue concernant le déplacement de la victime / des corps), (2) les mesures complémentaires vis-à-vis des témoins, du Bulletin de Service et des autorités judiciaires, (3) la règle STRICTEMENT IMPÉRATIVE concernant la cassette ATESS/TELOC si les autorités judiciaires la demandent sur place, et (4) les conditions exactes de reprise de marche (avec relève vs impossibilité de relève).",
+      "modelAnswer": "1. Mesures immédiates (identiques en cas de découverte d'un corps immobile ou non dans les voies ou à leurs abords) :\n   - S'arrêter d'urgence ;\n   - Assurer la couverture d'obstacle si la ou les victimes engagent la zone dangereuse (ne retirer la victime de la ZD qu'en cas de nécessité extrême : feu, risque imminent de collision...) ;\n   - Alerter prioritairement un agent du SGC (à défaut directement SAMU 15, Pompiers 18 ou 112 sur portable) en précisant lieu/PK/voie, accès le plus commode, nombre de victimes, nature/gravité des blessures et n° de téléphone ;\n   - Secourir dans la limite de ses compétences sans s'exposer ; seul un médecin peut conclure au décès ; s'il y a un ou plusieurs morts, LAISSER LES CORPS à l'emplacement où ils ont été découverts, les recouvrir (couverture/bâche) et assurer/faire assurer leur garde jusqu'à l'arrivée des autorités judiciaires.\n2. Mesures complémentaires :\n   - Recueillir immédiatement les témoignages des tiers (identité et adresse) et noter tous les éléments de preuve (usage du sifflet, fonctionnement PN, n° véhicules routiers...) ;\n   - Consigner avec le plus grand soin actions et constatations sur le Bulletin de Service (pièce juridique) et aviser le Service Opérationnel ;\n   - Se mettre à la disposition des autorités judiciaires (communiquer témoignages, satisfaire à l'alcootest et au dépistage psychotropes si demandés).\n3. Cassette ATESS/TELOC — RÈGLE IMPÉRATIVE :\n   - Assurer la garde de l'enregistreur ATESS/TELOC et NE PAS transmettre la cassette ATESS/TELOC, MÊME EN CAS DE SOLLICITATION DES AUTORITÉS JUDICIAIRES, en l'absence d'un Dirigeant d'astreinte (circulation Lineas / Lineas France) ou d'un Cadre d'astreinte Hexafret (circulation sous responsabilité Hexafret), qui sont les SEULS habilités à la remettre.\n4. Conditions de reprise de marche :\n   - Le train ne peut être déplacé qu'avec la DOUBLE autorisation de l'autorité judiciaire ET du Dirigeant d'astreinte (ou Cadre Hexafret) ;\n   - La relève du conducteur doit être envisagée (choc émotionnel) : si relève possible -> appliquer D60.02 et aviser le SGC ;\n   - Si relève IMPOSSIBLE -> après double autorisation (autorité judiciaire + Dirigeant d'astreinte / Hexafret), vitesse limitée à 70 km/h maximum jusqu'au point désigné d'entente avec le SGC (accompagnement possible par un personnel de l'entreprise).",
+      "keyPoints": [
+        {
+          "label": "Arrêt d'urgence + couverture d'obstacle si victime en ZD (ne déplacer qu'en nécessité extrême : feu, collision imminente) + alerte SGC (sinon 15/18/112) ; découverte d'un corps assimilée à accident de personne ; laisser les corps sur place, recouvrir et garder (seul un médecin constate le décès)",
+          "critical": true
+        },
+        {
+          "label": "Recueil témoignages (identité/adresse) + éléments de preuve + consignation rigoureuse sur le BS (pièce juridique) + alcootest/dépistage psychotropes si demandés par autorités judiciaires",
+          "critical": true
+        },
+        {
+          "label": "Assurer la garde de l'enregistreur ATESS/TELOC : NE JAMAIS remettre la cassette soi-même aux autorités judiciaires en l'absence d'un Dirigeant d'astreinte (Lineas) ou Cadre d'astreinte (Hexafret)",
+          "critical": true
+        },
+        {
+          "label": "Reprise de marche uniquement après DOUBLE autorisation (autorité judiciaire + Dirigeant d'astreinte / Hexafret) ; si relève impossible -> VL limitée à 70 km/h jusqu'au point désigné (accompagnement possible)",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche F70.03 (15/12/2024) contient des obligations juridiques et de sécurité majeures : interdiction absolue pour le conducteur de remettre lui-même la cassette ATESS (uniquement Dirigeant d'astreinte Lineas ou Cadre d'astreinte Hexafret), double autorisation avant tout déplacement du train, limitation à 70 km/h si relève impossible, et assimilation de tout corps découvert dans les voies à un accident de personne.",
+      "sources": [
+        "F70.03 — Accident de personne(s), p. 1-5/5 (© Lineas, December 15, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q14",
+      "type": "qcm",
+      "theme": "Sécurité des personnes",
+      "subtheme": "Accident ou risque d'accident causé par l'électricité — SNOP et Dispositif d'Urgence (F70.04)",
+      "difficulty": "moyen",
+      "prompt": "Vous êtes témoin d'un accident de personne causé par la caténaire (> 1 500 V continu ou > 1 000 V alternatif) sur une voie de service équipée d'un Dispositif d'Urgence (DU) repéré en rouge. Quelles règles impératives de la fiche F70.04 (1er octobre 2024) devez-vous respecter avant de dégager et porter secours à la victime ?",
+      "correctAnswer": "Si la victime est suspendue, prendre des dispositions pour amortir/assurer sa chute avant coupure ; actionner le DU mais demander impérativement la coupure d'urgence au RSS ou à l'Agent E (l'utilisation du DU ne dispense JAMAIS de demander la coupure d'urgence) et attendre l'ASSURANCE VERBALE de la création effective des SNOP (Sections Neutres Occasionnelles de Protection, ou à défaut Attestation de Consignation C) avant de dégager la victime (avec outillage isolant si risque de contact) et appeler les secours (15/18/112).",
+      "distractors": [
+        "Dès que vous avez actionné le Dispositif d'Urgence (DU) rouge sur voie de service, la caténaire est immédiatement sans danger et vous pouvez toucher le fil de contact pour dégager la victime sans appeler le RSS ni l'Agent E.",
+        "Les Sections Neutres Occasionnelles de Protection (SNOP) ne privent de tension que le seul tronçon où se trouve la victime, sans toucher aux secteurs contigus amont, aval et parallèles.",
+        "Les mesures prises dans le cadre d'une coupure d'urgence autorisent un contact direct avec la caténaire dès lors que le RSS a confirmé la coupure.",
+        "Pour une tension comprise entre 50 V et 1 000 V en courant alternatif, il n'est pas nécessaire de supprimer la tension ni d'utiliser un outillage isolant avant de dégager la victime.",
+        "Si la victime est inconsciente mais respire, il faut immédiatement pratiquer une réanimation cardio-pulmonaire (massage cardiaque) plutôt que la Position Latérale de Sécurité (PLS).",
+        "Si la victime est suspendue en hauteur, il faut couper le courant avant même de réfléchir à sa chute."
+      ],
+      "explanation": "F70.04 (01/10/2024) souligne deux points vitaux : (1) l'action sur un DU en VS ne dispense JAMAIS d'ordonner la coupure d'urgence au RSS ou à l'Agent E pour obtenir la création effective des SNOP (qui privent de tension les secteurs contigus en prolongement aval, amont ET en parallèle pour éliminer toute réalimentation et tension induite) ; (2) attendre l'assurance verbale des SNOP (ou ACC) avant de dégager la victime (en prévoyant sa chute si suspendue, et sans jamais toucher la caténaire sans ACC/outillage isolant). Secours : inconsciente qui respire -> PLS (si formé) ; inconsciente qui ne respire pas -> RCP.",
+      "sources": [
+        "F70.04 — Accident ou risque d'accident causé par l'électricité, p. 1-3/3 (© Lineas, October 01, 2024 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q15",
+      "type": "qcm",
+      "theme": "Partenariat Hexafret / CUU",
+      "subtheme": "Champ d'application de l'Avis 2023/RD/03FR — Certificat Lineas vs Fret SNCF / Hexafret",
+      "difficulty": "moyen",
+      "prompt": "Selon l'Avis N° 2023/RD/03FR (31 mars 2023, applicable depuis le 11 juin 2023), vous rencontrez une avarie sur un wagon en cours de route en France. Quand devez-vous appliquer le DML Lineas (étiquettes IN/IS) vs les fiches du référentiel FR20779 sur RITA (étiquettes CUU), et à qui transmettez-vous les informations et photos en trafic partenariat ?",
+      "correctAnswer": "Train sous certificat LINEAS SA / LINEAS France -> procédure DML inchangée (étiquettes IN/IS) ; train sous certificat Fret SNCF / Hexafret -> utilisation des fiches du référentiel FR20779 (dont E23.12 Carnet d'étiquettes CUU) à partir du traitement de l'avarie devant le wagon ; pour les informations et photos au gestionnaire matériel : trafic SIBELIT -> transmettre à SIBELIT ; trafic partenariat autre que SIBELIT -> transmettre au « Centre de Convoyage National ».",
+      "distractors": [
+        "Depuis le 11 juin 2023, les étiquettes CUU remplacent définitivement les étiquettes IN/IS sur TOUS les trains Lineas en France, y compris en Open-Access sous certificat Lineas SA.",
+        "Le DML et le Mémento Lineas intègrent déjà intégralement les étiquettes CUU pour les trains en partenariat Fret SNCF, rendant inutiles les fiches FR20779 sur RITA.",
+        "En trafic partenariat SIBELIT, les informations et photos d'avarie matériel sont transmises au Centre de Convoyage National et non à SIBELIT.",
+        "Les règles de conduite changent dès le début de l'incident (avant même d'arriver devant le wagon avarié) entre un train Lineas et un train partenariat Fret SNCF.",
+        "En partenariat Fret SNCF / Hexafret, le conducteur doit obligatoirement avoir suivi une formation complète d'expert CUU avant de pouvoir appliquer l'article E23.12.",
+        "En trafic partenariat autre que SIBELIT, les informations et photos sont transmises exclusivement à l'Agent-circulation du SGC."
+      ],
+      "explanation": "L'Avis 2023/RD/03FR (31/03/2023) clarifie la coexistence des deux référentiels : sous certificat Lineas SA / Lineas France -> IN/IS (DML inchangé) ; sous certificat Fret SNCF / Hexafret -> règles inchangées jusqu'au traitement devant le wagon avarié, puis consultation des fiches FR20779 sur RITA (article pivot E23.12 Carnet d'étiquettes CUU). Contacts gestionnaire matériel : trafic SIBELIT -> SIBELIT ; partenariat autre que SIBELIT -> Centre de Convoyage National.",
+      "sources": [
+        "Avis N° 2023/RD/03FR — Circulation partenariat Fret SNCF (Utilisation des étiquettes CUU), p. 1-3/3 (© LINEAS GROUP, March 31 2023, Brussels)"
+      ]
+    },
+    {
+      "id": "lot13-q16",
+      "type": "qcm",
+      "theme": "Partenariat Hexafret / CUU",
+      "subtheme": "Détecteur de déraillement pneumatique (DET) — Réarmement auto et 1er vs 2e déclenchement (FR20779 C16.01)",
+      "difficulty": "difficile",
+      "prompt": "En partenariat Hexafret (référentiel FR20779, Art. C16.01), votre train subit une chute de pression CG en ligne ; à l'arrêt, lors du sondage frein, vous constatez que la fuite a CESSÉ et que la CG peut être réalimentée. Puis, lors de la visite, vous découvrez un wagon muni d'un Détecteur de Déraillement (DET) dont l'indicateur rouge est en position « sorti », sans aucune anomalie décelée sur les organes de roulement/suspension. Quelle présomption immédiate s'impose au sondage, et quelles actions exactes distinguez-vous entre un 1er déclenchement et un 2e déclenchement sur le MÊME DET au cours du même train ?",
+      "correctAnswer": "Si la fuite a cessé à l'arrêt (le DET se réarme automatiquement quand la pression CG approche 0 bar), vous devez PRÉSUMER QUE VOTRE TRAIN EST DÉRAILLÉ (F44.09) et la visite reste obligatoire ; si aucune anomalie n'est trouvée : 1er déclenchement -> rentrer l'indicateur, étiquette Modèle M, aviser SGC + Hexafret, reprendre ; 2e déclenchement (même DET, même train) -> ISOLER le DET, étiquette Modèle R, aviser SGC + Hexafret, et reprendre à 60 km/h max jusqu'au 1er établissement où le wagon peut être différé.",
+      "distractors": [
+        "Si la fuite a cessé à l'arrêt, le réarmement automatique du DET prouve qu'il s'agit d'un faux déclenchement et dispense de visiter le train.",
+        "Au 1er déclenchement sans anomalie, il faut immédiatement isoler le DET, apposer une étiquette Modèle R et limiter la vitesse à 60 km/h.",
+        "Au 2e déclenchement sur le même DET sans anomalie, il suffit de rentrer l'indicateur rouge, d'apposer une étiquette Modèle K et de poursuivre à vitesse normale.",
+        "Au 2e déclenchement sans anomalie, le train est limité à 20 km/h jusqu'au point de retrait avec arrêt des trains croiseurs.",
+        "Lorsque le conducteur découvre une avarie à un DET (fuite remédiée après isolement), il appose une étiquette Modèle R1 + K.",
+        "Un DET en service présente sa poignée d'isolement jaune en position horizontale et son indicateur rouge en position « sorti »."
+      ],
+      "explanation": "L'article C16.01 (Hexafret) est un bijou technique : poignée jaune verticale = en service, indicateur rouge rentré = normal ; en cas de déclenchement, vidange complète de la CG puis RÉARMEMENT AUTOMATIQUE près de 0 bar -> si la fuite a cessé au sondage, PRÉSUMER LE DÉRAILLEMENT (F44.09) et visiter obligatoirement. Si DET déclenché sans anomalie : 1er déclenchement -> rentrer indicateur + étiquette Modèle M + SGC/Hexafret + reprise normale ; 2e déclenchement (même DET, même train) -> isoler DET + étiquette Modèle R + SGC/Hexafret + VL ≤ 60 km/h jusqu'au 1er établissement où différer. En cas d'avarie au DET (isolé sans fuite résiduelle) -> étiquette Modèle M.",
+      "sources": [
+        "Hexafret FR20779 — Art. C16.01 Détecteur de déraillement pneumatique, p. 1-3 (Document propriété d'Hexafret)"
+      ]
+    },
+    {
+      "id": "lot13-q17",
+      "type": "qcm",
+      "theme": "Partenariat Hexafret / CUU",
+      "subtheme": "Carnets d'étiquettes CUU (Modèles R, K, M, R1), feuillets, craie grasse et codes CUU (FR20779 E23.12)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau synthétique des étiquettes CUU ci-dessous (FR20779 Art. E23.12, Version 03 du 20-04-2026), vous venez d'isoler le frein à air d'un wagon suite à une avarie de distributeur sur un train Hexafret. Quelles étiquettes exactes devez-vous apposer (et quel volet conserver sur R1), comment répartissez-vous les feuillets carbonés, et quel code CUU inscrivez-vous ?",
+      "referenceTable": {
+        "title": "Étiquettes CUU et extraits de codes CUU (FR20779 Art. E23.12 — Version 03 du 20-04-2026)",
+        "openByDefault": true,
+        "headers": [
+          "Modèle CUU",
+          "Signification / Usage",
+          "Liasse & règles clés"
+        ],
+        "rows": [
+          [
+            "Modèle R (rouge — ou Modèle 1 si absent)",
+            "Retrait — Avarie importante (visite service spécialisé ; wagon immobilisé ou acheminement sous conditions)",
+            "3 feuillets : 1 & 2 dans porte-étiquettes (côté sécurité assurée) ; 3e feuillet joint au BF + photo jointe au BS"
+          ],
+          [
+            "Modèle K (bleu)",
+            "Ne pas recharger / À réparer après déchargement — Avarie peu importante n'empêchant pas l'acheminement à destination",
+            "3 feuillets : 1 & 2 dans porte-étiquettes ; 3e joint au BF + photo au BS"
+          ],
+          [
+            "Modèle M (blanc)",
+            "À examiner — Avarie peu importante nécessitant l'expertise du service spécialisé",
+            "3 feuillets : 1 & 2 dans porte-étiquettes ; 3e joint au BF + photo au BS"
+          ],
+          [
+            "Modèle R1 (frein inutilisable)",
+            "2 volets détachables : DROIT = frein à air isolé (continuité CG assurée) ; GAUCHE = frein à main inutilisable",
+            "2 feuillets (dans porte-étiquettes, détacher le volet non concerné) ; SYSTÉMATIQUEMENT complété d'un Modèle K"
+          ]
+        ],
+        "note": "Extraits codes CUU : 1.2 (roue monobloc), 1.3 (roue bandagée), 1.3.3 (méplats DACE), 1.8 (boîte chaude non avérée), 1.8.3.1 (boîte chaude avérée / 2e signalement), 3.3 (distributeur), 3.3.5.2 (robinet d'arrêt CG/CP), 3.2 (semelles), 3.5.1 (frein à vis), 5.1 (tampon), 7.1.1 (chargement déplacé), 8.1 (instabilité sans cause), 8.1.1 (véhicule déraillé). Marquage dommages visibles par flèche à la craie grasse."
+      },
+      "correctAnswer": "Apposer les étiquettes Modèle K + Modèle R1 en conservant le volet de DROITE sur R1 (détacher le volet gauche du frein à main), inscrire le code CUU « 3.3 » (avarie distributeur) sur le Modèle K, placer les 2 premiers feuillets dans le porte-étiquettes côté sécurité (les 3 feuillets avec le BF s'il n'y a pas de porte-étiquettes), joindre le 3e feuillet de K au BF, prendre une photo du 3e feuillet (jointe au BS) et signaler à l'agent au sol au terminus que l'étiquetage est d'un seul côté.",
+      "distractors": [
+        "Apposer uniquement l'étiquette Modèle R1 (sans Modèle K) en conservant le volet de GAUCHE, et inscrire le code CUU « 3.5.1 ».",
+        "Apposer les étiquettes Modèle R + R1 en conservant les deux volets attachés sur R1, et placer les 3 feuillets dans le porte-étiquettes.",
+        "Apposer le Modèle M + R1 avec le code CUU « 3.3.5.2 », et apposer obligatoirement un feuillet de chaque côté du wagon même si l'entrevoie n'est pas protégée.",
+        "En cas de plusieurs avaries sur le même véhicule relevant du même modèle d'étiquette (ex. deux avaries Modèle K), il faut toujours apposer deux étiquettes Modèle K distinctes.",
+        "Le marquage à la craie grasse des dommages visibles s'effectue par un cercle rouge uniquement sur les wagons et jamais sur les engins moteurs.",
+        "En l'absence temporaire de carnet d'étiquettes Modèle R sur l'EM, il faut remplacer le Modèle R par une étiquette Modèle M."
+      ],
+      "explanation": "L'article E23.12 (Version 03 du 20/04/2026) fixe toutes les règles pratiques CUU : R1 est TOUJOURS complété d'un Modèle K (volet droit = frein à air isolé, volet gauche = frein à main inutilisable -> détacher le volet inutile) ; 2 premiers feuillets au porte-étiquettes du côté où la sécurité est assurée (tous avec le BF si pas de porte-étiquettes), 3e feuillet joint au BF + photo jointe au BS ; au terminus, informer l'agent au sol du côté manquant vis-à-vis du sens de circulation ; plusieurs avaries du même modèle -> une seule étiquette avec plusieurs codes CUU ; dommages visibles (y compris EM) repérés par une FLÈCHE à la craie grasse ; absence de carnet R -> utiliser Modèle 1.",
+      "sources": [
+        "Hexafret FR20779 — Art. E23.12 Carnets d'étiquettes CUU, p. 1-9/9 (FR20779 - Version 03 du 20-04-2026)"
+      ]
+    },
+    {
+      "id": "lot13-q18",
+      "type": "qcm_multi",
+      "theme": "Partenariat Hexafret / CUU",
+      "subtheme": "Spécificités Hexafret FR20779 : Heurt (F11.02), Frein/Blocage/Isolement (F22.04–F26.01), Rupture/Déraillement/Tamponnement (F44.08–F44.10) et ARAC (F61.07)",
+      "difficulty": "difficile",
+      "prompt": "Dans le référentiel conduite Hexafret FR20779, quelles règles spécifiques (étiquetage CUU, gestes métier et procédure ARAC) sont exactes ?",
+      "correctAnswers": [
+        "En cas de heurt ne nécessitant pas l'arrêt (gibier, volatiles, petits objets — F11.02), vérifier au 1er point d'arrêt prévu d'une durée suffisante (au plus tard terminus ou rebroussement) les dégradations éventuelles et aviser le représentant d'Hexafret ; sur un tampon fusible (F44.10), si le goujon est HS MAIS que le liseré reste conforme, le tampon est CONFORME (pas d'avarie).",
+        "En cas d'isolement de frein suite à avarie (F22.04, F23.02, F24.02, F26.01) -> étiquettes Modèle K + R1 (MAIS PAS de K+R1 lors d'un isolement motivé par une boîte chaude ni de R1 pour une avarie roues sans défaut de frein) ; en cas de rupture d'attelage (F44.08) -> Modèle K si attelage refait, Modèle R si impossible de reconstituer l'attelage ; en cas de déraillement (F44.09) -> Modèle R sur chaque véhicule déraillé.",
+        "Lors de la procédure ARAC (« ARrêt ACcidentel » — F61.07, Version 03 du 20-04-2026), en cas de rupture d'acheminement (wagon(s) différé(s)), le conducteur avise au plus tôt le représentant d'Hexafret (n° wagon, type d'avarie, code CUU) et, à sa demande (ex. absence d'opérateur sol), transmet les numéros des 1er et dernier wagons restés sur place + nombre total de wagons retirés, puis reporte ces renseignements sur son BS."
+      ],
+      "distractors": [
+        "Sur un tampon fusible (F44.10 Hexafret), un goujon HS rend automatiquement le tampon non conforme même si le liseré est parfaitement conforme.",
+        "En cas d'isolement du frein d'un wagon motivé par une boîte chaude sur un train Hexafret (F26.01 / F61.01), il est obligatoire d'apposer les étiquettes Modèle K + R1 en plus du Modèle R.",
+        "En cas de fuite CG AVANT le robinet d'isolement (F22.04 Hexafret) ou de désaccouplement réparé, il faut apposer les étiquettes Modèle K + R1.",
+        "Dans la procédure ARAC (F61.07), le conducteur doit transmettre le numéro individuel de chaque wagon conservé dans le train, et jamais les numéros des 1er et dernier wagons laissés sur place."
+      ],
+      "displayCount": 5,
+      "explanation": "Synthèse précise des divergences/spécificités FR20779 (Hexafret) : F11.02 distingue choc/mouvement anormal (agent voie obligatoire) vs heurt (petit heurt sans arrêt -> contrôle au 1er arrêt suffisant / terminus + avis Hexafret) ; F44.10 fig. 6 = goujon HS mais liseré conforme -> tampon CONFORME ; F22.04/F23.02/F24.02/F26.01 -> K seul pour robinet CG/accouplement/fuite avant isolement, K+R1 pour isolement frein sur avarie frein (JAMAIS K+R1 pour boîte chaude ni R1 pour avarie roues), R pour rupture d'attelage irréparable (F44.08) et déraillement (F44.09) ; F61.07 (20/04/2026) -> procédure ARAC (1er et dernier wagons laissés + total retirés + report au BS).",
+      "sources": [
+        "Hexafret FR20779 — Art. F11.02, F22.04, F23.01, F23.02, F24.02, F26.01, F44.08, F44.09, F44.10 (Document propriété d'Hexafret)",
+        "Hexafret FR20779 — Art. F61.07 Procédure ARAC, p. 1/1 (FR20779 - Version 03 du 20-04-2026)"
+      ]
+    },
+    {
+      "id": "lot13-q19",
+      "type": "qcm",
+      "theme": "Partenariat Hexafret / CUU",
+      "subtheme": "Incendie sur équipement de frein à semelles LL et masque tunnel (FR20779 F46.01) & Boîte chaude Hexafret (FR20779 F61.01)",
+      "difficulty": "difficile",
+      "prompt": "Dans le référentiel Hexafret FR20779 (Version 03 du 20-04-2026), quelle interdiction VITALE figure à l'article F46.01 en cas d'incendie sur un équipement de frein d'un véhicule muni de semelles composites « LL », et quelles étiquettes CUU exactes impose l'article F61.01 lors d'une détection DBC (anomalie non confirmée vs boîte chaude avérée / 2e signalement) ?",
+      "correctAnswer": "Il est INTERDIT de lutter soi-même contre le feu d'un équipement de frein muni de semelles LL (leur combustion dégage du monoxyde de carbone, gaz incolore, inodore, toxique et potentiellement mortel) : se tenir du côté d'où vient le vent, interdire l'approche, alerter le SGC/secours en les avisant du dégagement de CO (et utiliser le masque de protection/évacuation en tunnel si l'EM en est équipé) ; en F61.01 : aucune anomalie constatée (1re visite) -> Modèle M + craie grasse (+ contrôle à ~20 km) ; boîte chaude avérée ou 2e signalement sur la même boîte -> Modèle R + craie grasse.",
+      "distractors": [
+        "En cas d'incendie sur un équipement de frein à semelles LL, il faut immédiatement utiliser les extincteurs à poudre de l'EM en se tenant sous le vent ; en F61.01, une boîte chaude non avérée reçoit une étiquette Modèle K.",
+        "L'interdiction de lutte contre le feu sur semelles LL est liée à un risque d'explosion immédiate au contact de l'air ; en F61.01, un 2e signalement sans anomalie sur la même boîte reçoit un Modèle M.",
+        "Lors d'une boîte chaude avérée sur train Hexafret (F61.01), le repérage s'effectue toujours par un papillon blanc joint à une étiquette IN (sans craie grasse).",
+        "Sur un train Hexafret, le masque de protection et d'évacuation en tunnel ne donne lieu à aucune annotation au carnet de bord après utilisation.",
+        "En F61.01, la règle des deux alarmes DBC sur la même boîte sans anomalie détectée s'applique également aux engins moteurs en service.",
+        "En F46.01 Hexafret, si l'incendie sur un wagon classique (hors LL et MD) est maîtrisé avec les extincteurs, on applique directement F61.01 (boîte chaude)."
+      ],
+      "explanation": "L'édition très récente FR20779 (Version 03 du 20/04/2026) apporte deux apports majeurs par rapport au DML 2019 : (1) F46.01 : INTERDICTION ABSOLUE de tenter d'éteindre un feu sur équipement de frein à semelles LL (dégagement de monoxyde de carbone mortel -> se placer AU VENT, interdire l'approche, alerter SGC/secours en précisant le risque CO) + masque/cagoule de protection et d'évacuation en tunnel (annoter CB si utilisation/anomalie) ; (2) F61.01 : boîte détectée chaude non confirmée à la 1re visite -> Modèle M + craie grasse (+ arrêt contrôle à ~20 km) ; boîte chaude avérée ou 2e signalement sur même boîte (sauf EM en service) -> Modèle R (ou Modèle 1) + craie grasse (pas de papillon blanc IN).",
+      "sources": [
+        "Hexafret FR20779 — Art. F46.01 Incendie dans le train, p. 1-3/3 (FR20779 - Version 03 du 20-04-2026)",
+        "Hexafret FR20779 — Art. F61.01 Détection d'une boîte chaude, p. 1-4/4 (FR20779 - Version 03 du 20-04-2026)"
+      ]
+    },
+    {
+      "id": "lot13-q20",
+      "type": "qcm",
+      "theme": "Partenariat Hexafret / CUU",
+      "subtheme": "Avarie aux roues, barème des plats (35 / 60 / 100 mm), roues bandagées et autres avaries (FR20779 F61.03 / F61.08 / F61.09)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du barème d'aide à la décision F61.08 ci-dessous (Hexafret FR20779), lors de la visite d'un wagon suite à un blocage sur un train Hexafret, vous mesurez un plat à la roue de 75 mm (cas A), et sur un autre train vous constatez un véhicule équipé d'essieux à roues bandagées ayant subi un blocage mais dont les 4 marques de peinture du bandage ne sont PAS décalées (cas B). Quelles conduites et étiquettes CUU exactes imposent les articles F61.08, F61.03 et F61.09 ?",
+      "referenceTable": {
+        "title": "Aide à la décision — Plats aux roues et avaries roues / bandagées (FR20779 Art. F61.08)",
+        "openByDefault": true,
+        "headers": [
+          "Longueur du plat / Anomalie constatée",
+          "Vitesse / Condition de circulation",
+          "Modèle d'étiquette CUU"
+        ],
+        "rows": [
+          [
+            "Plat ≤ 35 mm",
+            "Pas de restriction",
+            "Modèle K (+ craie grasse)"
+          ],
+          [
+            "Plat > 35 mm et ≤ 60 mm",
+            "20 km/h maximale",
+            "Modèle R (+ craie grasse)"
+          ],
+          [
+            "Plat > 60 mm et < 100 mm",
+            "Dégagement des VP à la vitesse d'un homme au pas (frein isolé/purgé, sans R1)",
+            "Modèle R (+ craie grasse)"
+          ],
+          [
+            "Plat > 100 mm",
+            "Demande de Secours (DDS — wagon de secours nécessaire)",
+            "Modèle R"
+          ],
+          [
+            "Surcharge thermique (bleuissement, écaillage ≥ 50 mm), creux (semelle LL), amas/crevasse, anomalie boudin",
+            "Avarie importante : si peut rouler -> frein isolé (sans R1) + F61.02 ; sinon DDS",
+            "Modèle R (+ craie grasse)"
+          ],
+          [
+            "Véhicule à roues bandagées incriminé",
+            "Bandage décalé -> DDS (« wagon de secours nécessaire ») ; Bandage NON décalé -> F61.02 (acheminement boîte chaude)",
+            "Modèle R (+ craie grasse) dans les DEUX cas"
+          ]
+        ],
+        "note": "Rappel F61.03 & F61.09 : chargement déplacé = danger pour croiseurs/dépasseurs -> Modèle R + F61.02 ; wagon signalé instable sans anomalie apparente -> Modèle R + 60 km/h max ; poignée Vide/Chargé cassée ou semelle cassée -> isoler frein + K+R1 ; bâche/ranchet non réparable avec risque -> Modèle R (sans risque -> Modèle K)."
+      },
+      "correctAnswer": "Cas (A) (plat de 75 mm : entre 60 et 100 mm) : avarie importante -> isoler et purger le frein (SANS étiquette R1 car le frein n'est pas en cause), apposer une étiquette Modèle R + craie grasse, et dégager les VP à la vitesse d'un homme au pas (F61.02) ; Cas (B) (roues bandagées, bandage NON décalé) : apposer tout de même une étiquette Modèle R + craie grasse et appliquer F61.02 (acheminement boîte chaude — 20 km/h max, arrêt croiseurs).",
+      "distractors": [
+        "Cas (A) (plat de 75 mm) : circuler à 20 km/h max avec une étiquette Modèle K ; Cas (B) (bandage non décalé) : aucune étiquette n'est nécessaire et reprise à vitesse normale.",
+        "Cas (A) (plat de 75 mm) : Demande de Secours immédiate sans pouvoir dégager les VP ; Cas (B) : étiquette Modèle K et reprise à 60 km/h.",
+        "Cas (A) : il faut apposer les étiquettes Modèle R + R1 dès qu'on isole le frein pour un plat à la roue ; Cas (B) : si le bandage est décalé, on peut tout de même acheminer à 20 km/h.",
+        "En F61.09, un chargement déplacé peut être acheminé avec une étiquette Modèle K sans mesure vis-à-vis des trains croiseurs.",
+        "En F61.09, si une tirette de purge ou une poignée de robinet d'arrêt CG est cassée, il faut apposer une étiquette Modèle R (retrait immédiat).",
+        "En F61.03, un wagon signalé instable sans anomalie apparente reçoit une étiquette Modèle K (et non Modèle R) avant de repartir à 60 km/h."
+      ],
+      "explanation": "Les fiches illustrées F61.08, F61.03 et F61.09 d'Hexafret donnent des critères décisionnels chiffrés précieux : plats ≤ 35 mm (Modèle K, pas de restriction), 35–60 mm (Modèle R, ≤ 20 km/h), 60–100 mm (Modèle R, dégagement VP vitesse homme au pas), > 100 mm (Modèle R, DDS) ; surcharge thermique (écaillage ≥ 50 mm, coloration bleue), creux à la table de roulement (typique blocage semelle LL), amas de métal/crevasse, boudin usiné -> avarie importante Modèle R (isolement frein SANS étiquette R1 si le matériel peut rouler) ; roues bandagées -> Modèle R + craie grasse même si le bandage n'est PAS décalé (+ F61.02), et DDS immédiate si décalé ; F61.03 -> instabilité sans anomalie apparente = Modèle R + 60 km/h max ; chargement déplacé = danger croiseurs/dépasseurs -> Modèle R + F61.02 ; F61.09 -> tirette purge / poignée robinet CG cassée = Modèle K, vis tendeur/manille si autre tendeur utilisable = Modèle K sinon R, semelle/poignée Vide-Chargé/tringlerie dépannée = isoler frein + K+R1.",
+      "sources": [
+        "Hexafret FR20779 — Art. F61.03 Incident à un véhicule autre que blocage ou boîte chaude, p. 1-3 (Document propriété d'Hexafret)",
+        "Hexafret FR20779 — Art. F61.08 Avarie aux roues ou véhicule équipé de roues bandagées, p. 1-6 (Document propriété d'Hexafret)",
+        "Hexafret FR20779 — Art. F61.09 Autres avaries aux matériels roulants, p. 1-12 (Document propriété d'Hexafret)"
+      ]
+    },
+    {
+      "id": "lot13-q21",
+      "type": "qcm",
+      "theme": "Avaries Engin Moteur",
+      "subtheme": "Alerte radio GSM-R intempestive (F50.07) et dérangement GSM-GFU sur ligne non GSM-R (F50.11)",
+      "difficulty": "moyen",
+      "prompt": "Comparez deux incidents de communication en ligne : (A) le Régulateur vous avise que votre train émet une ALERTE RADIO GSM-R intempestive (F50.07, 14 juin 2026), et (B) vous circulez sur une ligne NON équipée GSM-R (liaison GSM-GFU uniquement) et vous constatez un dérangement de votre système GSM-GFU ARES (F50.11, 8 juin 2025). Quelles actions exactes devez-vous effectuer ?",
+      "correctAnswer": "En (A) (alerte radio intempestive) : s'arrêter si ce n'est déjà fait, se conformer aux instructions, appliquer le Mémento et le Guide de Dépannage ; en (B) (dérangement GSM-GFU sur ligne liaison GSM-GFU sans GSM-R) : s'arrêter au 1er téléphone, poste ou gare, contacter le SGC et transmettre le bulletin BC99 (AGSM), suivre ses instructions, aviser le SO, appliquer le Mémento, contacter l'Assistance Mobilité Réseau (NOMADE) en fin de mission et annoter le BS.",
+      "distractors": [
+        "En (A), poursuivre la marche jusqu'à la gare terminus en coupant simplement la radio ; en (B), attendre la gare terminus pour transmettre le bulletin AGSM.",
+        "En (A), émettre une seconde alerte radio pour tenter de réinitialiser le poste GSM-R ; en (B), la circulation est immédiatement interdite et impose une demande de secours.",
+        "En (B), sur une ligne équipée GSM-R, il faut également s'arrêter immédiatement en pleine voie au 1er téléphone pour signaler le dérangement GSM-GFU.",
+        "En (B), si l'anomalie de l'application ARES survient avant le départ, il ne faut jamais appeler NOMADE avant la fin de mission.",
+        "En (A), il est inutile d'appliquer le Guide de Dépannage après l'arrêt si l'alerte intempestive s'est arrêtée d'elle-même.",
+        "En (B), le signalement d'anomalie GSM-GFU au SGC se fait au moyen du formulaire L1 et non du bulletin AGSM."
+      ],
+      "explanation": "F50.07 (14/06/2026) § 3 : alerte radio intempestive -> s'arrêter, suivre instructions, Mémento + GD. F50.11 (08/06/2025) distingue ligne équipée GSM-R (contacter SGC par GSM-R puis AGSM dès le 1er arrêt + SO + Mémento + NOMADE en fin de mission + BS) vs ligne liaison GSM-GFU (s'arrêter au 1er téléphone/poste/gare + AGSM + SO + Mémento + NOMADE fin de mission + BS), et avant départ -> appeler NOMADE d'abord (si résolu -> activer + BS ; sinon SGC + AGSM + SO + Mémento + BS).",
+      "sources": [
+        "F50.07 — Avarie à la liaison radio GSM-R, p. 3/3 (© Lineas, June 14, 2026 Lille)",
+        "F50.11 — Dérangement du système GSM-GFU ARES, p. 1-3/3 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot13-q22",
+      "type": "qcm",
+      "theme": "Partenariat Hexafret / CUU",
+      "subtheme": "Règles de signalement CUU — Codes et choix d'étiquettes sur avaries courantes (FR20779 E23.12 / F61.09)",
+      "difficulty": "moyen",
+      "prompt": "Sur un train circulant sous certificat Hexafret (FR20779, Art. E23.12 & F61.09), vous intervenez sur plusieurs avaries distinctes : (1) une tringlerie de frein cassée sur laquelle vous pouvez effectuer un dépannage de fortune ou démonter la timonerie, (2) une tringlerie cassée sans possibilité de dépannage de fortune ni démontage, et (3) une bâche coupée sur laquelle une réparation de fortune est impossible MAIS qui ne présente aucun risque pour les autres circulations, les personnes ou la marchandise. Quels modèles d'étiquettes CUU exacts apposez-vous dans chacun de ces 3 cas ?",
+      "correctAnswer": "(1) Tringlerie cassée avec dépannage de fortune / démontage possible : isoler le frein et apposer Modèle K + R1 ; (2) tringlerie cassée sans dépannage ni démontage possible : apposer Modèle R ; (3) bâche coupée non réparable MAIS sans risque pour les circulations, les personnes ni la marchandise : apposer Modèle K (Modèle R uniquement s'il y a un risque).",
+      "distractors": [
+        "(1) Modèle K seul sans isoler le frein ; (2) Modèle M ; (3) Modèle R dans tous les cas dès que la bâche est coupée.",
+        "(1) Modèle R + R1 ; (2) Modèle K + R1 ; (3) Modèle M.",
+        "(1) Modèle K + R1 ; (2) Modèle K + R1 ; (3) Modèle R.",
+        "(1) Modèle M ; (2) Modèle R ; (3) aucune étiquette tant qu'il n'y a pas de risque.",
+        "(3) Pour un ranchet déformé sans risque pour les circulations/personnes/marchandise, il faut obligatoirement apposer un Modèle R.",
+        "(3) Pour une bâche ouverte liée à une avarie où aucune réparation de fortune n'est possible, il faut apposer un Modèle K."
+      ],
+      "explanation": "L'article illustré F61.09 de Hexafret détaille chaque cas : (1) tringlerie cassée + dépannage fortune/démontage possible -> isoler frein + K+R1 (impossible -> R) ; (2) bâche coupée non réparable sans risque -> K (avec risque -> R) ; bâche ouverte (liée à avarie ou non) impossible à réparer/refermer -> R (réparée/refermée -> K) ; ranchet déformé sans risque -> K (avec risque -> R) ; bogie fissuré/déformé, avaries suspensions (lame cassée/ressort brisé/menotte), traction arrachée/sortie, plateau tampon fendu/crash-buffer déclenché -> Modèle R.",
+      "sources": [
+        "Hexafret FR20779 — Art. E23.12 Carnets d'étiquettes CUU, p. 1-9/9 (FR20779 - Version 03 du 20-04-2026)",
+        "Hexafret FR20779 — Art. F61.09 Autres avaries aux matériels roulants, p. 1-12 (Document propriété d'Hexafret)"
+      ]
+    }
+  ]
+}
