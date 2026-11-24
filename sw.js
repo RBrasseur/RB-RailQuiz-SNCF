@@ -1,9 +1,8 @@
-const CACHE_NAME = 'railquiz-sncf-v4';
+const CACHE_NAME = 'railquiz-sncf-v5';
 const CORE_ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './questions-index.json',
   './icon-192.png',
   './icon-512.png'
 ];
@@ -27,15 +26,18 @@ self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Normalise la clé de cache sans ?v=timestamp pour que le mode hors-ligne retrouve toujours les JSON
+  const cleanUrl = `${url.origin}${url.pathname}`;
+
   event.respondWith(
     fetch(event.request)
       .then(response => {
         if (response && response.ok) {
           const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+          caches.open(CACHE_NAME).then(cache => cache.put(cleanUrl, clone));
         }
         return response;
       })
-      .catch(() => caches.match(event.request))
+      .catch(() => caches.match(cleanUrl).then(hit => hit || caches.match(event.request)))
   );
 });

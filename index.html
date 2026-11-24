@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>RailQuiz Lineas SNCF — by RB</title>
-  <link rel="manifest" href="./manifest.webmanifest" />
-  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
-  <link rel="apple-touch-icon" href="./icon-192.png" />
+  <link rel="manifest" href="./manifest.webmanifest?v=5" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=5" />
+  <link rel="apple-touch-icon" href="./icon-192.png?v=5" />
   <meta name="theme-color" content="#090e1a" />
   <style>
     :root {
@@ -87,13 +87,13 @@
       position: sticky;
       top: 0;
       z-index: 30;
-      background: rgba(17, 25, 44, 0.86);
+      background: rgba(17, 25, 44, 0.88);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
       border-bottom: 1px solid var(--border);
     }
     [data-theme="light"] .topbar {
-      background: rgba(255, 255, 255, 0.9);
+      background: rgba(255, 255, 255, 0.92);
     }
     .topbar-inner {
       max-width: 920px;
@@ -102,16 +102,17 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.65rem;
     }
 
     /* LOGO RQ / LINEAS SUR DRAPEAU FRANÇAIS + "by RB" EN DESSOUS À DROITE */
     .brand {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.7rem;
       cursor: pointer;
       user-select: none;
+      min-width: 0;
     }
     .brand-logo-wrap {
       display: flex;
@@ -145,12 +146,7 @@
       justify-content: center;
       line-height: 1;
     }
-    .brand-rq {
-      color: #ffffff;
-      font-size: 0.92rem;
-      font-weight: 900;
-      letter-spacing: 0.04em;
-    }
+    .brand-rq { color: #ffffff; font-size: 0.92rem; font-weight: 900; letter-spacing: 0.04em; }
     .brand-lineas {
       color: #f1f5f9;
       font-size: 0.48rem;
@@ -173,7 +169,7 @@
       letter-spacing: 0.03em;
     }
 
-    .brand-title-col { display: flex; flex-direction: column; }
+    .brand-title-col { display: flex; flex-direction: column; min-width: 0; }
     .brand-title-row { display: inline-flex; align-items: baseline; gap: 0.4rem; flex-wrap: wrap; }
     .brand h1 { margin: 0; font-size: 1.12rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
     .brand-tag {
@@ -186,8 +182,8 @@
       padding: 0.12rem 0.42rem;
       border-radius: 5px;
     }
-    .subtitle { font-size: 0.74rem; color: var(--text-muted); margin-top: 2px; }
-    .topbar-actions { display: flex; gap: 0.45rem; align-items: center; }
+    .subtitle { font-size: 0.74rem; color: var(--text-muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .topbar-actions { display: flex; gap: 0.4rem; align-items: center; flex-shrink: 0; }
 
     /* MAIN CONTAINER */
     .container { max-width: 920px; margin: 1rem auto 3.5rem; padding: 0 1rem; }
@@ -230,13 +226,44 @@
     }
     .hint { color: var(--text-muted); font-size: 0.85rem; margin: 0.25rem 0 0.85rem; }
 
-    /* HERO STATS */
-    .hero-stats {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.65rem;
+    /* DIAGNOSTIC ALERT BANNER */
+    .diag-card {
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      background: var(--warning-bg);
+      border-radius: var(--radius-sm);
+      padding: 0.9rem 1rem;
       margin-bottom: 1rem;
     }
+    .diag-card.diag-error {
+      border-color: rgba(239, 68, 68, 0.5);
+      background: var(--danger-bg);
+    }
+    .diag-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.45rem;
+    }
+    .diag-title { font-weight: 800; font-size: 0.92rem; }
+    .diag-log {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.76rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.65rem 0.75rem;
+      max-height: 220px;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      margin: 0.5rem 0 0;
+      color: var(--text);
+    }
+
+    /* HERO STATS */
+    .hero-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.65rem; margin-bottom: 1rem; }
     .stat-box {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -269,22 +296,12 @@
     .weak-shortcut-text { font-size: 0.88rem; font-weight: 600; }
 
     /* FILTRE RECHERCHE THÈMES */
-    .theme-search-wrap {
-      margin-bottom: 0.75rem;
-    }
-    .theme-search-wrap input {
-      padding: 0.55rem 0.8rem;
-      font-size: 0.88rem;
-    }
+    .theme-search-wrap { margin-bottom: 0.75rem; }
+    .theme-search-wrap input { padding: 0.55rem 0.8rem; font-size: 0.88rem; }
 
-    /* ARBRE DES THÈMES (ACCORDÉON REPLIABLE) */
+    /* ARBRE DES THÈMES */
     .themes-tree { display: flex; flex-direction: column; gap: 0.55rem; }
-    .theme-group {
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      background: var(--surface-elevated);
-      overflow: hidden;
-    }
+    .theme-group { border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface-elevated); overflow: hidden; }
     .theme-header {
       display: flex;
       align-items: center;
@@ -293,13 +310,7 @@
       gap: 0.5rem;
       background: rgba(59, 130, 246, 0.05);
     }
-    .theme-left-controls {
-      display: flex;
-      align-items: center;
-      gap: 0.55rem;
-      flex: 1;
-      min-width: 0;
-    }
+    .theme-left-controls { display: flex; align-items: center; gap: 0.55rem; flex: 1; min-width: 0; }
     .theme-toggle-btn {
       background: transparent;
       border: none;
@@ -313,12 +324,7 @@
       gap: 0.45rem;
     }
     .theme-toggle-btn:hover { color: var(--primary); }
-    .theme-chevron {
-      display: inline-block;
-      transition: transform 0.2s ease;
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }
+    .theme-chevron { display: inline-block; transition: transform 0.2s ease; font-size: 0.75rem; color: var(--text-muted); }
     .theme-group.expanded .theme-chevron { transform: rotate(90deg); }
 
     .subthemes-list {
@@ -474,69 +480,20 @@
     .progress-fill { height: 100%; background: linear-gradient(90deg, var(--primary), var(--crimson-light)); width: 0%; transition: width 0.3s ease; }
 
     .question-meta-top { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; margin-bottom: 0.85rem; flex-wrap: wrap; }
-    .pill {
-      font-size: 0.72rem;
-      font-weight: 800;
-      padding: 0.22rem 0.65rem;
-      border-radius: 99px;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      color: #fff;
-      background: var(--primary);
-    }
+    .pill { font-size: 0.72rem; font-weight: 800; padding: 0.22rem 0.65rem; border-radius: 99px; text-transform: uppercase; letter-spacing: 0.04em; color: #fff; background: var(--primary); }
     .pill.pill-multi { background: var(--multi); }
     .pill.pill-open { background: var(--accent); }
     .ref-tag { font-size: 0.76rem; color: var(--text-muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
     .question-text { font-size: 1.13rem; font-weight: 700; line-height: 1.45; margin: 0 0 0.85rem; }
-    .context-box {
-      background: var(--warning-bg);
-      border-left: 3px solid var(--warning);
-      padding: 0.7rem 0.9rem;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-      font-size: 0.88rem;
-    }
+    .context-box { background: var(--warning-bg); border-left: 3px solid var(--warning); padding: 0.7rem 0.9rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.88rem; }
 
-    /* TABLEAU DE RÉFÉRENCE CONSULTABLE (POUR LES CALCULS DE FREIN / KVB) */
-    .ref-table-details {
-      margin-bottom: 1rem;
-      border: 1px solid var(--border-strong);
-      border-radius: var(--radius-sm);
-      background: var(--surface-elevated);
-      overflow: hidden;
-    }
-    .ref-table-details summary {
-      padding: 0.65rem 0.9rem;
-      font-weight: 700;
-      font-size: 0.88rem;
-      color: var(--primary);
-      cursor: pointer;
-      user-select: none;
-    }
-    .ref-table-scroll {
-      overflow-x: auto;
-      padding: 0 0.85rem 0.85rem;
-    }
-    .ref-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.82rem;
-    }
-    .ref-table th, .ref-table td {
-      border: 1px solid var(--border-strong);
-      padding: 0.4rem 0.55rem;
-      text-align: center;
-      white-space: nowrap;
-    }
-    .ref-table th {
-      background: rgba(59, 130, 246, 0.14);
-      font-weight: 700;
-    }
-    .ref-table-note {
-      font-size: 0.78rem;
-      color: var(--text-muted);
-      margin-top: 0.45rem;
-    }
+    .ref-table-details { margin-bottom: 1rem; border: 1px solid var(--border-strong); border-radius: var(--radius-sm); background: var(--surface-elevated); overflow: hidden; }
+    .ref-table-details summary { padding: 0.65rem 0.9rem; font-weight: 700; font-size: 0.88rem; color: var(--primary); cursor: pointer; user-select: none; }
+    .ref-table-scroll { overflow-x: auto; padding: 0 0.85rem 0.85rem; }
+    .ref-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+    .ref-table th, .ref-table td { border: 1px solid var(--border-strong); padding: 0.4rem 0.55rem; text-align: center; white-space: nowrap; }
+    .ref-table th { background: rgba(59, 130, 246, 0.14); font-weight: 700; }
+    .ref-table-note { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.45rem; }
 
     .multi-instruction {
       font-size: 0.84rem;
@@ -549,7 +506,7 @@
       margin-bottom: 0.75rem;
     }
 
-    /* OPTIONS QCM (Unique & Multi) */
+    /* OPTIONS QCM */
     .options-list { display: flex; flex-direction: column; gap: 0.65rem; }
     .option-btn {
       width: 100%;
@@ -582,27 +539,16 @@
       margin-top: 1px;
     }
     .option-text-wrap { flex: 1; }
-    .option-status-tag {
-      font-size: 0.7rem;
-      font-weight: 800;
-      padding: 0.12rem 0.45rem;
-      border-radius: 5px;
-      text-transform: uppercase;
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
+    .option-status-tag { font-size: 0.7rem; font-weight: 800; padding: 0.12rem 0.45rem; border-radius: 5px; text-transform: uppercase; flex-shrink: 0; margin-top: 2px; }
 
     .option-btn.selected { border-color: var(--multi); background: rgba(14, 165, 233, 0.15); }
     .option-btn.selected .option-letter { background: var(--multi); border-color: var(--multi); color: #fff; }
-
     .option-btn.correct { border-color: var(--success); background: var(--success-bg); }
     .option-btn.correct .option-letter { background: var(--success); border-color: var(--success); color: #fff; }
     .option-btn.correct .option-status-tag { background: var(--success); color: #fff; }
-
     .option-btn.missed { border-color: var(--warning); border-style: dashed; background: var(--warning-bg); }
     .option-btn.missed .option-letter { background: var(--warning); border-color: var(--warning); color: #fff; }
     .option-btn.missed .option-status-tag { background: var(--warning); color: #fff; }
-
     .option-btn.wrong { border-color: var(--danger); background: var(--danger-bg); }
     .option-btn.wrong .option-letter { background: var(--danger); border-color: var(--danger); color: #fff; }
     .option-btn.wrong .option-status-tag { background: var(--danger); color: #fff; }
@@ -613,91 +559,29 @@
     .open-zone textarea { margin-bottom: 0.75rem; resize: vertical; min-height: 120px; }
     .open-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 
-    .self-check-box {
-      margin-top: 1rem;
-      padding: 1rem;
-      border-radius: var(--radius-sm);
-      background: var(--surface-elevated);
-      border: 1px solid var(--border-strong);
-    }
+    .self-check-box { margin-top: 1rem; padding: 1rem; border-radius: var(--radius-sm); background: var(--surface-elevated); border: 1px solid var(--border-strong); }
     .self-check-box h3 { margin: 0 0 0.25rem; font-size: 0.98rem; }
     .criteria-list { display: flex; flex-direction: column; gap: 0.5rem; margin: 0.75rem 0 1rem; }
-    .criterion-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.65rem;
-      padding: 0.65rem 0.75rem;
-      background: var(--surface);
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      cursor: pointer;
-      font-size: 0.9rem;
-    }
+    .criterion-item { display: flex; align-items: flex-start; gap: 0.65rem; padding: 0.65rem 0.75rem; background: var(--surface); border-radius: 8px; border: 1px solid var(--border); cursor: pointer; font-size: 0.9rem; }
     .criterion-item:hover { border-color: var(--primary); }
-    .criterion-critical {
-      display: inline-block;
-      font-size: 0.68rem;
-      color: var(--warning);
-      background: var(--warning-bg);
-      padding: 0.08rem 0.4rem;
-      border-radius: 5px;
-      font-weight: 800;
-      margin-left: 0.35rem;
-      vertical-align: middle;
-    }
+    .criterion-critical { display: inline-block; font-size: 0.68rem; color: var(--warning); background: var(--warning-bg); padding: 0.08rem 0.4rem; border-radius: 5px; font-weight: 800; margin-left: 0.35rem; vertical-align: middle; }
 
-    .exam-recorded {
-      margin-top: 0.9rem;
-      padding: 0.7rem 1rem;
-      border-radius: 8px;
-      background: var(--primary-glow);
-      border: 1px solid var(--primary);
-      color: var(--primary);
-      font-weight: 700;
-      font-size: 0.9rem;
-    }
-
+    .exam-recorded { margin-top: 0.9rem; padding: 0.7rem 1rem; border-radius: 8px; background: var(--primary-glow); border: 1px solid var(--primary); color: var(--primary); font-weight: 700; font-size: 0.9rem; }
     .feedback-box { margin-top: 1.15rem; border-top: 1px solid var(--border); padding-top: 1rem; }
     .feedback-banner { padding: 0.8rem 1rem; border-radius: var(--radius-sm); font-weight: 700; margin-bottom: 0.85rem; font-size: 0.94rem; }
     .feedback-banner.ok { background: var(--success-bg); color: var(--success); border: 1px solid var(--success); }
     .feedback-banner.ko { background: var(--danger-bg); color: var(--danger); border: 1px solid var(--danger); }
 
-    .ai-detail {
-      background: var(--surface-elevated);
-      border-left: 3px solid var(--accent);
-      padding: 0.8rem 1rem;
-      border-radius: 8px;
-      margin-bottom: 0.85rem;
-      font-size: 0.9rem;
-    }
+    .ai-detail { background: var(--surface-elevated); border-left: 3px solid var(--accent); padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 0.85rem; font-size: 0.9rem; }
     .ai-detail p { margin: 0.35rem 0; }
 
-    .official-answer-block {
-      background: var(--surface-elevated);
-      padding: 0.95rem 1rem;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--border);
-    }
+    .official-answer-block { background: var(--surface-elevated); padding: 0.95rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border); }
     .official-answer-block h4 { margin: 0 0 0.4rem; font-size: 0.92rem; color: var(--primary); }
     .official-answer-block p { margin: 0; font-size: 0.92rem; white-space: pre-line; }
-    .sources-block {
-      margin-top: 0.8rem;
-      padding-top: 0.65rem;
-      border-top: 1px dashed var(--border-strong);
-      font-size: 0.82rem;
-      color: var(--text-muted);
-    }
+    .sources-block { margin-top: 0.8rem; padding-top: 0.65rem; border-top: 1px dashed var(--border-strong); font-size: 0.82rem; color: var(--text-muted); }
     .sources-block ul { margin: 0.3rem 0 0; padding-left: 1.15rem; }
 
-    .quiz-footer {
-      margin-top: 1.25rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 0.75rem;
-    }
+    .quiz-footer { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; }
 
     /* SUMMARY */
     .summary-header { text-align: center; }
@@ -708,23 +592,85 @@
     .score-ring-text { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
     .score-ring-text span { font-size: 1.65rem; font-weight: 800; line-height: 1.1; }
     .score-ring-text small { font-size: 0.8rem; color: var(--text-muted); font-weight: 600; }
-
     .summary-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
     .summary-list { display: flex; flex-direction: column; gap: 0.65rem; }
     .summary-item { padding: 0.85rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border); background: var(--surface-elevated); }
     .summary-item.ok { border-left: 4px solid var(--success); }
     .summary-item.ko { border-left: 4px solid var(--danger); }
 
-    .app-footer { text-align: center; font-size: 0.76rem; color: var(--text-muted); margin-top: 2rem; opacity: 0.8; }
+    /* MODAL QR CODE PARTAGE */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      background: rgba(2, 6, 23, 0.76);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      animation: fadeIn 0.18s ease;
+    }
+    .modal-box {
+      width: 100%;
+      max-width: 390px;
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      border-radius: 16px;
+      padding: 1.25rem;
+      box-shadow: 0 24px 55px rgba(0, 0, 0, 0.55);
+      text-align: center;
+    }
+    .modal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.65rem;
+    }
+    .modal-head h3 { margin: 0; font-size: 1.05rem; font-weight: 800; }
+    .qr-frame {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      padding: 14px;
+      border-radius: 14px;
+      margin: 0.65rem auto;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+    .qr-frame canvas {
+      display: block;
+      width: 220px;
+      height: 220px;
+      image-rendering: pixelated;
+    }
+    .qr-url-box {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      background: var(--surface-elevated);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 0.65rem;
+      word-break: break-all;
+      margin: 0.6rem 0 0.9rem;
+    }
+    .qr-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
 
+    .app-footer { text-align: center; font-size: 0.76rem; color: var(--text-muted); margin-top: 2rem; opacity: 0.8; }
     hr { border: none; border-top: 1px solid var(--border); margin: 1.25rem 0; }
     .hidden { display: none !important; }
     .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
     .save-confirm { color: var(--success); font-weight: 700; font-size: 0.88rem; margin-left: 0.6rem; }
 
     @media (max-width: 600px) {
-      .topbar-inner { padding: 0.55rem 0.85rem; }
-      .brand h1 { font-size: 1rem; }
+      .topbar-inner { padding: 0.55rem 0.8rem; }
+      .brand h1 { font-size: 0.98rem; }
       .btn-settings-label { display: none; }
       .subthemes-list { grid-template-columns: 1fr; padding-left: 0.85rem; }
       .start-bar { flex-direction: column; align-items: stretch; text-align: center; }
@@ -749,18 +695,21 @@
             <h1>RailQuiz</h1>
             <span class="brand-tag">SNCF • RFN</span>
           </div>
-          <span class="subtitle" id="corpus-status">Initialisation...</span>
+          <span class="subtitle" id="corpus-status">Chargement...</span>
         </div>
       </div>
 
       <div class="topbar-actions">
+        <button id="btn-share-qr" class="btn-icon" title="Partager par QR Code" aria-label="Partager par QR Code">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3z"/><path d="M20 14h1v1"/><path d="M14 20h1v1"/><path d="M19 19h2v2h-2z"/></svg>
+        </button>
         <button id="btn-theme" class="btn-icon" title="Basculer thème Sombre / Clair" aria-label="Basculer thème">
           <svg id="icon-sun" class="hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
           <svg id="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
         </button>
         <button id="btn-settings" class="btn-secondary" aria-label="Paramètres et IA">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-          <span class="btn-settings-label">Paramètres & IA</span>
+          <span class="btn-settings-label">Paramètres</span>
         </button>
       </div>
     </div>
@@ -769,6 +718,18 @@
   <main class="container">
     <!-- VUE 1 : CONFIGURATION -->
     <section id="view-setup" class="view active">
+      <!-- BANDEAU DIAGNOSTIC AUTOMATIQUE (AFFICHÉ SI ERREUR DE CHARGEMENT OU 0 QUESTION) -->
+      <div id="home-diag-card" class="diag-card hidden">
+        <div class="diag-header">
+          <span class="diag-title" id="home-diag-title">Diagnostic de chargement du corpus</span>
+          <div class="btn-group-inline">
+            <button type="button" id="btn-reload-corpus" class="btn-small">↻ Réessayer</button>
+            <button type="button" id="btn-copy-diag" class="btn-small">Copier le diagnostic</button>
+          </div>
+        </div>
+        <pre id="home-diag-log" class="diag-log"></pre>
+      </div>
+
       <div class="hero-stats">
         <div class="stat-box stat-total">
           <span class="stat-value" id="stat-total-questions">0</span>
@@ -880,7 +841,6 @@
         <h2 id="question-prompt" class="question-text">Énoncé de la question</h2>
         <div id="question-context" class="context-box hidden"></div>
 
-        <!-- TABLEAU / BARÈME DE RÉFÉRENCE (POUR EXERCICES DE CALCUL) -->
         <details id="zone-ref-table" class="ref-table-details hidden">
           <summary id="ref-table-title">Consulter le tableau de référence</summary>
           <div class="ref-table-scroll">
@@ -889,7 +849,6 @@
           </div>
         </details>
 
-        <!-- ZONE QCM UNIQUE & MULTI -->
         <div id="multi-instruction" class="multi-instruction hidden">
           Plusieurs réponses exactes sont attendues. Cochez toutes les propositions justes puis validez.
         </div>
@@ -898,7 +857,6 @@
           <button id="btn-validate-multi" class="btn-primary" disabled>Valider mes réponses</button>
         </div>
 
-        <!-- ZONE RÉPONSE LIBRE -->
         <div id="zone-open" class="open-zone hidden">
           <label for="open-answer-input" class="sr-only">Votre réponse réglementaire</label>
           <textarea id="open-answer-input" rows="5" placeholder="Rédigez votre procédure ou réponse réglementaire (actions immédiates, avis, vitesses limites, mesures de protection)..."></textarea>
@@ -908,7 +866,6 @@
           </div>
         </div>
 
-        <!-- AUTO-ÉVALUATION HORS-LIGNE -->
         <div id="zone-self-check" class="self-check-box hidden">
           <h3>Vérification des points clés réglementaires</h3>
           <p class="hint" style="margin-bottom:0.5rem;">Cochez uniquement ce que vous aviez effectivement pensé à écrire :</p>
@@ -916,12 +873,10 @@
           <button id="btn-confirm-self-check" class="btn-primary">Valider mon auto-évaluation</button>
         </div>
 
-        <!-- MESSAGE MODE EXAMEN -->
         <div id="zone-exam-recorded" class="exam-recorded hidden">
           Réponse enregistrée pour le bilan final.
         </div>
 
-        <!-- FEEDBACK DÉTAILLÉ -->
         <div id="zone-feedback" class="feedback-box hidden">
           <div id="feedback-banner" class="feedback-banner"></div>
           <div id="ai-feedback-detail" class="ai-detail hidden"></div>
@@ -973,7 +928,7 @@
     <section id="view-settings" class="view">
       <div class="card">
         <div class="card-title-row" style="margin-bottom:1rem;">
-          <h2>Paramètres & Correction IA</h2>
+          <h2>Paramètres, IA & Diagnostic</h2>
           <button id="btn-close-settings" class="btn-secondary">← Retour</button>
         </div>
 
@@ -1014,12 +969,15 @@
         <hr />
 
         <div>
-          <h3 style="margin:0 0 0.25rem;font-size:0.98rem;">Importer un fichier de questions (.json)</h3>
-          <p class="hint">Permet de charger et tester immédiatement un lot JSON sur cet appareil avant de le déposer sur GitHub.</p>
-          <label class="btn-secondary file-btn">
-            Choisir un fichier .json
-            <input type="file" id="import-questions-file" accept=".json" hidden />
-          </label>
+          <h3 style="margin:0 0 0.25rem;font-size:0.98rem;">Importer un ou plusieurs lots JSON locaux</h3>
+          <p class="hint">Vous pouvez sélectionner plusieurs fichiers .json d'un coup pour les charger sur cet appareil.</p>
+          <div class="btn-group-inline">
+            <label class="btn-secondary file-btn">
+              Choisir des fichiers .json
+              <input type="file" id="import-questions-file" accept=".json" multiple hidden />
+            </label>
+            <button type="button" id="btn-clear-local-packs" class="btn-secondary">Vider les lots locaux</button>
+          </div>
         </div>
 
         <hr />
@@ -1035,15 +993,301 @@
             <button id="btn-reset-progress" class="btn-danger">Réinitialiser</button>
           </div>
         </div>
+
+        <hr />
+
+        <div>
+          <div class="card-title-row">
+            <h3 style="margin:0;font-size:0.98rem;">Journal de chargement du corpus</h3>
+            <div class="btn-group-inline">
+              <button type="button" id="btn-settings-reload" class="btn-small">↻ Recharger</button>
+              <button type="button" id="btn-settings-copy-diag" class="btn-small">Copier</button>
+            </div>
+          </div>
+          <pre id="settings-diag-log" class="diag-log"></pre>
+        </div>
       </div>
     </section>
 
     <footer class="app-footer">RailQuiz Lineas • Réglementation SNCF / RFN • by RB</footer>
   </main>
 
+  <!-- MODAL PARTAGE QR CODE (100 % HORS-LIGNE) -->
+  <div id="modal-qr" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-qr-title">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3 id="modal-qr-title">Partager RailQuiz Lineas</h3>
+        <button id="btn-close-qr" class="btn-icon" aria-label="Fermer">✕</button>
+      </div>
+      <p class="hint" style="margin:0 0 0.4rem;">Faites scanner ce QR code à un collègue (fonctionne même hors-ligne).</p>
+      <div class="qr-frame">
+        <canvas id="qr-canvas" width="220" height="220" aria-label="QR Code de partage"></canvas>
+      </div>
+      <div id="qr-url-display" class="qr-url-box"></div>
+      <div class="qr-actions">
+        <button id="btn-native-share" class="btn-primary hidden">Partager le lien (WhatsApp, Telegram, SMS...)</button>
+        <button id="btn-copy-url" class="btn-secondary">Copier le lien</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     (() => {
       'use strict';
+
+      /* ================= PURE-JS OFFLINE QR CODE (ISO/IEC 18004, Byte Mode, ECC M, v1..10) ================= */
+      const QR = (() => {
+        const VER_M = {
+          1:  [26,  10, 1, 16, 0, 0],
+          2:  [44,  16, 1, 28, 0, 0],
+          3:  [70,  26, 1, 44, 0, 0],
+          4:  [100, 18, 2, 32, 0, 0],
+          5:  [134, 24, 2, 43, 0, 0],
+          6:  [172, 16, 4, 27, 0, 0],
+          7:  [196, 18, 4, 31, 0, 0],
+          8:  [242, 22, 2, 38, 2, 39],
+          9:  [292, 22, 3, 36, 2, 37],
+          10: [346, 26, 4, 43, 1, 44]
+        };
+        const ALIGN = {
+          1: [], 2: [6, 18], 3: [6, 22], 4: [6, 26], 5: [6, 30], 6: [6, 34],
+          7: [6, 22, 38], 8: [6, 24, 42], 9: [6, 26, 46], 10: [6, 28, 50]
+        };
+        const VER_BITS = { 7: 0x07C94, 8: 0x085BC, 9: 0x09A99, 10: 0x0A4D3 };
+        const FMT_M = [0x5412, 0x5125, 0x5E7C, 0x5B4B, 0x45F9, 0x40CE, 0x4F97, 0x4AA0];
+
+        const EXP = new Uint8Array(512);
+        const LOG = new Uint8Array(256);
+        let x = 1;
+        for (let i = 0; i < 255; i++) {
+          EXP[i] = x;
+          LOG[x] = i;
+          x <<= 1;
+          if (x & 0x100) x ^= 0x11D;
+        }
+        for (let i = 255; i < 512; i++) EXP[i] = EXP[i - 255];
+
+        const gfMul = (a, b) => (a === 0 || b === 0) ? 0 : EXP[LOG[a] + LOG[b]];
+
+        function rsEncode(data, ecLen) {
+          let poly = [1];
+          for (let i = 0; i < ecLen; i++) {
+            const nxt = new Array(poly.length + 1).fill(0);
+            const f = EXP[i];
+            for (let j = 0; j < poly.length; j++) {
+              nxt[j] ^= poly[j];
+              nxt[j + 1] ^= gfMul(poly[j], f);
+            }
+            poly = nxt;
+          }
+          const res = data.concat(new Array(ecLen).fill(0));
+          for (let i = 0; i < data.length; i++) {
+            const c = res[i];
+            if (c !== 0) {
+              for (let j = 1; j < poly.length; j++) res[i + j] ^= gfMul(poly[j], c);
+            }
+          }
+          return res.slice(data.length);
+        }
+
+        function generateMatrix(text) {
+          const utf8 = Array.from(new TextEncoder().encode(text));
+          let ver = 0;
+          for (let v = 1; v <= 10; v++) {
+            const [, , b1, d1, b2, d2] = VER_M[v];
+            const capBits = (b1 * d1 + b2 * d2) * 8;
+            const ccBits = v <= 9 ? 8 : 16;
+            if (4 + ccBits + utf8.length * 8 <= capBits) { ver = v; break; }
+          }
+          if (!ver) throw new Error('URL trop longue pour QR Code');
+
+          const [, ecPer, b1, d1, b2, d2] = VER_M[ver];
+          const totalDataCw = b1 * d1 + b2 * d2;
+          const ccBits = ver <= 9 ? 8 : 16;
+          const bits = [];
+          const push = (val, n) => { for (let i = n - 1; i >= 0; i--) bits.push((val >> i) & 1); };
+          push(4, 4);
+          push(utf8.length, ccBits);
+          utf8.forEach(b => push(b, 8));
+          push(0, Math.min(4, totalDataCw * 8 - bits.length));
+          while (bits.length % 8 !== 0) bits.push(0);
+
+          const dataCw = [];
+          for (let i = 0; i < bits.length; i += 8) {
+            let v = 0;
+            for (let j = 0; j < 8; j++) v = (v << 1) | bits[i + j];
+            dataCw.push(v);
+          }
+          let pidx = 0;
+          while (dataCw.length < totalDataCw) dataCw.push((pidx++ & 1) === 0 ? 0xEC : 0x11);
+
+          const blocks = [], ecBlocks = [];
+          let off = 0;
+          for (let i = 0; i < b1; i++) { const blk = dataCw.slice(off, off + d1); off += d1; blocks.push(blk); ecBlocks.push(rsEncode(blk, ecPer)); }
+          for (let i = 0; i < b2; i++) { const blk = dataCw.slice(off, off + d2); off += d2; blocks.push(blk); ecBlocks.push(rsEncode(blk, ecPer)); }
+
+          const finalCw = [];
+          const maxD = Math.max(d1, d2);
+          for (let i = 0; i < maxD; i++) for (const blk of blocks) if (i < blk.length) finalCw.push(blk[i]);
+          for (let i = 0; i < ecPer; i++) for (const eb of ecBlocks) finalCw.push(eb[i]);
+
+          const size = 17 + 4 * ver;
+          const grid = Array.from({ length: size }, () => new Uint8Array(size));
+          const isFunc = Array.from({ length: size }, () => new Uint8Array(size));
+          const setF = (r, c, v) => { grid[r][c] = v ? 1 : 0; isFunc[r][c] = 1; };
+
+          const finder = (tr, tc) => {
+            for (let dr = -1; dr <= 7; dr++) {
+              for (let dc = -1; dc <= 7; dc++) {
+                const r = tr + dr, c = tc + dc;
+                if (r >= 0 && r < size && c >= 0 && c < size) {
+                  const inside = dr >= 0 && dr <= 6 && dc >= 0 && dc <= 6;
+                  const dark = inside && (dr === 0 || dr === 6 || dc === 0 || dc === 6 || (dr >= 2 && dr <= 4 && dc >= 2 && dc <= 4));
+                  setF(r, c, dark ? 1 : 0);
+                }
+              }
+            }
+          };
+          finder(0, 0); finder(0, size - 7); finder(size - 7, 0);
+
+          for (const r of ALIGN[ver]) {
+            for (const c of ALIGN[ver]) {
+              if (isFunc[r][c]) continue;
+              for (let dr = -2; dr <= 2; dr++) {
+                for (let dc = -2; dc <= 2; dc++) {
+                  setF(r + dr, c + dc, (Math.abs(dr) === 2 || Math.abs(dc) === 2 || (dr === 0 && dc === 0)) ? 1 : 0);
+                }
+              }
+            }
+          }
+          for (let i = 8; i < size - 8; i++) {
+            if (!isFunc[6][i]) setF(6, i, i % 2 === 0 ? 1 : 0);
+            if (!isFunc[i][6]) setF(i, 6, i % 2 === 0 ? 1 : 0);
+          }
+          setF(size - 8, 8, 1);
+          for (let i = 0; i < 9; i++) if (i !== 6) { setF(8, i, 0); setF(i, 8, 0); }
+          for (let i = 0; i < 8; i++) setF(8, size - 1 - i, 0);
+          for (let i = 0; i < 7; i++) setF(size - 1 - i, 8, 0);
+
+          if (ver >= 7) {
+            const vb = VER_BITS[ver];
+            for (let i = 0; i < 18; i++) {
+              const bit = (vb >> i) & 1;
+              const r = Math.floor(i / 3), c = size - 11 + (i % 3);
+              setF(r, c, bit); setF(c, r, bit);
+            }
+          }
+
+          const allBits = [];
+          for (const cw of finalCw) for (let i = 7; i >= 0; i--) allBits.push((cw >> i) & 1);
+          let bi = 0, up = true;
+          for (let col = size - 1; col > 0; col -= 2) {
+            if (col === 6) col--;
+            for (let step = 0; step < size; step++) {
+              const row = up ? size - 1 - step : step;
+              for (let dc = 0; dc >= -1; dc--) {
+                const c = col + dc;
+                if (!isFunc[row][c]) grid[row][c] = bi < allBits.length ? allBits[bi++] : 0;
+              }
+            }
+            up = !up;
+          }
+
+          const coords1 = [[8,0],[8,1],[8,2],[8,3],[8,4],[8,5],[8,7],[8,8],[7,8],[5,8],[4,8],[3,8],[2,8],[1,8],[0,8]];
+          const coords2 = [[size-1,8],[size-2,8],[size-3,8],[size-4,8],[size-5,8],[size-6,8],[size-7,8],[8,size-8],[8,size-7],[8,size-6],[8,size-5],[8,size-4],[8,size-3],[8,size-2],[8,size-1]];
+
+          const maskCond = (m, r, c) => {
+            switch (m) {
+              case 0: return (r + c) % 2 === 0;
+              case 1: return r % 2 === 0;
+              case 2: return c % 3 === 0;
+              case 3: return (r + c) % 3 === 0;
+              case 4: return (Math.floor(r / 2) + Math.floor(c / 3)) % 2 === 0;
+              case 5: return ((r * c) % 2) + ((r * c) % 3) === 0;
+              case 6: return (((r * c) % 2) + ((r * c) % 3)) % 2 === 0;
+              default: return (((r + c) % 2) + ((r * c) % 3)) % 2 === 0;
+            }
+          };
+
+          const penalty = mat => {
+            let score = 0;
+            for (let r = 0; r < size; r++) {
+              let run = 1;
+              for (let c = 1; c < size; c++) {
+                if (mat[r][c] === mat[r][c - 1]) { run++; score += run === 5 ? 3 : (run > 5 ? 1 : 0); }
+                else run = 1;
+              }
+              for (let c = 0; c <= size - 11; c++) {
+                const a = mat[r];
+                if ((a[c]===1&&a[c+1]===0&&a[c+2]===1&&a[c+3]===1&&a[c+4]===1&&a[c+5]===0&&a[c+6]===1&&a[c+7]===0&&a[c+8]===0&&a[c+9]===0&&a[c+10]===0) ||
+                    (a[c]===0&&a[c+1]===0&&a[c+2]===0&&a[c+3]===0&&a[c+4]===1&&a[c+5]===0&&a[c+6]===1&&a[c+7]===1&&a[c+8]===1&&a[c+9]===0&&a[c+10]===1)) score += 40;
+              }
+            }
+            for (let c = 0; c < size; c++) {
+              let run = 1;
+              for (let r = 1; r < size; r++) {
+                if (mat[r][c] === mat[r - 1][c]) { run++; score += run === 5 ? 3 : (run > 5 ? 1 : 0); }
+                else run = 1;
+              }
+              for (let r = 0; r <= size - 11; r++) {
+                if ((mat[r][c]===1&&mat[r+1][c]===0&&mat[r+2][c]===1&&mat[r+3][c]===1&&mat[r+4][c]===1&&mat[r+5][c]===0&&mat[r+6][c]===1&&mat[r+7][c]===0&&mat[r+8][c]===0&&mat[r+9][c]===0&&mat[r+10][c]===0) ||
+                    (mat[r][c]===0&&mat[r+1][c]===0&&mat[r+2][c]===0&&mat[r+3][c]===0&&mat[r+4][c]===1&&mat[r+5][c]===0&&mat[r+6][c]===1&&mat[r+7][c]===1&&mat[r+8][c]===1&&mat[r+9][c]===0&&mat[r+10][c]===1)) score += 40;
+              }
+            }
+            for (let r = 0; r < size - 1; r++) {
+              for (let c = 0; c < size - 1; c++) {
+                const v = mat[r][c];
+                if (v === mat[r][c+1] && v === mat[r+1][c] && v === mat[r+1][c+1]) score += 3;
+              }
+            }
+            let dark = 0;
+            for (let r = 0; r < size; r++) for (let c = 0; c < size; c++) dark += mat[r][c];
+            score += Math.floor(Math.abs((dark * 100) / (size * size) - 50) / 5) * 10;
+            return score;
+          };
+
+          let bestMat = null, bestPen = Infinity;
+          for (let m = 0; m < 8; m++) {
+            const mat = grid.map(row => new Uint8Array(row));
+            for (let r = 0; r < size; r++) {
+              for (let c = 0; c < size; c++) {
+                if (!isFunc[r][c] && maskCond(m, r, c)) mat[r][c] ^= 1;
+              }
+            }
+            const fb = FMT_M[m];
+            for (let i = 0; i < 15; i++) {
+              const bit = (fb >> (14 - i)) & 1;
+              mat[coords1[i][0]][coords1[i][1]] = bit;
+              mat[coords2[i][0]][coords2[i][1]] = bit;
+            }
+            const p = penalty(mat);
+            if (p < bestPen) { bestPen = p; bestMat = mat; }
+          }
+          return bestMat;
+        }
+
+        function renderToCanvas(canvas, text) {
+          const mat = generateMatrix(text);
+          const sz = mat.length;
+          const quiet = 3;
+          const totalMods = sz + quiet * 2;
+          const scale = Math.max(4, Math.floor(240 / totalMods));
+          const px = totalMods * scale;
+          canvas.width = px;
+          canvas.height = px;
+          const ctx = canvas.getContext('2d');
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(0, 0, px, px);
+          ctx.fillStyle = '#000000';
+          for (let r = 0; r < sz; r++) {
+            for (let c = 0; c < sz; c++) {
+              if (mat[r][c]) ctx.fillRect((c + quiet) * scale, (r + quiet) * scale, scale, scale);
+            }
+          }
+        }
+
+        return { renderToCanvas };
+      })();
 
       /* ================= STORAGE ================= */
       const STORAGE_KEYS = {
@@ -1092,6 +1336,98 @@
         if (idx >= 0) packs[idx] = pack; else packs.push(pack);
         localStorage.setItem(STORAGE_KEYS.LOCAL_PACKS, JSON.stringify(packs));
       };
+      const clearLocalPacks = () => localStorage.removeItem(STORAGE_KEYS.LOCAL_PACKS);
+
+      /* ================= NORMALISATION FLEXIBLE DES LOTS & QUESTIONS ================= */
+      const IGNORED_JSON_FILES = new Set([
+        'questions-index.json',
+        'manifest.json',
+        'manifest.webmanifest',
+        'package.json',
+        'registre-corpus.json',
+        'inventaire_corpus.json',
+        'tsconfig.json'
+      ]);
+
+      function extractManifestFileList(data) {
+        let rawList = null;
+        if (Array.isArray(data)) rawList = data;
+        else if (data && typeof data === 'object') {
+          rawList = data.files || data.packs || data.lots || data.datasets || data.items || null;
+        }
+        if (!Array.isArray(rawList)) return [];
+        return rawList
+          .map(entry => {
+            if (typeof entry === 'string') return entry.trim();
+            if (entry && typeof entry === 'object') {
+              return String(entry.file || entry.filename || entry.path || entry.url || entry.name || '').trim();
+            }
+            return '';
+          })
+          .filter(Boolean);
+      }
+
+      function extractPackQuestions(pack, packLabel) {
+        let rawQ = null;
+        if (Array.isArray(pack)) rawQ = pack;
+        else if (pack && typeof pack === 'object') {
+          rawQ = pack.questions || pack.items || pack.data || null;
+        }
+        if (!Array.isArray(rawQ)) return [];
+
+        const out = [];
+        rawQ.forEach((q, idx) => {
+          if (!q || typeof q !== 'object') return;
+          const prompt = q.prompt || q.question || q.enonce || q.text || '';
+          if (!prompt) return;
+
+          const rawType = String(q.type || '').toLowerCase().trim();
+          let type = 'qcm';
+          if (rawType === 'qcm_multi' || rawType === 'multi' || rawType === 'multiple' || rawType === 'qcm-multi' || rawType === 'qcm_multiple') {
+            type = 'qcm_multi';
+          } else if (rawType === 'open' || rawType === 'libre' || rawType === 'free' || rawType === 'text' || rawType === 'ouverte') {
+            type = 'open';
+          } else if (rawType === 'qcm' || rawType === 'single' || rawType === 'qcm_unique' || rawType === 'unique') {
+            type = 'qcm';
+          } else if (Array.isArray(q.correctAnswers) && q.correctAnswers.length > 0) {
+            type = 'qcm_multi';
+          } else if (Array.isArray(q.keyPoints) && q.keyPoints.length > 0) {
+            type = 'open';
+          }
+
+          const rawKeyPoints = q.keyPoints || q.keypoints || q.pointsCles || q.criteria || [];
+          const keyPoints = Array.isArray(rawKeyPoints)
+            ? rawKeyPoints.map(kp =>
+                typeof kp === 'string'
+                  ? { label: kp, critical: true }
+                  : { label: kp.label || kp.text || kp.point || String(kp), critical: kp.critical !== false }
+              )
+            : [];
+
+          const rawSources = q.sources || q.references || (q.source ? [q.source] : []);
+          const sources = Array.isArray(rawSources)
+            ? rawSources.map(s => (typeof s === 'string' ? { doc: s } : s))
+            : [];
+
+          out.push({
+            ...q,
+            id: String(q.id || `${packLabel}-${idx + 1}`),
+            theme: String(q.theme || q.category || q.chapitre || 'Général').trim(),
+            subtheme: String(q.subtheme || q.subTheme || q.sousTheme || q.sous_theme || q.topic || 'Général').trim(),
+            type,
+            prompt: String(prompt),
+            context: q.context || q.contexte || '',
+            correctAnswer: q.correctAnswer ?? q.answer ?? q.reponse ?? '',
+            correctAnswers: Array.isArray(q.correctAnswers) ? q.correctAnswers : (Array.isArray(q.answers) ? q.answers : []),
+            distractors: Array.isArray(q.distractors) ? q.distractors : (Array.isArray(q.wrongAnswers) ? q.wrongAnswers : []),
+            keyPoints,
+            explanation: String(q.explanation || q.correction || q.corrige || q['corrigé'] || ''),
+            sources,
+            referenceTable: q.referenceTable || q.table || null
+          });
+        });
+        return out;
+      }
 
       /* ================= QUIZ ENGINE ================= */
       const shuffleArray = arr => {
@@ -1242,6 +1578,7 @@
         settings: loadSettings(),
         progress: loadProgress(),
         multiSelectedIndices: new Set(),
+        diagLines: [],
         session: { questions: [], currentIndex: 0, mode: 'training', results: [] }
       };
 
@@ -1275,59 +1612,207 @@
         if (metaTheme) metaTheme.setAttribute('content', theme === 'dark' ? '#090e1a' : '#f1f5f9');
       }
 
-      async function tryFetchJson(url) {
+      async function fetchJsonDetailed(url) {
+        const bust = navigator.onLine ? `${url.includes('?') ? '&' : '?'}v=${Date.now()}` : '';
         try {
-          const res = await fetch(url, { cache: 'no-cache' });
-          if (res.ok) return await res.json();
-        } catch {}
-        return null;
+          const res = await fetch(url + bust, { cache: 'no-store' });
+          if (!res.ok) {
+            return { ok: false, status: res.status, error: `HTTP ${res.status}`, data: null };
+          }
+          const text = await res.text();
+          // Retire éventuel BOM UTF-8
+          const cleanText = text.replace(/^﻿/, '');
+          try {
+            return { ok: true, status: res.status, error: null, data: JSON.parse(cleanText) };
+          } catch (parseErr) {
+            return { ok: false, status: res.status, error: `JSON invalide : ${parseErr.message}`, data: null };
+          }
+        } catch (netErr) {
+          // Tentative sans cache-buster pour le mode hors-ligne (Service Worker)
+          try {
+            const resOff = await fetch(url);
+            if (resOff.ok) {
+              const cleanOff = (await resOff.text()).replace(/^﻿/, '');
+              return { ok: true, status: resOff.status, error: null, data: JSON.parse(cleanOff) };
+            }
+          } catch {}
+          return { ok: false, status: 0, error: `Réseau/Fetch : ${netErr.message}`, data: null };
+        }
+      }
+
+      async function discoverGitHubJsonFiles(diag) {
+        const host = window.location.hostname;
+        if (!host.endsWith('.github.io')) return [];
+        const owner = host.replace(/\.github\.io$/, '');
+        const pathParts = window.location.pathname.split('/').filter(Boolean);
+        const repo = pathParts[0];
+        if (!owner || !repo) return [];
+
+        const discovered = [];
+        for (const sub of ['', 'data']) {
+          const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${sub}`;
+          try {
+            const res = await fetch(apiUrl, { headers: { Accept: 'application/vnd.github.v3+json' } });
+            if (!res.ok) {
+              diag.push(`[Auto-découverte GitHub ${sub || 'racine'}] HTTP ${res.status}`);
+              continue;
+            }
+            const items = await res.json();
+            if (!Array.isArray(items)) continue;
+            for (const item of items) {
+              if (item.type === 'file' && item.name.toLowerCase().endsWith('.json')) {
+                if (IGNORED_JSON_FILES.has(item.name.toLowerCase())) continue;
+                const relPath = sub ? `./${sub}/${item.name}` : `./${item.name}`;
+                discovered.push(relPath);
+              }
+            }
+          } catch (err) {
+            diag.push(`[Auto-découverte GitHub ${sub || 'racine'}] Échec (${err.message})`);
+          }
+        }
+        return discovered;
       }
 
       async function loadCorpus() {
+        $('corpus-status').textContent = 'Chargement du corpus...';
+        const diag = [];
         const loadedQuestions = [];
         const seenIds = new Set();
         let packCount = 0;
+        let hadWarnings = false;
 
         const indexCandidates = [
           { manifestUrl: './questions-index.json', basePath: './' },
-          { manifestUrl: './data/manifest.json', basePath: './data/' }
+          { manifestUrl: './data/questions-index.json', basePath: './data/' },
+          { manifestUrl: './data/manifest.json', basePath: './data/' },
+          { manifestUrl: './manifest.json', basePath: './' }
         ];
 
+        let manifestFound = false;
+        const manifestFileQueue = [];
+
         for (const cand of indexCandidates) {
-          const manifest = await tryFetchJson(cand.manifestUrl);
-          if (manifest && Array.isArray(manifest.files)) {
-            for (const file of manifest.files) {
-              const pack = (await tryFetchJson(`${cand.basePath}${file}`)) || (await tryFetchJson(`./${file}`));
-              if (pack && Array.isArray(pack.questions)) {
-                let added = 0;
-                for (const q of pack.questions) {
-                  if (!seenIds.has(q.id)) {
-                    seenIds.add(q.id);
-                    loadedQuestions.push(q);
-                    added++;
-                  }
-                }
-                if (added > 0) packCount++;
+          const res = await fetchJsonDetailed(cand.manifestUrl);
+          if (res.ok) {
+            const files = extractManifestFileList(res.data);
+            if (files.length > 0) {
+              manifestFound = true;
+              diag.push(`[OK] Index trouvé : ${cand.manifestUrl} (${files.length} fichier(s) listé(s))`);
+              for (const f of files) {
+                manifestFileQueue.push({ raw: f, basePath: cand.basePath });
               }
+              break;
+            } else {
+              hadWarnings = true;
+              const keys = res.data && typeof res.data === 'object' ? Object.keys(res.data).join(', ') : typeof res.data;
+              diag.push(`[WARN] ${cand.manifestUrl} chargé mais liste vide ou format inattendu (clés : ${keys || 'aucune'})`);
             }
+          } else if (res.status === 200) {
+            hadWarnings = true;
+            diag.push(`[ERR] ${cand.manifestUrl} -> ${res.error}`);
+          } else {
+            diag.push(`[INFO] ${cand.manifestUrl} -> ${res.error}`);
           }
         }
 
-        for (const pack of loadLocalPacks()) {
-          if (Array.isArray(pack.questions)) {
-            let added = 0;
-            for (const q of pack.questions) {
-              if (!seenIds.has(q.id)) {
-                seenIds.add(q.id);
-                loadedQuestions.push(q);
-                added++;
+        async function loadSinglePack(urlCandidates, label) {
+          let lastErr = 'Introuvable';
+          for (const url of urlCandidates) {
+            const res = await fetchJsonDetailed(url);
+            if (res.ok) {
+              const qs = extractPackQuestions(res.data, label);
+              if (qs.length === 0) {
+                hadWarnings = true;
+                const keys = res.data && typeof res.data === 'object' ? Object.keys(res.data).join(', ') : typeof res.data;
+                diag.push(`[WARN] ${url} chargé mais 0 question reconnue (clés : ${keys || 'vide'})`);
+                return 0;
               }
+              let added = 0;
+              for (const q of qs) {
+                if (!seenIds.has(q.id)) {
+                  seenIds.add(q.id);
+                  loadedQuestions.push(q);
+                  added++;
+                }
+              }
+              if (added > 0) packCount++;
+              diag.push(`[OK] ${url} -> ${added} question(s) ajoutée(s)`);
+              return added;
+            } else {
+              lastErr = `${url} (${res.error})`;
+              if (res.status === 200) break; // JSON invalide, inutile d'essayer un autre chemin
             }
-            if (added > 0) packCount++;
+          }
+          hadWarnings = true;
+          diag.push(`[ERR] Échec chargement "${label}" : ${lastErr}`);
+          return 0;
+        }
+
+        // 1. Chargement des fichiers listés dans le manifeste
+        for (const item of manifestFileQueue) {
+          const clean = item.raw.replace(/^\.?\//, '');
+          const candidates = [...new Set([
+            item.raw.startsWith('./') || item.raw.startsWith('/') || item.raw.startsWith('http') ? item.raw : `${item.basePath}${clean}`,
+            `./${clean}`,
+            `./data/${clean}`
+          ])];
+          await loadSinglePack(candidates, clean);
+        }
+
+        // 2. Fallback auto-découverte GitHub Pages si 0 question chargée (ou manifeste absent/cassé)
+        if (loadedQuestions.length === 0 && navigator.onLine) {
+          diag.push('[INFO] Aucune question via index -> tentative d'auto-découverte sur le dépôt GitHub...');
+          const ghFiles = await discoverGitHubJsonFiles(diag);
+          if (ghFiles.length > 0) {
+            diag.push(`[INFO] ${ghFiles.length} fichier(s) .json détecté(s) sur GitHub : ${ghFiles.join(', ')}`);
+            for (const path of ghFiles) {
+              await loadSinglePack([path], path);
+            }
+            if (loadedQuestions.length > 0) {
+              hadWarnings = true;
+              diag.push('[CONSEIL] Lots chargés par secours GitHub. Mettez à jour questions-index.json avec ces noms exacts pour garantir le mode 100 % hors-ligne.');
+            }
+          } else {
+            diag.push('[INFO] Aucun fichier .json supplémentaire détecté sur GitHub (vérifiez que le dépôt est public et que les fichiers sont bien committés).');
+          }
+        }
+
+        // 3. Lots importés localement dans Paramètres
+        for (const pack of loadLocalPacks()) {
+          const qs = extractPackQuestions(pack, pack.packId || 'local');
+          let added = 0;
+          for (const q of qs) {
+            if (!seenIds.has(q.id)) {
+              seenIds.add(q.id);
+              loadedQuestions.push(q);
+              added++;
+            }
+          }
+          if (added > 0) {
+            packCount++;
+            diag.push(`[OK] Lot local "${pack.packId || 'import'}" -> ${added} question(s)`);
           }
         }
 
         state.allQuestions = loadedQuestions;
+        state.diagLines = diag;
+
+        const diagText = diag.join('\n');
+        $('settings-diag-log').textContent = diagText || 'Aucun événement.';
+        $('home-diag-log').textContent = diagText;
+
+        const homeDiag = $('home-diag-card');
+        if (loadedQuestions.length === 0) {
+          homeDiag.classList.remove('hidden');
+          homeDiag.classList.add('diag-error');
+          $('home-diag-title').textContent = 'Aucune question chargée — Diagnostic détaillé :';
+        } else if (hadWarnings) {
+          homeDiag.classList.remove('hidden', 'diag-error');
+          $('home-diag-title').textContent = `Corpus chargé avec avertissements (${loadedQuestions.length} q.) :`;
+        } else {
+          homeDiag.classList.add('hidden');
+        }
+
         $('corpus-status').textContent = `${loadedQuestions.length} question${loadedQuestions.length > 1 ? 's' : ''} • ${packCount} lot${packCount > 1 ? 's' : ''}`;
 
         state.selectedSubthemes.clear();
@@ -1336,11 +1821,8 @@
           state.selectedSubthemes.add(`${q.theme}::${q.subtheme}`);
           themeNames.add(q.theme);
         }
-        // Si peu de thèmes (<= 4), on déplie par défaut ; si gros corpus, on replie pour la lisibilité mobile
         state.expandedThemes.clear();
-        if (themeNames.size <= 4) {
-          themeNames.forEach(t => state.expandedThemes.add(t));
-        }
+        if (themeNames.size <= 4) themeNames.forEach(t => state.expandedThemes.add(t));
 
         renderThemesTree();
         updateDashboardStats();
@@ -1388,7 +1870,7 @@
         if (tree.size === 0) {
           container.innerHTML = query
             ? '<p class="hint">Aucun thème ou question ne correspond à ce filtre.</p>'
-            : '<p class="hint">Aucune question trouvée. Déposez vos fichiers .json (et questions-index.json) sur GitHub ou importez un fichier dans Paramètres.</p>';
+            : '<p class="hint">Aucune question disponible. Consultez le diagnostic ci-dessus ou importez des lots JSON dans Paramètres.</p>';
           return;
         }
 
@@ -1543,15 +2025,9 @@
 
         const pill = $('question-type-label');
         pill.classList.remove('pill-multi', 'pill-open');
-        if (q.type === 'qcm') {
-          pill.textContent = 'QCM • Choix unique';
-        } else if (q.type === 'qcm_multi') {
-          pill.textContent = 'QCM • Plusieurs réponses';
-          pill.classList.add('pill-multi');
-        } else {
-          pill.textContent = 'Réponse libre';
-          pill.classList.add('pill-open');
-        }
+        if (q.type === 'qcm') pill.textContent = 'QCM • Choix unique';
+        else if (q.type === 'qcm_multi') { pill.textContent = 'QCM • Plusieurs réponses'; pill.classList.add('pill-multi'); }
+        else { pill.textContent = 'Réponse libre'; pill.classList.add('pill-open'); }
 
         $('question-refs-preview').textContent =
           state.session.mode === 'training' && q.sources?.length ? q.sources[0].doc : '';
@@ -1861,11 +2337,77 @@
         });
       }
 
+      /* ================= PARTAGE QR CODE ================= */
+      function getShareUrl() {
+        const cleanPath = window.location.pathname.replace(/index\.html$/, '');
+        return `${window.location.origin}${cleanPath}`;
+      }
+
+      function openQrModal() {
+        const url = getShareUrl();
+        $('qr-url-display').textContent = url;
+        try {
+          QR.renderToCanvas($('qr-canvas'), url);
+        } catch (err) {
+          $('qr-url-display').textContent = `${url} (Erreur QR : ${err.message})`;
+        }
+        $('btn-native-share').classList.toggle('hidden', typeof navigator.share !== 'function');
+        $('btn-copy-url').textContent = 'Copier le lien';
+        $('modal-qr').classList.remove('hidden');
+      }
+
+      function closeQrModal() {
+        $('modal-qr').classList.add('hidden');
+      }
+
+      async function copyText(text, btnEl, labelAfter) {
+        try {
+          await navigator.clipboard.writeText(text);
+          const orig = btnEl.textContent;
+          btnEl.textContent = labelAfter;
+          setTimeout(() => { btnEl.textContent = orig; }, 2000);
+        } catch {
+          prompt('Copiez ce texte :', text);
+        }
+      }
+
       function bindEvents() {
         $('btn-theme').addEventListener('click', () => {
           state.settings.theme = state.settings.theme === 'dark' ? 'light' : 'dark';
           saveSettings(state.settings);
           applyTheme(state.settings.theme);
+        });
+
+        $('btn-share-qr').addEventListener('click', openQrModal);
+        $('btn-close-qr').addEventListener('click', closeQrModal);
+        $('modal-qr').addEventListener('click', e => {
+          if (e.target === $('modal-qr')) closeQrModal();
+        });
+        document.addEventListener('keydown', e => {
+          if (e.key === 'Escape' && !$('modal-qr').classList.contains('hidden')) closeQrModal();
+        });
+
+        $('btn-native-share').addEventListener('click', async () => {
+          try {
+            await navigator.share({
+              title: 'RailQuiz Lineas SNCF',
+              text: 'Application de révision réglementation ferroviaire SNCF / RFN (Lineas)',
+              url: getShareUrl()
+            });
+          } catch {}
+        });
+
+        $('btn-copy-url').addEventListener('click', () => {
+          copyText(getShareUrl(), $('btn-copy-url'), '✓ Lien copié !');
+        });
+
+        $('btn-reload-corpus').addEventListener('click', loadCorpus);
+        $('btn-settings-reload').addEventListener('click', loadCorpus);
+        $('btn-copy-diag').addEventListener('click', () => {
+          copyText(state.diagLines.join('\n'), $('btn-copy-diag'), '✓ Copié');
+        });
+        $('btn-settings-copy-diag').addEventListener('click', () => {
+          copyText(state.diagLines.join('\n'), $('btn-settings-copy-diag'), '✓ Copié');
         });
 
         const goHome = () => {
@@ -1900,11 +2442,8 @@
 
         $('btn-toggle-expand').addEventListener('click', () => {
           const allThemes = new Set(state.allQuestions.map(q => q.theme));
-          if (state.expandedThemes.size >= allThemes.size) {
-            state.expandedThemes.clear();
-          } else {
-            allThemes.forEach(t => state.expandedThemes.add(t));
-          }
+          if (state.expandedThemes.size >= allThemes.size) state.expandedThemes.clear();
+          else allThemes.forEach(t => state.expandedThemes.add(t));
           renderThemesTree();
         });
 
@@ -1961,19 +2500,33 @@
         });
 
         $('import-questions-file').addEventListener('change', async e => {
-          const file = e.target.files?.[0];
-          if (!file) return;
-          try {
-            const pack = JSON.parse(await file.text());
-            if (!Array.isArray(pack.questions)) throw new Error('Tableau "questions" manquant.');
-            pack.packId = pack.packId || file.name;
-            saveLocalPack(pack);
+          const files = [...(e.target.files || [])];
+          if (files.length === 0) return;
+          let totalAdded = 0;
+          const errs = [];
+          for (const file of files) {
+            try {
+              const raw = (await file.text()).replace(/^﻿/, '');
+              const pack = JSON.parse(raw);
+              const qs = extractPackQuestions(pack, file.name);
+              if (qs.length === 0) throw new Error('Aucune question reconnue');
+              const wrapped = Array.isArray(pack) ? { packId: file.name, questions: pack } : { ...pack, packId: pack.packId || file.name };
+              saveLocalPack(wrapped);
+              totalAdded += qs.length;
+            } catch (err) {
+              errs.push(`${file.name} : ${err.message}`);
+            }
+          }
+          await loadCorpus();
+          e.target.value = '';
+          if (errs.length > 0) alert(`${totalAdded} question(s) importée(s). Erreurs :\n${errs.join('\n')}`);
+          else alert(`${totalAdded} question(s) importée(s) avec succès !`);
+        });
+
+        $('btn-clear-local-packs').addEventListener('click', async () => {
+          if (confirm('Supprimer tous les lots importés manuellement sur cet appareil ? (Ne supprime pas les lots sur GitHub)')) {
+            clearLocalPacks();
             await loadCorpus();
-            alert(`${pack.questions.length} question(s) importée(s) avec succès !`);
-          } catch (err) {
-            alert(`Erreur d'import : ${err.message}`);
-          } finally {
-            e.target.value = '';
           }
         });
 
@@ -1991,7 +2544,7 @@
           const file = e.target.files?.[0];
           if (!file) return;
           try {
-            const data = JSON.parse(await file.text());
+            const data = JSON.parse((await file.text()).replace(/^﻿/, ''));
             if (!data.history) throw new Error('Fichier de progression invalide.');
             saveProgress(data);
             updateDashboardStats();
