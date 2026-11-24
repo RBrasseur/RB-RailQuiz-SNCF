@@ -1,0 +1,790 @@
+{
+  "packId": "lot09-circulation-depart-conduite-arrets-releve",
+  "title": "Lot 9 — Circulation, processus de départ, conduite en ligne, arrêts et relève/reprise (D10 à D60)",
+  "generatedAt": "2026-11-24T18:24:00Z",
+  "questions": [
+    {
+      "id": "lot09-q01",
+      "type": "qcm",
+      "theme": "Circulation & départ",
+      "subtheme": "Circulation et désignation des trains — Marche de référence vs marche indéterminée (D10.01 / D10.02)",
+      "difficulty": "moyen",
+      "prompt": "Vous êtes chargé d'assurer un train à « marche indéterminée » au départ d'une gare située sur une ligne à voie unique. Avant le départ, l'Agent-circulation vous a uniquement communiqué verbalement les arrêts imposés. Selon les fiches D10.01 et D10.02, quelle règle précise n'est pas respectée et qu'est-ce qui constitue la « Marche de Référence » d'un train régulier ?",
+      "correctAnswer": "Sur les lignes à voie unique, la désignation (n°, indice/code, origine/destination si besoin) et les arrêts imposés d'un train à marche indéterminée doivent obligatoirement être donnés PAR ÉCRIT par la gare de départ (verbalement uniquement sur les autres lignes) ; la Marche de Référence est constituée par la « Masse de référence » et la « Série de référence » de l'EM.",
+      "distractors": [
+        "Les renseignements d'un train à marche indéterminée peuvent toujours être donnés verbalement sur toutes les lignes, y compris en voie unique ; la Marche de Référence est constituée de la longueur et du pourcentage de freinage.",
+        "Tout train à marche indéterminée doit obligatoirement disposer d'une Fiche Houat complète avant le départ ; la Marche de Référence est fixée uniquement par l'indice de composition.",
+        "Sur les lignes à voie unique, seule la destination est donnée par écrit, les arrêts imposés étant toujours transmis verbalement ; la Marche de Référence dépend uniquement de la vitesse limite.",
+        "Un train à marche indéterminée ne comporte jamais d'indice ni de code de composition ; la Marche de Référence est définie par le Bulletin de Freinage.",
+        "La remise par écrit en voie unique ne s'applique qu'aux trains de voyageurs, pas aux trains de marchandises ; la Marche de Référence est la vitesse maximale de la ligne.",
+        "Dans une gare, un stationnement d'EM sur voie principale peut avoir lieu sans autorisation de l'AC s'il s'agit d'un train à marche indéterminée."
+      ],
+      "explanation": "Selon D10.01 et D10.02 : (1) dans une gare, aucun mouvement, stationnement ou engagement sur VP ne peut avoir lieu sans autorisation de l'AC ; (2) la Marche de Référence est constituée de deux éléments : la Masse de référence et la Série de référence de l'EM ; (3) pour un train à marche indéterminée (pas d'horaire établi, ou horaire approximatif si besoin), la désignation (n° + indice/code + origine/destination si besoin) et les arrêts imposés sont donnés PAR ÉCRIT par la gare de départ sur les lignes à voie unique, et peuvent être donnés verbalement sur les autres lignes.",
+      "sources": [
+        "D10.01 — Circulation des trains, § 2 et § 3, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "D10.02 — Désignation des trains, p. 1/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q02",
+      "type": "qcm",
+      "theme": "Circulation & départ",
+      "subtheme": "Place du conducteur et danger imminent de collision (D10.03)",
+      "difficulty": "moyen",
+      "prompt": "Vous conduisez un engin moteur en ligne lorsqu'un danger imminent de collision survient devant votre train, vous contraignant à quitter votre poste de conduite en marche. Quelles opérations devez-vous vous efforcer d'effectuer avant de quitter votre poste, et quel poste occupez-vous normalement sur un EM mono-cabine équipé de deux postes de conduite disposant chacun d'un robinet de frein automatique ?",
+      "correctAnswer": "Avant de quitter votre poste face à un danger imminent de collision, s'efforcer de provoquer l'arrêt d'urgence du train ET l'arrêt du moteur thermique ou l'abaissement des pantographes ; sur un EM mono-cabine à deux postes dotés chacun d'un robinet FA, se placer dans le poste d'où l'on peut le mieux observer la voie et les signaux dans le sens de la marche.",
+      "distractors": [
+        "Quitter immédiatement le poste sans toucher aux commandes afin de ne pas perdre de secondes ; sur un EM mono-cabine à deux postes, toujours occuper le poste de droite dans le sens de la marche.",
+        "Effectuer uniquement un serrage gradué à 1,5 bar en laissant les pantographes levés pour conserver le freinage électrique ; sur un EM mono-cabine, toujours occuper le poste de gauche.",
+        "Couper uniquement la traction sans toucher au frein ni aux pantographes ; il est interdit de quitter le poste de conduite en marche même en cas de danger imminent de collision.",
+        "Déclencher le signal d'alerte radio avant de freiner, sans toucher au moteur thermique ni aux pantographes ; sur un EM mono-cabine, occuper indifféremment l'un ou l'autre poste.",
+        "Serrer uniquement le frein direct et actionner le sifflet ; sur un EM mono-cabine où un seul poste a un robinet FA, se placer quand même du côté offrant la meilleure vue.",
+        "Ouvrir le sectionneur de batterie avant de quitter le poste ; sur un EM bi-cabine, il est toléré de conduire depuis la cabine arrière jusqu'à 30 km/h."
+      ],
+      "explanation": "La fiche D10.03 impose : en bi-cabine, cabine avant dans le sens de la marche ; en mono-cabine à 2 postes, au poste comportant le robinet FA (ou, si les deux en disposent, au poste le plus adapté pour observer la voie et les signaux). En marche, le conducteur ne s'éloigne jamais de son poste SAUF en cas de danger imminent de collision : dans ce cas, il s'efforce avant de quitter son poste de provoquer l'arrêt d'urgence du train et l'arrêt du moteur thermique ou l'abaissement des pantographes.",
+      "sources": [
+        "D10.03 — Place du conducteur, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q03",
+      "type": "qcm_multi",
+      "theme": "Circulation & départ",
+      "subtheme": "Signalisation d'avant et signalisation d'arrière du train (D10.50 / D10.51)",
+      "difficulty": "moyen",
+      "prompt": "Selon les fiches D10.50 et D10.51 (versions du 14 décembre 2025), quelles règles relatives à la signalisation d'avant et à la signalisation d'arrière des trains sont exactes ?",
+      "correctAnswers": [
+        "À l'avant, allumer jour et nuit 3 feux blancs en triangle isocèle ou 2 feux blancs horizontaux : normalement en régime « projecteur » (privilégié en marche restrictive), en régime « fanal » jour et nuit dès risque d'éblouissement (gares, chantiers, croisement, manœuvres), et en « projecteur réduit » uniquement la nuit le long d'une chaussée routière.",
+        "La signalisation d'arrière d'un train est constituée de 2 plaques de queue réflectorisées à même hauteur au-dessus des tampons (ou 2 lanternes de queue allumées) ; sur EM seul, EM de pousse et Train de Machines, allumer 2 feux rouges de jour comme de nuit.",
+        "Chaque engin moteur doit disposer en permanence d'au moins 2 dispositifs identiques de signalisation d'arrière de réserve (vérifié en PC, réapprovisionné si utilisés), et après la mise en tête, l'extrémité de l'EM côté train ne doit présenter aucune signalisation."
+      ],
+      "distractors": [
+        "Le régime « projecteur réduit » doit être utilisé de jour comme de nuit dès que la voie longe une chaussée routière ou traverse une gare.",
+        "De jour, la signalisation d'avant (feux blancs) peut rester éteinte en pleine voie tant que la visibilité est normale.",
+        "En marche restrictive (marche à vue / manœuvre), le conducteur doit impérativement passer en régime « fanal » et interdire le régime « projecteur ».",
+        "Lors d'un changement d'extrémité effectué par le conducteur seul, la mise en place de la signalisation d'arrière incombe exclusivement à un OFS ou à un agent du SGC."
+      ],
+      "displayCount": 5,
+      "explanation": "D10.50 et D10.51 (14/12/2025) fixent : avant = 2 ou 3 feux blancs jour et nuit (projecteur normal / privilégié en marche restrictive ; fanal jour et nuit si risque d'éblouissement ; projecteur réduit uniquement la nuit le long d'une chaussée routière) ; arrière = 2 plaques réflectorisées même hauteur ou 2 lanternes allumées (2 feux rouges jour et nuit pour EM seul / pousse / TM), au moins 2 dispositifs identiques de réserve sur chaque EM, aucune signalisation à l'extrémité EM côté train après mise en tête, et mise en place à la charge du conducteur lors d'un changement d'extrémité conducteur seul.",
+      "sources": [
+        "D10.50 — Signalisation d'avant du train, p. 1-2/2 (© Lineas, December 14, 2025 Lille)",
+        "D10.51 — Signalisation d'arrière du train, p. 1-2/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q04",
+      "type": "qcm_multi",
+      "theme": "Circulation & départ",
+      "subtheme": "Processus de départ — PPE (Sol/Bord), PAR et assemblage (D20.01 / D20.02 / D20.03)",
+      "difficulty": "moyen",
+      "prompt": "Vous préparez le départ de votre train en gare d'origine. Parmi les prescriptions des fiches D20.01, D20.02 et D20.03 (révision du 14 décembre 2025 pour D20.03), lesquelles sont exactes ?",
+      "correctAnswers": [
+        "Le résultat satisfaisant de l'essai de frein (indication « terminé ») ne constitue pas à lui seul le « PPE sol terminé » : l'OFS doit donner l'assurance sous la forme « PPE sol terminé ».",
+        "La réception de l'Autorisation de Mouvement (AuM) avant la déclaration « Prêt pour Accès au Réseau » (PAR) ne dispense PAS d'effectuer la déclaration PAR.",
+        "La déclaration PAR est obligatoire à l'origine, après un arrêt avec modification de composition et après une relève de conducteur (EXCEPTÉ une relève de conducteur sur voie principale), sous la forme « Train n° ..., voie n° ..., prêt à accéder au réseau », complétée le cas échéant (ATE + version, charge D, MD, longueur > 750 m, changement mode de traction...)."
+      ],
+      "distractors": [
+        "Dès que le signal de sortie propre à la voie s'ouvre (AuM reçue), la déclaration PAR devient inutile et le conducteur peut partir immédiatement à l'heure de départ.",
+        "La déclaration PAR est obligatoire après chaque relève de conducteur, y compris lorsque la relève s'effectue sur voie principale sans modification de composition.",
+        "Lorsque l'OFS prononce « Terminé » à la fin de l'essai complet, cela vaut réglementairement « PPE sol terminé » sans autre confirmation.",
+        "La transmission de l'Autorisation de Mouvement (AuM) relève de la responsabilité de l'Entreprise Ferroviaire, tandis que le PPE relève du SGC."
+      ],
+      "displayCount": 5,
+      "explanation": "Le processus de départ (D20.01–D20.03) repose sur l'assemblage des 4 piliers par le conducteur : PPE (Sol + Bord, responsabilité EF), PAR, AuM (responsabilité SGC) et HD. Points pièges : « Terminé » à l'essai de frein ≠ « PPE sol terminé » (D20.02 p. 2/3) ; recevoir l'AuM avant le PAR ne dispense JAMAIS du PAR (D20.01 p. 2/3) ; le PAR n'est pas requis après une relève de conducteur sur voie principale (D20.03 p. 1/2) ; si PPE Bord ou Sol non rempli -> informer le Service Opérationnel et suivre ses instructions.",
+      "sources": [
+        "D20.01 — Processus de départ des trains, p. 1-3/3 (© Lineas, December 15, 2019 Brussels)",
+        "D20.02 — Train Prêt Pour Expédition (PPE), p. 1-3/3 (© Lineas, December 15, 2019 Brussels)",
+        "D20.03 — La déclaration \"Prêt pour Accéder au Réseau\" (PAR), p. 1-2/2 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q05",
+      "type": "qcm",
+      "theme": "Circulation & départ",
+      "subtheme": "Autorisation de Mouvement (AuM) — Cas d'exigence, TLC/TIP et cabine en aval du signal de sortie (D20.04)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du tableau récapitulatif D20.04 ci-dessous, vous venez d'observer un arrêt sur voie principale en BAL et votre cabine de conduite se situe EN AVAL du signal de sortie que vous venez de franchir ouvert il y a 4 minutes. Par ailleurs, lors d'un départ de faisceau muni d'un TLC, celui-ci présente l'indication « T ». Quelles règles exactes la fiche D20.04 (version du 14 décembre 2025) impose-t-elle dans ces deux situations ?",
+      "referenceTable": {
+        "title": "AuM — Cabine de conduite située en aval du signal de sortie (D20.04, p. 5/10 et p. 8/10)",
+        "openByDefault": true,
+        "headers": [
+          "Situation (cabine en aval du signal de sortie)",
+          "Modalité d'obtention de l'AuM"
+        ],
+        "rows": [
+          [
+            "En BAL : délai ≤ 3 min depuis le franchissement du signal de sortie",
+            "Considérer avoir reçu l'AuM au franchissement du signal de sortie"
+          ],
+          [
+            "En BAL : délai > 3 min depuis le franchissement du signal de sortie",
+            "Recevoir l'AuM de l'agent du SGC (forme manuelle, écrit, dépêche ou verbalement)"
+          ],
+          [
+            "En gare d'origine",
+            "Recevoir l'AuM (forme manuelle, écrit, dépêche ou verbalement)"
+          ],
+          [
+            "En BM : gare temporairement fermée ou établissement PL",
+            "Considérer que l'AuM est reçue"
+          ],
+          [
+            "Autres situations",
+            "Recevoir l'AuM (forme manuelle, écrit, dépêche ou verbalement)"
+          ]
+        ],
+        "note": "Rappel D20.04 p. 2/10 : sur un TLC, l'indication « SLD » constitue l'AuM ; l'indication « T » ne constitue PAS une AuM."
+      },
+      "correctAnswer": "Délai en BAL de 4 min (> 3 min) : vous devez recevoir l'AuM de l'agent du SGC (manuelle, écrit, dépêche ou verbalement) ; et l'indication « T » d'un TLC ne constitue PAS une AuM (seule l'indication « SLD » associée à l'ouverture du signal de groupe la constitue).",
+      "distractors": [
+        "En BAL, l'AuM reçue au franchissement du signal de sortie reste valable sans limite de temps ; l'indication « T » d'un TLC constitue l'AuM dès que le signal de groupe est ouvert.",
+        "En BAL, le délai limite est de 5 minutes donc l'AuM reste acquise à 4 minutes ; l'indication « T » d'un TLC ne constitue pas une AuM.",
+        "Délai en BAL de 4 min : vous devez recevoir l'AuM du SGC ; en revanche, l'indication « T » d'un TLC constitue bien une AuM pour les trains de marchandises.",
+        "Lorsque la cabine est en aval du signal de sortie en BAL, vous devez systématiquement reculer en amont du signal pour l'observer.",
+        "En BM dans une gare temporairement fermée au service, une AuM par dépêche du régulateur est obligatoire même si la cabine est en aval du signal de sortie.",
+        "L'AuM constitue à elle seule l'autorisation de se mettre en mouvement dès lors que le signal de sortie est ouvert."
+      ],
+      "explanation": "La fiche D20.04 (14/12/2025) précise : (1) cabine en aval du signal de sortie en BAL -> AuM acquise si délai ≤ 3 min depuis le franchissement, mais AuM obligatoire par l'agent du SGC si délai > 3 min ; (2) sur un TLC, seule l'indication « SLD » avec ouverture du signal de groupe constitue l'AuM, jamais l'indication « T » ; (3) un formulaire d'autorisation de franchissement d'un signal d'arrêt (et en ETCS les instructions IE1, IE2 et IE7) constitue l'AuM ; (4) l'AuM ne constitue jamais à elle seule l'autorisation de se mettre en mouvement (il faut PPE + PAR + AuM + HD).",
+      "sources": [
+        "D20.04 — Autorisation de Mouvement (AuM), p. 1-2/10, p. 5/10 et p. 8/10 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q06",
+      "type": "qcm_multi",
+      "theme": "Circulation & départ",
+      "subtheme": "Mise en mouvement — Situations imposant la marche à vue et limites (D20.05)",
+      "difficulty": "difficile",
+      "prompt": "Selon la fiche D20.05 (La mise en mouvement), parmi les configurations de départ suivantes, lesquelles imposent d'observer la marche à vue (sans dépasser 30 km/h sur les appareils de voie) jusqu'au signal d'entrée du canton suivant en BA (ou 1er sémaphore/carré avant sortie gare, à défaut zone du poste / prochain poste, en BM) ?",
+      "correctAnswers": [
+        "Train expédié d'une voie dont la sortie est commandée par un signal présentant un feu blanc, ou de jour par un carré violet mécanique.",
+        "Train expédié d'une voie de service ne comportant pas de signal de sortie, ou d'une voie principale vers une autre voie principale sans signal commandant l'itinéraire.",
+        "Train expédié exceptionnellement d'un point où la cabine de conduite de l'engin moteur se trouve en aval du signal de sortie."
+      ],
+      "distractors": [
+        "Train repartant d'un arrêt prévu (≤ 3 minutes) sur voie principale après avoir franchi ouvert le signal à distance en amont, avec signal de sortie propre à la voie visible et ouvert.",
+        "Train expédié d'un établissement PL en BM après un arrêt de 2 minutes lorsqu'il avait franchi ouvert le signal d'annonce situé en amont.",
+        "Train partant d'une voie de service équipée d'un signal de sortie présentant un feu vert (qui impose uniquement ≤ 30 km/h jusqu'au dégagement des aiguilles d'accès à la VP, sans MàV dans tout le canton).",
+        "Train repartant après un arrêt prévu de 2 minutes sur une voie principale en BAL, le signal de sortie étant ouvert et visible."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche D20.05 (p. 1/5 et p. 4/5) énumère exactement les 5 situations imposant MàV + ≤ 30 km/h sur appareils de voie jusqu'au signal d'entrée du canton suivant (BA) ou 1er S/C avant sortie gare sinon zone du poste/prochain poste (BM) : (1) feu blanc, (2) CV mécanique de jour, (3) VP vers VP sans signal, (4) VS sans signal de sortie, (5) cabine en aval du signal de sortie. En complément : départ d'une VS = ≤ 30 km/h (sauf indication contraire) jusqu'à ce que le train soit en entier sur VP et dernier véhicule dégagé les aiguilles ; arrêt normal > 3 min -> MàV jusqu'au signal d'entrée du canton suivant (à défaut 3 000 m) ; arrêt normal ≤ 3 min -> marche normale (sauf signal à distance fermé ou établissement PL en BA).",
+      "sources": [
+        "D20.05 — La mise en mouvement, p. 1-5/5 (© Lineas, June 13, 2021 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q07",
+      "type": "qcm",
+      "theme": "Circulation & départ",
+      "subtheme": "Arrêt d'un train lors de la mise en mouvement et reprise (D20.06)",
+      "difficulty": "facile",
+      "prompt": "Juste après avoir reçu votre Autorisation de Mouvement et décollé votre train en gare, vous apercevez un agent au sol levant les deux bras de toute leur hauteur (ou le signal de sortie qui se referme devant vous). Quelle conduite immédiate devez-vous adopter, et quelles conditions impératives régissent la reprise ultérieure de la mise en mouvement ?",
+      "correctAnswer": "S'arrêter d'urgence, se renseigner sur le motif de l'arrêt et prendre les mesures nécessitées par la situation ; pour repartir ensuite, vous devez recevoir une NOUVELLE Autorisation de Mouvement (AuM) et considérer cet arrêt comme un arrêt accidentel.",
+      "distractors": [
+        "Marquer un freinage de service gradué, puis repartir de vous-même en marche normale dès que le motif est levé puisque l'AuM initiale reste valable.",
+        "S'arrêter d'urgence, puis reprendre en marche à vue sans nouvelle AuM dès que l'agent baisse les bras.",
+        "S'arrêter uniquement si les deux bras levés sont accompagnés de coups de sifflet saccadés ; sinon poursuivre en marche à vue.",
+        "S'arrêter d'urgence ; une nouvelle AuM est requise uniquement si le train a parcouru plus de 100 mètres.",
+        "S'arrêter d'urgence, recevoir une nouvelle AuM et repartir en marche normale si l'arrêt a duré moins de 3 minutes.",
+        "Poursuivre jusqu'au prochain signal de cantonnement si seul un bruit suspect de mauvais roulage est perçu lors de l'essai de roulage."
+      ],
+      "explanation": "La fiche D20.06 distingue : suspicion de mauvais roulage -> s'arrêter, se renseigner, visiter/chercher l'anomalie ; perception d'un signal d'arrêt à main, coups de sifflet saccadés, deux bras élevés de toute leur hauteur, fermeture du signal de sortie -> s'arrêter D'URGENCE, se renseigner et traiter. Dans tous les cas, la reprise exige de recevoir une NOUVELLE AuM et de considérer cet arrêt comme un arrêt accidentel (marche à vue selon D40.05).",
+      "sources": [
+        "D20.06 — Arrêt d'un train lors de la mise en mouvement, p. 1/1 (© Lineas, December 15, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q08",
+      "type": "qcm_multi",
+      "theme": "Conduite en ligne",
+      "subtheme": "Circulation sur voie de service, voie de circulation, dépôt et MD sur VS non apte (D30.10 / D30.11)",
+      "difficulty": "moyen",
+      "prompt": "Concernant la circulation sur une voie de service (tableau « G »), une voie de circulation ou une voie de dépôt (tableau « D »), quelles prescriptions des fiches D30.10 et D30.11 sont exactes ?",
+      "correctAnswers": [
+        "À la rencontre d'un tableau « G » (ou en ETCS lors de l'affichage du mode OS simultanément avec le message « Voie de service »), le conducteur observe la marche en manœuvre depuis l'aiguille d'accès ; sur une voie de service désignée « voie de circulation » aux RT/LiLi, il n'a pas à s'arrêter si le signal qui le concerne (signal propre, TLC, TIP) l'autorise à poursuivre.",
+        "S'il est exceptionnellement nécessaire de recevoir un train transportant des Marchandises Dangereuses sur une voie de service non désignée apte aux MD, l'aiguilleur doit, avant d'autoriser la réception, donner l'ordre au conducteur de limiter la vitesse à celle d'un homme au pas (sur la voie concernée et les appareils d'accès/sortie).",
+        "Sur les voies d'un dépôt (annoncées par un tableau « D »), le conducteur observe la marche en manœuvre, fait preuve de la plus grande prudence aux abords des points désignés (station-service, stationnement, manutention...) et se conforme aux instructions du responsable local (ex. SUD) ou du chef de manœuvre."
+      ],
+      "distractors": [
+        "Sur une voie de service désignée « voie de circulation » aux RT/LiLi, le conducteur doit quand même marquer un arrêt obligatoire devant le signal de sortie même s'il est ouvert.",
+        "La réception exceptionnelle d'un train transportant des MD sur une voie de service non apte aux MD s'effectue à 15 km/h maximum sur la voie et les appareils.",
+        "En double voie, lorsqu'un train doit être garé par refoulement sur une voie de service, il peut avancer sans marquer l'arrêt au-delà du point habituel même s'il n'en a pas été avisé préalablement.",
+        "Le tableau « G » fixe est habituellement implanté à 500 mètres en amont de l'aiguille en pointe d'accès à la voie de service."
+      ],
+      "displayCount": 5,
+      "explanation": "D30.10 et D30.11 précisent : tableau G mobile groupé avec le carré précédant l'aiguille en pointe, fixe habituellement au-delà de l'aiguille ; marche en manœuvre depuis l'aiguille d'accès (ETCS : OS + « Voie de service ») ; voie de circulation -> poursuite sans arrêt si signal propre/TLC/TIP autorise ; MD sur VS non apte MD -> ordre préalable de l'aiguilleur de limiter la vitesse à celle d'un homme au pas (voie + appareils d'accès/sortie) ; garage par refoulement en DV -> dispense d'arrêt au-delà du point habituel uniquement si avisé (gare précédente, RT/LiLi ou CLO) ; dépôt (tableau D) -> marche en manœuvre + grande prudence + instructions responsable local/chef manœuvre.",
+      "sources": [
+        "D30.10 — Circulation sur voie de service, p. 1-3/3 (© Lineas, December 13, 2020 Brussels)",
+        "D30.11 — Circulation sur les voies d'un dépôt, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q09",
+      "type": "qcm",
+      "theme": "Conduite en ligne",
+      "subtheme": "Réception sur voie occupée — Réception non prévue, accidentelle et absence de signalisation d'avant (D30.12)",
+      "difficulty": "difficile",
+      "prompt": "Dans le cadre d'une réception sur voie occupée (fiche D30.12, révision du 14 décembre 2025), quelles conditions exactes s'appliquent : (A) lors de la réception sur voie principale d'un train dépourvu de signalisation d'avant, et (B) en cas de réception accidentelle sur une voie occupée ?",
+      "correctAnswer": "(A) Ordre du SGC obligatoire et réception sur VP possible uniquement lorsque la signalisation d'arrière du train en stationnement est réalisée par des feux rouges fixes ; (B) prendre les mesures de protection, obtenir des instructions de l'OFS ou du SGC, et interdiction absolue de refouler de sa propre initiative.",
+      "distractors": [
+        "(A) Réception sur VP possible même si la queue du train en stationnement ne porte que des plaques de queue réflectorisées ; (B) dégager immédiatement en refoulant de sa propre initiative sur 50 mètres.",
+        "(A) Toute réception sur voie occupée (VP ou VS) d'un train sans signalisation d'avant est strictement interdite ; (B) attendre les instructions sans prendre de mesures de protection.",
+        "(A) Sur voie de service non éclairée de nuit, un simple gilet haute visibilité sur le dernier wagon remplace le feu rouge fixe ; (B) refouler à vitesse d'un homme au pas pour libérer le croisement.",
+        "(A) L'ordre du SGC n'est pas nécessaire si le conducteur circule déjà en marche en manœuvre ; (B) contacter uniquement le Service Opérationnel de l'EF.",
+        "(A) En cas de réception non prévue sur voie occupée sans signalisation adaptée, le conducteur est avisé en marche par radio sans être arrêté au signal d'accès ; (B) interdiction de refouler.",
+        "(A) Sur VP, des feux rouges clignotants ou des plaques suffisent ; (B) le conducteur peut refouler de sa propre initiative uniquement si aucun train ne le suit."
+      ],
+      "explanation": "La fiche D30.12 (14/12/2025) fixe des règles strictes : (1) réception non prévue sur voie occupée sans signalisation adaptée -> arrêt au signal d'accès + avis verbal + guidage par ordres de manœuvre ; (2) réception accidentelle -> protection + instructions OFS/SGC, et INTERDICTION de refouler son train de sa propre initiative ; (3) train dépourvu de signalisation d'avant -> ordre du SGC, sur VP uniquement si queue du train en stationnement = feux rouges fixes ; sur VS (nuit non éclairée / jour mauvaise visibilité) uniquement si queue = feu rouge fixe, à défaut pétard apposé en amont ou ordres de manœuvre en temps utile.",
+      "sources": [
+        "D30.12 — Réception sur voie occupée, p. 1-2/2 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q10",
+      "type": "qcm_multi",
+      "theme": "Traction électrique",
+      "subtheme": "Utilisation des pantographes — Levée, intensités de secours, UM/DT et abaissement d'urgence (D30.20)",
+      "difficulty": "difficile",
+      "prompt": "Vous conduisez un ou plusieurs engins moteurs électriques sur le RFN. Parmi les prescriptions de la fiche D30.20 relatives à la levée, au captage et à l'abaissement des pantographes, lesquelles sont exactes ?",
+      "correctAnswers": [
+        "Sur les voies de service, toute levée d'un pantographe en mouvement est interdite ; l'autorisation du RSS ou de l'agent E est nécessaire pour lever le pantographe notamment sous une section commutable, sous un sectionnement à lame d'air / isolateur de section, après arrêt sous zone pantos baissés / coupez courant / baissez panto, ou sur un EM électrique acheminé en véhicule dans une circulation non électrique.",
+        "En unité simple sur machine polycourant avec le seul pantographe de secours : VL limitée à 100 km/h sous 25 000 V – 50 Hz, et intensités limitées sous 1 500 V continu à 1 000 A (chauffage coupé) à la mise en mouvement et 1 200 A après la mise en mouvement.",
+        "En UM ou DT, max 2 pantographes levés en tête (idem pour 2 EM en pousse) : sous 1 500 V continu VL max 120 km/h (levée simultanée de 2 pantos sur un même EM interdite sauf BB 27000/37000 avec touche « Givre »), et sous 25 000 V l'utilisation simultanée des 2 pantos sur un ou les deux EM est interdite."
+      ],
+      "distractors": [
+        "Sur les voies de service, la levée d'un pantographe en mouvement est autorisée tant que la vitesse ne dépasse pas 15 km/h.",
+        "L'abaissement normal d'un pantographe s'effectue avant d'ouvrir le disjoncteur afin d'éviter une surtension sur la caténaire.",
+        "En cas de crainte de dépasser intempestivement un signal commandant l'arrêt, il est interdit d'abaisser d'urgence les pantographes afin de conserver le frein électrique.",
+        "Sur machine polycourant utilisant le seul pantographe de secours sous 1 500 V continu, l'intensité est limitée à 1 500 A à la mise en mouvement et 2 000 A en ligne."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche D30.20 récapitule : levée en marche interdite sur VS ; autorisation RSS/agent E obligatoire dans les 4 situations listées ; fermeture du disjoncteur uniquement après fin des rebondissements ; panto secours polycourant = 100 km/h en 25 kV et 1 000 A (chauffage coupé) / 1 200 A en 1 500 V ; UM/DT max 2 pantos levés en tête, VL 120 km/h en 1 500 V (2 pantos sur même EM interdits sauf BB 27000/37000 touche Givre), et sous 25 kV jamais 2 pantos sur un même EM en UM/DT ; abaissement normal = couper traction puis ouvrir disjoncteur ; abaissement D'URGENCE obligatoire en cas d'avarie caténaire, avarie panto, direction vers voie non électrifiée/tension incompatible, ou crainte de dépasser un signal d'arrêt.",
+      "sources": [
+        "D30.20 — Utilisation des pantographes, p. 1-6/7 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q11",
+      "type": "qcm",
+      "theme": "Conduite en ligne",
+      "subtheme": "Usage du sifflet — Horaires, pancartes S/J, tunnels et signaux conventionnels (D30.21)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau des signaux conventionnels ci-dessous (fiche D30.21), vous circulez en plein jour à 15 h 30 et vous allez croiser un autre train avant d'aborder un tunnel. Par ailleurs, quel signal au sifflet émet un conducteur pour signaler une DÉRIVE de son train, et quelle plage horaire dispense de siffler devant une pancarte « S » accompagnée d'une pancarte « J » ?",
+      "referenceTable": {
+        "title": "Signaux conventionnels au sifflet — 1 seul ton si avertisseur à 2 tons (D30.21, p. 2-3/3)",
+        "openByDefault": true,
+        "headers": [
+          "Signification",
+          "Signal au sifflet"
+        ],
+        "rows": [
+          [
+            "Accusé de réception / Transmission AuM à l'EM en DT",
+            "1 coup de sifflet bref"
+          ],
+          [
+            "Dérive du train",
+            "2 coups de sifflet brefs répétés à intervalles suffisants"
+          ],
+          [
+            "Ordre d'abaisser les pantographes (DT / pousse)",
+            "2 coups de sifflet longs"
+          ],
+          [
+            "Ordre de relever les pantographes (DT / pousse)",
+            "3 coups de sifflet longs"
+          ],
+          [
+            "Décollage pousse / Impossibilité de décoller (pousse)",
+            "1 coup de sifflet prolongé"
+          ]
+        ],
+        "note": "Plage « de jour » D30.21 : 07 h 00 à 20 h 00 (dispense pancarte S+J entre 20 h 00 et 07 h 00 sauf urgence)."
+      },
+      "correctAnswer": "De jour (07 h à 20 h), siffler avant d'atteindre la queue du train croiseur (ou la tête d'un train dépassé) ainsi qu'avant d'entrer ET avant de sortir du tunnel ; dérive du train = 2 coups de sifflet brefs répétés à intervalles suffisants ; dispense S+J de 20 h à 07 h (sauf urgence).",
+      "distractors": [
+        "De jour (06 h à 22 h), siffler uniquement à l'entrée du tunnel et à la rencontre de la tête du train croiseur ; dérive du train = 3 coups de sifflet brefs répétés.",
+        "De jour (07 h à 20 h), siffler uniquement avant d'entrer dans le tunnel (jamais avant d'en sortir) ; dérive du train = 1 coup de sifflet prolongé.",
+        "La pancarte « S » accompagnée de « J » impose de siffler entre 20 h et 07 h et dispense de siffler le jour ; dérive du train = 2 coups longs.",
+        "Lors de l'émission d'un signal conventionnel avec un avertisseur à deux tons, il faut obligatoirement alterner les deux tons ; dérive du train = 2 coups brefs répétés.",
+        "Le démarrage d'un train de marchandises impose systématiquement un coup de sifflet bref comme pour un train militaire ; dispense S+J de 21 h à 06 h.",
+        "En cas de brouillard devant une pancarte « S », un simple coup bref suffit pour éviter les nuisances sonores ; dérive = 2 coups brefs."
+      ],
+      "explanation": "La fiche D30.21 fixe : de jour (07 h à 20 h), siffler avant d'atteindre la queue du train croiseur ou la tête du train dépassé, et avant d'entrer ET avant d'atteindre la sortie d'un tunnel ; pancarte S+J -> pas obligatoire entre 20 h et 07 h sauf urgence ; en cas de brouillard/visibilité fortement réduite à une pancarte S -> usage prolongé ; train militaire -> siffler au démarrage ; avertisseur à deux tons -> utiliser un seul ton pour les signaux conventionnels ; dérive du train = 2 coups brefs répétés à intervalles suffisants.",
+      "sources": [
+        "D30.21 — Usage du sifflet, p. 1-3/3 (© Lineas, December 15, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q12",
+      "type": "qcm",
+      "theme": "Conduite en ligne",
+      "subtheme": "Utilisation des sablières — Risques, durée d'action et interdiction EM seul (D30.22)",
+      "difficulty": "moyen",
+      "prompt": "Vous démarrez un train lourd sur rail humide et vous envisagez d'actionner les sablières. Quelle durée d'action et quelles interdictions/risques majeurs la fiche D30.22 précise-t-elle concernant le sablage ?",
+      "correctAnswer": "Agir par actions brèves (1 à 2 secondes), éviter le sablage sur zones d'aiguilles (perturbations d'appareils) et le sablage continu à l'arrêt/basse vitesse (risque de déshuntage des circuits de voie et mauvais retour de courant traction exposant à électrisation/électrocution) ; sauf urgence, le sablage avec un engin moteur seul est interdit.",
+      "distractors": [
+        "Maintenir le bouton-poussoir sablage enfoncé en continu pendant 10 à 15 secondes à l'arrêt avant de décoller pour créer un tapis de sable efficace.",
+        "L'utilisation des sablières avec un engin moteur seul (HLP) est recommandée en préventif dès que la vitesse est inférieure à 40 km/h.",
+        "Le sablage sur les zones d'aiguilles est autorisé au démarrage tant que la vitesse ne dépasse pas 30 km/h.",
+        "Les essais des sablières peuvent être réalisés sur n'importe quelle voie principale en palier avant le départ.",
+        "Un sablage continu à basse vitesse améliore le shuntage des circuits de voie en augmentant la surface de contact roue/rail.",
+        "L'utilisation des sablières est autorisée uniquement en freinage d'urgence et jamais lors d'un démarrage normal ou en rampe."
+      ],
+      "explanation": "La fiche D30.22 précise : actions brèves de 1 à 2 secondes sur le BP Sablage ; éviter les zones d'aiguilles (perturbations graves des appareils) ; proscrire le sablage continu à l'arrêt ou basse vitesse (interruption du contact électrique roue/rail -> retour courant traction dégradé / risque d'électrisation-électrocution + déshuntage des circuits de voie) ; sauf en cas d'urgence, utilisation des sablières avec un EM seul INTERDITE ; essais uniquement sur zones prévues à cet effet.",
+      "sources": [
+        "D30.22 — Utilisation des sablières, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q13",
+      "type": "open",
+      "theme": "Conduite en ligne",
+      "subtheme": "Circulation en adhérence dégradée — Enrayage/patinage important, ordre AVEN et ETCS (D30.23)",
+      "difficulty": "difficile",
+      "prompt": "En automne sous pluie fine et feuilles mortes, vous subissez en phase de freinage un glissement persistant des roues qui compromet l'atteinte de votre objectif de ralentissement. Vous n'avez pas encore signalé l'incident au SGC. Selon la fiche D30.23 (révision du 14 décembre 2025), précisez : (1) la conduite immédiate à tenir face à un enrayage lorsqu'une prescription s'impose (dont l'erreur à éviter avec l'anti-enrayage), (2) les 5 critères cumulatifs qualifiant un enrayage d'« important », (3) les informations systématiques à transmettre au SGC et l'étendue de la zone couverte par l'ordre AVEN (IN 35), et (4) la particularité impérative de l'ETCS en adhérence dégradée.",
+      "modelAnswer": "1. Conduite immédiate en cas d'enrayage (lorsqu'une prescription d'arrêt ou de VL s'impose) :\n   - NE PAS desserrer les freins / ne pas couper l'effort de freinage (ce qui perturberait les calculs du dispositif anti-enrayage) — laisser agir le dispositif d'anti-enrayage ;\n   - Sabler pendant le freinage (en cas d'enrayage avéré ; sinon sablage préventif interdit sur zones d'aiguilles) ;\n   - Freiner d'urgence si nécessaire.\n2. Les 5 principes devant avoir été respectés pour qualifier un enrayage d'« important » (lorsque les actions restent sans effet pour atteindre l'objectif) :\n   - Anticipation des freinages (si prévisible) ;\n   - Vitesse et conduite adaptées aux conditions (si prévisible) ;\n   - Laisser agir les systèmes automatiques ;\n   - Sablage efficient ;\n   - Utilisation du freinage d'urgence.\n3. Signalement au SGC et ordre AVEN :\n   - Aviser le SGC dès que possible (GSM-R, téléphonie dématérialisée après arrêt, à défaut 1re gare) en précisant : n° de train, n° d'EM, événement constaté (Enrayage Simple ou Important / Patinage Simple ou Important), PK exact (ou PK encadrants) et distance du phénomène subi, état du rail (humide, feuilles), conditions météo (pluie, givre, brouillard, neige...), usage des sablières/anti-enrayage resté sans effet -> annoter le Carnet de Bord et le Bulletin de Service.\n   - L'ordre AVEN (Avis d'Enrayage, Instruction Nationale 35) s'étend sur 1 000 mètres de part et d'autre de la zone où l'enrayage important a été constaté.\n4. Particularité ETCS : le système ETCS ne tient EN AUCUNE MANIÈRE compte des conditions d'adhérence ; malgré la MA affichée, le conducteur doit réduire sa vitesse et anticiper ses freinages sans attendre d'indication au DMI.",
+      "keyPoints": [
+        {
+          "label": "En cas d'enrayage avec prescription : ne pas desserrer / ne pas couper l'effort de freinage (laisser agir l'anti-enrayage), sabler pendant le freinage, freiner d'urgence si nécessaire",
+          "critical": true
+        },
+        {
+          "label": "Qualification d'enrayage « important » : échec malgré respect des 5 principes (anticipation, vitesse/conduite adaptées, laisser agir automatismes, sablage efficient, utilisation du FU)",
+          "critical": true
+        },
+        {
+          "label": "Signalement précis au SGC (n° train, n° EM, simple/important, PK exact + distance, état rail, météo, usage sablières/anti-enrayage) + annotation CB et BS",
+          "critical": true
+        },
+        {
+          "label": "Ordre AVEN (Avis d'Enrayage — IN 35) couvre 1 000 mètres de part et d'autre de la zone d'enrayage important",
+          "critical": true
+        },
+        {
+          "label": "ETCS : ne tient en aucune manière compte de l'adhérence -> réduire vitesse et anticiper les freinages sans attendre d'indication au DMI",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche D30.23 (14/12/2025) formalise rigoureusement la distinction simple vs important (patinage et enrayage) car le terme « enrayage important » déclenche une organisation lourde du SGC avec émission de l'ordre AVEN (IN 35) sur ±1 000 m. Le rappel ETCS (p. 1/9) est capital : le DMI ne compense jamais une adhérence dégradée.",
+      "sources": [
+        "D30.23 — Circulation en adhérence dégradée, p. 1-9/9 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q14",
+      "type": "qcm",
+      "theme": "Conduite en ligne",
+      "subtheme": "Démarrage en rampe — Temporisations P/V vs G/M, Locomotive Longue et pousse (D30.24)",
+      "difficulty": "moyen",
+      "prompt": "Votre train de messageries ME100 freiné selon le principe de la « Locomotive Longue » est arrêté en rampe, maintenu serré au frein automatique (remorque assurée seul, sans pousse). Vous serrez le frein direct au maximum puis vous commandez le desserrage du frein automatique. À l'aide du tableau D30.24 ci-dessous (révision du 14 juin 2026), quels délais devez-vous respecter pour passer en traction puis desserrer graduellement le frein direct, et que faites-vous si le décollage n'a pu être obtenu ?",
+      "referenceTable": {
+        "title": "Démarrage en rampe — Temporisations et conduite en cas d'échec (D30.24, p. 1-3/3)",
+        "openByDefault": true,
+        "headers": [
+          "Étape",
+          "Train freiné en « P/V »",
+          "Train freiné en « G/M » (y compris Locomotive Longue)"
+        ],
+        "rows": [
+          [
+            "Passer en traction après commande du desserrage FA",
+            "Après 5 secondes",
+            "Après 30 secondes"
+          ],
+          [
+            "Augmenter l'effort en desserrant graduellement le FD",
+            "Dès la réaction de la rame et au plus tard 10 secondes",
+            "Dès la réaction de la rame et au plus tard 1 minute"
+          ],
+          [
+            "Si le démarrage n'a pu être obtenu",
+            "Effectuer une autre tentative ; en cas d'échec, demander le secours",
+            "Demander le secours"
+          ],
+          [
+            "Avec pousse : ordre au conducteur de pousse après desserrage FA",
+            "Après 5 secondes",
+            "Après 30 secondes"
+          ]
+        ],
+        "note": "En Locomotive Longue, l'EM et les 5 premiers véhicules étant en G/M, le conducteur procède comme si le train était entièrement freiné en G/M (D30.24, p. 1/3)."
+      },
+      "correctAnswer": "Procéder comme en régime G/M : passer en traction après 30 secondes, augmenter l'effort en desserrant graduellement le FD dès la réaction de la rame et au plus tard 1 minute après la commande de desserrage ; si le démarrage n'a pu être obtenu, demander directement le secours.",
+      "distractors": [
+        "S'agissant d'un ME100, procéder comme en régime P/V : passer en traction après 5 secondes, au plus tard 10 secondes, et effectuer une seconde tentative en cas d'échec.",
+        "Passer en traction après 30 secondes, au plus tard 1 minute, mais effectuer obligatoirement une deuxième tentative avant de demander le secours.",
+        "Attendre 1 minute complète avant de passer en traction, puis desserrer brutalement le frein direct d'un coup pour éviter le patinage.",
+        "Desserrer d'abord le frein direct avant de commander le desserrage du frein automatique afin de détendre les attelages.",
+        "Passer en traction après 15 secondes (délai intermédiaire spécifique à la Locomotive Longue) et effectuer une deuxième tentative en cas d'échec.",
+        "Avec une machine de pousse, le conducteur de tête démarre le premier dès 5 secondes et le conducteur de pousse participe uniquement après constatation du décollage."
+      ],
+      "explanation": "La fiche D30.24 (révision très récente du 14/06/2026) assimile totalement un train en Locomotive Longue à un train freiné en G/M : passage en traction après 30 s, montée progressive en desserrant graduellement le FD dès réaction et au plus tard 1 min, et en cas d'échec -> demande de secours directe (seul un train en P/V fait une seconde tentative). En pousse (p. 3/3), c'est la pousse qui assure le décollage après ordre à 5 s (P/V) ou 30 s (G/M), le conducteur de tête participant dès constatation du décollage ou réception de l'avis d'impossibilité.",
+      "sources": [
+        "D30.24 — Démarrage en rampe, p. 1-3/3 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q15",
+      "type": "qcm",
+      "theme": "Conduite en ligne",
+      "subtheme": "Respect de l'horaire et circulation en avance — DV/VB vs Voie Unique et gare de jonction (D30.30)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide du tableau D30.30 ci-dessous (révision du 9 juin 2024), vous conduisez un train de marchandises sur une ligne à double voie désignée « Ligne à circulation en avance » (sans mention des 10 min) : une fiche ARTIC prévoit une perte de temps de 6 minutes en aval, et plus loin votre train arrive avec 4 minutes d'avance dans une gare de jonction donnant accès à une ligne à voie unique ordinaire (à circulation en avance, sans mention CG S4A N°1). Quelles règles exactes devez-vous appliquer à ces deux étapes ?",
+      "referenceTable": {
+        "title": "Règles de circulation en avance (D30.30, p. 1-4/4)",
+        "openByDefault": true,
+        "headers": [
+          "Situation",
+          "Règle applicable"
+        ],
+        "rows": [
+          [
+            "Cas général (hors ligne à circulation en avance)",
+            "Avance ≤ 3 min admise au passage/arrivée (sauf trains repérés devant respecter l'heure exacte)"
+          ],
+          [
+            "DV/VB « Ligne à circulation en avance » — perte de temps FICHE ARTIC",
+            "Avance d'initiative égale au temps alloué, SANS DÉPASSER 5 min (portée à 10 min uniquement si mention spécifique au § 1 LiLi)"
+          ],
+          [
+            "DV/VB — ordre d'expédition en avance par SGC",
+            "Verbalement (vive voix, tél., radio) : « Train n°..., avance de ... min à partir de ... jusqu'à ... » + annotation BS"
+          ],
+          [
+            "Voie unique (hors VU CG S4A N°1) / gare de jonction vers VU",
+            "NE PAS circuler en avance de soi-même ; s'arrêter à la gare de jonction et recevoir un nouvel ordre PAR ÉCRIT OU DÉPÊCHE"
+          ]
+        ],
+        "note": "Horaire indicatif (signe « < » sur DV/VB à circulation en avance régulée) : expédition en avance sans formalité (accord Régulateur au départ d'une gare) et avance d'initiative possible en cours de route."
+      },
+      "correctAnswer": "Entre le dernier point d'arrêt précédant la zone ARTIC et celle-ci, vous pouvez prendre d'initiative au maximum 5 minutes d'avance (et non 6 min) ; arrivé en avance à la gare de jonction vers la voie unique, vous devez vous y arrêter et recevoir un nouvel ordre de circulation en avance PAR ÉCRIT OU PAR DÉPÊCHE (autorisé par le Régulateur) pour conserver votre avance sur la VU.",
+      "distractors": [
+        "Vous pouvez prendre d'initiative les 6 minutes d'avance complètes prévues par la fiche ARTIC, et poursuivre directement sur la voie unique puisque cette dernière est aussi désignée « à circulation en avance ».",
+        "Vous êtes limité à 3 minutes d'avance même sur une ligne à circulation en avance, et l'ordre en gare de jonction vers la VU peut être donné verbalement par radio.",
+        "Vous pouvez prendre au maximum 5 minutes d'avance, et en gare de jonction vers la VU l'Agent-circulation peut prolonger votre avance par un simple appel radio verbal.",
+        "Vous pouvez prendre jusqu'à 10 minutes d'avance sur toute ligne à double voie désignée « à circulation en avance », même sans mention particulière au § 1 des LiLi.",
+        "Sur la ligne à double voie, l'avance acquise par suppression d'un arrêt [C] ne peut pas se cumuler avec l'avance prise pour compenser la fiche ARTIC.",
+        "Un train à horaire indicatif (signe « < ») peut partir d'une gare en avance sans obtenir l'accord du Régulateur."
+      ],
+      "explanation": "La fiche D30.30 (09/06/2024) fixe : (1) avance ARTIC d'initiative sur DV/VB « à circulation en avance » plafonnée à 5 min (10 min uniquement si mention explicite au § 1 LiLi) ; (2) avances cumulables et conservables sur DV/VB jusqu'à la 1re gare d'arrêt régulier ; (3) en gare de jonction vers une VU (hors VU avec mentions conjointes « CG S4A N°1 » et « Ligne à circulation en avance »), le conducteur qui arrive en avance doit S'ARRÊTER à cette gare et recevoir un nouvel ordre de circulation en avance PAR ÉCRIT OU PAR DÉPÊCHE (autorisé par le Régulateur), sans jamais circuler en avance de lui-même en VU.",
+      "sources": [
+        "D30.30 — Respect de l'horaire, p. 1-4/4 (© Lineas, June 09, 2024 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q16",
+      "type": "qcm",
+      "theme": "Conduite en ligne",
+      "subtheme": "Observation de la direction — Bifurcation et franchissement fermé d'un signal d'arrêt (D30.31)",
+      "difficulty": "facile",
+      "prompt": "Vous êtes arrêté devant un signal d'arrêt fermé pouvant donner accès à plusieurs directions, et il n'existe AUCUNE signalisation au sol donnant une indication de direction. L'aiguilleur vous délivre l'autorisation de franchissement du signal fermé sans vous préciser la direction donnée. Quelle règle précise de la fiche D30.31 s'applique ?",
+      "correctAnswer": "En l'absence de signalisation au sol concernant la direction, vous devez être renseigné verbalement par l'aiguilleur sur la direction donnée (et l'aviser si elle ne correspond pas à l'itinéraire prévu ou est incompatible avec le service du train).",
+      "distractors": [
+        "L'autorisation de franchissement du signal fermé garantit automatiquement que l'itinéraire est tracé sur la direction prévue ; vous partez sans demander confirmation.",
+        "Le conducteur doit descendre systématiquement vérifier manuellement le verrouillage de chaque aiguille avant de repartir.",
+        "L'indication verbale de la direction par l'aiguilleur n'est exigée que si le train assure un transport de Marchandises Dangereuses ou un ATE.",
+        "Si la direction donnée ne correspond pas à l'itinéraire prévu mais reste électrifiée, vous vous y engagez d'abord puis vous appelez le SGC après dégagement de la bifurcation.",
+        "Un itinéraire équivalent ne peut jamais être utilisé par le SGC sans un préavis écrit remis en gare d'origine.",
+        "En présence d'une signalisation au sol donnant la direction lors d'un franchissement fermé, l'aiguilleur doit quand même vous confirmer la direction par dépêche écrite."
+      ],
+      "explanation": "La fiche D30.31 stipule que lorsque le conducteur reçoit l'autorisation de franchir fermé un signal d'arrêt pouvant donner accès à plusieurs directions, il doit être renseigné VERBALEMENT par l'aiguilleur sur la direction donnée, excepté si la signalisation au sol lui donne cette indication. En cas d'incompatibilité ou d'erreur de direction -> aviser l'aiguilleur / appliquer F47.01 (notamment en traction électrique ou charge D).",
+      "sources": [
+        "D30.31 — Observation de la direction, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q17",
+      "type": "qcm_multi",
+      "theme": "Conduite en ligne",
+      "subtheme": "Manœuvre normale et exceptionnelle des PN par le conducteur (D30.40 / D30.41)",
+      "difficulty": "moyen",
+      "prompt": "Vous circulez sur une ligne où la manœuvre de certains PN vous incombe, ou sur une ligne à PN gardés dans des circonstances exceptionnelles (D30.40 / D30.41). Quelles prescriptions réglementaires sont exactes ?",
+      "correctAnswers": [
+        "Sur une ligne où la manœuvre normale de certains PN incombe aux agents des trains (repérés « PN ... à ... m » et « PN ... ») : pour un PN à barrières, fermer les barrières, franchir, s'arrêter à nouveau après dégagement du dernier véhicule et rouvrir ; pour un PN à SAL, ouvrir le coffret (clé de Berne sur support « PN ... »), commander la signalisation routière et franchir sans se préoccuper de l'effacement (automatique après dégagement).",
+        "Sur une ligne à période de fermeture à la circulation (où les gardes de PN cessent le service à une heure limite), si votre train circule après cette heure limite (ex. suite à détresse en pleine voie), vous devez appliquer D'OFFICE jusqu'à la gare suivante l'arrêt/fermeture/réouverture vis-à-vis de tous les PN gardés, puis vous arrêter à cette gare pour recevoir liste et ordre écrit/dépêche si nécessaire.",
+        "Pour un train non signalé sur une ligne à signalement téléphonique (ayant reçu l'ordre écrit/dépêche correspondant), le conducteur doit siffler longuement à l'approche des PN concernés et s'y arrêter pour faire fermer les barrières, à moins qu'il constate que celles-ci sont déjà fermées."
+      ],
+      "distractors": [
+        "Les arrêts prévus aux PN à manœuvrer par les agents des trains (D30.40) ne concernent pas les trains à marche indéterminée s'ils ne leur ont pas été rappelés par dépêche.",
+        "Pour un PN à SAL manœuvré par coffret à clé de Berne, le conducteur doit obligatoirement s'arrêter après le dégagement du dernier véhicule pour réarmer manuellement le coffret.",
+        "Les trains à protection arrière doivent obligatoirement assurer la protection arrière pendant les arrêts de manœuvre des PN de la fiche D30.40.",
+        "En cas de circulation pendant une période de non-gardiennage des PN (D30.41), le conducteur peut franchir les PN gardés sans arrêt à 10 km/h s'il ne voit aucun véhicule routier."
+      ],
+      "displayCount": 5,
+      "explanation": "D30.40 et D30.41 couvrent tous les cas de manœuvre des PN par le conducteur : en D30.40 (point d'arrêt général), les arrêts s'imposent d'office même aux trains à marche indéterminée sans rappel, les trains à protection arrière sont dispensés de protection pendant ces arrêts, et sur PN à SAL l'effacement après dégagement est automatique. En D30.41 : application d'office après l'heure limite sur ligne à période de fermeture puis arrêt à la gare suivante ; pour un train non signalé, siffler longuement et s'arrêter sauf si les barrières sont déjà fermées.",
+      "sources": [
+        "D30.40 — Manœuvre des PN par le conducteur - Généralités, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "D30.41 — Manœuvre exceptionnelle des PN gardés, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q18",
+      "type": "qcm_multi",
+      "theme": "Arrêts & relève",
+      "subtheme": "Arrêts [C], arrêts [S], arrêts prescrits et mentions horaires (D40.01)",
+      "difficulty": "moyen",
+      "prompt": "Selon la fiche D40.01 (révision du 14 juin 2026), quelles règles relatives aux arrêts facultatifs [C] et [S], aux arrêts prescrits et aux mentions horaires sont exactes ?",
+      "correctAnswers": [
+        "Un arrêt [C] n'est à observer que s'il est confirmé par la fermeture des signaux ou imposé réglementairement (ex. réception sur VS) ; sur VP, s'il est confirmé par signaux fermés, le conducteur se fait reconnaître à l'heure de départ (sauf VAT clignotant ou appel) et repart de lui-même à l'ouverture du signal (sauf si des personnes ont opéré sur le train -> AuM).",
+        "Un arrêt de service [S] est respecté même si les signaux sont ouverts lorsque le conducteur est avisé de sa nécessité ; sur voie de service, après un arrêt [C] ou [S], le conducteur doit DANS TOUS LES CAS recevoir une Autorisation de Mouvement.",
+        "Le signe « + » à droite d'une heure majore le chiffre des minutes d'une demi-minute (30 s), minuit est indiqué « 0 00 », « PASS » désigne une heure de passage, et après un arrêt prescrit en pleine voie (à défaut d'agent SGC), le conducteur repart de lui-même selon les règles de l'arrêt accidentel (D40.05)."
+      ],
+      "distractors": [
+        "Un arrêt [C] doit toujours être observé même si les signaux correspondants sont ouverts.",
+        "Un arrêt [S] n'est jamais observé si les signaux de sortie sont ouverts, même lorsque le tableau de service confirme le besoin de l'arrêt.",
+        "Sur voie de service, après un arrêt [C] ou [S], le conducteur peut repartir de lui-même sans AuM dès que la cause de l'arrêt a disparu.",
+        "Le signe « + » placé à droite de l'heure indique que le train peut partir avec 1 minute d'avance."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche D40.01 (14/06/2026) distingue nettement : [C] = observé seulement si confirmé par signaux fermés ou réglementairement (VS) ; [S] = observé même signaux ouverts si nécessité confirmée ; sur VS ou si des personnes ont procédé à une opération sur le train (visite, essai de frein...) -> AuM obligatoire dans tous les cas ; arrêt prescrit en pleine voie sans agent SGC -> reprise selon D40.05 (arrêt accidentel) ; « + » = +1/2 minute, minuit = 0 00, « PASS » = heure de passage.",
+      "sources": [
+        "D40.01 — Arrêts des trains, p. 1-4/4 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q19",
+      "type": "qcm",
+      "theme": "Arrêts & relève",
+      "subtheme": "Suppression d'un arrêt régulier — Cas particulier de la voie unique (D40.02)",
+      "difficulty": "moyen",
+      "prompt": "Vous circulez sur une ligne à voie unique et la gare d'arrêt précédente vous a avisé verbalement de la suppression de votre arrêt régulier dans la prochaine gare (qui n'est pas d'arrêt général). À l'entrée de cette gare, le signal de sortie est ouvert, mais vous ne percevez AUCUN signal à main d'Autorisation de Mouvement. Quelle conduite devez-vous tenir selon la fiche D40.02 ?",
+      "correctAnswer": "Vous arrêter (au plus tard avant d'engager le croisement de l'aiguille de sortie), car dans une gare de voie unique l'agent doit dans tous les cas présenter le signal à main d'AuM à l'arrivée du train (auquel vous accusez réception par un coup de sifflet bref).",
+      "distractors": [
+        "Passer sans arrêt puisque vous avez déjà été avisé verbalement de la suppression par la gare précédente et que le signal de sortie est ouvert.",
+        "Passer sans arrêt en émettant deux coups de sifflet brefs pour attirer l'attention de l'agent-circulation.",
+        "Franchir le croisement de l'aiguille de sortie à 15 km/h maximum et ne vous arrêter qu'en cas de présentation d'un signal d'arrêt à main.",
+        "La suppression d'un arrêt régulier est strictement interdite sur toutes les lignes à voie unique.",
+        "Passer sans arrêt uniquement si le passage sans arrêt n'entraîne pas plus de 5 minutes d'avance.",
+        "S'arrêter uniquement si vous n'aviez pas été avisé à l'avance ; l'avis préalable dispense du signal à main d'AuM en voie unique."
+      ],
+      "explanation": "La fiche D40.02 est sans ambiguïté : dans une gare de voie unique, lors de la suppression d'un arrêt régulier (toujours interdite en gare d'arrêt général, et ne devant pas entraîner d'avance non autorisée), l'agent chargé de donner l'AuM doit DANS TOUS LES CAS présenter le signal à main d'AuM lorsque le train arrive en gare. Le conducteur réduit sa vitesse pour être en mesure de s'arrêter avant le croisement de l'aiguille de sortie : s'il perçoit le signal à main d'AuM -> accuse réception par 1 coup de sifflet bref et passe sans arrêt ; s'il ne le perçoit pas -> il S'ARRÊTE. (De même, même non avisé à l'avance, la perception du signal à main d'AuM à l'entrée en gare permet de passer sans arrêt après accusé réception au sifflet.)",
+      "sources": [
+        "D40.02 — Suppression d'un arrêt régulier, p. 1-2/2 (© Lineas, December 15, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q20",
+      "type": "qcm",
+      "theme": "Arrêts & relève",
+      "subtheme": "Point d'arrêt sur voie principale et gares/voies d'arrêt général (D40.03 / D40.06)",
+      "difficulty": "moyen",
+      "prompt": "Vous êtes reçu sur voie principale dans une gare où votre train a un arrêt prévu, mais le SGC doit exceptionnellement vous arrêter à 80 mètres en AMONT de votre point d'arrêt habituel (votre entrée en gare ne s'effectue PAS en marche à vue). Par ailleurs, que vous impose une gare ou voie « d'arrêt général » lorsque le signal de sortie est ouvert ?",
+      "correctAnswer": "Pour un arrêt exceptionnel à plus de 50 m en amont du point habituel (hors entrée en MàV), vous devez être prévenu (gare précédente, après arrêt au signal d'entrée ou par radio en temps utile) ; sur une gare ou voie d'arrêt général, l'arrêt avant le signal de sortie est obligatoire MÊME S'IL EST OUVERT (qu'un arrêt normal soit prévu ou non, sauf trains désignés aux RT/LiLi).",
+      "distractors": [
+        "Aucun avis préalable n'est exigé pour un arrêt jusqu'à 100 m en amont du point habituel ; en gare d'arrêt général, l'ouverture du signal de sortie autorise à passer sans arrêt.",
+        "Pour un arrêt à plus de 50 m en amont, l'avis préalable est obligatoire même lorsque l'entrée en gare s'effectue en marche à vue (sémaphore BAL).",
+        "Pour un arrêt en aval du point habituel, un simple avis verbal de la gare précédente suffit sans ordres de manœuvre.",
+        "Sur une voie d'arrêt général, l'arrêt devant le signal de sortie ouvert ne s'impose que si le train a un arrêt normal prévu au document horaire.",
+        "En voie unique, l'arrêt sur voie principale s'effectue au droit du signal de sortie même si le chevron pointe en haut est situé en amont.",
+        "En gare d'arrêt général, la marche à vue est imposée d'office depuis le signal d'entrée même si aucune mention ne figure aux RT/LiLi."
+      ],
+      "explanation": "D40.03 précise : arrêt exceptionnel à > 50 m en AMONT du point habituel -> prévenir le conducteur (gare précédente, après arrêt au signal d'entrée, ou radio en temps utile) SAUF si l'entrée en gare s'effectue en marche à vue ; arrêt en AVAL -> ordres de manœuvre en temps utile avant l'arrêt ; en VU/VB -> arrêt avant le chevron pointe en haut ou le croisement de l'aiguille de sortie (traverse blanche). D40.06 précise : gare/voie d'arrêt général (sans zone de protection ni enclenchement nez-à-nez) -> arrêt obligatoire avant le signal de sortie MÊME S'IL EST OUVERT (sauf trains désignés aux RT/LiLi), et MàV depuis l'origine du quai ou pancarte « MV » si prescrit aux RT/LiLi.",
+      "sources": [
+        "D40.03 — Point d'arrêt des trains reçus sur voie principale, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)",
+        "D40.06 — Gares et voies d'arrêt général, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q21",
+      "type": "qcm_multi",
+      "theme": "Arrêts & relève",
+      "subtheme": "Point d'arrêt des trains reçus sur voie de service — Repères, engagement de croisements et ETCS (D40.04)",
+      "difficulty": "moyen",
+      "prompt": "Vous êtes reçu sur une voie de service à entrée directe (sans ordres de manœuvre particuliers). Parmi les prescriptions de la fiche D40.04 (version du 13 décembre 2020), lesquelles sont exactes ?",
+      "correctAnswers": [
+        "Lorsqu'il existe un signal à l'extrémité de la voie qui ne s'adresse qu'à cette seule voie, vous devez vous arrêter avant ce signal MÊME S'IL EST OUVERT (ou avant la pancarte « ARRÊT »).",
+        "Dans un faisceau de voies convergentes (signal de groupe ou absence de signal), ne pas engager le 1er croisement des aiguilles de sortie (repérable par un chevron pointe en haut, le voyant à damier rouge/blanc d'un TLC ou TLC éteint, ou la 1re traverse peinte en blanc quel que soit son côté) ; si les croisements en tête ou queue restent engagés après l'arrêt, informer immédiatement le SGC (à défaut, protéger par signal d'arrêt à main).",
+        "En ETCS, le mode OS activé à l'entrée de la voie de service est transmis jusqu'au heurtoir uniquement lorsque l'itinéraire donne accès à une seule voie en impasse ; dans les autres cas, le mode OS est transmis sans limitation de distance, imposant de respecter les points d'arrêt habituels des voies de service."
+      ],
+      "distractors": [
+        "Si le signal propre à la voie de service est ouvert à votre arrivée, vous êtes dispensé de marquer l'arrêt et pouvez sortir directement vers la voie principale.",
+        "Lorsqu'une traverse peinte en blanc est implantée du côté droit de la voie de service, elle ne s'adresse pas à votre circulation et peut être dépassée.",
+        "Si vous recevez en temps utile des ordres de manœuvre pour dépasser le point d'arrêt habituel (afin de dégager les aiguilles d'entrée en queue), vous devez d'abord marquer un arrêt impératif au point habituel avant d'avancer.",
+        "En ETCS, dès que vous entrez sur une voie de service en mode OS, le DMI affiche systématiquement une EOA au droit du chevron pointe en haut."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche D40.04 (13/12/2020) pose des règles capitales pour les faisceaux fret : signal propre à la VS -> arrêt avant ce signal MÊME OUVERT (sauf voie de circulation D30.10) ; groupe de voies -> ne pas engager le 1er croisement (chevron, damier rouge/blanc TLC ou TLC éteint, 1re traverse blanche quel que soit le côté) ; ordre de dépasser en aval par manœuvre/radio -> avancer SANS marquer l'arrêt ; croisements engagés après arrêt -> avis immédiat SGC, à défaut protection par signal d'arrêt à main ; ETCS -> OS sans limitation de distance hors voie unique en impasse, donc vigilance totale sur les repères au sol.",
+      "sources": [
+        "D40.04 — Point d'arrêt des trains reçus sur voie de service, p. 1-3/3 (© Lineas, December 13, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q22",
+      "type": "qcm",
+      "theme": "Arrêts & relève",
+      "subtheme": "Reprise de marche après un arrêt accidentel — Signalisation classique et ETCS1 (D40.05)",
+      "difficulty": "moyen",
+      "prompt": "Vous circulez en ETCS niveau 1 en mode Full Supervision (FS) lorsque votre train subit un arrêt accidentel en pleine voie. Après résolution du motif de l'arrêt, votre DMI affiche toujours le mode « Full Supervision » (FS) avec une vitesse autorisée de 100 km/h et aucune indication ne s'oppose au départ. Quelle conduite impérative impose la fiche D40.05 lors de la reprise de marche ?",
+      "correctAnswer": "Même si le DMI affiche le mode FS, vous devez vous considérer en mode Staff Responsible (SR), observer et respecter la signalisation au sol (tout en respectant les indications plus restrictives au DMI) et circuler en marche à vue jusqu'à la fin du canton (plafonnée à 3 000 m si la fin du canton n'est pas atteinte), le franchissement d'un panneau circulaire n'autorisant jamais à cesser la marche à vue.",
+      "distractors": [
+        "Le DMI affichant toujours le mode FS avec une MA valide, vous pouvez reprendre directement en marche normale jusqu'à la vitesse autorisée au DMI.",
+        "Vous devez forcer manuellement le passage en mode SR sur le DMI avant de repartir, puis cesser la marche à vue dès le franchissement d'un panneau circulaire ouvert.",
+        "Vous observez la marche à vue sur une distance forfaitaire maximale de 1 500 m (et non 3 000 m) lorsque le DMI reste en mode FS.",
+        "Vous circulez à 30 km/h uniquement pendant 500 mètres afin de franchir la prochaine Eurobalise qui actualise le mode FS.",
+        "Si l'arrêt accidentel a duré moins de 3 minutes en mode FS, vous êtes dispensé d'observer la marche à vue.",
+        "Après un arrêt accidentel dans un établissement où des personnes sont intervenues sur le train, l'affichage du mode FS au DMI dispense de recevoir une AuM."
+      ],
+      "explanation": "La fiche D40.05 (14/06/2020) comporte un encadré ETCS fondamental : après tout arrêt accidentel en ETCS1, des modifications de la signalisation au sol peuvent être intervenues sans modification des indications au DMI -> même si le DMI affiche FS, le conducteur doit se considérer en mode SR, observer et respecter la signalisation au sol (et les indications plus restrictives au DMI), et observer la marche à vue jusqu'à la fin du canton (plafonnée à 3 000 m), sans jamais cesser la MàV au franchissement d'un panneau de forme circulaire. Et dans un établissement, si des personnes sont intervenues sur le train, une AuM est obligatoire.",
+      "sources": [
+        "D40.05 — Reprise de marche après un arrêt accidentel, p. 1-2/2 (© Lineas, June 14, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q23",
+      "type": "open",
+      "theme": "Arrêts & relève",
+      "subtheme": "Changement de front conducteur seul — Interdictions et séquence complète (D40.10)",
+      "difficulty": "difficile",
+      "prompt": "En cours de mission sur un train Lineas (hors partenariat Hexafret et hors Locomotive Longue), il vous est demandé en temps réel d'effectuer un changement de front seul. La rame est arrêtée mais vous n'avez encore effectué ni l'accord préalable, ni l'immobilisation, ni le dételage. Décrivez : (1) les deux cas où le changement de front conducteur seul est INTERDIT, (2) les vérifications et l'accord obligatoires avant d'entamer un changement de front en temps réel, (3) le délai estimé et la règle d'immobilisation associée, et (4) les grandes étapes chronologiques jusqu'aux deux essais effectués après la mise en mouvement.",
+      "modelAnswer": "1. Interdictions formelles :\n   - Interdit sous partenariat Hexafret (car l'essai de raccordement conducteur seul est interdit) ;\n   - Interdit (en principe) sur les trains freinés selon le principe de la Locomotive Longue (si retournement nécessaire, un opérateur est indispensable et un nouveau BF est édité).\n2. Préalables en temps réel : obtenir obligatoirement l'accord du Service Opérationnel concerné, et s'assurer d'être en possession d'un horaire, des avis ARTIC, et d'avoir la connaissance des lignes à parcourir (ou d'une fiche de détournement).\n3. Temps estimé / immobilisation : le temps nécessaire aux opérations de mise en tête de l'autre côté de la rame est estimé à 30 minutes ; passé ce délai de 30 minutes (pour ce cas particulier), l'immobilisation de la rame est réalisée au moyen de la vidange de la CFA/CG.\n4. Séquence opérationnelle complète :\n   - Immobiliser le train : frein direct + frein d'immobilisation EM + dépression ≥ 1,5 bar CFA/CG -> vérifier aux manomètres/bargraphes -> commander « Neutre » -> enfoncer le BP d'urgence ou vidanger complètement la CFA/CG ;\n   - Vérifier le serrage des freins du 1er véhicule ;\n   - Équiper l'actuelle tête de rame de la signalisation d'arrière (si l'EM dispose de dispositifs de secours) ;\n   - Désaccoupler (pneumatique puis mécanique, replacer attelage et accouplements sur leurs supports) ;\n   - Demander et effectuer le changement d'extrémité de l'EM sur le train ;\n   - Après l'arrêt de sécurité (10 m), s'assurer de l'immobilisation de la rame, retirer la signalisation d'arrière et préparer l'attelage ;\n   - Accoster, immobiliser l'EM, accoupler (mécanique puis pneumatique), et mettre en place la signalisation d'arrière si ce n'est déjà fait ;\n   - Effectuer un essai de raccordement conducteur seul (B50.31) ;\n   - Effectuer le PAR auprès du SGC et solliciter l'AuM (D20.04) ;\n   - Après la mise en mouvement : effectuer un essai de roulage ET un essai de fonctionnement en ligne.",
+      "keyPoints": [
+        {
+          "label": "Interdictions : partenariat Hexafret (essai de raccordement seul interdit) et Locomotive Longue (opérateur + nouveau BF nécessaires)",
+          "critical": true
+        },
+        {
+          "label": "En temps réel : accord obligatoire du Service Opérationnel + vérifier possession horaire, avis ARTIC et connaissance ligne (ou fiche détournement)",
+          "critical": true
+        },
+        {
+          "label": "Immobilisation avant dételage : FD + frein d'immobilisation EM + dépression ≥ 1,5 bar + contrôle manomètres + Neutre + BP urgence / vidange complète CFA/CG + contrôle serrage du 1er véhicule",
+          "critical": true
+        },
+        {
+          "label": "Gestion de la signalisation d'arrière, désaccouplement (pneumatique puis mécanique), changement d'extrémité, arrêt de sécurité, retrait signalisation arrière, accostage et accouplement (mécanique puis pneumatique)",
+          "critical": true
+        },
+        {
+          "label": "Essai de raccordement conducteur seul (B50.31) -> PAR et AuM -> après mise en mouvement : essai de roulage ET essai de fonctionnement en ligne",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche D40.10 (révision récente du 14/06/2026) rassemble toutes les exigences d'un changement de front conducteur seul : double interdiction (Hexafret / Locomotive Longue), accord Service Opérationnel + documents en temps réel, séquence d'immobilisation avant dételage, gestion de la signalisation d'arrière, essai B50.31, PAR/AuM, puis essai de roulage + essai en ligne.",
+      "sources": [
+        "D40.10 — Changement de front conducteur seul, p. 1-2/2 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q24",
+      "type": "open",
+      "theme": "Arrêts & relève",
+      "subtheme": "Relève de conducteurs — Opérations du conducteur CÉDANT vs PRENANT (D60.01 / D60.02)",
+      "difficulty": "difficile",
+      "prompt": "Vous participez à une « relève de conducteurs » (rencontre directe entre conducteur cédant et conducteur prenant en cabine, l'EM restant sur le train). Décrivez précisément : (1) les actions obligatoires du conducteur CÉDANT (pression CFA/CG, vérification de qualité si le prenant n'est pas connu, documents, GSM-GFU ARES), (2) la règle impérative si la relève a lieu à la suite d'un accident de personne, (3) le choix exact entre « GRAND DÉBIT » et « SURCHARGE » lors du desserrage par le conducteur PRENANT, et (4) les trois essais obligatoires au démarrage par le conducteur PRENANT.",
+      "modelAnswer": "1. Opérations du conducteur CÉDANT :\n   - Abaisser (si ce n'est déjà fait) la pression CFA/CG à 3,5 bars ;\n   - Annoter le carnet de bord, annoter et signer le Bulletin de Freinage ;\n   - S'assurer de la qualité du conducteur prenant s'il n'est pas connu en vérifiant sa Licence Européenne et son Attestation Complémentaire Harmonisée (ACH) ;\n   - Informer le prenant des caractéristiques de la circulation et de l'état de l'EM, et lui transmettre de main à main les documents d'accompagnement du train (BF, relevé de composition, lettre de voiture, liste MD, dépêche ATE...) ;\n   - Désactiver le système GSM-GFU ARES.\n2. Relève suite à un accident de personne :\n   - Le conducteur prenant doit être autorisé à se remettre en marche par un DIRIGEANT D'ASTREINTE.\n3. Choix du desserrage par le conducteur PRENANT (après encodage ATESS/DATA ENTRY et activation GSM-GFU ARES) :\n   - Si le cédant donne l'assurance de ne PAS avoir utilisé la surcharge : utiliser la fonction « GRAND DÉBIT » ;\n   - Si le cédant ne peut donner cette assurance ou confirme une surcharge non éliminée (ou si le prenant n'a pas connaissance des conditions d'utilisation du frein par le cédant) : commander la fonction « SURCHARGE » et attendre son élimination complète (minimum 4 minutes) avant toute mise en mouvement.\n4. Trois essais obligatoires au démarrage par le PRENANT :\n   - Essai de roulage ;\n   - Essai en marche de la Veille Automatique (VA) ;\n   - Essai d'efficacité du frein (en ligne).\n   (À la 1re occasion favorable : rendre compte au Service Opérationnel des restrictions éventuelles et consulter le carnet de bord.)",
+      "keyPoints": [
+        {
+          "label": "Cédant : abaisser CFA/CG à 3,5 bar, annoter CB, annoter et signer BF, vérifier Licence Européenne + ACH si prenant non connu, remettre documents main à main, désactiver GSM-GFU ARES",
+          "critical": true
+        },
+        {
+          "label": "Relève suite à un accident de personne : autorisation de remise en marche obligatoire par un Dirigeant d'astreinte",
+          "critical": true
+        },
+        {
+          "label": "Desserrage par le prenant : GRAND DÉBIT si le cédant assure ne pas avoir utilisé la surcharge ; sinon (doute ou surcharge non éliminée) SURCHARGE + attente élimination complète (min 4 min) avant toute mise en mouvement",
+          "critical": true
+        },
+        {
+          "label": "Prenant : encodage ATESS / DATA ENTRY, activation GSM-GFU ARES, puis au démarrage essai de roulage + essai en marche de la VA + essai d'efficacité du frein",
+          "critical": true
+        }
+      ],
+      "explanation": "Les fiches D60.01 et D60.02 (08/06/2025) cadrent la passation de sécurité : 3,5 bar à la CFA/CG, vérification Licence + ACH, désactivation/activation GSM-GFU ARES, autorisation du Dirigeant d'astreinte après accident de personne, gestion stricte de la surcharge (min 4 min si doute) et triptyque d'essais au départ (roulage + VA en marche + efficacité frein).",
+      "sources": [
+        "D60.01 — Relève de conducteurs - Reprise d'un train / d'un EM (Conducteur cédant), p. 1-2/2 (© Lineas, June 08, 2025 Lille)",
+        "D60.02 — Relève de conducteurs - Reprise d'un train / d'un EM (Conducteur prenant), p. 1-2/3 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q25",
+      "type": "qcm_multi",
+      "theme": "Arrêts & relève",
+      "subtheme": "Reprise d'un train (sans rencontre entre conducteurs) — EM restant vs EM dételé (D60.01 / D60.02)",
+      "difficulty": "moyen",
+      "prompt": "Dans le cadre d'une « reprise » (le conducteur cédant et le conducteur prenant ne se rencontrent pas), quelles prescriptions exactes des fiches D60.01 et D60.02 (versions du 8 juin 2025) s'appliquent ?",
+      "correctAnswers": [
+        "Si l'EM reste sur le train, le cédant prend les mesures d'abandon d'un EM, annote et signe le BF, laisse les documents en évidence sur le pupitre de conduite, et n'abandonne aucun véhicule ou EM (en service ou non) sur VP ou VS sans l'autorisation de l'Agent du SGC responsable.",
+        "Si l'EM ne reste PAS sur le train (dételé), le cédant immobilise la rame, place les documents dans le porte-étiquette du 1er véhicule, LAISSE LE ROBINET D'ARRÊT CG OUVERT du véhicule sur lequel les documents ont été déposés, informe l'Agent du SGC du mouvement d'EM et de l'occupation de la voie, et avise le Service Opérationnel si le train est en Locomotive Longue.",
+        "Lors d'une reprise sans rencontre, le conducteur prenant récupère les documents (pupitre ou porte-étiquette du 1er véhicule — ou du dernier en cas de rebroussement, incluant compte rendu de VT / souche d'étiquette de réforme), rend compte au Service Opérationnel de toute restriction/interdiction, et commande la SURCHARGE (éliminée avant départ) faute de connaître l'utilisation du frein par le cédant."
+      ],
+      "distractors": [
+        "Si l'EM ne reste pas sur le train, le conducteur cédant doit impérativement fermer le robinet d'arrêt CG du 1er véhicule après y avoir déposé les documents.",
+        "Si l'EM reste sur le train sur une voie de service, le conducteur cédant peut abandonner l'EM sans autorisation de l'Agent du SGC dès que le train est immobilisé.",
+        "En cas de rebroussement lors d'une reprise sans EM, les documents déposés par un visiteur ou un OFS se trouvent obligatoirement dans le poste d'aiguillage et jamais dans le porte-étiquette du dernier véhicule.",
+        "Lors d'une reprise où l'EM est resté sur le train, le conducteur prenant utilise directement la fonction GRAND DÉBIT sans commander la SURCHARGE."
+      ],
+      "displayCount": 5,
+      "explanation": "Points de vigilance majeurs de D60.01 et D60.02 (08/06/2025) en cas de reprise sans rencontre : (1) jamais d'abandon de véhicule/EM sur VP ou VS sans autorisation SGC ; (2) si EM dételé -> documents dans le porte-étiquette du 1er véhicule ET robinet d'arrêt CG laissé OUVERT sur ce véhicule + avis Service Opérationnel si Locomotive Longue ; (3) pour le prenant -> vérifier aussi les documents de VT / étiquettes de réforme (1er véhicule ou dernier si rebroussement) et commander la SURCHARGE (éliminée min 4 min) puisque les conditions d'utilisation du frein par le cédant ne sont pas connues.",
+      "sources": [
+        "D60.01 — Relève de conducteurs - Reprise d'un train / d'un EM (Conducteur cédant), p. 1-2/2 (© Lineas, June 08, 2025 Lille)",
+        "D60.02 — Relève de conducteurs - Reprise d'un train / d'un EM (Conducteur prenant), p. 1-3/3 (© Lineas, June 08, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q26",
+      "type": "qcm",
+      "theme": "Circulation & départ",
+      "subtheme": "AuM en gare d'origine / sur voie de service — Signal de sortie non visible ou groupe sans TIP/TLC (D20.04)",
+      "difficulty": "moyen",
+      "prompt": "Votre train est stationné sur une voie de service d'un faisceau de voies convergentes dont le signal de sortie de groupe NE dispose ni de TIP ni de TLC (ou le signal de sortie n'est pas visible en raison d'un épais brouillard et aucune mention ne figure au LiLi). Comment devez-vous obtenir votre Autorisation de Mouvement selon la fiche D20.04 ?",
+      "correctAnswer": "Solliciter/recevoir l'AuM auprès de l'agent du SGC (forme manuelle, écrit, dépêche ou verbalement, au besoin via un OFS) avec identification obligatoire portant sur le numéro du train et la voie concernés (en cas de signal non visible par brouillard, vous avancez ensuite en marche à vue jusqu'à observer le signal).",
+      "distractors": [
+        "Dès que le signal de sortie de groupe s'ouvre, l'ouverture du signal suffit à constituer l'AuM même en l'absence de TIP et de TLC.",
+        "En cas de brouillard masquant un signal habituellement visible, vous pouvez vous avancer d'office en marche à vue jusqu'au signal sans solliciter le SGC ni mention au LiLi.",
+        "L'identification du numéro de train et de la voie n'est exigée que pour les trains transportant des Marchandises Dangereuses.",
+        "En gare de voie unique comportant un chevron pointe en haut, la mention au LiLi autorise à dépasser le chevron en marche à vue pour apercevoir le signal de sortie.",
+        "Dans un établissement fermé au service de la circulation (mention PL), vous devez obligatoirement solliciter une AuM verbale au régulateur avant de repartir.",
+        "Si le signal en aval est un signal de BAL à plaque F qui s'ouvre, il vous délivre directement l'AuM définitive sans avoir à observer le signal de sortie en aval."
+      ],
+      "explanation": "D20.04 (14/12/2025) précise : (1) un signal habituellement visible mais masqué par brouillard/pluie relève de la règle « signal de sortie non visible » -> demander l'AuM au SGC sauf mention explicite § 5 LiLi autorisant à s'avancer en MàV (sans jamais dépasser le chevron pointe en haut en VU/VB sans assurance d'ouverture) ; (2) groupe de voies convergentes sans TIP ni TLC -> identification obligatoire du n° de train et de la voie entre SGC et conducteur (au besoin via OFS) + réception AuM (manuelle, écrit, dépêche ou verbale) ; (3) en établissement PL / gare fermée -> la mention PL aux documents horaires constitue l'AuM ; (4) un signal de BAL à plaque F autorise à se mettre en mouvement jusqu'au signal de sortie qui délivre l'AuM en aval.",
+      "sources": [
+        "D20.04 — Autorisation de Mouvement (AuM), p. 3-4/10 et logigrammes p. 9-10/10 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot09-q27",
+      "type": "qcm",
+      "theme": "Circulation & départ",
+      "subtheme": "Reprise après arrêt prévu — Règle des 3 minutes et particularités établissement PL en BA / BM (D20.05)",
+      "difficulty": "difficile",
+      "prompt": "Vous repartez après un arrêt prévu dans un établissement de Pleine Ligne (PL) situé en Block Manuel (BM) entre un signal d'annonce et un signal d'arrêt. Vous aviez franchi le signal d'annonce OUVERT, mais votre arrêt à l'établissement PL a duré 5 minutes. Quelle conduite devez-vous adopter au redémarrage selon la fiche D20.05 ?",
+      "correctAnswer": "Vous comporter comme si vous aviez rencontré FERMÉ le signal d'annonce (la dispense ne s'appliquant que si le signal d'annonce a été franchi ouvert ET que l'arrêt à l'établissement PL n'a pas excédé 3 minutes).",
+      "distractors": [
+        "Repartir en marche normale puisque vous avez franchi le signal d'annonce ouvert avant de vous arrêter.",
+        "Observer uniquement une limitation de vitesse à 60 km/h jusqu'au signal d'arrêt sans le considérer annoncé fermé.",
+        "Solliciter obligatoirement une dépêche du régulateur avant de pouvoir quitter l'établissement PL en Block Manuel.",
+        "Observer la marche à vue sur une distance forfaitaire de 1 000 mètres puis reprendre la marche normale.",
+        "Cette règle ne s'applique qu'en Block Automatique (BA), jamais en Block Manuel (BM).",
+        "Repartir en marche normale dès lors que la durée d'arrêt reste inférieure à 10 minutes."
+      ],
+      "explanation": "La fiche D20.05 (p. 2/5 et p. 4/5) précise : en BM, au départ d'un établissement PL situé entre un signal d'annonce et un signal d'arrêt, le conducteur doit se comporter comme s'il avait rencontré fermé le signal d'annonce ; cette règle n'est écartée QUE si le signal d'annonce a été franchi ouvert ET que l'arrêt à l'établissement PL n'a pas excédé 3 minutes (ici 5 min > 3 min -> se comporter comme signal d'annonce fermé). Par ailleurs, en BA, un train expédié d'une VP d'un établissement PL où il a son origine ou où il a dégagé temporairement cette voie observe la MàV jusqu'au signal commandant l'entrée du canton suivant.",
+      "sources": [
+        "D20.05 — La mise en mouvement, « Reprise de marche après un arrêt prévu », p. 2/5 et § 2.5–2.6, p. 4/5 (© Lineas, June 13, 2021 Brussels)"
+      ]
+    },
+    {
+      "id": "lot09-q28",
+      "type": "qcm",
+      "theme": "Conduite en ligne",
+      "subtheme": "Adhérence dégradée — Patinage important vs patinage simple et anti-patinage sur aiguilles (D30.23)",
+      "difficulty": "moyen",
+      "prompt": "Lors d'un démarrage difficile à très faible vitesse dans une zone d'aiguilles, votre engin moteur subit un patinage important que ni le dispositif anti-patinage ni vos actions de conduite n'ont permis de contenir immédiatement, et le sablage automatique s'active sur les aiguilles. Quelles actions exactes impose la fiche D30.23 (version du 14 décembre 2025) ?",
+      "correctAnswer": "Annuler le sablage automatique dans la zone d'aiguilles, réduire l'effort de traction (substituer les mesures correctives si l'anti-patinage est insuffisant), puis aviser un Agent du SGC en précisant le lieu exact (PK), la distance, le n° de train/EM, la météo et l'état du rail, et annoter le carnet de bord ainsi que le Bulletin de Service.",
+      "distractors": [
+        "Laisser le sablage automatique agir sur les aiguilles et maintenir l'effort de traction au maximum jusqu'au décollage complet, sans aviser le SGC.",
+        "Seul un enrayage important doit être signalé au SGC ; un patinage important ne fait l'objet que d'une annotation au carnet de bord en fin de service.",
+        "Couper immédiatement le dispositif d'anti-patinage dès la première mise en action afin de gérer exclusivement la traction en manuel.",
+        "Aviser le SGC uniquement si un bruit de rupture de rail est audible, sans jamais signaler les patinages de faible importance en zone sensible.",
+        "Utiliser un coup de frein direct pendant le patinage afin de bloquer momentanément l'essieu patineur.",
+        "Un patinage important peut se produire à n'importe quelle vitesse élevée en ligne et n'entraîne aucun risque pour les rails ni pour les moteurs de traction."
+      ],
+      "explanation": "La fiche D30.23 (14/12/2025) distingue : le patinage important survient en phase de démarrage à très faible vitesse sans pouvoir être contenu -> risques graves d'avaries rails (jusqu'à rupture), roues et moteurs de traction (défrettage). Il faut : laisser agir l'anti-patinage tout en modérant l'effort, ANNULER le sablage automatique s'il agit dans une zone d'aiguilles, substituer sans délai les mesures correctives si insuffisant, puis signaler précisément au SGC (en distinguant simple / important, y compris les patinages même faibles en période/zone sensible) et annoter le CB + BS.",
+      "sources": [
+        "D30.23 — Circulation en adhérence dégradée, p. 2-3/9 et p. 7-8/9 (© Lineas, December 14, 2025 Lille)"
+      ]
+    }
+  ]
+}
