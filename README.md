@@ -1,4 +1,4 @@
-# RailQuiz Lineas SNCF — by RB (V5.2 — Finitions iOS)
+# RailQuiz Lineas SNCF — by RB (V6 — 9 grands thèmes regroupés)
 
 ## Nouveautés V5
 - **Chargement robuste multi-formats + Auto-découverte GitHub Pages** :
@@ -25,3 +25,18 @@
 - Taille `16px` sur tous les champs (`input`, `select`, `textarea`) pour supprimer le zoom automatique intempestif de Safari iOS.
 - `touch-action: manipulation` sur les boutons et rappel discret d'installation Safari dans la fenêtre QR Code.
 - Cache Service Worker mis à jour (`v5-2`).
+
+## Nouveautés V6 (Regroupement automatique en 9 grands thèmes)
+- Regroupement automatique de tous vos lots JSON (sans rien modifier aux fichiers de questions) en **9 grands thèmes métiers** triés dans un ordre logique :
+  1. Signalisation
+  2. ETCS
+  3. Manœuvres
+  4. Circulation & Conduite
+  5. Composition, Freinage & Essais
+  6. Dispositifs de sécurité (hors ETCS)
+  7. Avaries matériel, Frein & Engin moteur
+  8. Incidents, Caténaire & Secours
+  9. Sécurité personnel, Com. & Doc.
+- Les thèmes détaillés restent accessibles en **sous-thèmes** dès qu'on déplie un grand thème (repliés par défaut pour un accueil ultra-lisible).
+- Recherche insensible aux accents sur les thèmes, sous-thèmes, anciens noms de thèmes, énoncés et codes de fiches.
+- Cache Service Worker mis à jour (`v6`).

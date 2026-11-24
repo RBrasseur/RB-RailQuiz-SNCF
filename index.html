@@ -1364,6 +1364,115 @@
         'tsconfig.json'
       ]);
 
+      const MASTER_THEME_ORDER = [
+        'Signalisation',
+        'ETCS',
+        'Manœuvres',
+        'Circulation & Conduite',
+        'Composition, Freinage & Essais',
+        'Dispositifs de sécurité (hors ETCS)',
+        'Avaries matériel, Frein & Engin moteur',
+        'Incidents, Caténaire & Secours',
+        'Sécurité personnel, Com. & Doc.',
+        'Autres'
+      ];
+
+      const stripAccentsLower = s => String(s ?? '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+
+      function classifyCodeBucket(text) {
+        if (!text) return null;
+        const fullMatches = [...text.matchAll(/\b([A-Fa-f])(\d{2})[.\-_](\d{2})\b/g)]
+          .map(m => `${m[1].toUpperCase()}${m[2]}.${m[3]}`);
+        const prefixMatches = [...text.matchAll(/\b([A-Fa-f])(\d{2})(?:[.\-_\s]|$)/g)]
+          .map(m => `${m[1].toUpperCase()}${m[2]}`);
+
+        const etcsFull = new Set(['A11.14', 'A23.05', 'A30.20', 'F30.20', 'F30.21', 'F30.22', 'F30.23', 'F30.24', 'F47.03', 'F47.04', 'F50.14', 'F50.15']);
+        const avariesFull = new Set(['B60.04', 'C16.01', 'E23.12']);
+
+        for (const fc of fullMatches) {
+          if (etcsFull.has(fc)) return 'ETCS';
+          if (avariesFull.has(fc)) return 'Avaries matériel, Frein & Engin moteur';
+        }
+
+        for (const pc of prefixMatches) {
+          const letter = pc[0];
+          const num = parseInt(pc.slice(1), 10);
+          if (pc === 'A70' || pc === 'C70') return 'ETCS';
+          if (letter === 'A') {
+            if (num >= 10 && num <= 19) return 'Signalisation';
+            if (num === 30 || num === 40) return 'Manœuvres';
+            if ((num >= 20 && num <= 29) || (num >= 50 && num <= 69)) return 'Circulation & Conduite';
+          }
+          if (letter === 'B') return 'Composition, Freinage & Essais';
+          if (letter === 'C' && num >= 10 && num <= 69) return 'Dispositifs de sécurité (hors ETCS)';
+          if (letter === 'D') return 'Circulation & Conduite';
+          if (letter === 'E') return 'Sécurité personnel, Com. & Doc.';
+          if (letter === 'F') {
+            if ([10, 20, 22, 23, 24, 26, 50, 60, 61].includes(num)) return 'Avaries matériel, Frein & Engin moteur';
+            if ([31, 32, 33].includes(num)) return 'Dispositifs de sécurité (hors ETCS)';
+            return 'Incidents, Caténaire & Secours';
+          }
+        }
+        return null;
+      }
+
+      function resolveMasterThemeAndSubtheme(origTheme, origSubtheme, sources, qId) {
+        const sourcesText = (sources || []).map(s => `${s.doc || ''} ${s.ref || ''}`).join(' ');
+        const metaText = `${qId || ''} ${origTheme || ''} ${origSubtheme || ''}`;
+
+        let master = classifyCodeBucket(sourcesText) || classifyCodeBucket(metaText);
+
+        if (!master) {
+          const norm = stripAccentsLower(`${sourcesText} ${origTheme || ''} ${origSubtheme || ''}`);
+          if (/\bdml\b/.test(norm) || norm.includes('etiquettes cuu') || norm.includes('etiquette cuu')) {
+            master = 'Avaries matériel, Frein & Engin moteur';
+          } else if (/\b(abreviations|definitions|sommaire|00_generalites)\b/.test(norm)) {
+            master = 'Sécurité personnel, Com. & Doc.';
+          } else if (/\b(etcs|eoa|dmi|train\s*trip|override)\b/.test(norm)) {
+            master = 'ETCS';
+          } else if (['boite chaude', 'wagon', 'cuu', 'is-in', 'roue', 'essieu', 'engin moteur', 'pantographe', 'depannage', 'blocage de frein', 'isolement', 'fuite cg', 'chute de pression', 'insuffisance de freinage', 'avarie', 'materiel remorque'].some(k => norm.includes(k))) {
+            master = 'Avaries matériel, Frein & Engin moteur';
+          } else if (['kvb', 'daat', 'gsm-r', 'atess', 'veille automatique', 'repetition des signaux', 'dispositif de securite', 'dispositifs de securite'].some(k => norm.includes(k))) {
+            master = 'Dispositifs de sécurité (hors ETCS)';
+          } else if (['manoeuvre', 'refoulement', 'rebroussement'].some(k => norm.includes(k))) {
+            master = 'Manœuvres';
+          } else if (['composition', 'essai de frein', 'essais de frein', 'bareme', 'bulletin de freinage', 'bulletin de composition', 'frein continu', 'frein direct', "frein d'immobilisation", 'marquage', 'attelage', 'matieres dangereuses', 'transport exceptionnel', 'freinage'].some(k => norm.includes(k))) {
+            master = 'Composition, Freinage & Essais';
+          } else if (['signal', 'signaux', 'carre', 'semaphore', 'disque', 'avertissement', 'visa', 'tiv', 'ralentissement', 'cantonnement', 'espacement', 'pancarte', 'chevron', 'baissez panto', 'coupez courant', 'feu rouge', 'feu vert', 'feu blanc', 'feu jaune'].some(k => norm.includes(k))) {
+            master = 'Signalisation';
+          } else if (['secours', 'incendie', 'catenaire', 'obstacle', 'deraillement', 'derive', 'tamponnement', "rupture d'attelage", 'accident', 'incident', 'passage a niveau', 'pn a sal', 'franchissement intempestif', 'memento', 'neige', 'givre', 'chaleur', 'tunnel', 'personne'].some(k => norm.includes(k))) {
+            master = 'Incidents, Caténaire & Secours';
+          } else if (['contre-sens', 'contre-voie', 'ipcs', 'itcs', 'vut', 'vutr', 'vuss', 'forte pente', 'depart', 'mise en mouvement', 'aum', 'arret', 'releve', 'circulation', 'conduite', 'sifflet', 'sabliere', 'adherence'].some(k => norm.includes(k))) {
+            master = 'Circulation & Conduite';
+          } else if (['securite du personnel', 'risque de heurt', 'kh0v', 'electrique', 'communication', 'telephone', 'ares', 'odiceo', 'lili', 'artic', 'horaire', 'carnet de bord', 'aptitude', 'detournement', 'pilotage', 'cabine', 'livret des instructions', 'instruction', 'definition', 'abreviation'].some(k => norm.includes(k))) {
+            master = 'Sécurité personnel, Com. & Doc.';
+          } else {
+            master = 'Autres';
+          }
+        }
+
+        const cleanOrigTheme = String(origTheme || '').trim();
+        const cleanOrigSub = String(origSubtheme || '').trim();
+        const genericSubs = new Set(['', 'general', 'generalites', 'generalite', 'divers', 'autre', 'autres']);
+        const normSub = stripAccentsLower(cleanOrigSub);
+        const normTheme = stripAccentsLower(cleanOrigTheme);
+        const normMaster = stripAccentsLower(master);
+
+        let finalSub = cleanOrigSub;
+        if (genericSubs.has(normSub) || normSub === normMaster) {
+          if (cleanOrigTheme && normTheme !== normMaster && !genericSubs.has(normTheme)) {
+            finalSub = cleanOrigTheme;
+          } else {
+            finalSub = 'Généralités';
+          }
+        }
+
+        return { theme: master, subtheme: finalSub };
+      }
+
       function extractManifestFileList(data) {
         let rawList = null;
         if (Array.isArray(data)) rawList = data;
@@ -1424,11 +1533,17 @@
             ? rawSources.map(s => (typeof s === 'string' ? { doc: s } : s))
             : [];
 
+          const rawTheme = String(q.theme || q.category || q.chapitre || '').trim();
+          const rawSubtheme = String(q.subtheme || q.subTheme || q.sousTheme || q.sous_theme || q.topic || '').trim();
+          const qId = String(q.id || `${packLabel}-${idx + 1}`);
+          const grouped = resolveMasterThemeAndSubtheme(rawTheme, rawSubtheme, sources, qId);
+
           out.push({
             ...q,
-            id: String(q.id || `${packLabel}-${idx + 1}`),
-            theme: String(q.theme || q.category || q.chapitre || 'Général').trim(),
-            subtheme: String(q.subtheme || q.subTheme || q.sousTheme || q.sous_theme || q.topic || 'Général').trim(),
+            id: qId,
+            originalTheme: rawTheme,
+            theme: grouped.theme,
+            subtheme: grouped.subtheme,
             type,
             prompt: String(prompt),
             context: q.context || q.contexte || '',
@@ -1835,7 +1950,7 @@
           themeNames.add(q.theme);
         }
         state.expandedThemes.clear();
-        if (themeNames.size <= 4) themeNames.forEach(t => state.expandedThemes.add(t));
+        if (themeNames.size <= 2) themeNames.forEach(t => state.expandedThemes.add(t));
 
         renderThemesTree();
         updateDashboardStats();
@@ -1870,10 +1985,11 @@
         const query = state.themeSearchQuery.trim().toLowerCase();
         const tree = new Map();
 
+        const normQuery = stripAccentsLower(query);
         for (const q of state.allQuestions) {
-          const srcText = (q.sources || []).map(s => `${s.doc} ${s.ref || ''}`).join(' ').toLowerCase();
-          const searchable = `${q.theme} ${q.subtheme} ${q.prompt} ${srcText}`.toLowerCase();
-          if (query && !searchable.includes(query)) continue;
+          const srcText = (q.sources || []).map(s => `${s.doc} ${s.ref || ''}`).join(' ');
+          const searchable = stripAccentsLower(`${q.theme} ${q.originalTheme || ''} ${q.subtheme} ${q.prompt} ${srcText}`);
+          if (normQuery && !searchable.includes(normQuery)) continue;
 
           if (!tree.has(q.theme)) tree.set(q.theme, new Map());
           const subMap = tree.get(q.theme);
@@ -1891,7 +2007,15 @@
         const expandedCount = [...tree.keys()].filter(t => state.expandedThemes.has(t)).length;
         $('btn-toggle-expand').textContent = expandedCount === allThemesCount ? 'Tout replier' : 'Tout déplier';
 
-        for (const [theme, subMap] of tree.entries()) {
+        const sortedThemes = [...tree.entries()].sort((a, b) => {
+          const ia = MASTER_THEME_ORDER.indexOf(a[0]);
+          const ib = MASTER_THEME_ORDER.indexOf(b[0]);
+          const ra = ia === -1 ? 999 : ia;
+          const rb = ib === -1 ? 999 : ib;
+          return ra !== rb ? ra - rb : a[0].localeCompare(b[0], 'fr');
+        });
+
+        for (const [theme, subMap] of sortedThemes) {
           const group = document.createElement('div');
           const isExpanded = Boolean(query) || state.expandedThemes.has(theme);
           group.className = `theme-group${isExpanded ? ' expanded' : ''}`;
@@ -1935,7 +2059,8 @@
           const subList = document.createElement('div');
           subList.className = 'subthemes-list';
 
-          for (const [subtheme, count] of subMap.entries()) {
+          const sortedSubs = [...subMap.entries()].sort((a, b) => a[0].localeCompare(b[0], 'fr', { numeric: true }));
+          for (const [subtheme, count] of sortedSubs) {
             const key = `${theme}::${subtheme}`;
             const item = document.createElement('label');
             item.className = 'subtheme-item';
