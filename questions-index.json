@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T17:05:00Z",
+  "updatedAt": "2026-11-24T17:10:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -149,6 +149,58 @@
         "A60.02"
       ],
       "generatedAt": "2026-11-24T17:05:00Z"
+    },
+    {
+      "packId": "lot05-manoeuvres-etcs",
+      "title": "Lot 5 — Manœuvres guidées, Manœuvres non guidées / EVO et ETCS niveau 1 (A30 / A40 / A70)",
+      "file": "lot05-manoeuvres-etcs.json",
+      "description": "Manœuvres guidées (CLE/CLO, frein, thème, exécution, signaux à main/SLM/REF, radio/tops sonores, dérangement radio, pancartes LM/LGR, vitesses de refoulement et Hexafret, signalisation, pantos, perte tension, ETCS1 SH), manœuvres non guidées / EVO (30/15 km Annexe 1, BF, freinage, VA, KVB BP-MV, vitesses, hors cantonnement, anomalies frein) et ETCS niveau 1 (cantonnement, observation sol, LTV, traction électrique, restrictions inopinées OCAR, transitions ETCS1 <-> Sol et BM).",
+      "questionCount": 27,
+      "breakdown": {
+        "qcm": 15,
+        "qcm_multi": 8,
+        "open": 4
+      },
+      "fiches": [
+        "A30.01",
+        "A30.02",
+        "A30.03",
+        "A30.04",
+        "A30.05",
+        "A30.06",
+        "A30.07",
+        "A30.08",
+        "A30.09",
+        "A30.10",
+        "A30.11",
+        "A30.12",
+        "A30.13",
+        "A30.14",
+        "A30.15",
+        "A30.17",
+        "A30.18",
+        "A30.19",
+        "A30.20",
+        "A40.01",
+        "A40.02",
+        "A40.03",
+        "A40.04",
+        "A40.05",
+        "A40.06",
+        "A40.07",
+        "A40.08",
+        "A40.09",
+        "A40.10",
+        "A40.11",
+        "A70.01",
+        "A70.02",
+        "A70.03",
+        "A70.04",
+        "A70.05",
+        "A70.06",
+        "A70.07"
+      ],
+      "generatedAt": "2026-11-24T17:10:00Z"
     }
   ]
 }

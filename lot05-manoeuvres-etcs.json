@@ -1,0 +1,666 @@
+{
+  "packId": "lot05-manoeuvres-etcs",
+  "title": "Lot 5 — Manœuvres guidées, Manœuvres non guidées / EVO et ETCS niveau 1 (A30 / A40 / A70)",
+  "generatedAt": "2026-11-24T17:10:00Z",
+  "questions": [
+    {
+      "id": "lot05-q01",
+      "type": "qcm_multi",
+      "category": "Manœuvre guidée — Conditions locales et autorité du Chef de la manœuvre",
+      "fiche": "A30.01",
+      "difficulty": "facile",
+      "question": "Concernant l'organisation locale et les agents participant à une manœuvre guidée (A30.01 et A30.02), quelles propositions sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "L'exploitation locale d'un site est définie par le SGC dans une Consigne Locale d'Exploitation (CLE), déclinée par chaque entreprise ferroviaire dans une Consigne Locale Opérationnelle (CLO) ; à défaut de CLO en cours de route (incident), les dispositions locales de la CLE sont précisées au conducteur",
+        "Le Chef de la manœuvre (normalement un OFS, exceptionnellement un Agent du SGC ou un Aiguilleur dans la zone de son poste) a autorité sur tous les agents participant à la manœuvre, y compris le conducteur",
+        "Excepté l'ordre d'arrêt, tout ordre donné par un autre agent sans que cela ait été prévu et organisé par le Chef de la manœuvre doit être exclu"
+      ],
+      "distractors": [
+        "En manœuvre guidée, le conducteur a autorité hiérarchique sur le Chef de la manœuvre et choisit seul l'ordre des mouvements",
+        "Un conducteur doit refuser l'accès à sa cabine de conduite aux agents participant à la manœuvre, même si leurs fonctions le nécessitent",
+        "Dans une Installation Terminale Embranchée (ITE), les dispositions générales des manœuvres guidées ne s'appliquent pas et le conducteur manœuvre sans Chef de la manœuvre",
+        "Un ordre d'arrêt donné par un autre agent non désigné par le Chef de la manœuvre doit toujours être ignoré"
+      ],
+      "displayCount": 5,
+      "explanation": "Les fiches A30.01 et A30.02 précisent l'articulation CLE (SGC) / CLO (Lineas), l'autorité du Chef de la manœuvre (OFS, ou exceptionnellement Agent du SGC / Aiguilleur), l'obligation d'autoriser l'accès cabine si les fonctions des agents le nécessitent, et l'exclusion de tout ordre d'un autre agent non prévu/organisé par le Chef de la manœuvre — à l'exception de l'arrêt.",
+      "sources": [
+        "A30.01 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe 1 et 2",
+        "A30.02 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe 1 et 2 et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot05-q02",
+      "type": "qcm_multi",
+      "category": "Manœuvre guidée — Utilisation du frein",
+      "fiche": "A30.03",
+      "difficulty": "moyen",
+      "question": "Vous allez exécuter une manœuvre guidée avec votre engin moteur électrique. Quelles règles impératives relatives à l'utilisation des freins s'appliquent selon la fiche A30.03 ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Avant tout déplacement, vérifier que les freins direct et automatique fonctionnent et placer le changement de régime de freinage de l'EM en permanence sur « P/V »",
+        "Ne pas utiliser les fonctions « Surcharge » (risque de non-desserrage) ni « Grand débit » (notamment en cas d'utilisation d'un appareil mobile de commande du frein automatique)",
+        "Il est interdit d'utiliser le frein électrique (rhéostatique ou récupération) sur les voies de service ou sur les zones d'aiguilles inférieures ou égales à 30 km/h"
+      ],
+      "distractors": [
+        "Avant tout déplacement en manœuvre fret, le régime de freinage de l'EM doit impérativement être placé sur « G/M » pour éviter les à-coups",
+        "Il est recommandé d'utiliser systématiquement la fonction « Surcharge » entre chaque mouvement pour accélérer le desserrage des wagons",
+        "Lors d'une manœuvre guidée avec un conducteur à chaque extrémité (pousse attelée), c'est le conducteur placé en queue du mouvement qui prend la commande du frein",
+        "Pour l'essai d'un appareil mobile de commande du frein automatique, le conducteur alimente la CG à 5 bars puis place le robinet de frein automatique sur « Neutre »"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A30.03 impose : EM en régime P/V en permanence ; pas de Surcharge ni de Grand débit ; interdiction du frein électrique (rhéostatique/récupération) sur voies de service ou zones d'aiguilles ≤ 30 km/h ; en pousse attelée (conducteur à chaque extrémité), le conducteur en TÊTE du mouvement prend la commande du frein ; pour l'essai de l'appareil mobile de commande du frein automatique, alimenter CG à 5 bars, laisser le robinet sur « Marche », constater chute puis remontée à 5 bars et aviser l'OFS.",
+      "sources": [
+        "A30.03 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe 1 à 4 et Application métier 1 à 3"
+      ]
+    },
+    {
+      "id": "lot05-q03",
+      "type": "qcm",
+      "category": "Manœuvre guidée — Thème, renseignements et mise en mouvement",
+      "fiche": "A30.04",
+      "difficulty": "moyen",
+      "question": "Avant de débuter une manœuvre guidée par radio de manœuvre, le Chef de la manœuvre vient de vous exposer le thème et les particularités de la manœuvre, puis le carré violet devant votre engin moteur s'ouvre au feu blanc et vous entendez des « Tops sonores ». Aucun ordre explicite de mise en mouvement ne vous a été donné. Pouvez-vous vous mettre en mouvement ?",
+      "correctAnswer": "Non : ni le thème de la manœuvre, ni l'ouverture d'un signal d'arrêt, ni l'émission de « Tops sonores » seule ne constituent un ordre de mise en mouvement ; vous devez répéter les renseignements reçus et attendre l'ordre de mise en mouvement du Chef de la manœuvre (ou un signal de commande prévu après commande préalable : TLC, TIP ou SLM)",
+      "distractors": [
+        "Oui : l'ouverture du carré violet au feu blanc conjointement aux « Tops sonores » vaut ordre immédiat de mise en mouvement",
+        "Oui : l'exposé complet du thème de la manœuvre par le Chef de la manœuvre vaut autorisation de départ dès que la voie est libre",
+        "Oui : dès que les « Tops sonores » cadencés commencent à retentir, le conducteur doit démarrer immédiatement à 15 km/h maximum",
+        "Oui, à condition d'actionner le sifflet avant le démarrage et de ne pas dépasser 6 km/h",
+        "Non uniquement la nuit ; de jour, l'ouverture du carré violet suffit à engager la manœuvre",
+        "Oui, sauf si la manœuvre comporte un EM de pousse attelé en queue"
+      ],
+      "explanation": "Les fiches A30.04 et A30.07 martèlent trois garde-fous absolus : (1) le thème de la manœuvre ne constitue jamais un ordre de mise en mouvement ; (2) l'ouverture d'un signal d'arrêt ne constitue pas, à elle seule, un ordre de mise en mouvement ; (3) l'émission de « Tops sonores » ne constitue jamais à elle seule un ordre de mise en mouvement. De plus, en cas de manœuvre en tête d'un train comportant un EM de pousse, le conducteur de pousse doit être avisé du début et de la fin de la manœuvre et ne pas pousser avant l'avis de fin.",
+      "sources": [
+        "A30.04 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe 1 à 3 et Application métier",
+        "A30.07 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe 1 et 2 et Application métier"
+      ]
+    },
+    {
+      "id": "lot05-q04",
+      "type": "qcm_multi",
+      "category": "Manœuvre guidée — Cabine, exécution, BP-MV et courbes de faible rayon",
+      "fiche": "A30.06",
+      "difficulty": "moyen",
+      "question": "Concernant la préparation avant mise en mouvement (A30.05) et l'exécution d'une manœuvre guidée (A30.06), quelles règles sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Le conducteur doit occuper obligatoirement la cabine de tête dans le sens du mouvement toutes les fois que les conditions d'exécution le permettent, et respecter la marche en manœuvre (s'avancer avec prudence sans dépasser 30 km/h)",
+        "Si le voyant BP-MV du KVB s'éteint au cours de la manœuvre guidée, le conducteur doit s'arrêter, aviser le Chef de la manœuvre, appuyer à nouveau sur BP-MV, puis reprendre le mouvement",
+        "Sur une voie comportant une courbe de faible rayon (pancarte « Rayon... m » ou repères), si l'EM est compatible avec l'accès à la voie, le conducteur ne doit pas dépasser la vitesse d'un homme au pas (et s'il n'est pas compatible, il avise le Chef de la manœuvre)"
+      ],
+      "distractors": [
+        "Si le voyant BP-MV du KVB s'éteint pendant la manœuvre, le conducteur réappuie en marche sur BP-MV sans s'arrêter",
+        "Au franchissement d'un signal pris à revers répétant « Signal fermé » en cabine, le conducteur doit immédiatement provoquer un arrêt d'urgence et signaler une anomalie de signalisation",
+        "Sur une voie comportant une courbe de faible rayon compatible avec l'EM, la vitesse maximale autorisée reste de 15 km/h",
+        "Si la manœuvre guidée est arrêtée par un signal d'arrêt fermé, l'autorisation de franchissement est toujours donnée exclusivement au conducteur, même lorsqu'il n'est pas en tête du mouvement"
+      ],
+      "displayCount": 5,
+      "explanation": "Selon A30.05 et A30.06 : cabine de tête dès que possible ; siffler si danger pour les personnes à proximité ; marche en manœuvre ≤ 30 km/h ; répétition à revers = acquitter sans la considérer comme une anomalie ; extinction voyant BP-MV = s'arrêter, aviser le Chef de manœuvre, réappuyer BP-MV, reprendre ; courbe de faible rayon = aviser si EM incompatible, sinon vitesse d'un homme au pas ; signal d'arrêt fermé = autorisation donnée au conducteur s'il est en tête, au Chef de la manœuvre dans les autres cas.",
+      "sources": [
+        "A30.05 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe et Application métier",
+        "A30.06 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe 1 à 7 et Application métier 1.1 et 1.2"
+      ]
+    },
+    {
+      "id": "lot05-q05",
+      "type": "qcm",
+      "category": "Manœuvre guidée — Signaux à main et acoustiques (« Tirez » vs « Refoulez »)",
+      "fiche": "A30.09",
+      "difficulty": "moyen",
+      "question": "Vous êtes aux commandes d'un engin moteur intercalé entre des wagons (2 wagons d'un côté, 1 wagon de l'autre). Un agent de manœuvre situé devant vous fait le signal « REFOULEZ » (drapeau roulé balancé horizontalement vers le bas du corps / 3 coups longs). Dans quel sens devez-vous déplacer votre composition, et pouvez-vous observer cet agent à l'aide des rétroviseurs de la locomotive ?",
+      "correctAnswer": "Vous rapprocher de l'agent qui fait le signal (EM seul ou intercalé : « Refoulez » = se rapprocher, « Tirez » = s'éloigner) ; l'utilisation des rétroviseurs est strictement interdite pour l'observation des signaux à main et l'exécution des manœuvres guidées",
+      "distractors": [
+        "Vous éloigner de l'agent qui fait le signal ; l'utilisation des rétroviseurs est autorisée en dessous de 15 km/h",
+        "Faire précéder l'engin moteur par le groupe de 2 wagons uniquement, quelle que soit la position de l'agent de manœuvre",
+        "Vous rapprocher de l'agent, et l'utilisation des rétroviseurs est autorisée uniquement de jour si l'agent est difficile à voir directement",
+        "Vous éloigner de l'agent car « Refoulez » signifie toujours s'éloigner de l'agent lorsque l'EM est intercalé",
+        "Le signal « Refoulez » est donné par 2 coups longs et n'a besoin d'être fait qu'au démarrage du mouvement",
+        "Le sens dépend obligatoirement de la cabine (cabine 1 ou cabine 2) occupée par le conducteur sur un EM bi-cabine"
+      ],
+      "explanation": "La fiche A30.09 (et A30.08) établit clairement : (1) EM attelé à l'extrémité d'une rame : « Tirez » (2 coups longs) = l'EM précède les véhicules, « Refoulez » (3 coups longs, signal fait pendant toute la durée du mouvement) = l'EM suit les véhicules ; (2) EM seul ou intercalé : « Tirez » = s'éloigner de l'agent, « Refoulez » = se rapprocher de l'agent (qui modifie le signal lorsque l'EM passe devant lui) ; (3) les ordres sont donnés sans tenir compte de la cabine occupée ; (4) les rétroviseurs ne doivent jamais être utilisés pour les manœuvres guidées.",
+      "sources": [
+        "A30.08 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe 1 et 2",
+        "A30.09 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/5 à 5/5, Description, Signification des ordres et Application métier"
+      ]
+    },
+    {
+      "id": "lot05-q06",
+      "type": "qcm",
+      "category": "Manœuvre guidée — SLM, Tableau REF et signal acoustique de refoulement",
+      "fiche": "A30.10",
+      "difficulty": "moyen",
+      "question": "Vous exécutez une manœuvre guidée commandée par des Signaux Lumineux de Manœuvre (SLM numérotés III, II, I le long de la voie). Quelle signification correspond à l'allumage fixe et simultané des 3 feux blancs du SLM, et quelle limite de déplacement s'applique lors d'un mouvement « Tirer » sur SLM ?",
+      "correctAnswer": "L'allumage fixe et simultané des 3 feux blancs commande « Recherchez les signaux à main de manœuvre » (et arrêt immédiat + aviser le Chef de manœuvre si vous ne les percevez pas) ; en tirant (allumage alterné de 2 blancs sur une ligne verticale), vous ne devez jamais dépasser le SLM numéroté « I »",
+      "distractors": [
+        "L'allumage fixe simultané des 3 feux blancs commande « Tirez » ; vous pouvez dépasser le SLM « I » jusqu'à la pancarte LM suivante",
+        "L'allumage fixe simultané des 3 feux blancs commande « Refoulez » ; l'extinction complète des 3 feux commande « Recherchez les signaux à main »",
+        "L'allumage alterné de 2 blancs sur une ligne horizontale commande « Tirez » et sur une ligne verticale commande « Refoulez »",
+        "Le SLM peut être utilisé indifféremment avec un engin moteur circulant isolément ou intercalé en milieu de rame",
+        "Sur SLM présentant « Tirez », vous devez obligatoirement marquer l'arrêt devant tout sémaphore fermé rencontré",
+        "Le signal acoustique de refoulement est constitué de 2 coups de trompe d'une seconde séparés par 1 seconde"
+      ],
+      "explanation": "La fiche A30.10 précise les 4 indications du SLM (interdit pour EM isolé ou non en tête côté SLM) : 2 blancs alternés vertical = Tirez (franchir sans arrêt un sémaphore fermé s'il y a lieu, ne jamais dépasser le SLM « I ») ; 2 blancs alternés horizontal = Refoulez ; extinction des 3 feux = Arrêtez immédiatement ; 3 feux blancs fixes simultanés = Recherchez les signaux à main (sinon arrêt immédiat + aviser le Chef de manœuvre). Le tableau REF ou le signal acoustique de refoulement (3 coups de trompe de 2 s espacés de 2 s) ordonne de refouler jusqu'au point fixé puis de rechercher les signaux à main.",
+      "sources": [
+        "A30.10 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe, Description, Implantation et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot05-q07",
+      "type": "qcm_multi",
+      "category": "Manœuvre guidée — Radio de manœuvre, Tops sonores et dérangement radio",
+      "fiche": "A30.11",
+      "difficulty": "difficile",
+      "question": "Concernant l'utilisation de la radio de manœuvre, les « Tops sonores » et le dérangement radio lors d'une manœuvre guidée (A30.11, A30.12, A30.13), quelles affirmations sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Bien que laissée en service, la radio GSM-R ainsi que les téléphones portables sont strictement interdits pour l'exécution des manœuvres (seules les radios de manœuvre fournies par l'entreprise sont autorisées, après essai préalable en phonie et par tops sonores)",
+        "La fonctionnalité « Tops sonores » de refoulement est obligatoire (sauf situations exceptionnelles : secours, incident…) pour tout refoulement d'une rame transportant des voyageurs et pour tout refoulement effectué sur une distance supérieure à 750 m",
+        "En refoulement guidé en phonie, tout silence de plus de 2 secondes (ou arrêt des tops sonores) doit être interprété comme un dérangement radio imposant un arrêt immédiat/d'urgence ; si aucun signal à main ne peut être fait mais que le Chef de manœuvre dispose en tête d'un appareil mobile de commande du frein automatique, le refoulement peut reprendre sans dépasser 6 km/h"
+      ],
+      "distractors": [
+        "En cas de panne de la radio de manœuvre, le conducteur et l'OFS peuvent achever le refoulement à l'aide de leurs téléphones portables professionnels ou de la radio GSM-R",
+        "Les « Tops sonores » de refoulement ne deviennent obligatoires qu'au-delà d'une distance de 1 500 m",
+        "En refoulement en phonie, seul un silence supérieur à 10 secondes impose l'arrêt de la manœuvre",
+        "En cas de dérangement radio sans signaux à main possibles mais avec appareil mobile de commande du frein automatique en tête, le refoulement peut reprendre jusqu'à 15 km/h"
+      ],
+      "displayCount": 5,
+      "explanation": "Les fiches A30.11, A30.12 et A30.13 posent des règles impératives : GSM-R et portables interdits ; essai radio préalable ; tops sonores obligatoires pour rame voyageurs ou refoulement > 750 m ; silence > 2 s en phonie ou perte de liaison/tops sonores = arrêt d'urgence immédiat ; achèvement possible aux signaux à main, ou à défaut sans dépasser 6 km/h si le Chef de manœuvre (ou agent désigné) prend place dans le premier véhicule avec un appareil mobile de commande du frein automatique.",
+      "sources": [
+        "A30.11 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe 1 à 4 et Application métier",
+        "A30.12 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/3 à 3/3, Principe, Transmission et Perte de la liaison radio",
+        "A30.13 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot05-q08",
+      "type": "qcm",
+      "category": "Manœuvre guidée — Pancartes LM, LGR, sémaphore et ITE",
+      "fiche": "A30.14",
+      "difficulty": "moyen",
+      "question": "Vous êtes en tête d'une manœuvre guidée devant être garée par refoulement dans un établissement, en direction d'une pancarte « LGR » (Limite de Garage par Refoulement). Par inadvertance, votre engin moteur dépasse accidentellement la pancarte « LGR ». Quelle est votre conduite immédiate obligatoire ?",
+      "correctAnswer": "Immobiliser le train, ne surtout pas commencer à refouler avant d'avoir rendu compte de la situation au Chef de la manœuvre, et vous conformer à ses instructions",
+      "distractors": [
+        "Refouler immédiatement à vitesse d'homme au pas pour vous repositionner avant la pancarte LGR, puis avertir le Chef de la manœuvre",
+        "Franchir la pancarte LGR d'initiative comme une pancarte STOP et attendre l'ordre de refouler plus loin",
+        "Continuer jusqu'au prochain signal d'arrêt fermé puis engager le refoulement sur réception des tops sonores",
+        "Reculer de quelques mètres en utilisant les rétroviseurs si aucun autre train n'est visible sur la voie",
+        "Actionner le BP-FC puis refouler à 6 km/h maximum jusqu'au dégagement de l'aiguille de garage",
+        "Appliquer l'article F30.10 relatif au franchissement intempestif d'un signal d'arrêt à main sans prévenir le Chef de la manœuvre"
+      ],
+      "explanation": "La fiche A30.14 distingue : pancarte « ARRÊT » et « LM » -> arrêt avant la pancarte et ordre verbal du Chef de la manœuvre pour franchir ; pancarte « STOP » -> arrêt puis franchissement d'initiative si rien ne s'y oppose ; pancarte « LGR » -> arrêt avant la pancarte (sauf instruction contraire) puis attendre l'ordre de refouler ; en cas de dépassement accidentel de la pancarte LGR, il est interdit de commencer à refouler avant d'avoir immobilisé le train, rendu compte au Chef de la manœuvre et reçu ses instructions.",
+      "sources": [
+        "A30.14 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/4, 2/4 et 4/4, Description des pancartes et Application métier 5"
+      ]
+    },
+    {
+      "id": "lot05-q09",
+      "type": "open",
+      "category": "Manœuvre guidée — Vitesses de refoulement et wagons Hexafret",
+      "fiche": "A30.15",
+      "difficulty": "difficile",
+      "question": "En manœuvre guidée, votre engin moteur n'est pas en tête du mouvement (vous refoulez une rame). Énoncez de manière précise toutes les vitesses maximales réglementaires applicables selon le mode de guidage et l'environnement (tops sonores/SLM, phonie, signaux à main, quai voyageurs, ITE), ainsi que les mesures spécifiques prescrites en partenariat Hexafret en présence de wagons à essieux vides ou peu chargés sensibles à la compression (K39, K50, L31…).",
+      "modelAnswer": "1. Vitesses limites strictes de refoulement (sauf taux inférieur à la CLO) : 30 km/h si le refoulement est réalisé à l'aide de « Tops sonores » cadencés ou avec un SLM ; 15 km/h si le refoulement est exécuté en phonie ou à l'aide de signaux à main de manœuvre ; 15 km/h lors du refoulement à l'aide de la radio (même avec tops sonores) d'une rame devant longer un quai potentiellement affecté au service voyageurs ; 6 km/h par principe dans les ITE (sauf informations complémentaires du Chef de manœuvre). 2. Mesures spécifiques pour les manœuvres guidées de refoulement effectuées en partenariat Hexafret uniquement, lorsque l'agent de manœuvre informe de la présence de wagons à essieux sensibles aux efforts de compression (types K39, K50, L31… vides ou peu chargés) : attendre le desserrage complet des freins avant d'entamer le refoulement ; respecter une vitesse maximale de 10 km/h ; respecter la vitesse d'un homme au pas sur ordre du Chef de la manœuvre et sur les courbes de faible rayon.",
+      "keyPoints": [
+        {
+          "label": "30 km/h maximum si le refoulement est réalisé par « Tops sonores » ou avec un SLM",
+          "critical": true
+        },
+        {
+          "label": "15 km/h maximum si le refoulement est exécuté en phonie ou par signaux à main de manœuvre",
+          "critical": true
+        },
+        {
+          "label": "15 km/h maximum lors du refoulement par radio d'une rame devant longer un quai potentiellement affecté au service voyageurs",
+          "critical": true
+        },
+        {
+          "label": "6 km/h par principe dans les ITE (sauf informations complémentaires du Chef de manœuvre, ou taux inférieur à la CLO)",
+          "critical": true
+        },
+        {
+          "label": "Partenariat Hexafret (wagons à essieux K39, K50, L31… vides ou peu chargés) : attendre le desserrage complet des freins avant démarrage, ne pas dépasser 10 km/h, et vitesse d'un homme au pas sur ordre du Chef de manœuvre ou dans les courbes de faible rayon",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A30.15 détaille précisément le barème des vitesses de refoulement (30 / 15 / 15 quai / 6 ITE) ainsi que le retour d'expérience spécifique aux manœuvres guidées de refoulement pour Hexafret sur wagons à essieux sensibles au soulèvement/déraillement par compression.",
+      "sources": [
+        "A30.15 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 2/4, 3/4 et 4/4, Vitesses limites, Partenariat Hexafret et Application métier 2"
+      ]
+    },
+    {
+      "id": "lot05-q10",
+      "type": "qcm_multi",
+      "category": "Manœuvre guidée — Signalisation, pantographes et absence de tension",
+      "fiche": "A30.19",
+      "difficulty": "moyen",
+      "question": "Concernant la signalisation de l'EM (A30.17, déc. 2025), l'utilisation des pantographes (A30.18) et l'absence de tension caténaire (A30.19) pendant une manœuvre guidée, quelles règles sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "Le conducteur allume deux feux blancs au régime « Fanal » à chaque extrémité de l'EM (minimum réglementaire : au moins 1 feu blanc fanal à chaque extrémité, ou du côté opposé à l'attelage) ; en cas d'absence totale de signalisation d'avant, il applique l'article F44.12",
+        "La levée en marche des pantographes (y compris pour les EM en UM) est strictement interdite sur voie de service",
+        "En cas de mise hors tension de la caténaire pendant une manœuvre guidée, il est dangereux de différer l'arrêt comme en ligne : le conducteur doit s'arrêter d'urgence (quels que soient les signaux de manœuvre perçus), vérifier depuis le sol que le(s) pantographe(s) sont en contact avec la caténaire et en bon état, puis aviser le Chef de la manœuvre"
+      ],
+      "distractors": [
+        "En manœuvre guidée, l'engin moteur doit obligatoirement porter deux feux rouges à l'arrière et trois feux blancs à l'avant comme un train en ligne",
+        "Sur voie de service, la levée en marche d'un pantographe est autorisée tant que la vitesse ne dépasse pas 15 km/h",
+        "En cas de perte de tension caténaire pendant une manœuvre guidée, le conducteur poursuit sur sa lancée jusqu'au point d'arrêt convenu afin de ne pas engager les aiguilles",
+        "Lors d'une mise hors tension caténaire en manœuvre guidée, le conducteur ne descend jamais au sol et se contente de refermer le disjoncteur après 1 minute"
+      ],
+      "displayCount": 5,
+      "explanation": "Trois points critiques de sécurité en manœuvre guidée : (1) A30.17 (déc. 2025) : 2 feux blancs fanal à chaque extrémité (et renvoi F44.12 si absence totale de signalisation d'avant) ; (2) A30.18 : interdiction de lever le(s) pantographe(s) en marche sur voie de service ; (3) A30.19 : mise hors tension caténaire = arrêt d'urgence immédiat (risque d'incident d'exploitation), vérification depuis le sol du contact et de l'état des pantographes, aviser le Chef de la manœuvre et suivre ses instructions.",
+      "sources": [
+        "A30.17 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/1, Principe et Application métier 1 et 2",
+        "A30.18 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe et Application métier",
+        "A30.19 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe et Application métier"
+      ]
+    },
+    {
+      "id": "lot05-q11",
+      "type": "qcm",
+      "category": "Manœuvre guidée — Particularités ETCS niveau 1 (Mode SH)",
+      "fiche": "A30.20",
+      "difficulty": "moyen",
+      "question": "Vous devez exécuter une manœuvre guidée sous le contrôle du système ETCS niveau 1. Quel mode ETCS doit être utilisé selon que vous circulez sur voies de service ou sur voies principales (conducteur en tête vs conducteur non en tête), et quelle vitesse maximale est contrôlée par le système en mode SH ?",
+      "correctAnswer": "Sur voies de service : mode SH ; sur voies principales (ou en direction de celles-ci) : mode FS, OS ou SR lorsque le conducteur est en tête du mouvement, et mode SH lorsqu'il n'est pas en tête ; en mode SH, la vitesse maximale contrôlée est fixée à 30 km/h",
+      "distractors": [
+        "Sur voies de service comme sur voies principales, toute manœuvre guidée s'effectue impérativement en mode SR contrôlé à 40 km/h",
+        "En mode SH, le système ETCS contrôle une vitesse maximale de 15 km/h et empêche tout changement de sens de marche",
+        "Sur voies principales, même lorsque le conducteur est en tête du mouvement, il doit obligatoirement sélectionner manuellement le mode SH",
+        "Le conducteur ne peut jamais sélectionner le mode SH de sa propre initiative pour une manœuvre non guidée refoulant un véhicule",
+        "La sortie du mode SH s'effectue toujours automatiquement dès que la locomotive dépasse 100 m parcourus",
+        "Sur voies de service, le conducteur circule en mode FS et ne passe en mode SH qu'au franchissement d'une balise de fin de parcours"
+      ],
+      "explanation": "La fiche A30.20 précise : sur voies de service -> sélection manuelle du mode SH ; sur voies principales ou en direction de celles-ci -> mode affiché (FS, OS ou SR) si conducteur en tête, mode SH si non en tête. En mode SH, la vitesse maximale contrôlée par l'ETCS est de 30 km/h (seul le crochet de vitesse autorisée est affiché), la circulation peut se faire dans les 2 sens et la sortie du mode SH est manuelle. Le conducteur peut aussi sélectionner d'initiative le mode SH pour une manœuvre non guidée refoulant un véhicule.",
+      "sources": [
+        "A30.20 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Le mode SH et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot05-q12",
+      "type": "qcm",
+      "category": "Manœuvre non guidée (EVO) — Distances limites et Annexe 1",
+      "fiche": "A40.01",
+      "difficulty": "moyen",
+      "question": "Selon la fiche A40.01 (version juin 2026), quelle est la distance maximale de principe d'une manœuvre non guidée (repérée « EVO » dans les sillons horaires), dans quel cas est-elle réduite à 15 km (ex. Thionville, Woippy, Metz-Sablon, Lille Flandres, Sibelin…), et dans quel cas peut-elle dépasser 30 km ?",
+      "correctAnswer": "Distance maximale de principe : 30 km (avec téléphones de voie, application mobile de téléphonie de pleine voie ou liaisons radio) ; réduite à 15 km si origine ou destination d'un établissement listé en Annexe 1 ; pouvant dépasser 30 km dans les cas prévus à la CLE pour une desserte hors cantonnement (jusqu'à la gare suivante sans la dépasser)",
+      "distractors": [
+        "Distance maximale de principe : 15 km sur tout le RFN, étendue à 30 km uniquement sur les lignes équipées en BAL et jamais au-delà de 30 km",
+        "Distance maximale de principe : 50 km, réduite à 30 km uniquement dans la zone dense d'Île-de-France",
+        "Distance maximale de principe : 30 km sans aucune réduction à 15 km pour les triages fret tels que Woippy, Thionville ou Sibelin",
+        "Distance maximale de principe : 30 km, pouvant être étendue librement à 60 km si le mouvement est freiné au régime P/V",
+        "Une manœuvre non guidée peut refouler jusqu'à 3 véhicules en autonomie sans basculer en manœuvre guidée",
+        "Une manœuvre non guidée peut transporter des voyageurs dès lors qu'elle circule sur un sillon régulier « EVO »"
+      ],
+      "explanation": "La fiche A40.01 (juin 2026) fixe : distance ≤ 30 km en principe (avec moyen d'alerte SGC : téléphones de voie, application mobile de téléphonie de pleine voie ou radio) ; réduite à 15 km au départ ou à destination des établissements de l'Annexe 1 (zone dense IDF, Woippy, Hagondange, Thionville, Metz-Sablon/Metz-Ville, Nancy-Ville, Strasbourg-Ville, Lille Flandres/St Sauveur, Sibelin, Vénissieux, Perrigny-Gevrey-Triage, etc.) ; possible > 30 km si prévu à la CLE pour une desserte hors cantonnement. Si elle refoule plus d'un véhicule, elle est réalisée dans les conditions d'une manœuvre guidée.",
+      "sources": [
+        "A40.01 — © Lineas, June 14, 2026 Lille (All rights reserved) — p. 1/2 et 2/2, Principe, Organisation et Annexe 1"
+      ]
+    },
+    {
+      "id": "lot05-q13",
+      "type": "qcm_multi",
+      "category": "Manœuvre non guidée — Signalisation, composition et Bulletin de Freinage",
+      "fiche": "A40.03",
+      "difficulty": "moyen",
+      "question": "Concernant la signalisation (A40.02, déc. 2025), la composition et le Bulletin de Freinage (A40.03), et les règles de freinage (A40.04) d'une manœuvre non guidée, quelles propositions sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "La signalisation d'avant et d'arrière d'une manœuvre non guidée est identique à celle des trains sur voies principales (D10.50/D10.51) et à celle des manœuvres guidées sur voies de service (A30.17) ; en cas d'absence totale de signalisation, appliquer F44.12",
+        "Il n'est pas établi de Bulletin de Freinage lorsque la manœuvre non guidée est constituée d'un EM seul, d'EM en UM ou d'un EM remorquant un EM en véhicule",
+        "En freinage continu, un véhicule non freiné (ou dont le frein est isolé) peut néanmoins être ajouté en queue, et le nombre de véhicules successifs non freinés ne peut dépasser 10"
+      ],
+      "distractors": [
+        "Sur voies principales comme sur voies de service, une manœuvre non guidée porte toujours deux feux blancs fanal à chaque extrémité sans signalisation d'arrière de train",
+        "Un Bulletin de Freinage doit obligatoirement être établi même lorsque la manœuvre non guidée est composée d'un engin moteur seul ou en UM",
+        "Sur une manœuvre non guidée, le dernier véhicule doit impérativement avoir le frein continu en service sans aucune tolérance d'ajout en queue",
+        "Une manœuvre non guidée ne peut jamais transporter du personnel de l'entreprise ferroviaire"
+      ],
+      "displayCount": 5,
+      "explanation": "A40.02 (déc. 2025) aligne la signalisation sur celle des trains en VP et des manœuvres guidées en VS (+ F44.12). A40.03 dispense de BF pour EM seul, EM en UM ou EM remorquant un EM en véhicule, et rappelle les mentions obligatoires au BF (P/V -> ME100 ≤ 70 km/h ; G/M -> MA80 ≤ 50 km/h). A40.04 précise qu'un véhicule non freiné/frein isolé peut être ajouté en queue, avec au maximum 10 véhicules successifs non freinés (et hors lignes à freinage forfaitaire en G/M : au moins la moitié de la masse freinée de dérive nécessaire dans la 2e moitié du train).",
+      "sources": [
+        "A40.02 — © Lineas, December 14, 2025 Lille (All rights reserved) — p. 1/1, Principe et Application métier 1 et 2",
+        "A40.03 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe 1 et 2",
+        "A40.04 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe 1 et 2"
+      ]
+    },
+    {
+      "id": "lot05-q14",
+      "type": "qcm",
+      "category": "Manœuvre non guidée — Équipement en personnel (absence de VA)",
+      "fiche": "A40.05",
+      "difficulty": "moyen",
+      "question": "Vous devez assurer une manœuvre non guidée dont l'engin moteur n'est pas équipé de la Veille Automatique (VA) et il est impossible de vous faire assister par un agent d'accompagnement. Quelles mesures réglementaires devez-vous appliquer ?",
+      "correctAnswer": "Aviser le SGC (par radio, ou à défaut au premier téléphone, gare ou poste rencontré), vous conformer aux instructions du Régulateur jusqu'au point limite d'utilisation, ne pas dépasser 70 km/h (si train à VL au moins égale à celle des MA100) ou 50 km/h (pour les autres trains), et aviser le Service Opérationnel concerné",
+      "distractors": [
+        "Demander immédiatement le secours car une manœuvre non guidée sans VA ne peut en aucun cas circuler avec le conducteur seul",
+        "Aviser le SGC et circuler sans aucune restriction de vitesse jusqu'à la destination finale du sillon EVO",
+        "Circuler sans dépasser 30 km/h en marche à vue jusqu'à la première gare, sans avoir à aviser le SGC",
+        "Ne pas dépasser 50 km/h pour les trains ME100 et 20 km/h pour les trains MA80",
+        "Poursuivre normalement à 70 km/h si vous êtes assisté ou non, la VA n'étant obligatoire que pour les trains commerciaux de plus de 30 km",
+        "Aviser uniquement le Service Opérationnel de Lineas sans prévenir le SGC ni le Régulateur"
+      ],
+      "explanation": "La fiche A40.05 prévoit que sans VA : s'il est possible d'être assisté par un agent d'accompagnement (informé des manœuvres d'arrêt/immobilisation), reprise sans restriction de vitesse ; s'il est impossible d'être assisté -> aviser le SGC (radio ou 1er téléphone/gare/poste), suivre les instructions du Régulateur jusqu'au point limite d'utilisation, VL ≤ 70 km/h (si VL ≥ MA100) ou ≤ 50 km/h (autres trains), et aviser le Service Opérationnel concerné. Même avec VA en état, un agent supplémentaire reste requis si le service le nécessite (desserte PL/ITE) ou sur ligne à protection arrière.",
+      "sources": [
+        "A40.05 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe 1 et 2 et Application métier"
+      ]
+    },
+    {
+      "id": "lot05-q15",
+      "type": "qcm",
+      "category": "Manœuvre non guidée — Opérations avant départ (KVB, ETCS, AuM et place du conducteur)",
+      "fiche": "A40.06",
+      "difficulty": "moyen",
+      "question": "Avant de mettre en mouvement une manœuvre non guidée comportant un rebroussement de faible amplitude sans changer de cabine (ou le refoulement d'un seul véhicule, observation directe possible), quelle opération KVB spécifique devez-vous effectuer, sur quelle distance neutralise-t-elle les fonctions habituelles du KVB et quelle vitesse reste contrôlée ?",
+      "correctAnswer": "Appuyer sur BP-MV avant la mise en mouvement pour neutraliser les fonctions habituelles du KVB sur une distance de 3 500 m ; la vitesse reste toutefois contrôlée à 30 km/h (et vous ne devez pas utiliser les rétroviseurs pour refouler seul un véhicule)",
+      "distractors": [
+        "Appuyer sur BP-FC à moins de 100 m du signal ; la neutralisation dure 60 secondes et la vitesse reste contrôlée à 40 km/h",
+        "Appuyer sur BP-MV pour neutraliser le KVB sur une distance de 1 500 m, sans aucun contrôle de vitesse pendant la manœuvre",
+        "Isoler complètement le KVB pour toute la durée du sillon EVO car une manœuvre non guidée ne paramètre jamais le KVB comme un train",
+        "Appuyer sur BP-MV pour neutraliser le KVB sur 3 500 m, la vitesse restant contrôlée à 50 km/h en régime G/M et 70 km/h en régime P/V",
+        "Aucune action sur le KVB n'est nécessaire lors d'un rebroussement sans changement de cabine ; seul l'ETCS doit être passé en mode SR",
+        "Vous pouvez observer la signalisation à l'aide des rétroviseurs de la cabine pour éviter de changer de cabine lors du refoulement d'un véhicule"
+      ],
+      "explanation": "Les fiches A40.06, A40.07 et A40.08 précisent : réception de l'AuM comme un train (D20.01 à D20.06), KVB et ETCS paramétrés comme un train ; toutefois, pour un rebroussement de faible amplitude sans changer de cabine ou le refoulement d'un véhicule, neutraliser avant la mise en mouvement par appui sur BP-MV sur 3 500 m (vitesse contrôlée à 30 km/h). Le conducteur occupe normalement la cabine avant (en particulier pour les changements de front EM seul/UM), ne change pas obligatoirement de cabine en rebroussement de faible amplitude avec EM seul ou 1 véhicule si l'observation directe reste possible, et a interdiction d'utiliser les rétroviseurs pour refouler seul un véhicule.",
+      "sources": [
+        "A40.06 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe 1 à 4 et Application métier",
+        "A40.07 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe et Application métier",
+        "A40.08 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe et Application métier"
+      ]
+    },
+    {
+      "id": "lot05-q16",
+      "type": "open",
+      "category": "Manœuvre non guidée — Vitesses sur voie principale et approche de destination",
+      "fiche": "A40.09",
+      "difficulty": "difficile",
+      "question": "Vous conduisez une manœuvre non guidée sur voie principale (règles normales de freinage satisfaites). Indiquez précisément la vitesse limite maximale à ne pas dépasser et les règles associées (mention au BF, TIV à deux nombres) dans chacun des 5 cas suivants : (1) freinée au régime P/V ; (2) freinée au régime G/M ; (3) refoulement d'un véhicule ; (4) conduite depuis la cabine arrière dans le sens de marche d'un EM bi-cabine ; (5) arrivée à proximité de la destination ou d'un point de rebroussement.",
+      "modelAnswer": "1. Freinée au régime P/V : observer la vitesse limite des trains ME100 sans dépasser 70 km/h (ou la vitesse déterminée aux tableaux du Mémento pour un EM seul, une UM ou un EM remorquant un EM en véhicule si elle est inférieure à 70 km/h) ; ces manœuvres observent le taux le plus élevé des TIV à deux nombres du type ordinaire ; mention au BF : « Mouvement de manœuvre non guidé freiné au frein continu voyageurs, autorisé à circuler à la vitesse des ME100 sans dépasser 70 km/h ». 2. Freinée au régime G/M : observer la vitesse limite des trains MA80 sans dépasser 50 km/h ; mention au BF : « Mouvement de manœuvre non guidé freiné au frein continu marchandises, autorisé à circuler à la vitesse des MA80 sans dépasser 50 km/h ». 3. Refoulement d'un véhicule : ne pas dépasser 30 km/h. 4. Conduite depuis la cabine arrière dans le sens de marche d'un EM bi-cabine (EM seul ou remorquant une rame) : ne pas dépasser 30 km/h. 5. Arrivée à proximité de la destination ou à un point intermédiaire de rebroussement : observer la marche en manœuvre (et sur voie de service : marche en manœuvre, arrêt avant d'engager les croisements de sortie de faisceau sauf signal propre / ordre / autorisation « sans arrêt aux croisements du poste » / TLC / TIP).",
+      "keyPoints": [
+        {
+          "label": "(1) Régime P/V : vitesse des ME100 sans dépasser 70 km/h (ou vitesse Mémento si inférieure pour EM seul / UM / EM + EM en véhicule) et observation du taux le plus élevé des TIV à deux nombres ordinaires",
+          "critical": true
+        },
+        {
+          "label": "(2) Régime G/M : vitesse des MA80 sans dépasser 50 km/h",
+          "critical": true
+        },
+        {
+          "label": "(3) Refoulement d'un véhicule : ne pas dépasser 30 km/h",
+          "critical": true
+        },
+        {
+          "label": "(4) Occupation de la cabine arrière d'un EM bi-cabine dans le sens de marche : ne pas dépasser 30 km/h",
+          "critical": true
+        },
+        {
+          "label": "(5) À proximité de la destination ou d'un point de rebroussement : observer la marche en manœuvre",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A40.09 synthétise l'ensemble des plafonds de vitesse en manœuvre non guidée (70 km/h en P/V avec taux haut des TIV à deux nombres, 50 km/h en G/M, 30 km/h en refoulement d'un véhicule ou depuis la cabine arrière, marche en manœuvre aux abords de la destination/rebroussement et en voie de service).",
+      "sources": [
+        "A40.09 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe 1 et 2 et Application métier 1, 1.1 et 2"
+      ]
+    },
+    {
+      "id": "lot05-q17",
+      "type": "qcm",
+      "category": "Manœuvre non guidée — Circulation hors cantonnement",
+      "fiche": "A40.10",
+      "difficulty": "moyen",
+      "question": "Votre manœuvre non guidée doit circuler sous le régime spécial « hors cantonnement » en Block Manuel et être expédiée sur un sémaphore de BM fermé (le trajet ne s'effectue pas entre les chantiers d'une même gare). Comment l'autorisation de franchissement et l'information du régime spécial vous sont-elles délivrées ?",
+      "correctAnswer": "L'autorisation de franchir le sémaphore de BM fermé est donnée par écrit ou par dépêche (complétée par un ordre écrit de marche à vue sur tout le parcours en l'absence d'assurance que le canton est libre) ; l'avis de circulation hors cantonnement est donné verbalement par l'OFS s'il prend place en cabine, sinon par écrit par l'Agent circulation",
+      "distractors": [
+        "L'autorisation de franchir le sémaphore de BM fermé est toujours donnée verbalement comme pour une manœuvre guidée sur tout le réseau",
+        "En circulation hors cantonnement, le conducteur franchit le sémaphore de BM fermé de lui-même sans aucune autorisation écrite ni verbale",
+        "L'autorisation de franchissement est obligatoirement un ordre CBA, même en Block Manuel",
+        "En absence d'assurance que le canton est libre, aucune marche à vue n'est prescrite car le mouvement circule hors cantonnement",
+        "Une circulation hors cantonnement ne peut en aucun cas dépasser une distance de 15 km",
+        "Sur une ligne VUSS, un Agent du SGC ne peut jamais donner l'ordre d'annuler le DAAT à une manœuvre non guidée"
+      ],
+      "explanation": "La fiche A40.10 précise : hors cantonnement (< 1 canton de BM en règle générale, pouvant dépasser 30 km pour une desserte), l'expédition sur sémaphore de BM fermé fait l'objet d'une autorisation par écrit ou dépêche (A11.13), complétée par un ordre écrit de MAV sur tout le parcours sans assurance de canton libre (autorisation verbale uniquement entre chantiers d'une même gare désignée aux LiLi ou entre cette gare et le chantier de remisage). Avis du régime hors cantonnement : verbal par l'OFS en cabine, sinon par écrit par l'AC. En VUSS, un ordre d'annulation du DAAT peut être donné par écrit ou dépêche (C10.03).",
+      "sources": [
+        "A40.10 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/1, Principe et Application métier 1 et 2"
+      ]
+    },
+    {
+      "id": "lot05-q18",
+      "type": "qcm",
+      "category": "Manœuvre non guidée — Anomalies de frein en pleine voie",
+      "fiche": "A40.11",
+      "difficulty": "difficile",
+      "question": "Vous conduisez seul (sans OFS) en pleine voie une manœuvre non guidée composée d'une rame de wagons lorsqu'un incident de frein survient en ligne. Vous n'avez pas encore repris la marche. Comment déterminez-vous si vous pouvez reprendre la marche, et à quelles conditions exactes si le freinage restant est suffisant ?",
+      "correctAnswer": "Vous vérifiez (sans tenir compte de la répartition du freinage de dérive) que la Masse Freinée Réalisée restante est au moins égale à la Masse Freinée de Dérive Nécessaire (selon masse totale et déclivité caractéristique aux LiLi) : si oui, modifier et valider les paramètres KVB avant départ puis reprendre la marche sans dépasser 20 km/h jusqu'à la première gare avec les plus grandes précautions ; si non, demander le secours",
+      "distractors": [
+        "Vous devez impérativement vérifier que la moitié de la masse freinée de dérive restante se situe dans la deuxième moitié du train, sinon demander le secours",
+        "Si la Masse Freinée Réalisée restante est au moins égale à la Masse Freinée de Dérive Nécessaire, vous reprenez la marche sans dépasser 30 km/h jusqu'à votre destination finale sans modifier le KVB",
+        "Tout incident de frein en pleine voie sur une manœuvre non guidée impose immédiatement la demande de secours sans calcul possible",
+        "Si la Masse Freinée Réalisée restante est supérieure à 50 % de la masse totale, vous poursuivez à 50 km/h jusqu'à la première gare",
+        "Vous vérifiez uniquement la Masse Freinée d'Arrêt nécessaire à 30 km/h et reprenez à 30 km/h jusqu'à la gare suivante",
+        "La procédure de vérification en pleine voie s'applique uniquement aux rames de wagons et jamais à un EM seul ou en UM"
+      ],
+      "explanation": "La fiche A40.11 (points 2 et 4) impose, après un incident de frein en pleine voie (pour une rame sans OFS comme pour un EM seul, UM ou EM + EM en véhicule) : comparer la Masse Freinée Réalisée restante à la Masse Freinée de Dérive Nécessaire (tableaux du DML, selon masse totale et déclivité caractéristique aux LiLi), SANS tenir compte de la répartition du freinage de dérive. Si MFR restante ≥ FD nécessaire -> modifier et valider les paramètres KVB avant remise en marche, puis reprendre sans dépasser 20 km/h jusqu'à la première gare avec les plus grandes précautions. Si MFR restante < FD nécessaire -> demander le secours.",
+      "sources": [
+        "A40.11 — © Lineas, June 11, 2023 Brussels (All rights reserved) — p. 1/2 et 2/2, Application métier 2 et 4"
+      ]
+    },
+    {
+      "id": "lot05-q19",
+      "type": "qcm",
+      "category": "ETCS1 — Principe, transmission ponctuelle et protection des points dangereux",
+      "fiche": "A70.01",
+      "difficulty": "moyen",
+      "question": "Vous circulez en ETCS niveau 1 (mode FS) avec une Movement Authority (MA) dont l'EOA se situe au-delà du prochain signal de cantonnement. À la suite d'un incident, ce signal se ferme d'urgence devant votre train avant que vous n'ayez franchi le groupe d'Eurobalises au droit du signal. Pourquoi votre DMI ne reflète-t-il pas instantanément cette fermeture d'urgence ?",
+      "correctAnswer": "Parce que l'ETCS1 est un système à transmission unidirectionnelle ponctuelle (par Eurobalises et LEU) : la fermeture d'urgence d'un signal en aval d'un train ayant un EOA au-delà de ce signal n'est pas prise en compte instantanément par l'EVC tant que le train ne franchit pas un groupe d'Eurobalises (ou un PI avancé)",
+      "distractors": [
+        "Parce que l'ETCS1 transmet les informations uniquement par radio GSM-R avec une latence réglementaire de 60 secondes",
+        "Parce que le système ETCS1 fonctionne sans circuits de voie ni compteurs d'essieux et ignore les signaux de cantonnement au sol",
+        "Parce qu'en mode FS, l'EVC ignore volontairement toute fermeture de signal au sol tant que le train ne dépasse pas la Release Speed",
+        "Parce que les Eurobalises ne transmettent jamais d'informations variables (uniquement des données permanentes de profil de voie)",
+        "Parce qu'en ETCS1, un dépassement d'EOA n'entraîne jamais de Train trip tant que le signal au sol n'est pas accompagné d'un KVB",
+        "Parce que le LEU (Lineside Electronics Unit) est installé dans la cabine de conduite et non au sol près des Eurobalises"
+      ],
+      "explanation": "La fiche A70.01 explique que l'ETCS1 (superposé au BAL et à ses circuits de voie/compteurs d'essieux) repose sur une transmission unidirectionnelle ponctuelle (Eurobalises commandées par LEU vers l'ordinateur de bord EVC, optimisée éventuellement par des Points d'Information avancés). En conséquence, la fermeture d'urgence d'un signal en aval d'un train ayant déjà un EOA au-delà n'est pas prise en compte instantanément par le système bord. Le dépassement de la tolérance de vitesse autorisée commande un freinage d'urgence, et le dépassement de l'EOA commande un Train trip.",
+      "sources": [
+        "A70.01 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/2 et 2/2, Principe, Cantonnement et Protection des points dangereux"
+      ]
+    },
+    {
+      "id": "lot05-q20",
+      "type": "qcm_multi",
+      "category": "ETCS1 — Observation obligatoire de la signalisation au sol",
+      "fiche": "A70.02",
+      "difficulty": "difficile",
+      "question": "En ETCS niveau 1, dans quels modes et situations précises de la fiche A70.02 le conducteur doit-il observer et respecter la signalisation au sol (en plus de son obligation permanente vis-à-vis des signaux de danger) ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "En mode SR, en mode OS, et en mode SH lorsque le conducteur est en tête du mouvement ou refoule un véhicule",
+        "En mode FS lorsqu'il circule avec une vitesse autorisée inférieure ou égale à la vitesse d'approche (Release Speed en approche d'un EOA), lorsqu'il circule en manœuvre, ou lors de l'apparition d'un message textuel précisant l'implantation de TIV pentagonaux accompagnés d'une pancarte « L »",
+        "En mode FS lorsqu'il reprend sa marche après tout arrêt accidentel ou après un arrêt normal supérieur à 3 minutes — et, même sans EOA à respecter en mode FS, s'il perçoit un signal d'arrêt fermé (fermeture intempestive -> respecter l'indication la plus restrictive et aviser l'agent du SGC)"
+      ],
+      "distractors": [
+        "En mode FS, le conducteur est totalement dispensé d'observer tout signal d'arrêt fermé ou toute torche à flamme rouge au sol dès lors que le DMI n'affiche pas d'EOA",
+        "En mode FS, l'observation de la signalisation au sol lors d'une reprise après arrêt normal n'est exigée qu'après un arrêt supérieur à 15 minutes",
+        "En mode OS, le conducteur se fie exclusivement au DMI et ne doit pas observer la signalisation au sol",
+        "En mode FS, lorsqu'un signal au sol fermé contredit une MA ouverte au DMI, l'indication la moins restrictive (celle du DMI) prévaut toujours"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A70.02 liste exhaustivement les situations imposant d'observer et respecter la signalisation au sol en ETCS1 : modes SR, OS, SH (en tête ou refoulement 1 véhicule), et mode FS dans 5 cas (V autorisée ≤ Release Speed, manœuvre, reprise après tout arrêt accidentel, reprise après arrêt normal > 3 min, message textuel TIV pentagonaux + pancarte L). Par ailleurs, en mode FS même sans EOA à respecter, la perception d'un signal d'arrêt fermé ou d'une anomalie impose d'obéir immédiatement à l'indication la plus restrictive (fermeture intempestive) et d'aviser l'agent du SGC.",
+      "sources": [
+        "A70.02 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/1, Principe, Incohérence dans les informations perçues et Application métier 1"
+      ]
+    },
+    {
+      "id": "lot05-q21",
+      "type": "qcm",
+      "category": "ETCS1 — Limitations de vitesse et cas particulier des LTV",
+      "fiche": "A70.03",
+      "difficulty": "moyen",
+      "question": "Vous circulez en ETCS niveau 1 (mode FS) sur une zone de LTV annoncée au DMI par le message « Proximité chantier » (affiché en principe 300 m en amont du TIV d'exécution et effacé 50 m après son franchissement). La vitesse autorisée affichée au DMI est de 40 km/h (≤ 50 km/h). Vous constatez soudain une dépression non provoquée dans la conduite générale. Quelles règles de la fiche A70.03 s'appliquent ?",
+      "correctAnswer": "En mode FS, vous vous basez sur la vitesse autorisée affichée au DMI (≤ 50 km/h) et prenez immédiatement les mesures relatives aux présomptions de déraillement conformément à l'article F20.03 (« Chute de pression à la CFA-CG — Mesures immédiates ») ; il en serait de même à la vue d'une torche à flamme rouge allumée ou de sa lueur",
+      "distractors": [
+        "En mode FS, le système ETCS gère automatiquement les présomptions de déraillement et l'article F20.03 ne s'applique qu'en signalisation au sol",
+        "Les mesures de présomption de déraillement F20.03 ne s'appliquent que si la LTV est inférieure ou égale à 30 km/h (jamais à 40 ou 50 km/h)",
+        "Le message « Proximité chantier » s'affiche 1 000 m en amont du TIV à distance et reste affiché jusqu'au dégagement complet du dernier véhicule",
+        "En mode FS, pour savoir si vous circulez sur une LTV ≤ 50 km/h, vous devez ignorer le DMI et vous baser exclusivement sur les TIV de chantier au sol",
+        "Le système ETCS connaît automatiquement toutes les restrictions de vitesse liées aux particularités de composition et d'engins moteurs",
+        "En mode SR, le système bord reçoit également toutes les LTV dans l'allocation de voie et les contrôle automatiquement"
+      ],
+      "explanation": "La fiche A70.03 précise : (1) particularités de composition/EM non connues de l'ETCS ; (2) en mode SR aucune MA n'est transmise -> respecter les limitations inférieures au mode SR aux RT/LiLi, au sol ou sur ordre écrit ; (3) message « Proximité chantier » affiché en principe 300 m avant le TIV-E et effacé 50 m après ; (4) en franchissant ou venant de franchir une LTV ≤ 50 km/h (selon la vitesse autorisée au DMI en FS ; selon la signalisation au sol dans les autres modes), une dépression non provoquée à la CG ou la vue d'une TFR/lueur impose les mesures de présomption de déraillement (F20.03).",
+      "sources": [
+        "A70.03 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/1, Principe, Particularités et Cas particulier des LTV"
+      ]
+    },
+    {
+      "id": "lot05-q22",
+      "type": "qcm_multi",
+      "category": "ETCS1 — Signalisation propre à la traction électrique",
+      "fiche": "A70.04",
+      "difficulty": "moyen",
+      "question": "Concernant la signalisation propre à la traction électrique (« Baissez Panto » et « Coupez Courant ») affichée au DMI en ETCS1 (A70.04), quelles propositions sont exactes ? (Sélectionnez toutes les réponses exactes.)",
+      "correctAnswers": [
+        "L'affichage ETCS de la signalisation de traction électrique ne tient PAS compte des particularités propres à certains engins moteurs (par exemple l'obligation pour les T13 circulant en UM de baisser panto au franchissement des « Coupez Courant ») : le conducteur doit respecter les spécificités de son EM",
+        "Dès l'affichage du symbole « Baissez Panto » ou « Coupez Courant » (appuyé d'un S_Info), le conducteur ramène le manipulateur de traction à zéro, ouvre le(s) disjoncteur(s) (« ZDJ » sur « Arrêt »), et pour « Baissez Panto » commande l'abaissement du ou des pantographes (tandis que pour un « Coupez Courant » automatique, il n'entreprend aucune action)",
+        "Avant de commander le relevage des pantographes ou la refermeture du disjoncteur au franchissement de la fin de zone, le conducteur doit tenir compte de la position des pantographes dans son convoi (en particulier en UM) et, en cas de changement de tension, du panneau de changement de tension"
+      ],
+      "distractors": [
+        "Lors d'une transition de domaine, les symboles d'indications ponctuelles de traction électrique du domaine précédent disparaissent immédiatement et ne sont plus à respecter",
+        "L'affichage ETCS adapte automatiquement les ordres « Coupez Courant » en « Baissez Panto » pour les T13 circulant en UM",
+        "En mode SR, le système ETCS continue d'afficher au DMI toutes les zones temporaires « Baissez Panto » et « Coupez Courant »",
+        "Dès l'affichage du symbole « Fin de parcours Baissez Panto » au DMI, le conducteur relève immédiatement tous les pantographes d'une UM sans tenir compte de la position du pantographe arrière"
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche A70.04 rappelle quatre points cruciaux en ETCS1 : (1) en mode SR, suivre la signalisation au sol ou l'ordre écrit ; (2) aux transitions de domaines, les symboles du domaine précédent restent affichés le temps nécessaire dans le nouveau domaine et doivent être respectés ; (3) les spécificités d'EM (ex. T13 en UM) ne sont pas connues de l'ETCS ; (4) avant de relever panto ou fermer ZDJ, tenir compte de l'emplacement des pantographes dans le convoi (en particulier en UM) et du sélecteur de tension. Pour « Coupez courant » automatique : n'entreprendre aucune action.",
+      "sources": [
+        "A70.04 — © Lineas, June 14, 2020 Brussels (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe, Symboles et Application métier 1.1 à 1.3"
+      ]
+    },
+    {
+      "id": "lot05-q23",
+      "type": "qcm",
+      "category": "ETCS1 — Limitations de vitesse ou de traction électrique inopinées",
+      "fiche": "A70.05",
+      "difficulty": "moyen",
+      "question": "Sur une ligne équipée en ETCS niveau 1, une Limitation Temporaire de Vitesse (LTV) vient d'être posée à l'improviste et n'a PAS encore été intégrée au système sol ETCS. Selon la fiche A70.05 (juin 2025), comment cette restriction vous est-elle transmise et jusqu'à quel moment précis devez-vous la respecter ?",
+      "correctAnswer": "L'agent circulation vous arrête avant la zone et vous transmet un ordre écrit OCAR (Ordre de Circuler Avec Restriction — Instruction Nationale 41) ; vous devez respecter la signalisation temporaire prescrite jusqu'à ce que votre train ait entièrement dégagé la zone couverte par la restriction",
+      "distractors": [
+        "Vous pouvez franchir la zone sans arrêt ni ordre écrit dès lors que le repère d'approche clignote au sol, même si le système sol ETCS ne l'a pas encore intégrée",
+        "L'agent circulation vous transmet uniquement une instruction IE1 annotée et vous reprenez la vitesse du DMI dès que la tête du train franchit le tableau blanc",
+        "L'agent circulation vous avise par simple appel radio GSM-R sans formulaire écrit, et la restriction cesse dès l'effacement du message « Proximité chantier »",
+        "Une fois la signalisation temporaire intégrée au système sol, l'agent circulation doit continuer à remettre des ordres OCAR tant que le repère d'approche reste posé au sol",
+        "En ETCS1, l'ordre écrit utilisé pour une LTV inopinée est l'ordre CBA (Instruction Nationale 37)",
+        "Le conducteur doit systématiquement passer manuellement en mode SR dès la réception d'un ordre OCAR en ETCS1"
+      ],
+      "explanation": "La fiche A70.05 (juin 2025) définit qu'en ETCS, une signalisation temporaire (LTV ou traction électrique) est considérée comme inopinée tant que le système sol ne l'a pas prise en compte. L'AC arrête les trains avant la zone et transmet un ordre écrit OCAR (IN 41), à respecter jusqu'au dégagement complet du train hors de la zone couverte (pour une LTV). Une fois le système sol mis à jour, le conducteur peut rencontrer un repère d'approche sans avoir reçu d'ordre écrit.",
+      "sources": [
+        "A70.05 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/2 et 2/2, Principe et Application métier 1 et 1.1"
+      ]
+    },
+    {
+      "id": "lot05-q24",
+      "type": "open",
+      "category": "ETCS1 — Transition ETCS1 → Signalisation au sol (nominale et dégradée)",
+      "fiche": "A70.06",
+      "difficulty": "difficile",
+      "question": "Votre train de fret circule en ETCS niveau 1 et franchit le Point Limite de Domaine (PLD) vers une section en signalisation au sol (KVB). Décrivez la procédure réglementaire complète (fiche A70.06, juin 2025) dans chacun des cas suivants : (1) transition nominale au PLD (délai d'acquittement, sanction en cas de non-acquittement, durée de respect des indications ETCS1 antérieures) ; (2) présence préalable d'un EOA ou du mode OS/SR avant disparition des indications ETCS1 ; (3) non-réalisation automatique de la transition (maintien des indications ETCS1) en mode FS/OS vs en mode SR.",
+      "modelAnswer": "1. Transition nominale au PLD (annoncée en amont par « Transition vers STM France » / symbole STM + S_Info, pouvant parfois être absent) : après franchissement du PLD, vérifier la disparition des indications de conduite ETCS1 et acquitter dans les 5 secondes le message « Acquitter la Transition » ou le symbole STM dans un cadre jaune clignotant (sinon freinage d'urgence commandé par le système bord). Rechercher et respecter la signalisation au sol ainsi que les indications éventuelles du KVB. Continuer de respecter les indications de conduite ETCS1 présentées auparavant jusqu'à ce que le DERNIER VÉHICULE du train ait franchi le PLD. 2. Conditions particulières héritées avant disparition des indications ETCS1 : (a) si un EOA était à respecter -> se mettre en mesure de s'arrêter avant le signal d'arrêt et appliquer la VISA ; (b) si le mode OS ou SR était affiché -> continuer d'observer la marche à vue jusqu'au premier panneau de forme non circulaire de signalisation au sol. 3. Maintien des indications ETCS1 (transition non réalisée automatiquement) : (a) en mode FS ou OS -> respecter l'EOA ; (b) en mode SR -> s'arrêter avant le premier signal de cantonnement situé en aval du PLD, même si ce dernier n'impose pas l'arrêt ; une fois arrêté, aviser l'agent circulation que la transition vers STM France ne s'est pas réalisée automatiquement et sélectionner manuellement le niveau « STM France ». (En cas de Train trip lors de la transition -> appliquer F30.21.)",
+      "keyPoints": [
+        {
+          "label": "Vérifier la disparition des indications ETCS1 et acquitter dans les 5 secondes le message « Acquitter la Transition » ou le symbole STM (cadre jaune clignotant), sinon freinage d'urgence",
+          "critical": true
+        },
+        {
+          "label": "Continuer de respecter les indications de conduite ETCS1 antérieures jusqu'à ce que le DERNIER VÉHICULE ait franchi le PLD, puis appliquer la signalisation au sol et le KVB",
+          "critical": true
+        },
+        {
+          "label": "Si un EOA était à respecter avant disparition des indications ETCS1 : se mettre en mesure de s'arrêter avant le signal d'arrêt et appliquer la VISA",
+          "critical": true
+        },
+        {
+          "label": "Si le mode OS ou SR était affiché avant disparition des indications ETCS1 : continuer d'observer la marche à vue jusqu'au premier panneau de forme non circulaire de signalisation au sol",
+          "critical": true
+        },
+        {
+          "label": "Si la transition ne se réalise pas automatiquement : en FS/OS respecter l'EOA ; en SR s'arrêter avant le premier signal de cantonnement en aval du PLD même s'il n'impose pas l'arrêt ; puis aviser l'AC et sélectionner manuellement « STM France »",
+          "critical": true
+        }
+      ],
+      "explanation": "La fiche A70.06 (juin 2025) encadre de manière très stricte la sortie du domaine ETCS1 : délai d'acquittement de 5 s, maintien des contraintes ETCS1 jusqu'au passage du dernier véhicule au PLD, bascule VISA si EOA ou MAV jusqu'au 1er panneau non circulaire si OS/SR, et arrêt obligatoire au 1er signal de cantonnement aval (même ouvert) si maintien en mode SR.",
+      "sources": [
+        "A70.06 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/4, 3/4 et 4/4, Principe et Application métier 1, 2 et 4"
+      ]
+    },
+    {
+      "id": "lot05-q25",
+      "type": "qcm",
+      "category": "ETCS1 — Transition vers une ligne en Block Manuel (BM) sur signal fermé",
+      "fiche": "A70.06",
+      "difficulty": "difficile",
+      "question": "En ETCS niveau 1, le message textuel « Vers BM » s'est affiché au DMI et vous êtes arrêté devant le dernier signal équipé ETCS1 qui est fermé, donnant accès à une section de ligne équipée en Block Manuel dont le canton est occupé (ou présumé tel par l'agent du SGC). Quels documents réglementaires devez-vous recevoir avant de franchir ce signal ?",
+      "correctAnswer": "Vous faire reconnaître comme train ETCS1, recevoir l'ordre écrit IE1 annoté en instructions supplémentaires « dirigé vers ..., ligne en block manuel » ET « Réception d'un ordre MV », ET recevoir directement (de main à la main) l'ordre MV (IN 82), puis appliquer A11.14, observer la MAV jusqu'au poste de cantonnement suivant, vous y arrêter et remettre l'ordre MV au garde",
+      "distractors": [
+        "Recevoir uniquement un ordre C (IN 38) par radio GSM-R, sans instruction IE1 puisque la ligne en aval est en Block Manuel",
+        "Recevoir uniquement une instruction IE1 sans ordre MV, l'ordre MV n'étant pas utilisé lors d'une sortie d'ETCS1",
+        "Passer manuellement en niveau « STM France » avant le signal fermé puis recevoir un ordre S (IN 84) transmis par radio",
+        "Recevoir un ordre CBA (IN 37) et franchir le signal fermé en appuyant sur BP-FC sans utiliser la fonction Override EOA",
+        "Recevoir une instruction IE1 annotée « évolution hors cantonnement » dès que le canton de BM est occupé",
+        "Franchir le signal fermé de vous-même en marche à vue après 5 minutes puisque la transition vers le BM a lieu en amont du signal"
+      ],
+      "explanation": "La fiche A70.06 (p. 2/4 et 4/4, juin 2025) précise que la transition vers du BM (annoncée par « Vers BM ») s'effectue systématiquement en aval du talon d'aiguille d'accès au BM. Sur signal fermé : reconnaissance comme train ETCS1 + ordre écrit IE1 complété « dirigé vers ..., ligne en block manuel » (remplaçant un ordre C IN38 si canton libre ; annoté « évolution hors cantonnement » si tel est le cas ; ou annoté « Réception d'un ordre MV » conjointement à la remise directe de l'ordre MV IN82 si canton occupé/présumé tel, avec MAV jusqu'au poste suivant, arrêt et remise au garde).",
+      "sources": [
+        "A70.06 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 2/4 et 4/4, Particularité d'une transition pouvant donner accès vers du BM et Application métier 3"
+      ]
+    },
+    {
+      "id": "lot05-q26",
+      "type": "qcm",
+      "category": "ETCS1 — Transition Signalisation au sol → ETCS1 (nominale et absence de transition)",
+      "fiche": "A70.07",
+      "difficulty": "moyen",
+      "question": "Vous circulez en signalisation au sol (KVB) et franchissez un Point Limite de Domaine (PLD) ouvert vers une ligne équipée en ETCS niveau 1. Vous recevez le message « Acquitter la transition » dans un cadre jaune clignotant et le message « Entrée en mode FS » apparaît. Jusqu'à quel moment restez-vous responsable des limitations de vitesse antérieures, et que faites-vous si, au contraire, la transition ne s'est pas réalisée au PLD ?",
+      "correctAnswer": "Vous acquittez dans les 5 secondes (sinon freinage d'urgence), cessez de tenir compte des indications du dernier panneau de signalisation au sol, mais restez responsable du respect des limitations de vitesse antérieures jusqu'à la disparition (extinction) du message « Entrée en mode FS » (ou « Entrée en mode OS ») ; si la transition ne s'est pas réalisée, vous poursuivez votre marche en respectant la signalisation au sol et avisez l'agent du SGC",
+      "distractors": [
+        "Vous pouvez ignorer toutes les limitations de vitesse antérieures dès l'affichage de « Transition vers ETCS N1 » en amont du PLD ; si la transition échoue, vous vous arrêtez d'urgence",
+        "Vous disposez de 60 secondes pour acquitter la transition ; si la transition échoue, vous sélectionnez manuellement le niveau ETCS1 en roulant",
+        "Vous restez responsable des limitations de vitesse antérieures jusqu'au franchissement du premier signal de cantonnement ETCS1 situé en aval du PLD",
+        "L'absence de MA au PLD ne provoque pas de Train trip mais bascule automatiquement le train en mode SR",
+        "Au franchissement du PLD en transition réussie, vous continuez de donner priorité au dernier panneau de signalisation au sol sur les indications du DMI",
+        "Si la transition ne s'est pas réalisée, vous passez immédiatement en marche à vue à 30 km/h sans aviser l'agent du SGC"
+      ],
+      "explanation": "La fiche A70.07 (juin 2025) fixe précisément la transition sol -> ETCS1 : vérification de l'affichage (niveau 1, mode, vitesse autorisée), acquittement dans les 5 s (sinon freinage d'urgence), respect des limitations de vitesses antérieures jusqu'à disparition/extinction du message « Entrée en mode FS » ou « Entrée en mode OS », cessation de prise en compte du dernier panneau sol, et conformité au DMI. L'absence de MA au PLD entraîne un Train trip (F30.21). Si la transition ne se réalise pas, le conducteur poursuit selon la signalisation au sol et avise l'agent du SGC.",
+      "sources": [
+        "A70.07 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/3, 2/3 et 3/3, Principe, Particularité et Application métier 1 et 4"
+      ]
+    },
+    {
+      "id": "lot05-q27",
+      "type": "open",
+      "category": "ETCS1 — Franchissement du carré fermé associé au PLD (Sol → ETCS1)",
+      "fiche": "A70.07",
+      "difficulty": "difficile",
+      "question": "Vous circulez en signalisation au sol (KVB) et êtes arrêté à 40 m devant un signal carré fermé associé au Point Limite de Domaine (PLD) donnant accès à une ligne équipée en ETCS niveau 1. Vous n'avez encore effectué aucune démarche. Décrivez la procédure réglementaire complète (fiche A70.07, juin 2025) pour franchir ce carré fermé, y compris le bouton à actionner (avec ses conditions de distance et de délai), les vérifications après franchissement, et la conduite à tenir si la transition ne se réalise pas après réception de l'instruction.",
+      "modelAnswer": "1. Se faire reconnaître auprès de l'agent circulation et se conformer aux instructions. 2. Recevoir l'autorisation de franchissement à l'aide de l'instruction IE1. 3. Appuyer sur le bouton FC (KVB, puisque le train est encore en domaine signalisation au sol / KVB) : être arrêté à moins de 100 mètres du signal et réaliser cet appui dans un délai de 60 secondes avant de franchir le signal fermé. 4. Franchir le signal fermé sans tenir compte de l'explosion éventuelle des signaux détonants (à noter : si le signal au PLD présente un feu rouge fixe avec œilleton éteint et sous certaines conditions d'occupation du canton aval, le bord peut recevoir une MA en mode OS au franchissement). 5. Vérifier l'affichage des indications de conduite ETCS (niveau 1, mode et vitesse autorisée), s'assurer de la bonne réalisation de la transition et se conformer aux indications du DMI. 6. Si, après réception de l'instruction IE1, la transition ne se réalise pas : respecter les prescriptions de circulation après réception de l'instruction IE1, poursuivre la marche en respectant la signalisation au sol, et aviser l'agent du SGC. (En cas de Train trip lors de la transition -> appliquer F30.21.)",
+      "keyPoints": [
+        {
+          "label": "Se faire reconnaître auprès de l'agent circulation et recevoir l'autorisation de franchissement à l'aide de l'instruction IE1",
+          "critical": true
+        },
+        {
+          "label": "Appuyer sur le bouton FC en étant arrêté à moins de 100 m du signal et dans un délai de 60 secondes avant de franchir le signal fermé",
+          "critical": true
+        },
+        {
+          "label": "Franchir le signal fermé sans tenir compte de l'explosion éventuelle des signaux détonants",
+          "critical": true
+        },
+        {
+          "label": "Vérifier l'affichage des indications de conduite ETCS (niveau 1, mode et vitesse autorisée), s'assurer de la bonne réalisation de la transition et se conformer au DMI (MA en mode OS possible si feu rouge fixe œilleton éteint selon occupation aval)",
+          "critical": true
+        },
+        {
+          "label": "Si la transition ne se réalise pas après réception de l'IE1 : respecter les prescriptions de circulation après IE1, poursuivre la marche en respectant la signalisation au sol et aviser l'agent du SGC",
+          "critical": true
+        }
+      ],
+      "explanation": "Point d'attention majeur de la fiche A70.07 (juin 2025) : devant un carré fermé associé au PLD en venant de la signalisation au sol, l'autorisation délivrée est une instruction IE1, mais l'action cabine avant franchissement est bien l'appui sur le bouton FC (< 100 m, ≤ 60 s), suivi de la vérification de la transition ETCS1 (ou poursuite en signalisation au sol + prescriptions IE1 + avis SGC si la transition ne s'effectue pas).",
+      "sources": [
+        "A70.07 — © Lineas, June 08, 2025 Lille (All rights reserved) — p. 1/3 et 3/3, Principe et Application métier 2, 3 et 4"
+      ]
+    }
+  ]
+}
