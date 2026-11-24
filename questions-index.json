@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "updatedAt": "2026-11-24T17:58:00Z",
+  "updatedAt": "2026-11-24T18:10:00Z",
   "packs": [
     {
       "packId": "lot01-signalisation-arret",
@@ -282,6 +282,53 @@
         "B60.06"
       ],
       "generatedAt": "2026-11-24T17:58:00Z"
+    },
+    {
+      "packId": "lot08-securite-bord-daat-kvb-rs-va-gsmr-atess-etcs",
+      "title": "Lot 8 — Systèmes de sécurité embarqués (DAAT, KVB, RS, VA, GSM-R, ATESS et ETCS — C10 à C70)",
+      "file": "lot08-securite-bord-daat-kvb-rs-va-gsmr-atess-etcs.json",
+      "description": "DAAT (principes, déclenchement, isolement DT/pousse, inhibition BP-FC), KVB (visualisateurs/STM-KVB, essai BP-TEST, affichage/validation paramètres, manœuvres/BP-MV 3 500 m, seuils survitesse +5/+10 km/h, LTV/L, 00/000, arrêt > 3 min, exercices de barèmes C20.10 ME / C20.11 MA / C20.12 HLP / C20.15 Situations exceptionnelles), Répétition des Signaux et mémorisation LS-SF, Veille Automatique VACMA (temporisations, essai complet/marche, annulation alarme VA), Radio GSM-R (indexation, code 02, SAR, secours-radio, MESA 23/24), ATESS (délais cassette 7 j/15 j, seuil 80 %) et ETCS (niveaux, architecture bord, code couleur DMI, modes SR/FS/OS/SH/NL/TR/PT/SL/SF/IS/NP, Valeurs Nationales/Release Speed/Override, SOM/EM en véhicule/EOM, MA/freinage, messages textuels et anomalies).",
+      "questionCount": 30,
+      "breakdown": {
+        "qcm": 17,
+        "qcm_multi": 8,
+        "open": 5
+      },
+      "fiches": [
+        "C10.01",
+        "C10.02",
+        "C10.03",
+        "C20.01",
+        "C20.02",
+        "C20.03",
+        "C20.04",
+        "C20.05",
+        "C20.06",
+        "C20.07",
+        "C20.10",
+        "C20.11",
+        "C20.12",
+        "C20.15",
+        "C30.01",
+        "C30.02",
+        "C30.03",
+        "C40.01",
+        "C40.02",
+        "C40.03",
+        "C50.01",
+        "C60.01",
+        "C70.01",
+        "C70.02",
+        "C70.03",
+        "C70.04",
+        "C70.05",
+        "C70.10",
+        "C70.11",
+        "C70.12",
+        "C70.20",
+        "C70.21"
+      ],
+      "generatedAt": "2026-11-24T18:10:00Z"
     }
   ]
 }

@@ -1,0 +1,945 @@
+{
+  "packId": "lot08-securite-bord-daat-kvb-rs-va-gsmr-atess-etcs",
+  "title": "Lot 8 — Systèmes de sécurité embarqués (DAAT, KVB, RS, VA, GSM-R, ATESS et ETCS — C10 à C70)",
+  "generatedAt": "2026-11-24T18:10:00Z",
+  "questions": [
+    {
+      "id": "lot08-q01",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "DAAT — Principes, déclenchement et isolement en DT/pousse (C10.01)",
+      "difficulty": "moyen",
+      "prompt": "Vous conduisez une circulation en double traction (poste en 2e position) sur une ligne à voie unique non électrifiée équipée du DAAT. Avant le départ, le DAAT de votre engin moteur n'a pas encore été isolé. Quelle est la fonction principale du DAAT, que se passe-t-il en cas de franchissement d'un point d'information activé, et quelle mesure impérative devez-vous prendre sur cet engin non en tête ?",
+      "correctAnswer": "Le DAAT prévient les risques de nez-à-nez (transmission ponctuelle via crocodile et brosse RS) ; le franchissement d'un point activé déclenche des opérations d'arrêt irréversibles jusqu'à l'arrêt (coupure traction/disjoncteur, vidange CFA/CG, clignotement voyant FC, RS fermé) ; sur l'EM non en tête (DT/pousse), vous devez isoler manuellement le DAAT, demander le plombage au carnet de bord et le remettre immédiatement en service en fin de mouvement.",
+      "distractors": [
+        "Le DAAT contrôle en continu la vitesse sur toute la ligne via des balises KVB ; sur l'EM non en tête en DT, il se met automatiquement en sommeil sans intervention du conducteur.",
+        "Le DAAT protège principalement les passages à niveau et garages francs ; en cas de déclenchement, le freinage d'urgence peut être relâché dès que la vitesse descend sous 30 km/h.",
+        "Le DAAT prévient les risques de nez-à-nez ; sur l'EM non en tête, il faut simplement appuyer sur le BP-FC avant chaque gare sans jamais isoler le système.",
+        "Sur un EM dont le DAAT est isolé, le franchissement d'un point d'information activé ne déclenche plus aucune indication, pas même la répétition des signaux en cabine.",
+        "Le DAAT est installé sur tous les engins moteurs Lineas y compris les locotracteurs, et son isolement en pousse dispense d'isoler le KVB.",
+        "Le franchissement d'un point d'information DAAT activé provoque uniquement l'allumage fixe du voyant FC et laisse 5 secondes au conducteur pour acquitter avant freinage."
+      ],
+      "explanation": "Selon C10.01 (révision 14/06/2026) : le DAAT prévient les risques de nez-à-nez (principalement en gares de lignes à une seule voie unique/banalisée non électrifiées parcourues par voyageurs ou MD ; il n'est normalement pas conçu pour protéger garages francs ou PN). L'interface sol-bord passe par le crocodile et la brosse RS. Le franchissement d'un point activé provoque une phase irréversible jusqu'à l'arrêt (relais traction/arrêt moteur/disjoncteur, vidange CFA/CG, clignotement voyant FC, RS « signal fermé »). Si l'EM est non équipé ou DAAT isolé, seule l'indication RS « signal fermé » se déclenche. En DT ou pousse, l'isolement manuel du DAAT sur l'EM non en tête est impératif (plombage demandé au CB, remise en service immédiate à la fin du mouvement).",
+      "sources": [
+        "C10.01 — DAAT - Dispositif d'arrêt automatique des trains - Généralités, p. 1-2/2 (© Lineas, June 14, 2026 Lille)"
+      ]
+    },
+    {
+      "id": "lot08-q02",
+      "type": "open",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "Inhibition du DAAT — Franchissement sur ordre et manœuvres/refoulements (C10.02 / C10.03)",
+      "difficulty": "moyen",
+      "prompt": "Vous circulez avec un engin moteur équipé du DAAT et du KVB. Vous recevez soit un ordre écrit/dépêche d'annuler le DAAT (installation sol en dérangement ou franchissement autorisé d'un signal d'arrêt fermé), soit un ordre verbal en manœuvre/refoulement avec un point désigné par le chef de la manœuvre. Vous n'avez pas encore inhibé le système. Décrivez précisément la procédure d'inhibition à appliquer, les conditions de distance et de durée de validité de cette inhibition, et l'action obligatoire au franchissement du point d'information.",
+      "modelAnswer": "1. Arrêt préalable : s'arrêter à moins de 100 m du signal d'arrêt fermé ou du point d'information activé (au point désigné par le chef de la manœuvre, situé à moins de 100 m du point d'information).\n2. Inhibition à l'arrêt : appuyer sur les DEUX boutons-poussoirs BP-FC (DAAT et KVB).\n3. Contrôle visuel : vérifier l'allumage fixe des voyants « BP-FC ».\n4. Durée et portée de l'inhibition : l'inhibition du contrôle d'arrêt absolu reste active (voyants allumés) sur une distance de 100 m, pendant 60 secondes (1 minute) après activation, ou jusqu'au passage sur le premier crocodile.\n5. Reprise et franchissement : reprendre la marche et réarmer impérativement la répétition des signaux (RS) au franchissement du signal ou du point d'information (même si le DAAT est isolé ou en dérangement).",
+      "keyPoints": [
+        {
+          "label": "S'arrêter à moins de 100 m du signal fermé / du point d'information (ou au point désigné par le chef de manœuvre à < 100 m)",
+          "critical": true
+        },
+        {
+          "label": "À l'arrêt, appuyer sur les deux BP-FC (DAAT et KVB)",
+          "critical": true
+        },
+        {
+          "label": "Vérifier l'allumage fixe des voyants BP-FC avant de reprendre la marche",
+          "critical": true
+        },
+        {
+          "label": "Validité de l'inhibition : 100 m, 60 secondes (1 minute), ou jusqu'au passage sur le premier crocodile",
+          "critical": true
+        },
+        {
+          "label": "Réarmer la répétition des signaux (RS) au franchissement du signal / point d'information",
+          "critical": true
+        }
+      ],
+      "explanation": "Les fiches C10.02 et C10.03 harmonisent la procédure d'inhibition du DAAT (manœuvre/refoulement sur ordre verbal de l'AC ou chef de manœuvre, dérangement DAAT sol sur ordre écrit/dépêche, ou autorisation de franchissement d'un signal d'arrêt fermé) : arrêt à < 100 m, appui à l'arrêt sur les deux BP-FC (DAAT + KVB), contrôle de l'allumage fixe (valable 100 m / 60 s / jusqu'au 1er crocodile) et réarmement de la RS au passage.",
+      "sources": [
+        "C10.02 — DAAT - Manœuvres - Refoulement et rebroussement de faible amplitude, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "C10.03 — DAAT - Protection des points dangereux, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q03",
+      "type": "qcm_multi",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Visualisateurs classique / DMI STM-KVB et principes (C20.01)",
+      "difficulty": "moyen",
+      "prompt": "Concernant les principes généraux du KVB et les indications présentées sur le panneau de visualisation KVB classique ou le DMI du STM-KVB (fiche C20.01), quelles affirmations sont exactes ?",
+      "correctAnswers": [
+        "Sur les sections de ligne non équipées du KVB, le système ne contrôle que la vitesse limite de la catégorie de train validée.",
+        "L'affichage de « F » au visualisateur principal (ou « KVB : Incohérence paramètres » sur DMI) indique une incohérence entre les paramètres validés, tandis que « FU » (ou « SOS KVB ») apparaît lors d'une prise en charge par le système (à partir de la V6.00).",
+        "L'affichage de « 000 » au visualisateur auxiliaire (ou « 000 » sur DMI) correspond au contrôle d'annonce d'un signal d'arrêt fermé avec vitesse d'approche à 10 km/h, et « 000 » au visualisateur principal au contrôle de vitesse actif à 10 km/h."
+      ],
+      "distractors": [
+        "Lorsque le signal d'arrêt annoncé s'ouvre avant que le train ne l'atteigne, le KVB prend immédiatement en compte l'ouverture à distance avant le franchissement du signal.",
+        "L'affichage de « 888 » sur les visualisateurs auxiliaire et principal signifie qu'une panne sol (balise défectueuse) vient d'être détectée.",
+        "En cas de déclenchement automatique des opérations d'arrêt par le KVB, le conducteur peut lever le freinage d'urgence dès que la vitesse repasse sous la courbe de contrôle.",
+        "En double traction ou en pousse, le KVB de l'engin moteur non en tête reste en service afin d'assurer un contrôle redondant des balises."
+      ],
+      "displayCount": 5,
+      "explanation": "D'après C20.01 : sur ligne non équipée, seul le contrôle de VL de la catégorie validée est actif ; le changement d'état d'un signal annoncé n'est pris en compte qu'au franchissement ; une prise en charge KVB est irréversible jusqu'à l'arrêt ; « 888 / 888 » = autotest en cours ; « F » = incohérence paramètres ; « FU » / « SOS KVB » = prise en charge (V6+) ; « 000 » aux./princ. = contrôle 10 km/h (annonce / actif) ; en DT/pousse, isolement manuel du KVB sur l'EM non en tête (plombage au CB, remise en service immédiate en fin de mouvement).",
+      "sources": [
+        "C20.01 — KVB - Le contrôle de vitesse par balises - Généralités, p. 1-4/4 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q04",
+      "type": "open",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Contrôles à la mise en service et essai du KVB (C20.02)",
+      "difficulty": "moyen",
+      "prompt": "Vous venez de remettre en service le KVB de votre engin moteur après une circulation en pousse (ou lors d'une préparation courante où un essai complet de la VA est prescrit). L'essai du KVB n'a pas encore été exécuté. Indiquez : (1) les 4 vérifications postérieures à la mise en service du pupitre (après autotest), et (2) la séquence complète étape par étape de l'essai du KVB jusqu'à la remise en état de marche de l'EM.",
+      "modelAnswer": "1. Contrôles postérieurs à la mise en service du pupitre (après autotest automatique) :\n   - S'assurer que les voyants sont éteints ;\n   - S'assurer que les visualisateurs sont éteints ;\n   - S'assurer de l'absence de signaux sonores ;\n   - S'assurer que le voyant « BP-VAL » clignote.\n2. Déroulement de l'essai du KVB :\n   - Effectuer D'ABORD l'essai à l'arrêt de la Veille Automatique (VA) ;\n   - Sélectionner un sens de marche et alimenter la CFA/CG à 5 bars ;\n   - Appuyer sur le « BP-TEST » ;\n   - Vérifier l'allumage des voyants du système KVB, SAUF le voyant « BP-TEST » ;\n   - Relâcher le « BP-TEST » ;\n   - Vérifier la réalisation des opérations d'arrêt automatique : ouverture du disjoncteur / déclenchement du relais traction (ou arrêt moteur), mise à l'atmosphère de la CFA/CG, apparition de « FU » au visualisateur principal, allumage du voyant « freinage d'urgence » ;\n   - Remettre l'Engin Moteur en état de marche et réalimenter la CFA/CG à 5 bars.",
+      "keyPoints": [
+        {
+          "label": "Après mise en service du pupitre : voyants éteints, visualisateurs éteints, absence de signaux sonores, voyant BP-VAL clignotant",
+          "critical": true
+        },
+        {
+          "label": "Effectuer d'abord l'essai à l'arrêt de la VA, puis sélectionner un sens de marche et alimenter la CFA/CG à 5 bars",
+          "critical": true
+        },
+        {
+          "label": "Appuyer sur BP-TEST et vérifier l'allumage de tous les voyants KVB sauf le voyant BP-TEST",
+          "critical": true
+        },
+        {
+          "label": "Relâcher BP-TEST et vérifier les opérations d'arrêt automatique : coupure traction/disjoncteur (ou arrêt moteur), mise à l'atmosphère CFA/CG, affichage FU au principal, allumage voyant freinage d'urgence",
+          "critical": true
+        },
+        {
+          "label": "Remettre l'EM en état de marche et réalimenter la CFA/CG à 5 bars",
+          "critical": false
+        }
+      ],
+      "explanation": "L'essai du KVB (C20.02) est obligatoire lorsqu'un essai complet de la VA est prescrit ou lors de la remise en service du KVB après isolement (DT, pousse...). Il s'effectue toujours APRÈS l'essai à l'arrêt de la VA, et les opérations d'arrêt se déclenchent au RELÂCHEMENT du BP-TEST.",
+      "sources": [
+        "C20.02 — KVB - Essai, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q05",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Affichage, validation des paramètres et apparition de « F » (C20.03)",
+      "difficulty": "moyen",
+      "prompt": "À l'arrêt avant le départ d'un train de marchandises, vous venez de saisir les paramètres sur le panneau de données KVB et d'appuyer sur le bouton-poussoir « BP-VAL ». La lettre « F » s'affiche immédiatement au visualisateur principal. Quelle est la conduite exacte prescrite par la fiche C20.03, et que devez-vous noter sur votre Bulletin de Service une fois la validation réussie ?",
+      "correctAnswer": "Vérifier les valeurs affichées : si elles sont erronées, les rectifier, valider à nouveau et contrôler l'extinction de BP-VAL ; si elles sont correctes, appliquer le Mémento et le guide de dépannage. Une fois validé, noter le coefficient de décélération sur le Bulletin de Service.",
+      "distractors": [
+        "Appuyer trois fois de suite sur BP-VAL pour forcer l'effacement de la lettre « F », puis partir en limitant la vitesse à 80 km/h.",
+        "Laisser la lettre « F » affichée si elle correspond à un train de fret (Marchandises), et noter la longueur arrondie sur le Bulletin de Freinage.",
+        "Isoler immédiatement le KVB sans vérifier les roues codeuses, car « F » indique toujours une panne matérielle irréversible du calculateur.",
+        "Valider les paramètres en marche dès que le train atteint 10 km/h afin de réinitialiser le contrôle de cohérence.",
+        "Utiliser systématiquement le tableau « Situations exceptionnelles » en gare d'origine dès que la lettre « F » apparaît.",
+        "Vérifier les valeurs affichées, puis noter uniquement la vitesse maximale autorisée sur le Bulletin de Service."
+      ],
+      "explanation": "La fiche C20.03 (13/06/2022) précise que la validation s'effectue à l'arrêt avant départ (et après toute modification des caractéristiques du train) : on contrôle l'extinction de BP-VAL et l'absence de « F », et on note le coefficient de décélération sur le Bulletin de Service. Si « F » (incohérence paramètres) s'affiche après appui sur BP-VAL : vérifier les paramètres ; s'ils sont incorrects -> rectifier, revalider et contrôler l'extinction de BP-VAL ; s'ils sont corrects -> appliquer le Mémento et le guide de dépannage.",
+      "sources": [
+        "C20.03 — KVB - Affichage des paramètres, p. 1-3/3 (© Lineas, June 13, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q06",
+      "type": "qcm_multi",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB en manœuvre guidée, refoulement et rebroussement — BP-MV (C20.04)",
+      "difficulty": "difficile",
+      "prompt": "Vous effectuez des manœuvres guidées sur voie principale ou en direction d'une voie principale avec un engin moteur équipé du KVB. Parmi les prescriptions de la fiche C20.04 (révision du 11 juin 2023), lesquelles sont exactes ?",
+      "correctAnswers": [
+        "Lorsque le conducteur est en TÊTE du mouvement de manœuvre guidée sur/vers VP, le KVB doit rester actif avec les paramètres validés : Classe MA, Vitesse 03 (ou 02 si incident de frein), Longueur 8, Décélération 045, SANS appuyer sur BP-MV.",
+        "Lorsque le conducteur n'est PAS en tête (refoulement / rebroussement), l'appui à l'arrêt sur BP-MV inhibe le contrôle d'arrêt absolu sur 3 500 m, contrôle la vitesse à 30 km/h, allume BP-MV fixe, fait clignoter BP-VAL et annihile les paramètres antérieurs.",
+        "Si le mouvement en BP-MV excède 3 500 m : tant que le voyant BP-MV est encore allumé, un nouvel appui en marche (sans arrêt) valide une nouvelle distance de 3 500 m ; si BP-MV est éteint, il faut s'arrêter avant d'appuyer sur BP-MV."
+      ],
+      "distractors": [
+        "En manœuvre non guidée (EVO), le BP-MV peut être utilisé librement sur tout le parcours tant que la vitesse ne dépasse pas 30 km/h.",
+        "Après une manœuvre en BP-MV, vous pouvez partir en ligne sans réappuyer sur BP-VAL car le KVB restaure automatiquement les paramètres antérieurs dès le franchissement de la 1re balise.",
+        "Lorsque le conducteur est en tête d'une manœuvre guidée vers une voie principale, il doit appuyer sur BP-MV à l'arrêt pour inhiber les signaux de manœuvre.",
+        "L'inhibition obtenue par l'appui sur BP-MV est limitée à une distance de 1 500 mètres et à une vitesse contrôlée de 20 km/h."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche C20.04 (11/06/2023) distingue nettement : (1) en tête d'une manœuvre guidée sur/vers VP -> KVB actif (MA / 03 ou 02 / 8 / 045), NE PAS appuyer sur BP-MV ; (2) non en tête (refoulement/rebroussement) -> BP-MV à l'arrêt (3 500 m, 30 km/h, BP-MV fixe, BP-VAL clignotant, visualisateurs éteints, paramètres antérieurs annihilés ; en manœuvre non guidée, BP-MV limité aux seuls rebroussements de faible amplitude sans changement de cabine) ; (3) au-delà de 3 500 m -> réappui sans arrêt si BP-MV encore allumé, arrêt obligatoire si BP-MV éteint ; (4) interdiction formelle de mettre en mouvement une circulation autre que manœuvre guidée/refoulement/rebroussement lorsque BP-VAL est allumé (avec ou sans BP-MV) : il faut modifier si nécessaire et valider par BP-VAL.",
+      "sources": [
+        "C20.04 — KVB - Manœuvre - Refoulements et rebroussements de faible amplitude, p. 1-3/3 (© Lineas, June 11, 2023 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q07",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Seuils de survitesse et gestion des LTV / tableau blanc (C20.05)",
+      "difficulty": "moyen",
+      "prompt": "Vous conduisez un train MA80 d'une longueur totale de 860 mètres (longueur affichée au KVB classique = 8) sur une ligne équipée du KVB et vous franchissez une zone de Limitation Temporaire de Vitesse (LTV). Quels sont les seuils de dépassement de vitesse déclenchant l'alerte puis la prise en charge KVB, et quelle précaution impérative devez-vous observer avant de reprendre la vitesse normale au franchissement du tableau blanc de fin de LTV ?",
+      "correctAnswer": "L'alerte se déclenche à +5 km/h (signal sonore 2 s + voyant V) et la prise en charge à +10 km/h ; au dégagement de la LTV, vous devez attendre l'extinction du « L » au visualisateur principal ET vérifier que le dernier véhicule de votre train (> 800 m) a effectivement franchi le tableau blanc avant de reprendre la vitesse normale.",
+      "distractors": [
+        "L'alerte se déclenche à +3 km/h et la prise en charge à +5 km/h ; dès que le « L » s'éteint au visualisateur principal, le dernier véhicule a forcément dégagé le tableau blanc.",
+        "L'alerte se déclenche à +5 km/h et la prise en charge à +15 km/h ; la reprise de vitesse est autorisée dès que la tête du train franchit le tableau blanc.",
+        "L'alerte se déclenche à +10 km/h et la prise en charge à +15 km/h ; pour un tableau blanc à flèche verticale noire, il faut également parcourir la longueur totale du train.",
+        "L'alerte se déclenche à +5 km/h et la prise en charge à +10 km/h ; au franchissement du TIV d'exécution de chantier, le « L » s'éteint au visualisateur principal et s'affiche à l'auxiliaire.",
+        "L'alerte se déclenche à +5 km/h et la prise en charge à +10 km/h ; la lampe LS-SF reste impérativement allumée jusqu'à la sortie complète de la zone de chantier.",
+        "L'alerte se déclenche à +8 km/h et la prise en charge à +12 km/h ; l'extinction du « L » dispense de surveiller la longueur réelle du train au-delà de 800 m."
+      ],
+      "explanation": "La fiche C20.05 fixe : alerte survitesse à +5 km/h (bip 2 s + allumage voyant V tant que vitesse > VL) et prise en charge automatique à +10 km/h. En LTV : « L » à l'auxiliaire au TIV à distance, puis passage du « L » au principal au TIV d'exécution ; le « L » s'éteint au principal après parcours de la longueur validée au KVB -> pour les trains > 800 m (si encodés à 8), le conducteur doit impérativement vérifier que le dernier véhicule a bien franchi le tableau blanc en plus de l'extinction du « L ». En cas de tableau blanc à flèche verticale noire, il contrôle l'extinction du « L » au visualisateur AUXILIAIRE dès que la tête a franchi ce tableau. (Rappel : en cas de prise en charge pour survitesse/décélération insuffisante -> confirmer le FU, mesures d'urgence s'il y a lieu, vérifier visualisateurs, remettre EM en service, annoter BS.)",
+      "sources": [
+        "C20.05 — KVB - Contrôle de la vitesse autorisée, p. 1-3/3 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q08",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Approche d'un signal d'arrêt (« 00 » / « 000 ») et franchissement par BP-FC (C20.06)",
+      "difficulty": "moyen",
+      "prompt": "Après avoir franchi un avertissement fermé, vous approchez du signal d'arrêt annoncé qui vient de s'ouvrir, mais votre visualisateur auxiliaire KVB présente l'indication « 000 » (distance de glissement réduite < 200 m). Quelle vitesse maximale devez-vous observer à l'approche et au franchissement de ce signal ouvert, et quel délai réglementaire impose le BP-FC lorsqu'un franchissement de signal d'arrêt fermé est autorisé ?",
+      "correctAnswer": "Ne pas dépasser 10 km/h à l'approche et au franchissement du signal ouvert (contre 30 km/h pour « 00 » ou absence d'indication) ; pour franchir sur autorisation un signal d'arrêt fermé, s'arrêter à moins de 100 m et appuyer sur les deux BP-FC (DAAT et KVB) dans un délai de 60 secondes avant le franchissement.",
+      "distractors": [
+        "Reprendre immédiatement la vitesse normale dès que vous voyez le signal s'ouvrir, car « 000 » ne concerne que les signaux restés fermés ; délai BP-FC de 120 secondes.",
+        "Ne pas dépasser 30 km/h à l'approche et au franchissement du signal ouvert (« 000 » imposant 10 km/h uniquement sur signal fermé) ; délai BP-FC de 60 secondes.",
+        "Ne pas dépasser 15 km/h au franchissement du signal ouvert (équivalent à la Release Speed réduite) ; délai BP-FC de 30 secondes à moins de 50 m du signal.",
+        "Marquer un arrêt impératif devant le signal ouvert pour effacer « 000 » avant de repartir à 30 km/h ; délai BP-FC de 60 secondes.",
+        "Ne pas dépasser 10 km/h uniquement jusqu'à 200 m avant le signal, puis reprendre à 30 km/h au franchissement ; délai BP-FC sur 200 m.",
+        "Ne pas dépasser 20 km/h au franchissement du signal ouvert ; l'appui sur BP-FC peut se faire en marche sous 10 km/h."
+      ],
+      "explanation": "La fiche C20.06 précise : le KVB ne détecte l'ouverture du signal annoncé qu'au moment de son franchissement. Tant qu'il n'est pas franchi ouvert, on applique les prescriptions du signal d'annonce et on observe le visualisateur auxiliaire : « 000 » (distance de glissement < 200 m) impose ≤ 10 km/h à l'approche et au franchissement (même si le signal est ouvert !), et « 00 » ou absence d'indication impose ≤ 30 km/h. Pour un franchissement autorisé d'un signal d'arrêt fermé (C, CV, GA, S de BM/BAPR) : arrêt à < 100 m, appui à l'arrêt sur les deux BP-FC (DAAT et KVB) dans un délai de 60 s avant franchissement (inhibition sur 100 m), et ≤ 10 km/h si « 000 » ou ≤ 30 km/h sinon.",
+      "sources": [
+        "C20.06 — KVB - Protection des points dangereux, p. 1-3/4 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q09",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Remise en marche après arrêt accidentel ou arrêt > 3 minutes (C20.07)",
+      "difficulty": "moyen",
+      "prompt": "Après un arrêt en pleine voie d'une durée de 5 minutes sur ligne équipée du KVB, le signal de sortie est ouvert et vous constatez l'affichage de « 00 » au visualisateur principal et de « 000 » au visualisateur auxiliaire (par ailleurs, vous savez que lors d'un arrêt accidentel, le visualisateur principal peut parfois présenter « - - - »). Quelles règles de la fiche C20.07 devez-vous appliquer ?",
+      "correctAnswer": "Après tout arrêt > 3 minutes, reprendre la marche en observant la règle de l'arrêt accidentel et, du fait de « 000 » au visualisateur auxiliaire, ne pas dépasser 10 km/h au franchissement du signal ouvert ; de plus, la présentation de « - - - » au visualisateur principal ne délie jamais d'appliquer la règle de l'arrêt accidentel.",
+      "distractors": [
+        "Le signal de sortie étant ouvert, « 000 » au visualisateur auxiliaire est annulé par l'ouverture du signal et vous pouvez le franchir à 30 km/h.",
+        "Lorsque le visualisateur principal affiche « - - - » après un arrêt accidentel, le KVB confirme que la voie est libre et vous dispense de la règle de l'arrêt accidentel.",
+        "Le contrôle de l'arrêt accidentel par le KVB (30 km/h) ne se déclenche qu'après un arrêt d'une durée supérieure à 5 minutes.",
+        "La présentation de « 00 » au visualisateur principal impose systématiquement d'appuyer sur le BP-FC avant de franchir le signal ouvert.",
+        "En présence de « 00 » au principal et « 000 » à l'auxiliaire, c'est toujours le visualisateur principal (30 km/h) qui prévaut sur le visualisateur auxiliaire.",
+        "Après un arrêt de plus de 3 minutes devant un signal ouvert, aucune limitation à 30 km/h ou 10 km/h n'est contrôlée par le KVB s'il s'agissait d'un arrêt prévu à l'horaire."
+      ],
+      "explanation": "La fiche C20.07 rappelle trois points essentiels : (1) le KVB mesure la durée de TOUT arrêt sans en distinguer la nature et contrôle l'application de l'arrêt accidentel (30 km/h) après tout arrêt > 3 minutes (avec ou sans « 00 » au principal) ; (2) avec « 00 » au principal + « 00 » à l'auxiliaire -> ≤ 30 km/h au franchissement du signal ouvert, mais avec « 000 » à l'auxiliaire -> réduire si nécessaire et ne pas dépasser 10 km/h au franchissement du signal ouvert ; (3) la présentation de « - - - » au visualisateur principal ne délie JAMAIS le conducteur d'appliquer la règle de l'arrêt accidentel.",
+      "sources": [
+        "C20.07 — KVB - Remise en marche après un arrêt, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q10",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Exercice de calcul des paramètres ME100 (C20.10 / C20.03)",
+      "difficulty": "moyen",
+      "prompt": "Vous préparez le départ d'un train de messageries ME100 (longueur totale 645 m, masse totale 1 640 t, masse freinée totale réalisée 1 320 t). Les règles de composition et freinage ME100 sont satisfaites. À l'aide de l'extrait du tableau KVB C20.10 ci-dessous, quels paramètres exacts (Classe / Vitesse / Longueur / Décélération) devez-vous afficher et valider au panneau de données KVB ?",
+      "referenceTable": {
+        "title": "Extrait — Coefficients de décélération KVB pour trains ME100 (C20.10, p. 6/6)",
+        "openByDefault": true,
+        "headers": [
+          "Masse Totale (t)",
+          "057",
+          "061",
+          "065",
+          "069",
+          "074",
+          "080",
+          "087",
+          "096"
+        ],
+        "rows": [
+          [
+            "1 548 à 1 601",
+            "929",
+            "1 073",
+            "1 144",
+            "1 214",
+            "1 302",
+            "1 407",
+            "1 531",
+            "1 689"
+          ],
+          [
+            "1 602 à 1 657",
+            "961",
+            "1 111",
+            "1 184",
+            "1 256",
+            "1 347",
+            "1 457",
+            "1 584",
+            "1 748"
+          ],
+          [
+            "1 658 à 1 715",
+            "995",
+            "1 150",
+            "1 225",
+            "1 300",
+            "1 395",
+            "1 508",
+            "1 640",
+            "1 809"
+          ]
+        ],
+        "note": "Dans la ligne de la Masse Totale (t), relever la colonne dont la Masse Freinée Totale (t) indiquée est égale ou immédiatement inférieure à la Masse Freinée Totale réalisée du train. Règles C20.03 : Vitesse en dizaines de km/h ; Longueur arrondie à l'hectomètre supérieur sans dépasser 08."
+      },
+      "correctAnswer": "Classe ME — Vitesse 10 — Longueur 7 — Décélération 069 (tranche 1 602 à 1 657 t : 1 256 t ≤ 1 320 t < 1 347 t).",
+      "distractors": [
+        "Classe ME — Vitesse 10 — Longueur 7 — Décélération 074 (arrondi à la colonne la plus proche, 1 347 t).",
+        "Classe ME — Vitesse 10 — Longueur 6 — Décélération 069 (longueur arrondie à l'hectomètre inférieur).",
+        "Classe ME — Vitesse 10 — Longueur 7 — Décélération 074 (lecture erronée sur la ligne 1 548 à 1 601 t où 1 302 ≤ 1 320).",
+        "Classe MA — Vitesse 10 — Longueur 7 — Décélération 069 (erreur de classe de train).",
+        "Classe ME — Vitesse 10 — Longueur 7 — Décélération 065 (marge supplémentaire d'une colonne vers la gauche).",
+        "Classe ME — Vitesse 10 — Longueur 8 — Décélération 069 (affichage systématique de 8 en fret)."
+      ],
+      "explanation": "Application pas à pas de C20.03 et C20.10 (p. 6/6) : Classe = ME ; Vitesse = 100 km/h -> 10 ; Longueur = 645 m arrondie à l'hectomètre supérieur -> 7 ; Masse totale 1 640 t -> ligne « 1 602 à 1 657 » ; Masse freinée réalisée = 1 320 t : le seuil de 1 256 t (colonne 069) est atteint tandis que celui de 1 347 t (colonne 074) ne l'est pas -> coefficient à afficher = 069.",
+      "sources": [
+        "C20.10 — KVB - Coefficients de décélération Trains de Messageries (ME), ME100 (suite), p. 6/6 (© Lineas, June 16, 2019 Brussels)",
+        "C20.03 — KVB - Affichage des paramètres, p. 2/3 (© Lineas, June 13, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q11",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Exercice de calcul des paramètres MA90 (C20.11 / C20.03)",
+      "difficulty": "moyen",
+      "prompt": "Vous préparez le départ d'un train de marchandises MA90 conforme aux règles de sa catégorie (longueur totale 730 m, masse totale 1 680 t, masse freinée totale réalisée 1 020 t). À l'aide de l'extrait du tableau KVB C20.11 ci-dessous, quels paramètres exacts (Classe / Vitesse / Longueur / Décélération) devez-vous afficher et valider au KVB ?",
+      "referenceTable": {
+        "title": "Extrait — Coefficients de décélération KVB pour trains MA 100/90/80 (C20.11, p. 2/2)",
+        "openByDefault": true,
+        "headers": [
+          "Masse Totale (t)",
+          "045",
+          "047",
+          "050",
+          "054",
+          "060",
+          "068",
+          "079",
+          "096"
+        ],
+        "rows": [
+          [
+            "1 556 à 1 630",
+            "731",
+            "806",
+            "858",
+            "927",
+            "1 029",
+            "1 167",
+            "1 355",
+            "1 647"
+          ],
+          [
+            "1 631 à 1 709",
+            "767",
+            "846",
+            "899",
+            "971",
+            "1 079",
+            "1 223",
+            "1 421",
+            "1 727"
+          ],
+          [
+            "1 710 à 1 792",
+            "804",
+            "887",
+            "943",
+            "1 019",
+            "1 132",
+            "1 283",
+            "1 490",
+            "1 811"
+          ]
+        ],
+        "note": "Dans la ligne de la Masse Totale (t), relever la colonne dont la Masse Freinée Totale (t) indiquée est égale ou immédiatement inférieure à la Masse Freinée Totale réalisée du train."
+      },
+      "correctAnswer": "Classe MA — Vitesse 09 — Longueur 8 — Décélération 054 (tranche 1 631 à 1 709 t : 971 t ≤ 1 020 t < 1 079 t).",
+      "distractors": [
+        "Classe MA — Vitesse 09 — Longueur 8 — Décélération 060 (lecture erronée sur le palier supérieur 1 079 t).",
+        "Classe MA — Vitesse 09 — Longueur 7 — Décélération 054 (longueur 730 m arrondie à l'hectomètre inférieur).",
+        "Classe MA — Vitesse 09 — Longueur 8 — Décélération 047 (application erronée du tableau Situations exceptionnelles en gare d'origine).",
+        "Classe MA — Vitesse 10 — Longueur 8 — Décélération 054 (vitesse 10 affichée au lieu de 09).",
+        "Classe ME — Vitesse 09 — Longueur 8 — Décélération 054 (erreur de classe de train).",
+        "Classe MA — Vitesse 09 — Longueur 8 — Décélération 050 (lecture sur la colonne 899 t)."
+      ],
+      "explanation": "Classe = MA ; Vitesse = 90 km/h -> 09 ; Longueur = 730 m arrondie à l'hectomètre supérieur -> 8 ; Masse totale 1 680 t -> ligne « 1 631 à 1 709 » ; avec 1 020 t de masse freinée réalisée, on atteint 971 t (054) mais pas 1 079 t (060) -> coefficient de décélération = 054.",
+      "sources": [
+        "C20.11 — KVB - Coefficients de décélération Trains de Marchandises (MA), p. 2/2 (© Lineas, June 16, 2019 Brussels)",
+        "C20.03 — KVB - Affichage des paramètres, p. 2/3 (© Lineas, June 13, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q12",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "KVB — Paramètres HLP (C20.12) et Situations exceptionnelles après incident en ligne (C20.15)",
+      "difficulty": "difficile",
+      "prompt": "À l'aide des tableaux C20.12 et C20.15 ci-dessous, quels paramètres KVB exacts (Classe / Vitesse / Longueur / Décélération) devez-vous afficher dans deux situations distinctes : (A) une circulation HLP (vitesse limite ME100), et (B) un train MA100 d'une longueur totale de 840 mètres équipé d'un KVB version 6 (ou supérieure) dégradé en pleine voie à la vitesse des MA90 suite à un isolement de frein ?",
+      "referenceTable": {
+        "title": "Paramètres KVB — HLP (C20.12) et Situations exceptionnelles après incident en ligne (C20.15)",
+        "openByDefault": true,
+        "headers": [
+          "Situation / Vitesse limite",
+          "Classe",
+          "Vitesse",
+          "Longueur",
+          "Décélération"
+        ],
+        "rows": [
+          [
+            "HLP (ME100) — C20.12",
+            "ME",
+            "10",
+            "0",
+            "057"
+          ],
+          [
+            "Incident en ligne : ME140",
+            "ME",
+            "14",
+            "Longueur BF arrondie hm sup., max 8 (note 1)",
+            "079"
+          ],
+          [
+            "Incident en ligne : ME120",
+            "ME",
+            "12",
+            "Longueur BF arrondie hm sup., max 8 (note 1)",
+            "067"
+          ],
+          [
+            "Incident en ligne : ME100",
+            "ME",
+            "10",
+            "Longueur BF arrondie hm sup., max 8 (note 1)",
+            "057"
+          ],
+          [
+            "Incident en ligne : MA100",
+            "MA",
+            "10",
+            "Longueur BF arrondie hm sup., max 8 (note 1)",
+            "054"
+          ],
+          [
+            "Incident en ligne : MA90",
+            "MA",
+            "09",
+            "Longueur BF arrondie hm sup., max 8 (note 1)",
+            "047"
+          ],
+          [
+            "Incident en ligne : MA80 ou MA90/MA80 sans dépasser 70 à 20 km/h",
+            "MA",
+            "08 à 02",
+            "Longueur BF arrondie hm sup., max 8 (note 1)",
+            "045"
+          ]
+        ],
+        "note": "Note (1) de C20.15 : Sauf pour les trains dont la longueur dépasse 800 m avec versions 6 et plus du KVB : encoder 9."
+      },
+      "correctAnswer": "(A) HLP : ME / 10 / 0 / 057 ; (B) MA90 après incident en ligne (> 800 m en KVB V6+) : MA / 09 / 9 / 047.",
+      "distractors": [
+        "(A) HLP : ME / 10 / 1 / 057 ; (B) MA / 09 / 8 / 047 (en plafonnant à 8 malgré KVB V6+ et longueur > 800 m).",
+        "(A) HLP : ME / 10 / 0 / 057 ; (B) MA / 09 / 8 / 045 (erreur de longueur et de décélération).",
+        "(A) HLP : MA / 10 / 0 / 054 ; (B) MA / 09 / 9 / 047 (erreur de classe et de décélération pour le HLP).",
+        "(A) HLP : ME / 10 / 0 / 067 ; (B) MA / 09 / 9 / 054 (erreurs sur les deux coefficients de décélération).",
+        "(A) HLP : ME / 10 / 0 / 057 ; (B) MA / 10 / 9 / 047 (maintien de la vitesse 10 d'origine).",
+        "(A) HLP : ME / 10 / 0 / 057 ; (B) il faut recalculer dans le tableau normal C20.11 sans utiliser C20.15."
+      ],
+      "explanation": "D'après C20.12 (13/06/2022), une circulation HLP (ME100) s'encode ME / 10 / 0 / 057. D'après C20.03 et C20.15, après tout incident en pleine voie modifiant composition, freinage ou remorque, on utilise le tableau « Situations exceptionnelles » (C20.15) : pour un MA90 -> MA / 09 / décélération 047, et comme la longueur (840 m) dépasse 800 m avec un KVB version 6+, la note (1) impose d'encoder la longueur à 9 !",
+      "sources": [
+        "C20.12 — KVB - Coefficients de décélération HLP, p. 1/1 (© Lineas, June 13, 2022 Brussels)",
+        "C20.15 — KVB - Coefficients de décélération Situations exceptionnelles, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "C20.03 — KVB - Affichage des paramètres, « Tableau des situations exceptionnelles », p. 2-3/3 (© Lineas, June 13, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q13",
+      "type": "qcm_multi",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "Répétition des signaux (RS) — Signaux répétés, exceptions et prise à revers (C30.01)",
+      "difficulty": "difficile",
+      "prompt": "Concernant le fonctionnement de la Répétition des Signaux par crocodile sur le RFN (fiche C30.01, version du 12 juin 2021), quelles propositions sont exactes ?",
+      "correctAnswers": [
+        "Les signaux à distance (feu jaune clignotant, avertissement, disque, R30/R60, TIV à distance losange, TIV à distance de chantier) répètent « fermé » ; lorsqu'un panneau porte l'un de ces signaux, son crocodile répète aussi « fermé » s'il présente C, CV, S, feu rouge clignotant, feu blanc ou feu blanc clignotant.",
+        "La répétition des signaux pris à revers est annulée, SAUF s'il s'agit des signaux rencontrés à revers à contre-sens sur une VUT ou à contre-voie.",
+        "Le feu vert clignotant (préannonce) est traité comme un signal ouvert, la répétition optique est normalement inhibée lorsque les inverseurs sont en position « ARRIÈRE », et des crocodiles peuvent être implantés en amont des heurtoirs en impasse et déclencher « signal fermé »."
+      ],
+      "distractors": [
+        "Sur une ligne équipée de la répétition des signaux, tous les signaux de voies où la vitesse limite est ≤ 40 km/h et les rappels R30/R60 sont obligatoirement équipés de crocodiles répétant « fermé ».",
+        "Lorsque le signal répété est en position d'ouverture, la lampe LS-SF clignote brièvement en vert et un bip sonore d'attention retentit en cabine.",
+        "En double traction ou en pousse, le conducteur de l'engin moteur non en tête n'a pas à réarmer la répétition des signaux car seul le poste de tête est concerné.",
+        "La répétition des signaux pris à revers est toujours annulée, y compris à contre-sens sur une VUT ou à contre-voie."
+      ],
+      "displayCount": 5,
+      "explanation": "Selon C30.01 (12/06/2021) : répètent aussi fermé les C/S de BAPR, les C/S sur ICS à contre-sens et les C/S de sortie de gare VU ; signal ouvert -> info transmise au système sans indication sonore ou visuelle (extincteur de LS-SF) ; feu vert clignotant = signal ouvert ; prise à revers annulée SAUF à contre-sens sur VUT ou à contre-voie ; peuvent être dépourvus de crocodile : signaux à distance aux abords immédiats des points de départ, avertissements fixes combinés avec carrés d'entrée de certaines gares d'arrêt général, signaux des voies à VL ≤ 40 km/h ; rappels R30/R60 et TIV de rappel ne sont pas répétés fermé (C30.02) ; le conducteur autre que celui de tête doit réarmer la RS lorsque « signal fermé » se déclenche.",
+      "sources": [
+        "C30.01 — Répétition des signaux - Généralités, p. 1-3/3 (© Lineas, June 12, 2021 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q14",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "Réarmement de la RS et portée de la mémorisation LS-SF (C30.02 / C30.03)",
+      "difficulty": "facile",
+      "prompt": "Vous venez de franchir un avertissement fermé répété et la lampe « LS-SF » clignote en cabine. Quel est le délai maximal et le geste exact de réarmement, que se passe-t-il en cas d'appui prématuré avant le franchissement, et quelle limite réglementaire s'attache à l'extinction ultérieure de « LS-SF » au franchissement d'un signal ouvert ?",
+      "correctAnswer": "Réarmer dans un délai de 5 secondes en appuyant pendant 1 seconde sur BP-SF (LS-SF passe au fixe) ; un appui prématuré ne réarme pas le dispositif ; l'extinction ultérieure de LS-SF au signal ouvert ne délie pas le conducteur des prescriptions particulières s'appliquant au-delà de ce signal.",
+      "distractors": [
+        "Réarmer dans un délai de 10 secondes par un appui bref sur BP-SF ; un appui anticipé juste avant le crocodile permet d'éviter le clignotement de LS-SF.",
+        "Réarmer dans un délai de 2,5 secondes ; l'extinction de LS-SF au franchissement du prochain signal ouvert annule automatiquement toute restriction antérieure (y compris une LTV en cours).",
+        "Réarmer dans un délai de 5 secondes en appuyant sur BP-VAL ; si aucun bip sonore ne retentit, la répétition est obligatoirement en dérangement.",
+        "Réarmer dans un délai de 3 secondes sur le bouton d'annulation LS-SF afin d'éteindre immédiatement la lampe.",
+        "Réarmer dans un délai de 5 secondes, y compris au franchissement des rappels de ralentissement 30 et 60 qui répètent fermé.",
+        "Réarmer dans un délai de 15 secondes ; passé ce délai, seul un voyant d'alerte s'allume sans provoquer l'arrêt automatique du train."
+      ],
+      "explanation": "Selon C30.02 (15/12/2020) et C30.03 : au franchissement d'un signal fermé répété, LS-SF clignote (avec bip d'attention, absent sur certains EM par conception) -> réarmer dans les 5 secondes (sinon arrêt automatique déclenché) en appuyant pendant 1 seconde sur BP-SF -> LS-SF devient fixe (mémorisation). Un appui prématuré ne réarme pas. Les rappels R30/R60 et TIV de rappel ne sont pas répétés « fermé ». Enfin (C30.03), l'extinction de LS-SF au franchissement d'un signal ouvert répété ne délie pas le conducteur d'observer les prescriptions particulières valables au-delà de ce signal (ex. fin de zone LTV ou aiguilles).",
+      "sources": [
+        "C30.02 — Répétition des signaux - Utilisation, p. 1-2/2 (© Lineas, December 15, 2020 Brussels)",
+        "C30.03 — Répétition des signaux - Mémorisation, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q15",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "VACMA — Temporisations RA/CA, activation à l'arrêt et annulation alarme VA (C40.01 / C40.03)",
+      "difficulty": "moyen",
+      "prompt": "En ligne équipée de la radio sol-train, vous oubliez de relâcher votre appui VACMA et le dispositif déclenche les opérations d'arrêt automatique. Quelles sont les temporisations maximales pour éviter l'émission des sons RA/CA, dans quel état la VA est-elle active à l'arrêt, et comment devez-vous agir vis-à-vis de l'alarme radio VA après le déclenchement ?",
+      "correctAnswer": "Maintien max 30 s (son CA) et relâchement max 2,5 s (son RA) [arrêt auto au-delà de 5 s de relâchement ou 30 s/60 s de maintien selon EM] ; la VA est inactive à l'arrêt sélecteur sur « 0 » mais active dès qu'un sens de marche est sélectionné ; dès l'arrêt (et au plus tard 30 s après déclenchement), appuyer pendant 2 secondes sur la commande d'annulation de l'alarme VA.",
+      "distractors": [
+        "Maintien max 60 s et relâchement max 5 s avant les sons d'alerte ; la VA est toujours inactive à l'arrêt même avec un sens de marche sélectionné ; l'alarme VA s'annule automatiquement à la remise en MARCHE du frein.",
+        "Maintien max 30 s et relâchement max 2,5 s ; l'alarme VA est émise instantanément dès le début du freinage et ne peut être annulée que par appel phonique au Régulateur.",
+        "Maintien max 20 s et relâchement max 3 s ; dès l'arrêt, appuyer pendant 5 secondes sur le bouton d'alerte radio pour annuler l'alarme VA.",
+        "Maintien max 45 s et relâchement max 2,5 s ; le délai pour annuler l'alarme VA est de 60 secondes après l'arrêt complet du train.",
+        "La VA reste active à l'arrêt même lorsque le sélecteur de sens de marche est sur « 0 » ; appuyer 1 seconde sur BP-SF pour annuler l'alarme VA.",
+        "Maintien max 30 s et relâchement max 5 s ; après un déclenchement VA, aucune consultation de F50.06 n'est nécessaire si le réarmement réussit."
+      ],
+      "explanation": "La combinaison de C40.01 et C40.03 donne les valeurs exactes : pour éviter les sons RA/CA, maintien max = 30 s et relâchement max = 2,5 s (déclenchement arrêt auto si relâchement > 5 s ou maintien sans activité 30 s ou 60 s selon le type d'EM). À l'arrêt, la VA est inactive sélecteur sur « 0 » et ACTIVE dès qu'un sens de marche est sélectionné. Un contact de l'enregistreur de vitesse émet l'alarme VA dans les 30 s après l'arrêt ; la commande « ANNULATION ALARME VA » permet de l'annuler au plus tard 30 s après le déclenchement (en appuyant, dès l'arrêt, pendant 2 secondes), puis remettre l'EM en état de marche et appliquer F50.06.",
+      "sources": [
+        "C40.01 — Veille automatique - Généralités, p. 1/1 (© Lineas, June 16, 2019 Brussels)",
+        "C40.03 — Veille automatique - Utilisation, p. 1-2/2 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q16",
+      "type": "qcm_multi",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "Essai de la Veille Automatique — Essai complet vs essai en marche (C40.02)",
+      "difficulty": "moyen",
+      "prompt": "Selon la fiche C40.02, quelles règles régissent l'exécution de l'essai à l'arrêt et de l'essai en marche de la Veille Automatique (VA) ?",
+      "correctAnswers": [
+        "L'essai complet (essai à l'arrêt + essai en marche) doit être effectué lors d'une préparation courante (PC), lors de la 1re utilisation d'un EM acheminé en véhicule, et en UM lorsque le poste de conduite du 2e EM est utilisé pour la 1re fois.",
+        "L'essai à l'arrêt s'effectue CFA/CG à 5 bars, commande du Frein Automatique sur la fonction MARCHE et sélecteur de sens de marche placé sur un sens de marche.",
+        "L'essai en marche seul (sans nouvel essai à l'arrêt) est effectué lors d'une remise en service (RS) et après un relais de conducteurs (et systématiquement après un essai à l'arrêt)."
+      ],
+      "distractors": [
+        "Lors d'une préparation courante (PC), si le temps de stationnement est court, l'essai du son de Contrôle d'Appui (CA) peut être reporté en cours de route.",
+        "L'essai à l'arrêt de la VA s'effectue avec la commande du Frein Automatique sur la fonction NEUTRE et le sélecteur de sens de marche sur « 0 ».",
+        "Un relais de conducteurs en cours de route impose obligatoirement de recommencer un essai complet à l'arrêt avant le départ.",
+        "L'essai en marche de la VA est facultatif dès lors que l'essai à l'arrêt a confirmé la mise à l'atmosphère de la CFA/CG."
+      ],
+      "displayCount": 5,
+      "explanation": "Selon C40.02 : (1) essai complet = essai à l'arrêt (opérations d'arrêt auto + sons RA et CA) + essai en marche à faible vitesse (au-dessus du seuil de vitesse imposée) ; (2) essai complet obligatoire lors d'une PC, 1re utilisation d'un EM acheminé en véhicule, ou en UM 1re utilisation du poste du 2e EM ; (3) conditions essai à l'arrêt = CFA/CG à 5 bars, FA sur MARCHE, inverseur sur un sens de marche ; (4) EXCEPTÉ dans le cas de la PC, si le stationnement ne permet pas l'essai du son CA, celui-ci est effectué en ligne à la 1re occasion favorable ; (5) essai en marche effectué après l'essai à l'arrêt, lors d'une remise en service, et après un relais de conducteurs.",
+      "sources": [
+        "C40.02 — Veille automatique - Essai, p. 1/1 (© Lineas, June 16, 2019 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q17",
+      "type": "qcm_multi",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "Radio GSM-R — Enregistrement fonctionnel, DT/pousse, canal et essai (C50.01)",
+      "difficulty": "moyen",
+      "prompt": "Concernant l'utilisation opérationnelle de la radio GSM-R avant le départ et en cours de route (fiche C50.01, version du 6 juin 2024), quelles règles sont exactes ?",
+      "correctAnswers": [
+        "L'enregistrement fonctionnel du numéro de train doit être réalisé avant le départ (quel que soit le système, GSM-R ou GSM-GFU) ; le numéro fonctionnel devant être unique à l'instant « t », lors d'un échange d'EM il faut désenregistrer le numéro sur l'EM cédant, et le ré-indexer si le train change de sillon ou de parité en cours de route.",
+        "Lorsque le conducteur de l'EM n'est PAS en tête du train (DT ou pousse par exemple), il doit saisir manuellement le code fonctionnel « 02 » avant de valider le numéro du train.",
+        "L'essai radio manuel doit être effectué au cours de la préparation courante y compris sur les sections non équipées de la radio (en vérifiant plombage du BP alerte et coupon de contrôle), et sur section non équipée il convient de sélectionner le canal « 1 »."
+      ],
+      "distractors": [
+        "En cas de dérangement bord de la radio GSM-R, les postes portatifs GSM-R ne peuvent jamais être utilisés comme palliatif.",
+        "Lors d'une circulation en pousse ou en double traction, le conducteur non en tête ne doit pas s'enregistrer en GSM-R afin de ne pas créer de doublon avec le conducteur de tête.",
+        "L'appui sur l'alternat du combiné est indispensable pour toutes les communications, y compris lors de l'utilisation de l'interphonie.",
+        "Si le train change uniquement de parité en cours de route sans changer d'engin moteur, il n'est pas nécessaire de refaire une indexation du numéro de train."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche C50.01 (06/06/2024) fixe des règles très précises : (1) enregistrement fonctionnel obligatoire avant départ (GSM-R ou GSM-GFU), ré-indexation si changement de sillon ou de parité, désenregistrement obligatoire sur l'EM cédant lors d'un échange d'EM ; (2) code fonctionnel « 02 » saisi manuellement avant validation du n° de train si non en tête (DT, pousse) ; (3) essai manuel en PC même sur section non équipée + contrôle plombage BP alerte et présence/état du coupon de contrôle ; (4) sélection du canal indiqué aux LiLi ou canal « 1 » si section non équipée ; (5) les portatifs GSM-R peuvent pallier un dérangement bord GSM-R ; (6) l'alternat est obligatoire sauf pour l'interphonie.",
+      "sources": [
+        "C50.01 — La Radio GSM-R, p. 1-3/12 et p. 10-11/12 (© Lineas, June 06, 2024 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q18",
+      "type": "open",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "Radio GSM-R — Procédure complète d'émission du Signal d'Alerte Radio (SAR) (C50.01)",
+      "difficulty": "difficile",
+      "prompt": "En cours de route sur une ligne équipée GSM-R, vous devez émettre d'urgence un Signal d'Alerte Radio (SAR) (une communication radio normale est en cours). Aucun appui sur le bouton d'alerte n'a encore été effectué. Décrivez dans l'ordre exact : (1) le déclenchement et les vérifications visuelles/sonores attendues, (2) la prise de parole en phonie (notamment la temporisation critique après appui sur l'alternat, la durée de priorité et les 3 éléments à transmettre), et (3) les conditions impératives pour mettre fin à l'alerte radio ainsi que la formalité administrative ultérieure.",
+      "modelAnswer": "1. Déclenchement et vérifications (possible même pendant une communication en cours, ce qui coupe tous les appels dans la Zone de Diffusion d'Alerte Radio) :\n   - Appuyer fugitif (2 secondes) sur le bouton-poussoir « Alerte » ;\n   - Vérifier : le clignotement du bouton-poussoir, l'émission d'un signal sonore / sifflement continu dans le haut-parleur pendant 5 secondes, l'affichage du symbole « alerte radio » et de « Émission Alerte » / « Connexion en cours » (touche « # » indisponible) ;\n   - Puis, lorsque le SAR est transmis dans toute la zone : allumage fixe du bouton-poussoir et affichage de « Alternat-Parlez » / « Communication en cours » / « Fin Alerte # ».\n2. Prise de parole en phonie :\n   - Décrocher le combiné et appuyer sur la touche d'alternat ;\n   - Attendre environ 2 secondes le « bip » après l'appui sur l'alternat (les informations transmises avant ce bip ne sont pas perçues par les correspondants) ; le conducteur émetteur dispose d'une priorité de prise de parole d'environ 15 secondes ;\n   - Transmettre : (a) son numéro de train, (b) la localisation du danger, (c) la nature du danger.\n3. Fin d'alerte et suivi :\n   - NE PAS arrêter l'alerte radio (touche « # ») ni verrouiller le poste de conduite SANS l'accord du SGC (le verrouillage provoque la fin de l'émission SAR dans la zone) ;\n   - Avec l'accord du SGC, appuyer sur la touche « # » pour arrêter l'émission du SAR ;\n   - Demander le remplacement du coupon de contrôle en annotant le carnet de bord.",
+      "keyPoints": [
+        {
+          "label": "Appuyer 2 secondes sur le bouton-poussoir « Alerte » (possible même pendant une communication) et vérifier le signal sonore de 5 s, le clignotement puis l'allumage fixe avec « Alternat-Parlez »",
+          "critical": true
+        },
+        {
+          "label": "Après appui sur l'alternat, attendre environ 2 secondes le « bip » avant de parler (sinon non perçu dans la zone) ; priorité de parole ~15 secondes",
+          "critical": true
+        },
+        {
+          "label": "Transmettre : numéro de train, localisation du danger, nature du danger",
+          "critical": true
+        },
+        {
+          "label": "Ne pas arrêter le SAR (touche « # ») ni verrouiller le poste de conduite sans l'accord du SGC",
+          "critical": true
+        },
+        {
+          "label": "Demander le remplacement du coupon de contrôle en annotant le carnet de bord",
+          "critical": false
+        }
+      ],
+      "explanation": "L'attente du « bip » (~2 s) après l'appui sur l'alternat et l'interdiction absolue d'appuyer sur « # » ou de verrouiller la cabine sans l'accord du SGC sont deux points de sécurité majeurs de la fiche C50.01 (06/06/2024).",
+      "sources": [
+        "C50.01 — La Radio GSM-R, « Émission d'une alerte radio », p. 3/12 et § 4 « Application métier », p. 11-12/12 (© Lineas, June 06, 2024 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q19",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "Radio GSM-R — Charge batterie non assurée (« secours-radio ») et touches MESA 23/24 (C50.01)",
+      "difficulty": "moyen",
+      "prompt": "En ligne, la charge batterie de votre engin moteur n'est plus assurée (risque d'épuisement de la batterie) et vous devez utiliser la radio GSM-R. Quelle procédure exacte prescrit la fiche C50.01 selon que l'EM est équipé ou non du commutateur « secours-radio », et à quoi correspond la touche « ]2[ » sur les postes MESA 23 et MESA 24 ?",
+      "correctAnswer": "Si l'EM possède le commutateur « secours-radio » : fermer les circuits basse tension, placer le commutateur sur « secours », verrouiller la boîte à leviers (clé) et utiliser normalement la radio ; sinon : fermer les circuits basse tension, déverrouiller la boîte à leviers et limiter la conversation au strict minimum. La touche « ]2[ » appelle le SGC / Agent Circulation (gare).",
+      "distractors": [
+        "Avec le commutateur « secours-radio », il faut ouvrir les circuits basse tension et maintenir la boîte à leviers déverrouillée ; la touche « ]2[ » appelle le Régulateur Sous-Station.",
+        "Sans commutateur « secours-radio », l'utilisation de la radio de bord est totalement interdite et seul un téléphone portable personnel doit être utilisé ; la touche « ]2[ » appelle le Régulateur.",
+        "Avec le commutateur « secours-radio », on verrouille d'abord la boîte à leviers puis on ouvre le sectionneur batterie ; la touche « ]2[ » lance un appel de groupe aux conducteurs de la zone.",
+        "La position « secours-radio » est uniquement réservée aux essais radio en préparation courante ; la touche « ]2[ » sert à réinitialiser le poste (RESET).",
+        "Avec le commutateur « secours-radio », on limite obligatoirement les appels à 15 secondes ; la touche « ]2[ » correspond à l'interphonie.",
+        "Sans commutateur « secours-radio », on place la clé de boîte à leviers sur « neutre » ; la touche « ]2[ » correspond à l'appel du contrôleur."
+      ],
+      "explanation": "La fiche C50.01 (§ 5, p. 12/12) distingue les deux équipements en cas de risque d'épuisement batterie : (1) avec commutateur « secours-radio » -> fermer circuits BT, placer « secours-radio » sur secours, utiliser la clé de verrouillage de la boîte à leviers, utiliser normalement la radio ; (2) sans commutateur -> fermer circuits BT, déverrouiller la boîte à leviers, limiter la conversation au strict minimum. Sur MESA 23/24 : « ]1[ » = Régulateur, « ]2[ » = SGC / AC / Gare, « ]⚡[ » = Régulateur Sous-Station.",
+      "sources": [
+        "C50.01 — La Radio GSM-R, p. 4-5/12, p. 9/12 et § 5, p. 12/12 (© Lineas, June 06, 2024 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q20",
+      "type": "qcm",
+      "theme": "Systèmes de sécurité bord",
+      "subtheme": "ATESS — Vérifications, délais de cassette et signalement d'anomalie (C60.01)",
+      "difficulty": "moyen",
+      "prompt": "Lors de votre prise de service (PC ou RS) sur un engin moteur équipé de l'enregistreur statique ATESS, quelles vérifications chiffrées exactes devez-vous effectuer selon la fiche C60.01 (révision du 14 décembre 2025) concernant le délai de mise en place de la cassette, le taux de remplissage et le signalement au Service Opérationnel ?",
+      "correctAnswer": "Vérifier le plombage de la trappe, l'absence de message d'absence/saturation, un taux de remplissage ≤ 80 %, et la date de mise en place de la cassette (max 7 jours pour Lineas France -> aviser au 6e jour ; max 15 jours pour Hexafret -> aviser au 14e jour ; non applicable pour Lineas SA / CFL-Cargo / SBB CF où seule la capacité est contrôlée).",
+      "distractors": [
+        "Vérifier un taux de remplissage ≤ 90 %, un délai maximal de 15 jours pour Lineas France (aviser au 14e jour) et de 30 jours pour Hexafret.",
+        "Vérifier un taux de remplissage ≤ 75 % et un délai unique de 7 jours pour toutes les entreprises ferroviaires (y compris Lineas SA, CFL-Cargo et Hexafret).",
+        "Vérifier un taux de remplissage ≤ 80 % et aviser le Service Opérationnel uniquement lorsque la cassette atteint le 7e jour (Lineas France) ou le 15e jour (Hexafret).",
+        "Vérifier le plombage uniquement lors de la PC (jamais lors de la RS) et ne pas renseigner la fiche suiveuse si l'encodage numérique échoue.",
+        "Sur les engins Lineas SA et CFL-Cargo, vérifier impérativement la présence de la fiche suiveuse ATESS et la durée maximale de 7 jours.",
+        "En cas d'anomalie ATESS, un simple appel verbal au SGC suffit sans transmission de fiche E90.03 L1 ni signalement via LocApp."
+      ],
+      "explanation": "La fiche C60.01 (14/12/2025) détaille : plombage de la trappe vérifié lors de la PC ou de la RS ; délai cassette = 7 jours pour Lineas France (aviser au 6e jour), 15 jours pour Hexafret (aviser au 14e jour), et pas d'application (contrôle capacité restante uniquement, pas de fiche suiveuse) pour Lineas SA / CFL-Cargo / SBB CF ; taux de remplissage ≤ 80 % ; saisie des données d'identification avant chaque étape (ou annotation fiche suiveuse si encodage numérique impossible) ; signalement d'anomalie via E90.03 L1 ou LocApp.",
+      "sources": [
+        "C60.01 — ATESS - Enregistreur statique des paramètres de conduite, p. 1-3/3 (© Lineas, December 14, 2025 Lille)"
+      ]
+    },
+    {
+      "id": "lot08-q21",
+      "type": "qcm_multi",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Niveaux d'exploitation sur RFN et architecture bord (C70.01)",
+      "difficulty": "moyen",
+      "prompt": "Selon la fiche C70.01 (ETCS — Généralités), quelles affirmations concernant les niveaux d'exploitation sur le RFN et les composants de l'équipement de bord sont exactes ?",
+      "correctAnswers": [
+        "Les niveaux 0 et 3 ne sont pas utilisés sur le RFN ; le niveau 1 repose sur des Eurobalises (transmission ponctuelle par groupes d'au moins 2 balises) et des circuits de voie / compteurs d'essieux, tandis que le niveau 2 ajoute le Radio Block Centre (RBC) via GSM-R.",
+        "L'EVC (European Vital Computer) gère tous les systèmes présents sur l'engin moteur, le BTM lit les Eurobalises ETCS, le STM assure l'interface avec le système de sécurité national (KVB, TVM, TBL...) et la JRU (Juridical Recorder Unit) est l'enregistreur ETCS.",
+        "Les « Valeurs Nationales » peuvent varier non seulement d'un pays à l'autre, mais aussi entre l'ETCS niveau 1 et le niveau 2 et d'une ligne à l'autre au sein d'un même pays."
+      ],
+      "distractors": [
+        "Sur le RFN, le niveau 0 est utilisé en exploitation normale sur toutes les lignes classiques non équipées d'Eurobalises.",
+        "Une même ligne ne peut jamais être équipée simultanément de plusieurs niveaux superposés (comme niveau 2 et niveau STM/TVM).",
+        "Les « Valeurs Nationales » sont strictement identiques sur l'ensemble du territoire français, quels que soient le niveau (1 ou 2) et la ligne parcourue.",
+        "Le BTM (Balise Transmission Module) sert exclusivement à assurer les échanges radio avec le Radio Block Centre (RBC) en niveau 2."
+      ],
+      "displayCount": 5,
+      "explanation": "C70.01 pose les fondamentaux : niveaux 0 et 3 non utilisés sur RFN ; superposition possible (ex. LGVEE, SEA, BPL : N2 + STM/TVM) ; Valeurs Nationales stockées dans les balises (N1) ou RBC/GSM-R (N2) pouvant différer selon le niveau et la ligne dans un même pays ; composants bord : EVC, capteurs vitesse/radars/accéléromètres, BTM (antenne balises ETCS), modems GSM-R, DMI/CCD/MMI, STM, JRU (enregistreur juridique).",
+      "sources": [
+        "C70.01 — ETCS - Généralités, p. 1-4/4 (© Lineas, December 13, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q22",
+      "type": "qcm",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Code couleur au DMI, distance but et zones d'affichage (C70.02 / C70.04)",
+      "difficulty": "facile",
+      "prompt": "Sur l'écran DMI de l'ETCS (signalisation de cabine « vitesse but / distance but »), quelle est la signification exacte du code couleur (gris foncé / gris clair-blanc / jaune / orange / rouge) et quelle distance représente la barre graphique de distance but ?",
+      "correctAnswer": "Gris foncé = pas d'action immédiate exigée ; gris clair/blanc = prise en compte d'une indication ; jaune = action demandée ; orange = action insuffisante ; rouge = intervention du système (action incorrecte ou défaut sol/bord). La barre graphique de distance but représente les 1 000 derniers mètres.",
+      "distractors": [
+        "Jaune = action insuffisante ; orange = intervention du freinage de service ; rouge = fin d'autorisation ; la barre graphique représente les 2 000 derniers mètres.",
+        "Gris clair/blanc = pas d'action exigée ; jaune = simple information sans action ; orange = action demandée ; la barre graphique représente les 500 derniers mètres.",
+        "Gris foncé = système en mode Stand-By ; jaune = vitesse autorisée normale ; rouge = simple alerte sonore sans freinage ; la barre graphique représente les 4 000 derniers mètres.",
+        "Orange = prise en compte par le conducteur ; jaune = intervention automatique du frein de service ; la barre graphique représente les 1 500 derniers mètres.",
+        "Les indications affichées au DMI sont purement consultatives en ETCS1 et ne constituent pas des ordres de conduite.",
+        "La barre graphique de distance but (zone A2) s'affiche en permanence sur 4 000 mètres et remplace la zone de planification D."
+      ],
+      "explanation": "La fiche C70.02 définit précisément les 5 couleurs ETCS (gris foncé = pas d'action immédiate ; gris clair/blanc = prise en compte ; jaune = action demandée ; orange = action insuffisante ; rouge = intervention système / action incorrecte ou défaut sol/bord) et précise que les indications au DMI constituent des ordres de conduite et que la barre graphique de distance but (zone A2) représente les 1 000 derniers mètres (la zone D étant la planification, optionnelle, jusqu'à 4 000 m).",
+      "sources": [
+        "C70.02 — ETCS - Indications en cabine, p. 1-2/2 (© Lineas, June 14, 2020 Brussels)",
+        "C70.04 — ETCS - Symboles au DMI, p. 1/2 (© Lineas, June 13, 2021 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q23",
+      "type": "qcm_multi",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Modes SR, FS et OS : responsabilités et messages critiques (C70.03)",
+      "difficulty": "difficile",
+      "prompt": "Vous circulez en ETCS niveau 1 sur le RFN et votre équipement bascule entre les modes Staff Responsible (SR), Full Supervision (FS) et On Sight (OS). Parmi les règles suivantes issues de la fiche C70.03 (version du 11 décembre 2022), lesquelles sont exactes ?",
+      "correctAnswers": [
+        "En mode SR (entrée uniquement à l'arrêt, VL 30 km/h, interdiction de modifier les paramètres SR), le franchissement d'un panneau circulaire à plaque A ou D n'autorise JAMAIS à cesser l'observation de la marche à vue, quelles que soient ses indications.",
+        "À l'entrée en mode FS ou en mode OS, si le message « Entrée en mode FS » ou « Entrée en mode OS » apparaît, le conducteur doit maintenir les restrictions de circulation précédentes jusqu'à la disparition du message.",
+        "En mode OS (à acquitter dans les 5 secondes), l'approche d'un Guidon d'Arrêt fermé s'accompagne du message « Présence GA » (le franchissement du GA est contrôlé, mais pas son approche : pas d'EOA au DMI), et le mode OS affiché avec « Voie de service » impose la marche en manœuvre."
+      ],
+      "distractors": [
+        "Lors d'un départ en ETCS1 avec signalisation au sol, le conducteur doit obligatoirement recevoir un ordre écrit de l'agent-circulation avant de se mettre en marche en mode SR.",
+        "Dès l'affichage du symbole du mode FS, toutes les restrictions de circulation antérieures sont immédiatement levées même si le message « Entrée en mode FS » est encore affiché.",
+        "En mode OS, lorsqu'un message « Présence GA » apparaît, le système ETCS affiche automatiquement une EOA au droit du Guidon d'Arrêt fermé et contrôle la courbe d'approche.",
+        "En mode SR, le conducteur peut relever manuellement la vitesse maximale SR au-delà de 30 km/h si la signalisation au sol présente voie libre."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche C70.03 (11/12/2022) précise tous ces points opérationnels critiques : (1) SR = changement à l'arrêt uniquement, ordre écrit sauf départ en ETCS1 avec signalisation au sol, interdit de modifier VL/distance SR, panneau circulaire à plaque A ou D ne permet JAMAIS de cesser la MàV ; (2) FS et OS = maintenir les restrictions antérieures jusqu'à disparition du message « Entrée en mode FS/OS » ; (3) OS = acquittement dans les 5 s, MàV tant que symbole OS affiché, « Présence GA » = arrêt au GA fermé (franchissement contrôlé mais pas d'EOA au DMI), OS + « Voie de service » = marche en manœuvre.",
+      "sources": [
+        "C70.03 — ETCS - Modes de fonctionnement, Modes SR, FS et OS, p. 1-3/8 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q24",
+      "type": "qcm",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Modes NL, TR, PT, SL, SF, IS et NP (C70.03)",
+      "difficulty": "moyen",
+      "prompt": "À la suite d'un franchissement intempestif d'une EOA en ETCS niveau 1, votre équipement de bord passe automatiquement en mode « TRIP » (TR), puis en mode « POST TRIP » (PT) après acquittement à l'arrêt. Quelle est la caractéristique exacte du mode PT en niveau 1, et comment devez-vous gérer les modes « Non Leading » (NL) et « System Failure » (SF) selon la fiche C70.03 ?",
+      "correctAnswer": "Le mode PT permet de relâcher les freins, d'opérer un rebroussement sur max 200 m en niveau 1 et de reprendre après SOM, SH ou Override ; le mode NL se sélectionne et se quitte manuellement (en informant le conducteur de tête) sur EM non en tête en DT/pousse ; le mode SF se quitte par une réinitialisation de l'ETCS ou une réinitialisation batterie (redémarrage EM).",
+      "distractors": [
+        "Le mode PT maintient le freinage d'urgence serré jusqu'à l'accord écrit du SGC et interdit tout rebroussement ; le mode NL s'active automatiquement comme le mode Sleeping (SL).",
+        "Le mode PT autorise un rebroussement sur max 50 m en niveau 1 ; le mode NL ne se quitte pas manuellement, il disparaît dès l'ouverture de la CFA/CG.",
+        "Le mode TR relâche automatiquement les freins dès que la vitesse passe sous 10 km/h ; le mode SF permet de continuer jusqu'à 30 km/h sans réinitialisation.",
+        "Le mode PT autorise directement la reprise en mode FS sans SOM ni Override ; le mode SL (Sleeping) affiche la vitesse réelle au DMI.",
+        "Le mode NL supervise la vitesse limite à 30 km/h sur l'engin moteur non en tête ; le mode NP (No Power) permet néanmoins de remplir la CFA à 5 bar.",
+        "Le mode IS (Isolation) est activé automatiquement en cas d'échec de l'autotest, tandis que le mode SF correspond à l'isolement manuel par le conducteur."
+      ],
+      "explanation": "La fiche C70.03 (11/12/2022, p. 5-8/8) distingue précisément chaque mode : TR = FU immédiat maintenu jusqu'à acquittement à l'arrêt ; PT = relâchement des freins, rebroussement max 200 m en N1, reprise après SOM/SH/Override ; NL = sélection et sortie MANUELLES sur EM non en tête en DT/pousse (aucune supervision, vitesse réelle affichée, informer le conducteur de tête) ; SL = AUTOMATIQUE sur EM remorqué en traction multiple (DMI éteint) ; SF = défaut détecté lors de l'autotest -> quitter par réinitialisation ETCS ou batterie (redémarrer l'EM) ; IS = isolement manuel (plus de système de sécurité) ; NP = hors tension / interrupteur batterie ouvert, DMI éteint, valve d'urgence ouverte (CFA ne peut être remplie).",
+      "sources": [
+        "C70.03 — ETCS - Modes de fonctionnement, Modes NL, TR, PT, SL, SF, IS et NP, p. 5-8/8 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q25",
+      "type": "qcm",
+      "theme": "ETCS",
+      "subtheme": "ETCS1 RFN — Valeurs Nationales, Release Speed et fonction Override (C70.05 / C70.12)",
+      "difficulty": "moyen",
+      "prompt": "À l'aide du tableau des Valeurs Nationales ETCS1 RFN ci-dessous (fiche C70.05), vous approchez d'une EOA dont le point à protéger (DP) se situe à 120 mètres en aval de l'EOA (il ne s'agit pas d'un heurtoir). Quelle valeur de Release Speed s'applique, et quelles conditions exactes régissent la sélection et l'utilisation de la fonction « Override » sur le RFN ?",
+      "referenceTable": {
+        "title": "Valeurs Nationales ETCS1 sur le RFN (C70.05, p. 1/1 & C70.12, p. 4/4)",
+        "openByDefault": true,
+        "headers": [
+          "Paramètre ETCS1 RFN",
+          "Valeur réglementaire"
+        ],
+        "rows": [
+          [
+            "VL max en modes OS / SR / SH / UN",
+            "30 km/h"
+          ],
+          [
+            "Vitesse max pour sélectionner Override (Vselect)",
+            "0 km/h (à l'arrêt)"
+          ],
+          [
+            "VL max / distance max / durée max Override actif",
+            "30 km/h — 100 m — 60 secondes"
+          ],
+          [
+            "Distance max en mode SR",
+            "Infinie"
+          ],
+          [
+            "Distance max de rebroussement du train / en mode PT",
+            "5 m / 200 m"
+          ],
+          [
+            "Release Speed (cas général / DP < 200 m / heurtoir)",
+            "35 km/h / 15 km/h / 10 km/h"
+          ],
+          [
+            "Modification ID conducteur en marche / Relâchement FU / Facteur adhérence",
+            "Oui / Relâchement immédiat / Non"
+          ]
+        ],
+        "note": "En zone Release Speed, un dépassement provoque directement un freinage d'urgence (C70.12, p. 3-4/4)."
+      },
+      "correctAnswer": "Release Speed = 15 km/h (DP à 120 m < 200 m en aval de l'EOA) ; la fonction Override ne peut être sélectionnée qu'à l'arrêt (Vselect = 0 km/h) et reste active au maximum à 30 km/h, sur 100 m et pendant 60 secondes.",
+      "distractors": [
+        "Release Speed = 10 km/h (seuil unique dès que le DP est à moins de 200 m) ; Override sélectionnable sous 10 km/h et valable sur 200 m / 60 s.",
+        "Release Speed = 35 km/h (15 km/h ne s'appliquant qu'à l'approche d'un heurtoir) ; Override sélectionnable à 0 km/h et valable sur 100 m / 120 s.",
+        "Release Speed = 15 km/h ; Override sélectionnable sous 30 km/h et valable sur une distance infinie comme le mode SR.",
+        "Release Speed = 30 km/h (identique aux modes OS/SR/SH) ; Override sélectionnable à 0 km/h et valable 30 secondes.",
+        "Release Speed = 15 km/h ; en cas de dépassement dans la zone Release Speed, l'ETCS commande d'abord un freinage de service levable.",
+        "Release Speed = 15 km/h ; sur le RFN, le conducteur peut adapter le facteur d'adhérence au DMI mais ne peut pas modifier son identifiant en marche."
+      ],
+      "explanation": "D'après C70.05 et C70.12 : les 3 paliers de Release Speed sur RFN sont 35 km/h (cas général), 15 km/h (point à protéger < 200 m en aval de l'EOA -> ici 120 m) et 10 km/h (EOA constituée d'un heurtoir). Override : Vselect = 0 km/h, VL = 30 km/h, distance max = 100 m, durée max = 60 s. De plus, l'adaptation du facteur d'adhérence est « Non » sur RFN, la modification d'ID conducteur en marche est « Oui », et en zone Release Speed le système génère un freinage d'urgence.",
+      "sources": [
+        "C70.05 — ETCS - Valeurs nationales RFN, p. 1/1 (© Lineas, June 14, 2020 Brussels)",
+        "C70.12 — ETCS - Ordre de freinage, « Release Speed », p. 3-4/4 (© Lineas, June 14, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q26",
+      "type": "open",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Start Of Mission (SOM), prise en charge EM placé en véhicule et End Of Mission (EOM) (C70.10)",
+      "difficulty": "difficile",
+      "prompt": "Vous prenez en charge un engin moteur équipé ETCS qui avait été précédemment acheminé « en véhicule » depuis un réseau étranger vers le RFN. La cabine est hors tension (mode NP) et aucun SOM n'a encore été effectué. Indiquez : (1) la séquence de mise en service (modes traversés jusqu'au résultat du SOM en ETCS1/2 vs STM France) et la langue imposée au DMI sur le RFN, (2) la règle de vitesse impérative à observer après la mise en service de cet EM précédemment en véhicule et sa justification, (3) ce qui se passe si le train se déplace avec un SOM incomplet/non réalisé, et (4) la différence exacte entre les deux manières de provoquer un End Of Mission (EOM).",
+      "modelAnswer": "1. Mise en service, SOM et langue :\n   - Dès la mise sous tension, le système passe de NP (No Power, FU commandé) à SB (Stand By) après autotest.\n   - Le conducteur saisit/valide les données train (à partir du BF, ou données propres EM en HLP/TM) et sélectionne le niveau d'exploitation : STM France (aboutit au mode SN) ou ETCS niveau 1/2 (débouche TOUJOURS sur le mode Staff Responsible — SR).\n   - Langue obligatoire au DMI sur tout le RFN : le Français (pour communiquer régulièrement les messages textuels au SGC).\n   - (Si manœuvre prévue : ne pas faire de SOM, choisir directement le mode SH.)\n2. Prise en charge d'un EM précédemment placé en véhicule depuis un autre réseau :\n   - Les valeurs nationales en mémoire peuvent être celles du réseau étranger antérieur et ne plus être cohérentes avec le RFN jusqu'au passage sur une balise ETCS.\n   - En conséquence : respecter impérativement une vitesse maximale de 30 km/h entre le lieu de mise en service et la première balise ETCS, et ce QUELLE QUE SOIT la vitesse affichée au DMI.\n3. Déplacement sans SOM (ou SOM incomplet) :\n   - Le système bord provoque un freinage d'urgence avec affichage du message « Contrôle de mouvement » (contrôle de l'arrêt en mode SB).\n4. Différence entre les deux types d'End Of Mission (EOM) :\n   - Mise hors service de la cabine de conduite : retour en mode SB à la remise en service ; les paramètres du train sont ANNULÉS mais CONSERVÉS (il suffit de les valider au nouveau SOM).\n   - Sélection du mode SH (Shunting) : les paramètres du train sont ANNULÉS ET EFFACÉS (le conducteur doit les entrer à nouveau lors d'un nouveau SOM).",
+      "keyPoints": [
+        {
+          "label": "Passage NP -> SB (autotest) -> SOM (saisie/validation données train) -> niveau 1/2 débouche toujours sur SR (STM France -> SN) ; langue au DMI obligatoirement en Français sur RFN",
+          "critical": true
+        },
+        {
+          "label": "EM précédemment placé en véhicule : valeurs nationales potentiellement étrangères -> VL max 30 km/h entre la mise en service et la 1re balise ETCS, quelle que soit la vitesse affichée au DMI",
+          "critical": true
+        },
+        {
+          "label": "Déplacement avec SOM non réalisé ou incomplet : freinage d'urgence avec message « Contrôle de mouvement »",
+          "critical": true
+        },
+        {
+          "label": "EOM par mise hors service cabine : paramètres annulés mais CONSERVÉS (juste à revalider) vs EOM par sélection mode SH : paramètres annulés ET EFFACÉS (à ré-encoder entièrement)",
+          "critical": true
+        },
+        {
+          "label": "Saisie/vérification des données train obligatoire à chaque modification de composition, après incident de frein, au cours d'un dépannage et lors de relais de conducteurs",
+          "critical": false
+        }
+      ],
+      "explanation": "La fiche C70.10 contient plusieurs règles à fort enjeu sécurité en trafic transfrontalier Lineas : les 30 km/h jusqu'à la 1re balise ETCS après mise en véhicule depuis un autre réseau (quelle que soit la VL au DMI !), la langue française obligatoire au DMI sur RFN, et la distinction nette entre EOM cabine (paramètres conservés) et EOM par mode SH (paramètres effacés).",
+      "sources": [
+        "C70.10 — ETCS - Start Of Mission (SOM) et End Of Mission (EOM), p. 1-2/2 (© Lineas, December 13, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q27",
+      "type": "qcm",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Movement Authority (MA) et courbe d'ordre de freinage (C70.11 / C70.12)",
+      "difficulty": "moyen",
+      "prompt": "En mode Full Supervision (FS), vous approchez d'une EOA : le signal sonore « S_Info » a retenti, puis l'indication de demande de freinage, l'aiguille et le secteur de vitesse de consigne passent du gris clair au jaune, puis à l'orange avec un signal sonore si vous dépassez la vitesse maximale autorisée. Quelle est la règle exacte régissant l'intervention automatique du frein de service vs du frein d'urgence, et comment sont activés les modes FS et OS à la réception d'un MA ?",
+      "correctAnswer": "Les modes FS (voie libre) et OS (voie occupée ou détection défaillante) sont toujours activés automatiquement à la réception d'un MA ; en cas de dépassement croissant hors zone Release Speed, l'ETCS peut commander un frein de service (levable dès que la vitesse redescend sous la vitesse autorisée), tandis qu'en zone Release Speed (ou si le FS est insuffisant/non autorisé), il commande un freinage d'urgence.",
+      "distractors": [
+        "Les modes FS et OS doivent toujours être sélectionnés manuellement par le conducteur avant de recevoir un Movement Authority (MA).",
+        "Dès que l'aiguille passe à l'orange, l'ETCS déclenche immédiatement un freinage d'urgence irréversible jusqu'à l'arrêt complet.",
+        "L'intervention automatique du frein de service en ETCS reste verrouillée jusqu'à l'arrêt complet et ne peut jamais être levée en marche.",
+        "En mode FS, la vitesse limite est affichée par un carré gris sur le trait de repérage (comme en SH, SR et OS).",
+        "Dans la zone Release Speed, l'ETCS privilégie toujours une intervention au frein de service avant de recourir au freinage d'urgence.",
+        "Un Movement Authority (MA) comprend uniquement la distance but et ne contient ni la Release Speed ni la description de l'infrastructure."
+      ],
+      "explanation": "D'après C70.11 et C70.12 : (1) un MA comporte 4 compléments : but (EOA si vitesse de consigne nulle), vitesse de consigne à l'EOA, Release Speed, et description infrastructure (profil vitesse, déclivité) ; FS et OS sont toujours activés automatiquement selon le statut « voie libre » ; (2) vitesse limite affichée dans le secteur gris foncé en FS, et par un carré gris sur le trait en SH, SR, OS et UN ; (3) dépassement : alarme orange + sonore -> si poursuite : frein de service (si techniquement permis et HORS zone Release Speed, levable dès que vitesse < vitesse actuellement autorisée), OU frein d'urgence si dans la zone Release Speed ou si freinage de service insuffisant / non autorisé.",
+      "sources": [
+        "C70.11 — ETCS - Movement of Authority (MA), p. 1/1 (© Lineas, June 14, 2020 Brussels)",
+        "C70.12 — ETCS - Ordre de freinage, p. 1-4/4 (© Lineas, June 14, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q28",
+      "type": "qcm_multi",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Messages textuels en lien avec la signalisation au sol (C70.20)",
+      "difficulty": "moyen",
+      "prompt": "En circulation ETCS niveau 1 sur le RFN, plusieurs messages textuels peuvent s'afficher au DMI en lien avec la signalisation au sol (fiche C70.20, version du 11 décembre 2022). Quelles correspondances et conduites à tenir sont exactes ?",
+      "correctAnswers": [
+        "« Vers voie à quai courte » (ou « >> V. courte ») correspond à la bande lumineuse jaune horizontale ; « Voie de service » (affiché en même temps que le mode OS) impose la marche en manœuvre.",
+        "« Entrée à contresens » / « Poursuite à contresens » (TECS) impose de rechercher et respecter la signalisation au sol implantée à droite (à gauche sur ligne à circulation à droite) lorsque le mode ETCS l'impose, et « Sortie de contresens » (TSCS) de la rechercher à gauche (à droite sur ligne à droite).",
+        "« Proximité chantier » (LTV) impose de respecter la vitesse au DMI et renvoie aussi aux dispositions de mouvement en sens inverse en ETCS1 ; « Présence GA » (Baseline 121 uniquement) annonce en mode OS un Guidon d'Arrêt fermé non identifié par une EOA."
+      ],
+      "distractors": [
+        "Le message textuel « Fin de chantier » (Baseline 121) autorise à relever immédiatement la vitesse avant même que la courbe du DMI ne se relève.",
+        "Le message « Vers BM » (ou « >> Block Manuel ») est une anomalie ETCS imposant un arrêt d'urgence immédiat.",
+        "Le message « Tunnel à mauvaise aération » dispense le conducteur d'appliquer les prescriptions spécifiques aux incidents dans ce type de tunnel.",
+        "Le message « Zone frontière » signifie que l'équipement ETCS bascule automatiquement en niveau 0 pour le passage de la frontière."
+      ],
+      "displayCount": 5,
+      "explanation": "La fiche C70.20 (11/12/2022) établit la table officielle de correspondance entre signalisation sol et messages textuels DMI : direction (« Vers... »), bande lumineuse jaune horizontale (« Vers voie à quai courte »), BM (« Vers BM »), G/D/SAS/H/Imp (« Voie de service » + mode OS -> marche en manœuvre), TECS/TSCS (« Entrée/Poursuite/Sortie CS »), « Signaux à droite/gauche », « GSM-R/Y : canal XX », « Sifflez / Sifflez de jour », « Gabarit réduit », « Tunnel à mauvaise aération », « Proximité chantier » / « Fin de chantier », « GIVRE », « Zone frontière », « Présence GA » (Baseline 121), et « Baisser / Levez panto BIMODE » (Baseline 121).",
+      "sources": [
+        "C70.20 — ETCS - Messages textuels en lien avec la signalisation, p. 1-3/3 (© Lineas, December 11, 2022 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q29",
+      "type": "open",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Symboles et messages textuels à considérer comme ANOMALIE (C70.21)",
+      "difficulty": "difficile",
+      "prompt": "En cours de route en ETCS sur le RFN, un message textuel ou un symbole non utilisé sur le RFN ou d'incompatibilité apparaît subitement au DMI (par exemple « Transition vers ETCS N0 », « Acquitter l'entrée en mode UN », « Trou radio », « Sélection mauvaise adhérence par le sol » ou « Incompatibilité infrastructure »). Indiquez : (1) quelle catégorie de symboles/messages doit être considérée comme anomalie selon la fiche C70.21 (citez au moins 5 exemples concrets parmi ceux listés), et (2) la conduite impérative immédiate à appliquer par le conducteur.",
+      "modelAnswer": "1. Symboles et messages à considérer comme ANOMALIE sur le RFN (fiche C70.21) :\n   - Niveaux/modes non en service sur le RFN : « Transition vers ETCS N0 » (niveau 0), « Acquitter l'entrée en mode \"UN\" », « Acquitter l'entrée en mode \"RV\" », « Marche arrière possible » (refoulement d'urgence), « Confirmer voie libre en aval » ;\n   - Symboles d'infrastructure/freinage non utilisés ou anormaux : Trou radio, « Sélection mauvaise adhérence par le conducteur / par le sol », zone où l'arrêt du train n'est pas souhaité, zones où le freinage par patin magnétique / par courants de Foucault / par récupération est interdit ;\n   - Messages d'incompatibilité avec le système sol en aval : « Incompatibilité infrastructure » (gabarit, tension d'alimentation, masse...), « Transition de niveau interdite », « Entrée de niveau interdite ».\n2. Conduite impérative immédiate (dans tous ces cas, l'affichage pouvant être accompagné d'un freinage d'urgence) :\n   - S'arrêter d'urgence (ou confirmer l'arrêt) ;\n   - Aviser l'agent-circulation ;\n   - Se conformer aux instructions.",
+      "keyPoints": [
+        {
+          "label": "Identifier les modes/niveaux interdits ou hors service sur RFN : Transition vers N0, mode UN, mode RV, « Marche arrière possible », « Confirmer voie libre en aval »",
+          "critical": true
+        },
+        {
+          "label": "Identifier les symboles anormaux / incompatibilités : Trou radio, mauvaise adhérence, interdictions de frein (patin magnétique, courants de Foucault, récupération), « Incompatibilité infrastructure », « Transition/Entrée de niveau interdite »",
+          "critical": true
+        },
+        {
+          "label": "S'arrêter d'urgence (ou confirmer l'arrêt si un FU accompagne l'affichage)",
+          "critical": true
+        },
+        {
+          "label": "Aviser l'agent-circulation",
+          "critical": true
+        },
+        {
+          "label": "Se conformer aux instructions reçues",
+          "critical": true
+        }
+      ],
+      "explanation": "La règle de C70.21 est uniforme et sans exception : tout symbole ou message figurant dans ses tableaux (modes N0/UN/RV, marche arrière, trou radio, mauvaise adhérence, interdictions de freins spéciaux, demande voie libre aval, incompatibilité infrastructure, transition/entrée de niveau interdite) constitue une ANOMALIE imposant l'arrêt d'urgence (ou sa confirmation), l'avis à l'agent-circulation et le respect des instructions.",
+      "sources": [
+        "C70.21 — ETCS - Symboles ou messages textuels à considérer comme anomalie, p. 1-2/2 (© Lineas, June 14, 2020 Brussels)"
+      ]
+    },
+    {
+      "id": "lot08-q30",
+      "type": "qcm",
+      "theme": "ETCS",
+      "subtheme": "ETCS — Symboles de traction électrique et autres symboles au DMI (C70.04)",
+      "difficulty": "facile",
+      "prompt": "En circulation ETCS niveau 1 avec un engin moteur électrique, le DMI affiche successivement les symboles de traction électrique (pantographe / disjoncteur) ou d'exploitation repris à la fiche C70.04. Quelle précaution spécifique la fiche C70.04 précise-t-elle lors de l'affichage du symbole « Commander la montée du/des pantographe(s) » ou « Commander la fermeture du/des disjoncteur(s) », et que signalent les autres symboles réglementaires de C70.04 ?",
+      "correctAnswer": "Le conducteur commande la montée du/des pantographe(s) ou la fermeture du/des disjoncteur(s) (symbole parfois clignotant) en tenant compte de la position des pantographes ; les autres symboles C70.04 signalent l'activation de la fonction Override EOA, l'intervention du Freinage d'Urgence et un Passage à niveau non protégé.",
+      "distractors": [
+        "Dès que le symbole « Fermer le disjoncteur » apparaît, l'ETCS referme automatiquement le disjoncteur sans action du conducteur ni contrôle de la position des pantographes.",
+        "Le symbole « Passage à niveau non protégé » est une anomalie C70.21 imposant toujours un arrêt d'urgence immédiat sans s'avancer vers le PN.",
+        "Le symbole « Maintenir le(s) pantographe(s) abaissé(s) » impose au conducteur de relever son pantographe dès qu'il franchit le signal d'exécution.",
+        "En ETCS niveau 1, le symbole de la fonction « Override EOA » est identique au symbole du mode « Staff Responsible » (SR).",
+        "Le symbole « Ouvrir le disjoncteur » impose également d'abaisser systématiquement les pantographes en simple traction.",
+        "Le symbole de fermeture du disjoncteur ne peut jamais clignoter sur un écran DMI ETCS."
+      ],
+      "explanation": "La fiche C70.04 (13/06/2021, p. 2/2) regroupe les 6 symboles de traction électrique (abaisser panto, maintenir panto abaissé, monter panto en tenant compte de leur position, ouvrir disjoncteur, maintenir disjoncteur ouvert, fermer disjoncteur en tenant compte de la position des pantographes — le symbole pouvant être clignotant) ainsi que 3 autres symboles clés : Fonction Override EOA activée, Intervention du Freinage d'Urgence, et Passage à niveau non protégé.",
+      "sources": [
+        "C70.04 — ETCS - Symboles au DMI, p. 1-2/2 (© Lineas, June 13, 2021 Brussels)"
+      ]
+    }
+  ]
+}
