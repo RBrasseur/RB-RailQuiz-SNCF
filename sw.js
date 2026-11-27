@@ -1,10 +1,10 @@
-const CACHE_NAME = 'railquiz-sncf-v6';
+const CACHE_NAME = 'railquiz-sncf-v6-1';
 const CORE_ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icon-192.png',
-  './icon-512.png'
+  './icon-lineas-192.png',
+  './icon-lineas-512.png'
 ];
 
 self.addEventListener('install', event => {
